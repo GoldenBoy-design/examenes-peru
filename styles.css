@@ -1,0 +1,346 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #0b1120;
+    --surface: #111827;
+    --surface-2: #0f172a;
+
+    --text: #f8fafc;
+    --muted: #94a3b8;
+
+    --accent: #00f5ff;
+    --accent-hover: #00ffff;
+
+    --border: rgba(255,255,255,0.08);
+}
+
+body {
+    font-family: Inter, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 30px;
+    position: relative;
+}
+
+/* Luz ambiental */
+
+body::before {
+    content: "";
+    position: fixed;
+
+    width: 700px;
+    height: 700px;
+
+    background: var(--accent);
+
+    filter: blur(220px);
+
+    opacity: .12;
+
+    top: -250px;
+    right: -250px;
+
+    pointer-events: none;
+}
+
+/* =========================
+   CONTENEDOR
+========================= */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: 24px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 0 0 1px rgba(255,255,255,.03),
+        0 20px 80px rgba(0,0,0,.5);
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    padding: 50px 40px;
+
+    background: var(--surface);
+
+    border-bottom: 1px solid var(--border);
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: var(--muted);
+    font-size: 1rem;
+}
+
+.fecha-actualizacion {
+    margin-top: 8px;
+
+    color: #64748b;
+
+    font-size: .9rem;
+}
+
+/* =========================
+   ADS
+========================= */
+
+.ad-space {
+    width: 100%;
+    min-height: 250px;
+
+    background: var(--surface-2);
+
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-placeholder {
+    color: #64748b;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+/* =========================
+   TABLA
+========================= */
+
+.table-container {
+    padding: 30px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: var(--surface-2);
+}
+
+th {
+    padding: 18px 20px;
+
+    text-align: left;
+
+    font-size: .82rem;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: .08em;
+
+    color: var(--muted);
+}
+
+td {
+    padding: 20px;
+
+    border-top: 1px solid rgba(255,255,255,.05);
+}
+
+tbody tr {
+    transition: .2s ease;
+}
+
+tbody tr:hover {
+    background: rgba(0,245,255,.04);
+}
+
+/* =========================
+   CELDAS
+========================= */
+
+.universidad {
+    font-weight: 600;
+    color: white;
+}
+
+.provincia {
+    color: var(--muted);
+}
+
+.fecha {
+    color: #cbd5e1;
+}
+
+/* =========================
+   MODALIDAD
+========================= */
+
+.modalidad {
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    background: rgba(0,245,255,.08);
+
+    border: 1px solid rgba(0,245,255,.15);
+
+    color: var(--accent);
+
+    border-radius: 8px;
+
+    font-size: .85rem;
+
+    font-weight: 600;
+}
+
+/* =========================
+   BOTON MAS INFO
+========================= */
+
+.btn-info {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 18px;
+
+    background: var(--accent);
+
+    color: #001018;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: 700;
+
+    transition: .25s ease;
+}
+
+.btn-info:hover {
+    background: var(--accent-hover);
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 20px rgba(0,245,255,.35),
+        0 0 40px rgba(0,245,255,.15);
+}
+
+/* =========================
+   INFO BOX
+========================= */
+
+.info-box {
+    margin-top: 30px;
+
+    padding: 24px;
+
+    background: var(--surface-2);
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+}
+
+.info-box h3 {
+    color: var(--accent);
+    margin-bottom: 12px;
+}
+
+.info-box ul {
+    margin-left: 18px;
+}
+
+.info-box li {
+    color: #cbd5e1;
+    margin-bottom: 8px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    border-top: 1px solid var(--border);
+
+    padding: 24px;
+
+    text-align: center;
+
+    color: var(--muted);
+}
+
+.update-date {
+    margin-top: 6px;
+    color: #64748b;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 12px;
+    }
+
+    header {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .table-container {
+        padding: 15px;
+    }
+
+    th,
+    td {
+        padding: 14px 10px;
+        font-size: .9rem;
+    }
+
+    .btn-info {
+        width: 100%;
+    }
+}
+.sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+}
+
+.sortable:hover {
+    color: #00f5ff;
+}
