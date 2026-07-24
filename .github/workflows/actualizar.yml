@@ -1,0 +1,53 @@
+name: Actualizar cronogramas
+
+on:
+  schedule:
+    # Corre todos los días a las 08:00 hora de Perú (13:00 UTC)
+    - cron: '0 13 * * *'
+  workflow_dispatch: {}  # también se puede correr manualmente desde GitHub
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install feedparser
+
+      - name: Regenerar HTML desde el JSON
+        run: python scripts/generar_html.py
+
+      - name: Regenerar páginas individuales y sitemap
+        run: python scripts/generar_paginas.py
+
+      - name: Detectar novedades vía RSS
+        run: python scripts/detectar_rss.py
+
+      - name: Crear Pull Request con los cambios
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Actualización automática de cronogramas"
+          title: "🔔 Actualización automática — revisar antes de aprobar"
+          body: |
+            Este PR fue generado automáticamente por el workflow diario.
+
+            Contiene:
+            - `index.html` y páginas individuales regeneradas desde `data/universidades.json`
+            - `sitemap.xml` actualizado con las universidades vigentes
+            - `data/novedades.json` con noticias nuevas detectadas (si las hay) — revísalas antes de aprobar
+
+            **No se modificó `universidades.json` automáticamente.** Si `data/novedades.json`
+            trae novedades reales (cronograma nuevo, fecha modificada), actualiza el JSON
+            a mano en una rama aparte, o espera al paso de extracción con IA.
+          branch: actualizacion-automatica
+          delete-branch: true
