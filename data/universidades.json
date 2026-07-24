@@ -1,0 +1,328 @@
+{
+  "ultima_actualizacion": "2026-06-19",
+  "universidades": [
+    {
+      "id": "unjbg",
+      "nombre": "Universidad Nacional Jorge Basadre Grohmann",
+      "siglas": "UNJBG",
+      "provincia": "Tacna",
+      "logo": "/logos/unjbg.png",
+      "modalidad": "Ordinario y Extraordinario",
+      "fechas_examen": [
+        "2026-07-12"
+      ],
+      "inscripcion": {
+        "inicio": "2026-05-27",
+        "fin": "2026-06-26"
+      },
+      "url_oficial": "https://admision.unjbg.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "unalm",
+      "nombre": "Universidad Nacional Agraria La Molina",
+      "siglas": "UNALM",
+      "provincia": "Lima",
+      "logo": "/logos/unalm.png",
+      "modalidad": "General",
+      "fechas_examen": [
+        "2026-07-12"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
+      "url_oficial": "https://admision.lamolina.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "unmsm",
+      "nombre": "Universidad Nacional Mayor de San Marcos",
+      "siglas": "UNMSM",
+      "provincia": "Lima",
+      "logo": "/logos/unmsm.png",
+      "modalidad": "General",
+      "fechas_examen": [
+        "2026-07-12"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
+      "url_oficial": "https://admision.unmsm.edu.pe/portal/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "une",
+      "nombre": "Universidad Nacional de Educación Enrique Guzmán y Valle",
+      "siglas": "UNE",
+      "provincia": "Lima",
+      "logo": "/logos/une.png",
+      "modalidad": "Ordinario",
+      "fechas_examen": [
+        "2026-06-28"
+      ],
+      "inscripcion": {
+        "inicio": "2026-02-02",
+        "fin": "2026-06-24"
+      },
+      "url_oficial": "https://www.une.edu.pe/admision/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "unac",
+      "nombre": "Universidad Nacional del Callao",
+      "siglas": "UNAC",
+      "provincia": "Callao",
+      "logo": "/logos/unac.png",
+      "modalidad": "Ordinario",
+      "fechas_examen": [
+        "2026-07-19"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-01",
+        "fin": "2026-07-16"
+      },
+      "url_oficial": "https://admision.unac.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "undc",
+      "nombre": "Universidad Nacional de Cañete",
+      "siglas": "UNDC",
+      "provincia": "Lima",
+      "logo": "/logos/undc.png",
+      "modalidad": "Ordinario",
+      "fechas_examen": [
+        "2026-07-19"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-08",
+        "fin": "2026-07-16"
+      },
+      "url_oficial": "https://web.undc.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "unsaac",
+      "nombre": "Universidad Nacional San Antonio Abad del Cusco",
+      "siglas": "UNSAAC",
+      "provincia": "Cusco",
+      "logo": "/logos/unsaac.png",
+      "modalidad": "Ordinario y Extraordinario",
+      "fechas_examen": [
+        "2026-07-18"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-30",
+        "fin": "2026-07-14"
+      },
+      "url_oficial": "https://admision.unsaac.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "unica",
+      "nombre": "Universidad Nacional San Luis Gonzaga de Ica",
+      "siglas": "UNICA",
+      "provincia": "Ica",
+      "logo": "/logos/unica.png",
+      "modalidad": "Ordinario y Extraordinario",
+      "fechas_examen": [
+        "2026-07-26"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-01",
+        "fin": "2026-07-23"
+      },
+      "url_oficial": "https://admision.unica.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "unab",
+      "nombre": "Universidad Nacional de Barranca",
+      "siglas": "UNAB",
+      "provincia": "Lima",
+      "logo": "/logos/unab.png",
+      "modalidad": "General",
+      "fechas_examen": [
+        "2026-08-02"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-10",
+        "fin": "2026-07-28"
+      },
+      "url_oficial": "https://admision.unab.edu.pe/http/dashboard",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "untels",
+      "nombre": "Universidad Nacional Tecnológica de Lima Sur",
+      "siglas": "UNTELS",
+      "provincia": "Lima",
+      "logo": "/logos/untels.png",
+      "modalidad": "Ordinario",
+      "fechas_examen": [
+        "2026-08-16"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-15",
+        "fin": "2026-08-13"
+      },
+      "url_oficial": "https://www.untels.edu.pe/03Admision.aspx",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "unt",
+      "nombre": "Universidad Nacional de Tumbes",
+      "siglas": "UNT",
+      "provincia": "Tumbes",
+      "logo": "/logos/unt.png",
+      "modalidad": "Ordinario",
+      "fechas_examen": [
+        "2026-08-17"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-02",
+        "fin": "2026-08-01"
+      },
+      "url_oficial": "https://untumbes.edu.pe/admision/index.php?l=7",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "unjfsc",
+      "nombre": "Universidad Nacional José Faustino Sánchez Carrión",
+      "siglas": "UNJFSC",
+      "provincia": "Lima",
+      "logo": "/logos/unjfsc.png",
+      "modalidad": "Ordinario",
+      "fechas_examen": [
+        "2026-08-23"
+      ],
+      "inscripcion": {
+        "inicio": "2026-07-01",
+        "fin": "2026-08-13"
+      },
+      "url_oficial": "https://unjfsc.edu.pe/admision/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "uns",
+      "nombre": "Universidad Nacional del Santa",
+      "siglas": "UNS",
+      "provincia": "Santa",
+      "logo": "/logos/uns.png",
+      "modalidad": "Ordinario",
+      "fechas_examen": [
+        "2026-09-06"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
+      "url_oficial": "https://www.uns.edu.pe/#/admision/cronograma",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "uni",
+      "nombre": "Universidad Nacional de Ingeniería",
+      "siglas": "UNI",
+      "provincia": "Lima",
+      "logo": "/logos/uni.png",
+      "modalidad": "Ordinario",
+      "fechas_examen": [
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-08",
+        "fin": "2026-07-31"
+      },
+      "url_oficial": "https://admision.uni.edu.pe/admision2026-2/",
+      "pagina_propia": "/uni-2026/",
+      "detalle": {
+        "vacantes": 1630,
+        "carreras": 34,
+        "cierre_cepre": "2026-07-27",
+        "costo_prospecto": 90,
+        "costo_inscripcion_estatal": 410,
+        "costo_inscripcion_privado": 780,
+        "nota_costos": "Montos del proceso 2026-I usados como referencia; confirmar en plataforma oficial antes de publicar",
+        "cronograma_jornadas": [
+          {
+            "fecha": "2026-08-08",
+            "evaluacion": "Prueba de Aptitud Vocacional (solo Arquitectura)"
+          },
+          {
+            "fecha": "2026-08-10",
+            "evaluacion": "Aptitud académica, razonamiento verbal y matemático"
+          },
+          {
+            "fecha": "2026-08-12",
+            "evaluacion": "Matemáticas"
+          },
+          {
+            "fecha": "2026-08-14",
+            "evaluacion": "Física y química"
+          }
+        ],
+        "becas": [
+          "Exoneración SISFOH para postulantes certificados como pobres o muy pobres",
+          "Becas y semibecas por rendimiento académico e insolvencia económica, hasta 10% del total de postulantes"
+        ]
+      },
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "pucp",
+      "nombre": "Pontificia Universidad Católica del Perú",
+      "siglas": "PUCP",
+      "provincia": "Lima",
+      "tipo": "privada",
+      "logo": "/logos/pucp.png",
+      "modalidad": "Ordinario 2026-II",
+      "fechas_examen": [
+        "2026-08-16"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Por confirmar en portal oficial"
+      },
+      "url_oficial": "https://admision.pucp.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "_fuente": "impulsatufuturo.pe (29 ene 2026) — verificar fecha exacta e inscripciones en admision.pucp.edu.pe antes de publicar"
+    }
+  ]
+}
