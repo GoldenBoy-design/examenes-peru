@@ -1,19 +1,22 @@
+
+Universidad.template · HTML
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/logos/favicon.png">
     <title>Examen de Admisión {{SIGLAS}} {{ANIO}}: Fechas, Costos y Requisitos</title>
     <meta name="description" content="Examen de admisión {{SIGLAS}} {{ANIO}}: {{FECHAS_TEXTO}}. Requisitos, costos de inscripción y cronograma completo actualizado.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://examenesperu.netlify.app{{RUTA}}">
-
+ 
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://examenesperu.netlify.app{{RUTA}}">
     <meta property="og:title" content="Examen de Admisión {{SIGLAS}} {{ANIO}}: Fechas, Costos y Requisitos">
     <meta property="og:site_name" content="Exámenes Perú">
     <meta property="og:locale" content="es_PE">
-
+ 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XVM0FBT909"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -21,7 +24,7 @@
       gtag('js', new Date());
       gtag('config', 'G-XVM0FBT909');
     </script>
-
+ 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -43,12 +46,12 @@
       ]
     }
     </script>
-
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
-
+ 
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
@@ -93,7 +96,7 @@
         <p class="subtitle">{{NOMBRE_COMPLETO}} — Proceso de Admisión {{ANIO}}</p>
         <p class="fecha-actual">Última actualización: {{FECHA_ACTUALIZACION}} · Generado automáticamente</p>
     </header>
-
+ 
     <section>
         <h2>Cronograma del examen</h2>
         <table>
@@ -102,12 +105,13 @@
         </table>
         <a href="{{URL_OFICIAL}}" target="_blank" rel="noopener" class="btn-info">Ir a la plataforma oficial de {{SIGLAS}} →</a>
     </section>
-
+ 
     {{SECCION_COSTOS}}
-
+ 
     <footer>
         <p>© {{ANIO}} - PSY Team all rights reserved &nbsp;·&nbsp; <a href="/">Volver a Inicio</a></p>
     </footer>
 </div>
 </body>
 </html>
+ 
