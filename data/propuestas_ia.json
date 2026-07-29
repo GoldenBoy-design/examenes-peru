@@ -1,5 +1,5 @@
 {
-  "generado": "2026-07-23T23:51:04.961925",
+  "generado": "2026-07-29T05:00:53.874092",
   "universidades": {
     "UNS": [
       {
@@ -10,6 +10,21 @@
         "resumen": "Se informa la fecha del examen de admisión de la Modalidad II de la UNS",
         "fuente_titulo": "UNS tomará examen de admisión de la Modalidad II este domingo - Radio RSD",
         "fuente_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOemRLV1RKMHBLSXhhMlFyV2F2Qi14MFNLTFdSUEQyejExMDRoNUlTMWVJUFpSUXltbTBscHVlQWxRMVRkejUwSlZjVDNCS2d6MHVpb1hTdGFyNkZNNUVZTU54RGlJZjlISVFKVmg3NEk5UHJTYnQ2WUstTU5fam5nTmFuc1diRTlVV29jRF9zeXNLaFBT?oc=5"
+      }
+    ],
+    "UNI": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": [
+          "2026-08-10",
+          "2026-08-12",
+          "2026-08-14"
+        ],
+        "inscripcion_inicio": null,
+        "inscripcion_fin": "2026-07-31",
+        "resumen": "UNI anuncia fechas de examen de admisión 2026-II y plazo de inscripción",
+        "fuente_titulo": "UNI realizará su Examen de Admisión 2026-II los días 10, 12 y 14 de agosto: Inscripciones serán hasta el 31 de julio - diariouno.pe",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOc1phTHBRR24zUVhYY0FKVklJVW5yUWhnV1Zoc2FjemhfZ1Mtb2ZnalJNNjNrYXBiRWhwN2ZQTHJHbkFjQzZ4cnQ4N0lsd0pZbjlZQnFUdkU2Tllsd1dZNVNpMnRlUnNhOEloWUNiSFNFcHpjc3RMT1pFOEg5dGVhRktfQU5kRHZsMkNydVVieGNrUTRnZXJuMjNZWmlaQ3FSSVh0ZndjbHhEbnRQa041WHNyZHpILS1KZTl6em56THB5MXI4SzRPSmlSOU5FVlgwNTZFdnRvSnltMTdtdmdvcQ?oc=5"
       }
     ]
   }
