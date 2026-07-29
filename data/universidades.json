@@ -8,8 +8,13 @@
       "provincia": "Tacna",
       "logo": "/logos/unjbg.png",
       "modalidad": "Ordinario y Extraordinario",
-      "fechas_examen": ["2026-07-12"],
-      "inscripcion": {"inicio": "2026-05-27", "fin": "2026-06-26"},
+      "fechas_examen": [
+        "2026-07-12"
+      ],
+      "inscripcion": {
+        "inicio": "2026-05-27",
+        "fin": "2026-06-26"
+      },
       "url_oficial": "https://admision.unjbg.edu.pe/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -22,8 +27,14 @@
       "provincia": "Lima",
       "logo": "/logos/unalm.png",
       "modalidad": "General",
-      "fechas_examen": ["2026-07-12"],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Sin información"},
+      "fechas_examen": [
+        "2026-07-12"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
       "url_oficial": "https://admision.lamolina.edu.pe/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -36,8 +47,14 @@
       "provincia": "Lima",
       "logo": "/logos/unmsm.png",
       "modalidad": "General",
-      "fechas_examen": ["2026-07-12"],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Sin información"},
+      "fechas_examen": [
+        "2026-07-12"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
       "url_oficial": "https://admision.unmsm.edu.pe/portal/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -50,8 +67,13 @@
       "provincia": "Lima",
       "logo": "/logos/une.png",
       "modalidad": "Ordinario",
-      "fechas_examen": ["2026-06-28"],
-      "inscripcion": {"inicio": "2026-02-02", "fin": "2026-06-24"},
+      "fechas_examen": [
+        "2026-06-28"
+      ],
+      "inscripcion": {
+        "inicio": "2026-02-02",
+        "fin": "2026-06-24"
+      },
       "url_oficial": "https://www.une.edu.pe/admision/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -64,8 +86,13 @@
       "provincia": "Callao",
       "logo": "/logos/unac.png",
       "modalidad": "Ordinario",
-      "fechas_examen": ["2026-07-19"],
-      "inscripcion": {"inicio": "2026-06-01", "fin": "2026-07-16"},
+      "fechas_examen": [
+        "2026-07-19"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-01",
+        "fin": "2026-07-16"
+      },
       "url_oficial": "https://admision.unac.edu.pe/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -78,8 +105,13 @@
       "provincia": "Lima",
       "logo": "/logos/undc.png",
       "modalidad": "Ordinario",
-      "fechas_examen": ["2026-07-19"],
-      "inscripcion": {"inicio": "2026-06-08", "fin": "2026-07-16"},
+      "fechas_examen": [
+        "2026-07-19"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-08",
+        "fin": "2026-07-16"
+      },
       "url_oficial": "https://web.undc.edu.pe/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -92,8 +124,13 @@
       "provincia": "Cusco",
       "logo": "/logos/unsaac.png",
       "modalidad": "Ordinario y Extraordinario",
-      "fechas_examen": ["2026-07-18"],
-      "inscripcion": {"inicio": "2026-06-30", "fin": "2026-07-14"},
+      "fechas_examen": [
+        "2026-07-18"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-30",
+        "fin": "2026-07-14"
+      },
       "url_oficial": "https://admision.unsaac.edu.pe/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -106,8 +143,13 @@
       "provincia": "Ica",
       "logo": "/logos/unica.png",
       "modalidad": "Ordinario y Extraordinario",
-      "fechas_examen": ["2026-07-26"],
-      "inscripcion": {"inicio": "2026-06-01", "fin": "2026-07-23"},
+      "fechas_examen": [
+        "2026-07-26"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-01",
+        "fin": "2026-07-23"
+      },
       "url_oficial": "https://admision.unica.edu.pe/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -120,8 +162,13 @@
       "provincia": "Lima",
       "logo": "/logos/unab.png",
       "modalidad": "General",
-      "fechas_examen": ["2026-08-02"],
-      "inscripcion": {"inicio": "2026-06-10", "fin": "2026-07-28"},
+      "fechas_examen": [
+        "2026-08-02"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-10",
+        "fin": "2026-07-28"
+      },
       "url_oficial": "https://admision.unab.edu.pe/http/dashboard",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -134,8 +181,13 @@
       "provincia": "Lima",
       "logo": "/logos/untels.png",
       "modalidad": "Ordinario",
-      "fechas_examen": ["2026-08-16"],
-      "inscripcion": {"inicio": "2026-06-15", "fin": "2026-08-13"},
+      "fechas_examen": [
+        "2026-08-16"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-15",
+        "fin": "2026-08-13"
+      },
       "url_oficial": "https://www.untels.edu.pe/03Admision.aspx",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -148,8 +200,13 @@
       "provincia": "Tumbes",
       "logo": "/logos/unt.png",
       "modalidad": "Ordinario",
-      "fechas_examen": ["2026-08-17"],
-      "inscripcion": {"inicio": "2026-06-02", "fin": "2026-08-01"},
+      "fechas_examen": [
+        "2026-08-17"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-02",
+        "fin": "2026-08-01"
+      },
       "url_oficial": "https://untumbes.edu.pe/admision/index.php?l=7",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -162,8 +219,13 @@
       "provincia": "Lima",
       "logo": "/logos/unjfsc.png",
       "modalidad": "Ordinario",
-      "fechas_examen": ["2026-08-23"],
-      "inscripcion": {"inicio": "2026-07-01", "fin": "2026-08-13"},
+      "fechas_examen": [
+        "2026-08-23"
+      ],
+      "inscripcion": {
+        "inicio": "2026-07-01",
+        "fin": "2026-08-13"
+      },
       "url_oficial": "https://unjfsc.edu.pe/admision/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -176,8 +238,15 @@
       "provincia": "Santa",
       "logo": "/logos/uns.png",
       "modalidad": "Ordinario",
-      "fechas_examen": ["2026-09-06"],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Sin información"},
+      "fechas_examen": [
+        "2026-07-12",
+        "2026-09-06"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
       "url_oficial": "https://www.uns.edu.pe/#/admision/cronograma",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -190,8 +259,15 @@
       "provincia": "Lima",
       "logo": "/logos/uni.png",
       "modalidad": "Ordinario",
-      "fechas_examen": ["2026-08-10", "2026-08-12", "2026-08-14"],
-      "inscripcion": {"inicio": "2026-06-08", "fin": "2026-07-31"},
+      "fechas_examen": [
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14"
+      ],
+      "inscripcion": {
+        "inicio": "2026-06-08",
+        "fin": "2026-07-31"
+      },
       "url_oficial": "https://admision.uni.edu.pe/admision2026-2/",
       "pagina_propia": "/uni/",
       "detalle": {
@@ -203,10 +279,22 @@
         "costo_inscripcion_privado": 780,
         "nota_costos": "Montos del proceso 2026-I usados como referencia; confirmar en plataforma oficial antes de publicar",
         "cronograma_jornadas": [
-          {"fecha": "2026-08-08", "evaluacion": "Prueba de Aptitud Vocacional (solo Arquitectura)"},
-          {"fecha": "2026-08-10", "evaluacion": "Aptitud académica, razonamiento verbal y matemático"},
-          {"fecha": "2026-08-12", "evaluacion": "Matemáticas"},
-          {"fecha": "2026-08-14", "evaluacion": "Física y química"}
+          {
+            "fecha": "2026-08-08",
+            "evaluacion": "Prueba de Aptitud Vocacional (solo Arquitectura)"
+          },
+          {
+            "fecha": "2026-08-10",
+            "evaluacion": "Aptitud académica, razonamiento verbal y matemático"
+          },
+          {
+            "fecha": "2026-08-12",
+            "evaluacion": "Matemáticas"
+          },
+          {
+            "fecha": "2026-08-14",
+            "evaluacion": "Física y química"
+          }
         ],
         "becas": [
           "Exoneración SISFOH para postulantes certificados como pobres o muy pobres",
@@ -224,8 +312,14 @@
       "tipo": "privada",
       "logo": "/logos/pucp.png",
       "modalidad": "Ordinario 2026-II",
-      "fechas_examen": ["2026-08-16"],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Por confirmar en portal oficial"},
+      "fechas_examen": [
+        "2026-08-16"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Por confirmar en portal oficial"
+      },
       "url_oficial": "https://admision.pucp.edu.pe/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -238,8 +332,14 @@
       "provincia": "Lima",
       "logo": "/logos/ucv.png",
       "modalidad": "Examen Ordinario",
-      "fechas_examen": ["2026-08-23"],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Sin información"},
+      "fechas_examen": [
+        "2026-08-23"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
       "url_oficial": "https://www.ucv.edu.pe/postula",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -253,8 +353,14 @@
       "provincia": "Lima",
       "logo": "/logos/upc.png",
       "modalidad": "Examen General",
-      "fechas_examen": ["2026-08-08"],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Sin información"},
+      "fechas_examen": [
+        "2026-08-08"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
       "url_oficial": "https://www.upc.edu.pe/admision/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -268,8 +374,14 @@
       "provincia": "Lima",
       "logo": "/logos/urp.png",
       "modalidad": "Examen General (Medicina)",
-      "fechas_examen": ["2026-08-07"],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Sin información"},
+      "fechas_examen": [
+        "2026-08-07"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
       "url_oficial": "https://www.urp.edu.pe/admision/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -283,8 +395,13 @@
       "provincia": "Lima",
       "logo": "/logos/upch.png",
       "modalidad": "Examen General de Admisión (excepto Medicina)",
-      "fechas_examen": ["2026-09-13"],
-      "inscripcion": {"inicio": null, "fin": "2026-09-07"},
+      "fechas_examen": [
+        "2026-09-13"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": "2026-09-07"
+      },
       "url_oficial": "https://cayetano.edu.pe/admision/cronograma-y-modalidades/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -299,7 +416,11 @@
       "logo": "/logos/ulima.png",
       "modalidad": "Examen de Admisión",
       "fechas_examen": [],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "2026-II aún no publicado"},
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "2026-II aún no publicado"
+      },
       "url_oficial": "https://www.ulima.edu.pe/examen-de-admision",
       "pagina_propia": null,
       "estado_proceso": "por confirmar",
@@ -314,7 +435,11 @@
       "logo": "/logos/utp.png",
       "modalidad": "Examen de Admisión (Ciclo Agosto)",
       "fechas_examen": [],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Fecha exacta ciclo agosto 2026 no confirmada"},
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Fecha exacta ciclo agosto 2026 no confirmada"
+      },
       "url_oficial": "https://www.utp.edu.pe/web/postulante",
       "pagina_propia": null,
       "estado_proceso": "por confirmar",
@@ -328,7 +453,11 @@
       "logo": "/logos/emch.png",
       "modalidad": "Admisión Ejército del Perú",
       "fechas_examen": [],
-      "inscripcion": {"inicio": null, "fin": null, "nota": "Ciclo 'promoción 2026' ya se examinó (27 set 2025); próxima convocatoria aún no anunciada"},
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Ciclo 'promoción 2026' ya se examinó (27 set 2025); próxima convocatoria aún no anunciada"
+      },
       "url_oficial": "https://www.emch.edu.pe/",
       "pagina_propia": null,
       "estado_proceso": "cerrado",
@@ -342,7 +471,10 @@
       "logo": "/logos/esna.png",
       "modalidad": "Admisión Marina de Guerra del Perú (promoción 2027)",
       "fechas_examen": [],
-      "inscripcion": {"inicio": "2026-07-01", "fin": "2026-08-14"},
+      "inscripcion": {
+        "inicio": "2026-07-01",
+        "fin": "2026-08-14"
+      },
       "url_oficial": "https://escuelanaval.edu.pe/admision/",
       "pagina_propia": null,
       "estado_proceso": "abierto",
@@ -357,7 +489,10 @@
       "logo": "/logos/eofap.png",
       "modalidad": "Admisión FAP - Oficiales",
       "fechas_examen": [],
-      "inscripcion": {"inicio": null, "fin": "2026-01-15"},
+      "inscripcion": {
+        "inicio": null,
+        "fin": "2026-01-15"
+      },
       "url_oficial": "https://eofap.edu.pe/admision/oficiales",
       "pagina_propia": null,
       "estado_proceso": "cerrado",
@@ -371,7 +506,10 @@
       "logo": "/logos/esofa.png",
       "modalidad": "Admisión FAP - Suboficiales",
       "fechas_examen": [],
-      "inscripcion": {"inicio": null, "fin": "2026-01-15"},
+      "inscripcion": {
+        "inicio": null,
+        "fin": "2026-01-15"
+      },
       "url_oficial": "https://digpe.fap.mil.pe/seleccion_personal/admision_suboficiales",
       "pagina_propia": null,
       "estado_proceso": "cerrado",
@@ -385,7 +523,10 @@
       "logo": "/logos/eopnp.png",
       "modalidad": "Admisión Extraordinaria PNP - Oficiales",
       "fechas_examen": [],
-      "inscripcion": {"inicio": "2026-05-18", "fin": "2026-06-02"},
+      "inscripcion": {
+        "inicio": "2026-05-18",
+        "fin": "2026-06-02"
+      },
       "url_oficial": "https://direddoc.pnp.edu.pe",
       "pagina_propia": null,
       "estado_proceso": "cerrado",
@@ -400,7 +541,10 @@
       "logo": "/logos/eestp-pnp.png",
       "modalidad": "Admisión Extraordinaria PNP - Suboficiales",
       "fechas_examen": [],
-      "inscripcion": {"inicio": "2026-02-10", "fin": "2026-02-28"},
+      "inscripcion": {
+        "inicio": "2026-02-10",
+        "fin": "2026-02-28"
+      },
       "url_oficial": "https://direddoc.pnp.edu.pe",
       "pagina_propia": null,
       "estado_proceso": "cerrado",

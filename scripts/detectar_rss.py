@@ -26,15 +26,7 @@ JSON_PATH = RAIZ / "data" / "universidades.json"
 SALIDA_PATH = RAIZ / "data" / "novedades.json"
 VISTOS_PATH = RAIZ / "data" / "rss_vistos.json"
 
-DIAS_RECIENCIA = 10  # solo para filtrar ruido si el script no corrió en mucho tiempo
-
-# Palabras que indican que la noticia SÍ es relevante para nuestro JSON
-# (anuncios de cronograma futuro, no cobertura de examen ya rendido)
-PALABRAS_POSITIVAS = [
-    "cronograma", "nueva fecha", "postergación", "postergacion",
-    "amplían", "amplian", "ampliación", "ampliacion", "convocatoria",
-    "inscripción", "inscripcion", "inicia inscripciones", "abre inscripciones",
-]
+DIAS_RECIENCIA = 60  # solo para filtrar ruido si el script no corrió en mucho tiempo
 
 # Palabras que indican cobertura de un examen YA rendido — no nos interesa
 # para actualizar fechas futuras, aunque mencione "admisión"
@@ -42,6 +34,12 @@ PALABRAS_NEGATIVAS = [
     "resultados", "ingresantes", "puntaje", "ingresó", "ingreso a la",
     "lista de ingresantes", "fraude", "suplant",
 ]
+
+# Ya no exigimos una lista blanca de palabras positivas: era demasiado
+# estricta y descartaba anuncios reales con otra redacción. Dejamos pasar
+# cualquier noticia que NO sea cobertura de resultados/fraude, y confiamos
+# en el paso de extracción con IA (extraer_ia.py) para decidir si trae un
+# dato de cronograma real o no.
 
 
 def buscar_noticias(nombre_universidad: str, siglas: str):
@@ -66,10 +64,7 @@ def buscar_noticias(nombre_universidad: str, siglas: str):
         titulo_original = entrada.title
         titulo_comparar = titulo_original.lower()
 
-        # Debe tener al menos una palabra positiva (anuncio de cronograma)
-        if not any(p in titulo_comparar for p in PALABRAS_POSITIVAS):
-            continue
-        # Y no debe ser cobertura de resultados/fraude ya ocurridos
+        # No debe ser cobertura de resultados/fraude ya ocurridos
         if any(n in titulo_comparar for n in PALABRAS_NEGATIVAS):
             continue
 
