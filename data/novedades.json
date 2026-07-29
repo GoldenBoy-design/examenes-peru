@@ -1,4 +1,500 @@
 {
-  "generado": "2026-07-29T04:43:52.703468",
-  "universidades": {}
+  "generado": "2026-07-29T05:00:53.874092",
+  "universidades": {
+    "UNALM": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Examen de admisión de La Agraria: 30 escolares de un mismo colegio ingresan al examen de admisión, incluidos alumnos de primaria y una estudiante de 13 años - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-13T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQSXRjcWF3OXcxak5vYnA4UlVXcFIwU2R5M3VYdVZ1bFNzbE9lcDNnWFRDbHM5TlQ4VHM4V3ROVmc5N284c2JaTU54OTcxV0I5UlE2NGhYUkVfZjBXY3Zpdjd0emVUV19OVHRsV0FlVGVoM2hFQzBuNzVCaFNtWFE3SDlDSm5MdlVrMy1vX0M1ajNOc3I0OThKdmpILXpJUkhRUHNreFJjSWFYNzRzRHFHdEl1VTlUSE1CN0FJZW44NjB4cW92QU9fc0tpaldzc1gxUGs0UlRxNG1Da3RHQ0daVnV4TTVMUTVycExsM1FrTXhFdnZYREhGd3MwcXpVRldKcWpmUlFHa1RydnB0ZVhpT0U0VE0xVmZ6QlZ6ZzhRb1nSAbsCQVVfeXFMUDRJaHprOFM2aTNDWGxPUHNlZkd4NEE2ZmFOUGxhS1cxMjR6UjR2UlRTV1BWLWs1SER5YlEyamxpRFlBSHBSSkxUbzhYT25SUEFGMmF0Tzg0UDdfeS15VkZUbTc5X29CNDhTQ1E1OFZwenU1c2tqNFczaXpmTm1aN21MTnVvS2J6bjVUeFdxNUZpWHFGdmxsVnJEc0YtRXBjUFlKSnVFbkgweGtQbVJOcWV6SFRkcmtWOHhZQXhKa1VLbTRDSVZ1SWdkeW9hVXpna2VzYnhUc2dhWURpeHZ0VVhxcjhBTnpzeVZwUk9xaUQyd1A1dURoT050elhZSmtjRTE3M3VRZWFOLXQ0ZW5jQ2ZVSHpLa1dvNmc2eUQ1UVJJclBBZnRhNDJEWC00M2g2SUtBZ0gzNHNmWWc0?oc=5"
+        },
+        {
+          "titulo": "Hazaña escolar: 30 alumnos de un colegio de El Agustino ingresan a la Universidad Agraria y logran primeros puestos - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZnZNdmx5ZzE5b3dSeG5xMm5EaXhWTUdIeWgzQjZ3ZHh3X3Z0TTRBd0hmbGlQdklOSThkeUFySzlqaUVNSC1DRFJWUU1Ja294ajg5Y3BhbWhuaEdnc24tWU5vMVBfUmx5LV9jVENMcjVqdDh1NkVwemhKZmtaQmJkdTdDMlpfZTRBRkUyM25RTllGTUM0Ym1jdndoOERhRDJhSEl1TXFzc29GbEtWRU5MSmhRWk1MYUVweG5sbFlnci1HRUxDaEIyNnZsOUJQNXBUek02cWhQT2dXUE11OUl1dldLeUV5eEFrcEY3QkUzT3ZGdUdOcndz0gH8AUFVX3lxTFBEYWFJbmVYQWhseWI3eEFFOEhGUy1iTzRrOG1sUmEyTENBOHZyYXp0Vk5DcFlSdmdxNmRxQV9hVTR4SmVLLXVBTGc0a3RjdjBEVGxoaTV6dFhiWjg4SnpadGtjVUpLelROTndiN2V0QXhvWXpNSWZVeDVyeXJXTDZFOU5pU1VPN3NvZHVYR29ON0VCdmFRWGdkNUp2SjA5NklhUlI1Mmhkc0o4ZXdUQi00d2RjMGhtLXZBMmo0UWMxUDBWcERvVnlyOFFOWkg2RTdCc21lanZGVHRQbGhOMjkxU3FlSHhud3NVQy1uRi0yRGU3Um1NNnBJakNzeg?oc=5"
+        },
+        {
+          "titulo": "Expo Agraria 2026 reunirá a productores de 22 regiones del país - inforegion.pe",
+          "fuente": "inforegion.pe",
+          "fecha_publicacion": "2026-06-23T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSUhLRm9EWHNGcEowWXppRm1kNVAzY0NZRnN2LUpYYXVwVTljUjQ0UmMzbUlrbHRWeWNqcUoyVFBwTWxEVE1ZSHRWYy1TNVA4RGZraDRKNjFMdUNEY1o0ak9Sc1o1Sk1uYWZuNXBYb1ZCRFZCWFlnTFEtRUpXZlZCbUYtVWlHMWlmNEh4NWZMbXhKb0NMV3dUWjlsWE9YdUd1aFFkT3d3cl91RXdjak9KOGZmU25seGR2YTF4TmhsY0ctbXZQMUl0U1lrb0dzM0hVbHZ3?oc=5"
+        },
+        {
+          "titulo": "EXPOAGRARIA 2026 reunirá a 22 regiones - Revista Caretas",
+          "fuente": "Revista Caretas",
+          "fecha_publicacion": "2026-06-16T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY3lsY1cxTlIzaHd3bFZ4V1c0ekJYQjVRcUtMS1haY3kxem13Z2ZXbVd5UWdRYnNCUW5tTUxZci1GTzdzMEV5ZkFrNU0wRmJYWVRJc09pZzVnTjl0dzZIN3dEU2Vrd044NjVwVWlCRURkRHBtLU1IVXZ6YTBxRjF5SWVrWHBxZ2JzdmU4MGZvMEFTUG95ZTR5NFE0ZVI2UkJsRXN3R01DcVpIVEFVbzV1WTRLbl9UVnJX?oc=5"
+        }
+      ]
+    },
+    "UNMSM": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Feria Virtual: San Marcos ofrece ocho maestrías en Ciencias Económicas - Universidad Nacional Mayor de San Marcos (UNMSM)",
+          "fuente": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+          "fecha_publicacion": "2026-07-13T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLW9xNENsRmsweFQ2cnhXdnRRb0pXRWotSkFHUF9IOHVnVmZmdU9qWVdtT0x3d1l4aEt4anhrdlpYVmRxMG1GX2YzQzJPeS1ncG5fc2FLeG1UM3BIYkRVeHUyZ01MTWtGYjVaUTJMNnR6US1kQlI3LXhtYUthMk84ODVYZDgwX2V6Q1RzTEZIZkRIMUdKNk1TU3B5NUFJa09XT2hSUFg1ZlZEVmxtX3pra1VSaTVqenZYUmVUTzNCQUgwQzJ4OExIUEhTTWx6dWMzMk1ybFhaSQ?oc=5"
+        },
+        {
+          "titulo": "San Marcos inicia admisión 2026-II para maestrías y doctorados: revisa las carreras y requisitos - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-04T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUmhPOTAybGRBNW5ER0xROTFPTzJ0b1JQXzJSTHZYQTgzel9sOEZjME5YZFBIRUhvVHQyNk5ZdDRFSzNpUW9QMEU0dFhYajV2NmM4SHhEazQ1SzJWeEJid2c0SXl1UEdmNHhGd1NycW1iT0VGT3pQNW0zZUxWOS0wSGlqRkh4eUxkQnF4cjJmci1DaUstTlgtZXNZb2pxMHJwT1pHVGRXZHRwWWxoMUd3TmRLOHQ4dk9FSVRRa2MwaldwQ1RGek8ybkJESU9DaWc0RFHSAewBQVVfeXFMTUxYdldyNzBBcEVjWVJweG1lQ2xVMmVwdUdzMnlJSjFOSGFOSlhPRjF3Wm1hekJLRFFuUXRva1ZnYTBaYkVHUGItQUZrb241NVpxczVJSmt5YllURzg3SDM3Z2w1TkFtUTBXamtGcHJuemZ5QUYzQVVwSEpiQjg0eUlKZkpORl83NjNfaVlIOW5PMy1yMWQyUmVCRkIzRHFRUW90VVR5ODZHSHZMeXA4R3dvczZYTDQ1S2dWOU5PLWRjaldoVWlXN0t3b3ZkN1QzU0xCT2VjV2RqTUJfSGlpVURuaVNSeWRIbVRRaC0?oc=5"
+        },
+        {
+          "titulo": "San Marcos: ¿Cómo inscribirse a una maestría y cuánto cuesta? - América TV",
+          "fuente": "América TV",
+          "fecha_publicacion": "2026-07-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkhKdW1ma1oyZkhwZFZRSnNfaERNVmMtYlpGMm1FNVgyU1RyWnZRbm5Fb0U2b21RWl9YTlJaWHFDNGNWRFJEVXVJZEhHd254bGhZRVI4UERkbklFTlRodllKdldfdm5BUnpGUlRjZFdmeHUta0k1MFhya3dGRmxndzNUM0NwMGxVQlVScGRhU2FlSkxHVFZPX2tFdGFieVItZzllNGtuaDUwX0lSbVQxa1ZjRERhM1JJ?oc=5"
+        },
+        {
+          "titulo": "San Marcos inicia proceso de admisión 2026-II para maestrías y doctorados - Trome.com",
+          "fuente": "Trome.com",
+          "fecha_publicacion": "2026-07-03T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEFxMU9iU1ozUUZfMVFfQXhpVFFCSXBZeXRyR0FJN3JDRzRPX3lCNlN3Umw3dzAyV2hrMjdXWHBfR1RVS0o5MkhOajNkMDRNWUhiT3ZyZF9IdU5KaVBSR01McVc2Wl9hQ3Y2MDlkRGE4WTRqVm0xOHJDZVZOcnBlOEF5dFRGbGJtbUJOb2VYVGhwcDJPRUpQSURtZjRQU2lTaUJNalFZbVpuTmQ2VFlaWDJlNNIBxwFBVV95cUxOTTgwVEFsT1kzN2Z2MVN4T3ZRX1RjOHF6Q1F0LUZRV3ZMS1R2eFhud1VtQS1tbC15aHZ6dmtya25MQlR4T19NT1lNb1BpQnBKOExyWHZrOXRLaWNwVzNVdVR3LVlqUFg2OGx5dVNreWo2LXBmSlY5d1RzaDJEdWZOa2pOVTEtY3p5YTBaaHZRNFpsc0FSZ2dsRE1lWlkxdTBWTkI0THlvNF8xOFIyWU1uQTJaSllvcjlXSUhLY252bEpjTl84VlRj?oc=5"
+        },
+        {
+          "titulo": "San Marcos ofrece 2 600 vacantes para maestrías y doctorados en 15 facultades - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-07-02T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX3lIYTBHVlFsQzVWX1VfalBjY3c5QTJBaEtMa0dVSTNQYWc4eVBGc3lmaEs1M0QxWmhSbGtDU3dSUG5Ub19tajJSeFhWZGZRS2J1OEN6NUttVHlOWmhhdE85Z2ptZG02b2lUaHNIUzBvcEJMSEE1ZHR4YXFlSkdldl9ySkdROU5EeWhsa251WFpfblRpbjZvQTd0dVljdTdsYjdZeE5MWDdBME1TWXoybXFGOUdwalVwaVoyOUl3?oc=5"
+        },
+        {
+          "titulo": "San Marcos lanza convocatoria para 2.600 vacantes de maestría y doctorado en 15 facultades - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-01T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkVGa19QUW1FeHRJdDNOVEY1RWFhRjVIRXFPaVU5c0VrVzB1aklKaUg2Smx2Ukc3Y1NNeHMxUHQwSXpTblltdzBzOFhmNVFIbmctV1ZxeHdYZm0tSWQ1Y2gzM3Q5UzVMT0FNVFg5Ni1Jb1ZzaEl6NVBvQ0Q0SmxkbmV5TG5iY0l2cTR2SVktTDJiOWJ2SFpWdlUyUE54VmlqUDF1RVBjMGphTDBzaG5OeVYwRnlSdnY3VF9JMVUwN3dYNTVxVmtDOXNn0gHkAUFVX3lxTE81Z01CdEI0cGg4cDVfMFV2WXEzZENjZElYdndoNmJHQ2dIX25YWGM4STc4Y3NfcVRaUkpvaWRTNEZGZ2p2elZHeThrc0VPSXlSOU5aSmhNb3NWSG95ZnRXZ1JGNDJFOG5uVnYwUWNzNDNsWHFLTW1VNmlwQjVMX1dVVTk0QjhBMWFBeHJHd1gxRkVOeHVPQWstLTVEcldrSnYwVEc5UDBWSkVUTDZkX25pZmJ4NDZsdV9EbGcxdW02OEZVM25nN2RaYnBDX0R6cDFRT1JtMXBZWEU3YW1IYno3WW5Kbw?oc=5"
+        },
+        {
+          "titulo": "UNMSM ofrece 2600 vacantes en más de 80 programas de maestría y doctorado para el proceso de admisión 2026-II - Universidad Nacional Mayor de San Marcos (UNMSM)",
+          "fuente": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+          "fecha_publicacion": "2026-06-11T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPQXFtSC1LbmZvc2RsTVBkdXMtVXYyZ2NWeFRQUmZBWjIwR21scjk5bzJpamdTWm5zZjUwcUU3ZFlWVGFuZlNzY2h4UkhOUUVJb2N3ZFZYWG1PemtMcGJvX2lzTmtVSHJYNGRTTWpVR0t0Qm1QZ19HUU9wRml1WWtfVVZOdndid0VuTkZSQkRxcVQ5d3NUdjByOFNxaTVNc3Zvc1FwcVhyYUNTcGRnR1pwWlhuakJxLXpsYUkweWJGd1V6LXBaY2V3c0lwMVVSdmJDYnlhdjBXYnFfSURYVTM4UERveHZVQTdkcThoZTNCMlFzR21Cc0dkOUdZcmFaRmZDT1htcUs3MG5BUXM?oc=5"
+        },
+        {
+          "titulo": "UNMSM abre admisión 2026-II: ofrece 2600 vacantes en más de 80 maestrías y doctorados - El Popular",
+          "fuente": "El Popular",
+          "fecha_publicacion": "2026-07-01T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekgzQ1BUMTltYkFGb21rVndzUkNtNzk4c3V0STNxMDlUSnV3WlYzRzUtSjJFRmNPM0p0OGRMTWY4b0NWRTNGLThXT3B2d0JJaWZHTDE5OGNDM2Rjczg1SUE3Q3d3clA2RkttSS1iY0RCN21wMXJxNHhNemNsZHBtaEE2ZkgyN2d5VVp6dnh0Tk9jejJkcHZYemFlcEwweTNzbnU1Z01B0gGrAUFVX3lxTE5rZnJadXlhQURyOWQxbDJicm5CTWhqNDY4SnktSFdrWmtpQ0ZqWmNlLWMya3JNVlpMbXdnbXlEd1ZWYVcyOF9ROXZ3VnB5NUxwaUMzaTJKTTVJbDJaeW5IZTVocXNDMTNEMTEwZU9BM1BZS0kzdXlwbzhkSHBnc0Fpa1JPNk1Qc1FZdGFuSUhCZTRGQ2FEVUQ2Y2R6ZDFfdmN1SjZUcG90bTUxVQ?oc=5"
+        },
+        {
+          "titulo": "UNMSM abre proceso de admisión 2026-II para estudios de maestrías y doctorados - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-06-13T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWXpnWGJueEhDTEdYTHpFZV8wcFlkdHA1Q0w1OFg2czEyZU03U1FOMEJHM0ZQN0FXa0E2Z3B6bFhtZC1MZzBRQWYwYmlpTjNGQzhrUUYtR0xHZS1KMkZmNU83NHYzLXhZY1ExVlkxMUtYSVRUUTRhTWpwaGtkWnVHLTBCUnFSWFZkZDl6NXNaaFExaC05N1ZtaFFYZ1VncEV2X05tYmRxQ0VWUE5uZlVMYlBVVV9GWWIwVXc?oc=5"
+        },
+        {
+          "titulo": "UNMSM inicia admisión 2026-II para más de 80 programas de posgrado - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-06-25T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYWJYdHNmTDZJcFhWamFPaEx0ZHJGSHptd2VPSGR6cGR2UEdoWGd4QWVQbnp6ZE84ckZUX3VIN3BkbFNrcWxWcGRsbWdCV2tWUC15MzVpcVEyU09FMzJzR25jTWdzal9HZzRmaFpXczVXQ2JwNzUxbEV4bE1ZT0JBUDBSRzFFdmt0eUNhcW9Td2xidHZUZUstenFCdWpuQXRXUXVsNnR4MEhqWVNaY29tdDA5THhqUW1hVW9HeGRITnNXenNxanhBV3ViaGZfalRZNUlRbGFuMzhYcTROTnJZbXoyU25WcGU1aGJGTnNR?oc=5"
+        },
+        {
+          "titulo": "¿Buscas un posgrado? San Marcos ofrece más de 80 programas de maestrías y doctorados en su proceso de admisión 2026-II - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-06-13T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPREt4aGo4UU91YmUtQllBVTE0R0dOeThUMU8zRksyY0JkSjAzVThqZEVTUWJNZDdJZExDLWdkaHhQaUEwSE8xQll0VlctMzNrYmlRa2c0SEg2Wjkyc0czS3U3VmE1S1I2UzV1Qm1GNVJHY1hSbHdjZDNzdktDVUVRSUNJWDEwQlRnZHpBVThkR1B6VkE3QmF0eHBwN2w0SDZ0WGtyc1p6YWk1VnB3NVJWb3laeGVqMGd1ZUpjUTZYUlVsSjZjRDJMMXdXeVFQRWdCc241TUhKWXVRc1JtMnE5QmU3V0NQWmVQVjA2VVJlTV91VGVfYm4wT9IB_gFBVV95cUxOMFNXdHNxSThVaW11WU41VElla2lwZm5IM3FkSFdnazltZXp3Y3VMclpURG9EYzZhNkNUYjVWanR3bTJ6ZTZqUU1XZjQ5N3pTU1FfR0ZJOVBxd19PQVZLb0FsMGlVV0RHMTBoYkRQR1NfNzZDeHozWVllNjFsTDdRMGY0SF9veVZmR2xCeU1nT1EzQTFhRkozOVQ5azUtOTN3WF95aGJQM2ZjVFc0SmdwNXB4TW5sVE5TTlNhNWp3ME80bEwxRG1FR1Vid0t3NE9VUEtWZHlENWVrUm03M0g2dTFFRXk5dnFROW9hczByVWd3MVUyLU5TSFg1eTVMQQ?oc=5"
+        }
+      ]
+    },
+    "UNAC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-19"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "102 estudiantes de un colegio de Carabayllo ingresan a la Universidad del Callao y marcan un récord - Perú 21",
+          "fuente": "Perú 21",
+          "fecha_publicacion": "2026-07-21T16:20:35",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOHpPdVhXZXlqeExzdWpuZ19BcWp4Uk9pZm10SmpwanVQdFBuTFY4a0JaWlR5QkFnb2FzU2o1QUdtNlFPVWZiUngzem5yQ3FncWVHZW94WGxlLUV3cDlYdjhoSXl0ajdKUWtSXzZlUFBEcTNjSFl0Y1VrLTNtUkpaREk0cU9oOHA3WVZtM01aZ1J1YlJ1bUI1S2NxWVRoRmMxZHNiX2U2QVhZYUVseWJFQUYzVlI3SU0wUkQtR0dB?oc=5"
+        },
+        {
+          "titulo": "Más de 100 escolares peruanos de un mismo colegio de Lima ingresan a una universidad pública tras dar examen de admisión - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-21T20:05:00",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOb2xXdlMzLXZMSEJaaVJfMUtTQ2FNemlGOVd5azh5V2p6LXZzbVphYkpvR3RnSTBmLU5GdnVqNlJlWjF5Z0ZzOXdCOEVnQ1V3N3NoMlctM09zb2FLQ3ZFU0xkeTVXdGNJOGVhZjdlbzhmYS14VzhsOW0wTldDLXJZTDRtRmZ1QV9MZ1lsRElNVzJBM2tQcDNwWUFrdXgzdTk0S3l2dUhHeFF4SkF4U0gwMTBVNUtmOGxEd09KRElLVTdiX1pLTjNDVEVZYnc2SDJzalowVXVjVVNYaHRzdlpuaFBTazZOZ3k5cUFzSTJWNXMwS185Z3ZWb3RB0gGUAkFVX3lxTFBteUU4TURFNXBicjkxekUzWGtoUVdmdG5xdENRRTRFRkZFMTV1SUlWXzBlWW5RWVg4WDd2YnhQVjU5ekN0YV9uWTY2Ql9GZTVGYmMyeWRvZmhlVkFlRm01VVFEM3lqa2lKZFhKYlVjaHg2eFlfMjZuSEtlUW9GempVYmc0TUZtN2xsR1F6bnBDWkJrQWw3eE1xaEo1Y2E0RWo0S0xsVGlJYnVUcXRjaW4yZHJNSS1wUmtEelIzVGs0a3hDMFNlcDY1Rks4aDFVSV9GTGRuT1hCRU1YaU1ZbmR1cW1BeWdEZXF4bkZkX3NXN1dyQVVSZnRNZXpPTzFhZzhBRHJyV1RfLVdsY3BjbUk4SkhkQQ?oc=5"
+        },
+        {
+          "titulo": "¡Ingreso masivo a la UNAC! 102 escolares de un colegio de Carabayllo acceden a la Universidad del Callao - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-21T20:51:43",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVmswcFBDSy1BRDRiYndsaG5iVkpwR2ZFdEFzQXg3TEJlcTJQa3Z2cmtFVy1ocVZ4T01WY0JIbU83dkhkeWpsWEZmbkozeWtKU2w0SVQzRTRhYks5a1RYNW51ZDlZRU1QSk9pdGZTNUYtUG1mcnk2ZUFHWXNsU3JyMXlPdEh3QUtfd3JWQzN2bTVYS0FRTkhObFlab3hkTDhTRW0xeS13YzI1dmkzd3JJN3N5U0RucFZwQ2Jjei1KeFVLQUVzNlZoNG5xTVdoMDJQWmtjY203ZzVPa0Rha1hSanBLVVhka0Fy0gHuAUFVX3lxTE85ZnJmSDdBMVRmQmp2ODlsNjBSc1owamFFTklWVHdDem12dWtEcU5nMjFJd2lvZU1oa21ib243VEFYZ0k1RlVVZEJRWktFR3ctSm55OU10MXR1aUY4ZWdyX2p1LWh5bWljN29xQWRmckstN3cxY0YyZ0wxZVRwWkc5dHMySXJyTThEWWJLZTFSd0xxTzZ0dFI5M2l5MlpfOUx6WE11aHJEZUM4RHdVLXlNMjNVWi1WRHVVV1I3XzdNQjZQd2RWMHpVZTY0UXNtdkRQbjBfVm81enpxVllJMWF2UWhUSUFvM19pRFdpRWc?oc=5"
+        }
+      ]
+    },
+    "UNSAAC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-18"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Exitosa Noticias. . 🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | Tensión en la Universidad Nacional San Antonio Abad del Cusco. Estudiantes mantienen tomada la casa de estudios desde hace más de cinco días como medida de protesta. Los alumnos exigen que sus demand - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-24T12:27:43",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU3gtZno4WjZDRjFOVkNSOEM3V2ZNSXNtQ2R0dnRZZlpIdVcyZlNxSHYyU3h0R3lkRTVzajBrNVBEajVRYnZWOEdsY3JQNHpIV0F5UE5RdHR0QkVqaFUxUzM1YlBxQURZdkxEYjNieW96dG1keW1oOWVIZU5vLTRRVDQxa2tKdmI2RVlGd1RQTlNDc3BheG9BektLcHViRXkxeU5VXzd2dzRyUE9lelVQdlRaYlBWLW9JVWVTSlV0NmJTcEE2WnhFdFZ6aEJ4YU5VXzBYMERNNk9iSkJSdHJLM1NEUFpoRU5UTWlkOA?oc=5"
+        },
+        {
+          "titulo": "Exitosa Noticias. . 🔴🔵 #ElInformativoDeExitosa📺📺 | Estudiantes de la Filial de la Universidad Nacional de San Antonio Abad del Cusco (UNSAAC) en Curahuasi salieron a protestar por la no autorización del examen de admisión del ciclo 2026-1. Indican que - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-17T22:56:11",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOR0JVTlBUTDB0Q0p3X25DNzUwc3N1eW81RWNZY1ZzVjZvd3pUbHlLVTZFeWdUYTdDaGlCSXA3eXRtVEtwc3RrZE5vOVRNMHRDR1ljaXdRNDdrYlZ5T2tlbWZmaTlsWXB0SzhHa050cEdYVUZxY2wtdkxtV0swWlMzTHpMb2g5X0lnWU5jOWVOSURXSmZXNWtPUzUtQVdiU0hzeWFUTW5kVTBWX2hFMWxkVnBaSFFDYjJfenhYdVJDVG44Z290TUY1UzcxNmlBNS1hVUxpZjFwVXltTmxwZDBn?oc=5"
+        },
+        {
+          "titulo": "🔴🔵 #HablemosClaro💬💬 | Estudiantes de la filial de Curahuasi llegaron a Cusco para tomar el local central de la Universidad Nacional San Antonio Abad, para exigir al rector que se realice el examen de admisión. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movi - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-20T17:15:40",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY0tZQlRSczZ1QWtqOHRaX3BUY3o3RjhyR05WMjBfT0J2M3VjeTdLV04zVlpsVTBJTm5FYWFuelVsQ1ZQVnlkVTBPSUF6SlJfcWsyZUNnZ19jN3ZsLWZMMFdmdG9BVm4tSl9nSXVXN0d3RlZ4T2ZONEFiNVJZa2xxUll0WTdnWHpabWptd1F3ZXhhQkVWTEt4cXd5a1R2VTVhQTdDQ3lZXzV6dVltWGZlR3RnWGtlUTRZNDJqMXpWME15NmI0UHdEdjNRNm1OMWdCVFJCdTBhVjVPQkdkRmc?oc=5"
+        },
+        {
+          "titulo": "🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | Tensión en la Universidad Nacional San Antonio Abad del Cusco. Estudiantes mantienen tomada la casa de estudios desde hace más de cinco días como medida de protesta. Los alumnos exigen que sus demandas sean atendidas - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-24T12:28:39",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNFdVeWdMa1hVMUJVM1dRRnVTRnFIcUNaeE9zb0p0UlJhUkg3ZVdoS1d2N2dtbXhwSC0yWWtWTkJidlVZTExMWVBxcGE0WnMwMlRySzlVbVRpdzFlSHNTWjlnemdqSE5nbVBJWk5QYmZFamxvSXROZFRzZWlrSUthYTZhVkNCejFYUHFjblcwdGNOSmduSnFmMEp2cFcxVko1WXYyakRtMXowREx0RWhSX0ltQUU4TkdPak5hcldtdkpEVnJhTTBweW5NVEZZTC1VX1lHY1ptbWNyUk5DZE5BSndNUDZNZjJDUXA4?oc=5"
+        }
+      ]
+    },
+    "UNICA": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-26"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "¡Atención, iqueños! UNICA lanza proceso de admisión 2026-I y ofrece más de 2300 vacantes - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-06-25T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRmxLYVNPZm4xTWZuYmhPS25Ra1pKTkJtU2N1Q3ZmMURBSGJBaUhqbU9fSm5JRnBuanMxb0tUUC1vTkdfc25TeFhsNXMzOUY4ZkE2ekVjSE5BTFlHQThDck1TdnVfUWNfQUwzVlpOdG1kcTkwalZvY1E3NDBKdHA0R0hvWEViUmo3bng2ekEwNEpMM0dHV21PTXRnRUVibGx0ZXN2dzhyWlZCaVZTN2dQNExpMUZYTmFYTEJ1M1pzeEszYmc?oc=5"
+        }
+      ]
+    },
+    "UNTELS": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-16"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Universidad Nacional de Lima Sur incorpora cinco nuevas carreras enfocadas en tecnología, inteligencia artificial y negocios - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-11T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbmtlSnpNS1kwOHBrMEVWaTFUeGdtWkNiMnVrazkzc1lqSThaM3EwTGhNNlV4NnVFNVRXZU50MjktbDVpOE0wclQyWUxzZFFvTDFlSDRuT2duY3pYb2k5VGNqa3VWOWQtdy1BZjBWRktwcnJCNkgwczFjMVNyOXREM0F2S3BnRUxQekdSTUVlYVVPaXFCRElUNlNtdmYwTkVVZjNSdXlWQkJ0QU9GUlNicDNjeEdkaWVqMkRzVGwwdUlCb2dteU45azVrVF9UZE9OMFRkeTBIdGprSXhjVFRsR3MzT3dTR1Z6WXBNQkJudkdjQjAzTnEw0gGSAkFVX3lxTE9rMHVyT1FEZVFyUGxxUkpDY0ZSZjBkWUVGdWNMT0taZGxBcThLdlJxbjJvVUgwMWtiOGRJVjYtLUJHN043N1lEekFnR3BJWTRramJ3SkdFMkFmS3dKOTFPWlZ1dVlIWUNEdzBhMHlZc3pQc2pPTlVzU093Y21QSmxBaS1WbWh0c2plZ0hIa21MeHNPaDI0RmhRRk10a1dkUHUxUjFKQjRIbnJiYU52VXdidExQWTgtdVQ1VHEtaDlUQkktOTNDQ19XQzRGQmMzOFZTVWtONndTSTRRODFTX0xuNmdpQnpNdmplemhVZ2djSVc4ZWNBeHdiX3hjRUQxYWpuQ3FVVC12c1Rld2JrSDY1cEE?oc=5"
+        }
+      ]
+    },
+    "UNS": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12",
+        "2026-09-06"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "UNS tomará examen de admisión de la Modalidad II este domingo - Radio RSD",
+          "fuente": "Radio RSD",
+          "fecha_publicacion": "2026-07-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOemRLV1RKMHBLSXhhMlFyV2F2Qi14MFNLTFdSUEQyejExMDRoNUlTMWVJUFpSUXltbTBscHVlQWxRMVRkejUwSlZjVDNCS2d6MHVpb1hTdGFyNkZNNUVZTU54RGlJZjlISVFKVmg3NEk5UHJTYnQ2WUstTU5fam5nTmFuc1diRTlVV29jRF9zeXNLaFBT?oc=5"
+        }
+      ]
+    },
+    "UNI": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "UNI lanza más de 80 cursos virtuales gratuitos de inteligencia artificial, programación y ciberseguridad - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-26T09:15:00",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNzNTQmJtWEo0V2hXWExLcWxiVEJhVjMtaDNHWkwta2VfSlhZLUo0dkhnWGpkYm10Q1RVLU45eTdBOV91cmFPeHkxZW96VHVFZnhnaWVLemF0aFFuRGFCVTVBak5lUGNBMXRUYnNWRjMzbU94V2g4d1ZUalJocDR2UEhVYUlzQ2VIdWgyT2tJNEZWXy1qVzBXbEZxaEgyNi12Wkt4enhoSkE1dmlqLVd0WVQtVkpsblA0NjFwbzU5aFVPMTMyamxPVUhRblF3MF9NOHhWdGVoRXQ3Z0lzeHdtdlVmcTIybWR40gHuAUFVX3lxTFBWU0JJNGhZUE16WVNCallkdGgyejJoOHNzcWtfb2N6N1ZBNDh6cUwxVm1sYlVuTUxtZGVnc0FRcjE3M0NlRkt3emVoRFNlSzJPNVkyTm9WYjEzSjR4Tk82SWJ3elduZWZzR0YxRXFLYWFsR3NVdGpxcjI3elZUbUNIekNlSk9NNHhZQmZ6XzRWZENWNHBOdWtlVUZQb1MySWFJOEZVNjdDMzJuVVVNbE04MFI1ZEIweDdtbENhcmFaek10ZUFnU3lWME9XNW1kb2R3QjNlcVppY2hUZ3pUQkFjZ013LXgxWG83bjR0MWc?oc=5"
+        },
+        {
+          "titulo": "Estas son las 5 carreras que se han incorporado en el examen de admisión 2026-II de la UNI - El Comercio Perú",
+          "fuente": "El Comercio Perú",
+          "fecha_publicacion": "2026-07-13T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaThTUWs5V21UUlZSdGRDQWZqRnY2dEwwaTVaVllfZlZrcWZmSDg1ZS1UeWFTc2c2Q1ZFNUtMYkE2Wjg1c0NXazA3VWtFS0hMUWlpeGpsTXoxRzZ0Q1FwU0F0NE5VYllnQW00OFZXZU9YNndQTW1qYmJxeVV6blZqMThLS2dHX2FiTGd3NUpoVndldDZlbzZoeVEzUnNPbVJ1MHYyakhiOFRvSWx5Ri1ySEtJV2lzTW5VLWN6dGUtUHR5U0FNVGZvWEZxTmRpeHlETzFyY2ZLbUU?oc=5"
+        },
+        {
+          "titulo": "La Universidad Nacional de Ingeniería anunció fecha de su examen de admisión - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-06-11T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM1l4b0ZoanE2OFhiQTlFdmdJNmIxemFZazFWc0ZWaHgycXR3WE1ReG14YVFra0FpeS1UNVJWS0RKQjAxbUZ2ZmQ3cGtscEFodXlnN3dMUjFDaS1YZ21KWkk0bGRTWUFRZDQta1VNd0NQN3Jfck5VbVNtUnZUeVFsWldKVV9jbFY1Tkl3clMxU1l1c00tWXNfYzNsT3gyZEFwWjdNcXZXRzJrb1EzdllRSlNrTjJ2WWRs0gHTAUFVX3lxTFBiR1d2Y0J0ak1DdGlrb0R6b2loRFVmRDhLdGtXUHQ0TEZuZ3hzdXR3MkE5MTJWTEF0QVNQZGdueTNUS3JwUjFZQ0dZdnN5eGpDTEJYVlpzQXJSWlMySzRsbEpUcUozWWZkVnl1WENZR0VubWxTT0dVNTlIOFRnRnozeVpTdFM5RGpVUXBjVWtQYjBIVkFKRlQ5YXFGYnhZVmk1UTlzMEZIejRIcTlYdXU3YmRSWmd5SW9aSFFiY2NfRHEtV3YxMlJ1WWdpSUFXMm5PSW8?oc=5"
+        },
+        {
+          "titulo": "Admisión 2026-II UNI: incorporan cinco carreras para afrontar los desafíos tecnológicos - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-07-12T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTnVnYU56WlJfRFhuRy1pcGVjU0Q3Wkw5c292QXFtREg4am9jZTZpcGZlQjFDZkFJQmdQTUdYcnhCTzB1WjdDNzJNQ3lpd29yQ2ZNcnpsdUVaMUlEWFVGRWJmOE9JVkdfckM5RUtyTEg2Uy1CS0lFR292Qm9tUjZ4QThfZ0Jvcm5sQlItSlJSSEMzWWlENGpGWld3R0RxdEtSdkJ6aHVMOTZ4YVhOcW5xMUdpanNPby01UTFVa1F6NkV3TmJ6OHZSQWZvc0s?oc=5"
+        },
+        {
+          "titulo": "UNI lanza cinco carreras nuevas en su examen de admisión 2026-II: incluye ingeniería de IA, biomédica y urbanismo - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-20T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOaDNGenVNMkZxaVNzMVpzVFBYbDdvRlpzYWNxdHBMcnVDaFhsMks0QXVEeXluczZFM3BWblpFdWN0NjFKMGRCT3k4OXhxUUppYzVHbW9fbG1kZ05mUWJnQzRGU3QxNjgxQlBXQ0VWX0ZFNE92Ync0NzVYMExROHlSdWo5RUtxMktPWjhadm9iaVhrZHlKRDVjSzY3ZGpmbV9KRGVFV1FvQzl6LUpaenZ4eThHd3ZDYmoxSTVnVzFpTVdFNzA1U3pwSEI2aTUxZnNWOFdxaEdUeVl5dms1cmxQSHMzRlpGSVpJWjZDYkFFeXZKUdIB9wFBVV95cUxQWXpzSks5R2FXdXhKT0xBQ1g5NllVQVBFMDdWS0d5ZVAzV1EzbkttU3g3LUhuV09Ra21FWGlfdlJwRzc0UDFaR2NrcTd6R0QxcE93RGVQWE4xMllTMlhtWTgzY0lnT2JRNExlRVctTm1QNWRJdVVOWFRBQXo2bFRoMWE0T2gtWUZMN1RDRm41TTRqWk5iMHAySE1Bd1lUak83ekFWM2syLTdlLWdlZnd1NXlRQkpfX2QzbDNHWTVLSmRSRnEyRXprZ2NSa1hyOUFJSkh1NjNiampmNl9EVkxOZ0hnSjF3bXlZRFM2Sko4T2xmOFd6UkQ4?oc=5"
+        },
+        {
+          "titulo": "Examen de admisión 2026-II UNI: las fechas y requisitos - Gestión",
+          "fuente": "Gestión",
+          "fecha_publicacion": "2026-06-29T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDcxUWFwc25BeU9xV2Z0VHdTSWh5SGtpSEhWT2tjWVg3SUFDM1BNZlR0SEFjaUdXMGJfd2FHWHU4Rlcwc0N0aS1uZ3FuSEo0RmZ3TVY2WXJNdEoxZjR3UWhDVFVJVTREV3hlcUlldU5FRXI1TW9meWhELWhaYTVVNVhacnFaVkdjX0l3SF9Oc1NXVHFHMHBTczRvakRRZl9GSXdsam1B?oc=5"
+        },
+        {
+          "titulo": "Examen de admisión UNI 2026-II: fechas, vacantes y requisitos para postular a una de las universidades más competitivas del Perú - Revista Caretas",
+          "fuente": "Revista Caretas",
+          "fecha_publicacion": "2026-06-12T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPR1lfMHRGQ1hwMjN2ZDRJN3kyRW5iMXlmYk16VFdmUFpscWliT3JFd3p4cmhaQThPN3JwdXB3a1doeGVhOU5MMzJEbHc2eVhqbFNreXVIbmJRX0RqaEhvd0ZGWHM3NXhzRmpMZzh4ajNLRmFKWEVEeHlkWHdWOUxOMjJqLUZnSUpMRkJYSGxvcnVNeVhiNDdlRV8tMU1TUmw2YWU5dVRRZVRzRGhHQ2xtb2ZfT016b0FUZ1U4T1FGSTRnM2RJMzU3akZ2Rjg4aXVkeXFvbHZrb2gtRHFyZzUtcndkWGdrQ0MzWHVNVQ?oc=5"
+        },
+        {
+          "titulo": "UNI anuncia examen de admisión 2026-II: conozca las fechas, requisitos, costos de inscripción y el cronograma oficial para postular - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-06-29T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZUpPVGtDQUtmX2U1emRHbE1US21XMnRHeGdaQ21rV2xCTEtIV0pabjhtRU5WTmkxTTVHcTE3WWVnamtOX0x4LTM3OWIwaGhlcW5GVHJ0Q0Z6NFliSjJPMDBhWFV1REQwLUhVZ1RzaWNUdUpRaXVtaVg0ZmFTLUg3bkZfdWJPaS1mUjh2VW5uQUZ6ZjEzZ1l3Z2NlTkRCT21lMlZaUkNEQ3FTQU5TdVJjOU1XSVpzZEtVZ1oxSjJ4OUlPN05xZW9RNTR4ZVVnOHdDcjdrUmt3TUQtSUZUM0Vfald1azNLSzV2ck4yUlhtWjJjRDFmdk1IcGN0M0lWQdIBmAJBVV95cUxPdW1xVDJCc1pWdW1xeXNzX2xuXzY3RlY3VjJoeUdIT0lwUWk0OFJqZ2NiQWNpMFJEQ0FMTGJlOVd6WFBpazA2Y3RuX1RSVGY2djVlb2M0anZVMzAtM3FDcHpnYXpXd0tITlU4RVRIWEN3OTZjMU4yVWJEVGVSZjRoa1pDc0NwcUN6aWdGQ0xCV3NzWXk5ZU5CTjVoNF9hNUlEREotVVhMVEw5X3l3ejF3ak8xSlRKRi1HQ3NkMi1YMUhxeGh3N2R4TUFWOHZFZEtQNGFsNEtJcHhMVENST0tYZ2Y4SUYycVdMS1pKcDVKTWR5a3lJNnVZa1AzRnYyOHc1aHNPWVFhWGtaWmdFSlZQdlhVZll3R1RJ?oc=5"
+        },
+        {
+          "titulo": "Vacantes UNI 2026: descubre las ingenierías y carreras con más cupos - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-13T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVzh2ZjZ1UUJXRkJzMW16azJ1OWhKRWZSTFh3Q0RMdDE2ZVdyWGh6SnNDOGFnbHRFSXZvQzZ2UFpBYWozRTJUd1FhLTBYMllJaXlHLTdJUUUwYlRUazhZc1dqQjQ1NHNBRXhYQk42SmJ0NnZGZE1MNnFqMEphVU1sNW4yYklRcDdsRWpVdDBOUjVkcVk5TjFCMzQ1a2hwemVWZlhBaEd2ZGNQZ1YxUkNQS1d5Y0JQajhIejVV?oc=5"
+        },
+        {
+          "titulo": "UNI ofrecerá simulacro gratuito del examen de admisión a postulantes que cumplan esta única condición - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-06-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNa3VQUVNZVnk2dFV3VjdBZDdoZG41ejhSNFR6ZmV0WjZIVGhQenpSTE9wLXhtN3J6UDducTNvc01qNFVMWldDQVhJRE1ZWFpoM2JfS0pXVE83X0xOUElrOU4xUFUtZzY2NXZZUFhBTjhPUnRMZUZQWFhfblpqTENkX1VibW5MU1laTVR3RmZlNG1FN3Y1WHBqdDhrU255UmR0YktRenBoVFQwZ0ZqbUpHY3JoakpiQ1hCcFhFWmlmS1FFb3VRQloyUFh5aVd0UkdsZlh2MHRrX2ZmZ2hPYlVWOW53b25ObzlpWlHSAYQCQVVfeXFMTktSLTVRYW5KN2ZCSWgwUXBVMWRvNnhUMDcySnhidlFHNHRMLWM0d0thdkNBSUhQUlljWVBZZEE5YUZ4Mms4cnpPbTV0d3lMNG00T282cXY2Rm9LTE1BOWp1NUdwOXhCLVJ6S281NTBIUHFfaXE3cVRfQzI1OFRJeVlRUE1fM195UXJNbHczazlzZktVajItUVhuTWdKeHhjYWxob1kwNElrMVV6Q1NIbW1TQlJHQm9tdVdwZjlYbXhkTzgtVXpORzM2bmxONEM1RXZSdUZJOXQ2TkllOU84MEluZXpLRUpoc2NYQnlXTWpLUWZhSFI1MUxla0ZxRUxvV3JWQzI?oc=5"
+        },
+        {
+          "titulo": "UNI abre examen de admisión 2026-II: fechas, requisitos y cómo postular a una de las 1.630 vacantes - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-06-12T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdl90R3Nma0lBNmFqNXg0WHRXbkZVRnRIZzNVYWFUbVNhc1RmWlpQa244T1FETkZEOU54LW1idEdDN0pmV3dzakg2c29sNGkyQW1ZMmhyMmpoN3hlZWtiVmJEUUI1Nm1qWjJ2M1A3bm1EX3Q0emtDZW5jYU1sX25FNzd4UWhPMVZ6MG5RUVkySmIyNDlYMWZJN3JQUDFra0NOMkVNZFloZE0xZUVxX21wSzh4dzVpaG9ucVdFUURXak82a0hIbnZsZnNRaENpOVlzTHgtSmR1d1FUemtsWEHSAeMBQVVfeXFMTmpjN0tlcEZsaDVPLUN5MHdob1ltS1JCUDMycXVWc2UwV3lpZ0I2OGRJU0c5NmxDZ0NqZnByRmlHcGlHOFhyQ0l1T20zTU9TZEhMa3ZURzVwdjVOZEdnNm9nZXFyWWNEMGtVengxRThQZU9BdzNlQWhfSTFmRnEtS1JsVFR1YS0wUmtGVE5sWXpQM1RPRGkzT3JyVjU1X1FieEJsR0Z5VkcyMXBqVWlUZXBtN0dxVXdGR2dES2dRQXVOek1uaVQ4Q2NXM3RiUUpPUkpWZlVzaV9KOWt6SjBYR19RaUU?oc=5"
+        },
+        {
+          "titulo": "UNI lanza examen de admisión 2026-II: conoce las fechas, costos de inscripción y requisitos para postular - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-06-29T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRWpHOEQ0MGttOG9yUHBSdjRHYV9RQnFVOFJxa3g5M1R2MENhc3dyRkpJUmxBREk5aEQxeWhwNVR2T09CSEV5Sk9ReHBUcGhkYUU0al9vSXhieHMwandmanBLbExvX0RuRnc0ZzlpNkR4ZUl0NDY2U3IzSU1qOS1INTRWYXRFVWtLWTN3bExqU2V1b3RjcUxpZmpzUWl4UTMxUHQ2bmZCMzBtZEZnbWNHTU5jZFRsVlNuSkMteUtEMk1iYmZTcWVnRS0xY0NLbk5zZmcwN1JfVGNfTHNjMGxaZWI2TVpjemlI0gHuAUFVX3lxTE9QOGlOZjlhNjNSMTdwX2xHdmhWVWY4VmloakMzUGZhb3h1RG9CbXF4RXF5MUs5b2MybjZxck5LbTVyXzBKdEFQOVZVR0xxLTc4Z3VGWktDbVBqbWR5YV9JYnRjTHhCZlFsemVMbEt3bV9BWmRMQjRQMkh2QVJaZi1SMkxGUU9fSWVJMEpSa0U0UTBzX21yTVNPT2hZVGJ5dVREckxwRkV3dDBaenloUWMtRHBVZ05qZTcyTGRpU0FFYkJQLXc1WmVFbUVQMmo3Z3lKdlVzdndzazQ1b1FZNVkwZEJLeTNIZ0ZuZllsd0E?oc=5"
+        },
+        {
+          "titulo": "Examen de admisión UNI 2026-II: así podrás acceder gratis al simulacro presencial de julio - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-06-13T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWE3VUlVOUpwaFM3Qm9iWnRDNDE5TE5RRGZMdmxyUmNLaTZxYTdRVTV4MVdDTjNzSS1JRW51bGRCZzZlOE1ERFB3dEZQOFlqUFNWOVN5aGlkZmxxUnhpWlNmUjIzODA4UHJfSmJHZFNNT1E1RmtpckU2ekNpUEFZQ055TnhqaThlb1RfUi1Ya2JpVUZaUFkzRjBtX1YwZ0hIcW9ZWFlNdXdOV2RwZ05sVWlYQWJfUUlJTlZFY1U4Z0VyMHhvcmVTZnNRZUE4cDhQekVCRdIB2gFBVV95cUxQVldvVnR3MkFQNEVQU1VPc2NORXRBcXZ5c050eEI4SG51Z1NLZ3cyemV0SXMzdldLb1dPSHBzWjFuajl3aVFLSklFVUIxUDZvdjZRbWpvRGpTQmtoaUNPZVVEXzBFcXk3azdwTkNwd1M2aUNZbVltRGZRWGxHMUk1dENvUEN5VXpIMkFMNEdOc1BVeGRucWdFZzZVOThfSUo0NzI3em85ZVBqeTJJWXRBdHUxLXBoX3BLRklJTm1XV0Z5NlNFYk5uaHQ4ZFJPQlN4MUJkSkZHUFpXQQ?oc=5"
+        },
+        {
+          "titulo": "Examen de admisión UNI 2026 II: solo estos postulantes podrán acceder al simulacro totalmente gratis - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-06-18T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTC1GQjRmY3A1Q1VoYk5PQURWeUNiLUVGakRyMnRZb2VKb3JkdU01VXZQMHYwNUZTWVdhc2Q2dHVkVGYwLWpyUW4zbWNEcVFZM1RzWDRSeXdIU3YtLV82bG5WY2dUNHNMT01PUFl1YWYtMlpGQ0FoLUJoSUVlbnk5UEg4b0RkZ0lXa0Q3OUxrcGNnQUVNOVVqNWpXVFVwZXpWQ3M0ZUJhbVVtbkJLVS1DUDVsaGlxOHI2eWlZZjdBTFY0VXpmdENqeVZIWl80aTJvcEhQSTBKdTZfMEdBWHlXRGlYRdIB6AFBVV95cUxNRHJIbGhvOTdvS0hBZG50TW1OZDZvZ1RCd29SaFk4emJXQktrTW80c1Bxa3otQ1R1eVhQNDgwcVNGV2p1RThjaVVhZDFNVFRPNnVwd3V3VDNoVTBZODVxMlRQVDVROG5HMWdFZjRGem9ycXJQc0RVQ2U1SzZIaHV5ME5EbzdmOERybmhubVdpM1RVbXp6enVTQVhjcVgxX08wTHhHR1BVUGpGOC10VExEajdYcmxCOGZucVlDRmthU1I2b1B2ZGl5cHlJX0NoSlVWZlBoQ2FGS1IzT2VlSGd1WjcyRXhRU1Mz?oc=5"
+        },
+        {
+          "titulo": "UNI realizará su Examen de Admisión 2026-II los días 10, 12 y 14 de agosto: Inscripciones serán hasta el 31 de julio - diariouno.pe",
+          "fuente": "diariouno.pe",
+          "fecha_publicacion": "2026-06-15T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOc1phTHBRR24zUVhYY0FKVklJVW5yUWhnV1Zoc2FjemhfZ1Mtb2ZnalJNNjNrYXBiRWhwN2ZQTHJHbkFjQzZ4cnQ4N0lsd0pZbjlZQnFUdkU2Tllsd1dZNVNpMnRlUnNhOEloWUNiSFNFcHpjc3RMT1pFOEg5dGVhRktfQU5kRHZsMkNydVVieGNrUTRnZXJuMjNZWmlaQ3FSSVh0ZndjbHhEbnRQa041WHNyZHpILS1KZTl6em56THB5MXI4SzRPSmlSOU5FVlgwNTZFdnRvSnltMTdtdmdvcQ?oc=5"
+        }
+      ]
+    },
+    "UCV": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-23"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "UCV reúne a expertos internacionales para debatir sobre cirugía estética y responsabilidad civil - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-27T01:40:00",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNUw3YzhJa0NTbVV4Z0xsVWJrYjAxcnpIaU54ZzhLb1JBc3V2WmMwdUxaTjhoRnhWRUFqalpfNDd6QXdSRm5ra3Z3R3Z3bzV6V1pLOVh0WlZWR21yV19wbGJjY0JBUVowbGRsSmtOWjczamxOa3NYQk9wb19rZEhZMnVvN3ljSGxOd0d1NW1uTmMyNUJrS18tckdNWHk3TjBlbFlRLUg1ZkdRMHhzbkpxQW9GcndtdVQwZHhfSWxCWlZ1bGgyVmZETjJDN3lpeGROaWVDMXhDX1JOSmg2UHlpcw?oc=5"
+        }
+      ]
+    },
+    "UPC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-08"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Qué hacer con la gratificación de julio 2026: ¿Ahorrar, invertir o pagar deudas? - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOEdaaXo5b2FaWmtOWDVBbmktb0dmVm9hLWQzd1VRaU8wOTVCLVZNbk04NmtzYm9DX3hKWWpPOE1Ta2swdHFmaUJ1ZmVFc2N6N1l4YXBVWDZ6ZlBRU1IzcXV2azVMLUY3RGRpOFlNb0FvbFotS0lrcDlJWmtUbk9IM0dETGhFZ0FNd0s3eXUzMkhJUks4OUtyRmRNU3NjUGlCcWlzQUlyZ013bUVlaFdfQlhDN0xHSVBi?oc=5"
+        },
+        {
+          "titulo": "Gratificación de Fiestas Patrias 2026: ¿Conviene pagar la tarjeta de crédito o ahorrar? - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-08T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNGNSR2hSV1lCNjl0X0NnNHpXcUsybUM0eTI1aXZhR0VRYkhXR0xJTURFN0dsN2VXaTZ3N2FMMmxWY25NeUxGSnJwMF80UDJuY1lFVG92NTZGX1lCUjVheEh4Wmw5dlNHVU9mWU5tR2wtMVhvTmdLeWgwRzl1WTZZU085MXJsekFlMG1UWlVSVTRRbUxpU1NRcFp4MmV5b2JwNnpUMzRoTEYwZDJHY090YkFnQ29temlRUWFUeUc4VGI5SWfSAd4BQVVfeXFMTy1QTVRZMkhJV3dmRDN6bzhTcThEd2V4TlZLazZJWFhfdFBRWlM1aU01LU1uMTRaclFiLVhjLUJIUHRlMjVNNTgyYmpSRXd5UHpDQlg5dVl5TXJLWnNkQTNRYjBMa3RrdHhScDBHdjVMc2xyT19tbUtRQXdzVXI5ZDBMOG9XVy1pd0NUZ3dCVk04LTQwVVJGMHhxZWtFMFJfcVRBUEFwWnhKWmhUQ29VdmU2Q1RaYzd6TERDLWZhM29NMFJvb3BiQkt6aF9lV3BCbnJtZGFxSEdKeHhkMkp3?oc=5"
+        },
+        {
+          "titulo": "¿En qué gastar la gratificación de julio? Estas son las principales recomendaciones dependiendo de tu situación económica - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-04T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQOE9vZDZHRU53UWxyNmtmcUNBSjcwMWFzam1hNzctZWZVRGdZQzBOVGJRUGJzZ2dUaklPd1c4SDJBTmZvZ2pLMmJtbHVQaDVxQnA1TEZVUG44M25sYm10T3VOY0VVdm9pWVhGZEZXNU9XMS1WNGh3YllUYmNWbmozTUV4RDc0VjFaTjR3X3A1ZW95d194aWlTYzFiMGlmYUFONHpNTGtlRXNHaV9HUWl5SFJLTlFJQl96RjJZb213QXB4dmhjQkczYzdRMmx4ejlUVlZhdXRzWHlfeGVLUmN4cDJWb2xmbzU1VzJEYjBlMzQyZ9IBjAJBVV95cUxPVjJFQUxYekloUVljeHZ3M1NlTmZNVDhneGpuNFFHUFJCMXNSMHZOdnE0dGpyTjJMbWFldEs5dEFUN3VwejBYNmFyTVhqV2w5dnJrSFBVOV8wdkpSck5Uazkwd2ZjWWkxNWxIbUpfdzVqREMyaHJtd0ZvNThSai05dWJfa3FyVWszb2tSWjYtOTcyeXh5UTA5czdfLUsxNWlnRlZJN2ZYSFd4VTVRZkNmdW1pQllWQlN6SUg5OUo0NUNsRkZycFNrUzZQMHNzR3dobmpOMVA4MWtkTkVnYzBNQl9aZXBrWXdzb2s2dlctQnFIakV1c0JzaklHVlpyejhGUnBrYmd5UWZrTGVu?oc=5"
+        },
+        {
+          "titulo": "¿Cómo usar la gratificación de julio para salir de deudas más rápido? - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX1RYVElGX01Vb2hzMVU5WGxUMERGUW54Z19XeW5jSC1rM0dHa1ZvdFBiRThUMGVVTG05aGtoVWJNdlNpUWdQV1NVM0E1a0VFT1RCSzhlVndWU2p6UDFRc1pxLThzT2cwZHlBR21YVUZtRFFUU2NLcTc1eGhRbzRNenkxX0NSZElvQmZ1ZUhPcXRFLTVNX0pEMElKV1FIbE55VkJjTzd1cFhNOWFP0gHHAUFVX3lxTE5CNzNJb0xocU1xYWxWcTN0NGJNUFhUU0RKX2phUERRM1NYRDlUT0pIZjBxSnR2bkNSeHItYTVsaGZ2RENhUDFPYWxrekVYam55RXE4ZnFpMGlzWHFXa0xvS3MwUHZaY0pYUHV1cWVma2xQa19KbUdKRjJpVVJtNFh1cDg5ZUNfeWc4WHBLTFJMLWVLdzVtNUg3UHYtMTBpSk80VmRjdEZjSjlRdnF1eWoxWFV6YVhLd0xzV0NuM0dlOGNxc3VWSXM?oc=5"
+        }
+      ]
+    },
+    "URP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-07"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Diez maestros latinoamericanos de la quena ofrecerán conciertos y talleres gratuitos - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-06-15T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMlJGdzEwT0V2TVlrZjAzU2dZN05VMlQtbC1BTER6RzRqeWcyTV8yazdrZGI4c2kxXzlsU19GSWFOMFZjbEhsQTJEX0pEM1FhQ0hlMVBkc1o0Ni1ocEdDdDl4SUxyUUlaZnM3VW1rWXcxM2xHYmExR3BrYkUxY1VXYjROb1kyX2d6SmxXYVUzMEpkSXpJZXZSc1RVY2E5cktLZDFQV3E4TUpSOS05dTV2U291WTZCQ0MtWXlCelZGNGotc1Bjb2U0?oc=5"
+        },
+        {
+          "titulo": "Instituto Confucio presenta lo mejor de su oferta académica en Gran Feria de Embajadas de Perú - 新华网",
+          "fuente": "新华网",
+          "fecha_publicacion": "2026-05-31T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkbm5Jb2JiMW5lRjlLYTM2Rzk3QWpkamRWcDRwdnRzNnNfREMzYkxHOVBEdHpuazV6RjRsVmp2Rk1TbTZUalY4UWVPUmtDS21Bb1ZiSVVOQlo0TFNPUEVnNzdsNjJ6cjllbXVPbmtadkhlVHh2clJtaDRlYm8?oc=5"
+        },
+        {
+          "titulo": "Feria Internacional del Libro de Lima 2026: nueva sede, oferta en el primer día y transporte totalmente gratuito - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-06-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWHpxVEZoQ0hORUg3X2UwNWk5NlZ3TVBGeXhyajduWGYxdzFnNG13WmVPaU9kVlplY2pxb2ZNUnNrWmNlVU9mNy1lWFhaN0FNUHN4YWJGQkFhNzE2STB3Tnd5Nmp6TmxoM2RyNE1QZ0VMaFNzdEdWME9QS2I2aHFIZWVRdmdWd0lfZFprQ21KV0dDY1FUaXZXTTJBUmRpcm9IRXBuN3pxeElvN0ZhUk5UXzFGREhxbkU2cjVPX2VfWkhkZkhUSWJzOFJnb3FoYl82SXJmMUZIZnNTLXF0bVh1RXpqNFg2UdIBgAJBVV95cUxNdlJJS3ZvaGVtNGFXQlJOSHZfcFVpNjVxWlBYSWd2QWhkV2xrdEhVQXhGV1EyTWlLcUxKcnpsZzJsWFZpTU05RXpxTndZTlZHWXlSYWVoNmF4ZTZjRlp6am1Rc1N2R2EwQ1BwbWZRTGdPeTBieUJCOS1tb3NldzNYUmFhWFlxMXVHbm9OclJfTGNfUnVvUVR4Y3h5cVhpZEI5a3ZVWU80Z3NhWU9XTno0YURWcE5oUDAxUXdNN242TlB4SW9EZDI3Vm1USGpnRGVwVE1Ta1MxR3UxMXp4M0g0WUQ4cExhakp1dW9DSTc2Z0pjckpibHdQTXlKMWltdjBi?oc=5"
+        },
+        {
+          "titulo": "Especial: Final nacional del concurso internacional Puente Chino emociona a peruanos - 新华网",
+          "fuente": "新华网",
+          "fecha_publicacion": "2026-06-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTd1JsMmxrNEJwMHlrSG9xUmpvTFpoT19KVFV2clBjUFdra0l6TFcwaUpTRXNPUElsVEplYUtRZVEwWkp6Mm81VnRzZkNFYXpsTmNHR1hVLXJ4Rlg2akpQVjFnTGMzc2I3bXJvLUIteTB4aVQ2QXNEWVRxeEM?oc=5"
+        }
+      ]
+    },
+    "UPCH": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-09-13"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "El Mundial 2026 abre la cancha: cómo los pequeños negocios están desplazando a los grandes “jugadores” del Perú - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-06-15T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRG9JRWRLWlBGS0xudDZpUl9JSkFadm5yOGI3YlBmWHdCS2RXVHR5UEhFUmx2ZU5QRXJuLUpHMlFGY1ZUSXRVaWtlRTVFMFVPOHhTNGhKYUVURVFldnFxU284VDBLLUt3OG11N2wzRDBkSjlHSzE0SUZXZGJPZFctZ1pvNFVsbl9rU1ZWbnh2UHZMZW81VmRRN3JuVFVqUmhiTHB3VnlFcUJ3c2NTZjRaV1F4RjhRaXh1d2lOcTRyUnc0alFmT2ZXMkVWTHJ3TDVlNG15QXBwOUlvWXF2TjVGZENSQdIB_gFBVV95cUxQYWVoR0tmMG8tRWtXTVdNcXFySDFqVEFTVDFGUjc5LTk0RWdyS3VlREpmaXRtTlJNX3hiM21aYWk5VGNNUGlBaWM4OXRINTJtOGpuenpIcDlhcTc1YWN6RUswQXEybUpVMENuM0QtRWhmTnc2UDdwRTBkNmJfNlIwSFVNbU5iRGlsRlYzcmhrUjgwY05LajdSenpFc25YMFIyQ01vdlR4emdYZU9oUjFuNlA4X0gxR0c3NHREU1UxS2tZekdtd1RPM2RaUklMVU5aWWRsVjZjV3Y2ZWFidmpjOHdCOVRYSVR2M3B5cjZJdkF5eU1OT2pGUGh0eEliUQ?oc=5"
+        }
+      ]
+    },
+    "ENP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Postulación a la Marina de Guerra del Perú 2027: requisitos, examen de admisión, sueldo y fecha límite - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-06T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWklYWm1qWGVlVVMyaThjQmxsMlRxc00tUXphU3Vqby1MNnJpUWFTWHhQYzRUcTRnbDdOcUc2ckx0aDJwbzVhbGRqRkpNZlZtUG4yNHlCcHR2dkVxUzhJb0tiVHpodG5rNnBmVDBKNTNLNEtWU2ZiSXdqYk1aZU5WOWNXMnU0NlM0UzN0NF9PMnVXMERPWDU2NXJfanNfOGN4NG5jZUNhSGM3UU84d2tyUmlJdUN0aXZIYVZ2Q2poMVN6ajFFcHRjRnpsaE8zVEdyNnfSAewBQVVfeXFMTnprZGNQOGdpeEFhVVRxWUR1VTRuU0lGMmpaTDMzeDd4NlJrbWpiS1JWcjB2RWptODRXeFZodWxDU2RHS085MzQ4MjJBcHlIdE1SY1ZLVWx3SVRNSlFON3pjM1VHajZOMlAzUE5XMkwzV00zdld5UWpuaTNuVW91OHBTTmdFNWl5Z1o4bV8zZXBMcndrR1AxZWtucVdid01WOUhGT3BNZ3JaQWR2Q25VVXgxUXExbGIzZDB1ajJ4SzFFeFE2OHRaT3BBSmRHX0xGSkp6N0kycUh3bXJZTlVJb29kV2lPYUlsM19SYTk?oc=5"
+        },
+        {
+          "titulo": "Admisión 2027 de la Marina de Guerra del Perú: requisitos para postular a la Escuela Naval y beneficios para los estudiantes - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-09T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTmhmRjhtM2E0VjdUMWk0bE1vYmM1eTJOQ1ZFUXdrVE96TmRaNFEyTUtOUDYwejFRazRsNGlYbTREaTlqcjBZUUJvYTNnRkZaa0tEZnZOdldDWjdBZjRRdjNmQkJGdjU1UzROVUlrNEtlcVAwOFJXRUN4eDV4anNVQ2tMSjV0dU9KWF9TYkJlOHNnWGNtV2hRalhkeTlHWW1aSkw0MXg3MVJjbS1YUGdTVVZibS01SHNHT3RablJZUERHSGxWdnZJTHpaa1dOUzFpUks2T1YzbHJpRWlLblJXVjk4MnVaOWt6UVhjUW90MNIB9AFBVV95cUxOdzBOWC1udkxLUzFyaDEyaU15TkFJMDYxdlNOaTBVRG8xZTlvUklNZThSS2lJUUs0Z0ZBRkdGVFR1aDBvclRsVkloRkppMWdKNEk1MXVJVEJNT1N1S0ZzY0NIVE5BTnVPZTAwNTRNNzh5amNsN2E2OXdqX28tSW5pRFpUclBnUlJIdFRabUZzWFNLVVN2d09GbkJpZTdaRXI2VFRnay00aTBDRnlhdEJMTVJ5dW84QktBUE5KTEQtc2hpNzNVZmcxTVZOUWVIV190TWx4TFpWNUE5WjgwbE5CNDZXRTZHby12dTRwTjZjN0gzdUdK?oc=5"
+        },
+        {
+          "titulo": "Escuela Naval 2027: requisitos y cómo postular a la Marina de Guerra del Perú - El Comercio Perú",
+          "fuente": "El Comercio Perú",
+          "fecha_publicacion": "2026-07-08T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVllRdFNxUmNpbGl4VzNpSHQ2WWdvcWstekk3bzAwRFlQUE5lVWNxaVM4S3NXZHRxZ2U4dHJzeHpadlNweS1HUE9wOVp3STN4Y3ZMVHYzZFdjWWdFcjlHNVdMYW9keHRNRWI4QU9VdDVNV0hENHBaZm1BUmNTMFU4ejdVUzBLZEFKcTRxU3FROTJmWDlpQkFrSVNoUHJrUmFtTGJodVNHcVpISVlFYXpoV2xFUXNYR0ZqYkUxVnNSeHB0ekt6WXBtNkM0R1IwSV96OFN3ejNrVmtHbUczRVE?oc=5"
+        },
+        {
+          "titulo": "Admisión 2027 en la Marina de Guerra: todo lo que debes saber para postular a la Escuela Naval del Perú - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-03T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONGRRbnROMzRtdmFRRzd0SjZMOVdGWjNjQ2FWdG8xLTJ5Wld5Rzl0dmpmcFl3aFB1Sm14bUNGSGtRVTY0akJuVFk4aUROUm9YNkQwUFJpenFmNDZEd0lHZEdUV2NQdDJIWmZESFlqNGY2MHktdlVpd0VwSi0yNnA1TlJKd29nd1NQVEpoZ2QzcHdTeDVOT1JaTkNRcGxjUkVUV0NwUkxRQW42OThTVnBSX2pSLU8xeF90VnVZVzBuMlZXUHpqNjBoeDNvZVlMS0xOR1YtZlZNUFBjdk3SAfYBQVVfeXFMTTlma3pCLXpFem9teHV5NllLT3JUSWpFVHJkRGxNQVBEQ2txSkhqT1pIV0pDTkJLWkhjNm1GZm9kVENhVkdPcDRLWkVLSXhJcDVER2R6UjI1TGt0M2xJMXdxTHE5bzRNTEVVMzEyWU9rSVNQUjRCOXg5bHJadzdxd1BPY3VZbHdYSTJDLWt2TEF0QllFMUNQN1pHYzdyb2xVUTUxQnVNeFFUYjZNRTJqNkFCekF0bmFJUUtYYnRDQUZLQzdYUGhZaS1QSG9HeGhTZFNLSTZkMEczV2lIaHJtV1ZZY3lXamNGQ0pDLTVyYVVnVWs1ckRR?oc=5"
+        },
+        {
+          "titulo": "Escuela Naval del Perú: conoce los requisitos para acceder a una de las 100 vacantes - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-07-01T21:23:48",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeDVsYktscDVtaVo1Nkd5RHZnVVdha2l0ZE16VlZVTkpDTDZudWxPdE16VlpDOVRoOWpWZXdNZEV1b1ZSWWdkNm1hTHJlVlBLUEN1YW9NaThmSER1M3M3bHZtdHJkLUV6cjlKdDd2cDBvV2toTUhvUXZvNFd4VUwyN01ELUdVMHJNX0lheXhIMXo5d3ZGcHVjUHRfT0l0V1BOWWZ3b1M2ZWNpcVdyZWxkb3liRkg4VHltVUExSFhtUzM?oc=5"
+        },
+        {
+          "titulo": "Marina de Guerra del Perú: ¿cómo postular a la Escuela Naval y cuáles son los requisitos? - RPP",
+          "fuente": "RPP",
+          "fecha_publicacion": "2026-06-26T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX2xuSGZ0eEpNUS14bmlMMkpUNWRmRXI4V3NSeGNWNnpNbmYwYTNLOUNDTnN5cDJ3QVQ3b2cySUNnSWVjUkdCN1R5VjBHWlMwS25lMU1WYzd5R1JhTkFBeHlmMTRYdFp2TXhsdXIwQUtWSlExNFhJd2xnZjNmeGw2SEVTTjg2dzUwamc5UXl1Nzc0UW5KcXFzWlctRUd0TWRNbmlQVU5xTTItaGxEOEExYUtmTGFwLTlWYkFPVWExWjN3endBTlBBcW5VWkV6SzRo?oc=5"
+        },
+        {
+          "titulo": "B. A. P. Unión participa en Sail 250 de Nueva York - El Peruano",
+          "fuente": "El Peruano",
+          "fecha_publicacion": "2026-07-05T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdEFhZmF2WXRmRlZINEY1UXNtWFdwMUVPb0RVVmJGeUNuUzlQbjljcHppLUo3WWI4dlYwSW5mVVdfQ1pzSGdUU3FMdDhfQzRINGRYVUc0dlBTZnlHcDBYVmlwbUNaTEJDXzFQV3ZJMkltazUxbXhNYkRodGlFOUhqcHpqeDc0Sl96Nkk0?oc=5"
+        },
+        {
+          "titulo": "Bombero compara el rescate de una persona con vida con el milagro de un parto - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-07-06T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTTIxT2VMX2tnT1BHeTF2S05tcmxOWGpVclFvRllxdFhFNFJ1SWZVb0UxVkNocEdQRG1Mb0NMN1NqX2UyVW8tOUpBQjZHMklrU3JDUFBmcFJlMktZXzA0eEh2Sk9Td2Q3VEZaSUVrSU5ZeHo5bjg4ZEdFd256bl9QQkhrT0gwN3hXbGZsZkE1OEllUUZaS3gzbFY4LTUzS1Q3cmJkWGJoUUhQMThR?oc=5"
+        }
+      ]
+    },
+    "ESOFA": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "🔵⚪ FAP rinde homenaje por los 85 años de la inmolación de José Abelardo Quiñones 📲 Lee la nota completa aquí: https://shorturl.at/uD0yx - instagram.com",
+          "fuente": "instagram.com",
+          "fecha_publicacion": "2026-07-23T20:47:28",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zTWZMVWx2STY1dWczT2FZYUJPX2thY1hFc0ZtcjdnUTVwS0xKNUlQQmFPdlVBRmlabl9fbTJVZWFEdUJoRDdvVU1RZzZXWi11dU1kelNB?oc=5"
+        }
+      ]
+    },
+    "EO-PNP": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Contraloría denuncia «alteraciones» en registros de peso de postulantes a Escuela de Oficiales PNP: 17 candidatos habrían sido favorecidos al consignarse pesos menores - LP | Pasión por el Derecho",
+          "fuente": "LP | Pasión por el Derecho",
+          "fecha_publicacion": "2026-07-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRm4tTEVPMkpjc1dzVGxwUURJUlR4b2hKdWUtNjdoNlpCb0FVWE5uSVh3ck5Hdmtnd1Z3N0YwekNnYkNKZ2tIci05SUQ5VG9wSXZqODFZbEt6MTBHQ2Q3NzEzYng0bzJ2Ym9NMGZjem81NjhOV0pTMUt2QzFqODN1SHQ4cmVOa2djUks5NjU2NnY4MnZJLWpHQkNYNUdVTkNVUXh2YkJHQXRkZTJoR3B3YjFTWTFoalhYZExnMDdwVl9vZ19pTnZpOTZGMkNVU2MwYlNBdXFwQTh6Q0dNN3d2ZXhILWFDSDVaUXFYR0E0VzRlQkh1OWQwczRXWS1zQQ?oc=5"
+        },
+        {
+          "titulo": "Admisión a la PNP bajo sospecha: Contraloría denuncia alteración de registros oficiales - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnBzX1VpbUVuUTljdWpjZDd4RXU0NWFfMWpJX0tBY1ppNjFEcjVOUENQYUFkMUNJVHZiSFczeFVDZy1sRlU5NGhteVVqNlhMTGJFWkhlcEM3QlJsN1RfSVl2WVVaaHhiU28xT2o4OUUzZlpLVXQyd3o1QlJuRWhWMC1ZRkxxRG1oMVVIMkJVQjJDaGZpZHB2eDFKS0ltVHRJUThERFB2bUc0UW5hSGtjQUhTQ2MxeW9JUkhjcHNSSTJtcXlucFHSAeABQVVfeXFMUFd4M1l5QnJsSTIwYVJHdUNwdGtzcEttNnFZLVhuWUIyZ2N2VUxOTmc5N1JxUkFubUlzeUtWNWFwcXVzeGFGcjFFZHBRejJzUWhSSXpFc0d3M1k2a1VWVFRadmttRWhVbWtBRUVlb0c2bjltd1J6UGZIbmFkR0hQMjZ3T0pMVEdmd1VzamNnUFlIUWdVOEdISmtsamNXLVJybmR4ZnlKU0ZCRUR2Nno1eHdnLWpEejFWcTdIa0IwWmFlNU1rajhaeEdpbEZTWlpabmZYWHBCTDhGWWtMWFc2U0U?oc=5"
+        }
+      ]
+    },
+    "EESTP-PNP": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Contraloría denuncia «alteraciones» en registros de peso de postulantes a Escuela de Oficiales PNP: 17 candidatos habrían sido favorecidos al consignarse pesos menores - LP | Pasión por el Derecho",
+          "fuente": "LP | Pasión por el Derecho",
+          "fecha_publicacion": "2026-07-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRm4tTEVPMkpjc1dzVGxwUURJUlR4b2hKdWUtNjdoNlpCb0FVWE5uSVh3ck5Hdmtnd1Z3N0YwekNnYkNKZ2tIci05SUQ5VG9wSXZqODFZbEt6MTBHQ2Q3NzEzYng0bzJ2Ym9NMGZjem81NjhOV0pTMUt2QzFqODN1SHQ4cmVOa2djUks5NjU2NnY4MnZJLWpHQkNYNUdVTkNVUXh2YkJHQXRkZTJoR3B3YjFTWTFoalhYZExnMDdwVl9vZ19pTnZpOTZGMkNVU2MwYlNBdXFwQTh6Q0dNN3d2ZXhILWFDSDVaUXFYR0E0VzRlQkh1OWQwczRXWS1zQQ?oc=5"
+        }
+      ]
+    }
+  }
 }
