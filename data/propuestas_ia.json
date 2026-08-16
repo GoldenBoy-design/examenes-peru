@@ -1,4 +1,43 @@
 {
-  "generado": "2026-07-29T05:29:02.957729",
-  "universidades": {}
+  "generado": "2026-08-10T16:10:45.915236",
+  "universidades": {
+    "UNI": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-08-10",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se realizará el examen de admisión UNI 2026-II",
+        "fuente_titulo": "Admisión UNI 2026-II más de 5,500 postulantes rendirán el examen hoy lunes 10 - El Peruano",
+        "fuente_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMWJxb2UtWVBjcVY0UXFlbTJCVEJ4dGROZGE4UE5SdDVlS292aTFpNDNLeHVDa0M0dHp3UFpZVnB1ZDBMeDljTFZyVzFydVBLdkxpTTRKbjc3anhIZ0o4MEdHYUJDaDFGSkFFYWlHRHRseDgwbnBfekpRMUV1blAycnBxU0ZtNzlPTFFaSXdlOU5Db2NLSnRBUzFYWGFEZ2Mwb0dTNFB2VmFLdFVma1ZLOTN3?oc=5"
+      },
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-08-10",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se inicia el examen de admisión UNI 2026-II",
+        "fuente_titulo": "Examen de Admisión UNI 2026-II inicia este lunes 10 de agosto con más de 5.500 postulantes y tres jornadas de evaluación - Infobae",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOV05WQXdQXzZSbU9hZXlHM3BGNjlNS3hLOTFVbXB2LTIxbEh4QWZ4WUw2VEFhVUJtWU84MmxwdnlwX2lmTjJKOVlNUGpvUGgyUnJadjF4Z1hLN1NFNXc2U2NKQXlVeTFZUU9aRks2djFsa0RpMmRsVnJvYXVMaGNHQnRFYUtkTTl0VXl0dXRSRWI0UThnSDlucmJmNFAzTmlqakZHZnpONXBRV0FpZkpFWjh1eTNJalpCX09wTEJkamJGdGxtcnFpbkpJSFRsMThhdEk5bjBYU2RzblFNdFlWbmVjZ2d2TTdzU0tnZkRNendzd9IBjAJBVV95cUxOQ282VXBhMEk0ZEZMclNORXAwbFFMRm96UjlPZVloT3FaVWJIZHFSbEoyNjNaV2NYLWJXOHYtTzlFOW1UbnpTZXhmOVc2M2xjT2JZVGliaTdzTlE4MUNzVV9RcW1JM1RSa3lZNjNCempNWlVQMkEwbVlsS0ltMVZRS1hsWTdwQkQ0d3lwZlRZV2ljTGQyUzZZQmhwVldfVmxiME5RY29rS0xzOUlYWmE1MlFVbVJRdXFDWFVvNVo0eERPNUhHN1haSHRWSTRJLUk4ekxNZVBhUEtTTTdJbk9tOWJXZWVucVl3enhXQjZUV2JqaUhGdmVYdE92OTNkNTVfM1hvZzNDX2pzMXFq?oc=5"
+      },
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-08-10",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se realizará el examen de admisión UNI 2026-II",
+        "fuente_titulo": "Examen de admisión UNI 2026-II: Más de 5,500 postulantes serán evaluados este lunes 10 de agosto - Exitosa Noticias",
+        "fuente_link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLVhzOUdnbUszN29sTWRHcUtBbEhFT2ZjV3VvTE5JemoyR2pVR1hKbE93Wm9URXpoazdDWjVXNU1pbWFxQVlUZU9zRm9XazhFT2djcTZXS0YwTUJFUzBkVzdRZVJTRGtqSWdUeXVZQ1hEZFlSMjRYSV9uQWhkOFVTSXB5VnNrakpVYzN3eVFJc2FNS2hkOExKTDhycE50cHpwbW9NUWJLRFh2VExLSVJpbnVEQ1pQZDk0M016MldlN01KVUtBTU5vblhRRUhPS00?oc=5"
+      },
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": null,
+        "inscripcion_inicio": null,
+        "inscripcion_fin": "2026-07-31",
+        "resumen": "se vence la inscripcion el 31 de julio",
+        "fuente_titulo": "Examen de admisión UNI 2026-II: cierre de inscripciones vence este 31 de julio, ¿cómo postular? - La República",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd3dxeUpCa2kzWmdGVzlvT2NMQU9ma1dVUzF0NFBZWXpjVDA0TTl1UjZHbzRCWUVDQktvYVkwOENDODh6blRDb0podEwzbFJxXzZEay00NnlVNm5sNUFKNFgweEduWnhJc3pMUGNCLWtpclprb2w2YmpwU182cTBzRG9OVkxUTko3VUdzQWFfYzBQc1ZCdDZFZ2RmUXNOb184Z2ZrcXZXZmMwLTF0dlNkRFgzRWVPRlRReUNFa0VDOHF1TnRBZXdPaERvNnNwV1AtYWE5TWI2Q2jSAd4BQVVfeXFMT3BvTmJBeUlwWEducndMUHhMc1BZcFllbWdqcmwzWFBMNy01QXlqYTd1cDdFdGlMWTU4bnBUdE5xblIyTldaQ19kcXYxQXdfQWY4ck9DenZzcVN1bW1PQkxBVDJfVU4yYWczOHg0TTNPNjhwZHAyclBTRVNHTDFrcjItbW85SzJmaDVaQ3Q1ZGFvTjhvanA4RGRkcjNuTnlJWGlpbW5KSFhHdHZpMnYxaERZVjVnbXQxcWdaejBGOXhUeUM2RE05aUJfWGlmdmRFclpIRU9pbElHZ2pDcVRn?oc=5"
+      }
+    ]
+  }
 }
