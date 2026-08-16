@@ -1,0 +1,8 @@
+# Normaliza todos los archivos de texto a LF, sin importar el SO
+# donde se edite o clone el repo. Evita diffs falsos por CRLF/LF
+# y reduce conflictos de merge causados por eso.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary

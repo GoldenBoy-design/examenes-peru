@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -82,8 +81,19 @@
         .btn-info:hover { background: var(--ink); color: var(--surface); }
         #fechaHeader { cursor: pointer; user-select: none; transition: color .2s; }
         #fechaHeader:hover { color: var(--accent); }
+        .intro-section { padding: 8px 56px 40px; max-width: 78ch; }
+        .intro-section p { color: #4a463e; margin-bottom: 14px; }
+        .faq-section { padding: 8px 56px 48px; border-top: 1px solid var(--border); }
+        .faq-section h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.6rem; color: var(--ink); margin: 32px 0 20px; }
+        .faq-item { max-width: 78ch; margin-bottom: 22px; }
+        .faq-item h3 { font-size: 1.02rem; color: var(--ink); margin-bottom: 6px; }
+        .faq-item p { color: #4a463e; font-size: .95rem; }
+        .site-links { padding: 0 56px 8px; font-size: .85rem; }
+        .site-links a { color: var(--accent); text-decoration: none; margin-right: 18px; }
+        .site-links a:hover { text-decoration: underline; }
         footer { border-top: 1px solid var(--border); padding: 28px 56px; text-align: center; color: var(--muted); font-size: .85rem; }
         footer a { color: var(--ink); text-decoration: none; cursor: pointer; border-bottom: 1px solid var(--border); }
+        @media (max-width: 768px) { .intro-section, .faq-section, .site-links { padding-left: 20px; padding-right: 20px; } }
         @media (max-width: 768px) {
             header, .table-container, footer { padding-left: 20px; padding-right: 20px; }
             .ticker-wrap { margin-left: 20px; margin-right: 20px; }
@@ -100,7 +110,7 @@
         <span class="eyebrow">Admisión 2026</span>
         <h1>PRÓXIMOS EXÁMENES DE ADMISIÓN PERÚ</h1>
         <p class="subtitle">Universidades del Perú - 2026</p>
-        <p class="fecha-actual">Última actualización: 29 de July, 2026 · Generado automáticamente</p>
+        <p class="fecha-actual">Última actualización: 16 de August, 2026 · Generado automáticamente</p>
  
         <div class="ticker-wrap" aria-hidden="true">
             <div class="ticker-track">
@@ -113,6 +123,11 @@
         </div>
     </header>
  
+    <div class="intro-section">
+        <p>Esta página reúne en un solo lugar las fechas de examen de admisión de universidades públicas y privadas del Perú para el proceso 2026. La información se arma a partir de los cronogramas publicados en cada portal oficial de admisión y de cobertura de noticias verificada, y se revisa periódicamente para retirar procesos que ya cerraron.</p>
+        <p>Cada universidad pública en Perú organiza su propio proceso de admisión — con su propio prospecto, temario y modalidades (ordinario, CEPU, extraordinario, entre otras) — así que las fechas y montos varían bastante de una institución a otra. Usa la tabla de abajo para ubicar rápidamente cuándo rinde examen la universidad que te interesa, y entra a su página oficial antes de inscribirte para confirmar el detalle completo.</p>
+    </div>
+
     <div class="table-container">
         <table id="tablaUniversidades">
             <thead>
@@ -134,42 +149,6 @@
     <td class="fecha">12 de Julio, 2026</td>
     <td>Sin información</td>
     <td><a href="https://www.uns.edu.pe/#/admision/cronograma" target="_blank" class="btn-info">Más Info</a></td>
-</tr>
-
-<tr>
-    <td class="universidad"><span class="logo-box"><img src="/logos/unab.png" alt="Logo UNAB"></span><span class="uni-name">Universidad Nacional de Barranca (UNAB)</span></td>
-    <td class="provincia">Lima</td>
-    <td><span class="modalidad">General</span></td>
-    <td class="fecha">02 de Agosto, 2026</td>
-    <td>10 jun - 28 jul</td>
-    <td><a href="https://admision.unab.edu.pe/http/dashboard" target="_blank" class="btn-info">Más Info</a></td>
-</tr>
-
-<tr>
-    <td class="universidad"><span class="logo-box"><img src="/logos/urp.png" alt="Logo URP"></span><span class="uni-name">Universidad Ricardo Palma (URP)</span></td>
-    <td class="provincia">Lima</td>
-    <td><span class="modalidad">Examen General (Medicina)</span></td>
-    <td class="fecha">07 de Agosto, 2026</td>
-    <td>Sin información</td>
-    <td><a href="https://www.urp.edu.pe/admision/" target="_blank" class="btn-info">Más Info</a></td>
-</tr>
-
-<tr>
-    <td class="universidad"><span class="logo-box"><img src="/logos/upc.png" alt="Logo UPC"></span><span class="uni-name">Universidad Peruana de Ciencias Aplicadas (UPC)</span></td>
-    <td class="provincia">Lima</td>
-    <td><span class="modalidad">Examen General</span></td>
-    <td class="fecha">08 de Agosto, 2026</td>
-    <td>Sin información</td>
-    <td><a href="https://www.upc.edu.pe/admision/" target="_blank" class="btn-info">Más Info</a></td>
-</tr>
-
-<tr>
-    <td class="universidad"><span class="logo-box"><img src="/logos/uni.png" alt="Logo UNI"></span><span class="uni-name">Universidad Nacional de Ingeniería (UNI)</span></td>
-    <td class="provincia">Lima</td>
-    <td><span class="modalidad">Ordinario</span></td>
-    <td class="fecha">10 de Agosto, 2026</td>
-    <td>08 jun - 31 jul</td>
-    <td><a href="/uni/" class="btn-info">Ver fechas y requisitos</a></td>
 </tr>
 
 <tr>
@@ -229,6 +208,31 @@
         </table>
     </div>
  
+    <div class="faq-section">
+        <h2>Preguntas frecuentes sobre admisión universitaria en Perú</h2>
+        <div class="faq-item">
+            <h3>¿Todas las universidades públicas del Perú tienen el mismo examen de admisión?</h3>
+            <p>No. Cada universidad pública diseña su propio examen, con su propio temario y ponderación por curso. Algunas evalúan razonamiento verbal y matemático junto con cursos de especialidad; otras dividen la prueba en varias fechas por área. El cronograma de esta página te dice cuándo es cada examen, pero el temario específico solo lo publica la universidad.</p>
+        </div>
+        <div class="faq-item">
+            <h3>¿Qué modalidades de ingreso existen además del examen ordinario?</h3>
+            <p>La mayoría de universidades peruanas ofrece, además del proceso ordinario, otras vías como el CEPU (Centro Preuniversitario), traslado externo, primeros puestos de colegio, deportistas calificados o convenios con comunidades específicas. Cada una tiene su propio cronograma y requisitos, así que revisa el portal oficial de la universidad que te interesa.</p>
+        </div>
+        <div class="faq-item">
+            <h3>¿Con cuánta anticipación debo inscribirme?</h3>
+            <p>El periodo de inscripción suele abrir varias semanas antes de la fecha del examen, pero varía según la universidad y la modalidad. En esta tabla incluimos el rango de inscripción cuando la universidad lo ha publicado; si dice "Sin información", significa que aún no lo hace público y conviene revisar directamente su portal.</p>
+        </div>
+        <div class="faq-item">
+            <h3>¿Esta página cobra algo por la información?</h3>
+            <p>No. Los datos de cronograma que ves aquí son de acceso gratuito y provienen de fuentes públicas — portales oficiales de admisión y cobertura de prensa. Esta página no gestiona inscripciones ni pagos; siempre te lleva directo a la plataforma oficial de cada universidad para eso.</p>
+        </div>
+    </div>
+
+    <div class="site-links">
+        <a href="/acerca-de/">Acerca de este sitio</a>
+        <a href="/guia-preparacion-examen-admision-peru/">Guía para prepararte</a>
+    </div>
+
     <footer>
         <p>© 2026 - PSY Team all rights reserved</p>
     </footer>
@@ -258,4 +262,3 @@
 </script>
 </body>
 </html>
- 
