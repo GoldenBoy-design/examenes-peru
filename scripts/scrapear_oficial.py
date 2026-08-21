@@ -26,8 +26,10 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
+from threading import Lock
 from urllib.parse import urljoin, urlparse
 
 import requests
@@ -46,12 +48,18 @@ HEADERS = {
                   "+https://github.com/GoldenBoy-design/examenes-peru)"
 }
 
-TIMEOUT = 20
-PAUSA_ENTRE_SITIOS = 2
-PAUSA_ENTRE_LLAMADAS_IA = 3
-MAX_REINTENTOS_IA = 4
-MAX_SUBPAGINAS = 4          # además de la home
-MAX_CARACTERES_TEXTO = 9000  # tope de texto que le mandamos a la IA por universidad
+# Cuántas universidades se procesan EN PARALELO. Cada una hace sus propias
+# llamadas HTTP + 1 llamada a Groq, así que esto es paralelismo de I/O
+# (threads), no de CPU. 6 es prudente para no saturar el rate-limit
+# gratuito de Groq (que es por cuenta, no por hilo).
+MAX_UNIVERSIDADES_EN_PARALELO = 6
+
+TIMEOUT = 10                 # antes 20 — la mayoría de sitios responde rápido o no responde
+PAUSA_ENTRE_SUBPAGINAS = 0.3  # antes 1s fijo por sub-página
+PAUSA_ENTRE_LLAMADAS_IA = 0.5
+MAX_REINTENTOS_IA = 3
+MAX_SUBPAGINAS = 2          # antes 4 — home + 2 subpáginas relevantes alcanza para admisión/costos
+MAX_CARACTERES_TEXTO = 7000  # tope de texto que le mandamos a la IA por universidad
 
 # Palabras clave para decidir qué enlaces de la web oficial vale la pena seguir
 PALABRAS_CLAVE_ENLACES = [
@@ -158,7 +166,7 @@ def recolectar_texto_sitio(url_oficial: str) -> str:
     partes = [f"---PÁGINA--- ({url_oficial})\n{texto_home}"]
 
     for enlace in enlaces[:MAX_SUBPAGINAS]:
-        time.sleep(1)
+        time.sleep(PAUSA_ENTRE_SUBPAGINAS)
         html_sub = descargar(enlace)
         if html_sub is None:
             continue
@@ -185,7 +193,7 @@ def llamar_ia(prompt: str):
             return None
 
         if resp.status_code == 429:
-            espera = 15 * intento
+            espera = 5 * intento
             print(f"    ⏳ Rate limit (429). Esperando {espera}s...")
             time.sleep(espera)
             continue
@@ -278,6 +286,34 @@ def aplicar_hallazgo(universidad: dict, hallazgo: dict) -> list:
     return aplicados
 
 
+def procesar_universidad(u: dict, hoy: str):
+    """Trabajo de UN hilo: descarga + IA para una universidad. No toca el
+    dict `u` ni ningún estado compartido — solo lee y devuelve resultado.
+    La aplicación al JSON se hace después, en el hilo principal."""
+    siglas = u["siglas"]
+    url_oficial = u.get("url_oficial")
+    if not url_oficial:
+        return siglas, None, "sin url_oficial"
+
+    texto = recolectar_texto_sitio(url_oficial)
+    if not texto.strip():
+        return siglas, None, "no se pudo descargar la web oficial"
+
+    prompt = PROMPT_BASE.format(universidad=u["nombre"], hoy=hoy, texto=texto)
+    respuesta_texto = llamar_ia(prompt)
+    time.sleep(PAUSA_ENTRE_LLAMADAS_IA)
+
+    if respuesta_texto is None:
+        return siglas, None, "sin respuesta de la IA"
+
+    hallazgo = limpiar_json_de_texto(respuesta_texto)
+    if hallazgo is None:
+        return siglas, None, f"respuesta no parseable: {respuesta_texto[:200]}"
+
+    hallazgo["fuente_url"] = url_oficial
+    return siglas, hallazgo, None
+
+
 def main():
     verificar_configuracion()
 
@@ -286,47 +322,32 @@ def main():
     reporte = {"generado": datetime.now().isoformat(), "universidades": {}}
     hubo_cambios = False
 
-    for u in data["universidades"]:
-        siglas = u["siglas"]
-        url_oficial = u.get("url_oficial")
-        if not url_oficial:
-            print(f"— {siglas}: sin url_oficial, se omite")
-            continue
+    universidades_por_siglas = {u["siglas"]: u for u in data["universidades"]}
+    print_lock = Lock()
 
-        print(f"Scrapeando {siglas} ({url_oficial})...")
-        texto = recolectar_texto_sitio(url_oficial)
-        if not texto.strip():
-            print(f"  ⚠️  No se pudo obtener texto de la web oficial")
-            reporte["universidades"][siglas] = {"error": "no se pudo descargar la web oficial"}
-            time.sleep(PAUSA_ENTRE_SITIOS)
-            continue
+    with ThreadPoolExecutor(max_workers=MAX_UNIVERSIDADES_EN_PARALELO) as pool:
+        futuros = {
+            pool.submit(procesar_universidad, u, hoy): u["siglas"]
+            for u in data["universidades"]
+        }
 
-        prompt = PROMPT_BASE.format(universidad=u["nombre"], hoy=hoy, texto=texto)
-        respuesta_texto = llamar_ia(prompt)
-        time.sleep(PAUSA_ENTRE_LLAMADAS_IA)
+        for futuro in as_completed(futuros):
+            siglas, hallazgo, error = futuro.result()
 
-        if respuesta_texto is None:
-            print(f"  ⚠️  Sin respuesta de la IA")
-            reporte["universidades"][siglas] = {"error": "sin respuesta de la IA"}
-            continue
+            with print_lock:
+                if error:
+                    print(f"— {siglas}: {error}")
+                    reporte["universidades"][siglas] = {"error": error}
+                    continue
 
-        hallazgo = limpiar_json_de_texto(respuesta_texto)
-        if hallazgo is None:
-            print(f"  ⚠️  No pude parsear la respuesta como JSON: {respuesta_texto[:200]}")
-            reporte["universidades"][siglas] = {"error": "respuesta no parseable"}
-            continue
-
-        hallazgo["fuente_url"] = url_oficial
-        reporte["universidades"][siglas] = hallazgo
-
-        aplicados = aplicar_hallazgo(u, hallazgo)
-        if aplicados:
-            hubo_cambios = True
-            print(f"  ✏️  Aplicado ({hallazgo.get('confianza')}): {', '.join(aplicados)}")
-        else:
-            print(f"  ⏭️  Nada lo bastante confiable para aplicar (confianza: {hallazgo.get('confianza')})")
-
-        time.sleep(PAUSA_ENTRE_SITIOS)
+                reporte["universidades"][siglas] = hallazgo
+                u = universidades_por_siglas[siglas]
+                aplicados = aplicar_hallazgo(u, hallazgo)
+                if aplicados:
+                    hubo_cambios = True
+                    print(f"✏️  {siglas} ({hallazgo.get('confianza')}): {', '.join(aplicados)}")
+                else:
+                    print(f"⏭️  {siglas}: nada lo bastante confiable (confianza: {hallazgo.get('confianza')})")
 
     SALIDA_PATH.write_text(json.dumps(reporte, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n✅ Reporte completo guardado en {SALIDA_PATH.relative_to(RAIZ)}")
