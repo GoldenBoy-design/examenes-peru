@@ -549,6 +549,91 @@
       "pagina_propia": null,
       "estado_proceso": "cerrado",
       "tipo": "castrense"
+    },
+    {
+      "id": "pa",
+      "nombre": "Universidad Peruana de las Américas S.A.C.",
+      "siglas": "PA",
+      "provincia": "Lima",
+      "logo": "/logos/pa.png",
+      "modalidad": "Por confirmar",
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://ulasamericas.edu.pe/",
+      "pagina_propia": "/uni/pa",
+      "estado_proceso": "por confirmar",
+      "tipo": "privada"
+    },
+    {
+      "id": "tfil",
+      "nombre": "Universidad Nacional Tecnológica de Frontera San Ignacio de Loyola",
+      "siglas": "TFIL",
+      "provincia": "San Ignacio",
+      "logo": "/logos/tfil.png",
+      "modalidad": "Por confirmar",
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://unatefsil.edu.pe/",
+      "pagina_propia": "/uni/tfil",
+      "estado_proceso": "por confirmar",
+      "tipo": "pública"
+    },
+    {
+      "id": "ipd",
+      "nombre": "Universidad Interamericana para el Desarrollo",
+      "siglas": "IPD",
+      "provincia": "Lima",
+      "logo": "/logos/ipd.png",
+      "modalidad": "Por confirmar",
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://unid.edu.pe/",
+      "pagina_propia": "/uni/ipd",
+      "estado_proceso": "por confirmar",
+      "tipo": "privada"
+    },
+    {
+      "id": "jcmm",
+      "nombre": "Universidad José Carlos Mariátegui de Moquegua",
+      "siglas": "JCMM",
+      "provincia": "Moquegua",
+      "logo": "/logos/jcmm.png",
+      "modalidad": "Por confirmar",
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://www.ujcm.edu.pe/",
+      "pagina_propia": "/uni/jcmm",
+      "estado_proceso": "por confirmar",
+      "tipo": "privada"
+    },
+    {
+      "id": "m",
+      "nombre": "Universidad Nacional de Música",
+      "siglas": "M",
+      "provincia": "Lima",
+      "logo": "/logos/m.png",
+      "modalidad": "Por confirmar",
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://www.unm.edu.pe/",
+      "pagina_propia": "/uni/m",
+      "estado_proceso": "por confirmar",
+      "tipo": "pública"
     }
   ]
 }

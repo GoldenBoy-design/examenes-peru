@@ -47,8 +47,11 @@ def generar_parrafo_intro(u: dict, anio: int) -> str:
     n_fechas = len(u.get("fechas_examen", []))
     frase_fechas = "una fecha de evaluación" if n_fechas == 1 else f"{n_fechas} fechas de evaluación"
 
+    resumen_oficial = (u.get("detalle") or {}).get("resumen_oficial")
+    parrafo_resumen = f"<p>{resumen_oficial}</p>\n" if resumen_oficial else ""
+
     return f'''<p>La {u["nombre"]} ({u["siglas"]}) es una {tipo_texto} con sede en {u["provincia"]}. Su proceso de admisión {anio} se desarrolla bajo la modalidad {u["modalidad"]}, con {frase_fechas} programada{"s" if n_fechas != 1 else ""} este año.</p>
-<p>Antes de postular, revisa el reglamento de admisión vigente en el portal oficial de la universidad: ahí se detallan los requisitos de inscripción, los documentos exigidos y el temario de cada prueba. Esta página resume el cronograma público y se actualiza a partir de fuentes oficiales y noticias verificadas, pero la fuente definitiva siempre es <a href="{u["url_oficial"]}" target="_blank" rel="noopener">el portal oficial de {u["siglas"]}</a>.</p>'''
+{parrafo_resumen}<p>Antes de postular, revisa el reglamento de admisión vigente en el portal oficial de la universidad: ahí se detallan los requisitos de inscripción, los documentos exigidos y el temario de cada prueba. Esta página resume el cronograma público y se actualiza a partir de fuentes oficiales y noticias verificadas, pero la fuente definitiva siempre es <a href="{u["url_oficial"]}" target="_blank" rel="noopener">el portal oficial de {u["siglas"]}</a>.</p>'''
 
 
 def generar_faq(u: dict) -> str:

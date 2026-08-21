@@ -2,9 +2,8 @@ name: Actualizar cronogramas
 
 on:
   schedule:
-    # Corre todos los lunes a las 08:00 hora de Perú (13:00 UTC) —
-    # revisión semanal, como se definió con el usuario.
-    - cron: '0 13 * * 1'
+    # Corre todos los días a las 08:00 hora de Perú (13:00 UTC).
+    - cron: '0 13 * * *'
   workflow_dispatch: {}  # también se puede correr manualmente desde GitHub
 
 jobs:
@@ -12,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -23,7 +21,20 @@ jobs:
           python-version: '3.12'
 
       - name: Instalar dependencias
-        run: pip install feedparser requests
+        run: pip install feedparser requests beautifulsoup4
+
+      - name: Scrapear webs oficiales (fuente primaria)
+        run: python scripts/scrapear_oficial.py
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+      - name: Detectar novedades vía RSS (noticias)
+        run: python scripts/detectar_rss.py
+
+      - name: Extraer datos estructurados con IA desde noticias
+        run: python scripts/extraer_ia.py
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
 
       - name: Regenerar HTML desde el JSON
         run: python scripts/generar_html.py
@@ -31,34 +42,14 @@ jobs:
       - name: Regenerar páginas individuales y sitemap
         run: python scripts/generar_paginas.py
 
-      - name: Detectar novedades vía RSS
-        run: python scripts/detectar_rss.py
-
-      - name: Extraer datos estructurados con IA (Groq)
-        run: python scripts/extraer_ia.py
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-
-      - name: Crear Pull Request con los cambios
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "Actualización automática semanal de cronogramas"
-          title: "🔔 Revisión semanal — aprobar cambios de cronograma"
-          body: |
-            Este PR fue generado automáticamente por el workflow semanal.
-
-            Contiene:
-            - `index.html` y páginas individuales regeneradas desde `data/universidades.json`
-            - `sitemap.xml` actualizado con las universidades vigentes
-            - `data/novedades.json` — noticias nuevas detectadas por RSS
-            - `data/propuestas_ia.json` — fechas/datos que la IA extrajo de esas noticias
-
-            **Qué revisar antes de aprobar:** abre `data/propuestas_ia.json`. Si trae
-            una propuesta de fecha nueva para alguna universidad, verifica contra el
-            link de la fuente (`fuente_link`) y, si es correcta, actualiza
-            `universidades.json` a mano con ese dato antes de aprobar el merge.
-
-            **`universidades.json` nunca se modifica automáticamente** — la IA solo
-            propone, tú decides.
-          branch: actualizacion-automatica
-          delete-branch: true
+      - name: Commitear y subir cambios directo a main
+        run: |
+          git config user.name "examenes-peru-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios que commitear."
+          else
+            git commit -m "Actualización automática diaria de cronogramas y costos"
+            git push
+          fi
