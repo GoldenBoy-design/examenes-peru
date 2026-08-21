@@ -1,6 +1,20 @@
 {
-  "generado": "2026-08-21T02:36:45.157668",
+  "generado": "2026-08-21T14:59:22.263730",
   "universidades": {
+    "UNALM": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Serán los primeros de sus familias en estudiar fuera del Perú: la historia de los 24 alumnos de la UNALM becados en 7 países por su excelencia académica - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-08-18T15:40:58",
+          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQVDNwaHFQTHA0NjlJR3hDbUNyOTUxQWRxRV9sOTYxbUdfNUpYd2xuajFIWERDM3pjdnFrSWdzUmp5WThaTTdpZWZobENoTkhlMXprekRwSnl5dDFJUmJaa2hqNzlmU0ZxZzFuSF9qNjd3ZDROWkFtVC15MjNXQXF0a1BtSGJIb2UwT3BJU2o3a0RmbEk1VVF3dVkxSUFuT2p0bGVScVNOaU0zeHh4SEZKS1M3LThUaTlRZUJseWUwbHlqS2VQR2Vqb3NiWGttSUdoek5Kd0FLZFJOQ0hSRHBUZG5kSjZINmNjNmh4TkJpTGo2UjNCVUNwcUV5b0NwbkRhYWd3cEdUaldYcnQ3TU8wMWZwUFB4TUwzVEtsRXN0aHhoRThaMTZINzB2c1NSWknSAa8CQVVfeXFMUFQzcGhxUExwNDY5SUd4Q21Dcjk1MUFkcUVfbDk2MW1HXzVKWHdsbmoxSFhEQzN6Y3Zxa0lnc1JqeVk4Wk03aWVmaGxDaE5IZTF6a3pEcEp5eXQxSVJiWmtoajc5ZlNGcWcxbkhfajY3d2Q0TlpBbVQteTIzV0FxdGtQbUhiSG9lME9wSVNqN2tEZmxJNVVRd3VZMUlBbk9qdGxlUnFTTmlNM3h4eEhGSktTNy04VGk5UWVCbHllMGx5aktlUEdlam9zYlhrbUlHaHpOSndBS2RSTkNIUkRwVGRuZEo2SDZjYzZoeE5CaUxqNlIzQlVDcHFFeW9DcG5EYWFnd3BHVGpXWHJ0N01PMDFmcFBQeE1MM1RLbEVzdGh4aEU4WjE2SDcwdnNTUlpJ?oc=5"
+        }
+      ]
+    },
     "UNMSM": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -8,10 +22,58 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "UNMSM apertura admisión con más de 2500 vacantes para 2026-II: Conoce aquí que programas se encuentran - apnoticias.pe",
+          "titulo": "UNMSM 2027-I: San Marcos confirma las fechas y bloques de su próximo examen de admisión - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-08-21T02:12:47",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQN0lwcHN3ZW14M3lfaUNpWms0NjZFRTZGSktZYnloOE42TU5CZkRpWUUxSEwycm85WGlrRlBabTZHSVZqeU1BOGFXY0JLb1FUUTJKT0x5U19vVkllTXRCT25LSGd0SHZjQlRaQmt4eENZTUwydEROZjIyTmw4dEpJQVhFX05wb2tNRjFla3BKRFRzN3pGdENsa0tKVVkzU3g0Ykc1QnU1N0dlNldHOGFMb0hBWGNNMDNNdS04ZmtjT2RiWXp1dGxWZ1h0ZmlWQmZjSlN1Z0VyZHl1VFE4ZnZpNNIB4AFBVV95cUxQN0lwcHN3ZW14M3lfaUNpWms0NjZFRTZGSktZYnloOE42TU5CZkRpWUUxSEwycm85WGlrRlBabTZHSVZqeU1BOGFXY0JLb1FUUTJKT0x5U19vVkllTXRCT25LSGd0SHZjQlRaQmt4eENZTUwydEROZjIyTmw4dEpJQVhFX05wb2tNRjFla3BKRFRzN3pGdENsa0tKVVkzU3g0Ykc1QnU1N0dlNldHOGFMb0hBWGNNMDNNdS04ZmtjT2RiWXp1dGxWZ1h0ZmlWQmZjSlN1Z0VyZHl1VFE4ZnZpNA?oc=5"
+        },
+        {
+          "titulo": "San Marcos abre posgrado 2026 - apnoticias.pe",
           "fuente": "apnoticias.pe",
           "fecha_publicacion": "2026-07-02T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONWpualJaSnRQU0p1bXBOV3JBUzFaUWg1aG43bXVGQVk1TWh3NkZacEwyRXgydjZPNTNadndnMloyMGZYT1dtUUg1bU9tdno1S0F3TVRUeERLbERCT19ZU1hHMUx2WGhQQWp5MHY4d0FGel93WXgyeWg1NWdSZVlYZlNSd0dNbWNkTU80VG1KOWxJMkVid0NXNmxORnJPckJiaTJIdVd0b3JtdDBmSnRQc3gtcjlSQ0lEbmZvdG1ka3p0OW01cV9ITHhtOWxwM1dx?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XeHlwcVp3ZU9aWVVhUzcxTVZzNnhpYUcyNGl1MW5jR0N6dld2aXdIZ05JOERJVWhPSFpiYzZJS3Q5WmtyR1ZIdHB5SEtkOTRkUVVVbnNOX2hTNHN1cXdFZWp2WkYyWUJqLWFsQVVNSXM?oc=5"
+        },
+        {
+          "titulo": "San Marcos anunció cuáles son las fechas de su examen de admisión 2027-I: conoce el cronograma de inscripción - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-08-18T11:32:09",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR2lLV0g2aXNPWXZQR3l6eEpoN3g5Nkx6Vkc3YUV0bUdyWWNnTXZFUkhWWHBQc3F5UDdab3ZJNHhPaHZEdXlIQlJOb0RzbXZDaGhRd2ZVME5GQ1BNb1NscFNjQ3hOZG1nZVRZMl9YelhrMEQtWHRNUWhQY0Q2NUVRR0FXMllXbWN5UGdUUzd6bHdCVmFrand5OHItNkhDbkVuT3JuY0Z4MS1QRE1MQWNEajBRQ1lMYkY0N0hZRjNyVFJoUFdYSkVoM252QWx4d25sZGVjQTJZQ0U2Nm9MOW9TaHp3Z9IB_gFBVV95cUxQamJKLS0wblNZMFlEb25GVHlYRmpOeGdKVjU5YVg3NUREd3FJSFYxY1JLb3B0REIyZ1FrSkhtYUVmM2ZxcHpQOEsxM3dJRGxCNUhvS2lMMHllZGFtWmlQLWZET09lcHUwMjQtSGFiZmstZ2ozbmFSNkJZWWxwQ0ZmRTVqQ1cwS3dvSTBDZzAxczZaQjRWQmxhNkltS0czNWU0U25oeWV6LTF2RnFvQmdTY0dudXlWaXE5Y3RaZVNfMDRzLS1Rak9CTmJxdnVPVWp2aVd4Wm9YVHVSdjFlb0ZvWmwxSDRQdHl1NWdxTDF0ampuaXAtMmRwTTlfRGNWUQ?oc=5"
+        }
+      ]
+    },
+    "UNI": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Examen de admisión UNI 2026-II: Más de 5,500 postulantes serán evaluados este lunes 10 de agosto - apnoticias.pe",
+          "fuente": "apnoticias.pe",
+          "fecha_publicacion": "2026-08-09T19:01:00",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNVNWYjdieU9sdmVWR1Z2TDBwZHdpcHNHOE1mdElGc2RZQTNkekw1TTc2Nmo5Y3ktbHh4T0l3M2tfSm5ycTVjLTFGSnVoMlVxcnRwZWcyY2s4emUxOFlDMlpITm5PQThPd3l6eUs4QVBwVkkwR0M0QjFzdmZSYlRDVDJNSDV4M19KdEMyaHF6WEhtVXJvcjItNk5HVm9mUGVPWkRNMXM4c3Z6RkNjVXZ4RzFVa18wM2d6cVNvb1hPaHFLeHVZV29n?oc=5"
+        }
+      ]
+    },
+    "PUCP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-16"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "PUCP: conoce la Beca Lucet para financiar tu carrera - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNXdzZWZPOVBsYWlNZk9LdjBfNlVYd1ZlVDA1THZqVzJ0Vk11RG5KLVJLTThsaUJEaWNJZlhFZF80M0xuMWx2eldZck1abDg5NDZQWldwWWR1dktrYmVXdFBpZWhNR2I5eTV0cXpLdkpLOXlwQ3AxMmJURGg0X0pjTkp0dFRLVWtwelM0QktmTUY0NWtxUlcyUjhzZUtQV1A4YkFXa3hUcDU1dDNJM2VHeVJ2TVBfN1FONC1hX1ZoZ1dCa3hSMXY2MUNqZW43VHJzZkZlYWl1eExzNmxLV2hLQS1zaUxkR1dMQUNiYTE2OUE?oc=5"
+        },
+        {
+          "titulo": "Dos amigos de El Agustino hacen historia en la UNI: ocupan el primer y segundo puesto entre más de 5.000 postulantes - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-08-19T20:25:10",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTHVxamxvRkhlZFYxR1o5cjczakIxLXpjUE1iOFhSYjQ1bmlwa2NDNVdFTXlEdjQ2Q1VyaTBEM2E2ODhpZlMyejlCTk1NVkxGRkQxaFBDTndFdGwxZnBlbEdBbXFqMUZaaWY3NE51UVBEVXFVVkhGbzhxQzhFY2hGZl9RZHZfTmJOUDVfQXNZSnJCNjBSR2ZPMW5yT3hwaTRBNW9UU09VLS1NdEhRVzVDNlNRRnBMbkdtcm80VGhiMlVaQzJlcERTby03WW1MdlRYQVhCdTUxOWU5NXhILW0zdkt3Y2htb0RUSVIzcjdNVnhfbElaUzFKVtIB_gFBVV95cUxNV2tSZ3F0LVlTLTc1MHVJLTdDcURQbG4xeXZFelQ3V3M3ZzJKcG01dnptcHg4RVVXTnh4WkNLaHV3MFBQUmZ0aEh2NWM1TnRKcmsxcjE1VFRaT0FiMHNXT2xhT2UtbUkyaEs4dUR0TzJtRVluUXhmTUoydldZem02eEY4YTZIdExyOENQVU1WUHp5c2JJYzlDMldCclZIaUVIUS01QmFXVEJfT0tNbWFWSTZsMktDNVZYT1BQMXU5UEF1ajQ1cVlfeFQtN0lwelNWaWE1dHRuUTdxcXhONUVfRWhTS3k0MF9RcWVMMW5uVFlTcUNvM0E0cHBJVFdudw?oc=5"
         }
       ]
     },
@@ -22,10 +84,60 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Docentes Renacyt de UCV Virtual presentan investigaciones en congreso iberoamericano - Chimbote en Línea",
+          "titulo": "Agrupaciones políticas suscriben Pacto Ético Electoral con miras a elecciones de octubre - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-11T02:32:00",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbkE3UXlubjMtNWhQRjZaZVpwakstY2pQYV92ZWJIdk0tT2t3MTJQMUYtVFcxVjNhNEJZelZFODJtYkJKU2prYVpweWI4RnE5Nnh1RmNNNmxWeFNsMlRnOXVSSEtvdXNndkdhSHpaX3JOcGVocW9BVkRkUVVwYzl0M2pLalU3ZGVTOGZyNXBWU1N6U2RWMGxYNElyN1E2c2l4TUtMZ1VFMk9DeXByODJrMjBfQ3k4R2UzU2dOTUIzemh5RzN2YVpZS1NNQVpuWHA5?oc=5"
+          "fecha_publicacion": "2026-08-21T04:07:00",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQT0lJY1JCNVg3bTdlLU9XdEs5UXdiU2JndTVBaFlKWnZzLWhheWNEY1haOW9nQTVRTFNBaGU3RDVjU2ZYU3BIZHRYY0hOY1ZZTWQ0bFFhbWhMVnhhTG8xVGR3a1N6cGsxeUdCWVF6S1NWS3oxMUFHWXFGOWdnUzVyT2l0NVQwSkxWbDk2LTVzMXJCUXJwME5PdVdHWGhkY0xtUXRGdDAydXNtVUdOZDlad2VwNFJqY1FwQmNDZHFOOWYtX3RpdVMtSDJIMWFRblZ5c09RV2lKUi1qcW5xSzI2b2o4SVNBZ3p5RkE?oc=5"
+        }
+      ]
+    },
+    "UPC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-08"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "UPC realizará webinar informativo sobre el programa UPC–Arizona - Noticias UPC",
+          "fuente": "Noticias UPC",
+          "fecha_publicacion": "2026-07-15T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE51Z0UyaXBnenRubWRCNzlyUFhTZDNkeFhhV3ktZDdTdmZXVE9VZzZaTHljbmpXaHpRYXB1OWZ4dTVrUndzM2NTLV9LQ0NCX1lWTlBzOFdTT3BmdVRtY0FaN2cwSllBNmxFWm1uS3A2cHktQQ?oc=5"
+        }
+      ]
+    },
+    "EMCH": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Parada Cívico Militar 2026: Ejército exhibe disciplina y capacidad operativa - El Peruano",
+          "fuente": "El Peruano",
+          "fecha_publicacion": "2026-07-29T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR25ZbW9XdExEelhkczFEWVhwZUw4Slk4WlU1WUFocnEwbDZXcU1GLTdMeGprMWpqWEVhNTQwQWtDMlBmbGphZjBOMmtpR1RJWUZ3Nko1QldLdVRSLXJCUlJIQmltQ1BXVmRSRndEa0Rfb3NKTDdHVXQ3MXE4RzY0LTFMNTNPWmFJYjlBTkd2N0tsYkxrMjZBY05tbVNiV0U0UDNvWFpHcEt5N0tWbUFfQXFxcUhSdw?oc=5"
+        }
+      ]
+    },
+    "PA": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Sencico ofrece 1487 vacantes para el examen de admisión 2026-II en 13 ciudades del país - TVPerú",
+          "fuente": "TVPerú",
+          "fecha_publicacion": "2026-08-06T02:28:22",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ1FadEVvYXdKOUNvc0pQNC10bG50VndoQ1c5WFd4S201em1zbm1ra0NRWl8tQkNWOXVsbDZuT1lXR2NaS3FvU3pIMUEzTkpRMzBlY1BMSkd0dnp1bWNLNnlkQnVwbjhLQlZzRjVUUC1kTU5VTVVqTkkxd3p1MURFNlFHQUg3VVlDUmdZbjJIbkRSMVY3cFNqemVvWHZNUDhFRG1CbTJMeHZKUzVTZWxHd3JsWW9pUlk2dTlJTHlaV19aZGU1Wl9UeWo5bVlUUQ?oc=5"
+        }
+      ]
+    },
+    "IPD": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Laboratorio de élite: cómo el IPD esculpe a nuestros deportistas de alto rendimiento - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-07-18T14:31:23",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdjZUWHlyelo0MEEwQjQzSU8wbFZseHluUWFFWXdaR3ExdmNhODZiLThuZWtBNEN3VkRWNFBpbHVYMktnanFBTERtdEEwUzVfUzVsNW5fdjVWOVlWdEdlMVhYVE5sLXJBYW5hN0lockNuUE95WWFIX3RUeVE1WTVEbnZOSGVhWk1oRXk4dDNGTzRZOEo0VmR1ZmViUTQyb01IaHhMMHN2RllSMkxmenp5MmpXSmpXU1NN?oc=5"
         }
       ]
     }

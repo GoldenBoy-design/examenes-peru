@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-21T02:36:24.341572",
+  "generado": "2026-08-21T14:58:58.982000",
   "universidades": {
     "UNAC": {
       "error": "no se pudo descargar la web oficial"
@@ -7,40 +7,40 @@
     "UNALM": {
       "error": "no se pudo descargar la web oficial"
     },
-    "UNICA": {
-      "error": "sin respuesta de la IA"
-    },
     "UNJBG": {
       "error": "sin respuesta de la IA"
     },
-    "UNDC": {
+    "UNICA": {
       "error": "sin respuesta de la IA"
     },
     "UNAB": {
       "error": "sin respuesta de la IA"
     },
-    "UNSAAC": {
+    "UNDC": {
       "error": "sin respuesta de la IA"
     },
-    "UNT": {
+    "UNSAAC": {
       "error": "sin respuesta de la IA"
     },
     "UNMSM": {
       "error": "sin respuesta de la IA"
     },
-    "UNS": {
+    "UNT": {
       "error": "sin respuesta de la IA"
     },
-    "UNE": {
+    "UNS": {
       "error": "sin respuesta de la IA"
     },
     "PUCP": {
       "error": "sin respuesta de la IA"
     },
-    "UPC": {
+    "UNE": {
       "error": "sin respuesta de la IA"
     },
     "UCV": {
+      "error": "sin respuesta de la IA"
+    },
+    "UPC": {
       "error": "sin respuesta de la IA"
     },
     "UNTELS": {
@@ -49,31 +49,34 @@
     "URP": {
       "error": "sin respuesta de la IA"
     },
-    "EMCH": {
-      "error": "no se pudo descargar la web oficial"
+    "UTP": {
+      "error": "sin respuesta de la IA"
     },
     "UNI": {
       "error": "sin respuesta de la IA"
     },
-    "UNJFSC": {
-      "error": "sin respuesta de la IA"
-    },
-    "UTP": {
-      "error": "sin respuesta de la IA"
+    "EMCH": {
+      "error": "no se pudo descargar la web oficial"
     },
     "ESOFA": {
       "error": "no se pudo descargar la web oficial"
     },
-    "ULIMA": {
+    "UNJFSC": {
       "error": "sin respuesta de la IA"
     },
-    "UPCH": {
+    "ULIMA": {
       "error": "sin respuesta de la IA"
     },
     "EOFAP": {
       "error": "sin respuesta de la IA"
     },
+    "UPCH": {
+      "error": "sin respuesta de la IA"
+    },
     "ENP": {
+      "error": "sin respuesta de la IA"
+    },
+    "IPD": {
       "error": "sin respuesta de la IA"
     },
     "JCMM": {
@@ -82,16 +85,13 @@
     "TFIL": {
       "error": "sin respuesta de la IA"
     },
-    "EESTP-PNP": {
+    "M": {
       "error": "sin respuesta de la IA"
     },
     "EO-PNP": {
       "error": "sin respuesta de la IA"
     },
-    "M": {
-      "error": "sin respuesta de la IA"
-    },
-    "IPD": {
+    "EESTP-PNP": {
       "error": "sin respuesta de la IA"
     },
     "PA": {
