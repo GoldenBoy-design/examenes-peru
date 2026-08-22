@@ -1,83 +1,31 @@
 {
-  "generado": "2026-08-22T19:36:02.698199",
+  "generado": "2026-08-22T20:03:17.777973",
   "universidades": {
-    "UNJBG": {
+    "UNMSM": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
         "2026-07-12"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "UNJBG celebra 55 años de creación con amplio programa de actividades - radio uno 93.7",
-          "fuente": "radio uno 93.7",
-          "fecha_publicacion": "2026-08-13T21:17:26",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORUtOR3FtVW01LXA1VEMyekJoV3N4M2FHckowYkh3aHhua2VCalFPcFNzYWFzM3NOcmdoX09LU01Gd0h2V1NDYzhjWUxFTHU2ZFVJcGxoal9wTGxuaVJXbXhYVzV3Tk81ajZfbUtRY3pjVFJnN2thT192UVRoS3RVSFltQjltQkdKNXNzY3V3OUd2SGdyWDVfVWpyU1FqV2hWS2FaR1ZXNUU?oc=5"
-        }
-      ]
-    },
-    "UNALM": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Escolar de 13 años logra primer puesto en la UNALM tras perder a su padre y promete convertirse en profesional - La República",
-          "fuente": "La República",
+          "titulo": "San Marcos celebra las Fiestas Patrias con el tradicional Menú Especial Sanmarquino - Universidad Nacional Mayor de San Marcos (UNMSM)",
+          "fuente": "Universidad Nacional Mayor de San Marcos (UNMSM)",
           "fecha_publicacion": "2026-07-17T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWWRzOTBEOWNQNVo5SE1PUkVVSkZqZ0hLUVU5REFhUXYwQzNwX014XzVPUGlOaGNuTEhGRDBtWmltN2lXUno1MzZrSEJrRU9MVU1aN0hEUkNFdkRnU1h0TndDZEJzeVVHa1dMZHBEb3doNDRveDdySGZ0WU1ZYk55dWtSZ3RJajBBX18zSTRvc1Atb2JTd3RUcDBLb2dGMGRVMVBDS05OTUxsaFlsd3lMcm5BcUVxNndpYzFFbzZVWkt5SFRveHVRaE5qZEFuQnFaNVlaVmRvdWFPLWhHWUpyRkZZblk5TW1xeWFhNV9NbkFsRlE?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSl9nRHZFcE1xa3ZvSm1qUHAzaUVlejhVcHkyMkxaQ05LWlY5VVBYTXUzWlJwM3BPTXBVeVlYZXpGckJLTHhGY3FCLVpES1JQVHUwVk9Tc0I2WDlCU29wUE1fbzVhSUZWV29qeWRFOF82WER5ZkNqdmdhR0pjUjhHYlFMRFFaYXBORWhoYlBVSGJSLUI5dlVNdlNKVVp4a2g2QVN4RlhtMkZvM1BRbkc1VWNMb0VHRkhNS0w2T0xZaXU5UHJKSHMwdHdlMHRJdmEyUWpPZENROTh5TUdDUk83ZzBkMHFUdHM?oc=5"
         }
       ]
     },
-    "UNJFSC": {
+    "PUCP": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-08-23"
+        "2026-08-16"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Vive Andina: Estudiantes de UNJFSC de Huacho visitaron Editora Perú - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-07-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZFFwWnFCU1JGTE1DU3R4dVcwZUVvWGZsUjBtZGxiUnVPaWVGS19GdzUtVDBjNzdkME5vSUNWNy13dFhYT0FvaXZGaTd4Z2xIcWVtTFJ4cTN1bk5oX2dZRHdnbUZnazhjd0xGTE1naWRyRWNCQU5iakdfQm1xZmtmOE51WTlKakV2MFRYVTNvZWZ3WmR6bXRaVmZWYmdWdVF4U3luVVdDblpOS1k?oc=5"
-        }
-      ]
-    },
-    "UPCH": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-09-13"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Caso Pronabec: Universidad Peruana Cayetano Heredia alerta sobre impacto de cambios en las becas - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-07-15T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTUIwV19yWUZZYjZsM2hlalpOVHZVWFJWM1I4NXVCaDkxM25HcjEtTjhURGg5NkxjQUNZSHItZGN1UWs5YjF2NDVvcDBJU2lXSnJkanNPVFBQSHEweDdRdXduQUozQmhrMFFGVzVZVXZYaVBMams3VXd6QnQ2WUR3SjZaX3F1dmdaNHNsWFRtVnM5YzVlQTQ2ZWd2cEdSZkxKc2U5NVFUbmZhLTh1dkRubHVIWVRpWFVTaFpTN2o2TVg1aWVsb3pGVmNlY1NjQ1FBZXfSAewBQVVfeXFMTlpNNEVyMjU5bC1CVUxzbFZ5am8wLV9Wb0FxSU5xS2FNUE9RTWxZZ09rc1lMZGRCU0g5WktXQTFrdXVkTVRfV1ZJaTB5ZXZicDdmdW8tc3pKZll6UXJUUHI3ZHBWc3l4SF9KWU9WaTIwcnJ1T21JUllneTdiOW0zN05mWW5tand0SHpqbHpDN3Z1TVQ0VHdPZ1d2Q3Z3TldKUTc4cDdjTW0xME00XzYzZXozVUJmNW4xZ3ZTeGkzU2tIeVJkX0JfRnd5UTJGSXhRNWJtR2lNTDM4cGZzU3BFUXVBYVhlZVZsNlJKU2M?oc=5"
-        }
-      ]
-    },
-    "TFIL": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Trabajadores CAS: MEF asignará S/57 millones para pago de gratificaciones de estas entidades - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-07-17T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZi1tRzZBMVR2R0lQd0tzZG4tT3BnWFdPd2d3SzNNbHlra2YwMVhxZFh1Q21OdkZWbWtFYldlMklOOXU3RFNPbV93QTVTM2lQVnJLMWVkOTRJVWFKTnFGRldFVzVOYXhYMFRlSW9ldjNwMjRCZUxyTFZteWMwUUdHY0pOZmRYMDBUVmFGeGpTVExfZk9zbmdydHgyY09SYUM4ZzZ6enphNzZHdjZPVGxDS3FybExNWGtOdlA40gHWAUFVX3lxTE5VclVLOXlEWXF6TkpCdmp0TnpTX2xNQzlfZ0NrNVM3OUxTVWl1S2N0Qm5adnAteE1NblVYcG8zN0c2elg3YTlkMlhpMDk1eVRZOFJtblB3N2Uxc1VLV0FRTXByUTZsa1NwOTJaT0NVSzRxR1IwRmk4OFIxX1p3dmZXNDluSXp2eHpoYnNvY3VQZ041eHNYM1p0cWx5X2xKcGcyQ1VnandjSHQ5a2d0ZG5Pc2xCZVdDcUY4cUx4Vzk2b1dZbmZkRFozbU82NVBfRXRycFhZMEE?oc=5"
-        }
-      ]
-    },
-    "M": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "🔴🔵 Delincuentes detonan potente artefacto explosivo en la financiera 'Compartamos' - apnoticias.pe",
-          "fuente": "apnoticias.pe",
-          "fecha_publicacion": "2026-08-10T12:24:53",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUFBBanUyUWlCZjRRUWRoUG9vM3JmbGw1TG1QXzdybHNUMkJWZzFib1VfTmhuY1dkcnVfVzJuNm01REhkaDdtWWREMUFORjF1YnE0Qi0xc2dNblM2cVBzUnJjSVV6d0Q5amstdVhTTElwRHltd2lqWlFHZl9VcTdMMDZkaWZGOVdTUFp0Y1JqUXNZNGpmSzQ2MzFtdWxXMjVVZ0tubUJCNFV6eVJNc0dlZk1yazdUWEk?oc=5"
+          "titulo": "Dos amigos de El Agustino hacen historia y conquistan el primer y segundo puesto de la UNI - Diario Expreso",
+          "fuente": "Diario Expreso",
+          "fecha_publicacion": "2026-08-14T13:44:00",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdm9POTQ3a3FPUC1Fdk5mMXhxNzF1dXlpczNHU1h2TWczbEhsZDdmUHBfTFBWb05sbTliVVFjWlNuSzBGWFRFSHpYSWlYZlhkWjBRWjdZZDdSQU9ETnVRT1hvbkNtb2Jqb2ZHTmZ1eEFGUl9GOGhOOUNwc3g2WjN0Tm9LR2RFSmN2dWlhM0YyR3J2d0xZWFRGWnZaalRmeU5vdUdGSlZraDFtaDkyQlBSSEdnZ1RPZXRnSlh6bmVmel9uUzY3Snp1V1E0aGp2d2lRSldLVE1lejhzbEdrUHc?oc=5"
         }
       ]
     }
