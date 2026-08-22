@@ -68,7 +68,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 JSON_PATH = RAIZ / "data" / "universidades.json"
 SALIDA_PATH = RAIZ / "data" / "propuestas_scraper.json"
 
-MODELO = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+MODELO = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 API_KEY = os.environ.get("GROQ_API_KEY")
 ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 
@@ -350,7 +350,11 @@ def llamar_ia(prompt: str):
             return None
 
         if resp.status_code == 429:
-            espera = 5 * intento
+            # Preferimos el tiempo de espera que el propio Groq nos indica
+            # (header Retry-After) en vez de adivinar — openai/gpt-oss-120b
+            # tiene un límite de tokens por minuto más ajustado que el
+            # modelo anterior, así que los 429 son más probables aquí.
+            espera = int(resp.headers.get("Retry-After", 5 * intento))
             print(f"    ⏳ Rate limit (429). Esperando {espera}s...")
             time.sleep(espera)
             continue

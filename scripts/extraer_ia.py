@@ -40,7 +40,7 @@ JSON_PATH = RAIZ / "data" / "universidades.json"
 NOVEDADES_PATH = RAIZ / "data" / "novedades.json"
 SALIDA_PATH = RAIZ / "data" / "propuestas_ia.json"
 
-MODELO = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+MODELO = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 API_KEY = os.environ.get("GROQ_API_KEY")
 
 ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"

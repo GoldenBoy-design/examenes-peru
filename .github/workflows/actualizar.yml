@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      # Modelo de Groq usado por scrapear_oficial.py y extraer_ia.py.
+      # Groq va descontinuando modelos gratuitos cada cierto tiempo — si
+      # este deja de funcionar, revisa los modelos vigentes en
+      # https://console.groq.com/settings/limits y actualiza solo esta línea.
+      GROQ_MODEL: openai/gpt-oss-120b
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
