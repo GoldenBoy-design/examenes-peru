@@ -21,7 +21,10 @@ jobs:
           python-version: '3.12'
 
       - name: Instalar dependencias
-        run: pip install feedparser requests beautifulsoup4
+        run: pip install feedparser requests beautifulsoup4 playwright
+
+      - name: Instalar navegador headless (Chromium) para sitios dinámicos
+        run: playwright install --with-deps chromium
 
       - name: Scrapear webs oficiales (fuente primaria)
         run: python scripts/scrapear_oficial.py

@@ -47,10 +47,14 @@ def universidad_esta_vigente(u: dict, hoy: date) -> bool:
     return any(f >= hoy for f in fechas)
 
 
-def generar_fila(u: dict) -> str:
-    fecha_principal = min(
-        datetime.strptime(f, "%Y-%m-%d").date() for f in u["fechas_examen"]
-    )
+def generar_fila(u: dict, hoy: date) -> str:
+    fechas = [datetime.strptime(f, "%Y-%m-%d").date() for f in u["fechas_examen"]]
+    # Mostramos la PRÓXIMA fecha vigente, no la más antigua del historial.
+    # Antes, una universidad con fechas pasadas y futuras mezcladas (p.ej.
+    # un examen de julio ya rendido + uno nuevo de septiembre agregado por
+    # el scraper) seguía mostrando la de julio porque min() ignora si ya pasó.
+    futuras = [f for f in fechas if f >= hoy]
+    fecha_principal = min(futuras) if futuras else min(fechas)
     fecha_txt = formatear_fecha(fecha_principal.isoformat())
     inscripcion_txt = formatear_rango_inscripcion(u["inscripcion"])
     link = u["pagina_propia"] if u.get("pagina_propia") else u["url_oficial"]
@@ -77,7 +81,7 @@ def main():
 
     vigentes.sort(key=lambda u: min(u["fechas_examen"]))
 
-    filas_html = "\n".join(generar_fila(u) for u in vigentes)
+    filas_html = "\n".join(generar_fila(u, hoy) for u in vigentes)
 
     plantilla = (RAIZ / "templates" / "index.template.html").read_text(encoding="utf-8")
     html_final = plantilla.replace("{{FILAS_UNIVERSIDADES}}", filas_html)
