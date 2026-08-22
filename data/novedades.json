@@ -1,124 +1,45 @@
 {
-  "generado": "2026-08-22T13:55:51.141535",
+  "generado": "2026-08-22T19:36:02.698199",
   "universidades": {
-    "UNMSM": {
+    "UNJBG": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
         "2026-07-12"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Facultad de Ingeniería Industrial de San Marcos ofrece 210 vacantes para maestrías y doctorados en el proceso de admisión 2026-II - Universidad Nacional Mayor de San Marcos (UNMSM)",
-          "fuente": "Universidad Nacional Mayor de San Marcos (UNMSM)",
-          "fecha_publicacion": "2026-07-14T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOWjY2RnE1VmQ2MG0yRWxiNTlsUXo1UjBtYzB0eThub0ZabXV6LXpkcUJWM1puNU02d0lLZElITjVpZ3V4dG9NSGliUWs0WVBaa0o3U0ltcnE3bWozaWpqN3BXZmxmZzRodHdlVE9LcXNJaFZuN0xVUFpfbkVuUVZkblZncjBSSkJyZUJ1MHQ3aGJKVnZUYmphdUNCbWtwMmdubU43WWltMlF4NFlGSTBrMUd0ZndmSENySkJQT0xqRE1sRGZvYjdaLVJLQ3ZfU0FZLUpHWEo2T1F3T0dKaEJPNDg4WVBtNGx6WHpPaFowVW4yRkJ0WFlLd1l1V081VXZKcEl6SDhTbzFmYTZ5WnJNVkJ5V3B1R0lUWkZCM3BTRFJYNjB4?oc=5"
-        },
-        {
-          "titulo": "San Marcos definió cuándo será examen de admisión 2027-I: aquí el cronograma - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-08-18T00:15:40",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMHRyc0RzaDlYRG5MY2QtOTNHc3YzVVpnNlhhSlI2aGhFN1V2SHRaTnpTOWlfTVlmR00tZXQ1M3FDRU9uMTQybTBISV9FTXNMVDVqM1RocjBtcXI2UWVEMVNNQXNlMGxXcjBkM0pmc05wMHVSSEZlMW9abDhKaGl2Wk13TTlUMHhXN1JtTUk5SEtZbzRzcTF0eTRjckwwWXVQV2poYlVBWmVyNFVsSlJFVk05dWE4dw?oc=5"
-        },
-        {
-          "titulo": "UNMSM FORMARÁ EXPERTOS EN NANOTECNOLOGÍA Y MATERIALES AVANZADOS CON NUEVA ESCUELA PROFESIONAL - RCR Peru",
-          "fuente": "RCR Peru",
-          "fecha_publicacion": "2026-06-25T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZU5NZFU0YjhORi1oSjllaHJmY212UlAtNlFNMVhVTlRRbjdWSGYyUUJneFc5UWpkcHdZMk5GbWc2RWkya3d4dnBjVW41MEJHSkxYbDg5T3BUTE02TkRzdVFqYkJXQ1o0LVRidGxOYkVXcmRMOEdJcTR6YURhOHRqTkl3ZDRaMFVCbThHdEdCOS04ODZ0aUlEVXo2STZyZ3hWS3dlYmptVzBSQlN2bFB0ZkpvYXpNQ1ZDdlE?oc=5"
-        },
-        {
-          "titulo": "UNSCH evalúa nuevo examen de admisión para escolares de 5.º - jornada.com.pe",
-          "fuente": "jornada.com.pe",
-          "fecha_publicacion": "2026-07-03T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObjMxeDA5MTgwaGl5ei1kajZFaDVMbFdoQV82QWVtRkVhVl9tbmJ6UThBODNwWE0xNXlfWVhXMDhydWdjbXpNaVA4ekpRRXExM3k5SjFnbGhld2d5OWROem1MZWNhajdlV2FpblBLdTBWbmpDdmZ1Vkc1VE1rNW5XeGN1dkJ3a25JQ2FCN19ZYzg4ZmoyS0kxYzRhbWRoUEFLOHdGd2VEN29INWNJZzVv?oc=5"
+          "titulo": "UNJBG celebra 55 años de creación con amplio programa de actividades - radio uno 93.7",
+          "fuente": "radio uno 93.7",
+          "fecha_publicacion": "2026-08-13T21:17:26",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORUtOR3FtVW01LXA1VEMyekJoV3N4M2FHckowYkh3aHhua2VCalFPcFNzYWFzM3NOcmdoX09LU01Gd0h2V1NDYzhjWUxFTHU2ZFVJcGxoal9wTGxuaVJXbXhYVzV3Tk81ajZfbUtRY3pjVFJnN2thT192UVRoS3RVSFltQjltQkdKNXNzY3V3OUd2SGdyWDVfVWpyU1FqV2hWS2FaR1ZXNUU?oc=5"
         }
       ]
     },
-    "UNAC": {
+    "UNALM": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-07-19"
+        "2026-07-12"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "¡Récord nacional! 102 escolares de Carabayllo ingresan a la Universidad del Callao - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-07-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZDFneWd6d1l3U0pqblgxWTBTcU1tXy1zS3o3WkVla2ZZUHBkcE85cE5OOGo4LWtfUEhrdTFheno1MzUtSzRsdHdReGRhZEhtaWVyX0JoRFl3UnFVd0tlZG5KYTlWQ2xnQV9NdGpLanl6ai1HNGI3ejVlaTczLWE2ZWh1WUg2ckRURTYtUjNQSGdVQjFzWks5RDRQbWd6ZDhnY1Y0dkJKT21mbEJQakItdTB6UnBLN1hrbWhPU0xn?oc=5"
+          "titulo": "Escolar de 13 años logra primer puesto en la UNALM tras perder a su padre y promete convertirse en profesional - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWWRzOTBEOWNQNVo5SE1PUkVVSkZqZ0hLUVU5REFhUXYwQzNwX014XzVPUGlOaGNuTEhGRDBtWmltN2lXUno1MzZrSEJrRU9MVU1aN0hEUkNFdkRnU1h0TndDZEJzeVVHa1dMZHBEb3doNDRveDdySGZ0WU1ZYk55dWtSZ3RJajBBX18zSTRvc1Atb2JTd3RUcDBLb2dGMGRVMVBDS05OTUxsaFlsd3lMcm5BcUVxNndpYzFFbzZVWkt5SFRveHVRaE5qZEFuQnFaNVlaVmRvdWFPLWhHWUpyRkZZblk5TW1xeWFhNV9NbkFsRlE?oc=5"
         }
       ]
     },
-    "UNAB": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-02"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Resolución de Comisión Organizadora - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-08-03T16:43:53",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaWEzTTRWY2cxNWhvN09oeWZtTWZaeF9WMUxKUFluXy14VmJEQUZSRHNZQ2M5cHZMMmp1VXBmV1RaY05scUlsaEZoc0lBTE1jMGQ4VnlMam5xc2g1clJTN3lZel9OV2d3czhaVFRjUjlMbDdaTGREbXRqVHhUSnR5dldBQVZhZWdtb0RzNElSQWp2emlWTW1hOUM3WXV5TGRvU1hESnVDcS1zdw?oc=5"
-        }
-      ]
-    },
-    "UNS": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-09-06"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Nuevo Chimbote: UNS convoca a exámenes de admisión preferente y ordinario - Radio RSD",
-          "fuente": "Radio RSD",
-          "fecha_publicacion": "2026-08-18T00:02:23",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1QwUUhsOHhFeDRJTkkyemNqUW5WTXlVNTNVWkNQaWIxQlU4NFFzdlducUR0SFdlekk5dlk3N2ZOZ0ktQTQxTUxpbU1HWkF1dE1DNWNyYTNkUW9LSWhGQkFSRHFWVTVtS2xWSVhYc1NoZXdjRUFQbll0VWE0cjVxMHpBVjItMEVxdUJzZFY4d21sYUJiVUZ0eEw1NEFpVy1j?oc=5"
-        }
-      ]
-    },
-    "UCV": {
+    "UNJFSC": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
         "2026-08-23"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Invitan a universitarios a sumarse al voluntariado por la visita del papa León XIV - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-22T03:32:00",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNXzdBc2k4UjZoaFFWcTRzODk1MlpuaTJIRURzb19QbzFYNXYzZVdOdVVFdU5sLVB2RG1Qc1ZEZFpMYWM0NnZwbU45Xy1NeGZTMlJjaGx3UlQxYUhYWWUyZURkZmpoOW1kajVOaUlBTFAyWlo5WFQ5OC1aU0FtemV4VVBLZjI2SndjTjI3VlFPb1J6Sl9BS0dyamprcU1XSjBjNFFwaXY3bVdMRXhlUlZVQlNXWnBOZEJBVDVPY1Z0czhKbW8xQy1JdWZnOHptSmxiUnRVdVhRMENXYmVZTHBuOWZUNWlxTHQxQnc?oc=5"
-        },
-        {
-          "titulo": "Canciller Espá anuncia que continuará expulsión de delincuentes extranjeros de alta peligrosidad - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-04T00:34:00",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMGc3RkpFX3M2d1JmVGNoV0gzbmluOFVNNlhRQU9IYlYyZVVXNlZheHZrTDE2RmdrTUZqdEFmRDN2M2dYLURzR0c5ZmVPdXVNNUFKQ05Cc3pEcnVKXzdGTW9yT0xSXzBwT2RSUEpnRDBZM1BxbmJtM3BsaVdUQkk1S2ZFclh0NHJmZG9YcDdER290TDJ4cGFpRlZaWkJEVUxkQXhzMEdtN2Z1c3BfaVN2NjVITXZJcEFtTHFMU3ppaXdUUUVWajB3bl9XZmJDeUt6YmNrZnZ4S1U2eGZnMHJMMEk0NTg3X1BEaXZ2S2pteGRyeGdv?oc=5"
-        },
-        {
-          "titulo": "Presidenta: “En 29 vuelos del puente aéreo se trasladó a 650 personas en Arequipa” - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-22T04:49:00",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSFlvZkVfSHZhTmhNN2xrWWdPXzZxSDVUbWM4ZGFveWxMZnY4YmxwWkRMbThkY3MydG9mYlhtSjBjRzN0cmE5UkRETFM4cmVqQXMxZUlrSXFTTGZJTVdGVmE1TUNzbU1heEVBUnpFZGdRTW1nbEFaRGtIYTdtYXFNMnhHLVVFSkpUb0luOEhlSFJIbU1hcW0yQTBhN2tfaXJWY1FnZUQ3bFdpTEs3OVFqcGN3Mm81SHJIbXdOdUluS3dXVmpsbjZLYzRWWDRaYk5UalRXbnVNc2JKQkdlSVE?oc=5"
-        },
-        {
-          "titulo": "La Libertad: tres personas heridas tras balacera en exteriores de universidad en Chepén - Agencia Andina",
+          "titulo": "Vive Andina: Estudiantes de UNJFSC de Huacho visitaron Editora Perú - Agencia Andina",
           "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-06-27T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa1ZmaFBDcE1jd1g2N1lRY3plWk1PUWg3cm5FX29rUlVySlhzQXhxWHNPS1h5dnpJakY4ZVdWNFl4ekVGRkFtREppSUNMb1d2QjR5YndxTUJFTHQxX1liMXgxZHFDaHBRY184bEZKNnMxbUZYTFFvTnlibHJZeEVSNWJmUjgtQUhtOHBCWENZbk5oT0pZNTJqYmtyS1RvUnZRRVpoMGwxOXpkWEFiZUxlZHFENk5WZUN1d3FOam1JNUN1dw?oc=5"
-        }
-      ]
-    },
-    "UPC": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-08"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Resolución Jefatural - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-07-27T22:14:47",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV2RBNm5Hc0tSa2RtZk8ya0lpWHlfN0RiM19mQXgwODQ4UHFkX3JkTU5NSnBjZTBtM3MwUnJrbzk0bVY4My1rX2twaDl1OGEwdGE1T2dyRkVIcXVvZDFGb1c3dVVGMUhPM1o1QTcweDFQbG9xallTbXJ0VzgtbFFwNXVQSHkxMFZLanlwRk9pb0ZUbEs4Vlh3RkNLM0lZdGw2NmpuVWdUUUMzZ0JuNGpRcFIyaUFtNWtzMnc?oc=5"
+          "fecha_publicacion": "2026-07-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZFFwWnFCU1JGTE1DU3R4dVcwZUVvWGZsUjBtZGxiUnVPaWVGS19GdzUtVDBjNzdkME5vSUNWNy13dFhYT0FvaXZGaTd4Z2xIcWVtTFJ4cTN1bk5oX2dZRHdnbUZnazhjd0xGTE1naWRyRWNCQU5iakdfQm1xZmtmOE51WTlKakV2MFRYVTNvZWZ3WmR6bXRaVmZWYmdWdVF4U3luVVdDblpOS1k?oc=5"
         }
       ]
     },
@@ -129,22 +50,34 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Resolución Jefatural - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-08-10T09:04:35",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTRTbXJkQ3JDTkVoTm82VEl2TWpTUnNDZ2JZUEZydW93V3hrN21hN2drbGpDaG1YYVNoN0dTY0o3elQ3M252aXBxQXBCVmNkMUdWNk16eF9Cb19FY1pfRk9qazdhVkgtMmpzYkxhX0NMR1NwX2NQbFRvYm5QWTVOeHVyZ3piYjVaNDNyWXc4Zm53dE4wWTBHcm84ancwWi1zRDNsUw?oc=5"
+          "titulo": "Caso Pronabec: Universidad Peruana Cayetano Heredia alerta sobre impacto de cambios en las becas - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-15T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTUIwV19yWUZZYjZsM2hlalpOVHZVWFJWM1I4NXVCaDkxM25HcjEtTjhURGg5NkxjQUNZSHItZGN1UWs5YjF2NDVvcDBJU2lXSnJkanNPVFBQSHEweDdRdXduQUozQmhrMFFGVzVZVXZYaVBMams3VXd6QnQ2WUR3SjZaX3F1dmdaNHNsWFRtVnM5YzVlQTQ2ZWd2cEdSZkxKc2U5NVFUbmZhLTh1dkRubHVIWVRpWFVTaFpTN2o2TVg1aWVsb3pGVmNlY1NjQ1FBZXfSAewBQVVfeXFMTlpNNEVyMjU5bC1CVUxzbFZ5am8wLV9Wb0FxSU5xS2FNUE9RTWxZZ09rc1lMZGRCU0g5WktXQTFrdXVkTVRfV1ZJaTB5ZXZicDdmdW8tc3pKZll6UXJUUHI3ZHBWc3l4SF9KWU9WaTIwcnJ1T21JUllneTdiOW0zN05mWW5tand0SHpqbHpDN3Z1TVQ0VHdPZ1d2Q3Z3TldKUTc4cDdjTW0xME00XzYzZXozVUJmNW4xZ3ZTeGkzU2tIeVJkX0JfRnd5UTJGSXhRNWJtR2lNTDM4cGZzU3BFUXVBYVhlZVZsNlJKU2M?oc=5"
         }
       ]
     },
-    "IPD": {
+    "TFIL": {
       "estado_actual_json": "por confirmar",
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Mundial de Tabla en Perú: Clasificatorio a LA 2028 - jornada.com.pe",
-          "fuente": "jornada.com.pe",
-          "fecha_publicacion": "2026-08-21T17:41:10",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYTZFTXdvT2pPNF9JSTlRTmFfUkt1R1hNc3NjZzhac0k3LW11VWFkOG5rd0lOVERYTEJ4RktvZFhvVXloTmpCY0Z1RTJTMmI5RDZTMlcxV3luOXBjS2F3NXM4N2RWWmk4OF96SlNSSkxGTlhNSG9RLTB3elNOcTZyQ2liRjBBTEZUWnAtemh0NHZFMHVjcjkzeXZQTHo5M1pIeGFadS1aa180UmpMVjd0dzNYUGR1Vl9r?oc=5"
+          "titulo": "Trabajadores CAS: MEF asignará S/57 millones para pago de gratificaciones de estas entidades - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZi1tRzZBMVR2R0lQd0tzZG4tT3BnWFdPd2d3SzNNbHlra2YwMVhxZFh1Q21OdkZWbWtFYldlMklOOXU3RFNPbV93QTVTM2lQVnJLMWVkOTRJVWFKTnFGRldFVzVOYXhYMFRlSW9ldjNwMjRCZUxyTFZteWMwUUdHY0pOZmRYMDBUVmFGeGpTVExfZk9zbmdydHgyY09SYUM4ZzZ6enphNzZHdjZPVGxDS3FybExNWGtOdlA40gHWAUFVX3lxTE5VclVLOXlEWXF6TkpCdmp0TnpTX2xNQzlfZ0NrNVM3OUxTVWl1S2N0Qm5adnAteE1NblVYcG8zN0c2elg3YTlkMlhpMDk1eVRZOFJtblB3N2Uxc1VLV0FRTXByUTZsa1NwOTJaT0NVSzRxR1IwRmk4OFIxX1p3dmZXNDluSXp2eHpoYnNvY3VQZ041eHNYM1p0cWx5X2xKcGcyQ1VnandjSHQ5a2d0ZG5Pc2xCZVdDcUY4cUx4Vzk2b1dZbmZkRFozbU82NVBfRXRycFhZMEE?oc=5"
+        }
+      ]
+    },
+    "M": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "🔴🔵 Delincuentes detonan potente artefacto explosivo en la financiera 'Compartamos' - apnoticias.pe",
+          "fuente": "apnoticias.pe",
+          "fecha_publicacion": "2026-08-10T12:24:53",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUFBBanUyUWlCZjRRUWRoUG9vM3JmbGw1TG1QXzdybHNUMkJWZzFib1VfTmhuY1dkcnVfVzJuNm01REhkaDdtWWREMUFORjF1YnE0Qi0xc2dNblM2cVBzUnJjSVV6d0Q5amstdVhTTElwRHltd2lqWlFHZl9VcTdMMDZkaWZGOVdTUFp0Y1JqUXNZNGpmSzQ2MzFtdWxXMjVVZ0tubUJCNFV6eVJNc0dlZk1yazdUWEk?oc=5"
         }
       ]
     }

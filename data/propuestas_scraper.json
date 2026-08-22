@@ -1,11 +1,23 @@
 {
-  "generado": "2026-08-22T13:55:27.165852",
+  "generado": "2026-08-22T19:35:12.646963",
   "universidades": {
     "UNAC": {
-      "error": "no se pudo descargar la web oficial"
+      "error": "no se pudo descargar la home"
     },
     "UNALM": {
-      "error": "no se pudo descargar la web oficial"
+      "error": "no se pudo descargar la home"
+    },
+    "EMCH": {
+      "error": "no se pudo descargar la home"
+    },
+    "ESOFA": {
+      "error": "no se pudo descargar la home"
+    },
+    "JCMM": {
+      "error": "no se pudo descargar la home"
+    },
+    "PA": {
+      "error": "no se pudo descargar la home"
     },
     "UNJBG": {
       "error": "sin respuesta de la IA"
@@ -13,19 +25,19 @@
     "UNICA": {
       "error": "sin respuesta de la IA"
     },
+    "UNAB": {
+      "error": "sin respuesta de la IA"
+    },
     "UNDC": {
+      "error": "sin respuesta de la IA"
+    },
+    "UNMSM": {
       "error": "sin respuesta de la IA"
     },
     "UNSAAC": {
       "error": "sin respuesta de la IA"
     },
     "UNT": {
-      "error": "sin respuesta de la IA"
-    },
-    "UNAB": {
-      "error": "sin respuesta de la IA"
-    },
-    "UNMSM": {
       "error": "sin respuesta de la IA"
     },
     "UNS": {
@@ -37,37 +49,31 @@
     "PUCP": {
       "error": "sin respuesta de la IA"
     },
-    "UPC": {
+    "UCV": {
       "error": "sin respuesta de la IA"
     },
-    "UCV": {
+    "UPC": {
       "error": "sin respuesta de la IA"
     },
     "UNTELS": {
       "error": "sin respuesta de la IA"
     },
-    "UNI": {
-      "error": "sin respuesta de la IA"
-    },
-    "EMCH": {
-      "error": "no se pudo descargar la web oficial"
-    },
     "UTP": {
       "error": "sin respuesta de la IA"
     },
-    "UNJFSC": {
+    "URP": {
       "error": "sin respuesta de la IA"
     },
-    "ESOFA": {
-      "error": "no se pudo descargar la web oficial"
+    "ULIMA": {
+      "error": "sin respuesta de la IA"
     },
-    "URP": {
+    "UNI": {
       "error": "sin respuesta de la IA"
     },
     "UPCH": {
       "error": "sin respuesta de la IA"
     },
-    "ULIMA": {
+    "UNJFSC": {
       "error": "sin respuesta de la IA"
     },
     "EOFAP": {
@@ -76,13 +82,7 @@
     "ENP": {
       "error": "sin respuesta de la IA"
     },
-    "JCMM": {
-      "error": "no se pudo descargar la web oficial"
-    },
     "TFIL": {
-      "error": "sin respuesta de la IA"
-    },
-    "M": {
       "error": "sin respuesta de la IA"
     },
     "EO-PNP": {
@@ -91,10 +91,10 @@
     "EESTP-PNP": {
       "error": "sin respuesta de la IA"
     },
-    "PA": {
-      "error": "no se pudo descargar la web oficial"
-    },
     "IPD": {
+      "error": "sin respuesta de la IA"
+    },
+    "M": {
       "error": "sin respuesta de la IA"
     }
   }
