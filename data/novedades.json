@@ -1,86 +1,63 @@
 {
-  "generado": "2026-08-23T14:05:27.702083",
+  "generado": "2026-08-24T14:02:42.186661",
   "universidades": {
-    "UNMSM": {
+    "UNE": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-07-12"
+        "2026-06-28",
+        "2026-08-29"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "132 postulantes iniciaron evaluación para ingresar a la Escuela Profesional de Educación Física de San Marcos - Universidad Nacional Mayor de San Marcos (UNMSM)",
-          "fuente": "Universidad Nacional Mayor de San Marcos (UNMSM)",
-          "fecha_publicacion": "2026-08-03T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNaGo4YUpPQ2g2RHZrSHBqaWF5Z3NodDN1WnBhcUVTaHR0XzIzOWVCMU41ZEx0ZHR2QlhvQjJYbmpaWDluTDdVTTVucTFGYzQxOGNKVHd0VGRJMzdmc1dOTGRKM0tHT0dUSzY2R1VTb1A1S3FDOHBuNXdfQnhPdjRQUkV5TGJGUTdReHRpYVNZdGVONHU5NGVfTnN5SUFOZ0U3bVFzaExqOHVRX3phdjU2Nkc1ZHZnVnJHQ3htWldRejVLNDBfOFBJeEtxSlkxaUdRZl9YRDZNLUFCNEVxNUpzUGthRG0zRkhSOTB5RHR6YWRvVlhxeFZEOURDZWNlalNfTnE2dUZzWXRuQQ?oc=5"
+          "titulo": "Hoy presentan Antología El papel de las letras Volumen 2 - Siente Trujillo",
+          "fuente": "Siente Trujillo",
+          "fecha_publicacion": "2026-08-22T11:44:52",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUnFKWFA0a2kzTU1UR2d1S09IVDBJYm1LUEpiOWVYNHUwaGQyVmNfSS1zOGZnUWtQZHdHUkNNOWd4X3JBbGtseHhHVDA0eS1KTmI1R080NjJ5VzQ5OThqdFFOcTlPNExNRENCcks5SjFJWEsxVlhodWJWU2RlUTNuZ1Z2TEp0c3RqZ0ZlSw?oc=5"
         },
         {
-          "titulo": "Exitosa Noticias. . 🔴🔵 #HablemosClaro💬💬 | Estudiantes de la filial de Curahuasi llegaron a Cusco para tomar el local central de la Universidad Nacional San Antonio Abad, para exigir al rector que se realice el examen de admisión. 📻 95.5 FM 📡 6.1 señal digi - facebook.com",
-          "fuente": "facebook.com",
-          "fecha_publicacion": "2026-07-20T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSE1od1ljNk9CN0tWalp4a1Byc3dvQUJiSDhBakFHVlhaaXVXVEU3YldDSkxOM3NJWXI2c3ExakpPZl9JMW9wb0RZZ3BibU1zNzUwTHhPR3loS0dIZDdKRlFFd3JDOWoyemxmbGwyR2hDWGI1SGhLWTRlS04tcWZxV1NfTTk2S2ZfTW1ydGFxZFY5SDlEbUdxTDhESXI2R2Vtb1FLLVlnUjdmYm5lN0UyazZuODhSQm05UXBlalhSNGwxcGxpMVVXZXI2cU9FRUtzMHBqZ3NzeTdydmQ0MktN?oc=5"
+          "titulo": "Joven de 13 años logra primer puesto en Pesquería y suma cinco ingresos a universidades públicas - KCH FM",
+          "fuente": "KCH FM",
+          "fecha_publicacion": "2026-07-16T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQjVOM0FLZ005RGl6ZzUteXcxQXVDME42VmwwYW5QNE1EMEg5ZVY1cnpNYmlHVHlobVVwOVZWWFE3am0zYXNVNjJZamxHOXdqMHA1QjNYMDNGNnpqREtTTG9JU3gwbGUwZzIxelcxcmI0eERZN3hSd1UzQUF0NzJfdUx2OFF3MENWOHZ5V2JEZEk4eC0xY3lhTUlZRURmZWxDSUVVMkkwc1BmRF9pRlNHVEpVV0tuNWJrMGk0M0VUZ0ZfSnBMSXpUbnN2blEwWTRFT2c?oc=5"
+        }
+      ]
+    },
+    "UCV": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-19",
+        "2026-08-23"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Congreso de la República: Esta es la distribución de mesas directivas de las comisiones del Senado - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-11T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVjFBYV9LaTFKM0VNWUFXZUg2VHpQNXZpb2t1NFJqZTNydWd5Qy1KdTRSSHI5R3Q4V1Zmbm56Q3pZeGgxVVlSWXRmR09VZUJWNm1uSTVkaU1YYUM5a1pjODRfdk0wdkQ1blJYWm5KTUpYTWdHbXVOMGlHdTBaMkhXVXdVLTRTRHh2VjV4ak02eWdOeFd2bms3RmlXZmI0QnplZW1rQ0dnV05RRThoamhMWlNpY1ZXTXNtdEVLTFh1S1Y5N2ZMdUpnNWoxZjN3NXZKd0FyUG81MFl0cXcwd1V2bVRRQ0ZnOUtiWjZBc0JmckRXN25Zc1E?oc=5"
         },
         {
-          "titulo": "CONVOCATORIAS - Plataforma del Estado Peruano",
-          "fuente": "Plataforma del Estado Peruano",
-          "fecha_publicacion": "2026-08-21T20:55:25",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wTTNoSjlEcWgzUE4wV3BEdFVGRzNCSFpLS2VhRXlJVUJlZ3ZSWTBaRWxfNjg0SERjVWh2dXZNaGdJZHA1cGRPWFliYlRkZw?oc=5"
+          "titulo": "Más de 26 mil escolares de La Libertad competirán en el concurso de la UCV \"El Estudiante del Año 2026\" - Macronorte",
+          "fuente": "Macronorte",
+          "fecha_publicacion": "2026-08-17T21:32:38",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbGFKakF1VzhaZXlVUFVZamZlckVKRGtLSnJUWnI0WnF1TDdlSTJnMjFRMldCbXhaOGI3R1BzMXVTMnZuakdKaDJteDF1VHhpQm1jYU92eW45VF9qUm1rQjVWUmUta1ZkM3M1TE5mTjdFdzY2ZWpZM045ZDNtZ1FmVEdMRGQ0c0JBV2lGWFdqd25VUWJjUFRUZkdaaEZBNkU1QWlYSWJYNDI5UWdfYkFibmpYVmtPcDhQdHNjZnJua1dNOFdGdmhQYTNBVERnMm4z?oc=5"
         }
       ]
     },
-    "UNSAAC": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-18"
-      ],
+    "IPD": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Exitosa Noticias. . 🔴🔵 #HablemosClaro💬💬 | Estudiantes de la filial de Curahuasi llegaron a Cusco para tomar el local central de la Universidad Nacional San Antonio Abad, para exigir al rector que se realice el examen de admisión. 📻 95.5 FM 📡 6.1 señal digi - facebook.com",
-          "fuente": "facebook.com",
-          "fecha_publicacion": "2026-07-20T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSE1od1ljNk9CN0tWalp4a1Byc3dvQUJiSDhBakFHVlhaaXVXVEU3YldDSkxOM3NJWXI2c3ExakpPZl9JMW9wb0RZZ3BibU1zNzUwTHhPR3loS0dIZDdKRlFFd3JDOWoyemxmbGwyR2hDWGI1SGhLWTRlS04tcWZxV1NfTTk2S2ZfTW1ydGFxZFY5SDlEbUdxTDhESXI2R2Vtb1FLLVlnUjdmYm5lN0UyazZuODhSQm05UXBlalhSNGwxcGxpMVVXZXI2cU9FRUtzMHBqZ3NzeTdydmQ0MktN?oc=5"
-        }
-      ]
-    },
-    "UNAB": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-02"
-      ],
-      "noticias_encontradas": [
+          "titulo": "Punta Rocas albergará el Panamericano y Sudamericano de Pentatlón Moderno 2026 - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-07-09T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYkhxM2Q3WUtaOEUzeWViOG9CNXhWY29Wd0xKcDdEWDlxWHVmVDBhNklpc2NNSjVEU1hQcll4dDlXVkM2SGdXaVp5TjRzVzc5S1gzeFl5WFphaHBtMGlvUjdqZkVueVMyazBvdUZ1Z0IyQXZjZy1IbkFsTUpXQm9ia1RxaW5GMFR1V2tOd3hrYU5vcWJxai1SdU9fVEdqcFVXSS1wTWhGVm8tUllLYXlHODBVYk5PWnZBTlA4?oc=5"
+        },
         {
-          "titulo": "Resolución de Comisión Organizadora N.° 1068-2026-UNAB - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-08-18T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCOEprZEM3ZmtnMV92U2JDWDRTVFhDRDZ4YTV0RThHeVh4c2JLdmZaSUJ2anNITVYzdmtVLW8xOHRqMXRrMWhhMDF2RVlldnp4X3hxbDltcUlWd3h5VDVfYnRjU1RzUFkwMnJ3aUVlbjFqZTg5Z2VPaXI0LTRZQQ?oc=5"
-        }
-      ]
-    },
-    "UNT": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-17"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "RCS N° 126 - mail.inpe.gob.pe",
-          "fuente": "mail.inpe.gob.pe",
-          "fecha_publicacion": "2026-07-17T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbm9XM0J5THhKUWtsaEptSnp3SHlHNmptMW90Wm94SGRvT080dzk3dVVSVVFQOExVWkpjNkdEY1RjZEMzQm9PX2d0OTNKRnhCaTF1S3Foa29lYUJyNjNaTGZYbHllZ29PQWJVMjZrTk1Ic1lIQUI0SndLSU1wU25kZktISGRKeGw0ckJNWnRqbHJtRWlKUkx1UVBsQW5Qdw?oc=5"
-        }
-      ]
-    },
-    "UNS": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-09-06"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "RCS N° 126 - mail.inpe.gob.pe",
-          "fuente": "mail.inpe.gob.pe",
-          "fecha_publicacion": "2026-07-17T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbm9XM0J5THhKUWtsaEptSnp3SHlHNmptMW90Wm94SGRvT080dzk3dVVSVVFQOExVWkpjNkdEY1RjZEMzQm9PX2d0OTNKRnhCaTF1S3Foa29lYUJyNjNaTGZYbHllZ29PQWJVMjZrTk1Ic1lIQUI0SndLSU1wU25kZktISGRKeGw0ckJNWnRqbHJtRWlKUkx1UVBsQW5Qdw?oc=5"
+          "titulo": "Perú ya suma 98 medallas en los Juegos Panamericanos Universitarios Lima 2026 - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-07-30T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaFRTVmdQNDV1SnlBTExNYUtJeVZWcGlpdEtEdEhLRDZhQllrLWhZVGhGS2NEbXRTcDNXb0VNbTJRQ1FYVE9JT1R4MmhZbENTTU1wbFZ3d0NRTEU2SEJGcFZjeUVJbmlWNjVJd1N2QjMxMlNEa3FHMVFuU2FoRmVKcFZzNkp2WHRrSnFYVFNFSF9hSW5tRVhlYXEwSEpwaWZjbExGM08xRDZaazY0b0duMWZDNGpEcjE5Uy1WcHR3?oc=5"
         }
       ]
     },
@@ -89,10 +66,10 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "🔴🔵 Janet Tello advierte sobre ataque contra el Poder Judicial - apnoticias.pe",
-          "fuente": "apnoticias.pe",
-          "fecha_publicacion": "2026-08-04T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTUxCNS04RkN2RXQ3Qjk1ekJhUmxxNWYyUWxycGxJQlpKcnk2UEdDYjVJdkxfVmsyeTJBRW9WWmZpMmsxNFFYVEVCWnpCMHJOSjVQVHZRdEpnM3hfZFdweXFJcjZqUEFDTERUUm10ZHZVaU4zeGY5NXRGd3F6TXdWUnRvOGUzU1RCcTBfaXlGVHVxY3BLNV90M05GaHFhUQ?oc=5"
+          "titulo": "Universidad Daniel Alomía Robles anuncia examen de admisión con tres pruebas eliminatorias - Diario Ahora",
+          "fuente": "Diario Ahora",
+          "fecha_publicacion": "2026-08-23T04:34:34",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWHhGS0ZsaU9XbXhJSzY0MzM0TDBreV9iV3RLZGlnelRyZW54SWZESWdEeWViYlkxcnpYekd3enZTV3ZObGlZRkx1alR5d0FDZmNaYzhScTI1aHpJUWJDRG5uY1ZoMnlKVUg5U3YxaUdhQklJTXpWX09IQ0xzMVRqSVY5ZjlJV180ZGJsdFRka0s5VkdZWTJlaDJBYVR5NUY2QjZkcE1wUmNrbHFoN0hTalUwekFCV3c3UjVz?oc=5"
         }
       ]
     }
