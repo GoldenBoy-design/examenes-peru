@@ -1,119 +1,95 @@
 {
-  "generado": "2026-08-25T14:01:13.460159",
+  "generado": "2026-08-26T14:04:21.862240",
   "universidades": {
-    "UNALM": {
+    "UNJBG": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
         "2026-07-12"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "30 escolares de un mismo colegio de El Agustino ingresan a la Universidad Agraria y obtienen el 11 % de las vacantes - diariouno.pe",
-          "fuente": "diariouno.pe",
-          "fecha_publicacion": "2026-07-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUnhvV0I5LTVuSVE5VzF3R1VFNUpRSEtab2xZaEJhUGdxWHpwcTFKZkpBTzJ1LU5Bdkp0X1VLTk5SMnhSdTRVY1hya1Q3UVBLRFgwX0dXZHNkTllBZ3U2NXZrZFZkWk1BWmRrb3dUS1FRdk85bkN2SXhOclRMc1lhR1hQNnVJS2p3VVVYUldQaTcwazZTNEUwdTZQWlc4NG1CaXRaTzdWQXp5eDNzSmVsMGN5OWEtUTBGTnVhd3JSdXFQZ1lYTnVEUFFMcVNxMjNUc1N5RGRySHRINmw4enFNZQ?oc=5"
-        },
-        {
-          "titulo": "Ficha CTI Vitae - CTI vitae",
-          "fuente": "CTI vitae",
-          "fecha_publicacion": "2026-08-14T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPajVHMzl6SlNkMklFZUpJV3R2Yjdnekw0VlUxT3NucXBLeDZqMTlhMlFOeVpXWGI5TlVpWGd3Ni1JVXViVmJIc0o3TS1UMi1OTlQ5ZlQzVTBMZGtfUmtNb3BvNTFUTVJMRHVBNDFCNy0xMTUtRmZIeTBSMjB0Nk53LU5HVEFzWWs0YmJMVGFEb3JFUFJYMFhNZnhsMA?oc=5"
-        }
-      ]
-    },
-    "UNMSM": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Examen San Marcos 2027-I: conoce el precio, los pasos para la inscripción y todos los detalles - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-20T12:24:00",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPckdobTFpcjJ0ZW93R25kcGtqYXgzVTFadXJ6V2dHN1ZJYlRrWDRXbFV1NGZHM1pHQlNhU2MyRFI0LTNiWkZDNTlld19XSXNkS05GeTNkYXZCcmFRVGV5M3dzY1B0Zl9iM2tTMFc1enBuZHFyYUhiZkRONEJBdEJHc2pULUhTaGJOcFczNFRNSTFNcEJmSF9xQkJwVnhFQnJXN2tCY3Qta2ZhMWlhZXlOS3JQVEMyZDlMSHA5MW54LWQxRHhsenlXZFozS0FkQQ?oc=5"
-        },
-        {
-          "titulo": "San Marcos anunció cuáles son las fechas de su examen de admisión 2027-I: conoce el cronograma de inscripción - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-18T12:21:00",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR2lLV0g2aXNPWXZQR3l6eEpoN3g5Nkx6Vkc3YUV0bUdyWWNnTXZFUkhWWHBQc3F5UDdab3ZJNHhPaHZEdXlIQlJOb0RzbXZDaGhRd2ZVME5GQ1BNb1NscFNjQ3hOZG1nZVRZMl9YelhrMEQtWHRNUWhQY0Q2NUVRR0FXMllXbWN5UGdUUzd6bHdCVmFrand5OHItNkhDbkVuT3JuY0Z4MS1QRE1MQWNEajBRQ1lMYkY0N0hZRjNyVFJoUFdYSkVoM252QWx4d25sZGVjQTJZQ0U2Nm9MOW9TaHp3Zw?oc=5"
-        },
-        {
-          "titulo": "Concurso público - gob.pe",
+          "titulo": "Acceder a los programas de Segundas Especialidades de la UNJBG - gob.pe",
           "fuente": "gob.pe",
-          "fecha_publicacion": "2026-08-21T16:09:00",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ3huTUpPeWJXTVdQT0VSbDJOMnVmSlBXUWozOE9aSGI5azJEclNPd2pkdnpfbGVvcTdNMzVnLUlTaWY1M09kclhHQWVQWXo4NWd3bTFveG5JTVJ5UGVpVm0tdzhWSDhMRVdRWXZ5YnpCbDJGTzVGZXA2bWYyU0tTQzItNW0ta09faTVwM3BIaw?oc=5"
-        },
-        {
-          "titulo": "Ficha CTI Vitae - CTI vitae",
-          "fuente": "CTI vitae",
-          "fecha_publicacion": "2026-08-14T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPajVHMzl6SlNkMklFZUpJV3R2Yjdnekw0VlUxT3NucXBLeDZqMTlhMlFOeVpXWGI5TlVpWGd3Ni1JVXViVmJIc0o3TS1UMi1OTlQ5ZlQzVTBMZGtfUmtNb3BvNTFUTVJMRHVBNDFCNy0xMTUtRmZIeTBSMjB0Nk53LU5HVEFzWWs0YmJMVGFEb3JFUFJYMFhNZnhsMA?oc=5"
+          "fecha_publicacion": "2026-08-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVnpfSDdaYmI1OEZ0ZnIwejJTVGlLY2lETWUycUgwbDZpNVRCODQ1dE81SnZweXM0QlgxVWNqaUpYMEE1bU5lY25rNXhFSUtuWjlKSVB0akU4bW1OdklkOEdnNmNGcFQ5SjRXN1p4NVI5elNXdEUtcXh5R3dCU1NyeVRLNjE3TmI3VHNrT29vN3I?oc=5"
         }
       ]
     },
-    "UNE": {
+    "UNI": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-06-28",
-        "2026-08-29"
+        "2026-02-16",
+        "2026-02-18",
+        "2026-02-20",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-08",
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Alcalde de Chosica cierra tránsito por examen de admisión de la Cantuta y deja aislada a una urbanización - El Comercio Perú",
+          "titulo": "UNI abre su admisión 2026-II: todo lo que debes saber para no quedarte fuera - El Comercio Perú",
           "fuente": "El Comercio Perú",
-          "fecha_publicacion": "2026-06-28T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUlkwYjY1T0RobkNqX1ZqT0wzYVdNa29Kd2RnNDJSUDk5Q2VZYURzalJNTEN0NHVCOEhUTXRmbEx5TlBWb1FMZjZkX3FJRE9iZmtPd0lsdmJtYnVSRWh5OWNvMVlOV2hTWk5ZT1kxQmJFWVg1bkxnQThKSG16QUlQdXh1Wm0xRWJKZkZQV3h0ZkxONURRcE53SWNjdjJycFNZT255MHg4QzFkVzNGY1NsNmRFeU5YU3p3TVNhVXZ4dDJCaTBteVo1ckV0WEQtUmo5OXJaQjFWVnFibHdENW1FT2VqTQ?oc=5"
+          "fecha_publicacion": "2026-07-01T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT3R5N1hmRFRhNkpqLTZFTmVvXzQtSkphSXUwR3JRYWZoVnR4WHpKVndkbUl2NjFyRXpyQlFPbFM2NldmRmdNa0EwSFhUbFE3dXljb21NcC1HRzA1QjZKNjcxejdZeHFZQVY3U3JpaTFoYkdZLVVoTVdaNnNsSU1xcEsxMkZLbF94WmxHZ213RTh4SXZVUDBPTWdrX0dDQmxWek15dU1CQkdtazlzcVAwbWxLcXhJNGExTDNydG1BTEktTlloYVZlOGxXcWk2WVFJbXF5UHhEYw?oc=5"
         }
       ]
     },
-    "UNSAAC": {
+    "UCV": {
       "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-18"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Estudiantes mantienen la toma del campus de la UNSAAC en demanda de infraestructura y servicios básicos - Perú Informa",
-          "fuente": "Perú Informa",
-          "fecha_publicacion": "2026-07-20T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeEVrVTI5c2RydHdEazFBbS1DVEl3TzkwNHpYWEQ5SGpDV01xa2lpeUhya2Zza0dqU01LZC1MVWZBY21iRUxsT3RpeXQwZDJvX3prcEZ4SFd3SlBUc3EwNDlibGhxME90bW5UU3NjREloOW9NRzBPVzBnUXY2MVlnYWlKbTNEZGJDem0xLThsMk16UmJtSzl2SnphMnluVm0yeXY1M2d5emlWX2pBaWF1SEt3Uk5oUklwZGlnLWFSNkhRMEoxSi1ETkM4cno?oc=5"
-        }
-      ]
-    },
-    "PUCP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-16"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Asuntos del Consejo Universitario - PuntoEdu PUCP",
-          "fuente": "PuntoEdu PUCP",
-          "fecha_publicacion": "2026-07-22T22:32:10",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOREFtb0Jmcmstbmo4TWlmbl9JVnlIOWEtdGpmUzhpMnY4MzFUQWpDY1dlUG9jaFJpMW1ybnAzRGp1WXZMc3BuMUJxbXI1djhucnhyRWFZUzZRZGFOZkwtQ3p4aldlYjFrMy11Umd2OG9YM3lBdDNGYVQ1TDdIcVFaSUR2ZHlNYUhXX0FXU0VyeDdNQjJXSWY0YWx5Yy1Cd3EyclE?oc=5"
-        },
-        {
-          "titulo": "Cuatro escolares peruanos buscarán dejar en alto al país en la Olimpiada Internacional de Química 2026 - Perú 21",
-          "fuente": "Perú 21",
-          "fecha_publicacion": "2026-07-06T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNEhKTUoxLXV5aDlMTml2U2hzaE1rbi0ybjVVdkJNbWtIaFQ1Tmx3elJwTXpaRGE1Y2pOZTRsdEJOd25KN2RSOXJGQ25fdEE3dnIxVWttNXZIQW1LaDN0UHJpNDVqVW1rWjUwRXVPamRFcEhKZ0t1aGFJYTVSMmtRS25Qc21FOTFnNnZqR2o3U05RY1ZocjlVdUFR?oc=5"
-        }
-      ]
-    },
-    "ULIMA": {
-      "estado_actual_json": "por confirmar",
       "fechas_actuales_json": [
         "2026-07-19",
-        "2026-11-15"
+        "2026-08-23"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "San Marcos anunció cuáles son las fechas de su examen de admisión 2027-I: conoce el cronograma de inscripción - Infobae",
+          "titulo": "UCV llegó a la final del SFERA Experience 2026 con proyecto de turismo regenerativo - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-26T03:54:00",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVV8wbzNqWjFEeGRsQ0NRWTNGYVRqVHJzSzRwdmtxMEtKTG1BazNhcGt5Umpsa1FFVklVY1gxNWFsUmVtZUNEMGVEYWxhcHpYZklCZEdJSjY3VWJtS2xNRUo1U0hSaElZemRxNU5SRTBGN3VTTmwzOWI0dHQ1Q3drYTd3bmQtbU91Zk9YdUpzUzJKZWNoR190enRPYnNMeVpBUk1MWDd4Z2pRem5ybndTdi1FTXB1QkVJY2FHS2ZBTGtMcEVEdmhjSVFlbEFQN01zcmpWWnExZDdsemlN?oc=5"
+        },
+        {
+          "titulo": "Población del Perú de 65 años a más superaría el 30 % hacia el año 2100 - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-26T03:03:00",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ29OcWJvQldWZGd0elMtZXMxODR6RThNLTJlTnNqRTl0LVRZRGxRUjNEcUZfZncxMkpLN3ZyS09kZXdvTExsNGp4Y1FmSUt1Z290Y3Q1Z0N3WUNibHVHSXJBWTdLanRnTlBWSkRzbkxZQ3RzejRvZWloVmhSOWIxZUI4MVptWEltMFJSUVF2UXd2TVRxelN5MkRJenBxZDFLSG5oWEI2bUhSQlpxbHVoWUFPS3NTWDdNWU9FUE5EdjJCSlZrM1ZkMFIwd3JJSnly?oc=5"
+        },
+        {
+          "titulo": "Fiscalía de Casma logró 9 meses de detención preventiva con fines de extradición pasiva para peruano requerido por Argentina - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-26T02:56:00",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxObGxENVQzdU5IU0t2ek1KajBuNXRiT2ZodXZPSEVoZW43VVdFbHN5bTk1TE1wWXVvZHV5TUxDS3VEVFdDakoxZHpTaVFwcnRWNy1SY2xuX3FCQmNZLWhvRGM2NFFjSG1fTjRPMUdGc3dNMG1QSi1renJ2Ykp6Uk1Ld1BQUXEwcE5QWVViZXo5bTIyNF9WbGhuaDROZnRwM2pHZ0pMN0pvN3RqUFlqS21CbXdmNUdsZzRDRXFBa0tMRUpTNDg2TFVqSlZybjNCeEFyeVZhWWR0Skt2d1pQblozTktrUnByQ21UUG9rcDZiWEQ2NjByQ3RhWUlKTXV3VDlRUmNDNF9hbGFzemNi?oc=5"
+        },
+        {
+          "titulo": "Lanzan “Vertix” para agilizar la gestión y acceso a proyectos de inversión público - privada - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-26T03:09:00",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPLWhUcEh3SU1qSndPTzlvWVFtQ2VnaHAwOWdpY3Roa3hPTm1QYVFtbzYxRmlNZDkwMlJNYW1sVUxzc3YxbVZyNWpXdllSOGR1QWJMZUFvX1JaYW5Kb05INDhJdUw5ZElBODBjXzVfOVBBTC0wcnpDbmg0Zy1wMldiTi1ONkJVclotQWV5RGZVeGdNT0dsc2psRUprM21ZcTVIdDZ2MzdIVi0wak9kNFM5QVlFc051eHNKSjlyWGhRdlZ2NXE2QTNLb09BSFVyT3Y1eUZleldsNFJ2WTFK?oc=5"
+        },
+        {
+          "titulo": "JNJ convoca a nuevo concurso público para elegir al jefe de la ONPE - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-26T03:49:00",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNelJnV2tmR3VZaFhqQWN0aGJUN3BXeU5MbFZpZUZhRDU0MXJMVVRqdGpBMVBONWFQSWRmZ291Rm1VdXFvdWprUVR4N19VSkkyTjZsMG9fTFlxR1hva2FsSzlJcXczRjUtYzh6NThiQmFVTzB4NFBOd3NCWXNLOFhSY1E1Z3NqbFc1Sno4VXdnRzJpNkNkN3JHU3NpekM1MnQxTVVHZzBtelprdVdfWkFfNk1uWGY5dTY0QkVFWmhYYjI?oc=5"
+        },
+        {
+          "titulo": "Presidente del Congreso pide cerrar filas y otorgar las facultades legislativas al Gobierno - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-26T03:13:00",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSldsY1kxMlpNYnYxTFFrMVNHNi1yZEgxd0d0WUhMVmMyZW1aM2RnRzlueTQ5Qml4dEd4LWN5WVdvMi04Q2h3Ni1zR1lMRVBLdnl2YllmOFlEUGt3dG1fa3lacWZfYXNTQUNxdy14clhYYnc5RVdrLV9sbHNjYmpoWnFhOWxVcTNWU0gzdXNuUmp4Q0hBVHVwR0RoYVI2RzZleDdBVmlxQWVRS1BRbFlnVGZXMnV3Q2J6OGdKZzI5bkd2ekhzbkpLM3hOVUgyOGZnVEY3RkZzVHQ5bS1NRUxOcw?oc=5"
+        },
+        {
+          "titulo": "El triste adiós de Carlos Beltrán de César Vallejo tras un semestre adverso: “Nunca faltó la entrega ni el esfuerzo” - Infobae",
           "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-18T12:21:00",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR2lLV0g2aXNPWXZQR3l6eEpoN3g5Nkx6Vkc3YUV0bUdyWWNnTXZFUkhWWHBQc3F5UDdab3ZJNHhPaHZEdXlIQlJOb0RzbXZDaGhRd2ZVME5GQ1BNb1NscFNjQ3hOZG1nZVRZMl9YelhrMEQtWHRNUWhQY0Q2NUVRR0FXMllXbWN5UGdUUzd6bHdCVmFrand5OHItNkhDbkVuT3JuY0Z4MS1QRE1MQWNEajBRQ1lMYkY0N0hZRjNyVFJoUFdYSkVoM252QWx4d25sZGVjQTJZQ0U2Nm9MOW9TaHp3Zw?oc=5"
+          "fecha_publicacion": "2026-06-30T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQm1uR1JWSEwzWnk5RE9XNTFVWjFCeVBqd0tUNTU5bnU2bnczS1U3VnRrb0JFcVZTTVAxM1JneVVmR1ZPZDZpb1dzWXFBUFZSVUxXMjVTczV0THVlVm1WajNrNlR0RW13SFptUGRkZ2hoNkpsSno1R0xaQnVKbFEwUTg5bkdFVmRyYlpqQVp5X2NKWG5jdmw5QWdzcTFLdDNFS1JXTElvejZidHVOWWN4SUxvUS1QWjFNdXB3cXEzMEZoMVN2M0UtNi1qd09RS2lvcE9zTS15OU1jZkRoMWFvVnM0dE1NWmFESHA2OWJvbjhScmhPYnfSAZACQVVfeXFMTXdObjgzWDZfYTRhZElDc2lRSTJfZmxOUGJaQm4zcjZxc0NDQTFxSU5hN3Zab3RRX1U2UGdMdWJZTWVqWjR5UEZFcEJvQ0c5aWJ5OUhXNzIyMXNBVXhwcUUxZzdrZUpRbk1yZENmbndFdWlneXVCM3d5QnFZVEtDeE1XOWZFSTBSMklWUXVQMHd5bFdxaUNUVXo0UFpYNTYyeXRpRmNwemtlcWIxZ3V5bUtPenRHZzBSNXFBNkd1QVRiRG5PN2lCaXUwcFV2SHNGVW5zb01HZ3VlWGVWWldndGlzTVB6eFM1R2V5X2VqZkVSWk9McjdJM1UxdFRsaThOS2padHAwcVQwbTJseXcxLWY?oc=5"
         }
       ]
     },
@@ -122,70 +98,16 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Tula Rodríguez es trasladada de EMERGENCIA a clínica y lanza DESGARRADORAS palabras ante delicada intervención: \"Mi hija depende de mí\" - El Popular",
-          "fuente": "El Popular",
-          "fecha_publicacion": "2026-07-11T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdUNwZHVPckJCamhRSVBQOFVPVHJiUzdCZnl0M2g3bE00ZXgtdks0NEszQmlMT3pQUVZfYWd0U1JQbEpraFdkbDZMQVZFRzBFd2Z0NXh5c0d6U1dvNFZsZ095N1hpRFpub2RpLU9nakJoa29yem9xWDIyc2JIcjVGWE0zS0xsUUtPaE5kZlFCSzVIZmdYOThkRDRQRVpLNkdHcGprdkY2X3R2aE5FSGhpLU12Y1UyNmp3TlJpWkl0XzhjaWlZcW9Ec1pHcUpLQXJ6OXBhb1ZtaW5PZ09XaWRJekU3Q0Z1MFRpNHhrRXJBemk4YzNqVnVGRTZzLXJHZ2xjQkFjWWhJQnBibFFoMGk4ZUctTlh1azVX0gGeAkFVX3lxTE1RU2IzaWhPWi1YYnFHeGlHQ19JWElLQnNiTDlrN0xfNDVQY3phaXJUenk3SFM4czJJbkNublUzQTlyanlVU2E1VXRyekc0SUR4U1k0U2c3ck1Sb212c0VjblFVaVA2SXE3S0VrMXZPc0JKTkhOdTNUSF9MNktuMW04YjZuOUZtRUllN1dKcHZTOTE2NVZ1cllZc3VadEVPcXJHcmZLcmROc1VWN0JkeVRraHFyVFBKM0NITF9UQlk1T0tIdXlYMEhiSHZKSVpjYS1uMGZSb3hGQ2x2d1hid3ppLWpROWFLeGtRbE5Xbm5HTWtScVFXeFd2TzZxUXZQd0tBSXFVTkw1WUlEd0VIQzB4SE1yRHhQdmYtX2FTanc?oc=5"
-        }
-      ]
-    },
-    "EMCH": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "🔴🔵 #ExitosaTeEscucha 🎤 | En diálogo con Exitosa, el capitán de navío Sandro Canales, jefe del Departamento de Formación Académica de la Escuela Naval del Perú, invitó a los jóvenes a participar en el proceso de admisión de la institución. El oficial expli - facebook.com",
-          "fuente": "facebook.com",
-          "fecha_publicacion": "2026-07-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUHFfNWF3emVhNmhqYXF6b3NjSW9sc3h4Z3EtMmtqMmp2bkxHdVlnS2FfMEhHN2NsNExvTW9zMm9KOHRhYVVjZkhJZ3Z1ajJ5MjhXUjBpX2NDRkU3eS1XVEpWS3QzTEVzY2N3SXE3UGl3NGJjVFZtMzJ6cmxtQnhlZ2xsT2toTUJrSGhvZGZUMVlrMUdONG41cm9DSmN3UlNHdk1faHpHb3gxdkJab1VvNFBtSkVrYVZVd21ZTEpGekpFbGV2SHFGbFRELXh1MENzM3ZubEd0WjU1eTdZVm9ReExjMExBczhway1tV053b0NqUQ?oc=5"
-        }
-      ]
-    },
-    "ENP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "🔴🔵 #ExitosaTeEscucha 🎤 | En diálogo con Exitosa, el capitán de navío Sandro Canales, jefe del Departamento de Formación Académica de la Escuela Naval del Perú, invitó a los jóvenes a participar en el proceso de admisión de la institución. El oficial expli - facebook.com",
-          "fuente": "facebook.com",
-          "fecha_publicacion": "2026-07-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUHFfNWF3emVhNmhqYXF6b3NjSW9sc3h4Z3EtMmtqMmp2bkxHdVlnS2FfMEhHN2NsNExvTW9zMm9KOHRhYVVjZkhJZ3Z1ajJ5MjhXUjBpX2NDRkU3eS1XVEpWS3QzTEVzY2N3SXE3UGl3NGJjVFZtMzJ6cmxtQnhlZ2xsT2toTUJrSGhvZGZUMVlrMUdONG41cm9DSmN3UlNHdk1faHpHb3gxdkJab1VvNFBtSkVrYVZVd21ZTEpGekpFbGV2SHFGbFRELXh1MENzM3ZubEd0WjU1eTdZVm9ReExjMExBczhway1tV053b0NqUQ?oc=5"
-        }
-      ]
-    },
-    "PA": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Examen San Marcos 2027-I: conoce el precio, los pasos para la inscripción y todos los detalles - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-20T12:24:00",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPckdobTFpcjJ0ZW93R25kcGtqYXgzVTFadXJ6V2dHN1ZJYlRrWDRXbFV1NGZHM1pHQlNhU2MyRFI0LTNiWkZDNTlld19XSXNkS05GeTNkYXZCcmFRVGV5M3dzY1B0Zl9iM2tTMFc1enBuZHFyYUhiZkRONEJBdEJHc2pULUhTaGJOcFczNFRNSTFNcEJmSF9xQkJwVnhFQnJXN2tCY3Qta2ZhMWlhZXlOS3JQVEMyZDlMSHA5MW54LWQxRHhsenlXZFozS0FkQQ?oc=5"
-        }
-      ]
-    },
-    "M": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Examen San Marcos 2027-I: conoce el precio, los pasos para la inscripción y todos los detalles - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-20T12:24:00",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPckdobTFpcjJ0ZW93R25kcGtqYXgzVTFadXJ6V2dHN1ZJYlRrWDRXbFV1NGZHM1pHQlNhU2MyRFI0LTNiWkZDNTlld19XSXNkS05GeTNkYXZCcmFRVGV5M3dzY1B0Zl9iM2tTMFc1enBuZHFyYUhiZkRONEJBdEJHc2pULUhTaGJOcFczNFRNSTFNcEJmSF9xQkJwVnhFQnJXN2tCY3Qta2ZhMWlhZXlOS3JQVEMyZDlMSHA5MW54LWQxRHhsenlXZFozS0FkQQ?oc=5"
+          "titulo": "Población del Perú de 65 años a más superaría el 30 % hacia el año 2100 - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-26T03:03:00",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ29OcWJvQldWZGd0elMtZXMxODR6RThNLTJlTnNqRTl0LVRZRGxRUjNEcUZfZncxMkpLN3ZyS09kZXdvTExsNGp4Y1FmSUt1Z290Y3Q1Z0N3WUNibHVHSXJBWTdLanRnTlBWSkRzbkxZQ3RzejRvZWloVmhSOWIxZUI4MVptWEltMFJSUVF2UXd2TVRxelN5MkRJenBxZDFLSG5oWEI2bUhSQlpxbHVoWUFPS3NTWDdNWU9FUE5EdjJCSlZrM1ZkMFIwd3JJSnly?oc=5"
         },
         {
-          "titulo": "San Marcos anunció cuáles son las fechas de su examen de admisión 2027-I: conoce el cronograma de inscripción - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-18T12:21:00",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR2lLV0g2aXNPWXZQR3l6eEpoN3g5Nkx6Vkc3YUV0bUdyWWNnTXZFUkhWWHBQc3F5UDdab3ZJNHhPaHZEdXlIQlJOb0RzbXZDaGhRd2ZVME5GQ1BNb1NscFNjQ3hOZG1nZVRZMl9YelhrMEQtWHRNUWhQY0Q2NUVRR0FXMllXbWN5UGdUUzd6bHdCVmFrand5OHItNkhDbkVuT3JuY0Z4MS1QRE1MQWNEajBRQ1lMYkY0N0hZRjNyVFJoUFdYSkVoM252QWx4d25sZGVjQTJZQ0U2Nm9MOW9TaHp3Zw?oc=5"
-        },
-        {
-          "titulo": "Por los 100 años de Pandilla Puneña, II Congreso Nacional se… - La Decana Radio Juliaca",
-          "fuente": "La Decana Radio Juliaca",
-          "fecha_publicacion": "2026-08-19T16:05:00",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYkFtQlNKQzJKN2VxR0k3QVdTWUlnbFl5aUlVaHZoSnVJdC1oeEdkTngybXRoNWdTazRQckRMRkczQ3NWeElPMUJnNHAtNkh3WGpOTnFQa195NWtLaWQ1T0JUc1d5am1QQUtZdDZJUnpnNUVxQ2NLNmVnaUtIOGhUVUlXRldPYk9sOEJRWUY5R3Y4SGExREVjT1ljRTdNcTdwcWJ3M2NqSDBsd09XcFZiQk1sZlgwWWJRdzV6OEIwYXVsZw?oc=5"
+          "titulo": "Exámenes finales: seis claves para manejar el estrés y mejorar el rendimiento académico - Trujillo en Línea",
+          "fuente": "Trujillo en Línea",
+          "fecha_publicacion": "2026-07-24T20:53:00",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRXVnT2tLMldDc0FKTUVpOFpBTkM3bXljN2VnRmlTZ0o1SGpiVmFfUVlUd2hwdVhhOGVnYnQ3N2xsVVJIWmhJeGJzNVktSWFtbk12Vktra3AxUVhSZTRnRzU5aXpybjI0NUM0ZGNTLTdzRGdHM05ZYXUxZ1VCTVBBVHB6T1JZVkpJZVpqb2steUxiN1M0MVltUmo4cVZtZkJfWVBHNnhEM2ZSV2JJc1FYUWxKSnBBN05OaHVrVmd0WE8tT0ozaTF1WlVpeVd2QjNzRlRR?oc=5"
         }
       ]
     }
