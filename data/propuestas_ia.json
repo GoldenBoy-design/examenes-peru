@@ -1,4 +1,16 @@
 {
-  "generado": "2026-08-27T23:00:38.008618",
-  "universidades": {}
+  "generado": "2026-08-28T23:04:42.431794",
+  "universidades": {
+    "UNMSM": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-09-19",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se anunció simulacro de admisión 2027‑I para los días 19 y 20 de septiembre 2026.",
+        "fuente_titulo": "San Marcos realizará simulacro de examen de admisión 2027-I el 19 y 20 de setiembre - Agencia Andina",
+        "fuente_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOenZaZFRBT05FeEI1YjJrV19TUFFaLVd3WDRSeFY3aklzWHc5UVU0NEphTDhaY3dDYWdQN2hia2VBUHVnNk5SUkNFeVlRT29qUkhPb1ZrN3FtRjRtcE5pUVZtbm5DUTRoQ0xmVEhKOW1nUU9Ud190MURucGhZZDkzUHllNnZ1LVp0cHpHLTMwRVhhTUtrdzFLQnlvRGtXZHN0Ym5kWktuS1p1ZzZwVWdiUlJvOS10eE55?oc=5"
+      }
+    ]
+  }
 }
