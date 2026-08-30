@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-29T17:10:03.838385",
+  "generado": "2026-08-30T17:21:46.760597",
   "universidades": {
     "UNMSM": {
       "estado_actual_json": "abierto",
@@ -9,10 +9,16 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "ADMISIÓN 2027-I: SAN MARCOS REALIZARÁ SIMULACRO PRESENCIAL DEL EXAMEN LOS DÍAS 19 Y 20 DE SETIEMBRE DE 2026 - Red de Comunicación Regional",
-          "fuente": "Red de Comunicación Regional",
-          "fecha_publicacion": "2026-08-28T21:18:18",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbEpzUnpGZ3FIV05PS3pISHlWU05ZemJvT1FaZnBMRkpQdmN4dWlGYUdWcmo5RWd0QnhyTmx3dHdUblVCa1ZwMkR5V0NzQ2tKTkt3RzU2c3ZIV2NzSjFURWVUWXRpWDFMc1dOQmlMaDVoTy1YaDQ0SFhVd1JDZ0hlMTQ4MnQ0am5tSlhoeDdkZ1BveVdxQ3pjSWk2TDRXbHdPZHpoMHQzYlhqSkY1YV9sRmdZbDdRTXNjTWRXUTNVQ3dZSzQ4ZzBJT3haaw?oc=5"
+          "titulo": "Admisión 2027-I: San Marcos realizará simulacro presencial del examen los días 19 y 20 de setiembre de 2026 - Universidad Nacional Mayor de San Marcos",
+          "fuente": "Universidad Nacional Mayor de San Marcos",
+          "fecha_publicacion": "2026-08-29T06:50:23",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQU0pIOXB3Ul9jMXlkWEFRRklCVTVqbGgzbjBscENiMThaUDMwQkJpMDRuUzhMb3dJQUJFV3J1UmUyUmV5bG5RQ0V2UjBNa01yd3licHhGY2hSc0d6U2xEZW5uS2pYdjE2S3JkMkVaanpaYm15cGxoUDV6emxoSHNKczVuY3hGOHcyVVNacnVZZ19JUy1Cak5YeklsVkJtQUJSUWo2OThXVnVYd05pU0dDTWtpMXRxXzFaNWw5bTRNOHFnUWJ3YVB1djRpc2tUSHFONzBrcUVqelI1Rmc5WTY0LUZFSm5KekFuN0ZMYTFlVGQ0b1RrUWVoZ2RQZzdZRXRnMl9CNlF3?oc=5"
+        },
+        {
+          "titulo": "San Marcos realizará simulacro presencial de admisión 2027-I: cronograma, pago en Págalo.pe y fecha límite de registro - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-08-29T20:36:53",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOR0lNNGhVc2dkLVMzdnAwUDBfQ013blZMeEh6U3NDN0tVLV84MWt0ellhSnhIcVdkcjg3Rmdnc1dOb2FveU1nLVpjaEtMTG1fdlZZTVR4S3BrcUNjWnVQb1cyTVZodG9Ld2RVUDZLVm5iQ2lUMFFiVnB3dDdyNEN6dmNBWnlMQUxHNXhWeGpPdG9zWW55VkkyUFhUejJ3c3JUbVFTVWE4Q00tck9lWHZDWV81Z2EtMW5EelpPbEhpak8tQzJILTFLV2ZGbUN0alhILVpHXzZjMHNEZWV6cC1pMzhfVnNRZEQyamcyVE9wazF4dzhQTzh0UnVzRjRHUdIB_gFBVV95cUxOR0lNNGhVc2dkLVMzdnAwUDBfQ013blZMeEh6U3NDN0tVLV84MWt0ellhSnhIcVdkcjg3Rmdnc1dOb2FveU1nLVpjaEtMTG1fdlZZTVR4S3BrcUNjWnVQb1cyTVZodG9Ld2RVUDZLVm5iQ2lUMFFiVnB3dDdyNEN6dmNBWnlMQUxHNXhWeGpPdG9zWW55VkkyUFhUejJ3c3JUbVFTVWE4Q00tck9lWHZDWV81Z2EtMW5EelpPbEhpak8tQzJILTFLV2ZGbUN0alhILVpHXzZjMHNEZWV6cC1pMzhfVnNRZEQyamcyVE9wazF4dzhQTzh0UnVzRjRHUQ?oc=5"
         }
       ]
     },
@@ -20,50 +26,75 @@
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
         "2026-07-19",
-        "2026-08-23"
+        "2026-08-23",
+        "2026-08-29"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Refuerzan control penitenciario y bloqueo de telecomunicaciones ilícitas - Chimbote en Línea",
+          "titulo": "Día del Maestro: un reconocimiento a quienes transforman vidas desde la educación - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-28T19:56:00",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObmhYVDhWaXduY29UTkRidWduOGk3S2xEY1BtU0ZUMHpzaTBvb0J0NFlOWVA5bDRObkxsUTdVbGU3dGFsZlg5SnoxNkhrQTBOdTZxZDlucXNPb2otdkFjUjJZTFBILXloRUYzQkk1ZzFKRC1BYTNqSGFwYnpjUllHLXVvYmUxdHhUQldrLXpER3FuX19XWWNyUDcyVl96bm5KM3FvdXVXeU16ZVJNeERxWHB6T1F5UTZLTXRsb1drZWU5dEluNDBR?oc=5"
+          "fecha_publicacion": "2026-07-06T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd1lMVHRxX3NFOFY1UjJHQUsxZXFDUUhETE5kMXpidXI0T3NpV0dXNEl1SG9CX2wwZ3BKaW9iLXE3UnFNYi1CYXl1OTl2SmlEU0ItNEZ1SV8zTnVzdy11ZXJFUkVnNjktQThORVhuMUFQYTJpU08tNXBnem45Vjk5YzdDeVFCazZ1cFdoME1MUVhFSkVWcktHd1MzcHRmWlV0d0d5UW8tS0JST3ZsLWJnUWMxN1ZxMC1WLTBfRjZRMnkzNE1JMnhpSFRxZw?oc=5"
         },
         {
-          "titulo": "ONPE: Más del 90 por ciento de organizaciones políticas entregó segundo informe financiero de campaña - Chimbote en Línea",
+          "titulo": "Becario presenta en Corea el primer sistema de IA para automatizar el monitoreo de obras en Perú - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-29T01:17:00",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPODVWcy1Xb2hTWUVCd0FmOG9XQzRpcld5aV85cnAxT1dVbzdSbHl4djA0RFVTck5MUEpLWGVoNmtiTEtXZXBpeG50S1kwQmJOTGhnVnlpSXd2TUV1LVV0eUhYMlhlMFZ5VFh1S29wdlBlOVpZaGNzSzFRQU9EbEZOTTVzbV9yODFmbHBvLWk2cmNOckc5UWdqaE4xR210NFVEbWMyOVdEYjlYWXRqQm1tdVN5MEstaWRPeVpKWjZDR0FOQ1gzVVRoazFVR0RWd2JDci01RHNRZnNrWTBDamwxYnItWUVRZnUxakNlei16LXpvZVc5Y1E?oc=5"
+          "fecha_publicacion": "2026-07-16T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaEVUUWlvRXlBMFFpNDJHdGs4eVFPUWs3Z01WZEZSd1RLMXl2TldJSTFWU0VZMnUzVWhMeXY1eml3U3BOeXBiaEtSZ0tZMG1XQWNSdy1mYnJ6enZvaDZYR3JNX3pZTnZld1JEc2xJMWlPTW1PbnFsLWpWcDFXM3c3Z1VDaFE0WUxGYkxLZ0JxcldaZ3VNY2t6UlpWOXEzZTloZExwb1ZHREtVYzVOS3hWSERjT0FHcl9CbjVMYnc3UzBOd3Y1bGdzdHpJZTRYbGtsaDlKQWVkMWt0YTFGa0RwRlRxWnpXX3UwcFY4cWk5TDBDT29ZUTFz?oc=5"
         },
         {
-          "titulo": "Áncash: reportan 145 casos confirmados de dengue en seis distritos costeros - Chimbote en Línea",
+          "titulo": "Juntos por el Perú anuncia proceso sumario a senadora Silvana Robles por incumplir acuerdo - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-29T04:02:00",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObWRhOUtWRHRSTWY3dDAtZTE2Mk9HX1Jvb24tV3kwdXZHT3J1V0IxSHZ3bFY1VlNYTDJIVnItRllMMFF5N25uSnBnUXo1V3FRYUctZkx6SG85T2Mzb2FnQTRQTi1BOEFhQmx5RG9yOFcxNzVnRUtPYW8zdFBYN05aSlNSZ0tWTjl6SkRIVmpFbWM5UWpEbURGWlhzQVJQMS1TUWZabnRqeHBDMEZhNE1WRllqVmh5M1hmYjF6OUQtdm4telNGcDZOOWY5QlY?oc=5"
+          "fecha_publicacion": "2026-07-27T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNa1VqSm5GR1h0R1l5aGlWaGt0NlBXVHljbS10UVA1NDQ4OGhBcHI3d0VpM0x5VXRfVlEwQWpsUzJOYWR0X2M2YTM4ZU0xQVNXeUhPc1EwV3cwVzA2VFhEYUMxU2lzcWF0cl9aNzdMNVUzeE9yd2ZQejFkcXJELThkNjczeHpIbGRNR2ZQVzBVME82MzdMMWpTVDhyTmx3UjQ3aGdDYWdCTGlBYnJhSVMwQjJfQm1LYlh1U054Qkd6NUhEOVpJRjdfN1NxLU9FdTU2dU9zNUlKY25GeHFBQnV2RE9tNl9zc3hzMlhv?oc=5"
         },
         {
-          "titulo": "Alianza BID - Midis impulsará estrategias para fortalecer programas sociales orientados a superar la pobreza - Chimbote en Línea",
+          "titulo": "Accidentes de tránsito dejan 1,881 muertes en lo que va del 2026 en el Perú - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-29T01:06:00",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOM25LVnlRWld6VFJaLU1xTU9lUkp6N1lPX29qM0pkaFlTUm9SUzg5U0hmLUxuWlpsMnNOU1cyNXFaSzlVczZleFZDcERiMlJjaUhuQzdoNmVxOUw3cmFPNXFfQ2VJcjdieENLZHpITFB2b1J6Y0hLc0pnUExjQ05IcGxGUmVmTWdFSzJyUVZuUktjb2YzcFhiU0t2RmZxN2dkdlpoSkFUSGlZd19JWTVDTnZHTElzOEpKT0hTUGlXRFBnNGtpS09VbHktU0VFOGtJUXRFT2tGckNnX1VLb3l5YWZlOG9mTklDN1VQNkcyTG9HQzBF?oc=5"
+          "fecha_publicacion": "2026-07-27T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUFDRXBib1pWRDR5TDVuM05wMUFFRXNHVGk5Q3hrU00xbmhwdDNkSmVxMXhmVk9aSDVnd0taZENaaV84cUttRkFFemtsMzBFYjRNcDlJMDE2WjJ3ZE96TkNud1BXSXlScVVUWDNmSF9UV0RtenVVakpIbGktR0R3UmRhWXQ4eFU4M0I0T09XQThIZHhiY0xQRGIwWXJCNC1relUxRm1mQmhfZWN3VlZ4ck1WWEdPU0NHU1VBNGNPd05JVU00eHpXM0R3?oc=5"
         },
         {
-          "titulo": "“Trabajar en favor de las mujeres significa trabajar por las familias”: universidad peruana fortalece red de emprendedoras con UNIDAS - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-07-08T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOOHhxWXRpbG9CbVVPdlNnRVJQalczeVdjLTh2NG9fVnJici05Q0RxN1FsWXdER0F3TzBaWjBLVUdMUEVVMzdlcVVQRDc1Q2s0cklKYlNUcEZYWVVSSnZ3bjZnSDlHbGI5NmNNdmVrOEFoQUt2aEhuVTc2U015ZmRKa1hfUTZUQTJhZ1BYZzZlaHI4OGxfZFdvNTQwRzdMeG5uWmV4S1NVUURVamV1bjB0dHhEYzlhZ0xOV25YMGVlMU9pbXNSMlQ5M1IxT3lJZ2lpY2ZRQzZaNVE4R2xCdzFxZTRUbG1COFFqVmIxQ1lJVGRhRHZnRUlsVWFZXzVIMllYRHBwRjc1ZFpmeTlzOEFZ0gGqAkFVX3lxTE91NTFib05reGxvWTJrU25BMFBpdDR3eG5ldHJUSDlFazBxWTF3bnRScmx4NnlSb2JHdF8xdjA4V1NoSTJIdjF2S0U4aDI0Y3JFcnpSV1BNYU8wNFBJVFY2YkoyWThxMFV6ZFIzRl9NY2dJdUhmVlVkWkg5X0VtTWhTY0tINnk1VUxyVy0wTFFCbndYLWVVZEVHWXBVa195TllTZk4zNm5mVjN3bkY2RE9XSDA2Zm1nbndoYzY4enFyUU14NnNaWmdJU2I3MWkxelBhWjBacmZ1NzFzdDB4cFR4X2RSQjV2YTctZjg1R0JQUmRFY1ZXdlhFaW0xaGRLZkg2OFk4Tm5qX2p0SzJtOFJyb2Rrd2JILW1SZGdIeEVXMFFGMnBCR2hHdHc?oc=5"
+          "titulo": "El 60 % de ganadores de Beca 18 son menores de edad - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-27T02:52:00",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLW1tVHViWmZBSVNIckJFcmpNc2pYT1JPNUxxQWFENjlVVUViRl9UNjNjNG92UXViamVYcVplZjh0VEdkXzY3VWVkQ2tENWg3emVzQlNUQnN3ckZ6bHYyNzVyWDFNeUtPX0RpYm4wNEVHQXJiTm5BZDN6RmREUXJPQVFFalZsVk42eThfdkYweXZ5alItNFpjbzlqbzgzR2JoSkJ1Ul9OenlOdw?oc=5"
+        },
+        {
+          "titulo": "Mgtr. Kelly Acuña gana los Women in Tech® LATAM Awards 2026 por impulsar oportunidades para más mujeres - Macronorte",
+          "fuente": "Macronorte",
+          "fecha_publicacion": "2026-08-29T17:12:17",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVc5eXc0VzkyZEJYT0ZsX0tsbUhtYXUtVmJxYWZqbnFnSUdQUWI0WnAwNHJRc19PTUNMYmxSS0FaSkc5X0xjc0dWMFBfdGZKN3AyT1FOSlhZR2RRcTIyVDN4MlFqaUZRZVZHc3F2NS1MYWZzTk53R0RSZTVfSWtmNmtoV1hsV0tPNlNHVDh4UC1uU2dFN2lLN3dhVzhPZVF2YkxKcDZqamUzMXhMeUtObkl3UmcxbE5lNXctZFBDSENEYURVUk1zSVZQYWxYczF2?oc=5"
         }
       ]
     },
-    "EMCH": {
-      "estado_actual_json": "cerrado",
+    "UTP": {
+      "estado_actual_json": "por confirmar",
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "🔴 Ejército del Perú prepara técnicos para emergencias: conoce las carreras que ofrece la ETE - facebook.com",
-          "fuente": "facebook.com",
-          "fecha_publicacion": "2026-08-29T01:03:25",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeldJQUNDUVBGdmxfYVliR3NsZ2hubXFNbF9GSVJvdFpyaFZmWFpkT3NHWllrWWZyMk0xZmhLOVBpNUJ4ZUJmTzg0dUdNeTNLZS1tbVJHNXk3bUtDd0EwamU3SDB4ZWpRVFBBUm5HZ1lWbERvajhtYWxlMXQwc3dUWlVHOHo4SFhNOGNwQmpwdDFSdmN4LUZ2SVl2QVhoT0JWMW5nSkljRl9rQUthY1EtbkZMVmllUmlMa09Fb3pMVjg3TENiZHduZW9qUlc4eGYzeW1XUU1IZHc2RG90bkRBYmpIUEJnbmF6aGxQMUEtRU0?oc=5"
+          "titulo": "Inteligencia artificial: ¿cómo utilizar correctamente estas herramientas en la etapa escolar? - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-08T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNc0xoN3ZVTWJPQnZNeWlWZ3NoamJXajZQUi1YdU1UYks3M2JaVk1JTzJaUHBKNDRLc3VDVXFxeE5CeGN0Z0YyZkZYQjM3VG9KVWFiNFlDOU45ektUd0hOYU5TSjFFM1dSQzRQNVp3TncwUTZWazNjTnBPV2k1NEtIN3c5MGtZYmJDSkdzV1c1Ti1TQnEwaTRVOVk3RnFFZTdVNzJBbVlYRE9FeTI0UnlCTF8xRG42TXdaeHZsYTBJczVwN1lyand4NmRNQ1dUdl8zTG5INDJTOHU?oc=5"
+        },
+        {
+          "titulo": "Juntos por el Perú anuncia proceso sumario a senadora Silvana Robles por incumplir acuerdo - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-27T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNa1VqSm5GR1h0R1l5aGlWaGt0NlBXVHljbS10UVA1NDQ4OGhBcHI3d0VpM0x5VXRfVlEwQWpsUzJOYWR0X2M2YTM4ZU0xQVNXeUhPc1EwV3cwVzA2VFhEYUMxU2lzcWF0cl9aNzdMNVUzeE9yd2ZQejFkcXJELThkNjczeHpIbGRNR2ZQVzBVME82MzdMMWpTVDhyTmx3UjQ3aGdDYWdCTGlBYnJhSVMwQjJfQm1LYlh1U054Qkd6NUhEOVpJRjdfN1NxLU9FdTU2dU9zNUlKY25GeHFBQnV2RE9tNl9zc3hzMlhv?oc=5"
+        }
+      ]
+    },
+    "ENP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "B.A.P. Unión representa al Perú en histórica celebración naval por los 250 años de Estados Unidos - CanalB.pe",
+          "fuente": "CanalB.pe",
+          "fecha_publicacion": "2026-07-08T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUThZeHRveTc0dS10LV8xTTUtX2g2NmpuSVdfZC1oenRRRlBySExaRnUwZF9kRzR2X2xla21GbmhJTUxWLXdiOWxrOFVDOThmYjBUVTU5SFA0MXQ2VGxmRGI3ZW9GVVhjQkZKNEt6MjBIN3lWSHhmVWJYcjRHWmlzQjEtZTNncmZaYVlBLWhPVWY2NTRuS3JkMk5YLVlJYjduN1psQk82R2Q2bG5lbDd6bE5rVnptc1VYd1p3dWN2V1NDdmk4bHAyYnFOdw?oc=5"
         }
       ]
     },
@@ -72,22 +103,34 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "🔴 Ejército del Perú prepara técnicos para emergencias: conoce las carreras que ofrece la ETE - facebook.com",
-          "fuente": "facebook.com",
-          "fecha_publicacion": "2026-08-29T01:03:25",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeldJQUNDUVBGdmxfYVliR3NsZ2hubXFNbF9GSVJvdFpyaFZmWFpkT3NHWllrWWZyMk0xZmhLOVBpNUJ4ZUJmTzg0dUdNeTNLZS1tbVJHNXk3bUtDd0EwamU3SDB4ZWpRVFBBUm5HZ1lWbERvajhtYWxlMXQwc3dUWlVHOHo4SFhNOGNwQmpwdDFSdmN4LUZ2SVl2QVhoT0JWMW5nSkljRl9rQUthY1EtbkZMVmllUmlMa09Fb3pMVjg3TENiZHduZW9qUlc4eGYzeW1XUU1IZHc2RG90bkRBYmpIUEJnbmF6aGxQMUEtRU0?oc=5"
+          "titulo": "Postula a las convocatorias CAS de la Policía Nacional del Perú - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-08-28T20:21:59",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNekljVHBzak5VYVpxZmJydlVmYTRmZzRiSVVPSUk2OEUyN2xncjJCUGxab2VnTzFfT2MxN29TUTE1YWlIVEp6eWlCVUNWZEFSVmplbEttbzlPb1d1bGZMMjIwQjlNcFNSdlloUFJiZFk3aWtrNlZzM0RFdGowUjRCOVJtSXp4cXQwQW1PUWFXWVY0dw?oc=5"
         }
       ]
     },
-    "IPD": {
+    "M": {
       "estado_actual_json": "por confirmar",
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Ofertan 700 empleos para jóvenes en Hidalgo; desocupación se ubica en 2.2% - effeta.info",
-          "fuente": "effeta.info",
-          "fecha_publicacion": "2026-08-28T04:11:46",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVDhWUTMta0Y4N1BvejY1ZC15V2toYmJRMERUOGhNRWRIU29Uc00zVmtlMW5BRkRhVTZZY2UwZ3dhaVExbWpQM1c3dGY0LUVONVpMQnhEWHVoOGFza1F1UlQ5Zl9uYXNodkhUaW9UTmFBUDNBcHZweTBScFM5dmRobVdUS2pyTFZaLWRzN2JGRFRxSFNGRHd1R1JnSkJBZw?oc=5"
+          "titulo": "Accidentes de tránsito dejan 1,881 muertes en lo que va del 2026 en el Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-27T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUFDRXBib1pWRDR5TDVuM05wMUFFRXNHVGk5Q3hrU00xbmhwdDNkSmVxMXhmVk9aSDVnd0taZENaaV84cUttRkFFemtsMzBFYjRNcDlJMDE2WjJ3ZE96TkNud1BXSXlScVVUWDNmSF9UV0RtenVVakpIbGktR0R3UmRhWXQ4eFU4M0I0T09XQThIZHhiY0xQRGIwWXJCNC1relUxRm1mQmhfZWN3VlZ4ck1WWEdPU0NHU1VBNGNPd05JVU00eHpXM0R3?oc=5"
+        },
+        {
+          "titulo": "Becario presenta en Corea el primer sistema de IA para automatizar el monitoreo de obras en Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-16T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaEVUUWlvRXlBMFFpNDJHdGs4eVFPUWs3Z01WZEZSd1RLMXl2TldJSTFWU0VZMnUzVWhMeXY1eml3U3BOeXBiaEtSZ0tZMG1XQWNSdy1mYnJ6enZvaDZYR3JNX3pZTnZld1JEc2xJMWlPTW1PbnFsLWpWcDFXM3c3Z1VDaFE0WUxGYkxLZ0JxcldaZ3VNY2t6UlpWOXEzZTloZExwb1ZHREtVYzVOS3hWSERjT0FHcl9CbjVMYnc3UzBOd3Y1bGdzdHpJZTRYbGtsaDlKQWVkMWt0YTFGa0RwRlRxWnpXX3UwcFY4cWk5TDBDT29ZUTFz?oc=5"
+        },
+        {
+          "titulo": "Juntos por el Perú anuncia proceso sumario a senadora Silvana Robles por incumplir acuerdo - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-27T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNa1VqSm5GR1h0R1l5aGlWaGt0NlBXVHljbS10UVA1NDQ4OGhBcHI3d0VpM0x5VXRfVlEwQWpsUzJOYWR0X2M2YTM4ZU0xQVNXeUhPc1EwV3cwVzA2VFhEYUMxU2lzcWF0cl9aNzdMNVUzeE9yd2ZQejFkcXJELThkNjczeHpIbGRNR2ZQVzBVME82MzdMMWpTVDhyTmx3UjQ3aGdDYWdCTGlBYnJhSVMwQjJfQm1LYlh1U054Qkd6NUhEOVpJRjdfN1NxLU9FdTU2dU9zNUlKY25GeHFBQnV2RE9tNl9zc3hzMlhv?oc=5"
         }
       ]
     }
