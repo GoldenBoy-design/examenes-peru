@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-31T19:34:30.856211",
+  "generado": "2026-09-01T17:21:27.801373",
   "universidades": {
     "UNMSM": {
       "estado_actual_json": "abierto",
@@ -9,10 +9,16 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "DERRAMA MAGISTERIAL OFRECE CURSOS DE PREPARACIÓN PARA EXAMEN DE ASCENSO DOCENTE AL ALCANCE DE TODOS LOS MAESTROS DEL PERÚ - RCR Peru",
-          "fuente": "RCR Peru",
-          "fecha_publicacion": "2026-08-15T18:03:26",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONVpGVkd6VlhkV2E5N3NNNThRVzNyRkRiX2lhRDUwblA3QUdZUDdfQTFXZTdLeFEtN3lKQ0xXZ2N0VGRYdHVZeVFJd0pQbnE4ejNQMS1weTVzR0JjajFfS1NqRWJVTWdLQ1NLNjQtQjJmbUdHbGlEWlZMQWV3ZmFHYVQ2UDdKVk5IeUNmSkNiMTNySkt5aGplY0RPYlJUWUZmcWJVbXBEYjBpaF9YbGFtTjRJN1ViVTUzcExib3VMTEhoNGFjcnNlZC02TUFtRFB0aGF0b29zMFFxTTd4RkpB?oc=5"
+          "titulo": "Postulante huanuqueño de 14 años es el más joven del examen UNI 2026-I - Diario Ahora",
+          "fuente": "Diario Ahora",
+          "fecha_publicacion": "2026-08-31T09:31:42",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdGFlVzRIX0tHYVRFUDJSZC14a3RNblNsdXNwU01CVWc1Q0Vva0VZd1FzUGFiU3VkU2dpUFNEU3p1SHczMWpCOUFoZ3hDRy00QnlTbWg1Zk9qTXhGZHFIal9XcWlBRUhwNXMyT3o1NFd2aldMLUN3VkVnUEhFRTdXUlRKV0lsZ1VQU0drcVpndUtUS3p6VmZJTjJzWG5sYVlDTHc?oc=5"
+        },
+        {
+          "titulo": "MUNICIPALIDAD DE LA VICTORIA REALIZÓ LA 2da FERIA VOCACIONAL 2026 EN LA PLAZA MANCO CÁPAC - Plataforma del Estado Peruano",
+          "fuente": "Plataforma del Estado Peruano",
+          "fecha_publicacion": "2026-08-27T20:53:29",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13VTBYTDhBeVdlMXA3UERUV0FPenhKaTQzcTUtRVFBaWlZbzlLRGdZbkNPX19QSEdUMC02aF9qLXJPQ3BFMXQ3UXhCcDQ3eV9zT0tQOW5GQlBrWndnR1dhQzNXSW5tam4x?oc=5"
         }
       ]
     },
@@ -24,24 +30,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "La presidenta y el mandato de representar a la nación - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQczVqaHNtaE1fWDVnQmRnNlBDZThoby1XWDZDczA3V3pFLWpwZUFscVJWd2dJM09tQjhWMjFBMjNfVkFRbk9yNWZ1VldjSjlSSXRTMzZMeGtnRGRHSHZfQThkRDZqQ1M2VEhMX25FX3FkeVRobENCSFNyVktudmY1WUlpbnVkTGFlWE05X2dtN1QwclRqLVNZSndOUVI1T0I3SEduakRXcW5rX3VPbl9NUUZQbXQ?oc=5"
-        }
-      ]
-    },
-    "UNAB": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-02"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Concurso Público de Mérito para Admisión a la Carrera Docente - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-08-17T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWml0VmdKaHlmZGRwS1NaTjZkVVY5cGNTRnVaWFhBWW5Uc2Z3S1RlM3NsaVppcDNTS0lfNDRPczVKTW1xZjVQa0hTdlRURXVKb0t0VGV3bU16UDUtekxJSGttT2txWmJLYkJDb2lGYTBWbHBQbWRaQkwtZGlqUFZYdERlYlZPNmdfdEZ0cnFHNVpBY1Z2N3QxaEtHR0dTNzlBQ1pmYnBJd0swZzdhX2ZXS2RKeGRXUmlQTWVacnhiaFotS0pUdDQw?oc=5"
+          "titulo": "Qué se celebra el 6 de julio en el Perú: una fecha que reúne la independencia, la educación pública y la formación de un Estado incierto - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-06T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMmllSE1weXVhbEpnMGNEVzhlZ1paUzV0RlVJZXRCSlN3dUt1TUdJeHlNTGpXM0w1T3pIeGFHWU1fOGFIX0VsUlV1TVM5dmh1Z1p1VUs5d3dHMWY0SnZOSEVhbjNuanJYUGJHWWFIODNRNDVoQUt3ZXdGQ1ozcUJFLWNwd2dDNGtMdXZIY09MNXhNNWgxc3pYSUNnTEF0MHIyZVBOb0ZudVJNVGFQcjZNYWlSMDdVS09rR3FOSGxkem1iN192MGtRclNjQ094ODY0RXhFbjFDNWdWbGVjSlVhbDU0alhuN3lCWENpLWlxZmw4TEdHN2hzUkNEWm51OUZqUWhYV1Jn0gGgAkFVX3lxTE5yZmI5cGRKVDQ4N3puX1d2ckRSTG53a080RWNzMVNrWUVSZEZNcm5NLTRWT19Zc1dta09TZnd4ZWxDd0h4cnR1TVNNX2JZV0I5SHgwa0I0MzZDLVNJR01rWk5rUlJxZENEM0FZSllfR3ZweXpVS1pocWxHamtwcFNXS283UGVzN1BDNmlNOTYxX3IzWXRJbV85bnhpYmhhUjJpRmpvNWVBbkxnNUNKZmFWdGFWeXFhNUwwcVZFZi1fanI0WjlpWldSUXVIaTJYRzljampOTmpyOWZCVGhLQWE3dUJjS0FlSVFMZk5YVWZnZVB1RzcwLUpCcmxlQnE3enZoV25IQUtuVHIzSDZzaUxLV1BfajYzRkRxTnJwR3FwMw?oc=5"
         }
       ]
     },
@@ -57,7 +49,27 @@
           "titulo": "¿Habrá feriados en el mes de septiembre 2026 y qué días se descansarán, según El Peruano? - Diario Libero",
           "fuente": "Diario Libero",
           "fecha_publicacion": "2026-08-31T00:52:45",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUkVNZ0pmRFdDdGc4VVJtM3FBek1nbTdJc2hGUXZuUXhabUVXM0pMcGhVUEwzQzlxNXg5WXJRdjY3VnlydjdfNGlmV0szc3Q4OGN4bzhZWnFKNjZGOWU2Y21BdDN2cnFoNkFFSG5SUS1oUmxndmJuajUxeW56bC01cGo5Y2hLR2FfRGdKeHk5R0RUVHRKeHgxY2hsQ3JoaWRYdzVicEhSVjZQd3llWHgzRzhYWFNuREVXclA2Z0thM3TSAcYBQVVfeXFMUGtFdi1BSW0zQk0zWlFEOV9xTkdGb0lQWXhOYkJDU3BocFVodW5XbXBXMmhFMGJTcnRiSkVUVDE1V1UxVXk1bkx2WXJVcFhsSmV6SGhjREJHMVYxZmpIM3NsTUQwOUR6T0dDbGNtT1ktbDlLQ292ZFBKWFdZOHE2ai0tZjdkTTFkcXktM0JidWtZYzY4eUJjckhrRUFJeDc5c1pZN2ZRVTdfTWFZMEx5S01tV1B0UkdRX2JqQTNSNzFQNjhaS1Rn?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa0V2LUFJbTNCTTNaUUQ5X3FOR0ZvSVBZeE5iQkNTcGhwVWh1bldtcFcyaEUwYlNydGJKRVRUMTVXVTFVeTVuTHZZclVwWGxKZXpIaGNEQkcxVjFmakgzc2xNRDA5RHpPR0NsY21PWS1sOUtDb3ZkUEpYV1k4cTZqLS1mN2RNMWRxeS0zQmJ1a1ljNjh5QmNySGtFQUl4NzlzWlk3ZlFVN19NYVkwTHlLTW1XUHRSR1FfYmpBM1I3MVA2OFpLVGfSAcYBQVVfeXFMUGtFdi1BSW0zQk0zWlFEOV9xTkdGb0lQWXhOYkJDU3BocFVodW5XbXBXMmhFMGJTcnRiSkVUVDE1V1UxVXk1bkx2WXJVcFhsSmV6SGhjREJHMVYxZmpIM3NsTUQwOUR6T0dDbGNtT1ktbDlLQ292ZFBKWFdZOHE2ai0tZjdkTTFkcXktM0JidWtZYzY4eUJjckhrRUFJeDc5c1pZN2ZRVTdfTWFZMEx5S01tV1B0UkdRX2JqQTNSNzFQNjhaS1Rn?oc=5"
+        }
+      ]
+    },
+    "UNJFSC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2020-11-16",
+        "2020-11-18",
+        "2020-11-21",
+        "2021-08-04",
+        "2021-08-07",
+        "2021-08-13",
+        "2026-08-23"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "DIARIO ASI: DIARIO JUDICIAL REGIONAL ASÍ - EDICIÓN MARTES 01 DE SETIEMBRE 2026 - DIARIO ASI",
+          "fuente": "DIARIO ASI",
+          "fecha_publicacion": "2026-09-01T12:00:00",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOem9kQ2R0VEVQR05zcXRuMkZVVHhpQnM1b01aYnlCcXp3X2VCZkwtdFdfX0JuZ0x5OHZQb1JHZV9HNS1fWDhKeWJBdkZxb2p6NmVNTGttUlZCb0Z5bjlNeEt0eE80S2RVTUU4ZnRxRzFwRHhQanFTZlIyc0didFdrQl81Q0FzMTJ3eHZPb0RkU0w?oc=5"
         }
       ]
     },
@@ -70,28 +82,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "UCV llegó a la final del SFERA Experience 2026 con proyecto de turismo regenerativo - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-26T03:54:00",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYUNObEo3UER0TUx4OV92c1JIMWdVQ0hxODY0SzVLNW1YZTh0UjZRNVVtOTZ0MDltbmp3anFGSklyQ3hEZE5XX1V0d29pTFAtZmdmVlZFUkJBc2VLN1MzQml3MEhpWml3ZERLbHpNSWFJQUc2QnN2QTRiUVdkR2hWdWF3M3M0TDRoUmNlbnh0S0FnSlBOanVIeUpnU2JoSm50TF9NcE01Y0E0b2NqYW5LZklqRzhRc0RnQjJEMGRNM0NJWEp5Um5mVERKdUxQcU0?oc=5"
-        },
-        {
-          "titulo": "Descubren en Puno una nueva especie de lagartija endémica del Perú que vive a más de 4 mil metros de altura - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-31T12:52:00",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOcXo1T3ByWk5QNTJWTFRxOGZBS084bTM3MTROQkpCX3lRZjctVFRSWFZUTHZZalRObzN4ZWpHcU4xM0MzNWVMVDVVTFBTWE5KbUdkdjJqX01SUm1ZZ1V2bWxVZFphQjhMNU5SMHBpaE5fMXhqX2l1OUNQcnBnbU9tSDRZWURWbVl5OHA2V1lyeFVHSEVfNE1CcTZEdzFLcGhMOTIzcTNjNElFMWJiYUNxWUdzZDlaVmdXZG1kcG50b1l1R3hWcWkyLVRKVTNVR2lOa18ycklla3RRaGRaRlZ6QXZzaDh4WVk3NlNoWXlMT2hKWE9rV1B5eENvRy1FQQ?oc=5"
-        },
-        {
-          "titulo": "Congreso de la República: Esta es la distribución de mesas directivas de las comisiones del Senado - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-11T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOUJHRU5nZEdhMXE3akJkRGVwOEJtaVNxdFN2YmVNMnJaZW5ENXNreUY1eVlONzhNa0huT1RzU2xqejJZeTJlXzlZZ2N1RjI2LWNfYVNzWDdWZU9SekVxa3lDZzNQSlVkNF9qekUwS3NkNS1ic2l5NU13SEFIR2ttOVdLOXd2WnpLU0hWRC1YZDJuV3V0MmNCdlhtckRzWFpMdTY3MnpPRzJCbkdCUVJTTWEwTDNaUTQ1cnl5Z3NtNlhPU0hhbk4tUEtfUFUxV09FTFlTVnY1YmJ5bG9FbVoxQXNYRmR3MXpu?oc=5"
-        },
-        {
-          "titulo": "Refuerzan control penitenciario y bloqueo de telecomunicaciones ilícitas - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-28T19:56:00",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWjdCQUs0UTJMZWVCcWJrcGFkZlVTUUpkVUotZktMWmNDTThyajlkUTZrWHp3TTZlNnJSTkQxUlFqWWI0cnIwaTdQR3RhNVdIYTl3aGIwVmJIb0FjMzRxQmU4S3RReDFvZGpxbEdTWlV3cG1KR1pTcTNqZ1ZkUlY4NjZwSGw2TFFobjhteXZNQnBKeVpuaTJDQi1DdmV2YXBGekVhNmJPQzlvbUw5Q2swanhGUzAwd0FDTXJoMUhkcndJbzhWMEJfTjFsY3d6VTEyMmNTaQ?oc=5"
+          "titulo": "Docente fallece dentro del campus de la UNFV: universidad habría suspendido clases tras hecho - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-07-24T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQN3FfaEN2bGRiZldhMEctRWVpVThXczBMR1BOMXJUWU9SaWVrcGp5N1hnWnk2a3l6QXctTF9kckZGaUdvQzlJS3BkVUhRQXhFbDZ6SXdsYzRxcFVhcmpFQjBPQkxFUHd4cDhxOUJHQWVzOUdNM1ZDMHFCN3ZMbVNNT0NnbEY3SG1KaFhmZnFIaG1RSjk1amNqWG9uWFZaUzJ4endBaVp2ZmkycmwzNzBZanlFYjVxdFFHYU5pWUNzYmswV3JfSS16T1E3V1JDWFNHSnlKLXRENW9fQdIB3wFBVV95cUxPQzZqQ3FZekd1VXpMQ2JrLTBJcUNXTTdUS0YyQnB2RGFtNkN5RVlZWTE4MGcweVR2TV9yUUFIeWNLYjJJYmEzWmdObHVLZTg4RXA2VGJUUXhxSkJyZ080LTQwVEhvWVhnNktBcm1oaHp4MG9jcFVycXhsNEpST2hUdXZMbjJTSjdReFlqd2t4ZFkyLVpZQk1NQzdRaUFTZGxWd3hSS2hoakNOdXVVMWJ2alJtX09CSGtHMjNDTHFJVjBWZ3NfQU5YVkVLaUxVUUVfTzBLeFZYVWRkMU5qOElF?oc=5"
         }
       ]
     },
@@ -104,52 +98,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Innóvate UPC 2026: el festival vivencial que te ayudará a descubrir tu futura carrera - Noticias UPC",
-          "fuente": "Noticias UPC",
-          "fecha_publicacion": "2026-07-27T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80VU05Q3FLbkhfelpDNlhQTTZmS0VUbTEwblpmeWFFSFBzQWNKQkhuYjVhY1htLWpKeFZFc2lYN2UyWjJkT0NuaWszTUhpX3Q0ZjYzbHhMQ0hFNXZFUnViV2lrSUtHeHJj?oc=5"
-        }
-      ]
-    },
-    "UTP": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Desconectarse para reconectar: claves para cuidar la salud mental en un “fin de semana largo” - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-14T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORXJlQllUb3FUd1lSeHJxdURyM2J3aFdkTDRGSVlSbHNVckY4enVkT2pWMHNVVFN5bFVXMk5HOWlNOEhONVBZQmVkRGpVZnk4R0lPNmZpaWVwZVEtdzlLalhHOUwycXpad0dTZ01mWjl3MkgtMmN2MU04cnhuYzJGNmRGODZ2WDZQOXRzWWpNM3pEVE1wVGRCV1QwNWdSc2R1ZUVxMHkxcHo5S3Q1YkxYZzVXcDB4VGRCc2RldEJDUG45V0FqQm5QbnUzMUc2UDE5U2xWdmpGeGU?oc=5"
-        },
-        {
-          "titulo": "Emprendimientos: ¿Cómo impulsar las ventas en los feriados largos? - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWXVOV21CcmpzdzNrcGhjakdVYjNMdFJSSmZnSnhRb1JOb0dIUGZrTldpaXVnSXl3eDBDWXVrY1NZcDlUMkNjOEVSeGhLTm5tM2JnV0gtTDZYVnlWMmhnaXBETUVFOGhzdmhIdHhsTS1vbENFUDlQNnJ5bjBvc21RS0NkSUpWQ21zN0RLdldtVExWUnE4QzF5U3B6Tk5GNHdkc0Jqa3dSMEs5RGlOOXlZenJHaVI?oc=5"
-        },
-        {
-          "titulo": "UTP otorgó 1100 becas completas a egresados del COAR en el primer año de la “Beca COAR Talento UTP” - hytimes.pe",
-          "fuente": "hytimes.pe",
-          "fecha_publicacion": "2026-07-21T12:58:33",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc2dXQWVKUnJvWmk4dmNLX09VSWMyaFRld0hoRjZWSkRsU3dsa2J4Z1hlcUtKRUg5QTc4cVVXUkxlTmY3dzZtYnZDY3k2ZGgzVzJZVHNFUUpWRGJFbHp6NTRLZ1VaaGhHQTU2bzI4ajV3UVBOaHk3SHV5S2xLeHR5RzN0c3kyaUxCVVNwMmFnOE1qQkk4RnlnbUhQN2JsYzJwTy0zNmpDeGNnUE5iV3UxaC1ZLTlSYndlSWxGSGVfdTNQbGhwSUhGdXZ0YXcwV18tUF94UXFuRHE?oc=5"
-        },
-        {
-          "titulo": "Descubren en Puno una nueva especie de lagartija endémica del Perú que vive a más de 4 mil metros de altura - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-31T12:52:00",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOcXo1T3ByWk5QNTJWTFRxOGZBS084bTM3MTROQkpCX3lRZjctVFRSWFZUTHZZalRObzN4ZWpHcU4xM0MzNWVMVDVVTFBTWE5KbUdkdjJqX01SUm1ZZ1V2bWxVZFphQjhMNU5SMHBpaE5fMXhqX2l1OUNQcnBnbU9tSDRZWURWbVl5OHA2V1lyeFVHSEVfNE1CcTZEdzFLcGhMOTIzcTNjNElFMWJiYUNxWUdzZDlaVmdXZG1kcG50b1l1R3hWcWkyLVRKVTNVR2lOa18ycklla3RRaGRaRlZ6QXZzaDh4WVk3NlNoWXlMT2hKWE9rV1B5eENvRy1FQQ?oc=5"
-        }
-      ]
-    },
-    "EMCH": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Perfil de César Astudillo: exjefe del Comando Conjunto de las FF.AA. es nombrado nuevo ministro del Interior - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-07-28T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLUhsR3FwRnBtaVFiaFZJdWRobnROY2JNNDVhYlRwV0lCQXprT2RSMG0yeGJoSHFsbF9fdWhwZzVMMlN6VnRzTk5wMnNIbVdwNjRzMnFOaVQ3SHNuRGN6S1BMcnVIODNnYk5BWjNtUDR5NDF2S1NsdVN6aXg3U29EUWc5aElJYk83ZVgwclVRaGNPcHp3Sk5BaVpxX0NndV9zQ0E5dXlIbmVaQk5lSV9lcTU1SlRkWjlNRHVhb3NiNklfdE1FT3dreGhFNHMwVjlxUUxMamxqX2wySEV1eW5r0gH6AUFVX3lxTE85U2ZjRlJ0S3FpQTZIejBtUlpVWnNreC1GQjBCRUZmOTh6b2lXRUY5dWVvNXpXTGlaenM5OEdqM180MDdVdGZOZkp4bnMxbmdOQlpYeFFfQmVfanFaOXhsZi10Y2haVk8wV1F4TlR3LVA2MzJobEdkbEtHZUhxUk9XSElkUi1Vb3cwS0NWaFRGNzlJZWgwMFRIM0lST0dPTGNZazBoUjFtdTZCUnlaYkNfTlV6RDU4S0M5aThkN2QzLXFJUklnYjRwaFhyYVNJblJMT2FXNGwyTHBIUUU4ZG5uMUhSQzJmcGMtT3JwWkdONHdpYnRBVGxCS1E?oc=5"
+          "titulo": "San Marcos entrega implementos deportivos a sus 42 representantes para los IV FISU America Games Lima 2026 - Universidad Nacional Mayor de San Marcos",
+          "fuente": "Universidad Nacional Mayor de San Marcos",
+          "fecha_publicacion": "2026-07-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQSXZ1RUp1eXA4VHZqX3JXcjJBUTkwM1hfSExUb0JBX01PdEpLZmFvVnhHN0tJc3BuYldIYS1sZjJEcHNLQmZuNmE5SnVXMFJQdWVxclBubU5QZFRDdS1mUnFWenUwX05UM2VlenNjcDFpMmpMdjlyX0xqX2pMbTVJLUxvaTZ0MGZUd1h6RFZVdENyYlNvNnA3WTFTVXBBeDkzUmF1clBKcHp4aWdLTEJUQmJyZlFZeHhicGFuU3FvM0VfMmlGcmstaE0tSld6MmFNeTViakJJY0VWYlFEOW1UX0wyUVRvOUNYZVFEVHNJOGJXV1p4eHFfRnRxWmtuc2tMRDJFeS1B?oc=5"
         }
       ]
     },
@@ -158,28 +110,10 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Gran Parada Militar 2026: Marina del Perú rindió homenaje al país con impecable desfile - Agencia Andina",
-          "fuente": "Agencia Andina",
+          "titulo": "Así se vivió la Gran Parada Militar que unió al país en la avenida Brasil - Perú 21",
+          "fuente": "Perú 21",
           "fecha_publicacion": "2026-07-29T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbzdYM2VIWENyOUdFd0JPaGRRRks4RThLRVZqektaUlBBVDdQU0VuSUJmOE9wcmlROVJreHFkd3VpdTdOUml2YVBJeXcyVHF4dEk2WFZ6OFZFVXMzV3NXdjNZN3hsUW9fUmtaeWRkQ09lSTVwVDBvNjNMWWJEYWxOT3ZIb3VBa0hidXhKaVZ0SU5OSlgtZkd5bFpWdnhXMzVmOG9ISzNUeFdDakNxd0laMXBja3ZleWo0XzdYNWpUalJZcTdFYnlmUQ?oc=5"
-        },
-        {
-          "titulo": "Peruanos enfrentarán a los mejores del mundo en Olimpiada Internacional de Química - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-07-06T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdzZqNTBmd1hKakdtR3BhUlRESGlIenlOOHphNWQ2SGJldlhpUnlONHB3bWN0cG93WTNUWW5yYWQ2c3J4YV8xUHNmMDV2cXlBMVY5S2ZoUUdPSXNlSkNKb2pxMlBTQXlKd2hWMUFEOGk3ZUYtTnlEN2dmcmhoWnFOVlZRQ0p4dURoVGNVeVlRS0pTTW1kZEQwaW1lbnhEMnRHa1hOWXdNTHVVWGpYYXRrTGdjOG9SRE1nUW0wc3dVZHM?oc=5"
-        }
-      ]
-    },
-    "PA": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Ejército ofrece carreras técnicas y formación para responder ante desastres como El Niño - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-08-30T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTVJ1c0NzQU1wa1d1VFRkMVdWdHpUWkNYbGs0a0cyNW9wMkNic0JJZzlYY01wQzU3am1NTVlQWVBxaVFvZFpPQTFiYkNVUjlOeldpay1fVlhNbXQ3Q1o0amNyY0lzeTdMTm5PcV9WUnBzQVBabFd2ZnBsQXcwaDFla3JTNVgyaHVQVzVQV1JzTWVZZURnbklsdUJOV1BQWmw1cUM5UjJKTFpfMzJDeVRrS3FmZTYzd29uUzk5MGs3aDgyVDlxWXAwaEtSNE8?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ3gzX3NVdjlRYmMxdWNLbGQtV21ra3J4NlltOGc2OEFfblhFMjdnSzNyaFA4SERFMFVxd0hBNFdlT29vNjktcy1wT0lOd3REZWZSQkFaUTBxODB0N0tWTmpSOUk3OUhlc2xWSVN2VlZDeEw4aHY2Q3Byak1oQzFZOUZONDJ1MUE?oc=5"
         }
       ]
     },
@@ -188,28 +122,22 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Videna ya vive la emoción de los Juegos Panamericanos Universitarios Lima 2026 - El Peruano",
-          "fuente": "El Peruano",
-          "fecha_publicacion": "2026-07-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR0RPM0JWbTJrMEw2WXBoSlhVOWZYUW4ydnB2azI4bWZ0WF9LazhkMFBmd3FJMEthdWlzMkJnQXJ2QVFINnQ5bkszZ1lQNkVwbVViRUZvZTliREZIdU1IYWNHUnQyeDhhYUY5UnJ0YUxxR1c1WDk0dkl4TTZFYmdpbUdLalFQZWVzMTlycjN1UDkwd3MyT2kxczJaQ05QMElfYUkxeTBVeEx6aDU5OU9EV1dnS3Q?oc=5"
+          "titulo": "25 empresas ofertaron 700 plazas laborales durante la Feria Nacional de Empleo para las Juventudes 2026 en Mineral de la Reforma. - Diario Noti7",
+          "fuente": "Diario Noti7",
+          "fecha_publicacion": "2026-08-28T18:44:28",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41VWprMWQtNmZsbHJTOXNmTUdqbWlYbzNQV0w1elJfMFo4Njg0cTNJYkNySUd1b3NRR3V5SGRwajdjRlE3Y1dDRGFBaGR5aEFPOWc?oc=5"
         },
         {
-          "titulo": "Inauguran Juegos Panamericanos Universitarios Lima 2026 en el Polideportivo Lucha Fuentes - El Peruano",
-          "fuente": "El Peruano",
-          "fecha_publicacion": "2026-07-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWdkZzROS1kzUDAxZjBUc21KRWVHOGNpNUtTUzNmcWExRnJrRGctUU1kb1pYaENaZmVyaDNzM0UwR0FUNHdYcFBfYVlqZzFfa0h0OXpFb3pTczNtODNpM1M3N0cwcEQ0YUZGZWpfY3Z5aHliVDB5cXduSUVPZFhlTHcxOFQtT21DR09mdXZsQ0ZjX1JZaUZMQXFiRThLaThmMjQ5OEhwS2VMeTJGTE1DY0NiUzBkaVpVajhwak9QWHdqbXM?oc=5"
-        }
-      ]
-    },
-    "M": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
+          "titulo": "UAdeC abre convocatoria para becas de inclusión; beneficiarios pagarán 10 pesos de inscripción - vanguardia.com.mx",
+          "fuente": "vanguardia.com.mx",
+          "fecha_publicacion": "2026-07-20T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRFBIQjRhZXBfb3BrcDNkZjloZ3VpbnR4djNiTEFMZGNvNEZQVS1LRUJES0tOUV9xOUdIVWhSWWZuT3BvY01jcXM4VUlsUE82TzNrTnh6a2QzaEJ2RU9JQkhoVURtMktqOTFPSVZxZ1VxMkNpbE45TU5YMTd3Ri1jc1lvRHQzeU1fb1FuVmZCTHN5YW5FWTgwdUs0andNYm41dkpobm5wMEhiaTcydDN2ajZrNkp6SmtzOEMxOVpxZ1F5ZUJHcW9meDZ4ekVlWUZJejM1dThB?oc=5"
+        },
         {
-          "titulo": "Descubren en Puno una nueva especie de lagartija endémica del Perú que vive a más de 4 mil metros de altura - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-31T12:52:00",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOcXo1T3ByWk5QNTJWTFRxOGZBS084bTM3MTROQkpCX3lRZjctVFRSWFZUTHZZalRObzN4ZWpHcU4xM0MzNWVMVDVVTFBTWE5KbUdkdjJqX01SUm1ZZ1V2bWxVZFphQjhMNU5SMHBpaE5fMXhqX2l1OUNQcnBnbU9tSDRZWURWbVl5OHA2V1lyeFVHSEVfNE1CcTZEdzFLcGhMOTIzcTNjNElFMWJiYUNxWUdzZDlaVmdXZG1kcG50b1l1R3hWcWkyLVRKVTNVR2lOa18ycklla3RRaGRaRlZ6QXZzaDh4WVk3NlNoWXlMT2hKWE9rV1B5eENvRy1FQQ?oc=5"
+          "titulo": "Coatzacoalcos distribuirá directamente libros de texto gratuito en escuelas antes del regreso a clases | VI... - Diario del Istmo",
+          "fuente": "Diario del Istmo",
+          "fecha_publicacion": "2026-08-24T20:33:26",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOR1Y3VDNtWWk3OTNESFB0T0VFOWpJSVJWR2I2M0pnSDNnTEVVQ2tBbHdSTmdWbzczWVpfRkZZak5hX2V4TGt3SkRKdm5ZQklaUHh5U3NwQzdwQW50MjFETW1nSEhZckN6Y1hTb0ZKU3paSm5Jc3lpbFVJNjU2UFlGTk5fUjZxOE15cmFsamkzMHVzVWNQZDhiZ25QVkRraFh5eTNJMkNSSmZlNWlabS1fY1hjc21UTjZpUTl6bmExM3RTTVBpYkdIMnByb01FN1lHOHBmcXMwYkU0YlNIeXdKVlloWTNWOTV6My1YM0JSMDFKZnIz0gH6AUFVX3lxTE15eVJlNkdDU2tPTy1CNjEzdWNxU2hyNjZiQ3lxMWRxdW1DQU9BMC1Tejd3ZnlNQ1ZMWW1vcEthMTE1UHRQcHJCNmdsQXRJV1FVV3p2bFYwSV9PQUN6OVdaOWJ1bkNzNVg3NkJXd0w2QjVBME85NkF6YWhTcTF3S2tzOE9GbTdUT2lSbUUxczZnakh2TnV5MXlTSzNaTGNUUGRjQTZZU2EzRDFXRUNuVlZvb2NLeWdiN1lvQW1QcWtoUDhqREU4R1hPNXREWm1vY194ZW9ydDVqN280a0V0ckhxbUJpUDJwcXJlUzY3aXc1Ul96X3dmN0xvbHc?oc=5"
         }
       ]
     }
