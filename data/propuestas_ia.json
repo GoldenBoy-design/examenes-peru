@@ -1,16 +1,4 @@
 {
-  "generado": "2026-09-02T17:11:59.765680",
-  "universidades": {
-    "UNMSM": [
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": "2027-10-17",
-        "inscripcion_inicio": null,
-        "inscripcion_fin": null,
-        "resumen": "Se anunciaron los días 17, 18, 24 y 25 de octubre de 2027 para el examen de admisión",
-        "fuente_titulo": "San Marcos realizará su Examen de Admisión 2027-I los días 17, 18, 24 y 25 de octubre - - peruinforma.com",
-        "fuente_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRTBTRERseHlKaW83QjVrLXRrLWM0MXRueklYZEh6T3IyUlBCTThxN0liTnpEWXlmQ2RGb0NEOTE2a1VYUk0waEJCQzk2U3RzN2dfYTNmREV0VDFMaW1KQWlVT2Q5WDdYVjlrbUtpc052bVVnMFdSZGNsQjg3bm9HTXNjWktFZjMwb0VPVnJUalFHWDB4djZZOFlQY1FyQXFjcURfVHR3SUpTbXVaOGVnNFhR?oc=5"
-      }
-    ]
-  }
+  "generado": "2026-09-03T17:06:18.216569",
+  "universidades": {}
 }
