@@ -1,125 +1,6 @@
 {
-  "generado": "2026-09-04T16:54:41.793286",
+  "generado": "2026-09-05T00:38:11.447251",
   "universidades": {
-    "UNALM": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Minedu adelanta el cierre del año escolar 2026 por el Fenómeno El Niño : ¿en qué colegios regirá? - Diario Libero",
-          "fuente": "Diario Libero",
-          "fecha_publicacion": "2026-07-12T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSkhIV25mZmxKcjlvbUxOeWlVZ3V2aXZGSjR1MHU2R2U4dTkyc0lzNk0tdU9pR1ZCckMxTjdkTWRmYXpta1N6b0FpWUlfVEZoV240Qlg3b3dyeWZ2dUxiN0dsWmo5Q1ZmSzNxZzU3Y0g2SUNwQ1RvUjlkSHJLOEd2QlkzTTFRcUJjMG92LWVJc1ItUlM0Um1CLXNoemZfcDdrM0c5VTI1d2lWeHVEZTRTc1pCNEhETXhYRm5KRm8xQ2pYRDMxWkZnUFd5OVVQTnMy0gHWAUFVX3lxTE1uQjVBbWRRem1lSmQyUVJCd2lZT3pyN1NhMFNIVnFiUUhkdHphUThuWXZzT0E2WXVHVGNacTVIczFGNmRSUkxJSXdvY2NmRjRzVS1PV2ZlSWNCdUZPYUlhcFQ3ZmFnZjd4NHBPYkRwSlIwWTIwV3hVZFhmaGNNNjh2OTNhTV9odjFXTTFhQmFRd2VCSl93UTlXeW9qdjI3RU9FcGFzNEYyWk9VWUp2anE3Z2xibzc2TUs3em1SX1F2b3BBakNKR1JyckZMMzdpSWswTVQ0dGc?oc=5"
-        }
-      ]
-    },
-    "UNMSM": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-09-19",
-        "2027-10-17"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "San Marcos realizará simulacro presencial de admisión 2027-I: cronograma, pago en Págalo.pe y fecha límite de registro - La República",
-          "fuente": "La República",
-          "fecha_publicacion": "2026-08-29T20:36:53",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUDBWQjhrQ25EdmhBVXUtcXBnZzU0R2JfQlVXYVNGbW1SS1FRX0p6MkpoTTBwZ3FTMElHendGU1ZSdGJxS1M0UDhzc2RvWnNPald3aGJhNEs2ODBMamh6NzdtSGtmeGxneVpiWWlRcWN2aEJFaEtXc0pqbzRmWXdPR2VfYXRzTkwwWEtHdS1RYV9EZ2lRa3paMnZ3cml4TWZxWno4ajlkRmVkYTZGMVg0YjdfLXlhMktzZjl3VDg2TmNza3Z3Ulc1SEMyaEd6ak5oVHY2dEFFTi1zNmVVMzM1TjBjTFJyVVpHZDIwZ0k4dmpxVGJUaE9mStIB_gFBVV95cUxOR0lNNGhVc2dkLVMzdnAwUDBfQ013blZMeEh6U3NDN0tVLV84MWt0ellhSnhIcVdkcjg3Rmdnc1dOb2FveU1nLVpjaEtMTG1fdlZZTVR4S3BrcUNjWnVQb1cyTVZodG9Ld2RVUDZLVm5iQ2lUMFFiVnB3dDdyNEN6dmNBWnlMQUxHNXhWeGpPdG9zWW55VkkyUFhUejJ3c3JUbVFTVWE4Q00tck9lWHZDWV81Z2EtMW5EelpPbEhpak8tQzJILTFLV2ZGbUN0alhILVpHXzZjMHNEZWV6cC1pMzhfVnNRZEQyamcyVE9wazF4dzhQTzh0UnVzRjRHUQ?oc=5"
-        },
-        {
-          "titulo": "Examen de Admisión UNI 2026-II inicia HOY, lunes 10 de agosto: todas las fechas de evaluación - El Comercio Perú",
-          "fuente": "El Comercio Perú",
-          "fecha_publicacion": "2026-08-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONEt1ZXNHaXJfdHhkdHNWTXhuOHVFOVNkaUY5MkMtYTI0Q2Y5dGxLSGFsMnlrZ19DYXUzRHRTdjBkZFZobkJUeWdxR19KUWRyb3ZhTG03bThfN1NnZVJxRU93bXAwekRrN2t4N2ROWTJlUTNjTE5fek5yODU5QXBWa3VDa01VZnZLVFF3SFlQM3k3cTJtZUQ0VHo5ZENQc1haT1R0Q2FGU2cyVV8zZFVfU19fc1ZCWG9XNHBaRDg1RUdLTnkzN2ZpRlV2eWFsVlFoMmhLQk0xVDBZUElHU3hxUtIB9AFBVV95cUxNeUhGLTV6WFphOXhqanZIdXJzME9rb1FqVXFyTzRBenMxOEtqZjFDOGJLRndOcFFoU0FtM2pWQmxDRkRidGxHMklOM0J6SDcyRDhCS09FdEFnbXpVTDlweTVxTkoyMjQ5N3U4YkYzQTdfZFF3OGhtbTlWX1I5dnJXMy1UdmloaHFkVFlvZEpDVjUtX3gzVl9vSDl1N2FnblJNNVRQTzAxNFVIaVQtRkxXSmxvM1plSUoyd3lZd0hkUzM2QXptYUJJd1RCYUt2aGh4UU9sYms3cGxvTHdxMjkzUW9VSFNNWldHeUJ1Z0tRRVh2TXJR?oc=5"
-        }
-      ]
-    },
-    "UNDC": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-03-08",
-        "2026-07-19"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Resolución de Consejo Universitario N.° 098-2026-CU-UNDC - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-09-04T16:52:10",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWnV6UjlCT1NZMFVVYTlONlFLeG1CaHV2RXAyUjRlb2FvbzJaZmprTkttQzQwYkk4T1d4WEE0MExWS1pCTWZ4OHhLSTN6N3VVXy1mTUdLT2JybUlxLVlKSFVadUFIZWRwdm1manpRRnhKenFkb2xNZjVlMlVZdjVLVzFRa29ldEE?oc=5"
-        }
-      ]
-    },
-    "UNJFSC": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2020-11-16",
-        "2020-11-18",
-        "2020-11-21",
-        "2021-08-04",
-        "2021-08-07",
-        "2021-08-13",
-        "2026-08-23"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "DIARIO ASI: DIARIO JUDICIAL REGIONAL ASÍ - EDICIÓN JUEVES 03 DE SETIEMBRE 2026 - DIARIO ASI",
-          "fuente": "DIARIO ASI",
-          "fecha_publicacion": "2026-09-03T12:00:00",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcGxobWg1b0dURmcxdDJQdVZqUkhrOGgwTEZ0cFYzWlNlX01ndThzell4QkY2OUV0OVc3TFk2RFJBNTN5eU9iM0RjWl9aNkZhRnZ6V2JMa081d2c0ZmVYdzlTOXhNTVFvX0FGSHlTMXRTVEN3eVJYTkhJdFhPS1FuM3VRc0lEb1VtUzBpTDlfSkRucmlMaXgwQlFXaW9LNTF4?oc=5"
-        }
-      ]
-    },
-    "UNS": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-09-06"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Áncash: joven comunicadora participa en concurso nacional de oratoria juvenil - Radio RSD",
-          "fuente": "Radio RSD",
-          "fecha_publicacion": "2026-09-02T15:56:13",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ2FrbGNWSzZ5YndUU2VlVjkxU2tfUGNmTjU3X0NBUkNjU1RuZWdNOUc4anpldXlhVFljM016N2hCNWtOSFJNVnVLYS00b05kYTlpY19KWXVISFQyX3RHZzB1cERFN1RJUzVEWk9keEppQlJfSWtONUpFTHN0dDI3WDZUVW5aNXBQS2tUc3JEY2RYbkN2eHF0UGY3TGxTMlVKQ3JrNXJZa1Y?oc=5"
-        }
-      ]
-    },
-    "UNI": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-02-16",
-        "2026-02-18",
-        "2026-02-20",
-        "2026-08-01",
-        "2026-08-02",
-        "2026-08-08",
-        "2026-08-10",
-        "2026-08-12",
-        "2026-08-14",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Las 4 nuevas carreras que ofrece la UNI en el examen de Admisión 2026-II: conoce cuáles son - El Comercio Perú",
-          "fuente": "El Comercio Perú",
-          "fecha_publicacion": "2026-08-11T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcWNHMWtLbTV0dThaU3ZLYXZPdGxLanFESnRoS0ZUM2xmZVJnX3ZZd3hldkNtR3RQLXU4QVhscFFrU0ljQy1CbWhZeUc5bXkxa2FxQ0g2bjYySFd4amFWalcxcFRZd2xRWFFZbl93aWcyc2tNUjFFS2Y1d3RnWm5DZ0o0b3RlR2g0Nml5SS00YW1mSlZyRThEclo5Z2ZEbVhFd0dHbVo5dEFEcXh4ZWIyUkZ0OExwaEphTW9oZGM3NHRuRmwwTlJQVXZ6UG82dThSWVhQWjMwU21NaEdPMWY0X2pSUlIxLUFGWENR0gH_AUFVX3lxTFA3amlKM2lzRDRpbHdhTjQxNDN3SkRpa3U1SGM2R3V0Q3FBbWhwajM4dGNpSzFzUjdxU0Itd2VwSjZiWnV5LW0tRnZQemplZ25RbW9XRFZUTkh0a0pBY0ZiSnhqaFBFMld0RDlkbGNiRmhyQjhLMi1xNTZnVldMR3d2cVZxWWdjYXpsX3Y3MFZJb0ZscHM5TmdoWkxyOXJ5bm1DUThBWDg5a1RpaG1INFkwRkFRLUZvYVBpRExILXYwNUxMcmhzdzQtbk5KelpQcl9sa0Q2bUJyNjRFN3FKeVM2SEwwdlNlZGNCcmNYTHZGbEtMbzh4ck8zTTAyV19Lbw?oc=5"
-        },
-        {
-          "titulo": "Examen de Admisión UNI 2026-II inicia HOY, lunes 10 de agosto: todas las fechas de evaluación - El Comercio Perú",
-          "fuente": "El Comercio Perú",
-          "fecha_publicacion": "2026-08-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONEt1ZXNHaXJfdHhkdHNWTXhuOHVFOVNkaUY5MkMtYTI0Q2Y5dGxLSGFsMnlrZ19DYXUzRHRTdjBkZFZobkJUeWdxR19KUWRyb3ZhTG03bThfN1NnZVJxRU93bXAwekRrN2t4N2ROWTJlUTNjTE5fek5yODU5QXBWa3VDa01VZnZLVFF3SFlQM3k3cTJtZUQ0VHo5ZENQc1haT1R0Q2FGU2cyVV8zZFVfU19fc1ZCWG9XNHBaRDg1RUdLTnkzN2ZpRlV2eWFsVlFoMmhLQk0xVDBZUElHU3hxUtIB9AFBVV95cUxNeUhGLTV6WFphOXhqanZIdXJzME9rb1FqVXFyTzRBenMxOEtqZjFDOGJLRndOcFFoU0FtM2pWQmxDRkRidGxHMklOM0J6SDcyRDhCS09FdEFnbXpVTDlweTVxTkoyMjQ5N3U4YkYzQTdfZFF3OGhtbTlWX1I5dnJXMy1UdmloaHFkVFlvZEpDVjUtX3gzVl9vSDl1N2FnblJNNVRQTzAxNFVIaVQtRkxXSmxvM1plSUoyd3lZd0hkUzM2QXptYUJJd1RCYUt2aGh4UU9sYms3cGxvTHdxMjkzUW9VSFNNWldHeUJ1Z0tRRVh2TXJR?oc=5"
-        }
-      ]
-    },
     "PUCP": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -127,16 +8,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Asuntos del Consejo Universitario - PuntoEdu PUCP",
-          "fuente": "PuntoEdu PUCP",
-          "fecha_publicacion": "2026-08-28T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWnJyUjUxazJpRjFrNjFtUnBULTBYdGdnaTZQeHZ3ZXVaNkRRaUcxVWNuWUJtcmJabFBZZ0hLX1RIU2FvWVY2TDZreFVWdmVlVXNfOVFyMzNKamRIRDBQcWVhZjdJajg3d1NQRGhINUxFM01KM1gyTWhHYUJaT1M5UkE0Uzk1X0QxcGZmRFUyZ1paWFMtX3lOQXNwUmtiRUt4c2c?oc=5"
-        },
-        {
-          "titulo": "BASES CP SERVICIOS 2017 - Plataforma del Estado Peruano",
+          "titulo": "Separata de Normas Legales - Plataforma del Estado Peruano",
           "fuente": "Plataforma del Estado Peruano",
-          "fecha_publicacion": "2026-07-09T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQby1VdG9SejJ6eUpLWU9QUEJSenkway1ma0VUR1JQOWNqUVRTZ0FNYk5fT2tLaGZWdGJVWG5BdU9ldVpHd0puWEx4dlpXOWRuNGZmUG9YMUkwcE5wMkFpbEI4RHhQMFNNRV82OWNqV1RyT1RoU1RnX255UFRsS3VSa2owQ3hJSG1FUDU4MGJLM2pDalJ0YmtOdVZwN1J3UjN0VHNmcUVTTUY?oc=5"
+          "fecha_publicacion": "2026-07-28T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOam9jRHFjai1qYVhFOHZuNXdyNXV0cjJaT250a0lOaGcySGs5RU9VVUZIeWFzNGpjbzNHaVMtRDBZbkRubGRTV3ExRzV6azNWb3lZejlUV2hwLTYtQ3FsRXpNamZkUHhxREdGSjBlQXFvOWZrbWtqZUVNaWlzX3lkWEZpc1VXS3M?oc=5"
         }
       ]
     },
@@ -150,34 +25,16 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Presidenta electa Keiko Fujimori se reunió con presidentes y dignatarios internacionales en Torre Tagle - Chimbote en Línea",
+          "titulo": "Bancada de JPP presentó denuncia constitucional contra defensor del Pueblo por declaraciones sobre cierre del Congreso - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-28T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObkdxdE84eGs3YzRCRGlzbHFHd1NQY0FmTWtpTFVfUnF0ZWdEYVdSSXNWa3pDZ29oMkVkSkhrNTlGZEllVkgtRUJ3VzJGNWwzWlAzQThFYWpxOGhIOURCcU5uRGdvTEJrZmlsQ0lzckxjMWZWeUEtUWRKWWsxVEV5SThxM0lENklkUjl6cEJJVS1zYlN0MXFZWHE0N1R3UHdvYnJ3Wk9YSEVOdjlfTDhpeXNjSW4wTVl3WmVSX1hnLTI4VEhwbklCbmtPcGdFeldla3dfejFKdTRmM0NkQUdUeG5FcmxPbEJCZVJZLWJQcDk?oc=5"
+          "fecha_publicacion": "2026-09-04T13:55:00",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSEV6RXhnN0JsQWI0MFJ1Z0Z0QjJTUEZpaVRSTzJra0hmR2p0RWJLQlBWaEQ4MmJTZDhEOGNBbEl3RDM5Q3BGWE1RSk5idlREV0lSNFc1UDExLVd5eFpidHEycVpxRWdNRGdONG03YS1hV0dMRVU1SzZqZ0w1dlU1YXUwUzdQclRmOTZiZElad05DRDVQVDZLQ3FQWmV1RVFxUHBQenN3LUMwSmgxTnp5Q0lVQnF5TW5BZ1Fld3NiMnc3eERfRm52VW9HSms0U3hrSl81UEtXM29MWHlOcUZGOE45bl9SamwyeFEzWUFURDZNLTZlRFFyc1ZMaVBDamNUd2FEZA?oc=5"
         },
         {
-          "titulo": "Cayó en Trujillo peruano requerido por la justicia Argentina por presunto delito de abuso sexual - Chimbote en Línea",
+          "titulo": "Marina de Guerra y Proinversión pondrán en valor predios e inmuebles con participación privada - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-27T03:29:00",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNWM3dzhiRWJiNFYzZV84Umxsbmg3cThHWDFkTGo1U29wQUZNQlRVNm9QeTdqTW5tVDcyVWdvMlg5NFBLUXBOTW1sc3FOUTJySXVGN1FlYnJKSWhBYjJBWEUwMlJPbGRET0VxSTVJM2RBdHBvR0xPQ1dQRDJjNXFROXJ3YlFYcEctX0laOHBJLW41Z2ZtQ1hqTzhSYVhiRkxQSUVwd2lqaXo3a0tkMTNNZHN6WjVZZmFZUVdtUnEzWmpkLVZYejdFQUVKLTJOR1FUTlR6MnhEN2hpSFlqdlR5WkFZQ0RiWXRoVC1jSGFEVGI1bUNnME04QndR?oc=5"
-        },
-        {
-          "titulo": "Conferencia Episcopal anuncia la Colecta Nacional por la visita del Papa León XIV - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-04T04:48:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNHpnMXhsNFlIcGRMZm0ycWowQU1NZlN5dTluc3QwQnREMFkxN0tRN0hMbnF2bUJvY3EyNTBaX0tjSEtKcmF6T1VYVGdPRXJLUXRkTzNsR3U2cndZMlo2ZjZpTWlEa3ZfX3NmLUtlUXFuVGZ2ZGV2NmpWandOQ2RaQ3djOWVyUWJTSDg4RlhXZjNpOEpYd0VaakFkS1pOMlVIY3hnaXNEemFZbGNGWUJuX3lRNC1KNkV3SnEzQ0NpSGNkdW90UHJBbWZicHVwVFZDY2g1UlJNSWF0Rk0?oc=5"
-        },
-        {
-          "titulo": "ONPE actualiza medidas de seguridad que regirán durante procesos electorales - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-13T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPa0xvcGhnSDladDhWaXR1a1VkcG4wVE90XzBtQkJpVFlpQUpHdGNZcEZ1ejZmS0xwSEZ0M2xIWldyRFF1dEZXd2RfMXBOLWhCVV9CTHp2WkgxaElJN1lVZDVCUDUtVjZDM3hNUTVMT3pObkZ0TV9LbjRMY3ppZlFYZVJ6bXBEV24tV3Uwa19aU212WmVfTHIzVjNMWTIyNzNJQmxPMDlfa2tlZlo1bFczQU1PeEl4MWsxWUdnVEs5clMtdVRHOUo0d0Y0aGw?oc=5"
-        },
-        {
-          "titulo": "Autoridades de Áncash disponen el cierre por 15 días de acceso al nevado Huascarán - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-20T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVmdtUUdmaFZjTXFQS3BGUUg0XzVZS09ISURoVmNvTzA1bmI5ZjNteE5Xbjg1OWdoSlBXYmNVV2dTM3NXMFBJTG42LU9PWlpxUnc3a1BubE5CR3JHTHVBNGFLbnlnSUNsMTNMcFZ1a1JMQXRTaUV5ZDhVNzNTUm9BNVhLd1VEd05FZUNyeFlLSGpIdE9SSGRhZ3lkc1A0UTBCWWhWR284ZmMxeVJzeUhtRTZELWUxNFU1WE1lWHFldW5mTW9YakM3eFhmYkN2ZG1kRWZuTTdUaw?oc=5"
+          "fecha_publicacion": "2026-09-05T00:11:00",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLVNjZ3dzM1RXLThxN19oMktwaU5TR1lscS1WekdnWlNubVdaWmRMYkFjQklPUXl5YzFxYWczUHFKU2stLU9wV05UT05UZ3JaLWhtQ0tneE53ZEcyYWNTX3hlaFp6OGNveTVIdmdfMXktVDZwemVGZWk4N3Y0SzhNUGlsUHNSblFLMHB5WnoxNjZjNG4taHlMc0JNeUdabUNYSjNhRU1vWXowcDRjR1VYR3BiX3phTjF2bTFVMVJxNlJHbXdmQ2Y1N19wUmY5Z3BPcThla1NYcm5YTmxXS3BINk9mQkRuajlxTE9qbXB3?oc=5"
         }
       ]
     },
@@ -190,10 +47,22 @@
       ],
       "noticias_encontradas": [
         {
+          "titulo": "Vive Salud UPC: descubre cómo es estudiar una carrera de Ciencias de la Salud - Noticias UPC",
+          "fuente": "Noticias UPC",
+          "fecha_publicacion": "2026-07-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02UjUtWUVMTkoyU1M1LXpfdFhzWEhfdXY3YXdxeE5QTFBhMEdBN1BoQzMzbmpJZGloa3RxdGY4aUl4dldieHJLNXNWUTVOQVlHVV9wbFlsSGlpWnpNRXFZTlNHWTI?oc=5"
+        },
+        {
+          "titulo": "¿Deseas estudiar en el Reino Unido? Descubre becas y oportunidades en la feria Británica 2026 - El Peruano",
+          "fuente": "El Peruano",
+          "fecha_publicacion": "2026-09-03T21:34:00",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPU1BiV3FsRDVESVFFcUZKc1JFanpkaHloWVUwTl9tcVZZNUZNMXlRczRsTXg3QV9LR3BUWUQ3YUd2b3U0M3NnbF9vNWFpaHJHS3hLeGZ0bjBOdWE0dW5DeWgxYnhHYnZ0eHo4SGpmejhxVldZZU1wWjB4RE1BZ00wNnV6NVJsYUV1bVlyN3V5NkZKZllrdU5TWWFYLUcwTXhIVWdEMjRCclAwLUJYaWdxTzFlc3hSeEdiYXZPMThvZW9peDIwN3VLOTFxbG4?oc=5"
+        },
+        {
           "titulo": "Feria educativa en Lima reunirá universidades y becas para estudiar en Reino Unido: conoce cómo participar - La República",
           "fuente": "La República",
           "fecha_publicacion": "2026-09-03T22:29:37",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbmhfMzZoREVKMXpCVnNFanJGRFJnSDNaWWROUFR1UkM0TXNvbzlvQUd4Q0tneGN5RmFXNVRmWldmZDFWcFB1dHVtTHNscXBiSTRDU0tPb1EtN01kaU5pRFc4bGZGcFFHNEFxM2NKeUdwWUlLOFNZWGw5TzdxWXViUTNZM192Qy1IcW5UcUpLT3RXSUhiNy1fclMyV2lqNDlRUGQ2X2xoQURBajFzX3A4dFBtLXl0cmN1LTZmRDFOd1hmMWd6eTlpQ3Q2OVJqM1ZCV1ZxZU9WX1I4eXBscFhLVUlIRV82bWVzcmliOE00RdIB7wFBVV95cUxQbmhfMzZoREVKMXpCVnNFanJGRFJnSDNaWWROUFR1UkM0TXNvbzlvQUd4Q0tneGN5RmFXNVRmWldmZDFWcFB1dHVtTHNscXBiSTRDU0tPb1EtN01kaU5pRFc4bGZGcFFHNEFxM2NKeUdwWUlLOFNZWGw5TzdxWXViUTNZM192Qy1IcW5UcUpLT3RXSUhiNy1fclMyV2lqNDlRUGQ2X2xoQURBajFzX3A4dFBtLXl0cmN1LTZmRDFOd1hmMWd6eTlpQ3Q2OVJqM1ZCV1ZxZU9WX1I4eXBscFhLVUlIRV82bWVzcmliOE00RQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZTc0c0ZER2xTOXJaRnZaX0M3RzhZa1ljekJLdWRpQ2R5ZHk2am1CQzNCNmUzaHU1N0x3ei1rOE56cWh5bjFzczVDNDF3STd3X1NJdGFKNzF3Zm9rVmFINkkxQ05MWHVNZnZtQ0FJSXFja3I0eEFUZDViaVpYTzhqenNRNnIxbjlBLURKY3kxeEZqSUdlNHEwVkpiOTVFb0p2R3h5SUlacklZX2FQMVJqek5xV3h5VFRSZmtyZWw4aEdlMGx5UW9lV3BUVkd0a1JRYVZhTE1pdDVpOHlpbi1lMHhOc1gwTHNmbVHSAe8BQVVfeXFMUG5oXzM2aERFSjF6QlZzRWpyRkRSZ0gzWllkTlBUdVJDNE1zb285b0FHeENLZ3hjeUZhVzVUZlpXZmQxVnBQdXR1bUxzbHFwYkk0Q1NLT29RLTdNZGlOaURXOGxmRnBRRzRBcTNjSnlHcFlJSzhTWVhsOU83cVl1YlEzWTNfdkMtSHFuVHFKS090V0lIYjctX3JTMldpajQ5UVBkNl9saEFEQWoxc19wOHRQbS15dHJjdS02ZkQxTndYZjFnenk5aUN0NjlSajNWQldWcWVPVl9SOHlwbHBYS1VJSEVfNm1lc3JpYjhNNEU?oc=5"
         }
       ]
     },
@@ -204,59 +73,22 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Elecciones en Asia: seis postulantes buscan la alcaldía distrital - Revista COSAS",
-          "fuente": "Revista COSAS",
-          "fecha_publicacion": "2026-09-01T17:15:02",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQnJveUU4OXpCSm5yZ1hUc19kRFVXLVNoYVJqLS1WRjRkWlF3Z2xYakhUWGExSHluYjRreDdsRHBmSFptTmdXLTMwdUwyRkZFUTcwcU40c0wxUEhIUk1CRjVmc3locFBvWE1GQ2p6QTB4RGU4ZEJXeC1pQnNtcWpXVDNtWDREVDdrcVNMNzQ3RE5vZXh0V0HSAZsBQVVfeXFMTWtuMlBFN2JVVTI1SnVnVGZGZ0xoUk52M0tqYXZJMUJwVmtxS3M2NFR2TWc0MnhBb292MUxRQ2ZPUVpSMEdSMXhMaFJmQUoxOUxPRVRRRVlzWnBVTGFtdWRxMktyaEZtellOZ3QtQTZzNlZ3QTJwUkVfUXF4N0hTQXdMWC1PSkQ4Mk00aVQ3WUpFcmlsaGRpTFhDOFU?oc=5"
+          "titulo": "Convocan al II Concurso Interescolar de Danzas Folclóricas \"DanzAarte 2026\" - andina.pe",
+          "fuente": "andina.pe",
+          "fecha_publicacion": "2026-09-04T18:51:00",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR2FfbGU0a3JKSmo2QlA5X0RDdnhqRlJBejkzN282cEpaRWVnQ1pOejlzNERtZWNUNmNYWTF0NEJndUFJVFBFSXJwZlRSSXEzRUFmRi1WOXo3U05vUWVUeFRFWjJ5Ni1BQ0t1bTN2NlRvM3pKMkZKTkI1Y0M5bHlNYVpMcGd0S3Rua29hYXJfbnlXcGJrVFNoaWxqV0w4NW04amdWX0RvNTU5YjNSckNoUlFiWDhmSF9s?oc=5"
         }
       ]
     },
-    "UPCH": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2024-09-15",
-        "2025-01-12",
-        "2025-01-26",
-        "2025-02-09",
-        "2025-02-23",
-        "2026-04-04",
-        "2026-04-26",
-        "2026-06-21",
-        "2026-09-13"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "UNICTEC 2026: investigadores nacionales y extranjeros presentan innovaciones en feria - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-08-31T16:26:00",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdEJMeWtLNVZVRHhjaTNmOU5QNGNEckowTElXbzVCNVg4bTV3VGNiX3o2WFhFQ2RsREdxWkhSdVl3STlJMnZ0U1lMYVVfbjNramw1N3lEV05URFhsaXhiaUhIVlY0Rlo4RlY4RWJISDlXbXVFeEpWWHQxUm14Q3RxTmUtX0wyNTZ5Q2RGb0tKWm0zQmhZV1I4SHRnRWRHV3JsRkgwY3RGUVpJSGk1ODF4UmN5TzNJaGJMbHl6RksxNFk1bGVnZ1c4?oc=5"
-        }
-      ]
-    },
-    "ULIMA": {
+    "UTP": {
       "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [
-        "2026-07-19",
-        "2026-11-15"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "BCP ofrece hasta 100 becas en universidades e instituto para jóvenes con talento - Perú 21",
-          "fuente": "Perú 21",
-          "fecha_publicacion": "2026-08-19T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZHFZZFhCTko1WlotTW5nOUoxM19tQnJIdEpPQnFqdzBnM2RqZ2dlTlN3OFk1Y2xxRjB0WS1zSWRHTjBsNVU3QTN4Q05MNFNJUjRNSlo4QWhyU0xPc3BTc3d1cXBUNlVzU1hiLXJJTUo1YjNJUVh4N2pFTEdGb0xSSEVR?oc=5"
-        }
-      ]
-    },
-    "EMCH": {
-      "estado_actual_json": "cerrado",
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "🔴🔵 #MeLlamoPerú🇵🇪🇵🇪| En diálogo con Exitosa, la coronel FAP Arlette Cruz informó que el servicio militar voluntario ofrece una \"propina\" de entre 382 y 1200 soles, además de brindar la oportunidad de postular a las escuelas de oficiales y de alumnos co - facebook.com",
-          "fuente": "facebook.com",
-          "fecha_publicacion": "2026-07-29T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYzBBaDd4QWw0TWdjcDg1ejlpeUctQjlKSTVrV1pQOXdsQ2E0QVMyaDNHdWpZSU1ZbkdJWXNHX1dTTEtfZFBCZ0FCYzhDQXF5OUgxSFpUS00xTFFMcWxYU2R1cW9vbzl4dWZobE5oR1o2VWlOUE9EeXplM3BOSDl4Z1ZzYXd5VkdjZmx4UHcwOWs3ajBsUzY4UWtJTDYwOWhTRFNuNGVtUTlwenBwQVNRSjN6eFltMEdLemluTjNUc21jaDNiNGdUbXZFRFl3dzNOSnlkY21kcWEzZUtWc0g2UDlkSTA2TmpRSjlucFJhSnUwQQ?oc=5"
+          "titulo": "Colegio Médico del Perú plantea al Ejecutivo fortalecer respuesta del sector salud frente al Fenómeno El Niño - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-03T03:18:00",
+          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOLV9ReFpqZjIxOVBOTnNoVHJfaVlSTTlha214c3EtRDc1RmpkS1NiTXF5VG5YeGYyMW5sV1hCbWdrYVhzN0NDUHVJTVZ5eVVsQlhXd1lvMTQ1VkNUUlB6ZzJDUHhWX2c0ZVJqNGFVZktaWHh0OTZjRi1GREJkeEVGZjRDckJpenBCSDB5bmdRT1hZdWNwWGp6eWQ1Z2RCTTg1T2lEWVUyRUZVUjBXUGpITm9lcmpNR2RjbE5kbGdYUWZEYjk3VEhxakFQM1dtY1ZQa0FKTExWLVJIOWZQMEtsaHpURkhXVV9weFFUNm5nN01KTTJBUktRbnNRbGRid1QxdlhVVDN4TDh2MFUzWUlF?oc=5"
         }
       ]
     },
@@ -265,48 +97,10 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "FAP anuncia admisión 2027: conoce las carreras, fechas de inscripción y vacantes para Oficiales y Suboficiales - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-04T00:12:14",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWjIwOGl4ZFRhN3NTM0hDTm9mcXdtd0E1c2dfYjVEVXpTTlNQT3BJei1xYjhWeWx3WG1mMWRzZ09CSWxuS2JVeGowT3BDYmU1SGk2Z1lxU1BtcUFXQmV4ZVZ3N1MxQ2tfWHpkdFU1bWFVam1DUjRtUVc2d01yTVlOdTJNTGJZR2pmb1Q3dm9mNjllNmY3QkgwMDE2Nk5DRE9FQS11UkZnSzlIOWNiMm1FMDBuVHN4a0ZLUmQzdk5SRHQxYWw2WDhsN2R2MXRFTzg3eEl4RlN6R3RpM3FJcmt0RUxKSdIB_gFBVV95cUxOVFozVWZjTGJWbWxFQUlSb0xUUEhOb0wxQU5haG9NZkNoeUs2VzVRTTlFNXJoMGhrWWptdzhYOWdPMmFKSGtZNUpQSWxyR3BjaS0tRUpjWEZ3U2dxZVI1dVlDcXJwOHE0YTlDVGNENnJ1NFNhQk03aEh0dDFYTGlFdEl5MWctcFZoY0JSektNQ3lHRlNWVU1HdHczSUVBTXhnM1JqdS0wUFlCTHJFR3R3dFNOdDA2QVU5ZnVnVUFOTVo4bEhUZkVwLURHVzhXZ1JSTzJIeHFSWHpnTWJ5M2NzQ1RndjhYYXQxQVQtcjA1OUI2Ni1ERU5KNWkxTGx4QQ?oc=5"
-        }
-      ]
-    },
-    "ESOFA": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "FAP anuncia admisión 2027: conoce las carreras, fechas de inscripción y vacantes para Oficiales y Suboficiales - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-04T00:12:14",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWjIwOGl4ZFRhN3NTM0hDTm9mcXdtd0E1c2dfYjVEVXpTTlNQT3BJei1xYjhWeWx3WG1mMWRzZ09CSWxuS2JVeGowT3BDYmU1SGk2Z1lxU1BtcUFXQmV4ZVZ3N1MxQ2tfWHpkdFU1bWFVam1DUjRtUVc2d01yTVlOdTJNTGJZR2pmb1Q3dm9mNjllNmY3QkgwMDE2Nk5DRE9FQS11UkZnSzlIOWNiMm1FMDBuVHN4a0ZLUmQzdk5SRHQxYWw2WDhsN2R2MXRFTzg3eEl4RlN6R3RpM3FJcmt0RUxKSdIB_gFBVV95cUxOVFozVWZjTGJWbWxFQUlSb0xUUEhOb0wxQU5haG9NZkNoeUs2VzVRTTlFNXJoMGhrWWptdzhYOWdPMmFKSGtZNUpQSWxyR3BjaS0tRUpjWEZ3U2dxZVI1dVlDcXJwOHE0YTlDVGNENnJ1NFNhQk03aEh0dDFYTGlFdEl5MWctcFZoY0JSektNQ3lHRlNWVU1HdHczSUVBTXhnM1JqdS0wUFlCTHJFR3R3dFNOdDA2QVU5ZnVnVUFOTVo4bEhUZkVwLURHVzhXZ1JSTzJIeHFSWHpnTWJ5M2NzQ1RndjhYYXQxQVQtcjA1OUI2Ni1ERU5KNWkxTGx4QQ?oc=5"
-        }
-      ]
-    },
-    "EO-PNP": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "🔴🔵 #MeLlamoPerú🇵🇪🇵🇪| En diálogo con Exitosa, la coronel FAP Arlette Cruz informó que el servicio militar voluntario ofrece una \"propina\" de entre 382 y 1200 soles, además de brindar la oportunidad de postular a las escuelas de oficiales y de alumnos co - facebook.com",
-          "fuente": "facebook.com",
-          "fecha_publicacion": "2026-07-29T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYzBBaDd4QWw0TWdjcDg1ejlpeUctQjlKSTVrV1pQOXdsQ2E0QVMyaDNHdWpZSU1ZbkdJWXNHX1dTTEtfZFBCZ0FCYzhDQXF5OUgxSFpUS00xTFFMcWxYU2R1cW9vbzl4dWZobE5oR1o2VWlOUE9EeXplM3BOSDl4Z1ZzYXd5VkdjZmx4UHcwOWs3ajBsUzY4UWtJTDYwOWhTRFNuNGVtUTlwenBwQVNRSjN6eFltMEdLemluTjNUc21jaDNiNGdUbXZFRFl3dzNOSnlkY21kcWEzZUtWc0g2UDlkSTA2TmpRSjlucFJhSnUwQQ?oc=5"
-        }
-      ]
-    },
-    "TFIL": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [
-        "2026-03-29"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "17 universidades creadas en el sur siguen solo en papel - Evidencia.pe",
-          "fuente": "Evidencia.pe",
-          "fecha_publicacion": "2026-07-16T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVnJaelV3ckJ1clJjWFkwN0V5b3VPX1FBdnVWYXdneW9KbWZNQXl2RHN3dm5RSWVEd2ZUUVh2M0JzS1RtNjBxakVidGFaQzZLX1JJYW0xSWdMVzNSWHJKY2pwWUhNT3gzamtvdTZseXZhRnppRkhma09aakEtSVpnVXQ1a9IBiAFBVV95cUxNdUtWTU9nWV9sYlZQU2czTm5HZjVacGRSX2xLV19QdmFDR3BubGlJbzJXaHJQSm5xeFV1SWctSEFMQWlPNElVdjhBTG95ZlBsbms0eEwwZEFPMDdJU3c5MzVUdVV0cUpLODRSMWctb3pCUkRLMXcxYjZMd3RKT2FSNURKNkxMcHhj?oc=5"
+          "titulo": "FAP abre convocatoria 2027 para Oficiales y Suboficiales: conoce las carreras, fechas de inscripción y vacantes - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-09-04T20:18:41",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNR3lTM2FpNXgzRm5oTENWbzJQRGlPMFJLX0otajQ2cFl3NGM3RXNmQ2lONXo3bVE1aS16MFpoUjhjY3RkSTlOMndWWG4wMEh5VWxBSlBGclFLR2dMS25PX2hqNzlPWEFjM1hBVm1JTGE2RzgxTFZsZ05idkJZMVBhN2hXRzlqdWVYYkNDTEVBWHJYWU9KbFZJWEFMeW4ydjdnbm96UWJjOGlJczY5TDlYbEF2TnlzdTNrOU9TYjZ6ZjgwRmV2MVJlZ0w3NUZsZW9Idk9rNzBkUWFzaVJtdERzaHRCVG1EZDlKelNLR9IB7AFBVV95cUxNR3lTM2FpNXgzRm5oTENWbzJQRGlPMFJLX0otajQ2cFl3NGM3RXNmQ2lONXo3bVE1aS16MFpoUjhjY3RkSTlOMndWWG4wMEh5VWxBSlBGclFLR2dMS25PX2hqNzlPWEFjM1hBVm1JTGE2RzgxTFZsZ05idkJZMVBhN2hXRzlqdWVYYkNDTEVBWHJYWU9KbFZJWEFMeW4ydjdnbm96UWJjOGlJczY5TDlYbEF2TnlzdTNrOU9TYjZ6ZjgwRmV2MVJlZ0w3NUZsZW9Idk9rNzBkUWFzaVJtdERzaHRCVG1EZDlKelNLRw?oc=5"
         }
       ]
     },
@@ -315,10 +109,10 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Arranca Lobos Camp 2026 con más de 700 participantes - vanguardia.com.mx",
-          "fuente": "vanguardia.com.mx",
-          "fecha_publicacion": "2026-07-20T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUNVY0k5VHBORzV0Vnc1R2NtTm5JU29WV3ROWHFkc00zMy1BaUx4TzUzTmtBSDdCS245TnZiTFgzLW5nTmJCTk1sdVAxa2NJQXZjQW5pZHkyOTh1a2J1STZlaFZsMmF5QXBLV0NrTzJsS2xXU2VCZWpNanQwdFVsVEczNzZoTXFiVVRpeWlOU0trT1J1UzNqXzZTSEJ6U2M?oc=5"
+          "titulo": "Presidente del IPD inauguró los Juegos Panamericanos Universitarios Lima 2026 - andina.pe",
+          "fuente": "andina.pe",
+          "fecha_publicacion": "2026-07-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMlVQb3JNa3EyLXY3RW9OUEktUWtzVFloYXlLcTdTOGMtVV9VWVgtOVRyc19XZ2c4bEcxR3hDRjJ1YXBTOExrQWk5T01BREpROXY0YTlnckdoNVlPM041Q2FaOWE4bkxQUFdvY2hOVmVGZHZyYUpfeHpMYTc0TFpFQ21aZy1zN1hWeEpyc1ZoSE9aMHlJdjJzSUlXVkVFSWc3alRlMDk1SFBuYm92LTJReWtuWTI5STBULVQ2RjIwUzBuUQ?oc=5"
         }
       ]
     }
