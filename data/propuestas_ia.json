@@ -1,4 +1,16 @@
 {
-  "generado": "2026-09-05T00:38:11.447251",
-  "universidades": {}
+  "generado": "2026-09-05T15:59:51.475930",
+  "universidades": {
+    "UNI": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-08-10",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se indica la fecha del examen el 10 de agosto de 2026",
+        "fuente_titulo": "Fecha límite para que puedas inscribirte en el examen de admisión UNI 2026-II de este 10 de agosto - El Comercio Perú",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUXZXbmlhOWxycVRtcDI0LUppVFBpSFZsc0RkckZ5YnFaRHhlNnMzVnFJUG55MUpNeGdDNFNsV283OFBFd3BaSWw2VlpfcjJDdENqZndEV2UzYVJ2QWNzTERoTmI2M0x5RTRwYUdEYlQ0QzNNdi1jSUI0UjIxbkw5QjBDbzhQUl9wQ1ZhUEZhdkY1OG11RGNXTU1teWxTaEE4dXBINW5DODBSNWJoenpWdGtZZkdsZVIwbmZhWDg5b0I2a3ZkWDlZMm5xaXEtZFRtTXRlbk13QjAxWWxfaUR2UUJaRFlUVXNaTE93V1hVZDF0WEUzS3VEUdIBjAJBVV95cUxNd2FUMm4wZ1JqOHFnM1d4cktNbUdlby0yWUxNaXpHZ1ppR2pVRW1HNlZ3azVBS2k1ZVFVNzhWZmYwOEpXQkVoVzRKZEdRcjNkaWRRSVZOckd5anJMR0VrdmoyU29aWjRXTzV4a1lZMno3Tm50UWgwZm5IV3FqMV90SkhhbkJzSGVKR0dOWUJONi11b2duSy0xWkRHMWFCLUhvV2lGV1J3cDJaVHhOYXZzcGVodFBxcTZ1MktwUmIyYW5vNjRZcDRla1JxT2ZZLUNtSHdqdnFEcHd6RGdUU1dIX3BFdWVfdXU4WlVtVFFhVGpQblJaNVBJU1QwZmxqc3JGcnBIdndFVVZjTjhn?oc=5"
+      }
+    ]
+  }
 }

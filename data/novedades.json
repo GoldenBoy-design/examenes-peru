@@ -1,6 +1,33 @@
 {
-  "generado": "2026-09-05T00:38:11.447251",
+  "generado": "2026-09-05T15:59:51.475930",
   "universidades": {
+    "UNI": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-02-16",
+        "2026-02-18",
+        "2026-02-20",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-08",
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Fecha límite para que puedas inscribirte en el examen de admisión UNI 2026-II de este 10 de agosto - El Comercio Perú",
+          "fuente": "El Comercio Perú",
+          "fecha_publicacion": "2026-08-03T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUXZXbmlhOWxycVRtcDI0LUppVFBpSFZsc0RkckZ5YnFaRHhlNnMzVnFJUG55MUpNeGdDNFNsV283OFBFd3BaSWw2VlpfcjJDdENqZndEV2UzYVJ2QWNzTERoTmI2M0x5RTRwYUdEYlQ0QzNNdi1jSUI0UjIxbkw5QjBDbzhQUl9wQ1ZhUEZhdkY1OG11RGNXTU1teWxTaEE4dXBINW5DODBSNWJoenpWdGtZZkdsZVIwbmZhWDg5b0I2a3ZkWDlZMm5xaXEtZFRtTXRlbk13QjAxWWxfaUR2UUJaRFlUVXNaTE93V1hVZDF0WEUzS3VEUdIBjAJBVV95cUxNd2FUMm4wZ1JqOHFnM1d4cktNbUdlby0yWUxNaXpHZ1ppR2pVRW1HNlZ3azVBS2k1ZVFVNzhWZmYwOEpXQkVoVzRKZEdRcjNkaWRRSVZOckd5anJMR0VrdmoyU29aWjRXTzV4a1lZMno3Tm50UWgwZm5IV3FqMV90SkhhbkJzSGVKR0dOWUJONi11b2duSy0xWkRHMWFCLUhvV2lGV1J3cDJaVHhOYXZzcGVodFBxcTZ1MktwUmIyYW5vNjRZcDRla1JxT2ZZLUNtSHdqdnFEcHd6RGdUU1dIX3BFdWVfdXU4WlVtVFFhVGpQblJaNVBJU1QwZmxqc3JGcnBIdndFVVZjTjhn?oc=5"
+        }
+      ]
+    },
     "PUCP": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -8,10 +35,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Separata de Normas Legales - Plataforma del Estado Peruano",
-          "fuente": "Plataforma del Estado Peruano",
-          "fecha_publicacion": "2026-07-28T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOam9jRHFjai1qYVhFOHZuNXdyNXV0cjJaT250a0lOaGcySGs5RU9VVUZIeWFzNGpjbzNHaVMtRDBZbkRubGRTV3ExRzV6azNWb3lZejlUV2hwLTYtQ3FsRXpNamZkUHhxREdGSjBlQXFvOWZrbWtqZUVNaWlzX3lkWEZpc1VXS3M?oc=5"
+          "titulo": "REQUERIMIENTOS TÉCNICOS MÍNIMOS ADQUISICIÓN DEL DISPOSITIVO MÉDICO: - insnsb",
+          "fuente": "insnsb",
+          "fecha_publicacion": "2026-07-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeEJTeklpd1FoS3VUdFR1bExOY3QtM0x4aXh4YWwtRnNZUVB3SHlmSFdYNzk3Wko3YXQzbXZNMjhEZHNzZERIeHNocVg2SlY0ZHhncjc0S1A5SFNaTkktWmFsbFhrSmwwekhraDkzYUw3VXNJVUI3Y1ZLRUQ4cEthMTlnQU5tYkpmSHdQUE1hczRYam0tOUR6T1JGODRKVGxHZWxDME1aTXVsZ0k4QzlnNGhtaFpyTUhWQ216NjFsbjhtMkdEbDFlalJkTFZqbFpoclZhb01EeG5abTBPVmc?oc=5"
         }
       ]
     },
@@ -25,58 +52,22 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Bancada de JPP presentó denuncia constitucional contra defensor del Pueblo por declaraciones sobre cierre del Congreso - Chimbote en Línea",
+          "titulo": "Secretario de Estado de EE. UU., Marco Rubio, visitará Perú la próxima semana - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-04T13:55:00",
-          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSEV6RXhnN0JsQWI0MFJ1Z0Z0QjJTUEZpaVRSTzJra0hmR2p0RWJLQlBWaEQ4MmJTZDhEOGNBbEl3RDM5Q3BGWE1RSk5idlREV0lSNFc1UDExLVd5eFpidHEycVpxRWdNRGdONG03YS1hV0dMRVU1SzZqZ0w1dlU1YXUwUzdQclRmOTZiZElad05DRDVQVDZLQ3FQWmV1RVFxUHBQenN3LUMwSmgxTnp5Q0lVQnF5TW5BZ1Fld3NiMnc3eERfRm52VW9HSms0U3hrSl81UEtXM29MWHlOcUZGOE45bl9SamwyeFEzWUFURDZNLTZlRFFyc1ZMaVBDamNUd2FEZA?oc=5"
+          "fecha_publicacion": "2026-09-05T03:43:00",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdU1jankxNGNkOVQ2SnkyQjJEOUlpTllrLVBRYzg1RnZNSXNtdDkyZUZnRXVieV8wcmtXaHc5eERGWHVrV2YzT0FxMzQzTzdGNWhJX19IcHkxY1dXcjRaUEJvZjRTZzc3ZnczLWNFRGJ4R1RiTXpyX0haMEp3RFBkUzFoWjBGZDlOTDVKSG9wdXBsTnA5V0pGaFhLNW1teUJpVUpIbDVBanpEaU96b1pUREhOWnltVUlkZGI3WFNxZFdCSDd1Vk1GVg?oc=5"
         },
         {
-          "titulo": "Marina de Guerra y Proinversión pondrán en valor predios e inmuebles con participación privada - Chimbote en Línea",
+          "titulo": "NOAA: El Niño se fortalece y podría convertirse en uno de los más intensos desde 1950 - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-05T00:11:00",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLVNjZ3dzM1RXLThxN19oMktwaU5TR1lscS1WekdnWlNubVdaWmRMYkFjQklPUXl5YzFxYWczUHFKU2stLU9wV05UT05UZ3JaLWhtQ0tneE53ZEcyYWNTX3hlaFp6OGNveTVIdmdfMXktVDZwemVGZWk4N3Y0SzhNUGlsUHNSblFLMHB5WnoxNjZjNG4taHlMc0JNeUdabUNYSjNhRU1vWXowcDRjR1VYR3BiX3phTjF2bTFVMVJxNlJHbXdmQ2Y1N19wUmY5Z3BPcThla1NYcm5YTmxXS3BINk9mQkRuajlxTE9qbXB3?oc=5"
-        }
-      ]
-    },
-    "UPC": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-08",
-        "2026-12-05",
-        "2027-03-20"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Vive Salud UPC: descubre cómo es estudiar una carrera de Ciencias de la Salud - Noticias UPC",
-          "fuente": "Noticias UPC",
-          "fecha_publicacion": "2026-07-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02UjUtWUVMTkoyU1M1LXpfdFhzWEhfdXY3YXdxeE5QTFBhMEdBN1BoQzMzbmpJZGloa3RxdGY4aUl4dldieHJLNXNWUTVOQVlHVV9wbFlsSGlpWnpNRXFZTlNHWTI?oc=5"
+          "fecha_publicacion": "2026-07-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTnEzMDFxWVRSMnpxNUoybVk0dVRha0tCUXVEd2NfWFRaWmd2OWRvVWRrZXZFOUx6UFJzSnl0UmdkN0RISDNnSHVXNndnZTMzbW9KcGVqdUlzcWZ3TjFZbjhiYi1vRHI4TnEtRHZ0Y25TdEItdWMxcGljMTBJcW1GVExST1c3djNSLWZKTnY2QURERHZoQ3l4QnBvSEtPcWJPWWw4RkpScGxQS3A0UnpIaU1pMzBMdE5hcEhiaXZVc2lsR3dsVnBCMFAtUEVFVWtheDJsSjVTb1JRNnJWRmhuZjg5YWdIOVVtV1Iyc1BSQQ?oc=5"
         },
         {
-          "titulo": "¿Deseas estudiar en el Reino Unido? Descubre becas y oportunidades en la feria Británica 2026 - El Peruano",
-          "fuente": "El Peruano",
-          "fecha_publicacion": "2026-09-03T21:34:00",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPU1BiV3FsRDVESVFFcUZKc1JFanpkaHloWVUwTl9tcVZZNUZNMXlRczRsTXg3QV9LR3BUWUQ3YUd2b3U0M3NnbF9vNWFpaHJHS3hLeGZ0bjBOdWE0dW5DeWgxYnhHYnZ0eHo4SGpmejhxVldZZU1wWjB4RE1BZ00wNnV6NVJsYUV1bVlyN3V5NkZKZllrdU5TWWFYLUcwTXhIVWdEMjRCclAwLUJYaWdxTzFlc3hSeEdiYXZPMThvZW9peDIwN3VLOTFxbG4?oc=5"
-        },
-        {
-          "titulo": "Feria educativa en Lima reunirá universidades y becas para estudiar en Reino Unido: conoce cómo participar - La República",
-          "fuente": "La República",
-          "fecha_publicacion": "2026-09-03T22:29:37",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZTc0c0ZER2xTOXJaRnZaX0M3RzhZa1ljekJLdWRpQ2R5ZHk2am1CQzNCNmUzaHU1N0x3ei1rOE56cWh5bjFzczVDNDF3STd3X1NJdGFKNzF3Zm9rVmFINkkxQ05MWHVNZnZtQ0FJSXFja3I0eEFUZDViaVpYTzhqenNRNnIxbjlBLURKY3kxeEZqSUdlNHEwVkpiOTVFb0p2R3h5SUlacklZX2FQMVJqek5xV3h5VFRSZmtyZWw4aEdlMGx5UW9lV3BUVkd0a1JRYVZhTE1pdDVpOHlpbi1lMHhOc1gwTHNmbVHSAe8BQVVfeXFMUG5oXzM2aERFSjF6QlZzRWpyRkRSZ0gzWllkTlBUdVJDNE1zb285b0FHeENLZ3hjeUZhVzVUZlpXZmQxVnBQdXR1bUxzbHFwYkk0Q1NLT29RLTdNZGlOaURXOGxmRnBRRzRBcTNjSnlHcFlJSzhTWVhsOU83cVl1YlEzWTNfdkMtSHFuVHFKS090V0lIYjctX3JTMldpajQ5UVBkNl9saEFEQWoxc19wOHRQbS15dHJjdS02ZkQxTndYZjFnenk5aUN0NjlSajNWQldWcWVPVl9SOHlwbHBYS1VJSEVfNm1lc3JpYjhNNEU?oc=5"
-        }
-      ]
-    },
-    "URP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-07"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Convocan al II Concurso Interescolar de Danzas Folclóricas \"DanzAarte 2026\" - andina.pe",
-          "fuente": "andina.pe",
-          "fecha_publicacion": "2026-09-04T18:51:00",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR2FfbGU0a3JKSmo2QlA5X0RDdnhqRlJBejkzN282cEpaRWVnQ1pOejlzNERtZWNUNmNYWTF0NEJndUFJVFBFSXJwZlRSSXEzRUFmRi1WOXo3U05vUWVUeFRFWjJ5Ni1BQ0t1bTN2NlRvM3pKMkZKTkI1Y0M5bHlNYVpMcGd0S3Rua29hYXJfbnlXcGJrVFNoaWxqV0w4NW04amdWX0RvNTU5YjNSckNoUlFiWDhmSF9s?oc=5"
+          "titulo": "Estudiantes peruanos ganadores de un torneo internacional de música le cantan al papa León XIV - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-05T03:25:00",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeUwxTTczT0NibkFoLW5jcjEtbHdYYUd1b0dlTDdYb296SUZjajBLTTlWUFh2dVloUjVQX2hIQThLWmFEXzFhdUktLW9MbTNDdUFkVEdaVndTX1RfTG1oRlNaMlEwV1BtaTRSNFYxY1JTY3hXMnRVa3l1ZlpoeEVOcEJOS1BXampDOTVqaG9OTW9UcEtoTDdjNy1CeW9oQXlDYndnMTdsQ19wUWdvUXc4ZWpoX3FTQzU3VG9iNS12SkktQ1JsMVFYTGhtTk9ZdjZtaFotcUEtcWtDeUFXcXpoRmstRnAyNnZCeEtLUQ?oc=5"
         }
       ]
     },
@@ -85,34 +76,22 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Colegio Médico del Perú plantea al Ejecutivo fortalecer respuesta del sector salud frente al Fenómeno El Niño - Chimbote en Línea",
+          "titulo": "Secretario de Estado de EE. UU., Marco Rubio, visitará Perú la próxima semana - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-03T03:18:00",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOLV9ReFpqZjIxOVBOTnNoVHJfaVlSTTlha214c3EtRDc1RmpkS1NiTXF5VG5YeGYyMW5sV1hCbWdrYVhzN0NDUHVJTVZ5eVVsQlhXd1lvMTQ1VkNUUlB6ZzJDUHhWX2c0ZVJqNGFVZktaWHh0OTZjRi1GREJkeEVGZjRDckJpenBCSDB5bmdRT1hZdWNwWGp6eWQ1Z2RCTTg1T2lEWVUyRUZVUjBXUGpITm9lcmpNR2RjbE5kbGdYUWZEYjk3VEhxakFQM1dtY1ZQa0FKTExWLVJIOWZQMEtsaHpURkhXVV9weFFUNm5nN01KTTJBUktRbnNRbGRid1QxdlhVVDN4TDh2MFUzWUlF?oc=5"
+          "fecha_publicacion": "2026-09-05T03:43:00",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeDA5bEMzcFBaTlNKZ3BDYjNKcHRiS21VN01qTHdsbTc0bEc3OW9VNUFtWFRNT0l4SVZNSFMtS1dNdWNVQWRpY1MxRTQ1LUlocVMzdjlRZndqTnFDMlBrWkNLS0EtWXlZdUthNUp6RnhvYWxrQjkxYkdPTUlBSTdPbklnUzhNX2hLSXJvbklVY0J1Y0wxb0dSQV9QZWZUY3F2QUJUVno1ZGFxMzgwUGRRNmg5aXd0WFNMajU5NXRCTU1pOFZURDFuY2FJQUhXNGlKbk8zQnpn?oc=5"
         }
       ]
     },
-    "EOFAP": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "FAP abre convocatoria 2027 para Oficiales y Suboficiales: conoce las carreras, fechas de inscripción y vacantes - La República",
-          "fuente": "La República",
-          "fecha_publicacion": "2026-09-04T20:18:41",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNR3lTM2FpNXgzRm5oTENWbzJQRGlPMFJLX0otajQ2cFl3NGM3RXNmQ2lONXo3bVE1aS16MFpoUjhjY3RkSTlOMndWWG4wMEh5VWxBSlBGclFLR2dMS25PX2hqNzlPWEFjM1hBVm1JTGE2RzgxTFZsZ05idkJZMVBhN2hXRzlqdWVYYkNDTEVBWHJYWU9KbFZJWEFMeW4ydjdnbm96UWJjOGlJczY5TDlYbEF2TnlzdTNrOU9TYjZ6ZjgwRmV2MVJlZ0w3NUZsZW9Idk9rNzBkUWFzaVJtdERzaHRCVG1EZDlKelNLR9IB7AFBVV95cUxNR3lTM2FpNXgzRm5oTENWbzJQRGlPMFJLX0otajQ2cFl3NGM3RXNmQ2lONXo3bVE1aS16MFpoUjhjY3RkSTlOMndWWG4wMEh5VWxBSlBGclFLR2dMS25PX2hqNzlPWEFjM1hBVm1JTGE2RzgxTFZsZ05idkJZMVBhN2hXRzlqdWVYYkNDTEVBWHJYWU9KbFZJWEFMeW4ydjdnbm96UWJjOGlJczY5TDlYbEF2TnlzdTNrOU9TYjZ6ZjgwRmV2MVJlZ0w3NUZsZW9Idk9rNzBkUWFzaVJtdERzaHRCVG1EZDlKelNLRw?oc=5"
-        }
-      ]
-    },
-    "IPD": {
+    "M": {
       "estado_actual_json": "por confirmar",
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Presidente del IPD inauguró los Juegos Panamericanos Universitarios Lima 2026 - andina.pe",
-          "fuente": "andina.pe",
-          "fecha_publicacion": "2026-07-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMlVQb3JNa3EyLXY3RW9OUEktUWtzVFloYXlLcTdTOGMtVV9VWVgtOVRyc19XZ2c4bEcxR3hDRjJ1YXBTOExrQWk5T01BREpROXY0YTlnckdoNVlPM041Q2FaOWE4bkxQUFdvY2hOVmVGZHZyYUpfeHpMYTc0TFpFQ21aZy1zN1hWeEpyc1ZoSE9aMHlJdjJzSUlXVkVFSWc3alRlMDk1SFBuYm92LTJReWtuWTI5STBULVQ2RjIwUzBuUQ?oc=5"
+          "titulo": "Estudiantes peruanos ganadores de un torneo internacional de música le cantan al papa León XIV - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-05T03:25:00",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeUwxTTczT0NibkFoLW5jcjEtbHdYYUd1b0dlTDdYb296SUZjajBLTTlWUFh2dVloUjVQX2hIQThLWmFEXzFhdUktLW9MbTNDdUFkVEdaVndTX1RfTG1oRlNaMlEwV1BtaTRSNFYxY1JTY3hXMnRVa3l1ZlpoeEVOcEJOS1BXampDOTVqaG9OTW9UcEtoTDdjNy1CeW9oQXlDYndnMTdsQ19wUWdvUXc4ZWpoX3FTQzU3VG9iNS12SkktQ1JsMVFYTGhtTk9ZdjZtaFotcUEtcWtDeUFXcXpoRmstRnAyNnZCeEtLUQ?oc=5"
         }
       ]
     }
