@@ -1,44 +1,34 @@
 {
-  "generado": "2026-09-05T15:59:51.475930",
+  "generado": "2026-09-06T16:10:22.573209",
   "universidades": {
-    "UNI": {
+    "UNMSM": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-02-16",
-        "2026-02-18",
-        "2026-02-20",
-        "2026-08-01",
-        "2026-08-02",
-        "2026-08-08",
+        "2026-07-12",
         "2026-08-10",
-        "2026-08-12",
-        "2026-08-14",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28"
+        "2026-09-19",
+        "2027-10-17"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Fecha límite para que puedas inscribirte en el examen de admisión UNI 2026-II de este 10 de agosto - El Comercio Perú",
+          "titulo": "San Marcos confirma fechas del examen de Admisión 2027-I: consulta aquí el cronograma de inscripción - El Comercio Perú",
           "fuente": "El Comercio Perú",
-          "fecha_publicacion": "2026-08-03T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUXZXbmlhOWxycVRtcDI0LUppVFBpSFZsc0RkckZ5YnFaRHhlNnMzVnFJUG55MUpNeGdDNFNsV283OFBFd3BaSWw2VlpfcjJDdENqZndEV2UzYVJ2QWNzTERoTmI2M0x5RTRwYUdEYlQ0QzNNdi1jSUI0UjIxbkw5QjBDbzhQUl9wQ1ZhUEZhdkY1OG11RGNXTU1teWxTaEE4dXBINW5DODBSNWJoenpWdGtZZkdsZVIwbmZhWDg5b0I2a3ZkWDlZMm5xaXEtZFRtTXRlbk13QjAxWWxfaUR2UUJaRFlUVXNaTE93V1hVZDF0WEUzS3VEUdIBjAJBVV95cUxNd2FUMm4wZ1JqOHFnM1d4cktNbUdlby0yWUxNaXpHZ1ppR2pVRW1HNlZ3azVBS2k1ZVFVNzhWZmYwOEpXQkVoVzRKZEdRcjNkaWRRSVZOckd5anJMR0VrdmoyU29aWjRXTzV4a1lZMno3Tm50UWgwZm5IV3FqMV90SkhhbkJzSGVKR0dOWUJONi11b2duSy0xWkRHMWFCLUhvV2lGV1J3cDJaVHhOYXZzcGVodFBxcTZ1MktwUmIyYW5vNjRZcDRla1JxT2ZZLUNtSHdqdnFEcHd6RGdUU1dIX3BFdWVfdXU4WlVtVFFhVGpQblJaNVBJU1QwZmxqc3JGcnBIdndFVVZjTjhn?oc=5"
+          "fecha_publicacion": "2026-08-19T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaFpPNEYxQjUwTDJHOTVFTGJMcG1uMHVfd0taTnE3VnZlQ0Jud3FwSjdrNVdHYTNYaTJuLXpSamJ3bndidTE0NFZuVl8zV0RJUHRxU2pkTUJKNDlnNlA4WS03SnFNRjI0eGZGdjVQM1liOWc5aWd1ZjBHYWFuaEtrMTg2N3NqUVhxMmI2YXZnQzdhNUQzeWdHeTJkc0Vfc1FDVHR0VlliZ3RXazJqOWJ2aFFHVXYtQV9IVVNQb2JyVy12NjVOTVZNR0g3RF9nejl2WUpGUjh4STBEbVdOTmx0bjRSeng2QjlUeGJoR2N30gGCAkFVX3lxTFBSaUZkY1dOTkp3LVZ1TnJQdjFNal9QZlQ0ZTFHaThhaXFla0lrcktfVFdPWmN0cGdBS3A1cGlEY3p3LW9JOXZablRfNzR3V2I1V1oxUlFCQlhNNTBHSVpJZUYySlZaT3lWajY4SW5nX29FVGZaeC1taVdQWFo0RnJMT0RpNnJZRkgtYmZ5QTJSMHc0RGJIVG0za0NhaHN5NnVHaXpGQWNnWGNPc0d4NmM3TmZ2LVZsNFVfZV83OW9FaHBvbzNmZEtVWmR0ekJPbTgzR29URENZUklsbzdfNDVuOGtPdHFTRzZYaDB6a1lzLVZOUG5TcUtCa1ZWX2ZQMW5qdw?oc=5"
         }
       ]
     },
-    "PUCP": {
+    "UNICA": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-08-16"
+        "2026-07-26"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "REQUERIMIENTOS TÉCNICOS MÍNIMOS ADQUISICIÓN DEL DISPOSITIVO MÉDICO: - insnsb",
-          "fuente": "insnsb",
-          "fecha_publicacion": "2026-07-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeEJTeklpd1FoS3VUdFR1bExOY3QtM0x4aXh4YWwtRnNZUVB3SHlmSFdYNzk3Wko3YXQzbXZNMjhEZHNzZERIeHNocVg2SlY0ZHhncjc0S1A5SFNaTkktWmFsbFhrSmwwekhraDkzYUw3VXNJVUI3Y1ZLRUQ4cEthMTlnQU5tYkpmSHdQUE1hczRYam0tOUR6T1JGODRKVGxHZWxDME1aTXVsZ0k4QzlnNGhtaFpyTUhWQ216NjFsbjhtMkdEbDFlalJkTFZqbFpoclZhb01EeG5abTBPVmc?oc=5"
+          "titulo": "Firman compromiso por la educación universitaria en Chincha - Diario La Opinión Ica",
+          "fuente": "Diario La Opinión Ica",
+          "fecha_publicacion": "2026-08-04T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUXI4WkdyXzBfLW5JV1llNkFHdzJuNG5ieElHVGxydWJXMEdnTmxYYmUyNUl4cUt3T3pQUm5ocGtzTnlkWnBEMUQ0bzZlcVVWNm8za2lhLWZIanNXaEl0RDhGLXdVZ19TUnIyYnRxZlZSd0FBMkhWajdkMEM1dFdUakNHOU5fb09kdFZ1TjNhYW9pZkxleTB4VXZnX3RpUjA?oc=5"
         }
       ]
     },
@@ -52,22 +42,38 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Secretario de Estado de EE. UU., Marco Rubio, visitará Perú la próxima semana - Chimbote en Línea",
+          "titulo": "Parada Militar 2026: delegaciones de seis países presentan su saludo al Perú - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-05T03:43:00",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdU1jankxNGNkOVQ2SnkyQjJEOUlpTllrLVBRYzg1RnZNSXNtdDkyZUZnRXVieV8wcmtXaHc5eERGWHVrV2YzT0FxMzQzTzdGNWhJX19IcHkxY1dXcjRaUEJvZjRTZzc3ZnczLWNFRGJ4R1RiTXpyX0haMEp3RFBkUzFoWjBGZDlOTDVKSG9wdXBsTnA5V0pGaFhLNW1teUJpVUpIbDVBanpEaU96b1pUREhOWnltVUlkZGI3WFNxZFdCSDd1Vk1GVg?oc=5"
+          "fecha_publicacion": "2026-07-29T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQenVBX3ZGNzVxaTJCMUVRazBMV0FoWTN1MHlkU3BoZV91eUZoRzdjX3hka21YblEzVlFwcG5GTUg4LXhWMWh1QXBsS3BZOVVDdElRLVNjVkNKZmhuUm9ZTTV4UmhURkcyUVlJcGNnc285b25DZ0RQTmtIQWh3TWxYUHVFY0dfTlE4ZlJLX09GY2Y3XzI1aE5GNGZHdGprZHBRR282d3NwQW1GQWlmZ0tsZnVsY3lDN01EYjlLQklwanFpT3gzbUFXeU0zWQ?oc=5"
         },
         {
-          "titulo": "NOAA: El Niño se fortalece y podría convertirse en uno de los más intensos desde 1950 - Chimbote en Línea",
+          "titulo": "Fuerza Aérea del Perú reafirma su compromiso con la soberanía y seguridad nacional - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-10T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTnEzMDFxWVRSMnpxNUoybVk0dVRha0tCUXVEd2NfWFRaWmd2OWRvVWRrZXZFOUx6UFJzSnl0UmdkN0RISDNnSHVXNndnZTMzbW9KcGVqdUlzcWZ3TjFZbjhiYi1vRHI4TnEtRHZ0Y25TdEItdWMxcGljMTBJcW1GVExST1c3djNSLWZKTnY2QURERHZoQ3l4QnBvSEtPcWJPWWw4RkpScGxQS3A0UnpIaU1pMzBMdE5hcEhiaXZVc2lsR3dsVnBCMFAtUEVFVWtheDJsSjVTb1JRNnJWRmhuZjg5YWdIOVVtV1Iyc1BSQQ?oc=5"
+          "fecha_publicacion": "2026-07-23T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZmR0NU5XX2ZkMFk1eTdYTDJ5QnREcm5hckZYR3dJRnBkX3FCQTgwZHF5eDJ3eFdZSlllODNxaW54eUJXdGdUcVFkbDVzcW51VnRRbnVRLUNsOWtEMGtmS0NGQ3ZmaUVZYkxPVkkzRDFGV1k5Wk9LVzdUYmI4ZjVxaVdvMXRlb2M3V0U0ZDUyd3VjY0E1cG50X2tuRXFkdEd6TXM5TWt0S2VXNTJUS1phOE5VTEJqdE8zN2xvVkpzX1VvZmVpOV9HekViNjdKQ2FOc3REVA?oc=5"
         },
         {
-          "titulo": "Estudiantes peruanos ganadores de un torneo internacional de música le cantan al papa León XIV - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-05T03:25:00",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeUwxTTczT0NibkFoLW5jcjEtbHdYYUd1b0dlTDdYb296SUZjajBLTTlWUFh2dVloUjVQX2hIQThLWmFEXzFhdUktLW9MbTNDdUFkVEdaVndTX1RfTG1oRlNaMlEwV1BtaTRSNFYxY1JTY3hXMnRVa3l1ZlpoeEVOcEJOS1BXampDOTVqaG9OTW9UcEtoTDdjNy1CeW9oQXlDYndnMTdsQ19wUWdvUXc4ZWpoX3FTQzU3VG9iNS12SkktQ1JsMVFYTGhtTk9ZdjZtaFotcUEtcWtDeUFXcXpoRmstRnAyNnZCeEtLUQ?oc=5"
+          "titulo": "UCV busca al mejor estudiante escolar de La Libertad con concurso académico: conoce los detalles del evento - buenapepa.pe",
+          "fuente": "buenapepa.pe",
+          "fecha_publicacion": "2026-08-19T15:09:57",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nLWE5VS0yb21odGt3dU5wUkM0VVZPU3dyRmFkTkxNMEhIMzJEUlFzZU5FZ2RiVGpsUDRYSVM0RThRM09wbnNDVlVEMFVoZzRkblJtbjRUS3JNM2kyTnZfaE1YZjJacGRhTjJlR2FoakJVVjF3TEZrZXk4WQ?oc=5"
+        }
+      ]
+    },
+    "UPC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-08",
+        "2026-12-05",
+        "2027-03-20"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "UPC se pronuncia tras caída de estudiante desde techo de edificio en Monterrico: \"Recibe atención especializada\" - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-09-02T15:20:34",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZmk3Sm9zc0J4OXpaeXUyenNiTUlzV2JfcWFDWkxoMkpkRjhSMDVySG80Nm96NDdNR3g4Y3U5MjJuZzlvNzliOVpuZEZtX2VHRGFLYjhmQnU0dlRnUEFpZ0pJdUo4NVRhVFMteEFPa3d6S2MybDA0S1U2NGJEaFBNM0tHYzliWUVGQlJSZTVzSlNVcEtrYXo0cTN0bTF1WXlRTVJINnpETEhBd0tQUHhUVjJvdXQ4X1ZXSHRnNkxWLW5fNFcxNGVaa0ZaRkRXaHRLeGtHUkVoUktVT1czeWNka1N0WmhBZGJtZVg4c2ZWONIB9AFBVV95cUxQMjNRVU5CNlIyVExFc3BxYWxkQmFFNHlmc3hnTkZtZ1JOWWVHamJwMjNJUVFPRnhEa2VjME1mUnlsbE9fX2Vidk1QQ3l3R2xFRWkwV2N6SnVOUWVlVEUyLXpOdVN2ZVVCQURKRlRsd0pYcWhtN2dxRVpuSkJHNjdGZTVQempDUVhFNHVyb0xWczZRR0ZrNEdrb2NFTHFzc3ZtQno5VnZZRVJuWEItUXkxQ2U4RHFPeGZpWWRGTEV0N29wZG5XTV9fa29XQ1hCTkdVME5XWmxnNkVPMHJKQzN5WEpXRHVJZmdSUkZMOW8zR1ZaQzIz?oc=5"
         }
       ]
     },
@@ -76,10 +82,64 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Secretario de Estado de EE. UU., Marco Rubio, visitará Perú la próxima semana - Chimbote en Línea",
+          "titulo": "Glaucoma secundario en Perú: causas frecuentes y factores de riesgo - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-05T03:43:00",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeDA5bEMzcFBaTlNKZ3BDYjNKcHRiS21VN01qTHdsbTc0bEc3OW9VNUFtWFRNT0l4SVZNSFMtS1dNdWNVQWRpY1MxRTQ1LUlocVMzdjlRZndqTnFDMlBrWkNLS0EtWXlZdUthNUp6RnhvYWxrQjkxYkdPTUlBSTdPbklnUzhNX2hLSXJvbklVY0J1Y0wxb0dSQV9QZWZUY3F2QUJUVno1ZGFxMzgwUGRRNmg5aXd0WFNMajU5NXRCTU1pOFZURDFuY2FJQUhXNGlKbk8zQnpn?oc=5"
+          "fecha_publicacion": "2026-09-05T14:38:00",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM0dWdFRhMXlhbHQyMnNkWElfUUU2eXFxOXp0VVF6eVpvaEpQSUpZVm9ta0N4S3hzU0dvc0MxT1lSQ1J2OEZxMmJkQnNqNzlWX2p5R1Rxdnd4ZkhuaGFxVlp1SmNUQ3Z2MVhDa0VYZ2IyZlh4SUxFQVVKYkRJOTd6clFaMkRJS01ub2tjaGhtM0lRTFJpRUx4Q19jV0xLckpoTDdFNTNTVTJOdGZwUGthaWlfWUJIcFd6ODVfMTBn?oc=5"
+        }
+      ]
+    },
+    "ENP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Excadetes navales vivieron una jornada inolvidable en el Día del Recuerdo Naval - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-09-06T03:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPejJjMVFNRk9xeXlwSE9lanVadVlyRU9WNjBCcy1wSFl4S1FLQmlQM3VPa2RPajJHcmtVbFJZazUzQy1nQVhvZXFUcVlINTRBZTR6RzJCLVRTbWszc005cV9Qc21iZjZkX3F5cUlhOWUxcTdFcGhic3BVQmh0UUhPbjl1QmdvcnVnV3BTaTFoRjY3bl94b19fejQzcTNXWUdsY01fRUNsOGxlVGFkcGJxbzBqcGZ3VzVHWjA2dlBiRFE?oc=5"
+        }
+      ]
+    },
+    "EOFAP": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Admisión de la FAP 2027: requisitos, carreras y fechas para postular a las escuelas de Oficiales y Suboficiales - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-06T15:51:23",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQVFvQURZYmJ0b1A5NUUzWEFMQzFLQjhMVk5fYU1TSUNseVdmRzVlSU1TUUJFLXJDQXN0dUV5TGg5Y0RKVzJGSGtIMjJoUU15MFJBT3VES2MycWtrNVF2SlhvVmVDQXlvRmtlYnFNa1BmTlN1Q1Z3dXo0Vm5MVnNrUTh1TF9sdXRYMXdIMFJPeHNhbFFSQUFmQmVvTnUxaEtPN2ZNSVFiS2FHUFNMVmVKLVJkWFZxTk5uR19tcGlJd2lBdFBHbng2MjNUYm1Zdl8yUV94ejBJQklDTlZvLUFDaEp0R1LSAf8BQVVfeXFMUFF6TnJBOVBEbGpsZ1dSM1VBOUUwOGhmTjc5Y211YUZmZG5qdTl4WTM3aGc0R0RXSjVCQ0hUeXdpTzBHZ0QteENuWDNBZEZ6b2dtOU9BVERWeEQ5VFlTN1B0T3BFcktxeE1STnVsQVFvQkNyanNJLWwwZVEwYi1Ub2JsdGJUNTlpX0ZFTmtsN0t2VTBra2hwRWVtR2lKSnNDeEdtSng1eE56aG5pVW9xSno2VzQ3b3VRQWZqRVpiQjZYTF96N1dFWHllOXA1WUJ4V0FibndzRlhrM29kRXBDd09Ga3ZjR0dNLXg5ZGZ2NHRfeDdEZUJQLVpVaDdzS1NB?oc=5"
+        },
+        {
+          "titulo": "FAP abrirá próximamente las inscripciones para su examen de admisión 2027: conoce las vacantes y sus carreras profesionales - Willax",
+          "fuente": "Willax",
+          "fecha_publicacion": "2026-09-05T23:23:59",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WTlFoWkJodkM0ZFFSN05nZGZNc3VsVWdCTUViNmc0MXVMS1o4aHRYUkcwNDdWMlhmbWNKVUFIY3dacDRIZWJhNXBUUnhXbFdIV3BSMjZjNXlXcFRQVkhZckUweXhXY3VzVlp3dXk5NjFJTWZKbVR0WmVLbw?oc=5"
+        }
+      ]
+    },
+    "PA": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Admisión de la FAP 2027: requisitos, carreras y fechas para postular a las escuelas de Oficiales y Suboficiales - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-06T15:51:23",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQVFvQURZYmJ0b1A5NUUzWEFMQzFLQjhMVk5fYU1TSUNseVdmRzVlSU1TUUJFLXJDQXN0dUV5TGg5Y0RKVzJGSGtIMjJoUU15MFJBT3VES2MycWtrNVF2SlhvVmVDQXlvRmtlYnFNa1BmTlN1Q1Z3dXo0Vm5MVnNrUTh1TF9sdXRYMXdIMFJPeHNhbFFSQUFmQmVvTnUxaEtPN2ZNSVFiS2FHUFNMVmVKLVJkWFZxTk5uR19tcGlJd2lBdFBHbng2MjNUYm1Zdl8yUV94ejBJQklDTlZvLUFDaEp0R1LSAf8BQVVfeXFMUFF6TnJBOVBEbGpsZ1dSM1VBOUUwOGhmTjc5Y211YUZmZG5qdTl4WTM3aGc0R0RXSjVCQ0hUeXdpTzBHZ0QteENuWDNBZEZ6b2dtOU9BVERWeEQ5VFlTN1B0T3BFcktxeE1STnVsQVFvQkNyanNJLWwwZVEwYi1Ub2JsdGJUNTlpX0ZFTmtsN0t2VTBra2hwRWVtR2lKSnNDeEdtSng1eE56aG5pVW9xSno2VzQ3b3VRQWZqRVpiQjZYTF96N1dFWHllOXA1WUJ4V0FibndzRlhrM29kRXBDd09Ga3ZjR0dNLXg5ZGZ2NHRfeDdEZUJQLVpVaDdzS1NB?oc=5"
+        }
+      ]
+    },
+    "IPD": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Tec Saltillo recibirá a más de 700 nuevos ‘Burros Pardos’ en enero de 2027 - vanguardia.com.mx",
+          "fuente": "vanguardia.com.mx",
+          "fecha_publicacion": "2026-08-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObk53YUZleXBueU9zajBCR1lqNThFcmJQMjNfSzJxZjBfcFlCemNRM3B6VkhhcTZDUk5heURjNXlfVE1PSXNoLWlLNGkzRkVKWWVsOFhNYk9SeW5FbmVPakJXc2pOdVVreUdjYTRqOUNhRkJjMktDMW5NOVNheThJb245RGlRWEV2Tl94SFlVOXFlRV9kRjItajNJcVVWaEd6S2QwVWVsdkpnUWVSTWprTlY4RWhMOTBndmYxZFVmZXFkNFFSd3c?oc=5"
         }
       ]
     },
@@ -88,10 +148,10 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Estudiantes peruanos ganadores de un torneo internacional de música le cantan al papa León XIV - Chimbote en Línea",
+          "titulo": "Parada Militar 2026: delegaciones de seis países presentan su saludo al Perú - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-05T03:25:00",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeUwxTTczT0NibkFoLW5jcjEtbHdYYUd1b0dlTDdYb296SUZjajBLTTlWUFh2dVloUjVQX2hIQThLWmFEXzFhdUktLW9MbTNDdUFkVEdaVndTX1RfTG1oRlNaMlEwV1BtaTRSNFYxY1JTY3hXMnRVa3l1ZlpoeEVOcEJOS1BXampDOTVqaG9OTW9UcEtoTDdjNy1CeW9oQXlDYndnMTdsQ19wUWdvUXc4ZWpoX3FTQzU3VG9iNS12SkktQ1JsMVFYTGhtTk9ZdjZtaFotcUEtcWtDeUFXcXpoRmstRnAyNnZCeEtLUQ?oc=5"
+          "fecha_publicacion": "2026-07-29T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQenVBX3ZGNzVxaTJCMUVRazBMV0FoWTN1MHlkU3BoZV91eUZoRzdjX3hka21YblEzVlFwcG5GTUg4LXhWMWh1QXBsS3BZOVVDdElRLVNjVkNKZmhuUm9ZTTV4UmhURkcyUVlJcGNnc285b25DZ0RQTmtIQWh3TWxYUHVFY0dfTlE4ZlJLX09GY2Y3XzI1aE5GNGZHdGprZHBRR282d3NwQW1GQWlmZ0tsZnVsY3lDN01EYjlLQklwanFpT3gzbUFXeU0zWQ?oc=5"
         }
       ]
     }

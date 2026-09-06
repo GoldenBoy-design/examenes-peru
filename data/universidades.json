@@ -20,9 +20,9 @@
       "estado_proceso": "abierto",
       "tipo": "publica",
       "detalle": {
-        "resumen_oficial": "Los aspirantes deben inscribirse entre el 27 de mayo y el 26 de junio de 2026 y presentar el examen de admisión el 12 de julio de 2026, el cual se ofrece en tres modalidades (FASE I, EXTRAORDINARIO y FASE II).",
+        "resumen_oficial": "Los aspirantes a pregrado pueden inscribirse entre el 27 de mayo y el 26 de junio de 2026 y presentar el examen de admisión el 12 de julio de 2026, el cual se ofrece en tres modalidades: FASE I, FASE II y EXTRAORDINARIO.",
         "fuente_resumen": "https://admision.unjbg.edu.pe/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -93,9 +93,9 @@
       "estado_proceso": "abierto",
       "tipo": "publica",
       "detalle": {
-        "resumen_oficial": "La UNE programa dos pruebas de admisión en 2026: una el 28 de junio para egresados de educación secundaria y otra el 29 de agosto para licenciados que buscan la segunda especialidad. Las inscripciones cierran el 24 de junio y el 28 de agosto respectivamente, y el pago se realiza en el Banco de la Nación según el concepto seleccionado.",
+        "resumen_oficial": "La UNE programa dos pruebas de admisión en 2026: una el 28 de junio y otra el 29 de agosto, con plazos de inscripción que cierran el 24 de junio y el 28 de agosto respectivamente. Los pagos se realizan en el Banco de la Nación, donde se presentan los datos del postulante y se elige el concepto correspondiente según la tabla de costos.",
         "fuente_resumen": "https://www.une.edu.pe/admision/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -187,9 +187,9 @@
       "estado_proceso": "abierto",
       "tipo": "publica",
       "detalle": {
-        "resumen_oficial": "El proceso de admisión 2026-I se lleva a cabo en modalidad presencial, con exámenes ordinario y extraordinario, y la inscripción se realiza a través de la página web de la universidad.",
+        "resumen_oficial": "El proceso de admisión 2026‑I se lleva a cabo de manera presencial, incluye un examen ordinario y otro extraordinario, y la inscripción se realiza a través de la página web de la universidad.",
         "fuente_resumen": "https://admision.unica.edu.pe/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -211,9 +211,9 @@
       "estado_proceso": "abierto",
       "tipo": "publica",
       "detalle": {
-        "resumen_oficial": "La Universidad Nacional de Barranca brinda dos vías de ingreso: el examen extraordinario, destinado a candidatos con situaciones especiales o talentos reconocidos, y el examen ordinario, dirigido a egresados de educación básica regular. Cada modalidad requiere documentos como DNI, foto tipo pasaporte, voucher de pago y certificado de estudios, entre otros según el caso.",
+        "resumen_oficial": "La Universidad Nacional de Barranca brinda dos vías de ingreso: un examen extraordinario dirigido a postulantes con situaciones especiales y un examen ordinario para egresados de educación básica regular, ambos con requisitos de documentación y pago de un voucher, aunque no se especifican fechas ni costos en la información disponible.",
         "fuente_resumen": "https://admision.unab.edu.pe/http/dashboard",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -294,9 +294,9 @@
       "estado_proceso": "abierto",
       "tipo": "publica",
       "detalle": {
-        "resumen_oficial": "La universidad convoca a los egresados de la región a presentarse a los exámenes de admisión, que se dividen en modalidades Ordinario, Quinto de Secundaria, CPU y Especial, con fechas específicas como 4, 7 y 13 de agosto de 2021 y 21 de noviembre de 2020.",
+        "resumen_oficial": "La Universidad Nacional José Faustino Sánchez Carrión organiza el proceso de admisión con distintas modalidades de examen, como Ordinario, Quinto de Secundaria, CPU y Especial. Las pruebas se programaron para el 4, 7 y 13 de agosto de 2021, y la inscripción se gestiona a través de la Oficina de Admisión.",
         "fuente_resumen": "https://unjfsc.edu.pe/admision/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -379,9 +379,9 @@
           "Exoneración SISFOH para postulantes certificados como pobres o muy pobres",
           "Becas y semibecas por rendimiento académico e insolvencia económica, hasta 10% del total de postulantes"
         ],
-        "resumen_oficial": "Los postulantes deben inscribirse entre el 30 de junio y el 31 de julio de 2026, pagando S/. 410 si provienen de colegios estatales o S/. 780 si son de colegios privados, y S/. 90 por el prospecto. Después, rinden los exámenes programados en febrero y en agosto, según la modalidad elegida, y presentan la documentación socio‑económica requerida para acceder a semibecas o exoneraciones.",
+        "resumen_oficial": "Los postulantes deben inscribirse entre finales de junio y julio, pagar la tarifa correspondiente (410 S/ para colegios estatales y 780 S/ para privados) y presentar la documentación socio‑económica requerida. Luego rinden las pruebas de aptitud y los exámenes de admisión programados en febrero y agosto, según la modalidad elegida.",
         "fuente_resumen": "https://admision.uni.edu.pe/admision2026-2/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       },
       "estado_proceso": "abierto",
       "tipo": "publica"
@@ -407,9 +407,9 @@
       "estado_proceso": "abierto",
       "_fuente": "impulsatufuturo.pe (29 ene 2026) — verificar fecha exacta e inscripciones en admision.pucp.edu.pe antes de publicar",
       "detalle": {
-        "resumen_oficial": "Los postulantes deben elegir una carrera, seleccionar la modalidad de admisión que corresponda (Alto Desempeño Superior o Admisión Regular), subir los documentos requeridos (certificado o constancia, DNI y foto) y pagar el derecho de postulación; la universidad valida la documentación en máximo dos días hábiles y notifica por correo, permitiendo consultar el estado en la plataforma y cambiar de carrera una sola vez antes del cierre de inscripciones.",
+        "resumen_oficial": "Los aspirantes deben elegir entre los grupos de modalidades Alto Desempeño Superior o Admisión Regular, presentar sus certificados de estudios, documento de identidad, foto tipo pasaporte y pagar el derecho de postulación; luego suben los documentos a la plataforma, la universidad valida en máximo dos días hábiles y, una vez aprobado, envía la confirmación para proceder con el pago.",
         "fuente_resumen": "https://admision.pucp.edu.pe/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -436,9 +436,9 @@
       "tipo": "privada",
       "_fuente": "ucv.edu.pe/postula (jul 2026) — Fase B pregrado. Verificar antes de publicar",
       "detalle": {
-        "resumen_oficial": "El proceso de admisión para el periodo 2027-1 inicia con la Fase A el 27 de septiembre de 2026, según el calendario publicado.",
+        "resumen_oficial": "El calendario de admisión para la cohorte 2027‑1 indica que la fase A comienza el 27 de septiembre de 2026.",
         "fuente_resumen": "https://www.ucv.edu.pe/postula",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -464,9 +464,9 @@
       "tipo": "privada",
       "_fuente": "editoradelta.com/fechas.html — verificar fecha exacta en upc.edu.pe antes de publicar",
       "detalle": {
-        "resumen_oficial": "Los aspirantes deben presentar el derecho de admisión y un formato de consentimiento, luego rendir una evaluación integral (o la prueba específica de la carrera) en las fechas indicadas; tras revisar los resultados en la web, los aprobados completan su incorporación entregando DNI y documentos académicos. El proceso incluye periodos de inscripción extemporánea y varias convocatorias según el ciclo de ingreso.",
+        "resumen_oficial": "Los aspirantes deben postular, presentar la Evaluación Integral (o pruebas específicas según la carrera) y, si la aprueban, revisar los resultados en la web y completar la incorporación con la documentación requerida. Los procesos se repiten para los ciclos de ingreso en agosto 2026 y marzo 2027, con fechas de examen y de inscripción definidas.",
         "fuente_resumen": "https://www.upc.edu.pe/admision/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -490,9 +490,9 @@
       "tipo": "privada",
       "_fuente": "urp.edu.pe/modalidad-de-ingreso — fecha es de Medicina; otras carreras tienen cronograma propio, verificar",
       "detalle": {
-        "resumen_oficial": "Los candidatos deben consultar los requisitos de admisión, completar el formulario en línea y enviarlo a la Oficina Central de Admisión para participar en el proceso de selección.",
+        "resumen_oficial": "Los candidatos deben consultar los requisitos de admisión, completar el formulario en línea y elegir la modalidad de ingreso correspondiente.",
         "fuente_resumen": "https://www.urp.edu.pe/admision/",
-        "resumen_actualizado": "2026-09-02"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -551,9 +551,9 @@
       "_fuente": "El último examen publicado fue el 19 jul 2026 (ya pasado); la fecha del siguiente ciclo aún no aparece en la web oficial",
       "detalle": {
         "costo_inscripcion_privado": 450,
-        "resumen_oficial": "Los interesados deben inscribirse en línea entre el 4 de mayo y el 10 de julio de 2026, pagar S/ 450 y presentar su documentación. El examen se realiza de forma presencial el 19 de julio, y tras los resultados se procede a la matrícula y al inicio de clases en agosto.",
+        "resumen_oficial": "Los candidatos deben inscribirse en línea entre el 4 de mayo y el 10 de julio de 2026, pagar S/ 450 y presentar su documento de identidad y certificado de estudios; el examen se realiza presencialmente el 19 de julio de 2026 y los resultados se publican ese mismo día, con la matrícula iniciando a mediados de agosto.",
         "fuente_resumen": "https://www.ulima.edu.pe/examen-de-admision",
-        "resumen_actualizado": "2026-09-05",
+        "resumen_actualizado": "2026-09-06",
         "costo_prospecto": 450
       }
     },
@@ -616,9 +616,9 @@
       "tipo": "castrense",
       "_fuente": "larepublica.pe (4 jul 2026) — inscripción abierta; exámenes previstos set-oct 2026, fecha exacta aún no publicada",
       "detalle": {
-        "resumen_oficial": "Los postulantes deben inscribirse a través del sitio web, presentar sus documentos y el voucher de pago, y luego superar una serie de pruebas que incluyen examen médico, de aptitud académica, físico, de conocimientos, psicológico y una entrevista de apreciación general para evaluar su vocación naval.",
+        "resumen_oficial": "Los postulantes deben inscribirse en la plataforma web, presentar sus documentos y voucher, y luego rendir una serie de pruebas que incluyen examen médico, de aptitud académica, físico, de conocimientos, psicológico y una entrevista de apreciación general.",
         "fuente_resumen": "https://escuelanaval.edu.pe/admision/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -638,9 +638,9 @@
       "estado_proceso": "cerrado",
       "tipo": "castrense",
       "detalle": {
-        "resumen_oficial": "El proceso de admisión 2026 es un concurso abierto a peruanos que cumplan requisitos de nacionalidad, estado civil, estudios, antecedentes y condición física; la inscripción se realiza en línea y, tras los exámenes, se publica el cuadro de mérito, pudiendo exonerarse el examen de conocimientos según la modalidad de ingreso.",
+        "resumen_oficial": "El proceso de admisión 2026 es un concurso abierto a peruanos que cumplan requisitos de nacionalidad, estado civil, estudios secundarios, edad (15‑21 años 11 meses 29 días), talla y aptitud física; la inscripción se realiza en línea y, tras los exámenes, se publica el cuadro de mérito, pudiendo exonerarse el examen de conocimientos según la modalidad de ingreso.",
         "fuente_resumen": "https://eofap.edu.pe/admision/oficiales",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -743,9 +743,9 @@
       "detalle": {
         "costo_inscripcion_estatal": 100,
         "costo_inscripcion_privado": 150,
-        "resumen_oficial": "Los aspirantes deben iniciar su inscripción el 23 de febrero de 2026 y completarla antes del 25 de marzo de 2026; el examen de admisión se realiza el 29 de marzo de 2026 a las 10:00 a.m. en la sede de San Ignacio, con una modalidad presencial.",
+        "resumen_oficial": "Los candidatos deben pagar el examen (S/100 si provienen de colegios públicos y S/150 si son de colegios privados), inscribirse entre el 23 de febrero y el 25 de marzo de 2026, entregar la documentación solicitada y presentarse al examen el 29 de marzo; los resultados se publican ese mismo día y las clases comienzan el 14 de abril.",
         "fuente_resumen": "https://unatefsil.edu.pe/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     },
     {
@@ -800,9 +800,9 @@
       "tipo": "pública",
       "detalle": {
         "costo_inscripcion_estatal": 380.0,
-        "resumen_oficial": "Para el proceso de admisión 2026, las inscripciones estuvieron abiertas del 29 de enero al 11 de febrero. Los aspirantes deben registrarse, pagar el derecho de admisión de S/. 380 y presentar el examen ordinario.",
+        "resumen_oficial": "Las inscripciones para el proceso de selección 2026 se abren del 29 de enero al 11 de febrero, y los aspirantes deben registrarse, validar su correo y pagar un derecho de admisión de S/. 380 para presentar el examen ordinario.",
         "fuente_resumen": "https://www.unm.edu.pe/",
-        "resumen_actualizado": "2026-09-05"
+        "resumen_actualizado": "2026-09-06"
       }
     }
   ]
