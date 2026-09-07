@@ -1,34 +1,116 @@
 {
-  "generado": "2026-09-06T16:10:22.573209",
+  "generado": "2026-09-07T18:17:31.745134",
   "universidades": {
-    "UNMSM": {
+    "UNDC": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-08-10",
-        "2026-09-19",
-        "2027-10-17"
+        "2026-03-08",
+        "2026-07-19"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "San Marcos confirma fechas del examen de Admisión 2027-I: consulta aquí el cronograma de inscripción - El Comercio Perú",
-          "fuente": "El Comercio Perú",
-          "fecha_publicacion": "2026-08-19T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaFpPNEYxQjUwTDJHOTVFTGJMcG1uMHVfd0taTnE3VnZlQ0Jud3FwSjdrNVdHYTNYaTJuLXpSamJ3bndidTE0NFZuVl8zV0RJUHRxU2pkTUJKNDlnNlA4WS03SnFNRjI0eGZGdjVQM1liOWc5aWd1ZjBHYWFuaEtrMTg2N3NqUVhxMmI2YXZnQzdhNUQzeWdHeTJkc0Vfc1FDVHR0VlliZ3RXazJqOWJ2aFFHVXYtQV9IVVNQb2JyVy12NjVOTVZNR0g3RF9nejl2WUpGUjh4STBEbVdOTmx0bjRSeng2QjlUeGJoR2N30gGCAkFVX3lxTFBSaUZkY1dOTkp3LVZ1TnJQdjFNal9QZlQ0ZTFHaThhaXFla0lrcktfVFdPWmN0cGdBS3A1cGlEY3p3LW9JOXZablRfNzR3V2I1V1oxUlFCQlhNNTBHSVpJZUYySlZaT3lWajY4SW5nX29FVGZaeC1taVdQWFo0RnJMT0RpNnJZRkgtYmZ5QTJSMHc0RGJIVG0za0NhaHN5NnVHaXpGQWNnWGNPc0d4NmM3TmZ2LVZsNFVfZV83OW9FaHBvbzNmZEtVWmR0ekJPbTgzR29URENZUklsbzdfNDVuOGtPdHFTRzZYaDB6a1lzLVZOUG5TcUtCa1ZWX2ZQMW5qdw?oc=5"
+          "titulo": "El Peruano - Plataforma del Estado Peruano",
+          "fuente": "Plataforma del Estado Peruano",
+          "fecha_publicacion": "2026-09-04T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZVGJXRTI2Z093b0Y1SWZtRDFncUlUZjIwNzZZM0NNRzZsZFExQlhPeHlCUW5MV050Rnpfa1kxOGJHTjNLR1pmeEFDdkk3NFdEcC1hWS1Mdy0wdGlOQ3FuLUh1c3E?oc=5"
         }
       ]
     },
-    "UNICA": {
+    "UNJFSC": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-07-26"
+        "2020-11-16",
+        "2020-11-18",
+        "2020-11-21",
+        "2021-08-04",
+        "2021-08-07",
+        "2021-08-13",
+        "2026-08-23"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Firman compromiso por la educación universitaria en Chincha - Diario La Opinión Ica",
-          "fuente": "Diario La Opinión Ica",
-          "fecha_publicacion": "2026-08-04T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUXI4WkdyXzBfLW5JV1llNkFHdzJuNG5ieElHVGxydWJXMEdnTmxYYmUyNUl4cUt3T3pQUm5ocGtzTnlkWnBEMUQ0bzZlcVVWNm8za2lhLWZIanNXaEl0RDhGLXdVZ19TUnIyYnRxZlZSd0FBMkhWajdkMEM1dFdUakNHOU5fb09kdFZ1TjNhYW9pZkxleTB4VXZnX3RpUjA?oc=5"
+          "titulo": "Exitosa Noticias. . 🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | La Universidad Nacional José Faustino Sánchez Carrión (UNJFSC) anuló su examen de admisión, luego de detectarse indicios que habrían apuntado a una presunta filtración de preguntas y respuestas del proces - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-09-06T19:17:10",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNcEJxRzZOdHNLM1hKLVZlZ3FPLWFKdWVBN2hMQ0UyMHlpMUs1UVRuckxVTDhpa1MtMElTTG1Ld2I0bGtTcnBLdG9hMHF4TTFZbEhfRlU2UzRKTnBMbUtJd1pWOWNPX1ZzcnhJczNmdWd6X3hwaGktbGp4WUhUQ0R4N3BNWDI1TlllcXJMcUUxRWxEY1BFVlRFM2RZdWF6SVQ1S1VzSlg5emFva3J4Y05QU3JEdDZWTjhXeVRXTDlwV0k3UUFXTXRoZjBQblhvTmxUUEV5TXdvZVY3SE10WUk3b0llb2tJMkVjOE1iWWg0MVZCSnU1YlF5S0NGM013MXNj?oc=5"
+        },
+        {
+          "titulo": "Examen de admisión de la Universidad de Huacho es anulado por presunta filtración de respuestas y se reprograma para el 13 de septiembre - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-06T22:10:00",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPWF9hRGRPZkpfcDlmaFNrMlQxcUV1OW5mT3FrLVNUci0zdjJJbU1pMWxjSi1jU1p3azhOTjZSd0hWYWo0Rnk5NjNlRVVLQ01qYlZzLUxvREJoVzMtM3oyejZ1V1oyOGN4WVhBMncyb1ZrS2xJRVl0VGdxZnhFZzdSWk8wOUE2UFJQZkhQMTRfS1NRYnJ5Y2FpQTlHQ1pjQXpzN1VWZWNGMUZSWERHbTI4NFM3UlhXRGdVeXRBY0IzR0RFSWswZHlFYndUWWFWNWRrZDdMby1Dak5oZFdhYXVzZ2paNDAxVEdmLTdyaDRaR1pHN0k3encwTE5NRnhjdlBrODUwM0VSNzDSAaMCQVVfeXFMTnRvV3k3Q0t1VkpaNUVsNEVkQVc3WVozREZqU0cybTFLNjc1RXlwa3dHYjViSnFCN0ptbWl5dVFVRTR0dzNQTUc5NEpma2E1MDlWMDczTmpFUEc5dFp0bzlwZ09sMi1qZkJKQm9uaDJFeU9GYm1OMXFrTEZRQTNxWHA1NGJPck9yODJaYmNSQUhjLW95YTM5R19FV1dJQkhaZXMwa3kyVmRuVnVJeWpiVzVWZUlQYjBuT1JZMktCci0tRXZzajdHYzBrdmpaSWM3RldwVW56N0JIWnAxNGtjRTI5Y2lzZzRKWXV4RS1lLVNsWnI1ekRoOVk2X2V0MmJCQWFkNHNQVTF4UHpYME1wUWFPOWxSa2gxS3pmMG5RRzJtNFJF?oc=5"
+        },
+        {
+          "titulo": "Universidad de Huacho anula examen de admisión por presunta filtración de respuestas: reprograman fecha - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-09-06T21:48:59",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQblp6VEV4bHVMSXl4Y2w3RVRNZjhiNGFPSVNIVTBrWjlFbHJicGJSOFpVR2hEVmdIZEtXdU9ZNUp2andLNEFYQzF5U2JjLVl0dTE4a09kRnRUVjU3Y0dtMDdINy10QThGZk4wZlNNNlQ5cWJQMGZIaThUbnZTVTBoY0pKQ3ZTQnBzVmY4ekZneFRwZWFHN3hKdjlEbkMxMlZab2k5QTYtcnhrbUhkcGZRWFViUlRYWG8tdjVZd25ueUZ0ajh3VWxNWVRvTUhPYTBXT3dvNE5mODQtOWdqaWM5OVBOekdrMWfSAewBQVVfeXFMTW5EYnB2UUtWSTRjVVcwc3VYVkJtaFdtSzhub1EyODJVdEVOSklMYUlXMmFvQy1zQm5aSFkwUXdYcHJQMWgzaTU0OXhocUVpUnp1bEUxcUhibDFZbktTUVJFamtFTUJ5SUQ5SjBGMU5nczhqMWpmaHdnNG9HMldBRnV2SjhUSGRtNnk5aTlkUUNxUG5OOXFIcDRVWGlha0gxUTNRbXJWWE03UE41M2ZrWVF1UDNvcTdwWEdValpNaFc0Y0VZRTJ3bm1OaEt1NlJFNFVLQXZjMGhyblNSTWxFSVFQVVIyYkxtYmpSVFg?oc=5"
+        },
+        {
+          "titulo": "Las autoridades se manifestaron sobre las denuncias en el proceso de admisión de la UNJFSC - apnoticias.pe",
+          "fuente": "apnoticias.pe",
+          "fecha_publicacion": "2026-09-06T20:34:33",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY2VvNHRjMUlCa3F6ZXlFMWIwNFZ6S1B1cU05aGx5Q055Q0pLb3JJZWpiei00ZlZjRHRkSVNnWVNjR0R2Tk16djdaOV81ZnZsU3J4RWhIcVpfZl90eXR4ZEhwLVFoS1hzTTRjTWo4TVlWODNQNm5oWjFDcWdwQ242MS0zVkhNQUlXblVtM0p0TTNpSmJjbXhkLVJjdUdMYm0xa2VTbFJSY2IwMGdpOHdFWlM1WU82SWM3SkJid2VvUFFYV3FwODd4RQ?oc=5"
+        },
+        {
+          "titulo": "🔴🔵El proceso de transición democrática en el Perú alcanza hoy un hito clave con la entrega de las credenciales oficiales a la presidenta electa, Keiko Sofía Fujimori Higuchi, para el periodo de gobierno 2026-2031. 🌐Más información en: https://www.exitosan - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-15T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTk9pS2wxc0JpZWNXbjdwVmxORXk1UG1SV1FHN2pnVEFELVNuRlpPZ1ZtbFFuZXJWMEY0OHlFQlpaUjdrVk9LNmNLdDc5Rkg5X3llVkRjNHZ1aHNNR201V0hqdzFlY214NVVlUHlZTDVwLThmLWUyVVNGcWNudlEzTEphUDNNQ3E1Vzd2dEltQ0FRTXA0cUtxSXBEUEZhLWxYWE9SNEpOOW5QbDJnOHU4ZkFwX0p6NVdwT0s0Uy1iemxiZE41bFBqLTI1S2ZlUGpOYno3NlZ5YnJUQWR4SndZMjZQOW1tbDFsZDhoUU90d0plUQ?oc=5"
+        },
+        {
+          "titulo": "🔴🔵SISMO de magnitud 5.1 en Perú HOY, sábado 18 de julio: Conoce el epicentro de este movimiento telúrico ⬇️ - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-18T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaXJLd0VuZW9YMl9NancwcGFkdmltbGhncHV5SXJKXzA5MFhzbjFyRVJCQmpGLXlhQk93elduNnRtaXp3ZzFBekFHdWxVNDZCc05fTVlQQi1acTVtNmNuQ05TazQwOURjQzA1WF82OFpsZG9QSXQ4VHdCWGRxdnBXcU5RRi1CbmctQmRvUVRGd1VScWxIejdvOFN3ZUstbUNBaW9QNnhTemFqUlRyMzBGcW40alFFaWVNQmJZWDBZaUVRN2FzRnNkZDZZSW9hWjd4Mnd5U0dpXzZ3WTJPYTE2ZVcxaVdNa2JDUkxF?oc=5"
+        },
+        {
+          "titulo": "🔴🔵 Sismo en el Perú esta tarde: conoce aquí el epicentro y la magnitud del movimiento ⬇️ - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-08-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZmFyZXcyaWNvd0VndTlib19TVHdFdFdRTW5kekdiX016TjlnLUluLV8xbGR1bGd1a3V0dWFSV0NiNEdQblhsQWptQU5aY183MW1lYXM5MUFJdEhxNjBsWWhKaXZfVVNlbmxOV0JGMi14TExvQ3pPNmJfUEpVcVJ4dTJsNjdDVUlsSWxMUFc5UG9VaUJ2Wm1WX3pidjY0OXh2X3U5cEdXTUJXOWw0MHF1QlQwRWE1RFh3Y0UzdnpJQ2tlWjBuUHZKR1h1S285WGRIaWJIM2J2NGRfZk1UbTV0bWVKdGJJcmZEMXlN?oc=5"
+        },
+        {
+          "titulo": "🔴🔵Escándalo en Senegal tras el Mundial 2026: Selección descubrió que su médico principal era en realidad ginecólogo⬇️ - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-14T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSTdEandLVkJlVi0wNkpWdTNESExWZGowVW05VVc0dTZTSHAySS1hMkpsSnlLUXJ3emhENTFzaG9RTGtDWlhLdmxTRmp5S0JROU9LS18zRjIwNjlnWkp6YkN5MWs5OU9uc2JvWkpXSUhDQlNzR0hKeHhPREtueVhvNUdxUnVFY2lCV3BweTM1ZXIzWnl3X3pBUlY0RVBKcHBTMGhYUjdIM3dFVHcxamdVaXR6SVo5R2RDdDRHLWtKbjdocmNKekQ3QzJvalBZMVFWMTA0bGlDZnNXTGkwWWhncHYyUkpFZGZHM1A2T1hya1MxanlhYmJvMQ?oc=5"
+        },
+        {
+          "titulo": "DIARIO ASI: DIARIO JUDICIAL REGIONAL ASÍ - EDICIÓN LUNES 07 DE SETIEMBRE 2026 - DIARIO ASI",
+          "fuente": "DIARIO ASI",
+          "fecha_publicacion": "2026-09-07T12:00:00",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY2tHcGF3a0tkZzh4MmxteGJCclZmNTZqX2xOMFRPR2l6cFQxcFFaNVIyTGJJTWp3VzZJSjJFN0txMVYyc2NBVXdRTTJCbzRyRzRQX05FZlpidlZjQTIwU3JvTi1MZWlLWVJ2SGc2cWlmYW50by0tOHNpQnkzUHBka1MzdHF5NFN4M1VxSGpjb3RKVEZ1YVFiSkh4YS1EUXc?oc=5"
+        },
+        {
+          "titulo": "Exitosa Noticias. . 🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | Tras la denuncia a la Universidad Nacional José Faustino Sánchez Carrión (UNJFSC) por presuntas mafias externas organizadas que operan en los exámenes de admisión, las autoridades de la universidad se pro - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-09-06T19:50:16",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRGtZRW5ZOXgyNVpmTzB6YXViMkJxUkM3OWxybTRieWJNRUxqcVF2WFkxTVpXZ21vSkRrbXNZOEVtYmItSTZtTk45Zk1IRWk4S1JzNkNCazZaNkVRUVdGVGlVdmlyeW5kNGJHNnJWVHFmLUZOOVhIUTlvU09NOHVKak9Qb05MZkRwZEYyS01BSElrdTZPeXVZeXJZOE9ZQWN0cFZnV2hQSUJISHlsd0x4ZTFwbkxDcjZpazNoMnB3S3JaY3d1SC1OM1E3SlJ2aG5MUl9HQzZLWWRTQmt4c2I4NjF6V3kzWVZ1YnBwSlJGdG13NFU?oc=5"
+        },
+        {
+          "titulo": "UNJFSC de Huacho enfrenta acusaciones por presuntas irregularidades en su examen de admisión - apnoticias.pe",
+          "fuente": "apnoticias.pe",
+          "fecha_publicacion": "2026-09-06T20:36:34",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaWwzREJiU2xLVjU2RU1SdmJyXzdnM25HSFVtV1R5OWNkYktUQm9tUm96bWxXQmRSQ2xMNVJsaEh3UkhodDk2TTUxSTlNTDZCVFZRU0MxZUdrQWpsMUR1SWFvWmRrQkdQX3I3MkRpb2o3R0MxZmI0TC1IOWEwMS05aUhUem1qYWd2S3FabllKTFVBQ2NmcC11ZkZjdG9XTm1ZSXdOSkJqVUtoVkdCMzhWWFJUX0xNS2l1Ul9vb1BWTUVtbnZkVzVYWFBXOA?oc=5"
+        },
+        {
+          "titulo": "Examen de admisión de la Universidad de Huacho es anulado por presunta filtración de respuestas y se reprograma para el 13 de septiembre - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-06T21:20:24",
+          "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOdG9XeTdDS3VWSlo1RWw0RWRBVzdZWjNERmpTRzJtMUs2NzVFeXBrd0diNWJKcUI3Sm1taXl1UVVFNHR3M1BNRzk0SmZrYTUwOVYwNzNOakVQRzl0WnRvOXBnT2wyLWpmQkpCb25oMkV5T0ZibU4xcWtMRlFBM3FYcDU0Yk9yT3I4MlpiY1JBSGMtb3lhMzlHX0VXV0lCSFplczBreTJWZG5WdUl5amJXNVZlSVBiMG5PUlkyS0JyLS1FdnNqN0djMGt2alpJYzdGV3BVbno3QkhacDE0a2NFMjljaXNnNEpZdXhFLWUtU2xacjV6RGg5WTZfZXQyYkJBYWQ0c1BVMXhQelgwTXBRYU85bFJraDFLemYwblFHMm00UkXSAaMCQVVfeXFMTnRvV3k3Q0t1VkpaNUVsNEVkQVc3WVozREZqU0cybTFLNjc1RXlwa3dHYjViSnFCN0ptbWl5dVFVRTR0dzNQTUc5NEpma2E1MDlWMDczTmpFUEc5dFp0bzlwZ09sMi1qZkJKQm9uaDJFeU9GYm1OMXFrTEZRQTNxWHA1NGJPck9yODJaYmNSQUhjLW95YTM5R19FV1dJQkhaZXMwa3kyVmRuVnVJeWpiVzVWZUlQYjBuT1JZMktCci0tRXZzajdHYzBrdmpaSWM3RldwVW56N0JIWnAxNGtjRTI5Y2lzZzRKWXV4RS1lLVNsWnI1ekRoOVk2X2V0MmJCQWFkNHNQVTF4UHpYME1wUWFPOWxSa2gxS3pmMG5RRzJtNFJF?oc=5"
+        },
+        {
+          "titulo": "🔴🔵Shakira dedica emotiva carta a Lionel Messi y Antonela Roccuzzo tras llegar a la final del Mundial 2026 - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-18T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb2VfUEFlM1dJSU53WkRkcUJlSWZqZXIzRjkweVotMmlkeWpDLUVZcDdHaEk2S1BRVXhMa2tWajltbUszbElRZDdkaWRXYzRya1JlblZuRG85cVVjUmhfSHNsV3NDVkZWZmprYlNzNkQyV0ZsQ09EMDJmWW5RQ2JfeW0tVnV4R1U5NVBncmJSM3VmVTNOZTR3R3pEVTZrQnZPY3U2MUFPRkc0ZExVYmg2WkN2S0xRYkRnLWZDa3dfaUJnOXJTQnVUVXZDaGVXa0cwVHAzQ25XR3FJb0lnaHc?oc=5"
+        },
+        {
+          "titulo": "🔴🔵 Un video viral reveló el sorprendente parecido entre la modelo rusa Anastasia Kostromitina y el delantero noruego Erling Haaland, generando comparaciones, memes y comentarios en redes sociales. - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-07-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNnVkSEVrcmhfUjJBVVd1OXBxOXJYT2FtS2hlMHk5blREd0R5UEktcHF1eUsydHlZUVFZMGNMb19idV9MMG01ZGtQc0NuRFY3eUJqX1FhOVJKLVpiUl9zNW5WMmc1NmduX2RYN1lDOG42N3FWYUNiSkVfNU53S1lFTlhmR25vOGlQTjFXRXkwS3hfMVZuR091VmNQSW42d1AzLWMwOVFuMFU3cmJkZW91dnJCUms5dFNjUEE2eTZjMElhX0xZb0JVSEtpZTRvX1RVUzlvcy1ISHBnamsxNnhvNHFyTVg?oc=5"
         }
       ]
     },
@@ -42,38 +124,50 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Parada Militar 2026: delegaciones de seis países presentan su saludo al Perú - Chimbote en Línea",
+          "titulo": "Profesionales peruanos ganan becas de Hungría y fortalecerán conocimientos - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-31T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUFDY2pYRFpvS0VkalJ4OW9ka0JCLWhrN3VSdEdwb1dkbExsckdJR0p0eW51SGdvRXpoRU82S0tqRTVUWnlLZS1LRW9nQTdUb1pzZVppWGVjS29MNnBFQ3Qzc1hQb0RkQXdVcllUU1pXd3B2b3l3U04xcWFJbFpRN2lCb3g4UlBmN21nQ1NZVEZreEhDZVJFcF9JRFZNMTdQZDAxeUNRaGxzeUh6Q0Z1cUdLc1FCS1FhTkdyRGpGUjI2RnRDZGNLYzFjTQ?oc=5"
+        },
+        {
+          "titulo": "Secretario de Estado de EE.UU, Marco Rubio, destaca que investidura de Keiko Fujimori aporta estabilidad política al Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-31T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPRkpLZ2YySGEtS2pCWkdsX3Rrd2MxWnBRa0p6RElCaEotV1dhZ1BlZnNZeUphZC1kcUY2X1lvQUZ3X0FWYUFBTTlDRm1UT0ZiZmxWbVgxR01IMjNvV0lNVlRnX0czNmVsMUJ1SURSN3BxN3NlbXJDWUxhY3dSSG1senkyM1lNOF9WVUtsaDZzVk5Yc2FCWGExb01udHo0ZWtES0R1cndXYk5QOU1KS25xMW5LeUhpZXlkV3Q3RmFnYVBiS1djUmdWdG8xSHd1aTVYbTR1WVA0SVZmU0twb3ptTnQxT3R5TGhucUV6UWJaWlM3dk5WXzRHeHh3cWNKbHhYZzF0cQ?oc=5"
+        },
+        {
+          "titulo": "Destinos naturales que enorgullecen al Perú y deben visitarse por Fiestas Patrias - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-27T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM3FweHpIZnFFWGxfOGRfRXViSEg5cFR2anVpUFAwdTE4VkNlNFMtUklHTVo2M1NWVEZHMVRSSTFQeUwtQU1VRGV0QVVkZFVOMU5hb0FwbFd5bDlMQWFKbmZGZUFfX0FMWWg4WlJBUUxwemFtWWtodjR4OU5nUXpnQS1oN1pMTndIUXZCRVpydWtlVFQzQ0JXNnNTZFNUTWxRSTlPMTNZX3h4WVpjN2poR0JBSzF3RW9qYWhISmNTUWktQ3Y5U1NIUk5IRnBhbm9sSEE?oc=5"
+        },
+        {
+          "titulo": "Presidenta de la República lució traje de diseñadores peruanos en la Gran Parada y Desfile Cívico Militar - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
           "fecha_publicacion": "2026-07-29T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQenVBX3ZGNzVxaTJCMUVRazBMV0FoWTN1MHlkU3BoZV91eUZoRzdjX3hka21YblEzVlFwcG5GTUg4LXhWMWh1QXBsS3BZOVVDdElRLVNjVkNKZmhuUm9ZTTV4UmhURkcyUVlJcGNnc285b25DZ0RQTmtIQWh3TWxYUHVFY0dfTlE4ZlJLX09GY2Y3XzI1aE5GNGZHdGprZHBRR282d3NwQW1GQWlmZ0tsZnVsY3lDN01EYjlLQklwanFpT3gzbUFXeU0zWQ?oc=5"
-        },
-        {
-          "titulo": "Fuerza Aérea del Perú reafirma su compromiso con la soberanía y seguridad nacional - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-23T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZmR0NU5XX2ZkMFk1eTdYTDJ5QnREcm5hckZYR3dJRnBkX3FCQTgwZHF5eDJ3eFdZSlllODNxaW54eUJXdGdUcVFkbDVzcW51VnRRbnVRLUNsOWtEMGtmS0NGQ3ZmaUVZYkxPVkkzRDFGV1k5Wk9LVzdUYmI4ZjVxaVdvMXRlb2M3V0U0ZDUyd3VjY0E1cG50X2tuRXFkdEd6TXM5TWt0S2VXNTJUS1phOE5VTEJqdE8zN2xvVkpzX1VvZmVpOV9HekViNjdKQ2FOc3REVA?oc=5"
-        },
-        {
-          "titulo": "UCV busca al mejor estudiante escolar de La Libertad con concurso académico: conoce los detalles del evento - buenapepa.pe",
-          "fuente": "buenapepa.pe",
-          "fecha_publicacion": "2026-08-19T15:09:57",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nLWE5VS0yb21odGt3dU5wUkM0VVZPU3dyRmFkTkxNMEhIMzJEUlFzZU5FZ2RiVGpsUDRYSVM0RThRM09wbnNDVlVEMFVoZzRkblJtbjRUS3JNM2kyTnZfaE1YZjJacGRhTjJlR2FoakJVVjF3TEZrZXk4WQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRTg3dlk5ckNDR3JzZkV0ZkVScFplZy1zel94QUZCZTlvQWFEYVVVQlNCZGo5RklDOUZzc2VsTHpYbXhDaGhIYUU0ZEpYbHljQy1JamJrd3czVWp2b3E1SXlhMk00cjRIRXBfYXAybVpyQWZ6amdvMDB5RWNGUktHaEh2SmhHZnprUUxmRDZ3dktLY2ozenQ3WU4wQ2NsTWRYSG0zMFM0a25iM3hadFllQ0o3V1o3LUZuWWZJRGhhbVV4NXh1MVF4TkNLNWFCY1pxbi1la2JTV3hCZzdYTEY4WjNzWGFaUlRJc2J1VUxyZU04aC01MEE?oc=5"
         }
       ]
     },
-    "UPC": {
+    "UPCH": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-08-08",
-        "2026-12-05",
-        "2027-03-20"
+        "2024-09-15",
+        "2025-01-12",
+        "2025-01-26",
+        "2025-02-09",
+        "2025-02-23",
+        "2026-04-04",
+        "2026-04-26",
+        "2026-06-21",
+        "2026-09-13"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "UPC se pronuncia tras caída de estudiante desde techo de edificio en Monterrico: \"Recibe atención especializada\" - La República",
-          "fuente": "La República",
-          "fecha_publicacion": "2026-09-02T15:20:34",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZmk3Sm9zc0J4OXpaeXUyenNiTUlzV2JfcWFDWkxoMkpkRjhSMDVySG80Nm96NDdNR3g4Y3U5MjJuZzlvNzliOVpuZEZtX2VHRGFLYjhmQnU0dlRnUEFpZ0pJdUo4NVRhVFMteEFPa3d6S2MybDA0S1U2NGJEaFBNM0tHYzliWUVGQlJSZTVzSlNVcEtrYXo0cTN0bTF1WXlRTVJINnpETEhBd0tQUHhUVjJvdXQ4X1ZXSHRnNkxWLW5fNFcxNGVaa0ZaRkRXaHRLeGtHUkVoUktVT1czeWNka1N0WmhBZGJtZVg4c2ZWONIB9AFBVV95cUxQMjNRVU5CNlIyVExFc3BxYWxkQmFFNHlmc3hnTkZtZ1JOWWVHamJwMjNJUVFPRnhEa2VjME1mUnlsbE9fX2Vidk1QQ3l3R2xFRWkwV2N6SnVOUWVlVEUyLXpOdVN2ZVVCQURKRlRsd0pYcWhtN2dxRVpuSkJHNjdGZTVQempDUVhFNHVyb0xWczZRR0ZrNEdrb2NFTHFzc3ZtQno5VnZZRVJuWEItUXkxQ2U4RHFPeGZpWWRGTEV0N29wZG5XTV9fa29XQ1hCTkdVME5XWmxnNkVPMHJKQzN5WEpXRHVJZmdSUkZMOW8zR1ZaQzIz?oc=5"
+          "titulo": "SUSALUD y UPCH premian las mejores soluciones tecnológicas en salud de la Innovatón 2026 - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-09-03T01:20:00",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVkdwRFE3cXJLckQ2dndmWmJPV18xc1J4R3QtcDBlSXI0M3pqVjZDbXZtMERONjJXNklwT0JrdDRzX1liREZ4a085MFQyYm1lRHRwSmlidmpWSUY4RXdYQmsxQXA2WlNfSnRlWk1KVFhyTXFjWElYb1g4YWxIaWtiTHJ3SzduMWQxQ21YaHotZDZvNVBGRkhnMkxTaXkyUVpSaWlxSHEwUXc0SHh4Z1kwVUJveEhwbE5QQ2ZWODdfSHBHWnpRY2Flaw?oc=5"
         }
       ]
     },
@@ -82,52 +176,34 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Glaucoma secundario en Perú: causas frecuentes y factores de riesgo - Chimbote en Línea",
+          "titulo": "¿Cómo enseñar pensamiento crítico en la era de la IA? - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-05T14:38:00",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM0dWdFRhMXlhbHQyMnNkWElfUUU2eXFxOXp0VVF6eVpvaEpQSUpZVm9ta0N4S3hzU0dvc0MxT1lSQ1J2OEZxMmJkQnNqNzlWX2p5R1Rxdnd4ZkhuaGFxVlp1SmNUQ3Z2MVhDa0VYZ2IyZlh4SUxFQVVKYkRJOTd6clFaMkRJS01ub2tjaGhtM0lRTFJpRUx4Q19jV0xLckpoTDdFNTNTVTJOdGZwUGthaWlfWUJIcFd6ODVfMTBn?oc=5"
-        }
-      ]
-    },
-    "ENP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Excadetes navales vivieron una jornada inolvidable en el Día del Recuerdo Naval - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-09-06T03:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPejJjMVFNRk9xeXlwSE9lanVadVlyRU9WNjBCcy1wSFl4S1FLQmlQM3VPa2RPajJHcmtVbFJZazUzQy1nQVhvZXFUcVlINTRBZTR6RzJCLVRTbWszc005cV9Qc21iZjZkX3F5cUlhOWUxcTdFcGhic3BVQmh0UUhPbjl1QmdvcnVnV3BTaTFoRjY3bl94b19fejQzcTNXWUdsY01fRUNsOGxlVGFkcGJxbzBqcGZ3VzVHWjA2dlBiRFE?oc=5"
-        }
-      ]
-    },
-    "EOFAP": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Admisión de la FAP 2027: requisitos, carreras y fechas para postular a las escuelas de Oficiales y Suboficiales - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-06T15:51:23",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQVFvQURZYmJ0b1A5NUUzWEFMQzFLQjhMVk5fYU1TSUNseVdmRzVlSU1TUUJFLXJDQXN0dUV5TGg5Y0RKVzJGSGtIMjJoUU15MFJBT3VES2MycWtrNVF2SlhvVmVDQXlvRmtlYnFNa1BmTlN1Q1Z3dXo0Vm5MVnNrUTh1TF9sdXRYMXdIMFJPeHNhbFFSQUFmQmVvTnUxaEtPN2ZNSVFiS2FHUFNMVmVKLVJkWFZxTk5uR19tcGlJd2lBdFBHbng2MjNUYm1Zdl8yUV94ejBJQklDTlZvLUFDaEp0R1LSAf8BQVVfeXFMUFF6TnJBOVBEbGpsZ1dSM1VBOUUwOGhmTjc5Y211YUZmZG5qdTl4WTM3aGc0R0RXSjVCQ0hUeXdpTzBHZ0QteENuWDNBZEZ6b2dtOU9BVERWeEQ5VFlTN1B0T3BFcktxeE1STnVsQVFvQkNyanNJLWwwZVEwYi1Ub2JsdGJUNTlpX0ZFTmtsN0t2VTBra2hwRWVtR2lKSnNDeEdtSng1eE56aG5pVW9xSno2VzQ3b3VRQWZqRVpiQjZYTF96N1dFWHllOXA1WUJ4V0FibndzRlhrM29kRXBDd09Ga3ZjR0dNLXg5ZGZ2NHRfeDdEZUJQLVpVaDdzS1NB?oc=5"
+          "fecha_publicacion": "2026-07-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbzRfa2NXWE5WZGFPV2FSX3RMTzdDNlY3cWVqaW1oMm8zNVJRRVMxamF1c1VmMUZzSzNLQjRMR3NocmYzVHFVeVMyeVJ5VXY3cm5VVTJSRzlCbm9QMnp0U3JkZ0c2VUNFb05hTHdma0NpMk9SNl9lYmZaLTBmNEw5anNMMzhKeUdQUXB5TlQ4bFdpN25KSVlqRWRSaXJndlJ1UXhUUw?oc=5"
         },
         {
-          "titulo": "FAP abrirá próximamente las inscripciones para su examen de admisión 2027: conoce las vacantes y sus carreras profesionales - Willax",
-          "fuente": "Willax",
-          "fecha_publicacion": "2026-09-05T23:23:59",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WTlFoWkJodkM0ZFFSN05nZGZNc3VsVWdCTUViNmc0MXVMS1o4aHRYUkcwNDdWMlhmbWNKVUFIY3dacDRIZWJhNXBUUnhXbFdIV3BSMjZjNXlXcFRQVkhZckUweXhXY3VzVlp3dXk5NjFJTWZKbVR0WmVLbw?oc=5"
-        }
-      ]
-    },
-    "PA": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
+          "titulo": "Profesionales peruanos ganan becas de Hungría y fortalecerán conocimientos - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-31T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUUFDY2pYRFpvS0VkalJ4OW9ka0JCLWhrN3VSdEdwb1dkbExsckdJR0p0eW51SGdvRXpoRU82S0tqRTVUWnlLZS1LRW9nQTdUb1pzZVppWGVjS29MNnBFQ3Qzc1hQb0RkQXdVcllUU1pXd3B2b3l3U04xcWFJbFpRN2lCb3g4UlBmN21nQ1NZVEZreEhDZVJFcF9JRFZNMTdQZDAxeUNRaGxzeUh6Q0Z1cUdLc1FCS1FhTkdyRGpGUjI2RnRDZGNLYzFjTQ?oc=5"
+        },
         {
-          "titulo": "Admisión de la FAP 2027: requisitos, carreras y fechas para postular a las escuelas de Oficiales y Suboficiales - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-06T15:51:23",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQVFvQURZYmJ0b1A5NUUzWEFMQzFLQjhMVk5fYU1TSUNseVdmRzVlSU1TUUJFLXJDQXN0dUV5TGg5Y0RKVzJGSGtIMjJoUU15MFJBT3VES2MycWtrNVF2SlhvVmVDQXlvRmtlYnFNa1BmTlN1Q1Z3dXo0Vm5MVnNrUTh1TF9sdXRYMXdIMFJPeHNhbFFSQUFmQmVvTnUxaEtPN2ZNSVFiS2FHUFNMVmVKLVJkWFZxTk5uR19tcGlJd2lBdFBHbng2MjNUYm1Zdl8yUV94ejBJQklDTlZvLUFDaEp0R1LSAf8BQVVfeXFMUFF6TnJBOVBEbGpsZ1dSM1VBOUUwOGhmTjc5Y211YUZmZG5qdTl4WTM3aGc0R0RXSjVCQ0hUeXdpTzBHZ0QteENuWDNBZEZ6b2dtOU9BVERWeEQ5VFlTN1B0T3BFcktxeE1STnVsQVFvQkNyanNJLWwwZVEwYi1Ub2JsdGJUNTlpX0ZFTmtsN0t2VTBra2hwRWVtR2lKSnNDeEdtSng1eE56aG5pVW9xSno2VzQ3b3VRQWZqRVpiQjZYTF96N1dFWHllOXA1WUJ4V0FibndzRlhrM29kRXBDd09Ga3ZjR0dNLXg5ZGZ2NHRfeDdEZUJQLVpVaDdzS1NB?oc=5"
+          "titulo": "Secretario de Estado de EE.UU, Marco Rubio, destaca que investidura de Keiko Fujimori aporta estabilidad política al Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-07-31T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPRkpLZ2YySGEtS2pCWkdsX3Rrd2MxWnBRa0p6RElCaEotV1dhZ1BlZnNZeUphZC1kcUY2X1lvQUZ3X0FWYUFBTTlDRm1UT0ZiZmxWbVgxR01IMjNvV0lNVlRnX0czNmVsMUJ1SURSN3BxN3NlbXJDWUxhY3dSSG1senkyM1lNOF9WVUtsaDZzVk5Yc2FCWGExb01udHo0ZWtES0R1cndXYk5QOU1KS25xMW5LeUhpZXlkV3Q3RmFnYVBiS1djUmdWdG8xSHd1aTVYbTR1WVA0SVZmU0twb3ptTnQxT3R5TGhucUV6UWJaWlM3dk5WXzRHeHh3cWNKbHhYZzF0cQ?oc=5"
+        },
+        {
+          "titulo": "Korina Rivadeneira celebra el cumpleaños de su hija mayor, pero Mario Hart es el GRAN AUSENTE tras HUNDIRLO: \"No sabía que existía...\" - El Popular",
+          "fuente": "El Popular",
+          "fecha_publicacion": "2026-09-06T16:39:01",
+          "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMUFpZjNhaGUxV2FNRGFjdjBXcTlHeDZaUDdGMlVuR3ZkbW9uRnYzb3BiWGtfVEtNVlp4eEZ2Q2x3bF9HQ0lLbEs4cGpiX1RuSG5nX0RZSWRKeUZtcEdLeDd1OVdHcWJkUS04Tk4zcFBjWlpuQ3YtaVF2cWttUE1ibThWd1FFZW56RFlDUE1RNXliSFE4X3NzanBTcW9ad3NuZFRGWXFyTUFvS0FQT29uVzN0QkYybUoySkVJcnMxQ2Z0S2pDQlFHQktmQVN3SHgzdG56dTREdHdqN2ktLVNNbE90OVI0enFPc0xoVXdkcXl4TW83dVpoWHVJem1HNDBxOHFrci1Scm8zbk1rM0ZsZNIBkAJBVV95cUxQMUFpZjNhaGUxV2FNRGFjdjBXcTlHeDZaUDdGMlVuR3ZkbW9uRnYzb3BiWGtfVEtNVlp4eEZ2Q2x3bF9HQ0lLbEs4cGpiX1RuSG5nX0RZSWRKeUZtcEdLeDd1OVdHcWJkUS04Tk4zcFBjWlpuQ3YtaVF2cWttUE1ibThWd1FFZW56RFlDUE1RNXliSFE4X3NzanBTcW9ad3NuZFRGWXFyTUFvS0FQT29uVzN0QkYybUoySkVJcnMxQ2Z0S2pDQlFHQktmQVN3SHgzdG56dTREdHdqN2ktLVNNbE90OVI0enFPc0xoVXdkcXl4TW83dVpoWHVJem1HNDBxOHFrci1Scm8zbk1rM0ZsZA?oc=5"
+        },
+        {
+          "titulo": "Pamela López NO SOPORTA y le entrega a sus hijos a Christian Cueva tras nuevo romance y noches de fiesta: “Ya no puedo hacerme cargo\" - El Popular",
+          "fuente": "El Popular",
+          "fecha_publicacion": "2026-09-06T15:24:48",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNWG1KeEtOSG1taG1ZODNFVVRfZVlrRWNiQ3JBTHZ5Nll2dUlOOHlsUWVPWWdRTWxmTjJBb2NLeU96SlRwam1GS3lrSFVhZ01PakJLTndvRUNMbnY5a2cySXlrekJDbVIzWENKWnhrYUx1RFVhVVo3RTJmOWJPUDdySnlJMDAxenF1dW12R05Tb0hDdmZxVGREUUdnN2Rrcm4zSHBRT3RQTFVJU3V5WEFxa3VyRi1jajVUMkdVUEJFMnNMTHRjODAtRU9FUU40NmVxc1NVekRaLVE1ekxPNWo2Vy13dUw2MkpON2RmOU9Ba3JEbnJHbTMyMEVxZmhFbndjN0pZdElETTR5Qm1vSy1rUFVUUTHSAZQCQVVfeXFMTVhtSnhLTkhtbWhtWTgzRVVUX2VZa0VjYkNyQUx2eTZZdnVJTjh5bFFlT1lnUU1sZk4yQW9jS3lPekpUcGptRkt5a0hVYWdNT2pCS053b0VDTG52OWtnMkl5a3pCQ21SM1hDSlp4a2FMdURVYVVaN0UyZjliT1A3ckp5STAwMXpxdXVtdkdOU29IQ3ZmcVRkRFFHZzdka3JuM0hwUU90UExVSVN1eVhBcWt1ckYtY2o1VDJHVVBCRTJzTEx0YzgwLUVPRVFONDZlcXNTVXpEWi1RNXpMTzVqNlctd3VMNjJKTjdkZjlPQWtyRG5yR20zMjBFcWZoRW53YzdKWXRJRE00eUJtb0sta1BVVFEx?oc=5"
         }
       ]
     },
@@ -136,10 +212,16 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Tec Saltillo recibirá a más de 700 nuevos ‘Burros Pardos’ en enero de 2027 - vanguardia.com.mx",
-          "fuente": "vanguardia.com.mx",
+          "titulo": "IPD anuncia remodelación total del Estadio Nacional con inversión de S/145 millones: no permitirá conciertos tras polémica clausura - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-22T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPaGhVdFBuS1VOVm5jMnRsdkEtQVBRMFo3dUdSNm9Uc0NDYTRoalJXZUtobVE1QmE2aTY1ck9fblZ5QXJKa1pIZHhWV1FqdFZ5bFB4eHhJRDZlM2g4cGs5cWpyS0c0R1luUzJIWFNiUnpSYm53V0dBa1N5cGppRmZHOW5PVHJxcmcxeWRNWEYtZi01Y0phUjRUVE5IbmwwZDVXWGQyTzZuTE9jaEtPLXAySk40cHFTRWE3eGQxMThDRnVuaEsyR2ltNVFuZVRpVWFwQ1gza3dQc0lKdHFSd3lYQ0FGcWh2Z1FTbUY2NXFuakEtWXViTjdaZjRGN3o2cEHSAZoCQVVfeXFMTlBVZUdJVC05Sk1aM0FJS2hpOFpMQ3M0LXBNVUZ4OUl5TFpxOWN4N0Q0M2E2czdVQWExNm9oYXRQdmwzQ2xTeXdGbkVibUF6TlNhSGJieER3YlRpMWZhRFp3d3FTWXJ0cS1QRFhKaUlFelEwRDVlWGcxaG85OXRfODdqRnFUUFRndWYzYnVoMjlBY3I1QzJEekpUTlFTX2pKbVdOZ1ZLWk9adTJDQTJ5SGxwX2xHRi1USEs5NmtublFrb2NsT2pKbkJ3QzNHc3p5RjNnWGI1YU1fMWRsT0NXVVhQbkN4LUZoOTFzend1U2dPUmFXZTIyTzU4ckt1ajlLd3dCc01kRDQxejBpSW1HTGswQ3hJZy1NcXpn?oc=5"
+        },
+        {
+          "titulo": "Albergue del IPD fue fumigado mientras había deportistas dentro: “Estaba perdiendo el aire y la oxigenación” - Infobae",
+          "fuente": "Infobae",
           "fecha_publicacion": "2026-08-17T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObk53YUZleXBueU9zajBCR1lqNThFcmJQMjNfSzJxZjBfcFlCemNRM3B6VkhhcTZDUk5heURjNXlfVE1PSXNoLWlLNGkzRkVKWWVsOFhNYk9SeW5FbmVPakJXc2pOdVVreUdjYTRqOUNhRkJjMktDMW5NOVNheThJb245RGlRWEV2Tl94SFlVOXFlRV9kRjItajNJcVVWaEd6S2QwVWVsdkpnUWVSTWprTlY4RWhMOTBndmYxZFVmZXFkNFFSd3c?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSGxLa2VXMmxRaERLeFFmcllGWURTcXpOZ1dRNVQyTkdwRVNJLUozRlhVMy03RFFHMFhyVzRWdXJhaVVoSFlwbEhCdlFqRjU4VllmTWdrYUpoVFpWM1M1X2JpM1B4aWNYeUEwMU1MWGdsNGxFN3BMM2F6X2NQV0xGRXNRSW5xMGY1RFZmdjl5N0ZwVjlDdFJSY1JsVGZDYjEwcmFKMFBEOXppR2pKU0FjMEo4TGxLMVZFVm03U2lUWU4ybld4YWliSEtPYlVvUGtWYVBqUVFlSEVDRUhPOUpQTGdYZUUwSUNmRmtF0gGGAkFVX3lxTFAxTFg0MnBPQmZEcmlneG1wTnV0YXBPNktLNjZUN1lZZFJyZDY5QnFubVkyYU0zR1RjcGl4QWQtS1djMEpwMDVYeUVncGg3dmU0V1RETUlZYTd5N1Z2OHozMXljMlZiYWswMy1SZDUtMlZOUzBFTXFkR2FiTHNTODE2SzgyR0kwbmRsdXRrYUtZQlZxUm5lRXRzSDVGdVBsbkdBeGNGOHhVRkVNLWdBT00yWGhYc3pKcVRKdk1jVUdBcEdnNmROeG14aXFpMnFBejZSMzFKRFY0cHUxOGtGdWFzQXYyU3hzeVlwMjFXQ0cwLVp4NEZGS2NZRmI1LUI1VldHM2hVRXc?oc=5"
         }
       ]
     },
@@ -148,10 +230,22 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Parada Militar 2026: delegaciones de seis países presentan su saludo al Perú - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-29T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQenVBX3ZGNzVxaTJCMUVRazBMV0FoWTN1MHlkU3BoZV91eUZoRzdjX3hka21YblEzVlFwcG5GTUg4LXhWMWh1QXBsS3BZOVVDdElRLVNjVkNKZmhuUm9ZTTV4UmhURkcyUVlJcGNnc285b25DZ0RQTmtIQWh3TWxYUHVFY0dfTlE4ZlJLX09GY2Y3XzI1aE5GNGZHdGprZHBRR282d3NwQW1GQWlmZ0tsZnVsY3lDN01EYjlLQklwanFpT3gzbUFXeU0zWQ?oc=5"
+          "titulo": "La música gana espacio como vía de reinserción en Perú: el INPE firma convenio con universidad pública - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-11T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYTVoWV9qZjNTY0tzaVBja09GdW82ZHZ0S3g2QVlFS0Q5VkZja0x5YWVBaG1maE1lSFRXVUx3VlE5enRRVTJ1MnhiLTVXbmVuQ3ZBekJHXzFNeXVCQVpZcTdkU0ZMNmVMYjFUMi1NSkJLNTVnM1J6YWluUGhRNEszZlZnbWpjTW1sM0dfaHdHVzVVMGF3YS1tMEpzQnFrbHR6aDZvaHFaRlk2Sk9LYm90NTFxbFhBekQ1T2lSREZoU0o4SWhjUnZBRUd6eE1uSEdxa0tPQjR6ZmRJQdIB9AFBVV95cUxQN1VKbFlZTmRYM0dlRVhteGIzcXhJanNLUWN4bGdOb1YzeDloazdCeEVhRF85NHl6dDNQWmwxLVRjRDJqU2RtX2wzbEsyQUFaaVZCWENkN08zY0xTclFJVk9GWWwwNnNLMVlsOVRyOWN6aXh2aVRGNW9fcDkwOHpjMXduRnd6NnRYbjBHalpUVFYzbW5hYzNDYjViMjd0aWFWSHhMZ3ZzeXlTU1BjUEJyRFphOWlHUnZIOXBKUnBrRU5DZlVCdGFORFFrQWp1eWc0Z3IybnJ1ZEF2RXU0bk0zZWtfS1RWZ3hKTTVWanRJVnFITWFU?oc=5"
+        },
+        {
+          "titulo": "UNJFSC de Huacho enfrenta acusaciones por presuntas irregularidades en su examen de admisión - apnoticias.pe",
+          "fuente": "apnoticias.pe",
+          "fecha_publicacion": "2026-09-06T20:36:34",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaWwzREJiU2xLVjU2RU1SdmJyXzdnM25HSFVtV1R5OWNkYktUQm9tUm96bWxXQmRSQ2xMNVJsaEh3UkhodDk2TTUxSTlNTDZCVFZRU0MxZUdrQWpsMUR1SWFvWmRrQkdQX3I3MkRpb2o3R0MxZmI0TC1IOWEwMS05aUhUem1qYWd2S3FabllKTFVBQ2NmcC11ZkZjdG9XTm1ZSXdOSkJqVUtoVkdCMzhWWFJUX0xNS2l1Ul9vb1BWTUVtbnZkVzVYWFBXOA?oc=5"
+        },
+        {
+          "titulo": "Más de 5 mil postulantes rinden hoy el examen de admisión de la UNI - apnoticias.pe",
+          "fuente": "apnoticias.pe",
+          "fecha_publicacion": "2026-08-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMkdpektBVVloUjk5R2FaQnZFZHFSSFZFS1lmUlo3UzNYVExpcUxUakRRT2YyaHpaV0xRME1DcGdwQ3Q5RjZTc2VJYl9udjZzMk8yRmU5T1JiRkw4Zi1aVlF5azE0YjlYMEpvVDVNdHVWZElsdzlKenVITGotc0NPT0I4RXh5VzF3N0Vtc1BhUzAxeFMzalJBQ2tzMFRLX08tWVdMZEpOVF9uUQ?oc=5"
         }
       ]
     }
