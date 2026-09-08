@@ -1,36 +1,4 @@
 {
-  "generado": "2026-09-07T18:17:31.745134",
-  "universidades": {
-    "UNJFSC": [
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": "2026-09-13",
-        "inscripcion_inicio": null,
-        "inscripcion_fin": null,
-        "resumen": "El examen de admisión fue reprogramado al 13 de septiembre",
-        "fuente_titulo": "Examen de admisión de la Universidad de Huacho es anulado por presunta filtración de respuestas y se reprograma para el 13 de septiembre - Infobae",
-        "fuente_link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPWF9hRGRPZkpfcDlmaFNrMlQxcUV1OW5mT3FrLVNUci0zdjJJbU1pMWxjSi1jU1p3azhOTjZSd0hWYWo0Rnk5NjNlRVVLQ01qYlZzLUxvREJoVzMtM3oyejZ1V1oyOGN4WVhBMncyb1ZrS2xJRVl0VGdxZnhFZzdSWk8wOUE2UFJQZkhQMTRfS1NRYnJ5Y2FpQTlHQ1pjQXpzN1VWZWNGMUZSWERHbTI4NFM3UlhXRGdVeXRBY0IzR0RFSWswZHlFYndUWWFWNWRrZDdMby1Dak5oZFdhYXVzZ2paNDAxVEdmLTdyaDRaR1pHN0k3encwTE5NRnhjdlBrODUwM0VSNzDSAaMCQVVfeXFMTnRvV3k3Q0t1VkpaNUVsNEVkQVc3WVozREZqU0cybTFLNjc1RXlwa3dHYjViSnFCN0ptbWl5dVFVRTR0dzNQTUc5NEpma2E1MDlWMDczTmpFUEc5dFp0bzlwZ09sMi1qZkJKQm9uaDJFeU9GYm1OMXFrTEZRQTNxWHA1NGJPck9yODJaYmNSQUhjLW95YTM5R19FV1dJQkhaZXMwa3kyVmRuVnVJeWpiVzVWZUlQYjBuT1JZMktCci0tRXZzajdHYzBrdmpaSWM3RldwVW56N0JIWnAxNGtjRTI5Y2lzZzRKWXV4RS1lLVNsWnI1ekRoOVk2X2V0MmJCQWFkNHNQVTF4UHpYME1wUWFPOWxSa2gxS3pmMG5RRzJtNFJF?oc=5"
-      },
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": "2026-09-13",
-        "inscripcion_inicio": null,
-        "inscripcion_fin": null,
-        "resumen": "El examen fue reprogramado al 13 de septiembre",
-        "fuente_titulo": "Examen de admisión de la Universidad de Huacho es anulado por presunta filtración de respuestas y se reprograma para el 13 de septiembre - Infobae",
-        "fuente_link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOdG9XeTdDS3VWSlo1RWw0RWRBVzdZWjNERmpTRzJtMUs2NzVFeXBrd0diNWJKcUI3Sm1taXl1UVVFNHR3M1BNRzk0SmZrYTUwOVYwNzNOakVQRzl0WnRvOXBnT2wyLWpmQkpCb25oMkV5T0ZibU4xcWtMRlFBM3FYcDU0Yk9yT3I4MlpiY1JBSGMtb3lhMzlHX0VXV0lCSFplczBreTJWZG5WdUl5amJXNVZlSVBiMG5PUlkyS0JyLS1FdnNqN0djMGt2alpJYzdGV3BVbno3QkhacDE0a2NFMjljaXNnNEpZdXhFLWUtU2xacjV6RGg5WTZfZXQyYkJBYWQ0c1BVMXhQelgwTXBRYU85bFJraDFLemYwblFHMm00UkXSAaMCQVVfeXFMTnRvV3k3Q0t1VkpaNUVsNEVkQVc3WVozREZqU0cybTFLNjc1RXlwa3dHYjViSnFCN0ptbWl5dVFVRTR0dzNQTUc5NEpma2E1MDlWMDczTmpFUEc5dFp0bzlwZ09sMi1qZkJKQm9uaDJFeU9GYm1OMXFrTEZRQTNxWHA1NGJPck9yODJaYmNSQUhjLW95YTM5R19FV1dJQkhaZXMwa3kyVmRuVnVJeWpiVzVWZUlQYjBuT1JZMktCci0tRXZzajdHYzBrdmpaSWM3RldwVW56N0JIWnAxNGtjRTI5Y2lzZzRKWXV4RS1lLVNsWnI1ekRoOVk2X2V0MmJCQWFkNHNQVTF4UHpYME1wUWFPOWxSa2gxS3pmMG5RRzJtNFJF?oc=5"
-      }
-    ],
-    "M": [
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": "2026-08-10",
-        "inscripcion_inicio": null,
-        "inscripcion_fin": null,
-        "resumen": "Examen de admisión de la UNI se realizó el 10 de agosto de 2026",
-        "fuente_titulo": "Más de 5 mil postulantes rinden hoy el examen de admisión de la UNI - apnoticias.pe",
-        "fuente_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMkdpektBVVloUjk5R2FaQnZFZHFSSFZFS1lmUlo3UzNYVExpcUxUakRRT2YyaHpaV0xRME1DcGdwQ3Q5RjZTc2VJYl9udjZzMk8yRmU5T1JiRkw4Zi1aVlF5azE0YjlYMEpvVDVNdHVWZElsdzlKenVITGotc0NPT0I4RXh5VzF3N0Vtc1BhUzAxeFMzalJBQ2tzMFRLX08tWVdMZEpOVF9uUQ?oc=5"
-      }
-    ]
-  }
+  "generado": "2026-09-08T17:15:16.353050",
+  "universidades": {}
 }
