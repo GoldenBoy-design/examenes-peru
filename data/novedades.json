@@ -1,4 +1,218 @@
 {
-  "generado": "2026-09-09T17:12:33.901538",
-  "universidades": {}
+  "generado": "2026-09-10T17:03:23.229174",
+  "universidades": {
+    "UNTELS": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-02",
+        "2026-08-16",
+        "2026-08-30"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "La buena noticia para los postulantes a la UNI que todavía no logran su inscripción para el examen de admisión 2026-2 - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-08-02T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQODl0WDcwNWpmdUxqNnBZMXhIR0hrZFR3V3o2WGlpV3FiNmRya3A0ZWVKRng4cEF2R2lid1ZLTGYtRDNfTGRJdHA2OGdMYnoxeU5tdVJqVjZhTGh6YzVyT3JpaDN1bUlPNXZFTXhJeHNPQXpMME5MMUMwTFE2Nl9CUnpBcER3LTI0VHlvaUJiQmVGSHItdzc0bnltR2NQMFJoUzRHeFdJSW9JNFlLczliQnFEdTFrbEhFaWVQUThVay1HaGxSSzkxVUpXTXhPSk82akpfcU9GcDZvRkZ2Z2tyZEkyT1FGSG5CYTZJaU5sUUV1dzdpMVZWMVNn?oc=5"
+        }
+      ]
+    },
+    "UNJFSC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2020-11-16",
+        "2020-11-18",
+        "2020-11-21",
+        "2021-08-04",
+        "2021-08-07",
+        "2021-08-13",
+        "2026-08-23",
+        "2026-09-13"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | La Universidad Nacional José Faustino Sánchez Carrión (UNJFSC) anuló su examen de admisión, luego de detectarse indicios que habrían apuntado a una presunta filtración de preguntas y respuestas del proceso de evaluación. 📻 - facebook.com",
+          "fuente": "facebook.com",
+          "fecha_publicacion": "2026-09-06T19:18:39",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOR2g4cWZ4WlFWUFROeDlIdGdOOHZoSTZ1bmRFejhwLUdkRE9xM192X0VpYkNUeFliUWl6RW9PSUE1WXJpbGdzQ0ZjUkZJVHJjUXF0TXNFNDA1YUdTeTlmYU9TQks1WThjb3MtTlZzQUZqNkcwNXhoa3VXZzN2NGl0YnkyXzQ0LUdoMkswbmtDRkZ2Z1hFQlhPTnpFemhjd1NIbldmbGd2QzBRVHd1QkxuUXVDV3R5Mk9IQUN4M3p5M2ZQbHg3c1pGYVFIbnBVT2h3djM1dkJhR21peUhXT3JtTFN1VmYtc3ZvRjdHZjRPSmFELWJXVnVNM0R2Vi1MZmM?oc=5"
+        }
+      ]
+    },
+    "UNI": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-02-16",
+        "2026-02-18",
+        "2026-02-20",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-08",
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "La buena noticia para los postulantes a la UNI que todavía no logran su inscripción para el examen de admisión 2026-2 - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-08-02T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQODl0WDcwNWpmdUxqNnBZMXhIR0hrZFR3V3o2WGlpV3FiNmRya3A0ZWVKRng4cEF2R2lid1ZLTGYtRDNfTGRJdHA2OGdMYnoxeU5tdVJqVjZhTGh6YzVyT3JpaDN1bUlPNXZFTXhJeHNPQXpMME5MMUMwTFE2Nl9CUnpBcER3LTI0VHlvaUJiQmVGSHItdzc0bnltR2NQMFJoUzRHeFdJSW9JNFlLczliQnFEdTFrbEhFaWVQUThVay1HaGxSSzkxVUpXTXhPSk82akpfcU9GcDZvRkZ2Z2tyZEkyT1FGSG5CYTZJaU5sUUV1dzdpMVZWMVNn?oc=5"
+        }
+      ]
+    },
+    "UCV": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-19",
+        "2026-08-23",
+        "2026-08-29",
+        "2026-09-27"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Marco Rubio: “Estamos recibiendo a Perú en el Escudo de las Américas” - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-09T02:42:00",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR2J3ZVliZVlMU0NVMVZvZlFxX2lBTnNaXzR2dV9LRG5IZEtkVEx1MWFnQS03UkE0eDk4akJNQXNnVnNWWVVoeVp0eVVkZ0dlR0E0N3BBSnhKckZsZ3l3MkV4LUpEcHdzSm4wMTBDV29QN3pCazlHRWsyMi1USml1a0hqM3g3WEFXYjI0eWVucTBSUTRpMDRia2pRZWRoRWk3X3YtMklWcW9uaDBpSFdNVkk4N1IzRElmejVGWmQwUQ?oc=5"
+        },
+        {
+          "titulo": "Secretario de Estado de EE. UU., Marco Rubio, arribó esta noche al Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-10T01:57:00",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ210QnhFV0h0LVV3aWJ1VTNxd25ucG5RdVZIUmRhWWh3cnpYOExKN094UV9nUE1scXFkRHA1Q3NZSDJ2OGlqNTJfMnl3aTQ5bktBMHRnY2REYml2SzlUYy1sNnhGR2hOakVyZ0FlenlHcnh2RzdZcks1UW5fakNPV2xmS0U4V1hQS0g5X2dBSDNVUWR2S1Q5elR1MnpSa3N6aXBLNk90eDdNV3Y3YVJWTlgxdXFQUUJjbUlmNXhma2U?oc=5"
+        },
+        {
+          "titulo": "ADN de más de 6,000 años revelaría continuidad genética de los mochicas en norte del Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-10T03:10:00",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMjZuVjlheEx6RVZpMlFlVzNwUXZveXVmcHpscGN1bzBqcHFvSW5zMjlIa0JfdlZYMWZPbjdFOV9LYWJLdzl1aDlWNU91cml3YlE4anA3alVGcngySnpTZWN3TmJXRFBYQlN4UmZzV0xRYkhPaFZxRVEwdTdLQnZUNmhoR1pMZXRMTDFDeS1kUWROM0JCSmhiSDlOWW54ZG84aWpZaVVQMXh6T3RBNGhiNXpEeks2TVJhUmNhbEFaYnZBMzVGQmdERkk0UTIwR2hjVlFWQkU1UjNoejI4S3Fn?oc=5"
+        },
+        {
+          "titulo": "“Hay 150 cuerpos de peruanos pudriéndose en una morgue de Rostov, en Rusia”: viuda denuncia abandono y pide pruebas de ADN - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-09T03:55:00",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQWS1CSEhaTFduX2hJX3Q0enBFSFUyT1VlSlNGeHVCaWt2bXlxU3BwVFNfNEEtYnZzQVYwaFNqRldzOW5MU1ZVLW03RGNNVkl2NEJ4bG1FZXdiaEhKM3dSTGU3NlY1T0xoRDZDWXlXZnRDTjJNSVlLN1FyZW9nMnNiZnpVWVlXNVVJWFJhQTR4dVJyYUFncDUyNjZTMlRzLTZUaUZrcU56cUpMckttbDU2UzdOeXZRUXV4VHBsUEZXOHZIZUI2ZllCN2RDd2ZxS3h2d1lHVG5VMGNwcnRBb0ZBRGJmcnJJR3N2ajBjQWVLNzIyQXZwcC0tSkpYWEdPdVlQMUczWQ?oc=5"
+        }
+      ]
+    },
+    "UPC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-08",
+        "2026-12-05",
+        "2027-03-20"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Hem.IA desarrolla un sistema que analiza muestras de sangre con inteligencia artificial desde un celular - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-08T13:58:54",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNLWswMl9vTTBmdWg3VGJMb3Y1RThva3hFT3h2bEdQSm8yV21keWpfQXBJRExna1JfME9qT0dWcmwxeHB0WWhyeFNOSTZ2anlwLTlvQ2pkRG5GcVBKcmstdUl5SU9kYzUxbkpPYkxDS1VSZE8wYW9nWkpmSndRTmJUb2JjSXhzWGxqeGxVVHppS1A5OTVfVmZ5cWxkbURaT2tpUkRUdDFvM213M2RoM2FYZHg1N3NmaTdRdml0TXhsazYtWWRVVW9BbWFWNGpFb2M2Mm5UdUlvOVlwbFRf0gH3AUFVX3lxTFBYd2JKYmFIdlo2amhGcDV3TGowOHBsSFZzWEZLdlRQVC1Ma1Q4UHpkY29TX19BYkRMbmhXZkNhSkhaSzBsUEw3cjJfN19GZkRMRTRhd0RRZWRWeEFBeFVXZl90X1F4ZDBtMXpzQkpqVld5OWJwQTRwV2NoSDdabjVDUnIzNjJ1R1NRcFRLRlpxQVJxWTV0Q1I5d2diY2FWOGZNVVlaVGk3NXBpeWU4cmg3NVBBRE1FM3c4cGxKQzdyd21EVW1CMmxWS3JYcnpZcURaTlA5YXdWVEZiYjVsMzkxNmhNU0pqclg5TGF1T1hFVzE0N2h1dlU?oc=5"
+        }
+      ]
+    },
+    "URP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-07"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Perú gana medallas de oro, plata y bronce en olimpiada de biología en Brasil - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-09-10T01:09:00",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOS1SdXdBc0V0c01zTHFnWUkzQ3NRZUxjNjFHXzkwZk0zSzhEUzFQUUpGSF9NNm84QkxLVmdKT3YyMS0yemJCbDJJelBFXzdqN3g3cUZBb1RDWHVBdXdaUmVsSUk1MjMtZ0tvZEI5LVF1Vm5fM1JLUGNIc3lMU2ctUktRcHkxazAyV3pTZzVJYXpQRER1ZjJQb2Q2QjE4RGhyTVBNMHl3UWlYQlI0QWhj?oc=5"
+        }
+      ]
+    },
+    "UPCH": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2024-09-15",
+        "2025-01-12",
+        "2025-01-26",
+        "2025-02-09",
+        "2025-02-23",
+        "2026-04-04",
+        "2026-04-26",
+        "2026-06-21",
+        "2026-09-13"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Feria tecnológica de la UNI: proyectos de IA, robótica y energía disponibles hasta el 10 de septiembre - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-09-09T20:10:29",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMG1aSnlXLTRsVHJiTjRNb3RjMW91aTZLSWYtOXVtcnFXUWFmNU5YdVpxY2FDam9Kck9IQmJBMWg5TDV5Z1BQX09MVWhhYjNpTGVUZDhRMGVrcUNEYlRpNEFYbDdIbjVsWFJSbElleDlDRUN0XzBwSk12bndsUnRPNF9NSGxOMTZnem5ZTGpuT0t3Rm9ka1FaWnhvMldQN25IVEdpaE1ra0E3NS0xUmIxNHB3VWhtNFlJNGJ4Z1pFOU5ZeFc4WGR3Tk9xeDZNYVRheFhfaE0yb1VNeFNXWlVSWDI2MHVjcUtQYkHSAeoBQVVfeXFMTjBtWkp5Vy00bFRyYk40TW90YzFvdWk2S0lmLTl1bXJxV1FhZjVOWHVacWNhQ2pvSnJPSEJiQTFoOUw1eWdQUF9PTFVoYWIzaUxlVGQ4UTBla3FDRGJUaTRBWGw3SG41bFhSUmxJZXg5Q0VDdF8wcEpNdm53bFJ0TzRfTUhsTjE2Z3puWUxqbk9Ld0ZvZGtRWlp4bzJXUDduSFRHaWhNa2tBNzUtMVJiMTRwd1VobTRZSTRieGdaRTlOWXhXOFhkd05PcXg2TWFUYXhYX2hNMm9VTXhTV1pVUlgyNjB1Y3FLUGJB?oc=5"
+        }
+      ]
+    },
+    "UTP": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Marco Rubio: “Estamos recibiendo a Perú en el Escudo de las Américas” - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-09T02:42:00",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR2J3ZVliZVlMU0NVMVZvZlFxX2lBTnNaXzR2dV9LRG5IZEtkVEx1MWFnQS03UkE0eDk4akJNQXNnVnNWWVVoeVp0eVVkZ0dlR0E0N3BBSnhKckZsZ3l3MkV4LUpEcHdzSm4wMTBDV29QN3pCazlHRWsyMi1USml1a0hqM3g3WEFXYjI0eWVucTBSUTRpMDRia2pRZWRoRWk3X3YtMklWcW9uaDBpSFdNVkk4N1IzRElmejVGWmQwUQ?oc=5"
+        },
+        {
+          "titulo": "Secretario de Estado de EE. UU., Marco Rubio, arribó esta noche al Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-10T01:57:00",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ210QnhFV0h0LVV3aWJ1VTNxd25ucG5RdVZIUmRhWWh3cnpYOExKN094UV9nUE1scXFkRHA1Q3NZSDJ2OGlqNTJfMnl3aTQ5bktBMHRnY2REYml2SzlUYy1sNnhGR2hOakVyZ0FlenlHcnh2RzdZcks1UW5fakNPV2xmS0U4V1hQS0g5X2dBSDNVUWR2S1Q5elR1MnpSa3N6aXBLNk90eDdNV3Y3YVJWTlgxdXFQUUJjbUlmNXhma2U?oc=5"
+        },
+        {
+          "titulo": "ADN de más de 6,000 años revelaría continuidad genética de los mochicas en norte del Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-10T03:10:00",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMjZuVjlheEx6RVZpMlFlVzNwUXZveXVmcHpscGN1bzBqcHFvSW5zMjlIa0JfdlZYMWZPbjdFOV9LYWJLdzl1aDlWNU91cml3YlE4anA3alVGcngySnpTZWN3TmJXRFBYQlN4UmZzV0xRYkhPaFZxRVEwdTdLQnZUNmhoR1pMZXRMTDFDeS1kUWROM0JCSmhiSDlOWW54ZG84aWpZaVVQMXh6T3RBNGhiNXpEeks2TVJhUmNhbEFaYnZBMzVGQmdERkk0UTIwR2hjVlFWQkU1UjNoejI4S3Fn?oc=5"
+        }
+      ]
+    },
+    "PA": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "La buena noticia para los postulantes a la UNI que todavía no logran su inscripción para el examen de admisión 2026-2 - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-08-02T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQODl0WDcwNWpmdUxqNnBZMXhIR0hrZFR3V3o2WGlpV3FiNmRya3A0ZWVKRng4cEF2R2lid1ZLTGYtRDNfTGRJdHA2OGdMYnoxeU5tdVJqVjZhTGh6YzVyT3JpaDN1bUlPNXZFTXhJeHNPQXpMME5MMUMwTFE2Nl9CUnpBcER3LTI0VHlvaUJiQmVGSHItdzc0bnltR2NQMFJoUzRHeFdJSW9JNFlLczliQnFEdTFrbEhFaWVQUThVay1HaGxSSzkxVUpXTXhPSk82akpfcU9GcDZvRkZ2Z2tyZEkyT1FGSG5CYTZJaU5sUUV1dzdpMVZWMVNn?oc=5"
+        }
+      ]
+    },
+    "IPD": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Copa Perú 2026 inicia su etapa nacional con respaldo del Instituto Peruano del Deporte - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-08-25T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeHRrOFpaTDdYVUsyTm1mcTFtT3RuUXZMMENNYkJ1QWRzMC10MUFDZnRMYXVFVUdTUHdrUmJrWlVWa1ROVjYwdTlCVzREakZBZl92RElma0ZQOHhDZUxCOFJyT1NDY3c0aGYya0dCMmp2b3k3RkprNXNYV3NqbzFBblR5bkhYMXlubE5lTGJObzZKYVBxQ2tVSEo4SFhUWGM1MjN1MDJIWG45MVA3aDBwbXBZSkJHaGx4V1lVcWtKOER6QWxrN1p3Vw?oc=5"
+        }
+      ]
+    },
+    "M": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [
+        "2026-08-10"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Festival “Cuerdas al aire” ofrece esta semana conciertos gratuitos de guitarra en Lima - El Peruano",
+          "fuente": "El Peruano",
+          "fecha_publicacion": "2026-09-09T19:44:00",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaFVtdWMwQjZoWWxQTkUtWkpudTRWUEsycVhzSVNfNG1qbFlta05BSmkwVmNzWW1xUWo4U2gxYW9oZUl5b0d6QVd0NXFuSTkzTDNGRnI0Q1RZc1NjOExWZ21HZ0ljTGdidlpEWEFBUmM4cjNIS0lDUEJmSTI2UmhvWlFjQnNJNE44TU1KNEljdmJHSFc2bzd0RWZQMHo4UG9ITGZpN1QyZGgyN0ZackNrZWJKZkN1alpucnlCSg?oc=5"
+        }
+      ]
+    }
+  }
 }
