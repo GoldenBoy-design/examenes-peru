@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-10T16:56:30.547832",
+  "generado": "2026-09-11T16:57:21.973440",
   "universidades": {
     "UNAC": {
       "error": "no se pudo descargar la home"
@@ -14,9 +14,6 @@
       "error": "no se pudo descargar la home"
     },
     "ESOFA": {
-      "error": "no se pudo descargar la home"
-    },
-    "UNJFSC": {
       "error": "no se pudo descargar la home"
     },
     "JCMM": {
@@ -34,8 +31,8 @@
       "costo_prospecto": null,
       "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
-      "modalidad": "Pregrado con tres vías de ingreso: FASE I, EXTRAORDINARIO y FASE II",
-      "resumen_parafraseado": "Para el ciclo 2026‑II la UNJBG realizará el examen de admisión el 12 de julio, con inscripciones abiertas del 15 de mayo al 26 de junio. Los aspirantes pueden postularse a través de las modalidades FASE I, EXTRAORDINARIO o FASE II, según su trayectoria educativa.",
+      "modalidad": "Examen FASE I, Examen EXTRAORDINARIO y Examen FASE II",
+      "resumen_parafraseado": "La UNJBG brinda tres modalidades de ingreso a pregrado (FASE I, FASE II y extraordinario) con un examen programado para el 12 de julio de 2026; las inscripciones se inician el 15 de mayo y finalizan el 26 de junio del mismo año.",
       "confianza": "alta",
       "fuente_url": "https://admision.unjbg.edu.pe/"
     },
@@ -47,7 +44,7 @@
       "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
       "modalidad": "Presencial",
-      "resumen_parafraseado": "Para la admisión 2026‑I la universidad ofrece la modalidad presencial y contempla exámenes ordinario y extraordinario; los aspirantes deben inscribirse a través de la página web y pueden consultar el instructivo de inscripción, el prospecto, el cronograma, las vacantes, la estructura del examen, el temario y el tarifario.",
+      "resumen_parafraseado": "La admisión 2026‑I se realiza en modalidad presencial, con exámenes ordinario y extraordinario; los aspirantes deben inscribirse a través de la página web y pueden consultar el instructivo de inscripción, el prospecto, el cronograma, las vacantes, la estructura del examen, el temario y el tarifario.",
       "confianza": "media",
       "fuente_url": "https://admision.unica.edu.pe/"
     },
@@ -59,9 +56,21 @@
       "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
       "modalidad": null,
-      "resumen_parafraseado": "La Dirección de Admisión, dependiente del Vicerrectorado Académico y liderada por el Ing. Joao Johan Huapaya Contreras, se encarga de planificar, organizar, coordinar y ejecutar los procesos de admisión, así como de elaborar prospectos, establecer trámites y mantener actualizada la base de datos de postulantes.",
+      "resumen_parafraseado": "La Dirección de Admisión, dependiente del Vicerrectorado Académico, es responsable de planificar, organizar, coordinar y ejecutar los procesos de admisión, así como de elaborar el prospecto, establecer trámites y mantener actualizada la base de datos de postulantes.",
       "confianza": "media",
       "fuente_url": "https://web.undc.edu.pe/"
+    },
+    "UNT": {
+      "fechas_examen": [],
+      "inscripcion_inicio": null,
+      "inscripcion_fin": null,
+      "costo_prospecto": null,
+      "costo_inscripcion_estatal": null,
+      "costo_inscripcion_privado": null,
+      "modalidad": null,
+      "resumen_parafraseado": null,
+      "confianza": "baja",
+      "fuente_url": "https://untumbes.edu.pe/admision/index.php?l=7"
     },
     "UNMSM": {
       "fechas_examen": [],
@@ -76,20 +85,6 @@
       "fuente_url": "https://admision.unmsm.edu.pe/portal/"
     },
     "UNSAAC": {
-      "fechas_examen": [
-        "2025-01-21"
-      ],
-      "inscripcion_inicio": null,
-      "inscripcion_fin": null,
-      "costo_prospecto": null,
-      "costo_inscripcion_estatal": null,
-      "costo_inscripcion_privado": null,
-      "modalidad": null,
-      "resumen_parafraseado": "La Dirección General de Admisión de la UNSAAC se encarga de organizar y supervisar el proceso de ingreso de nuevos estudiantes, garantizando equidad y transparencia en la selección mediante concursos de admisión.",
-      "confianza": "media",
-      "fuente_url": "https://admision.unsaac.edu.pe/"
-    },
-    "UNT": {
       "fechas_examen": [],
       "inscripcion_inicio": null,
       "inscripcion_fin": null,
@@ -97,9 +92,9 @@
       "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
       "modalidad": null,
-      "resumen_parafraseado": null,
-      "confianza": "baja",
-      "fuente_url": "https://untumbes.edu.pe/admision/index.php?l=7"
+      "resumen_parafraseado": "La Dirección de Admisión de la UNSAAC coordina el proceso de ingreso de estudiantes mediante un concurso de admisión, garantizando equidad, transparencia y apoyo a los postulantes en cada etapa.",
+      "confianza": "media",
+      "fuente_url": "https://admision.unsaac.edu.pe/"
     },
     "UNS": {
       "fechas_examen": [],
@@ -121,24 +116,9 @@
       "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
       "modalidad": "Alto Desempeño Superior y Admisión Regular",
-      "resumen_parafraseado": "Los aspirantes deben escoger entre las modalidades de Alto Desempeño Superior (que agrupa Diplomas de Bachillerato, Rendimiento Superior, La Primera Opción y Evaluación del Talento) o Admisión Regular (La Primera Opción, Evaluación del Talento y CeprePUCP), presentar los documentos requeridos y pagar el derecho de postulación.",
+      "resumen_parafraseado": "Los aspirantes deben definir la carrera, escoger una modalidad de ingreso (Alto Desempeño Superior o Admisión Regular) y cargar los documentos solicitados; la universidad valida la información en un plazo de dos días hábiles y, una vez aprobada, el postulante paga el derecho de postulación y sigue el proceso a través de la plataforma de admisión.",
       "confianza": "media",
       "fuente_url": "https://admision.pucp.edu.pe/"
-    },
-    "UNE": {
-      "fechas_examen": [
-        "2026-06-28",
-        "2026-08-29"
-      ],
-      "inscripcion_inicio": null,
-      "inscripcion_fin": null,
-      "costo_prospecto": null,
-      "costo_inscripcion_estatal": null,
-      "costo_inscripcion_privado": null,
-      "modalidad": null,
-      "resumen_parafraseado": "Los candidatos deben registrarse antes del 24 de junio para presentar el examen de pregrado el 28 de junio, y antes del 28 de agosto para la segunda especialidad el 29 de agosto; el pago se efectúa en el Banco de la Nación entregando los datos personales del postulante y seleccionando el concepto de pago correspondiente.",
-      "confianza": "media",
-      "fuente_url": "https://www.une.edu.pe/admision/"
     },
     "UCV": {
       "fechas_examen": [],
@@ -148,9 +128,23 @@
       "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
       "modalidad": null,
-      "resumen_parafraseado": null,
-      "confianza": "baja",
+      "resumen_parafraseado": "El calendario de admisión indica que la fase A del ciclo 2027‑1 comienza el 27 de septiembre de 2026.",
+      "confianza": "media",
       "fuente_url": "https://www.ucv.edu.pe/postula"
+    },
+    "UNTELS": {
+      "fechas_examen": [
+        "2026-08-30"
+      ],
+      "inscripcion_inicio": "2026-06-15",
+      "inscripcion_fin": "2026-08-13",
+      "costo_prospecto": 60.0,
+      "costo_inscripcion_estatal": 300.0,
+      "costo_inscripcion_privado": 400.0,
+      "modalidad": "Ordinaria y Alternativa",
+      "resumen_parafraseado": "Los postulantes deben pagar S/60 por el prospecto y luego inscribirse entre el 15 de junio y el 13 de agosto de 2026, pagando S/300 si provienen de colegios estatales o S/400 si son de colegios privados. El examen de admisión se realiza el 30 de agosto de 2026 bajo las modalidades ordinaria y alternativa.",
+      "confianza": "alta",
+      "fuente_url": "https://www.untels.edu.pe/03Admision.aspx"
     },
     "UPC": {
       "fechas_examen": [
@@ -163,23 +157,24 @@
       "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
       "modalidad": "Presencial, semipresencial o a distancia",
-      "resumen_parafraseado": "Los postulantes deben presentar el derecho de admisión y el formato de consentimiento, luego rendir una evaluación integral (o la prueba específica de la carrera) en las fechas indicadas; si aprueban, consultan los resultados en la web y entregan la documentación requerida para formalizar su incorporación a la universidad.",
-      "confianza": "alta",
+      "resumen_parafraseado": "Los aspirantes deben postular presentando el derecho de admisión y un formato de consentimiento, luego rendir una evaluación integral (o la propia de la carrera) y, si la aprueban, revisar los resultados en la web y presentar la documentación requerida para incorporarse. El proceso incluye la posibilidad de repetir la evaluación una vez más si no se aprueba en el primer intento.",
+      "confianza": "media",
       "fuente_url": "https://www.upc.edu.pe/admision/"
     },
-    "UNTELS": {
-      "fechas_examen": [
-        "2026-08-30"
-      ],
-      "inscripcion_inicio": "2026-06-15",
-      "inscripcion_fin": "2026-08-13",
-      "costo_prospecto": 60.0,
-      "costo_inscripcion_estatal": 300.0,
-      "costo_inscripcion_privado": 400.0,
-      "modalidad": "Ordinaria y Alternativa",
-      "resumen_parafraseado": "Los aspirantes deben pagar S/60 por el prospecto y el derecho de inscripción (S/300 para colegios estatales o S/400 para privados) entre el 15 de junio y el 13 de agosto de 2026; el examen de admisión se lleva a cabo el 30 de agosto de 2026 bajo las modalidades ordinaria y alternativa.",
+    "URP": {
+      "fechas_examen": [],
+      "inscripcion_inicio": null,
+      "inscripcion_fin": null,
+      "costo_prospecto": null,
+      "costo_inscripcion_estatal": null,
+      "costo_inscripcion_privado": null,
+      "modalidad": "Admisión General, Aptitud Académica, Promocional, a Distancia, Exonerados y Beca 18",
+      "resumen_parafraseado": "La inscripción a la Universidad Ricardo Palma se realiza totalmente en línea; los aspirantes deben consultar los requisitos, completar sus datos en la plataforma y elegir la modalidad de ingreso que corresponda.",
       "confianza": "alta",
-      "fuente_url": "https://www.untels.edu.pe/03Admision.aspx"
+      "fuente_url": "https://www.urp.edu.pe/admision/"
+    },
+    "UNE": {
+      "error": "sin respuesta de la IA"
     },
     "UTP": {
       "fechas_examen": [],
@@ -193,17 +188,21 @@
       "confianza": "baja",
       "fuente_url": "https://www.utp.edu.pe/web/postulante"
     },
-    "URP": {
-      "fechas_examen": [],
+    "UNJFSC": {
+      "fechas_examen": [
+        "2021-08-04",
+        "2021-08-07",
+        "2021-08-13"
+      ],
       "inscripcion_inicio": null,
       "inscripcion_fin": null,
       "costo_prospecto": null,
       "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
-      "modalidad": null,
-      "resumen_parafraseado": null,
-      "confianza": "baja",
-      "fuente_url": "https://www.urp.edu.pe/admision/"
+      "modalidad": "Especial, Ordinario, CPU, Quinto de Secundaria",
+      "resumen_parafraseado": "La Oficina de Admisión convoca a los egresados de la región a presentar exámenes en distintas modalidades (Especial, Ordinario, CPU y Quinto de Secundaria). En la convocatoria 2021‑I los exámenes se realizaron el 4, 7 y 13 de agosto.",
+      "confianza": "media",
+      "fuente_url": "https://unjfsc.edu.pe/admision/"
     },
     "UNI": {
       "fechas_examen": [
@@ -227,57 +226,13 @@
       "costo_prospecto": 90,
       "costo_inscripcion_estatal": 410,
       "costo_inscripcion_privado": 780,
-      "modalidad": "Admisión 2026-2 con modalidades Ordinaria, Extraordinaria, Ingreso Directo (CEPRE-UNI) y Traslado",
-      "resumen_parafraseado": "Los aspirantes deben inscribirse entre el 30 de junio y el 31 de julio de 2026, pagar la inscripción correspondiente (S/. 410 para colegios estatales y S/. 780 para privados) y presentar la documentación solicitada; posteriormente rinden los exámenes programados en febrero y agosto según la modalidad elegida, y los resultados se publican en julio.",
+      "modalidad": "Admisión 2026-2 con modalidades Ordinaria, Extraordinaria, Ingreso Directo (CEPRE-UNI), Traslado Externo y Titulados/Graduados",
+      "resumen_parafraseado": "Los postulantes deben inscribirse entre el 30 de junio y el 31 de julio de 2026, pagar la inscripción correspondiente (S/. 410 para colegios estatales y S/. 780 para privados) y presentar la documentación requerida; luego rinden pruebas de aptitud y exámenes de admisión en las fechas establecidas en febrero y agosto, según la modalidad elegida.",
       "confianza": "alta",
       "fuente_url": "https://admision.uni.edu.pe/admision2026-2/"
     },
-    "ULIMA": {
-      "fechas_examen": [
-        "2026-07-19"
-      ],
-      "inscripcion_inicio": "2026-05-04",
-      "inscripcion_fin": "2026-07-10",
-      "costo_prospecto": null,
-      "costo_inscripcion_estatal": null,
-      "costo_inscripcion_privado": null,
-      "modalidad": "Examen presencial",
-      "resumen_parafraseado": "Los postulantes deben inscribirse en línea entre el 4 de mayo y el 10 de julio de 2026, pagar S/ 450 y presentar su documento de identidad y certificado de estudios; el examen se lleva a cabo presencialmente el 19 de julio de 2026 y los resultados se publican ese mismo día.",
-      "confianza": "alta",
-      "fuente_url": "https://www.ulima.edu.pe/examen-de-admision"
-    },
     "UPCH": {
-      "fechas_examen": [
-        "2024-09-15",
-        "2025-01-12",
-        "2025-01-26",
-        "2025-02-09",
-        "2025-02-23",
-        "2026-04-04",
-        "2026-04-26",
-        "2026-06-21"
-      ],
-      "inscripcion_inicio": null,
-      "inscripcion_fin": null,
-      "costo_prospecto": null,
-      "costo_inscripcion_estatal": null,
-      "costo_inscripcion_privado": null,
-      "modalidad": "Examen general de admisión y entrevistas, con modalidades regulares, preferentes y extraordinarias",
-      "resumen_parafraseado": "Los aspirantes deben presentar un examen de admisión y, en algunos casos, una entrevista; existen distintas modalidades (regular, preferente y extraordinaria) con fechas específicas de examen y cierre de inscripción según la categoría. Los procesos se gestionan en línea y varían según la sede y el tipo de postulante.",
-      "confianza": "media",
-      "fuente_url": "https://cayetano.edu.pe/admision/cronograma-y-modalidades/"
-    },
-    "EOFAP": {
-      "fechas_examen": [],
-      "inscripcion_inicio": null,
-      "inscripcion_fin": null,
-      "costo_prospecto": null,
-      "costo_inscripcion_estatal": null,
-      "costo_inscripcion_privado": null,
-      "modalidad": "Ingreso Regular, Procedencia Universitaria/Instituto, Academia PRE-EOFAP, Excelencia Académica",
-      "resumen_parafraseado": "El proceso de admisión 2026 consiste en un concurso que comienza con la inscripción del postulante y culmina con la publicación del cuadro de mérito; los aspirantes deben cumplir requisitos generales y específicos y pueden ingresar por vía regular o mediante exoneraciones por estudios universitarios, participación en PRE‑EOFAP o por haber sido primeros o segundos en su secundaria.",
-      "confianza": "alta",
-      "fuente_url": "https://eofap.edu.pe/admision/oficiales"
+      "error": "respuesta no parseable: "
     },
     "EO-PNP": {
       "fechas_examen": [],
@@ -291,8 +246,46 @@
       "confianza": "baja",
       "fuente_url": "https://direddoc.pnp.edu.pe"
     },
-    "EESTP-PNP": {
+    "ULIMA": {
+      "fechas_examen": [
+        "2026-07-19"
+      ],
+      "inscripcion_inicio": "2026-05-04",
+      "inscripcion_fin": "2026-07-10",
+      "costo_prospecto": 450,
+      "costo_inscripcion_estatal": null,
+      "costo_inscripcion_privado": null,
+      "modalidad": "presencial",
+      "resumen_parafraseado": "Los aspirantes deben inscribirse en línea entre el 4 de mayo y el 10 de julio de 2026, pagar S/ 450 y presentar sus documentos. El examen presencial se realiza el 19 de julio, con resultados el mismo día y posteriores pasos de matrícula hasta mediados de agosto.",
+      "confianza": "alta",
+      "fuente_url": "https://www.ulima.edu.pe/examen-de-admision"
+    },
+    "EOFAP": {
       "error": "sin respuesta de la IA"
+    },
+    "EESTP-PNP": {
+      "fechas_examen": [],
+      "inscripcion_inicio": null,
+      "inscripcion_fin": null,
+      "costo_prospecto": null,
+      "costo_inscripcion_estatal": null,
+      "costo_inscripcion_privado": null,
+      "modalidad": null,
+      "resumen_parafraseado": null,
+      "confianza": "baja",
+      "fuente_url": "https://direddoc.pnp.edu.pe"
+    },
+    "ENP": {
+      "fechas_examen": [],
+      "inscripcion_inicio": null,
+      "inscripcion_fin": null,
+      "costo_prospecto": null,
+      "costo_inscripcion_estatal": null,
+      "costo_inscripcion_privado": null,
+      "modalidad": null,
+      "resumen_parafraseado": "Los aspirantes deben inscribirse en línea, presentar la documentación requerida y luego someterse a una serie de pruebas que incluyen examen médico, de aptitud académica, físico, de conocimientos, psicológico y una entrevista de apreciación general para evaluar su idoneidad naval.",
+      "confianza": "media",
+      "fuente_url": "https://escuelanaval.edu.pe/admision/"
     },
     "IPD": {
       "fechas_examen": [],
@@ -306,18 +299,6 @@
       "confianza": "baja",
       "fuente_url": "https://unid.edu.pe/"
     },
-    "ENP": {
-      "fechas_examen": [],
-      "inscripcion_inicio": null,
-      "inscripcion_fin": null,
-      "costo_prospecto": null,
-      "costo_inscripcion_estatal": null,
-      "costo_inscripcion_privado": null,
-      "modalidad": "Concurso de admisión dirigido a jóvenes en 5° de secundaria o que hayan culminado el colegio",
-      "resumen_parafraseado": "Los postulantes deben inscribirse a través del sitio web, presentar sus documentos y voucher, y luego rendir una serie de pruebas que incluyen examen médico, de aptitud académica, físico, de conocimientos, psicológico y una entrevista de apreciación general.",
-      "confianza": "media",
-      "fuente_url": "https://escuelanaval.edu.pe/admision/"
-    },
     "TFIL": {
       "fechas_examen": [
         "2026-03-29"
@@ -325,10 +306,10 @@
       "inscripcion_inicio": "2026-02-23",
       "inscripcion_fin": "2026-03-25",
       "costo_prospecto": null,
-      "costo_inscripcion_estatal": 100,
-      "costo_inscripcion_privado": 150,
+      "costo_inscripcion_estatal": null,
+      "costo_inscripcion_privado": null,
       "modalidad": "Presencial",
-      "resumen_parafraseado": "Los candidatos deben inscribirse a partir del 23 de febrero de 2026, pagar el examen (S/100 si provienen de colegios públicos o S/150 si son de colegios privados), entregar la documentación requerida y presentarse al examen el 29 de marzo de 2026; los resultados se publican ese mismo día y las clases inician el 14 de abril.",
+      "resumen_parafraseado": "Los aspirantes deben iniciar su inscripción el 23 de febrero de 2026 y completarla antes del 25 de marzo de 2026. El examen se realiza el 29 de marzo de 2026 a las 10:00 a.m., y la modalidad de estudio es presencial.",
       "confianza": "alta",
       "fuente_url": "https://unatefsil.edu.pe/"
     },
@@ -337,10 +318,10 @@
       "inscripcion_inicio": "2026-01-29",
       "inscripcion_fin": "2026-02-11",
       "costo_prospecto": null,
-      "costo_inscripcion_estatal": 380.0,
+      "costo_inscripcion_estatal": null,
       "costo_inscripcion_privado": null,
       "modalidad": "Examen Ordinario",
-      "resumen_parafraseado": "Las inscripciones para el proceso de selección 2026 se abren del 29 de enero al 11 de febrero, y los aspirantes deben registrarse, validar su correo y pagar un derecho de admisión de S/. 380 para presentar el examen ordinario.",
+      "resumen_parafraseado": "Para el proceso de admisión 2026 la Universidad Nacional de Música abre la inscripción del 29 de enero al 11 de febrero; los postulantes deben registrarse en línea, pagar S/. 380 y seleccionar la modalidad de Examen Ordinario para presentar la prueba.",
       "confianza": "alta",
       "fuente_url": "https://www.unm.edu.pe/"
     }

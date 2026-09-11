@@ -1,4 +1,49 @@
 {
-  "generado": "2026-09-10T17:03:23.229174",
-  "universidades": {}
+  "generado": "2026-09-11T17:04:36.828902",
+  "universidades": {
+    "UNE": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-08-10",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se confirmó que el examen de admisión inicia el lunes 10 de agosto",
+        "fuente_titulo": "Examen de Admisión UNI 2026-II inicia este lunes 10 de agosto con más de 5.500 postulantes y tres jornadas de evaluación - Infobae",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOV05WQXdQXzZSbU9hZXlHM3BGNjlNS3hLOTFVbXB2LTIxbEh4QWZ4WUw2VEFhVUJtWU84MmxwdnlwX2lmTjJKOVlNUGpvUGgyUnJadjF4Z1hLN1NFNXc2U2NKQXlVeTFZUU9aRks2djFsa0RpMmRsVnJvYXVMaGNHQnRFYUtkTTl0VXl0dXRSRWI0UThnSDlucmJmNFAzTmlqakZHZnpONXBRV0FpZkpFWjh1eTNJalpCX09wTEJkamJGdGxtcnFpbkpJSFRsMThhdEk5bjBYU2RzblFNdFlWbmVjZ2d2TTdzU0tnZkRNendzdw?oc=5"
+      }
+    ],
+    "UNJFSC": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-09-13",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "El examen fue anulado y reprogramado al 13 de septiembre",
+        "fuente_titulo": "Examen de admisión de la Universidad de Huacho es anulado por presunta filtración de respuestas y se reprograma para el 13 de septiembre - Cadena Láser",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZTQ0N0JHRlhjbEE5MnFKb0JJMEo1X1pQZ0U2enRrbERaNFRXZV82MUVrUXhIRXNwZzRpbHRSZGdyZUpGS05ubHl1Ukd6azZtbVIyT0xDcFZnNHgweVBrSUlEcWJyRXpETjlCSnJpYXJ1bk5YQlVaRDNQMXEwOEg0eEhxRTRSQS1TSW5BSTZUWDZLbXg4bXhtZ21xYmQ0dm5CMmYyMG5rMmpTWXptVlBvczF1M1FmaWR5c2xkMXJHbU1pQVJYWlBOdDU5ai1fMHVtSEJtMnJlMUpnZC1MOEM5SWoyVWVzYTg4WlZRLVdna3B6Ti0xTUpNWg?oc=5"
+      }
+    ],
+    "UNI": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-08-10",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se anunció la fecha del examen de admisión UNI 2026-II para el 10 de agosto",
+        "fuente_titulo": "Examen de Admisión UNI 2026-II inicia este lunes 10 de agosto con más de 5.500 postulantes y tres jornadas de evaluación - Infobae",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOV05WQXdQXzZSbU9hZXlHM3BGNjlNS3hLOTFVbXB2LTIxbEh4QWZ4WUw2VEFhVUJtWU84MmxwdnlwX2lmTjJKOVlNUGpvUGgyUnJadjF4Z1hLN1NFNXc2U2NKQXlVeTFZUU9aRks2djFsa0RpMmRsVnJvYXVMaGNHQnRFYUtkTTl0VXl0dXRSRWI0UThnSDlucmJmNFAzTmlqakZHZnpONXBRV0FpZkpFWjh1eTNJalpCX09wTEJkamJGdGxtcnFpbkpJSFRsMThhdEk5bjBYU2RzblFNdFlWbmVjZ2d2TTdzU0tnZkRNendzdw?oc=5"
+      }
+    ],
+    "PA": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-08-10",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se anunció la fecha del examen de admisión UNI 2026-II para el lunes 10 de agosto",
+        "fuente_titulo": "Examen de Admisión UNI 2026-II inicia este lunes 10 de agosto con más de 5.500 postulantes y tres jornadas de evaluación - Infobae",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOV05WQXdQXzZSbU9hZXlHM3BGNjlNS3hLOTFVbXB2LTIxbEh4QWZ4WUw2VEFhVUJtWU84MmxwdnlwX2lmTjJKOVlNUGpvUGgyUnJadjF4Z1hLN1NFNXc2U2NKQXlVeTFZUU9aRks2djFsa0RpMmRsVnJvYXVMaGNHQnRFYUtkTTl0VXl0dXRSRWI0UThnSDlucmJmNFAzTmlqakZHZnpONXBRV0FpZkpFWjh1eTNJalpCX09wTEJkamJGdGxtcnFpbkpJSFRsMThhdEk5bjBYU2RzblFNdFlWbmVjZ2d2TTdzU0tnZkRNendzdw?oc=5"
+      }
+    ]
+  }
 }
