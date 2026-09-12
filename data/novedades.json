@@ -1,72 +1,48 @@
 {
-  "generado": "2026-09-11T17:04:36.828902",
+  "generado": "2026-09-12T16:12:34.581416",
   "universidades": {
-    "UNE": {
+    "UNMSM": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-06-28",
-        "2026-08-29"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Examen de Admisión UNI 2026-II inicia este lunes 10 de agosto con más de 5.500 postulantes y tres jornadas de evaluación - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-08T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOV05WQXdQXzZSbU9hZXlHM3BGNjlNS3hLOTFVbXB2LTIxbEh4QWZ4WUw2VEFhVUJtWU84MmxwdnlwX2lmTjJKOVlNUGpvUGgyUnJadjF4Z1hLN1NFNXc2U2NKQXlVeTFZUU9aRks2djFsa0RpMmRsVnJvYXVMaGNHQnRFYUtkTTl0VXl0dXRSRWI0UThnSDlucmJmNFAzTmlqakZHZnpONXBRV0FpZkpFWjh1eTNJalpCX09wTEJkamJGdGxtcnFpbkpJSFRsMThhdEk5bjBYU2RzblFNdFlWbmVjZ2d2TTdzU0tnZkRNendzdw?oc=5"
-        },
-        {
-          "titulo": "Niña de 13 años dedicó su primer puesto en examen de la universidad a su padre fallecido: 'Este logro es para él' - diarioadn.co",
-          "fuente": "diarioadn.co",
-          "fecha_publicacion": "2026-07-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbnpZdkVuWEc0TUp4UnFBRHhiSDNYS0NmTXYxZTMyVFlpSUFJYjVMOFQybWpQVno3dGk5NGotWW11eGhYV0tsOFZLMmVkcEZCWTQwREhneHdJSnN1UXhTTzBmZVNCZU0tdjJjeV9HbTJRX0hZcDZsYVQ1aUtzbUZZTElNdFRYUjlWQzV4b0ZJamJIYnVhYUxXLXVxV1lXN0ZCLVBsSE9nLWVmVkZuWDJFX2JZSEZ4eUE3VU5SbUwxZTE5WWpXcGtRaDlMYmlJTVFi?oc=5"
-        }
-      ]
-    },
-    "UNJFSC": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2020-11-16",
-        "2020-11-18",
-        "2020-11-21",
-        "2021-08-04",
-        "2021-08-07",
-        "2021-08-13",
-        "2026-08-23",
-        "2026-09-13"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Examen de admisión de la Universidad de Huacho es anulado por presunta filtración de respuestas y se reprograma para el 13 de septiembre - Cadena Láser",
-          "fuente": "Cadena Láser",
-          "fecha_publicacion": "2026-09-06T21:10:55",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZTQ0N0JHRlhjbEE5MnFKb0JJMEo1X1pQZ0U2enRrbERaNFRXZV82MUVrUXhIRXNwZzRpbHRSZGdyZUpGS05ubHl1Ukd6azZtbVIyT0xDcFZnNHgweVBrSUlEcWJyRXpETjlCSnJpYXJ1bk5YQlVaRDNQMXEwOEg0eEhxRTRSQS1TSW5BSTZUWDZLbXg4bXhtZ21xYmQ0dm5CMmYyMG5rMmpTWXptVlBvczF1M1FmaWR5c2xkMXJHbU1pQVJYWlBOdDU5ai1fMHVtSEJtMnJlMUpnZC1MOEM5SWoyVWVzYTg4WlZRLVdna3B6Ti0xTUpNWg?oc=5"
-        }
-      ]
-    },
-    "UNI": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-02-16",
-        "2026-02-18",
-        "2026-02-20",
-        "2026-08-01",
-        "2026-08-02",
-        "2026-08-08",
+        "2026-07-12",
         "2026-08-10",
-        "2026-08-12",
-        "2026-08-14",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28"
+        "2026-09-19",
+        "2027-10-17"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Examen de Admisión UNI 2026-II inicia este lunes 10 de agosto con más de 5.500 postulantes y tres jornadas de evaluación - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-08T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOV05WQXdQXzZSbU9hZXlHM3BGNjlNS3hLOTFVbXB2LTIxbEh4QWZ4WUw2VEFhVUJtWU84MmxwdnlwX2lmTjJKOVlNUGpvUGgyUnJadjF4Z1hLN1NFNXc2U2NKQXlVeTFZUU9aRks2djFsa0RpMmRsVnJvYXVMaGNHQnRFYUtkTTl0VXl0dXRSRWI0UThnSDlucmJmNFAzTmlqakZHZnpONXBRV0FpZkpFWjh1eTNJalpCX09wTEJkamJGdGxtcnFpbkpJSFRsMThhdEk5bjBYU2RzblFNdFlWbmVjZ2d2TTdzU0tnZkRNendzdw?oc=5"
+          "titulo": "PROGRAMA DE ACTUALIZACIÓN DOCENTE MOOC 2026 INICIA CURSOS CON RESPALDO DE LA UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS - RCR Peru",
+          "fuente": "RCR Peru",
+          "fecha_publicacion": "2026-09-12T15:59:18",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNnBsaEtULXRUVWNzaldiVFQ0eFJuR3ZPOTNCUU1fQmt6dkI2NEJFdFF2X0Q0V3VLY2RJRUduRGNRdGJFU3lWR0d4N1AtZDY3anhoTUlRYW9yYVZnWnRqQ010Y1dQU0ZqeDhNWmVIUlA3WWxUcm5uSjVBRFJjTlgwMWJ1ZmNmQm8taUhBWnpSMmdxaDhPMTM2cnItRmdMcUwzVmhXYkhhZUplR0RmaW5oUVNLeGFSQnp0RGdFUC1WU2s3Y29IZi01QjZJOUFvc3k3NENtVXNLTVYwQQ?oc=5"
+        }
+      ]
+    },
+    "UNAB": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-02"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Resolución de Comisión Organizadora - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-07-18T06:01:47",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN3IwVGZsQ1NoQjZSbmk1cVdCR3laa1dNNU4wVXhMazVZZk9HcExQM2FqMzlEZ2VJNTRlZUctX0UzYjRkWjNsRlhybjlPQTVEVVZNUTJzT3FiZGMtNTFGaER0T2dsV2dtT2FRUHMtVVNpaFJhLUtxclp3Z240bHMxdlo3cjg5aUhscF8zTGNpaXZUZFZXd2xLRFdwSkRsNkpKaExZUEM0V3dLZTByZGxwQ3pvbjN6WlZ6VHRzTnNn?oc=5"
+        }
+      ]
+    },
+    "PUCP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-16"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "REQUERIMIENTOS TÉCNICOS MÍNIMOS ADQUISICIÓN DEL DISPOSITIVO MÉDICO: - insnsb",
+          "fuente": "insnsb",
+          "fecha_publicacion": "2026-07-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQam9mVndsVGVwVTV6c0s0V2ZjWXBjQVViU0hVNUZMdUJuczlHTVhoeWJ1NUQxanNlYnF0YzlsZU5TTG01LXdNNW9oTXNsSkJEdFNBVk1hOE9uWEhqYzRINmFycUgzajJqMnF2YmEyb3lScm1RU0REenJ3SjRUOGlDeDFVR3RrdkpSbmsxVndQNDVtRG5jTXJtWHNHc3pTTkw3QTFuQ1F1c29oV3FoTmFadFpnbGRldlBtTzlCNkxmZGpCdEdsMlZySXFIQmh6TC1feEE?oc=5"
         }
       ]
     },
@@ -80,38 +56,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Marco Rubio: Perú y Estados Unidos entran en una era dorada de relación bilateral - Chimbote en Línea",
+          "titulo": "Cámara de Diputados aprobó citar al jefe del Gabinete, Luis Galarreta, y a los ministros de Defensa e Interior - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-11T01:27:00",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSUlrd1BJOGFiTEpsbF94ckdfcm1uY1FJWDhzQzhjYlVEa215T1I3R0RGUFB6UTJIUGNySjBOQlBwd3ZtNTFrN0ZaMzlvVDJqQ1JndHVCOEloYW5BcUtidExCV21rakZDSVFhSEFsV2xseUdxcko2dTVwWkZrU3pCZTMzRVJmdFFMNmFfempkSXJRQlJITU9ady1FMThwTUVZUkR0TUFxNjRMYnpOV1RQUkRXOS05enREMUY1VWpEQVNzSzJiVkhrOHI5Tl9VdlZBQXZocjUzdEk1b2FUX1Rz?oc=5"
-        }
-      ]
-    },
-    "UPCH": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2024-09-15",
-        "2025-01-12",
-        "2025-01-26",
-        "2025-02-09",
-        "2025-02-23",
-        "2026-04-04",
-        "2026-04-26",
-        "2026-06-21",
-        "2026-09-13"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Pulpi, el dispositivo pediátrico para medir el ritmo cardíaco premiado en Corea del Sur - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-09-11T12:30:00",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOXzNldlg3MUNLM3hjQ05xZ3BzeTdxazJuOVNxNDJSZjFPX1hDYm9NTGJvV3Q4MUpoVUJrdFJkVHRKNS1reHF2dUttZnNZVmtaREIzRWVWSmJCM0JXdWh0c2NYUEw2M3Z6WHJuZWRQSDRaZUpXU2RLWW1nV29QQUNFaXROMzA2RURxV2h1bHVFeFdjWlgtRHNMMDZiMjIzNHI0RFhNSFFRejhNWDRzanB0WkVJRzRHV0s0T0ttMEJmWjhaQQ?oc=5"
-        },
-        {
-          "titulo": "Pulpi: invento peruano gana oro en KIWIE 2026 - Diario Ahora",
-          "fuente": "Diario Ahora",
-          "fecha_publicacion": "2026-09-08T16:22:47",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUDVPd2lrMm0yejhVNXRlY0ZtUi1SSmdwbTZhT0I2RXBQTzFJX2dmR1hDeFZheW14UTBVNG83d2ZrcVFNX0ZvLXBidnl5TjNkeGdjNE85X1lONXEyZHlkamIxNmQ2eXVhVzZkYURab0tkM1REV3ZtWUxzV0NxSW1oQQ?oc=5"
+          "fecha_publicacion": "2026-09-11T03:32:00",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQU1fMU5qSDA4OEZCYzR2cFNCS0RIWGprVzNOTEkwMjY1T1hCMDVmQWlLalpnMnhoRE8zekNXWmJXSTlzUmZLaHQ0TllsNUZ6SXc0VGxZaDhMbFhQM2JuYzJGdEl3REMydDR4ekZONEtMLW5XNnE4alN0YTNLREdDbWtNRFd6MXZxTFdmd0VxUEFvVUdzSHZsdDJMYmJqSURFb3F0UnUzbEh5Vm9yX0tqYndLUzRWejYwMnQ3R05ENklzSmdCV2VFU1ExLVNjdWlYYl91TkU3RXd2UGNxTkxpamIzMUljLWFQdzRsVnl3bjdJWWZxTDJJ?oc=5"
         }
       ]
     },
@@ -120,22 +68,10 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Marco Rubio: Perú y Estados Unidos entran en una era dorada de relación bilateral - Chimbote en Línea",
+          "titulo": "UTP organiza la octava edición del Moot Court de Propiedad Intelectual - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-11T01:27:00",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNemJJVE0teEpzNm1rX2phX1J1U1dUM1ZCSEhsQVR6SU4wN085aXQ5eFpyVVdmSnRfS0F2b2JjeFVHUEdfZHNPVDdKdkFnWkxGY0Nxc281MlA4aGVrQWZScmdKTklpVTJKMTJLcGFEWWp5VnNHX1MyR3R5QUZPUTlZYlFYRm9UaWpfNFhyc2VNSDM0WHM2eWpsdnFOdmhqanlrUXFtbER1M1hJX2JZd1BEcldBUW55djNRSnlfWHFJbXFFTWdnLXlpeXRXRU9PTm9yZEE?oc=5"
-        }
-      ]
-    },
-    "PA": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Examen de Admisión UNI 2026-II inicia este lunes 10 de agosto con más de 5.500 postulantes y tres jornadas de evaluación - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-08-08T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOV05WQXdQXzZSbU9hZXlHM3BGNjlNS3hLOTFVbXB2LTIxbEh4QWZ4WUw2VEFhVUJtWU84MmxwdnlwX2lmTjJKOVlNUGpvUGgyUnJadjF4Z1hLN1NFNXc2U2NKQXlVeTFZUU9aRks2djFsa0RpMmRsVnJvYXVMaGNHQnRFYUtkTTl0VXl0dXRSRWI0UThnSDlucmJmNFAzTmlqakZHZnpONXBRV0FpZkpFWjh1eTNJalpCX09wTEJkamJGdGxtcnFpbkpJSFRsMThhdEk5bjBYU2RzblFNdFlWbmVjZ2d2TTdzU0tnZkRNendzdw?oc=5"
+          "fecha_publicacion": "2026-09-11T19:15:00",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbE81WWkyOWwtUFdBbmFVWjUtRmx3UFJpc2xhUTRaVlluZ3ZidEFWREg3MGVwUmlzWUdzRnY1UjNUNEVheXIxdm5RdlVXRDlMdXNOcTNwM2xSWUdhdDVaNjlJRlhoUWRuQ292MnB6NU4zTWJrdHItQzUzQm1SWl9PODkyWXQzZ1Q1eVlDTk85N2t6LURQV0JyUTZsUlRQalZ5VzhQb2E1eGFzdTR6UWFZOWFCUjdsQ2lFdHVNM2tn?oc=5"
         }
       ]
     }
