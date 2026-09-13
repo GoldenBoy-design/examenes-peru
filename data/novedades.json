@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-12T16:12:34.581416",
+  "generado": "2026-09-13T17:00:24.146035",
   "universidades": {
     "UNMSM": {
       "estado_actual_json": "abierto",
@@ -11,38 +11,24 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "PROGRAMA DE ACTUALIZACIÓN DOCENTE MOOC 2026 INICIA CURSOS CON RESPALDO DE LA UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS - RCR Peru",
-          "fuente": "RCR Peru",
-          "fecha_publicacion": "2026-09-12T15:59:18",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNnBsaEtULXRUVWNzaldiVFQ0eFJuR3ZPOTNCUU1fQmt6dkI2NEJFdFF2X0Q0V3VLY2RJRUduRGNRdGJFU3lWR0d4N1AtZDY3anhoTUlRYW9yYVZnWnRqQ010Y1dQU0ZqeDhNWmVIUlA3WWxUcm5uSjVBRFJjTlgwMWJ1ZmNmQm8taUhBWnpSMmdxaDhPMTM2cnItRmdMcUwzVmhXYkhhZUplR0RmaW5oUVNLeGFSQnp0RGdFUC1WU2s3Y29IZi01QjZJOUFvc3k3NENtVXNLTVYwQQ?oc=5"
+          "titulo": "CEPRE UNMSM inicia Ciclo Superintensivo 2027-I para preparar a postulantes al examen de admisión - Red telematica",
+          "fuente": "Red telematica",
+          "fecha_publicacion": "2026-09-04T22:14:39",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQV29KMlZLMHJoLUpqOWhYaTRRSndKUVZJSDU2NFZEZjJTQU52S0hrY3FmaHc2cjVhalBLTmV6ZWVoODlwekkxcVM4alI2QW02TGtaVmpFTV9KazR5Rmp5LXkwWHBuall6dUdJTTRPLUlGejIxODZodEdubHNCOHZpaUItWkc2bVA5QTRoNDltTjBIN21BQ3JuZmxnMWYxZU1jb3J0YWJYWTFfVlRwLXZQOUctTGdmajNzTTJoQkZJMGV1TmROSXBWN2lvZ0UxVFU3aHAySW5rckFzdm1uNmJpNnI2WndvblZKbEUtLUQ3RlJQd1pnTW1OQw?oc=5"
         }
       ]
     },
-    "UNAB": {
+    "UNAC": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-08-02"
+        "2026-07-19"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Resolución de Comisión Organizadora - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-07-18T06:01:47",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN3IwVGZsQ1NoQjZSbmk1cVdCR3laa1dNNU4wVXhMazVZZk9HcExQM2FqMzlEZ2VJNTRlZUctX0UzYjRkWjNsRlhybjlPQTVEVVZNUTJzT3FiZGMtNTFGaER0T2dsV2dtT2FRUHMtVVNpaFJhLUtxclp3Z240bHMxdlo3cjg5aUhscF8zTGNpaXZUZFZXd2xLRFdwSkRsNkpKaExZUEM0V3dLZTByZGxwQ3pvbjN6WlZ6VHRzTnNn?oc=5"
-        }
-      ]
-    },
-    "PUCP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-16"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "REQUERIMIENTOS TÉCNICOS MÍNIMOS ADQUISICIÓN DEL DISPOSITIVO MÉDICO: - insnsb",
-          "fuente": "insnsb",
-          "fecha_publicacion": "2026-07-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQam9mVndsVGVwVTV6c0s0V2ZjWXBjQVViU0hVNUZMdUJuczlHTVhoeWJ1NUQxanNlYnF0YzlsZU5TTG01LXdNNW9oTXNsSkJEdFNBVk1hOE9uWEhqYzRINmFycUgzajJqMnF2YmEyb3lScm1RU0REenJ3SjRUOGlDeDFVR3RrdkpSbmsxVndQNDVtRG5jTXJtWHNHc3pTTkw3QTFuQ1F1c29oV3FoTmFadFpnbGRldlBtTzlCNkxmZGpCdEdsMlZySXFIQmh6TC1feEE?oc=5"
+          "titulo": "Perú destaca en la Olimpiada Iberoamericana de Biología en Brasil: escolares consiguen cuatro medallas tras ocho meses de preparación - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-12T21:12:59",
+          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQeEl3SUhwMGl6c0JJa2dXUXV6bVozNGJsVlVlLWtqcm5NamY5X2wzT1R5QmRlb0lJd0x3ZjR3NnZKZnJrMGd4R0dZN1UxeVJTTExnQjVGODZ0djEyVGtxZ3UyVUNGbWphZTBsTGdMYjM3WUEwNnlPT3daN3Q3dHNaOExTUU5QM1BjaW9lWGoxOTlyaE9CQ0oybzNlM1lZZzdwUFd1cF9ZT2JVN1Q1SmVOay00NzVROHJlQ0dpTUJZbHV6dnh5MUp2MnJSMFhxRUwtdjhCSVFjMXplWk15TE10dzhIWWFJcTVBRlVBTHVfSWRlMGdud0h6Ry0zb2cyLUdzdnloeEpsU1R3TlpXeHBON0VRZ09lbmdMdG5xR05B0gGeAkFVX3lxTFB4SXdJSHAwaXpzQklrZ1dRdXptWjM0YmxWVWUta2pybk1qZjlfbDNPVHlCZGVvSUl3THdmNHc2dkpmcmswZ3hHR1k3VTF5UlNMTGdCNUY4NnR2MTJUa3FndTJVQ0ZtamFlMGxMZ0xiMzdZQTA2eU9Pd1o3dDd0c1o4TFNRTlAzUGNpb2VYajE5OXJoT0JDSjJvM2UzWVlnN3BQV3VwX1lPYlU3VDVKZU5rLTQ3NVE4cmVDR2lNQllsdXp2eHkxSnYyclIwWHFFTC12OEJJUWMxemVaTXlMTXR3OEhZYUlxNUFGVUFMdV9JZGUwZ253SHpHLTNvZzItR3N2eWh4SmxTVHdOWld4cE43RVFnT2VuZ0x0bnFHTkE?oc=5"
         }
       ]
     },
@@ -56,22 +42,52 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Cámara de Diputados aprobó citar al jefe del Gabinete, Luis Galarreta, y a los ministros de Defensa e Interior - Chimbote en Línea",
+          "titulo": "Jefes de las ODPE de Áncash coordinan con la Policía y el Ejército acciones de seguridad para la jornada electoral - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-11T03:32:00",
-          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQU1fMU5qSDA4OEZCYzR2cFNCS0RIWGprVzNOTEkwMjY1T1hCMDVmQWlLalpnMnhoRE8zekNXWmJXSTlzUmZLaHQ0TllsNUZ6SXc0VGxZaDhMbFhQM2JuYzJGdEl3REMydDR4ekZONEtMLW5XNnE4alN0YTNLREdDbWtNRFd6MXZxTFdmd0VxUEFvVUdzSHZsdDJMYmJqSURFb3F0UnUzbEh5Vm9yX0tqYndLUzRWejYwMnQ3R05ENklzSmdCV2VFU1ExLVNjdWlYYl91TkU3RXd2UGNxTkxpamIzMUljLWFQdzRsVnl3bjdJWWZxTDJJ?oc=5"
+          "fecha_publicacion": "2026-09-11T01:33:00",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdExwaWQ5TFFPcUM5RFljZTA2dnNPOXZ3SWlJbEZhSlZybjFZcWxLYWZLZnlHMUpSRFJIcGNIUGF0UG9nQVZnV2N2aEhWeHZ4OFIzWG5vWWlXZjd5R2M1SjhyR21Ka1AxbFlfVER0azFpUkhfVDlFU1FqSk9xZDhHYjNFT2pmVDlQUm5wSHlnRU9ISXE5U0lCRTNGelRBejZMb3phS3Q3Z1FVYUs0NkVWTWtkWTY3OUliMzVLakxPZ3NkZVo2SXo2dmFzSTdzODJOb3gxNEpxSWptWnExWmlCcEtKMUk5bmxsY0NuZ25TOU5yQUt6RjcxbjNGTTlWLWVXcDczcFJZTFU?oc=5"
+        },
+        {
+          "titulo": "Atlético Grau - Alianza Atlético | Pronóstico y cuotas 13.09.2026 - as.com",
+          "fuente": "as.com",
+          "fecha_publicacion": "2026-09-12T22:32:39",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM1VDaW5CSmhsRjROcENVNklicjlsbnZnX1dEWHd0UlpwSTZTOHh4eEtXdGxUZzhVZm4xZEhQWjU3N0xTMHR3VU9Ma29DR2JOZEZHUnBRSmhOekJnTllrSDFGSFE3VWVqdktjT0czVnhOTU56T2ZseW5LQnI1MVI3TlJnV001VXJTM2NnemR5dzhsSGRJbXFZ?oc=5"
         }
       ]
     },
-    "UTP": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
+    "URP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-07"
+      ],
       "noticias_encontradas": [
         {
-          "titulo": "UTP organiza la octava edición del Moot Court de Propiedad Intelectual - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-11T19:15:00",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbE81WWkyOWwtUFdBbmFVWjUtRmx3UFJpc2xhUTRaVlluZ3ZidEFWREg3MGVwUmlzWUdzRnY1UjNUNEVheXIxdm5RdlVXRDlMdXNOcTNwM2xSWUdhdDVaNjlJRlhoUWRuQ292MnB6NU4zTWJrdHItQzUzQm1SWl9PODkyWXQzZ1Q1eVlDTk85N2t6LURQV0JyUTZsUlRQalZ5VzhQb2E1eGFzdTR6UWFZOWFCUjdsQ2lFdHVNM2tn?oc=5"
+          "titulo": "Perú destaca en la Olimpiada Iberoamericana de Biología en Brasil: escolares consiguen cuatro medallas tras ocho meses de preparación - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-12T21:24:27",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOUnRBaU1wM0t6bWJyNDJKY2M3NGRONjluUHFzejZkWkZhZTAyMTRJWHlJRHBOejVkMzItLV9TQVJBaktsaVF2UXM0R3hFc1Z5QW1DdDR3aGN6cGVUenc3eTRlRDZWdUJtUmNDQS1MQ19qdThFdlM5UTVqWWtmOTVNdW9BOUFQdndiMzdHZDhBSHJBLWtHbjViVkJiX1BnMi1XU2tBOFdrV0RjXzVJS2kzb0VmTFl5djhpdE1HNFMtMWlxVnlKRG9NTlZHdGlWS1M4WUNVXzU4SlJ5bm5QNnFQMEZvWHlLUEluQnFIaHo1Mm5kelFERHpsdU1NLTMwMVRmRTFJ0gGeAkFVX3lxTFB4SXdJSHAwaXpzQklrZ1dRdXptWjM0YmxWVWUta2pybk1qZjlfbDNPVHlCZGVvSUl3THdmNHc2dkpmcmswZ3hHR1k3VTF5UlNMTGdCNUY4NnR2MTJUa3FndTJVQ0ZtamFlMGxMZ0xiMzdZQTA2eU9Pd1o3dDd0c1o4TFNRTlAzUGNpb2VYajE5OXJoT0JDSjJvM2UzWVlnN3BQV3VwX1lPYlU3VDVKZU5rLTQ3NVE4cmVDR2lNQllsdXp2eHkxSnYyclIwWHFFTC12OEJJUWMxemVaTXlMTXR3OEhZYUlxNUFGVUFMdV9JZGUwZ253SHpHLTNvZzItR3N2eWh4SmxTVHdOWld4cE43RVFnT2VuZ0x0bnFHTkE?oc=5"
+        }
+      ]
+    },
+    "UPCH": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2024-09-15",
+        "2025-01-12",
+        "2025-01-26",
+        "2025-02-09",
+        "2025-02-23",
+        "2026-04-04",
+        "2026-04-26",
+        "2026-06-21",
+        "2026-09-13"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Cayetano Heredia recibe a estudiantes de universidades de todo el mundo - Cayetano 360",
+          "fuente": "Cayetano 360",
+          "fecha_publicacion": "2026-09-04T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMG93S2F6TzFDc2Z1QkFaN2swX0NaQVVKaGwwY3JrVEJ6ZXIwNjdYcUhZaHNFTGxrSDZNRXdncVAydHRUckV2WHRBYUZaekNlS2l1bk0wU1hHNlBqT3Y5VkNFQkxZd0k3Q3JPTmFTUVN1a2tLMnhaS0RoTnpSbWt1ZzJqclZia2dmS2o0VGdzeFhTZDNMSE1DSGxrcHRPMnBueXlxdlRJLXFILXpwYXc?oc=5"
         }
       ]
     }
