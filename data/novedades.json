@@ -1,17 +1,45 @@
 {
-  "generado": "2026-09-14T18:33:27.279710",
+  "generado": "2026-09-15T17:41:03.850081",
   "universidades": {
-    "PUCP": {
+    "UNS": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-08-16"
+        "2026-07-12",
+        "2026-09-06"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "BASES ESTÁNDAR DE LICITACIÓN PÚBLICA PARA LA CONTRATACIÓN DE BIENES - Plataforma del Estado Peruano",
-          "fuente": "Plataforma del Estado Peruano",
-          "fecha_publicacion": "2026-08-28T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV205eUZuaTIxYXh2TlhVcnpZNmpGeDVhdjVxQ19BVFBmN1JNWTY4NmhzNHV6eXdhZUNIMTFEd3lfcEZKTG1seWUyRlo5dGFmYVNTY3hUSTd0NnQwVGhnLVJYZElrSUp0Y1lFS01naTV0eE9OZG51dEJnWTVWMjZYRkdxZ2R3Vi11T2JNYlZ6UWxRNktNX0FZanZycVE4M0lXREIyRTRERVludw?oc=5"
+          "titulo": "Sedapal suspende el servicio de agua en Lima este martes 15 de agosto: revisa la lista de urbanizaciones afectadas hasta el miércoles - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-09-15T00:54:34",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxORzBNTnJ3SE5DdHJ5RXE5cGF3ZWF4RVhGOUpKS2VDaVBLZVdJWUpEV0tTOXQ3MkZDcm15ME9ERUp3U2JPUVlsSWEzMG9BSkJRLWlOd1U3WUpIVE5rZkxwSnlaQUlNc3lvNGM1d0RSUnJOazNveG16NTNIWEN1SGpuMGpranNvUURLYW1xdTRKckgtSGtEa3Y4RnQ5dzNRbkdhNVlnbUFTeTN0TGY4bllsY0M5bEY3TXRYeWlnNGJzX1UxNU1QcHFMUl9iTE5GVEo4UUJ1djJfTEVZZE1JS0dGdGlZQWIyaFhDOFFKUHNoMnhlSHJPTFZJSDgtaTQzdGhXM0dVckU2QktvSTltWDBLTnFSMC3SAZQCQVVfeXFMTkcwTU5yd0hOQ3RyeUVxOXBhd2VheEVYRjlKSktlQ2lQS2VXSVlKRFdLUzl0NzJGQ3JteTBPREVKd1NiT1FZbElhMzBvQUpCUS1pTndVN1lKSFROa2ZMcEp5WkFJTXN5bzRjNXdEUlJyTmszb3htejUzSFhDdUhqbjBqa2pzb1FES2FtcXU0SnJILUhrRGt2OEZ0OXczUW5HYTVZZ21BU3kzdExmOG5ZbGNDOWxGN010WHlpZzRic19VMTVNUHBxTFJfYkxORlRKOFFCdXYyX0xFWWRNSUtHRnRpWUFiMmhYQzhRSlBzaDJ4ZUhyT0xWSUg4LWk0M3RoVzNHVXJFNkJLb0k5bVgwS05xUjAt?oc=5"
+        }
+      ]
+    },
+    "UNI": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-02-16",
+        "2026-02-18",
+        "2026-02-20",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-08",
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Ingreso “por la fuerza” de exvicerrectora a la UNI desata protestas y tensión dentro de la universidad - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-14T21:22:00",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRVU2aUV3MEdVNkpqOHN3X2hRM19kbW1CeDF4MXRxZF9oZVhTYTRYVDIza1JUVW9TQ3I4dmJtYVhxSTdCOWRhS1A4SUpoY2d0MVNvNUgtXzE2dFRUSld6R3RUREtVNHRDWWlUb0JRVEF0THV5S2dxZllTTU52cHRXNVZWdEwyNHltM2NNTHZIVUxBX1hTZGkwbzBuZGZObGJqNDFCYko1dTJWVUQybmdwemFGQjJocUt6a2ZEbENUN2NkT0FETGlacTg3VHY3XzBkVjAxY3NYSznSAfMBQVVfeXFMTS0ycnNlMHFNVFlGUDZGeV9zRS1PbkZld0dVakRXbGMxc1lGSUI0OE82eTRCYkhjVmNtLTduSXMtQTZUQVlyckNERGZtakw0ZTloalZoUVRtdmppbWpzaUJVeTVzd2xVTjZMbjFWVzdGaUlsVTV1VW5QNGJkbFlVaGJvZnlYQWUteDNoeEhWLVlXRVJZTVc0d3lQa0ZFalhjNEExaXNWSUc2V3BrTUxnZ3B0eHdfTW9KN3JIRmhWcnk1akpzQkJuQTZvbEtfUE9UX0ZpLXAxalNrRVVjNjBWR1UxZWxRdWp2TEUtXy1UZDdQVGtB?oc=5"
         }
       ]
     },
@@ -28,25 +56,33 @@
           "titulo": "Ingreso a Escudo de las Américas no compromete la soberanía del Perú, señala excanciller - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
           "fecha_publicacion": "2026-09-14T14:43:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVXZ6NXZ5TVUyTVNEc193T0FudjB2eHpaRV9fUDhtZjJiVHgySzZoUlZ3Q2JNSGY1amJWbGpvWWpJQnBqZnhIVzlCaUhvbWlPam5nRzRJZnlOQk9hRFpYUTl4M3c0c0JYaU1zVnkyZjhtVnNIcTdXdUdpYW11YUREc0Z3ZEVhMVUwYXNfZVZHbC1Ec2lfQlhhRjFsZzNSMXZLNTV6Mm92X0lJeHBkU2JtREdHOGxIOGd3MkxGVHZVVURTMm45NU1ZWXpjUzA2Sl9HaVVrMHV0NGxzZmM?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMTVkSWpZNk1aVm9JTlBuZEV2VnpXWkQ5cWdJWFd6ZE93Nkl0QUJpNWFjUWY5UV9mME1XSmh6S1FJcWR5dnpSMnVobDdaT3lydW5XQkdxUEhzUmpaOVJoQXYxOUhpcXdGOVBQLWI1T2Etc1U1MGVzbFBuWHdSOFdDS0xFS1F2M05NdnBGM0lxcElZbnNKOWtueDZEVHd3c3VsX0FvaXB5NE1KaEczS1VJZ0gxM2VsQ3hWdk00TjN3VWd2Tm9JUTRmZ3d1VURNT0lPbk03Y20tTGd2UE84MUtiM0ZOX2F3V3pj?oc=5"
+        },
+        {
+          "titulo": "Universiada Lima 2026: instituciones suman esfuerzos para visibilizar el talento de cerca de 8 mil estudiantes-deportistas - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-10T02:11:53",
+          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQTDVQc3doTzJXNElsdXAzbzU4WENfbXNKT1BWZnJjUHhyS1R0R2F0djBxcGpNbGpuMDlRb1lVVDhWM19FcUtVRzBaajZGSThPenoyY2NTYnU1SnlWbU5neUphTWJjc1BQbklpbUJ1WHdVSnlySm8yY0lXTDRTcHZ6cGcwM1FDaWprWDh2Xy1EV01xbndhbnlKQVBrTzJ4OHpvSXBzWEFOR2pVdHBkY1hKb1NkaEVTM3RoUjdVZEx6SU5Oc0VLRWpZLWZMYmxtbmJiWWRwWjBrbXBud251c3VsUFhYY29GRnQtT2x3YTBkdFlmS2JtejNlTFNQVzJKaGRmMWdSRklHZVJRV0tOX1JfNkl3?oc=5"
+        },
+        {
+          "titulo": "Canciller anuncia gabinetes binacionales y encuentros presidenciales con Bolivia, Chile, Colombia y Ecuador - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-08T19:55:00",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeV9KeG9wVG42amhDRi0tRlVEbG5ERnl2Rk9PN3J5bHFraXRHZEZNb2lYTVdURkVlak5tcHNhdHJIcks2OXJkeXFhTlJNMTNoS1F3TFhXMWl3al8tNkdadnJvck5FQ1duYzJjaXlkZTNyRTJSMzFEZFp5S1EtMDFzUkd0WmpWSDJQaU5GTVk1VjZLcHlSTnNCVkhBeDdkRzJMcXVTWnhQZl9Bd0FzUUYtQW11MVlWcTNYeXFhVFJLVnlwaDZRQ1lNX0piTlpnYkQxWmdBWEtMM2pZeWZsaHR5dThRcUF3WTlRVTc5alFKbHZpWDhfTEdid3dmMjBseFVJ?oc=5"
         }
       ]
     },
-    "UTP": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
+    "URP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-07"
+      ],
       "noticias_encontradas": [
         {
-          "titulo": "Ingreso a Escudo de las Américas no compromete la soberanía del Perú, señala excanciller - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-14T14:43:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVXZ6NXZ5TVUyTVNEc193T0FudjB2eHpaRV9fUDhtZjJiVHgySzZoUlZ3Q2JNSGY1amJWbGpvWWpJQnBqZnhIVzlCaUhvbWlPam5nRzRJZnlOQk9hRFpYUTl4M3c0c0JYaU1zVnkyZjhtVnNIcTdXdUdpYW11YUREc0Z3ZEVhMVUwYXNfZVZHbC1Ec2lfQlhhRjFsZzNSMXZLNTV6Mm92X0lJeHBkU2JtREdHOGxIOGd3MkxGVHZVVURTMm45NU1ZWXpjUzA2Sl9HaVVrMHV0NGxzZmM?oc=5"
-        },
-        {
-          "titulo": "EsSalud Junín implementa nueva área de urgencias en Huancayo - hytimes.pe",
-          "fuente": "hytimes.pe",
-          "fecha_publicacion": "2026-07-19T19:56:57",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOVl4djZfU2JPZkpvMmlwZXpxNXFSZjBGV2pWQXhYRmFBR3FSUnRtT0V5azZQVkRFSXV4Ukd3ZV9JbnE2TDNuSXNGZWJleVFMNnIycldwVmVORjgxOXdXSnVYTkJSWUZJaF96QUF1OEVYbVpjcUxYUXd5eThLaWZYU1E0VXY3X0U?oc=5"
+          "titulo": "Perú consigue cuatro medallas en la XIX Olimpiada Iberoamericana de Biología realizada en Brasil - diariouno.pe",
+          "fuente": "diariouno.pe",
+          "fecha_publicacion": "2026-09-15T00:18:25",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQnhFRmx3RGFvQzkzY0g0VWZoVXZLVS1XV21uNURPMlVsMmpEZm4tZGNSNWx6RG4xNlQ3cDMzVzJVOThqQm56NG81SWJ2TmpRN21BTUQxTy1mdHNJN2cyeW5mTVBlS0Q5MW5uNko2Q0tGY282dEh3ZEZLckR3MGFiZDZaeGt6UEdyVUo5N2l6TW5RQmFGNjFTa3NCTWdlYTN4aTFsTzFqTGhZYkVBbHAtb3plUndGemVWZUVoNU9fbGFJWjFXU291SA?oc=5"
         }
       ]
     },
@@ -57,8 +93,8 @@
         {
           "titulo": "PNP rechaza versiones sobre financiamiento de mafias para infiltrar las Escuelas de Formación Policial y exige denuncias con pruebas verificables - Infobae",
           "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-14T01:14:22",
-          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPWHJFQ0JLald4d0RtV21DUHZmcjZxM213TVlTN01rYTdpaER1bTJmeU1OSS1UZHJ6R2F5cG9MaDNtaEdOT2Fsd0VRN3cyTWpkWmNVc2V3dXM2STlKd3NZY2NYakgzS3VuVlo4ajc5aUJrMkdTM0JqWGpXeWNzclhHOGRaQWlyRW5pUHp0OE05Y25HX3B6TEhwNnkwbGJlNzZYM28wcVFYTkwzOGdXVkZLS3UzazZXNEpSRlhQRE5GdGcxdjVOZGxpbVJ4QkVKTTU2c2o1NG9wcTNFTVdfalpmOVNXMnlCaXI5UkxoTFBKcEg3dEVBNEg2blFIVENiWkZBb3BfdFptVDVnRGx6YTBzZWc1Uk7SAa8CQVVfeXFMTmQ3eEhhcENFWHJ4Q2wzdlozd2R0cG9rY2E2QVBWemp5bHdqMU9lalluZlI0YjE0dGZhdzdZbXR5bEhzcHRnNG5NRkRNUXVhbjVpeFpLZXNId09MY1FPWTFLYVFxSWU0YkowWkVSYnhHLVNpczk4ZklRaTYzYmhTN09VcHNoUE4zZUQ2Q1YyRFpLZmk5alV5Ym9sQmV0TGpIQjY3aVhWVldId1ZPdk1ic0NqNndodVFsTkZsY3BuWldxOUNHNWFDZHBySnVacG9idHQ5bFAyNTJsWXcyd3JHMTNZYjgyRVNYNWs4RURfQlB2VWJibmszNmc2T3dOcTJUXzZjSHczc1BiOEtVNEpfcWpMczlWcjZiVDFPMlpyb21teGhtckZEb2taZFJfYVhv?oc=5"
+          "fecha_publicacion": "2026-09-14T01:09:24",
+          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOZDd4SGFwQ0VYcnhDbDN2WjN3ZHRwb2tjYTZBUFZ6anlsd2oxT2VqWW5mUjRiMTR0ZmF3N1ltdHlsSHNwdGc0bk1GRE1RdWFuNWl4Wktlc0h3T0xjUU9ZMUthUXFJZTRiSjBaRVJieEctU2lzOThmSVFpNjNiaFM3T1Vwc2hQTjNlRDZDVjJEWktmaTlqVXlib2xCZXRMakhCNjdpWFZWV0h3Vk92TWJzQ2o2d2h1UWxORmxjcG5aV3E5Q0c1YUNkcHJKdVpwb2J0dDlsUDI1MmxZdzJ3ckcxM1liODJFU1g1azhFRF9CUHZVYmJuazM2ZzZPd05xMlRfNmNIdzNzUGI4S1U0Sl9xakxzOVZyNmJUMU8yWnJvbW14aG1yRkRva1pkUl9hWG_SAa8CQVVfeXFMTmQ3eEhhcENFWHJ4Q2wzdlozd2R0cG9rY2E2QVBWemp5bHdqMU9lalluZlI0YjE0dGZhdzdZbXR5bEhzcHRnNG5NRkRNUXVhbjVpeFpLZXNId09MY1FPWTFLYVFxSWU0YkowWkVSYnhHLVNpczk4ZklRaTYzYmhTN09VcHNoUE4zZUQ2Q1YyRFpLZmk5alV5Ym9sQmV0TGpIQjY3aVhWVldId1ZPdk1ic0NqNndodVFsTkZsY3BuWldxOUNHNWFDZHBySnVacG9idHQ5bFAyNTJsWXcyd3JHMTNZYjgyRVNYNWs4RURfQlB2VWJibmszNmc2T3dOcTJUXzZjSHczc1BiOEtVNEpfcWpMczlWcjZiVDFPMlpyb21teGhtckZEb2taZFJfYVhv?oc=5"
         }
       ]
     },
@@ -72,7 +108,7 @@
           "titulo": "Ingreso a Escudo de las Américas no compromete la soberanía del Perú, señala excanciller - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
           "fecha_publicacion": "2026-09-14T14:43:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVXZ6NXZ5TVUyTVNEc193T0FudjB2eHpaRV9fUDhtZjJiVHgySzZoUlZ3Q2JNSGY1amJWbGpvWWpJQnBqZnhIVzlCaUhvbWlPam5nRzRJZnlOQk9hRFpYUTl4M3c0c0JYaU1zVnkyZjhtVnNIcTdXdUdpYW11YUREc0Z3ZEVhMVUwYXNfZVZHbC1Ec2lfQlhhRjFsZzNSMXZLNTV6Mm92X0lJeHBkU2JtREdHOGxIOGd3MkxGVHZVVURTMm45NU1ZWXpjUzA2Sl9HaVVrMHV0NGxzZmM?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMTVkSWpZNk1aVm9JTlBuZEV2VnpXWkQ5cWdJWFd6ZE93Nkl0QUJpNWFjUWY5UV9mME1XSmh6S1FJcWR5dnpSMnVobDdaT3lydW5XQkdxUEhzUmpaOVJoQXYxOUhpcXdGOVBQLWI1T2Etc1U1MGVzbFBuWHdSOFdDS0xFS1F2M05NdnBGM0lxcElZbnNKOWtueDZEVHd3c3VsX0FvaXB5NE1KaEczS1VJZ0gxM2VsQ3hWdk00TjN3VWd2Tm9JUTRmZ3d1VURNT0lPbk03Y20tTGd2UE84MUtiM0ZOX2F3V3pj?oc=5"
         }
       ]
     }
