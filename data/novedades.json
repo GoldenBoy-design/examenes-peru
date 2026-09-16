@@ -1,18 +1,34 @@
 {
-  "generado": "2026-09-15T17:41:03.850081",
+  "generado": "2026-09-16T17:40:35.719832",
   "universidades": {
-    "UNS": {
+    "UNMSM": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
         "2026-07-12",
-        "2026-09-06"
+        "2026-08-10",
+        "2026-09-19",
+        "2027-10-17"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Sedapal suspende el servicio de agua en Lima este martes 15 de agosto: revisa la lista de urbanizaciones afectadas hasta el miércoles - La República",
-          "fuente": "La República",
-          "fecha_publicacion": "2026-09-15T00:54:34",
-          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxORzBNTnJ3SE5DdHJ5RXE5cGF3ZWF4RVhGOUpKS2VDaVBLZVdJWUpEV0tTOXQ3MkZDcm15ME9ERUp3U2JPUVlsSWEzMG9BSkJRLWlOd1U3WUpIVE5rZkxwSnlaQUlNc3lvNGM1d0RSUnJOazNveG16NTNIWEN1SGpuMGpranNvUURLYW1xdTRKckgtSGtEa3Y4RnQ5dzNRbkdhNVlnbUFTeTN0TGY4bllsY0M5bEY3TXRYeWlnNGJzX1UxNU1QcHFMUl9iTE5GVEo4UUJ1djJfTEVZZE1JS0dGdGlZQWIyaFhDOFFKUHNoMnhlSHJPTFZJSDgtaTQzdGhXM0dVckU2QktvSTltWDBLTnFSMC3SAZQCQVVfeXFMTkcwTU5yd0hOQ3RyeUVxOXBhd2VheEVYRjlKSktlQ2lQS2VXSVlKRFdLUzl0NzJGQ3JteTBPREVKd1NiT1FZbElhMzBvQUpCUS1pTndVN1lKSFROa2ZMcEp5WkFJTXN5bzRjNXdEUlJyTmszb3htejUzSFhDdUhqbjBqa2pzb1FES2FtcXU0SnJILUhrRGt2OEZ0OXczUW5HYTVZZ21BU3kzdExmOG5ZbGNDOWxGN010WHlpZzRic19VMTVNUHBxTFJfYkxORlRKOFFCdXYyX0xFWWRNSUtHRnRpWUFiMmhYQzhRSlBzaDJ4ZUhyT0xWSUg4LWk0M3RoVzNHVXJFNkJLb0k5bVgwS05xUjAt?oc=5"
+          "titulo": "Simulacro presencial UNMSM 2027-I: todo lo que debes saber sobre la prueba previa al examen de admisión - Revista Caretas",
+          "fuente": "Revista Caretas",
+          "fecha_publicacion": "2026-09-16T17:08:04",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNS19Ha2xOSmt1dU9jS3h3Y0JTVGVsd2x6MUFwSVh4Qnh3aVNORDNJTEdYLUh4SzJmRFJFTUR2NEtiazlobVFvbmxaN1FmYmpvRGFmbjlsUEhpRm5mWHdmam5ydnpVaUlqYzd0cnd6clZoRW5Ca09UelpTcm8zckhPbVgtMmlVdm5kSnEyTHdPRWFJN3U3NGk0Z05LU0ZRRnMzWmNZSHduZDdCS1JVLWVYcGZMYXZFRURyLTlSLUNTSlNpaDBvazlkZGpydzRuNldSTXRpb1dDWXd4YWpfOUxGdHAxVmNKa3FlMVE?oc=5"
+        }
+      ]
+    },
+    "UNT": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-17"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Municipalidad de San Juan de Lurigancho ofrece DNI gratuito: cuándo y dónde será la campaña - Diario Libero",
+          "fuente": "Diario Libero",
+          "fecha_publicacion": "2026-07-20T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMjdOX2tXWDd3R1lWaUVLS29kVmNRVC1WN3k2ZjlhYlJseG4xbENiNEtKZV9uMU5leG90ZG9IRGdPSGllajNCaGJ5WmdSOW9nYUN6aEJJZlNOOTRONUQ3TGl2S0hHbGFVVEVnb09jNW56VWVKQ1FqSXVncHhSdjJyc0JwTzI0TXlORzhOTjNMSkVpNkszZmtKQ204TkhRLXI1RjUta1hoTG93dVJlZHFWU3ZzUnNvSzRnZmxabjR4YnFhVElSMGpjSi1aYUdrZ9IB0wFBVV95cUxON2FhTWRqTEd4VkdOZW9xdmwxUGpRRWx5TVFubWhycTdYek1LSlB0UWZiVS1rWEJUc0lHMWZSeUxpV0JvY2dKRjlmZ3NxREY4alZnX1RLUjM2bldCOXg3OUtlVFdVdzAya1djRldmYWNCTjVOZERwdy1ndF9ERE15Qm1HQlcyZXZUT0VLcnBYbTNJRXBwVUIzSmFmN1hLZkQycFUxR2NwT0doRUFobHQ0Tlc0YklhTTJ4cVRGV1FXNUdfbnQwQ0V3SE5uTkV0bTJ5S1RJ?oc=5"
         }
       ]
     },
@@ -36,10 +52,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Ingreso “por la fuerza” de exvicerrectora a la UNI desata protestas y tensión dentro de la universidad - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-14T21:22:00",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRVU2aUV3MEdVNkpqOHN3X2hRM19kbW1CeDF4MXRxZF9oZVhTYTRYVDIza1JUVW9TQ3I4dmJtYVhxSTdCOWRhS1A4SUpoY2d0MVNvNUgtXzE2dFRUSld6R3RUREtVNHRDWWlUb0JRVEF0THV5S2dxZllTTU52cHRXNVZWdEwyNHltM2NNTHZIVUxBX1hTZGkwbzBuZGZObGJqNDFCYko1dTJWVUQybmdwemFGQjJocUt6a2ZEbENUN2NkT0FETGlacTg3VHY3XzBkVjAxY3NYSznSAfMBQVVfeXFMTS0ycnNlMHFNVFlGUDZGeV9zRS1PbkZld0dVakRXbGMxc1lGSUI0OE82eTRCYkhjVmNtLTduSXMtQTZUQVlyckNERGZtakw0ZTloalZoUVRtdmppbWpzaUJVeTVzd2xVTjZMbjFWVzdGaUlsVTV1VW5QNGJkbFlVaGJvZnlYQWUteDNoeEhWLVlXRVJZTVc0d3lQa0ZFalhjNEExaXNWSUc2V3BrTUxnZ3B0eHdfTW9KN3JIRmhWcnk1akpzQkJuQTZvbEtfUE9UX0ZpLXAxalNrRVVjNjBWR1UxZWxRdWp2TEUtXy1UZDdQVGtB?oc=5"
+          "titulo": "Disputa por rectorado de la UNI desata enfrentamiento en la sede universitaria - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-09-15T01:39:57",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbmpWbS05Tm4zN3N0Z0VWQkZaejd3dUdjM1dIOF8wMGFoR1dQeEJfTUVFaUhiM3NnaTQ2OXp0MmZWV0dDQzNYbnVlU3hfd3lSWXFsVUw4eDJkeHN3aXc5bGNGYjYwS2t2bXdPaDBBSGdvVU9FRFBXeS1GWXRIZGtQSmxmLUg4RG42OE03S2NtQ0h1WTVrUFZmc29HU3ZXNEpCOV9jQnFUUE5MMDdmVnBQS3ZlN19uUnFMamF3UDhDcTJKMWJLTV9WbmJOYmpuWnpOWHJ2dV90QUlmU251NTRWck5UMWwwa1HSAewBQVVfeXFMUHc4QkQyRGNtcnEtU1BMWE5LUXVKdmVMUUVxTTZGWlVDd3BKdTE5NjV3R3J1SVEtLVZ3XzJyREZhZG4wbFlLemIwODF6OEZWTGJuaFlzRzFRdW01cE82MUp0OFpSNmk1UHBWODVfLXZNNXFoZERNcjl6WE4tQl9iNzlNZkstWWVsd2kteUp2MzV1OXlVSXlwTlVROTV0VThCQkxkSHBKWW52cDhTcTFrRmVyVUtKMzAwdVFXdF9fTm4xN3Vwdy1FUWk4U3UtanFHZGsyQzVXT2VsNlpXdkIyMjdaZkFTZFl1MHpDc0E?oc=5"
         }
       ]
     },
@@ -53,62 +69,28 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Ingreso a Escudo de las Américas no compromete la soberanía del Perú, señala excanciller - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-14T14:43:00",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMTVkSWpZNk1aVm9JTlBuZEV2VnpXWkQ5cWdJWFd6ZE93Nkl0QUJpNWFjUWY5UV9mME1XSmh6S1FJcWR5dnpSMnVobDdaT3lydW5XQkdxUEhzUmpaOVJoQXYxOUhpcXdGOVBQLWI1T2Etc1U1MGVzbFBuWHdSOFdDS0xFS1F2M05NdnBGM0lxcElZbnNKOWtueDZEVHd3c3VsX0FvaXB5NE1KaEczS1VJZ0gxM2VsQ3hWdk00TjN3VWd2Tm9JUTRmZ3d1VURNT0lPbk03Y20tTGd2UE84MUtiM0ZOX2F3V3pj?oc=5"
-        },
-        {
           "titulo": "Universiada Lima 2026: instituciones suman esfuerzos para visibilizar el talento de cerca de 8 mil estudiantes-deportistas - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
           "fecha_publicacion": "2026-09-10T02:11:53",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQTDVQc3doTzJXNElsdXAzbzU4WENfbXNKT1BWZnJjUHhyS1R0R2F0djBxcGpNbGpuMDlRb1lVVDhWM19FcUtVRzBaajZGSThPenoyY2NTYnU1SnlWbU5neUphTWJjc1BQbklpbUJ1WHdVSnlySm8yY0lXTDRTcHZ6cGcwM1FDaWprWDh2Xy1EV01xbndhbnlKQVBrTzJ4OHpvSXBzWEFOR2pVdHBkY1hKb1NkaEVTM3RoUjdVZEx6SU5Oc0VLRWpZLWZMYmxtbmJiWWRwWjBrbXBud251c3VsUFhYY29GRnQtT2x3YTBkdFlmS2JtejNlTFNQVzJKaGRmMWdSRklHZVJRV0tOX1JfNkl3?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOVF9fYjFycXRvcF9OWDNPZlZuWXNTQWNwRnB6YXQ1bGNQdHl0TERvY2RvT2hHRFZPRmlfUXZtcVl3Z29Ya2tKMlAzWGljNTg0ZDFkMXo2S0V5M01VMDJoUjBHb1RPZjJ1cno2ejdYcS05UFJFbTdGQlhXQ2lsTm05REdUb3pzemZSdF9WUU1zV2Q4YWdzcUxEZE9lS0VPeVlEcmwtX2hCN2FBd09oUHNkNFN1ek5TMGtzbjBCSDNncGtucTIwNHhkd2J6VDYzZngyb210N19ZLVdhVWE0QkFaU1NnQ181VEFza3JoQ2tNQ0luYV9UaVlTWlVHU1VZNDF3Q2J6WG5RV0xNRWQ4dllVUDN1QjZTeGZzNUdoMnFEbw?oc=5"
         },
         {
-          "titulo": "Canciller anuncia gabinetes binacionales y encuentros presidenciales con Bolivia, Chile, Colombia y Ecuador - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-08T19:55:00",
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOeV9KeG9wVG42amhDRi0tRlVEbG5ERnl2Rk9PN3J5bHFraXRHZEZNb2lYTVdURkVlak5tcHNhdHJIcks2OXJkeXFhTlJNMTNoS1F3TFhXMWl3al8tNkdadnJvck5FQ1duYzJjaXlkZTNyRTJSMzFEZFp5S1EtMDFzUkd0WmpWSDJQaU5GTVk1VjZLcHlSTnNCVkhBeDdkRzJMcXVTWnhQZl9Bd0FzUUYtQW11MVlWcTNYeXFhVFJLVnlwaDZRQ1lNX0piTlpnYkQxWmdBWEtMM2pZeWZsaHR5dThRcUF3WTlRVTc5alFKbHZpWDhfTEdid3dmMjBseFVJ?oc=5"
+          "titulo": "Incendio en Los Olivos: el fuego avanza y UCV suspende clases presenciales por alto riesgo en planta de cosméticos - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-07-24T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNeERncllEU1pjVUxjTTdlMFExaHhkOUtNeGpjeFBDR3pteU5uYURIQkZySzRUZnNuTkJyaElscTRGaGJsQmFXRXY4Vl8tVjRZdWlKc0JRZloxQnU4RU9CM3N6MFlrM3FWQXZtVXhKckd5aWQ0bGtGVHlBWnFVeEp6UEVhbjhMMXNtUF9tRWo2S205X2xjNTd5UUEzM1RWcE9wa1BhdjA4aXhKRVEtMFdBSkVoVWJnRmRfQUVoRnBQbEpnOEliTDAtQXB2emZHaGVBVkZ0ckFDZlBGNTRpdnJyQVJ6STRRRWpTYVHSAYQCQVVfeXFMTk9EQUdhYUpTNGpYdDZzUFZibHpjeGVCNDVlU3ZQWGl0OEdoSVBYSGNGdE5VeHQ5dHIwSUowd2tNcGZCUHBKNnhzNmpTZXdFYjZiU3Jza0RzVURRdHBSMFAyRnZfSTd6Vm9rSWo3RXdRaUNtNHhwSldpUVQydGxwS2xtajZVTFQzQ0tyVWtQaXB3RlVnZURPQnJuSU9VVXREMW9FbmpKc1NVOXVUZ0R0WURJMzZYMUxxRi1aa0I2SmRucXRWeEpKckIyTlE4OUdlWUlRTFU0RTAtVXd6VXpyd2JZMDZxc2VURGRiZXBxTGt6MVhGcFpkYlRkVHBCY09rY1JnZFI?oc=5"
         }
       ]
     },
-    "URP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-07"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Perú consigue cuatro medallas en la XIX Olimpiada Iberoamericana de Biología realizada en Brasil - diariouno.pe",
-          "fuente": "diariouno.pe",
-          "fecha_publicacion": "2026-09-15T00:18:25",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQnhFRmx3RGFvQzkzY0g0VWZoVXZLVS1XV21uNURPMlVsMmpEZm4tZGNSNWx6RG4xNlQ3cDMzVzJVOThqQm56NG81SWJ2TmpRN21BTUQxTy1mdHNJN2cyeW5mTVBlS0Q5MW5uNko2Q0tGY282dEh3ZEZLckR3MGFiZDZaeGt6UEdyVUo5N2l6TW5RQmFGNjFTa3NCTWdlYTN4aTFsTzFqTGhZYkVBbHAtb3plUndGemVWZUVoNU9fbGFJWjFXU291SA?oc=5"
-        }
-      ]
-    },
-    "EO-PNP": {
+    "EOFAP": {
       "estado_actual_json": "cerrado",
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "PNP rechaza versiones sobre financiamiento de mafias para infiltrar las Escuelas de Formación Policial y exige denuncias con pruebas verificables - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-14T01:09:24",
-          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOZDd4SGFwQ0VYcnhDbDN2WjN3ZHRwb2tjYTZBUFZ6anlsd2oxT2VqWW5mUjRiMTR0ZmF3N1ltdHlsSHNwdGc0bk1GRE1RdWFuNWl4Wktlc0h3T0xjUU9ZMUthUXFJZTRiSjBaRVJieEctU2lzOThmSVFpNjNiaFM3T1Vwc2hQTjNlRDZDVjJEWktmaTlqVXlib2xCZXRMakhCNjdpWFZWV0h3Vk92TWJzQ2o2d2h1UWxORmxjcG5aV3E5Q0c1YUNkcHJKdVpwb2J0dDlsUDI1MmxZdzJ3ckcxM1liODJFU1g1azhFRF9CUHZVYmJuazM2ZzZPd05xMlRfNmNIdzNzUGI4S1U0Sl9xakxzOVZyNmJUMU8yWnJvbW14aG1yRkRva1pkUl9hWG_SAa8CQVVfeXFMTmQ3eEhhcENFWHJ4Q2wzdlozd2R0cG9rY2E2QVBWemp5bHdqMU9lalluZlI0YjE0dGZhdzdZbXR5bEhzcHRnNG5NRkRNUXVhbjVpeFpLZXNId09MY1FPWTFLYVFxSWU0YkowWkVSYnhHLVNpczk4ZklRaTYzYmhTN09VcHNoUE4zZUQ2Q1YyRFpLZmk5alV5Ym9sQmV0TGpIQjY3aVhWVldId1ZPdk1ic0NqNndodVFsTkZsY3BuWldxOUNHNWFDZHBySnVacG9idHQ5bFAyNTJsWXcyd3JHMTNZYjgyRVNYNWs4RURfQlB2VWJibmszNmc2T3dOcTJUXzZjSHczc1BiOEtVNEpfcWpMczlWcjZiVDFPMlpyb21teGhtckZEb2taZFJfYVhv?oc=5"
-        }
-      ]
-    },
-    "M": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [
-        "2026-08-10"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Ingreso a Escudo de las Américas no compromete la soberanía del Perú, señala excanciller - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-14T14:43:00",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMTVkSWpZNk1aVm9JTlBuZEV2VnpXWkQ5cWdJWFd6ZE93Nkl0QUJpNWFjUWY5UV9mME1XSmh6S1FJcWR5dnpSMnVobDdaT3lydW5XQkdxUEhzUmpaOVJoQXYxOUhpcXdGOVBQLWI1T2Etc1U1MGVzbFBuWHdSOFdDS0xFS1F2M05NdnBGM0lxcElZbnNKOWtueDZEVHd3c3VsX0FvaXB5NE1KaEczS1VJZ0gxM2VsQ3hWdk00TjN3VWd2Tm9JUTRmZ3d1VURNT0lPbk03Y20tTGd2UE84MUtiM0ZOX2F3V3pj?oc=5"
+          "titulo": "FAP abre admisión 2027: aquí las carreras y vacantes para ser oficial o suboficial [video] - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-09-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWk44aXppN2xrUEJtNkdIcU1DQVJ3NVByTUlpTjNxbUxaT3hkaVdKckNoLWtnMmh3SHNlRm1HUjc3cGxlcUtlZ1RQUkhlc2NabkV3LUlfSHZWSGpEVEk0MHVDc3VIXzZHbEVZcGV4LXkybkg3ZUxnbzg0OUx2dG8xZi1SdmVXVm0xUG1VYmJ1dkpuX2h2QklOSWw3bFBYZFRzTm1LX1BiNWRaaTJXa2FTTTRNMEZJazVTbVJoRzhnZ1U5cUJiTTdsYjNDLWsyQ1U?oc=5"
         }
       ]
     }
