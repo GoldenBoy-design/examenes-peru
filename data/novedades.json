@@ -1,6 +1,20 @@
 {
-  "generado": "2026-09-16T17:40:35.719832",
+  "generado": "2026-09-17T17:40:11.870047",
   "universidades": {
+    "UNALM": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Denuncian demolición de refugio para perros abandonados en la Universidad Nacional Agraria La Molina - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-08-16T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTzBMV3lqRFJLbHVaT29SYWVIMFdxaUppaVdBeGJhTk9pNl9ONW82dlJPdmxydFdUSTdiT3RzZUhIZGFzZzZvSXVtbkk4NVdKc2tNR0N0YkdNWEhjcHpEQ3F5TWt5eGlQUXZGQ2x1S0V1WGZ5YUxuOTlya3VlX01vV0d1WHZMN0JyZkw1MHBMb2pjMEZ0UENhc2dta0FJT0k1QjVtVlY3Wi1BN3ktaDlYV0l0a1dfTnAyU0Z3VkJuTUxOZEJmTHhSem1MTk1oR0xYTjRyT0t6YnlCWkxXcEMta0lGZ3bSAeoBQVVfeXFMTVJIampXaURrUmtfSG5sUVc3Vmh2Rm9UT0tNNktyR3hwOGtIUzk4U1hMWVlvY3lNWmhuNTZvRDI4RXZUd2JMSll1c3AyQmVpQk9uRE0xZ2RJSW14MzFNUjRHc3g2ZW1kTmxmQlRHYkJ1RTg1dGZINk9mUEIxUFQydG9QWTRkR1VuWWUyckRQeTM5dWk2bGRVVktCX05HVnpCdnZmMWw0d1VEVjFzSl8wNGoxdEVVNE5YMmVIUTJoNTc0T29lQ2hlWXBJOVpaNThTZkpfS0NZQy1DVlg5OGlxclVscmx4bUplNXdR?oc=5"
+        }
+      ]
+    },
     "UNMSM": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -11,86 +25,24 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Simulacro presencial UNMSM 2027-I: todo lo que debes saber sobre la prueba previa al examen de admisión - Revista Caretas",
-          "fuente": "Revista Caretas",
-          "fecha_publicacion": "2026-09-16T17:08:04",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNS19Ha2xOSmt1dU9jS3h3Y0JTVGVsd2x6MUFwSVh4Qnh3aVNORDNJTEdYLUh4SzJmRFJFTUR2NEtiazlobVFvbmxaN1FmYmpvRGFmbjlsUEhpRm5mWHdmam5ydnpVaUlqYzd0cnd6clZoRW5Ca09UelpTcm8zckhPbVgtMmlVdm5kSnEyTHdPRWFJN3U3NGk0Z05LU0ZRRnMzWmNZSHduZDdCS1JVLWVYcGZMYXZFRURyLTlSLUNTSlNpaDBvazlkZGpydzRuNldSTXRpb1dDWXd4YWpfOUxGdHAxVmNKa3FlMVE?oc=5"
-        }
-      ]
-    },
-    "UNT": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-17"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Municipalidad de San Juan de Lurigancho ofrece DNI gratuito: cuándo y dónde será la campaña - Diario Libero",
-          "fuente": "Diario Libero",
-          "fecha_publicacion": "2026-07-20T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMjdOX2tXWDd3R1lWaUVLS29kVmNRVC1WN3k2ZjlhYlJseG4xbENiNEtKZV9uMU5leG90ZG9IRGdPSGllajNCaGJ5WmdSOW9nYUN6aEJJZlNOOTRONUQ3TGl2S0hHbGFVVEVnb09jNW56VWVKQ1FqSXVncHhSdjJyc0JwTzI0TXlORzhOTjNMSkVpNkszZmtKQ204TkhRLXI1RjUta1hoTG93dVJlZHFWU3ZzUnNvSzRnZmxabjR4YnFhVElSMGpjSi1aYUdrZ9IB0wFBVV95cUxON2FhTWRqTEd4VkdOZW9xdmwxUGpRRWx5TVFubWhycTdYek1LSlB0UWZiVS1rWEJUc0lHMWZSeUxpV0JvY2dKRjlmZ3NxREY4alZnX1RLUjM2bldCOXg3OUtlVFdVdzAya1djRldmYWNCTjVOZERwdy1ndF9ERE15Qm1HQlcyZXZUT0VLcnBYbTNJRXBwVUIzSmFmN1hLZkQycFUxR2NwT0doRUFobHQ0Tlc0YklhTTJ4cVRGV1FXNUdfbnQwQ0V3SE5uTkV0bTJ5S1RJ?oc=5"
-        }
-      ]
-    },
-    "UNI": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-02-16",
-        "2026-02-18",
-        "2026-02-20",
-        "2026-08-01",
-        "2026-08-02",
-        "2026-08-08",
-        "2026-08-10",
-        "2026-08-12",
-        "2026-08-14",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Disputa por rectorado de la UNI desata enfrentamiento en la sede universitaria - La República",
-          "fuente": "La República",
-          "fecha_publicacion": "2026-09-15T01:39:57",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbmpWbS05Tm4zN3N0Z0VWQkZaejd3dUdjM1dIOF8wMGFoR1dQeEJfTUVFaUhiM3NnaTQ2OXp0MmZWV0dDQzNYbnVlU3hfd3lSWXFsVUw4eDJkeHN3aXc5bGNGYjYwS2t2bXdPaDBBSGdvVU9FRFBXeS1GWXRIZGtQSmxmLUg4RG42OE03S2NtQ0h1WTVrUFZmc29HU3ZXNEpCOV9jQnFUUE5MMDdmVnBQS3ZlN19uUnFMamF3UDhDcTJKMWJLTV9WbmJOYmpuWnpOWHJ2dV90QUlmU251NTRWck5UMWwwa1HSAewBQVVfeXFMUHc4QkQyRGNtcnEtU1BMWE5LUXVKdmVMUUVxTTZGWlVDd3BKdTE5NjV3R3J1SVEtLVZ3XzJyREZhZG4wbFlLemIwODF6OEZWTGJuaFlzRzFRdW01cE82MUp0OFpSNmk1UHBWODVfLXZNNXFoZERNcjl6WE4tQl9iNzlNZkstWWVsd2kteUp2MzV1OXlVSXlwTlVROTV0VThCQkxkSHBKWW52cDhTcTFrRmVyVUtKMzAwdVFXdF9fTm4xN3Vwdy1FUWk4U3UtanFHZGsyQzVXT2VsNlpXdkIyMjdaZkFTZFl1MHpDc0E?oc=5"
-        }
-      ]
-    },
-    "UCV": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-19",
-        "2026-08-23",
-        "2026-08-29",
-        "2026-09-27"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Universiada Lima 2026: instituciones suman esfuerzos para visibilizar el talento de cerca de 8 mil estudiantes-deportistas - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-10T02:11:53",
-          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOVF9fYjFycXRvcF9OWDNPZlZuWXNTQWNwRnB6YXQ1bGNQdHl0TERvY2RvT2hHRFZPRmlfUXZtcVl3Z29Ya2tKMlAzWGljNTg0ZDFkMXo2S0V5M01VMDJoUjBHb1RPZjJ1cno2ejdYcS05UFJFbTdGQlhXQ2lsTm05REdUb3pzemZSdF9WUU1zV2Q4YWdzcUxEZE9lS0VPeVlEcmwtX2hCN2FBd09oUHNkNFN1ek5TMGtzbjBCSDNncGtucTIwNHhkd2J6VDYzZngyb210N19ZLVdhVWE0QkFaU1NnQ181VEFza3JoQ2tNQ0luYV9UaVlTWlVHU1VZNDF3Q2J6WG5RV0xNRWQ4dllVUDN1QjZTeGZzNUdoMnFEbw?oc=5"
-        },
-        {
-          "titulo": "Incendio en Los Olivos: el fuego avanza y UCV suspende clases presenciales por alto riesgo en planta de cosméticos - Infobae",
-          "fuente": "Infobae",
+          "titulo": "Fallas en exámenes marcan el futuro de universidades - Excélsior",
+          "fuente": "Excélsior",
           "fecha_publicacion": "2026-07-24T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNeERncllEU1pjVUxjTTdlMFExaHhkOUtNeGpjeFBDR3pteU5uYURIQkZySzRUZnNuTkJyaElscTRGaGJsQmFXRXY4Vl8tVjRZdWlKc0JRZloxQnU4RU9CM3N6MFlrM3FWQXZtVXhKckd5aWQ0bGtGVHlBWnFVeEp6UEVhbjhMMXNtUF9tRWo2S205X2xjNTd5UUEzM1RWcE9wa1BhdjA4aXhKRVEtMFdBSkVoVWJnRmRfQUVoRnBQbEpnOEliTDAtQXB2emZHaGVBVkZ0ckFDZlBGNTRpdnJyQVJ6STRRRWpTYVHSAYQCQVVfeXFMTk9EQUdhYUpTNGpYdDZzUFZibHpjeGVCNDVlU3ZQWGl0OEdoSVBYSGNGdE5VeHQ5dHIwSUowd2tNcGZCUHBKNnhzNmpTZXdFYjZiU3Jza0RzVURRdHBSMFAyRnZfSTd6Vm9rSWo3RXdRaUNtNHhwSldpUVQydGxwS2xtajZVTFQzQ0tyVWtQaXB3RlVnZURPQnJuSU9VVXREMW9FbmpKc1NVOXVUZ0R0WURJMzZYMUxxRi1aa0I2SmRucXRWeEpKckIyTlE4OUdlWUlRTFU0RTAtVXd6VXpyd2JZMDZxc2VURGRiZXBxTGt6MVhGcFpkYlRkVHBCY09rY1JnZFI?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV2NkaXRxNVR0emdScUcyWWxodzBrU3lsVXM3VUhuTlFNSkZielh6S3hSUE9JTkRwT2lrT2NqbGtWdXQ1ek5OQkZHcEpkV3RtSjBjdVhjOWFqMTZQUWl3SE9uMmEwQXBUQkdXVVVIb1FaTUNBUWRSQkttNm12UXhEd0swX21SNXdy0gGOAUFVX3lxTE1GSFNtMjJka3dIejJta1FVdTIxNENZbHZlM1pOTmVVTkRZNXA2WFFmX09ZRlB6X0llX2tScldZU3h0UThBb2xWT3VqVzBFdHpoQVk5V2VQa2hOQmEzQVcwMnRyd1lNcTBtbVVVZXZ1YTl1RHJzLVQ2c1NxT09BZ1V0S2x5NlRsM29vc0tWQmc?oc=5"
         }
       ]
     },
-    "EOFAP": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
+    "URP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-07"
+      ],
       "noticias_encontradas": [
         {
-          "titulo": "FAP abre admisión 2027: aquí las carreras y vacantes para ser oficial o suboficial [video] - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-09-07T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWk44aXppN2xrUEJtNkdIcU1DQVJ3NVByTUlpTjNxbUxaT3hkaVdKckNoLWtnMmh3SHNlRm1HUjc3cGxlcUtlZ1RQUkhlc2NabkV3LUlfSHZWSGpEVEk0MHVDc3VIXzZHbEVZcGV4LXkybkg3ZUxnbzg0OUx2dG8xZi1SdmVXVm0xUG1VYmJ1dkpuX2h2QklOSWw3bFBYZFRzTm1LX1BiNWRaaTJXa2FTTTRNMEZJazVTbVJoRzhnZ1U5cUJiTTdsYjNDLWsyQ1U?oc=5"
+          "titulo": "Perú consigue cuatro medallas en la XIX Olimpiada Iberoamericana de Biología realizada en Brasil - apnoticias.pe",
+          "fuente": "apnoticias.pe",
+          "fecha_publicacion": "2026-09-15T00:18:25",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeldPcV9PY3B1b1o1dUw5SzVDZmRycnJWMVI1ckNvT0pZRnY2b3E4NEptX3JRTzlCMnB2MWttNXhXQ0MxcDZIZk9zZWZDTlJLUXl3V0RxZkJQQWhMblNObGlZLXl6ZzNOTHFvOFRJNG5yd0FRdE9yT3k1d0ZFdzNIbFMzUldZYU9fZ2JMbldNNjlGVVNJSENIMVRraXRibk9qQlBMd1lUdVZpVExYWFloQjZfQnJhaDlFZTRTNUNuQVprYmFNNG9UMnZR?oc=5"
         }
       ]
     }
