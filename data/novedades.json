@@ -1,48 +1,30 @@
 {
-  "generado": "2026-09-17T17:40:11.870047",
+  "generado": "2026-09-18T17:07:53.414103",
   "universidades": {
-    "UNALM": {
-      "estado_actual_json": "abierto",
+    "ULIMA": {
+      "estado_actual_json": "por confirmar",
       "fechas_actuales_json": [
-        "2026-07-12"
+        "2026-07-19",
+        "2026-11-15"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Denuncian demolición de refugio para perros abandonados en la Universidad Nacional Agraria La Molina - La República",
-          "fuente": "La República",
-          "fecha_publicacion": "2026-08-16T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTzBMV3lqRFJLbHVaT29SYWVIMFdxaUppaVdBeGJhTk9pNl9ONW82dlJPdmxydFdUSTdiT3RzZUhIZGFzZzZvSXVtbkk4NVdKc2tNR0N0YkdNWEhjcHpEQ3F5TWt5eGlQUXZGQ2x1S0V1WGZ5YUxuOTlya3VlX01vV0d1WHZMN0JyZkw1MHBMb2pjMEZ0UENhc2dta0FJT0k1QjVtVlY3Wi1BN3ktaDlYV0l0a1dfTnAyU0Z3VkJuTUxOZEJmTHhSem1MTk1oR0xYTjRyT0t6YnlCWkxXcEMta0lGZ3bSAeoBQVVfeXFMTVJIampXaURrUmtfSG5sUVc3Vmh2Rm9UT0tNNktyR3hwOGtIUzk4U1hMWVlvY3lNWmhuNTZvRDI4RXZUd2JMSll1c3AyQmVpQk9uRE0xZ2RJSW14MzFNUjRHc3g2ZW1kTmxmQlRHYkJ1RTg1dGZINk9mUEIxUFQydG9QWTRkR1VuWWUyckRQeTM5dWk2bGRVVktCX05HVnpCdnZmMWw0d1VEVjFzSl8wNGoxdEVVNE5YMmVIUTJoNTc0T29lQ2hlWXBJOVpaNThTZkpfS0NZQy1DVlg5OGlxclVscmx4bUplNXdR?oc=5"
+          "titulo": "Lima recibirá una feria con propuestas de estudio en Australia: fecha, sede y detalles - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-01T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcmI5N092dGpMdTdtbnN0UE5ZRWowOEFZR2VreVVtMGVMeTBaTGZPSDg4WDhKZFRSVGxrbzZZS3F5MnNlNG5RUVV2VC13azd6aElNRHNfUFhVdEFMR2xPUU9vUnhySENtV3pzNjQ4WTZib3pKdlI2cWNnVG82SHEzS1B5V3BESnkwc0hSTWpKN0NDcHpjNHZLS1prYWM3UHF5aXo2Z3ZPR19UaGpaY0wwLW12SG5OV3ZiNnJxR1hVbWNHVEHSAd4BQVVfeXFMT25JTVlzVDRMNmJKTmN5d05tbGk0NEw1QUowbmZ5d2NtVVZrTjFnZGN4YzlZUUF4NzE3UkdkRWhCUkJTUURGNDJ3Tzk5RDZwSTc1eWtpVllhbFBKZnh4ckpCcjdnMElCeUFxRjJCaFBpcVRERkhQeGUzV21mZmNtbDh3REZvbklOdExjYnFOYkF3ZkU3X0tXbHhYb2tGWUVvX0d4VnZQd19SNGltZE1CT0dxQzdwa0xaSV83NzVydGpjSEhRNFVtRy01eVFza2o4TW1SbV9ncVpOZDhUYlZR?oc=5"
         }
       ]
     },
-    "UNMSM": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-08-10",
-        "2026-09-19",
-        "2027-10-17"
-      ],
+    "EO-PNP": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Fallas en exámenes marcan el futuro de universidades - Excélsior",
-          "fuente": "Excélsior",
-          "fecha_publicacion": "2026-07-24T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV2NkaXRxNVR0emdScUcyWWxodzBrU3lsVXM3VUhuTlFNSkZielh6S3hSUE9JTkRwT2lrT2NqbGtWdXQ1ek5OQkZHcEpkV3RtSjBjdVhjOWFqMTZQUWl3SE9uMmEwQXBUQkdXVVVIb1FaTUNBUWRSQkttNm12UXhEd0swX21SNXdy0gGOAUFVX3lxTE1GSFNtMjJka3dIejJta1FVdTIxNENZbHZlM1pOTmVVTkRZNXA2WFFmX09ZRlB6X0llX2tScldZU3h0UThBb2xWT3VqVzBFdHpoQVk5V2VQa2hOQmEzQVcwMnRyd1lNcTBtbVVVZXZ1YTl1RHJzLVQ2c1NxT09BZ1V0S2x5NlRsM29vc0tWQmc?oc=5"
-        }
-      ]
-    },
-    "URP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-07"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Perú consigue cuatro medallas en la XIX Olimpiada Iberoamericana de Biología realizada en Brasil - apnoticias.pe",
-          "fuente": "apnoticias.pe",
-          "fecha_publicacion": "2026-09-15T00:18:25",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeldPcV9PY3B1b1o1dUw5SzVDZmRycnJWMVI1ckNvT0pZRnY2b3E4NEptX3JRTzlCMnB2MWttNXhXQ0MxcDZIZk9zZWZDTlJLUXl3V0RxZkJQQWhMblNObGlZLXl6ZzNOTHFvOFRJNG5yd0FRdE9yT3k1d0ZFdzNIbFMzUldZYU9fZ2JMbldNNjlGVVNJSENIMVRraXRibk9qQlBMd1lUdVZpVExYWFloQjZfQnJhaDlFZTRTNUNuQVprYmFNNG9UMnZR?oc=5"
+          "titulo": "Proceso de Admisión Ordinario 2026 - Promoción 2027 a la Escuela de Oficiales de la Policía Nacional del Perú. - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-09T14:36:17",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVWk3cG9fMGloSW9rSHJ2c3dpTzI2VTVvZDBsdDNWVWpCSGI5bkNBT1FjWk1IelNhOXdUNHNicWtkWFpNNVBUc2dGb0hVOWhkTjJhZTE5Nzh6bnptT1Qwdk94eU5ZbkFEZHdKbS15V2pvS3RhSUFkMHFPdE5EaGhYelVwU2VIU2tlNkxJZ3dJcGZJZlpTY2FSdER5d2lpd0V2emdhM2IwcHB2cVdTQWROSmRSX0QwYmpuWWVYcWxyZ05rMGhFdktuWkItRC1UcmltdFo5endYSU9YbFJuTUo1eG8ybGQ2bDFFWHptREh6bURkUQ?oc=5"
         }
       ]
     }
