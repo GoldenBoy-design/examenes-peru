@@ -1,32 +1,4 @@
 {
-  "generado": "2026-09-18T17:07:53.414103",
-  "universidades": {
-    "ULIMA": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [
-        "2026-07-19",
-        "2026-11-15"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Lima recibirá una feria con propuestas de estudio en Australia: fecha, sede y detalles - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-01T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcmI5N092dGpMdTdtbnN0UE5ZRWowOEFZR2VreVVtMGVMeTBaTGZPSDg4WDhKZFRSVGxrbzZZS3F5MnNlNG5RUVV2VC13azd6aElNRHNfUFhVdEFMR2xPUU9vUnhySENtV3pzNjQ4WTZib3pKdlI2cWNnVG82SHEzS1B5V3BESnkwc0hSTWpKN0NDcHpjNHZLS1prYWM3UHF5aXo2Z3ZPR19UaGpaY0wwLW12SG5OV3ZiNnJxR1hVbWNHVEHSAd4BQVVfeXFMT25JTVlzVDRMNmJKTmN5d05tbGk0NEw1QUowbmZ5d2NtVVZrTjFnZGN4YzlZUUF4NzE3UkdkRWhCUkJTUURGNDJ3Tzk5RDZwSTc1eWtpVllhbFBKZnh4ckpCcjdnMElCeUFxRjJCaFBpcVRERkhQeGUzV21mZmNtbDh3REZvbklOdExjYnFOYkF3ZkU3X0tXbHhYb2tGWUVvX0d4VnZQd19SNGltZE1CT0dxQzdwa0xaSV83NzVydGpjSEhRNFVtRy01eVFza2o4TW1SbV9ncVpOZDhUYlZR?oc=5"
-        }
-      ]
-    },
-    "EO-PNP": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "Proceso de Admisión Ordinario 2026 - Promoción 2027 a la Escuela de Oficiales de la Policía Nacional del Perú. - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-09-09T14:36:17",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVWk3cG9fMGloSW9rSHJ2c3dpTzI2VTVvZDBsdDNWVWpCSGI5bkNBT1FjWk1IelNhOXdUNHNicWtkWFpNNVBUc2dGb0hVOWhkTjJhZTE5Nzh6bnptT1Qwdk94eU5ZbkFEZHdKbS15V2pvS3RhSUFkMHFPdE5EaGhYelVwU2VIU2tlNkxJZ3dJcGZJZlpTY2FSdER5d2lpd0V2emdhM2IwcHB2cVdTQWROSmRSX0QwYmpuWWVYcWxyZ05rMGhFdktuWkItRC1UcmltdFo5endYSU9YbFJuTUo1eG8ybGQ2bDFFWHptREh6bURkUQ?oc=5"
-        }
-      ]
-    }
-  }
+  "generado": "2026-09-18T20:36:33.195118",
+  "universidades": {}
 }
