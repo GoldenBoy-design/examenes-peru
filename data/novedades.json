@@ -1,4 +1,69 @@
 {
-  "generado": "2026-09-18T20:36:33.195118",
-  "universidades": {}
+  "generado": "2026-09-19T16:26:22.491765",
+  "universidades": {
+    "UNMSM": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12",
+        "2026-08-10",
+        "2026-09-19",
+        "2027-10-17"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "¿Postulas a San Marcos? Ya hay fecha para el simulacro presencial 2027-I - El Comercio Perú",
+          "fuente": "El Comercio Perú",
+          "fecha_publicacion": "2026-08-27T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaHMxY2l1SXlJU0xXN0h3Q3AzbU9GejVtQUZ1cWxqOHFLSVhLaUN6MUc1QXF2bDJvZ25hRGlFc2lueDRZOXJ6M25SLVgxOXlzdGVIbnFHM0ZSX0RGVkx4bk0wNVFNYWZhM01JXzBkNC04eXIxRW1HNkdIT3ZpRGtjd0xhQV9LVWZESUhuVDd6ZGtieUM0RUR4NEZZcVBJREEzVlYtU1Y4Y1VpUVMyRDFLUHRIdlJHQ0hnd19kU3lnVmtUMFdaUnAwTEhLTHRDQy1R?oc=5"
+        }
+      ]
+    },
+    "UCV": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-19",
+        "2026-08-23",
+        "2026-08-29",
+        "2026-09-27"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "UCV Chimbote inaugura modernos laboratorios para fortalecer la formación estudiantil - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-18T22:47:00",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZkpndW9YS2Rna01LNE5UOEd4UTNienpzZzJhTURNUFVYT2VqSDViSXUwNi1vekhSb0k2TEJWcXBxamcwbWRDNzdNSmJERVE0cW1FRUZWbl9YSmZBdXRYNEhUdUt4cU5ocGpReXBsUkttd1dDOU1xMUJRWmRwZWhfU0RCVUwwTDhFMDZpY3FPUjNlZmtxRGhMcVZnaWRHMzNiLTA0dHZfZktWdkhNaGJIS3dQVnZuUzlfdkJVbXJEX0gtTGpnNGV1Xy16VEhtcnRtRXlpNGFhZ2lwZGhpRkE?oc=5"
+        },
+        {
+          "titulo": "Áncash registra 7 fallecidos y 3 desaparecidos en accidentes de temporada de turismo de aventura durante 2026 - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-19T02:27:00",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQN2V6dm9EdHk4U294ekJiazJHa1NMZ2xqd1dPRzYwcHhXTHNpdFB6Y1QtZVVyYVhDbS10QlBwbE9IdjdKNE9kX184WF9IN1gzOGtyU3lralhOYm9qWTJpSl9nZEhKaWVkNzJjbW13b0lmZlVTY2t2Y3RDLTlpR2l3ZW55X3YxV3dyMi1OcXRBQzFPa0FlMG1Rd0hXZmhZaFFpdkRnbzAtM25JNVdKdWZPWVVZa19Hb2hva0ZGZlNJdHNUN1A3eHNtWHlMN3dzTkxrcXhFcjNGVl9tbnZIUUNHUkRJcllQNVhrdllneDBzUWpLQXNPVlFLWFpUa19PbmEtMF93bHUwcGI?oc=5"
+        }
+      ]
+    },
+    "UTP": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "¿Cómo transforma una experiencia internacional la formación de un estudiante? - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-18T00:22:00",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMlI4eER5TmZ2b2l6MVJGUF9TU3VBYzY5aEFWNVRwdmdCMnFtdGo2emg5aW85RE1pR2NiUUhab2ZjTGlpWGp5cTBjV3lTVlpOZlFCSTdRTnd4S0J1WkJ5Z25CQlM2ZFNiOE55Rk1XNnJzTk94dEdTRW9kRmVGbE5WbXI2S18yNmVWOTN2QnhGVHY1U3ZtYnZEMmdlRTczcXJGZGx2WDhkN0s4YmtrUXE5dkhDazZfOXM0N2lzOWgyR2FPM3BpNHkySVAxUlNISUZhM3c?oc=5"
+        }
+      ]
+    },
+    "EOFAP": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "FAP abre convocatoria 2027 para Oficiales y Suboficiales: conoce las carreras, fechas de inscripción y vacantes - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-09-04T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOEV4TnlUeHo4Z21QaGROWWE4Q05EZFNFN2FXUWdxdWJLRlo2cUl3RU9XamJGaEIxaTA5MnhvMHFyaXNFOElXRV81OWhrd0l5ZlpkdWFQOElxMkdndGZ4NmhMR3BVRm45b2RHMFk1elBDYTZHTDdWQjlHQVRyS1d2MDE0WC1yQ1NUODNTbmdBa3BtdkJpaktMYUJ6RElRdXR1eVVRU20yX00xcVFYSTRiaHhOeXI2cF9UWW1jNFpzR01laW5SdU9ZVG92Q0VZSThuUFlrbm5UWG5CTUVzQjhnclJiY3djNkXSAewBQVVfeXFMTUd5UzNhaTV4M0ZuaExDVm8yUERpTzBSS19KLWo0NnBZdzRjN0VzZkNpTjV6N21RNWktejBaaFI4Y2N0ZEk5TjJ3VlhuMDBIeVVsQUpQRnJRS0dnTEtuT19oajc5T1hBYzNYQVZtSUxhNkc4MUxWbGdOYnZCWTFQYTdoV0c5anVlWGJDQ0xFQVhyWFlPSmxWSVhBTHluMnY3Z25velFiYzhpSXM2OUw5WGxBdk55c3UzazlPU2I2emY4MEZldjFSZWdMNzVGbGVvSHZPazcwZFFhc2lSbXREc2h0QlRtRGQ5SnpTS0c?oc=5"
+        }
+      ]
+    }
+  }
 }
