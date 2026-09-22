@@ -1,89 +1,24 @@
 {
-  "generado": "2026-09-21T18:41:14.790194",
+  "generado": "2026-09-22T17:41:26.322494",
   "universidades": {
-    "UNALM": {
+    "UNJFSC": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-07-12"
+        "2020-11-16",
+        "2020-11-18",
+        "2020-11-21",
+        "2021-08-04",
+        "2021-08-07",
+        "2021-08-13",
+        "2026-08-23",
+        "2026-09-13"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "¡Arrasaron en la UNI! Jóvenes de 17 años, amigos del colegio, logran primer y segundo puesto del cómputo general UNI 2026-II - Trome.com",
-          "fuente": "Trome.com",
-          "fecha_publicacion": "2026-08-18T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQbjdQQnZYaEFVSVRRM0xUOUUwWm83dWxGWkZrV3JHSUhGaXlONGllTEFiUU1sZzRVTko3Ykp2WVpsdjUtNjAwa0tsRlNNelI3cWNDWXpIcXZYUGpHRVJ0d3lyWTZrcU5MOG82SjRKZ3BfbVdIYVhfUkNqUFRldjNTMUsxaUNCTDhzc0tDRkRPSkhWcmo0SFJJNWVvTzQ0OElnYXJoRkhPclVVTlllNTJqb0NUSTVWZFF5Umw0MXU5SHlheHpNRnJUenMyalhid2RJN2M1ckN3WndDaExJRHRBeEpmaVZ1bktMTHpBMldvWVlNRUJFQl9oTFRDYUZYUjBTZVZGcVNnMHpncjllZmxScGtVVDRWSVl2MThaNHVPMEphbjhsdHA0eVQwVnJsSEthYkQycUlCVklZTHpSSF9pcDVmV0l5RkZsSnJvQkJR?oc=5"
-        }
-      ]
-    },
-    "UNMSM": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-08-10",
-        "2026-09-19",
-        "2027-10-17"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "San Marcos realizará simulacro presencial de admisión 2027-I: cronograma, pago en Págalo.pe y fecha límite de registro - La República",
-          "fuente": "La República",
-          "fecha_publicacion": "2026-08-29T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUDBWQjhrQ25EdmhBVXUtcXBnZzU0R2JfQlVXYVNGbW1SS1FRX0p6MkpoTTBwZ3FTMElHendGU1ZSdGJxS1M0UDhzc2RvWnNPald3aGJhNEs2ODBMamh6NzdtSGtmeGxneVpiWWlRcWN2aEJFaEtXc0pqbzRmWXdPR2VfYXRzTkwwWEtHdS1RYV9EZ2lRa3paMnZ3cml4TWZxWno4ajlkRmVkYTZGMVg0YjdfLXlhMktzZjl3VDg2TmNza3Z3Ulc1SEMyaEd6ak5oVHY2dEFFTi1zNmVVMzM1TjBjTFJyVVpHZDIwZ0k4dmpxVGJUaE9mSg?oc=5"
-        }
-      ]
-    },
-    "UNAC": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-19"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "¡Arrasaron en la UNI! Jóvenes de 17 años, amigos del colegio, logran primer y segundo puesto del cómputo general UNI 2026-II - Trome.com",
-          "fuente": "Trome.com",
-          "fecha_publicacion": "2026-08-18T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQbjdQQnZYaEFVSVRRM0xUOUUwWm83dWxGWkZrV3JHSUhGaXlONGllTEFiUU1sZzRVTko3Ykp2WVpsdjUtNjAwa0tsRlNNelI3cWNDWXpIcXZYUGpHRVJ0d3lyWTZrcU5MOG82SjRKZ3BfbVdIYVhfUkNqUFRldjNTMUsxaUNCTDhzc0tDRkRPSkhWcmo0SFJJNWVvTzQ0OElnYXJoRkhPclVVTlllNTJqb0NUSTVWZFF5Umw0MXU5SHlheHpNRnJUenMyalhid2RJN2M1ckN3WndDaExJRHRBeEpmaVZ1bktMTHpBMldvWVlNRUJFQl9oTFRDYUZYUjBTZVZGcVNnMHpncjllZmxScGtVVDRWSVl2MThaNHVPMEphbjhsdHA0eVQwVnJsSEthYkQycUlCVklZTHpSSF9pcDVmV0l5RkZsSnJvQkJR?oc=5"
-        }
-      ]
-    },
-    "UNI": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-02-16",
-        "2026-02-18",
-        "2026-02-20",
-        "2026-08-01",
-        "2026-08-02",
-        "2026-08-08",
-        "2026-08-10",
-        "2026-08-12",
-        "2026-08-14",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "¡Arrasaron en la UNI! Jóvenes de 17 años, amigos del colegio, logran primer y segundo puesto del cómputo general UNI 2026-II - Trome.com",
-          "fuente": "Trome.com",
-          "fecha_publicacion": "2026-08-18T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQbjdQQnZYaEFVSVRRM0xUOUUwWm83dWxGWkZrV3JHSUhGaXlONGllTEFiUU1sZzRVTko3Ykp2WVpsdjUtNjAwa0tsRlNNelI3cWNDWXpIcXZYUGpHRVJ0d3lyWTZrcU5MOG82SjRKZ3BfbVdIYVhfUkNqUFRldjNTMUsxaUNCTDhzc0tDRkRPSkhWcmo0SFJJNWVvTzQ0OElnYXJoRkhPclVVTlllNTJqb0NUSTVWZFF5Umw0MXU5SHlheHpNRnJUenMyalhid2RJN2M1ckN3WndDaExJRHRBeEpmaVZ1bktMTHpBMldvWVlNRUJFQl9oTFRDYUZYUjBTZVZGcVNnMHpncjllZmxScGtVVDRWSVl2MThaNHVPMEphbjhsdHA0eVQwVnJsSEthYkQycUlCVklZTHpSSF9pcDVmV0l5RkZsSnJvQkJR?oc=5"
-        }
-      ]
-    },
-    "PUCP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-16"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "¡Arrasaron en la UNI! Jóvenes de 17 años, amigos del colegio, logran primer y segundo puesto del cómputo general UNI 2026-II - Trome.com",
-          "fuente": "Trome.com",
-          "fecha_publicacion": "2026-08-18T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQbjdQQnZYaEFVSVRRM0xUOUUwWm83dWxGWkZrV3JHSUhGaXlONGllTEFiUU1sZzRVTko3Ykp2WVpsdjUtNjAwa0tsRlNNelI3cWNDWXpIcXZYUGpHRVJ0d3lyWTZrcU5MOG82SjRKZ3BfbVdIYVhfUkNqUFRldjNTMUsxaUNCTDhzc0tDRkRPSkhWcmo0SFJJNWVvTzQ0OElnYXJoRkhPclVVTlllNTJqb0NUSTVWZFF5Umw0MXU5SHlheHpNRnJUenMyalhid2RJN2M1ckN3WndDaExJRHRBeEpmaVZ1bktMTHpBMldvWVlNRUJFQl9oTFRDYUZYUjBTZVZGcVNnMHpncjllZmxScGtVVDRWSVl2MThaNHVPMEphbjhsdHA0eVQwVnJsSEthYkQycUlCVklZTHpSSF9pcDVmV0l5RkZsSnJvQkJR?oc=5"
+          "titulo": "UNJFSC de Huacho enfrenta acusaciones por presuntas irregularidades en su examen de admisión - apnoticias.pe",
+          "fuente": "apnoticias.pe",
+          "fecha_publicacion": "2026-09-06T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWGNUZE5vRTR0QkNpc19VVTdKbm5YQWY5Uy1LbnJyMGpyUHJaQ2twdzRQM1pWU2FXeUt5SlhrMWJTd3dTWllZbWdQcGhHU0dnYmNMU2dDVHFiQTZWcEZvaTM1Z3k5NS0zWFM4S3YzSnJqTnBmTThqRS1ZTUNsSGpTNTJPNEcxMEFNdmg3bWFhalZuQnBoVFVJVlN5Njl0bUQ0bDZ2Zlloc2V1WTlnVXVJcjhRcXJpbG9BZVc4Tll0TGE5bS0zZEJRRk9jOFBYZnQyX2RxcDNjWnM?oc=5"
         }
       ]
     },
@@ -97,64 +32,22 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Lista de candidatos a la alcaldía de Trujillo en las Elecciones regionales 2026: perfiles y partidos por el que postulan - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-20T17:55:41",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNcHlYU0tFQlA0Z1BIZnpaaGotcDRCTlY3eU5OZ2FTWnRXczF0Q3lfVGpMYXBqdDdDb0d5R2ZJZ3B6MDNWZ1ViaTJYVDJnTGY2djNNQlp0UVFpa21PMzhVZy11YlNwOUtJMmVxVUgtMHlCRkIwQUk4dVhrTDBSRWN3TF8tYTUxbDloVWdTaWtQRElPbW5Pb0NHYzdQZEZ1VVNLSEU3TC1Ba00xNjVUX1RCbTVDMkdBRTFmRHIzdWZwOUNVcG1oaFVGdHhUaURBYlN5aTlSYjFvdC1RM084UDQ0NEs0Z0NQZFlWYk5QU2JNaVdqTFlaMGxzekR1Z1JCNjgxa3FUOWJOZUY1ek9C0gGMAkFVX3lxTE1weVhTS0VCUDRnUEhmelpoai1wNEJOVjd5Tk5nYVNadFdzMXRDeV9UakxhcGp0N0NvR3lHZklncHowM1ZnVWJpMlhUMmdMZjZ2M01CWnRRUWlrbU8zOFVnLXViU3A5S0kyZXFVSC0weUJGQjBBSTh1WGtMMFJFY3dMXy1hNTFsOWhVZ1Npa1BESU9tbk9vQ0djN1BkRnVVU0tIRTdMLUFrTTE2NVRfVEJtNUMyR0FFMWZEcjN1ZnA5Q1VwbWhoVUZ0eFRpREFiU3lpOVJiMW90LVEzTzhQNDQ0SzRnQ1BkWVZiTlBTYk1pV2pMWVowbHN6RHVnUkI2ODFrcVQ5Yk5lRjV6T0I?oc=5"
+          "titulo": "Anuncian convocatoria extraordinaria 2026 de Beca Generación del Bicentenario para posgrados - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-19T04:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbDdfUzUxVEdtTjV0WXpvdGx2RnlOZFp2Ui1uWnZfUHVyaXhaWk5zc0VEaF9sNmdMOXZxNjNLeU9CQ1g1bkRsOHdMeVlOVHY1Q1hhLVdRcEJ0SVBHTTdvUDhLMHRrWkNWSElNNDR3cFlHc3NiUkVXbC1aZGctSWhGM1gzSFR2TXA0bDdmUkNMWDdoVk5mSkJnMzlCbTBhUUVWc2tUUFpVRW9lYVJ1dWJXU0dWdHVTdm9Sc0lzYWVWSURsY1ZvdnVvdUliWkFfZGQzRlRoSEYtZlJtWHhqZkhrcnVUWQ?oc=5"
         },
         {
-          "titulo": "De los Andes al mundo: becario peruano convirtió sus ideas en tecnología de alcance internacional - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
+          "titulo": "De los Andes al mundo: becario peruano convirtió sus ideas en tecnología de alcance internacional - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
           "fecha_publicacion": "2026-09-21T18:26:00",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbWF3b3BKVzVGQnBzc3pqSjA0WDdyRVVJck9leFc0MUotRGpwRVRrYm1UV0ZQaVpjWHNsaHpob2RISUZCcDJxSHQ5a2ZJNkhHZmxSaGNHMV91aXdua0g4SWdxbTVETGJlR1NKVUNCMXVhLU9iVEUtYzRsVmFrZGp3UFZEZkdMcVNCcVBYWVctdTFpendYb3JQSnUxdERQOFNTQUc0QzNCT1k1bTBFOGZId2MzTEYwbnVoanF5QXd5ZnoycEQtY0VraVI3RFdzWHo4Zzl6VzY0R0dXS2Y4TW5zdEFRemJscWQxQ3NjU0p3ZW80cFhuQUE?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdUlfZ2hfaXNHTGtPY0RiYTFSLU9hOGp6UFpJb1JmLTBoLUlISTFoNlFDN1Vpc2pfVFhfNFpveDV3WVE3Q2lpRmZfdXZZRmVQRkhqYkw2OW9mMXRCWGJacjAzczhkOTVtc083b0djalZpUnNkOFdVdExpb3NkNjdrMDlBNFNkMDZnVEotZzM5eHZlM251TE5VbE9YVWFkSGJxVkhDcHhLaVpjbkdCc205bHRyVjFmMkNuNEhVOGlOVU5PTVZmeU5Dc09uRmxpMUpMbzdvVVNjaE9GdmpVczdfVUZpVDc0c01u?oc=5"
         },
         {
-          "titulo": "Reasignan a 23 oficiales generales de la Policía Nacional, entre ellos el general Víctor Revoredo - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-20T15:12:00",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRHlhaFozSVNiYjRnT2tqR0RqUWhTaDZtZFZNY09WWDU0Ym9aNVBScE9oUnQ1QXg1NDc0R25MeVJiZElKdGE2Qm9fczgxME1ZUU0xc3ZxTnhDZjNOc3lXR0dTUHVHUnphMHlZa05sZ3gzRGh0SldscXVMRVFkeldMbGJSYzNTYkNuSG5obGR0ejNDU2wzX3FqMGdXaWpKX2dSTk5UclFHdW41T3RSZkNGeVlYbE5SbWRFSU45ZTdOUmVmdlVxR2ZkYnkwQk94YjIzTTlna0lKbjFXckNVMjFZY1Z1TkYzRjg?oc=5"
-        },
-        {
-          "titulo": "Artistas peruanos se preparan para cantarle al papa León XIV - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-20T00:12:00",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ3V4N09lWlpaLXhXQlQ4M29GdF95ZkN2R2dLUG9WcVJBNnBlLXZBalR6S1QwTGJCUFVuMHJMQ3VPWjVxMmQ1bXdGc2Ryel9WWm9FT1o0Nzg3dEg0M3oxbFplMl93Tng5eWFPaXZwYkNDUFNyaUVZemg3V0pqT0N5dng5emhvQ0Y0SUVtZ202cHB5TXVUbGVMZWRzUno5ei1GWEFlSkpWMDdZY2tET3VBSGZPbmhIdDFaSFE4YW1GNA?oc=5"
-        },
-        {
-          "titulo": "Copa Davis: ‘Nacho’ Buse vence a Escurra en duro partido y logra el primer punto para Perú - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-20T00:16:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQb2d6U0RkMHBIV2I3U05oZTBKZW9ZaW05WGxsd09xOXJUc2tady1OOE9RYVM3bldiM3N4ZmhaWlU0Ym9TY0MydkFuMWhUVUZLMnJjdmxBVEVBRUI0RWRKRHhXakpuUktkMHlOa2gzTzVVOEM5SFFROHFINnE5UjMzWVlYNGhCOGVBcF9tUUx0eDNwMUF2YzRwTDZQOXRPUkY4UHNPcFZ1Sk9DNldFZURISmJfa2lEczJ0NUxqb01DQlJQZDRGVVpFN3FGaUlQRGtDUkxjSGVyekdHWUE?oc=5"
-        },
-        {
-          "titulo": "UCV Chimbote inaugura modernos laboratorios para fortalecer la formación estudiantil - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-18T22:47:00",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQXRieEY5S3U0bTZtQnRGOVpSWGYtbFJkSG1IN1hnSnlxODRwTlFKTDBwXzI3WjR6bG15VnFPcnVWS3dTa2FhMC1oSDBrRFBDZTRCeTRvMEdnU09xendkYW1zbVdRcHNnTHBROHd4RDRYUGItdHJnQmJ6TVhhNTlxbzZsSnVybDRBcVctTTdmT1FqNVVOY0ZJNUQ4dkdkNGhSOFBheWVnWE5NSDVQUEZobmx2UGF4dmdWSnFJSkJJUm42aS15M0ljZ2R4TUZ1bzNm?oc=5"
-        },
-        {
-          "titulo": "Presidenta anuncia reforma integral de sector educación para modernizar infraestructura - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-15T02:06:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOU3R0Nm9oZGt3NlRyVkQtWGNJbGRlTVpFck5TdldsNFVBamV3OXpkWklCcTFnLW83RXV1YmQxVVc1TjUyeFFpdjlnOGI5UnJ3U056ejcyRmV4a25FeXZJSU9iZkk0cGRabVZwaHBuMS1mOWRqTHBIMjVGR0NhU1dBS0NzZG5QQV9Cd1h3Vkl5Mi1JLWEwUXFlY0oxU193ZHVDc0lNcUs0S0szS2tQd21GMEJQQUN4R3hONmJLUzVyWUtvaWhFa1ZlSm1WZmtlcGZxUU5YVURDcFJZdnc?oc=5"
-        },
-        {
-          "titulo": "Gobierno oficializa nombramiento de José Tangherlini en el Ministerio de Transportes - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-20T02:04:00",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUjI3ZWVhd3ZDZzh5eE0xMTlaZHowemJrWVVBcGdzRVVvU1RhNnFYWTVRUUlUWi1hMFdocG5QM0tVb0lOaGg1OVVXczZGX0kweTZfajhCdzBRTUlqQ0V4OVZmNTNwRGtjbWlKTmxscGF1REhCMk5oYXN2WnZua2oxZFlubW5vTXNLWXlBeG1INV9tVC1UV2JmRjNGNzdCcW1rd0VnTmFRbmE4LV9KTEtkcjFmeGFEdVRpc0ZSWVBvZ2x3OTlQWlJxSEh0OW5Wb3ZfUjI3azZiTQ?oc=5"
-        },
-        {
-          "titulo": "Monseñor Pedro Barreto recuerda La Oroya y mira con esperanza la visita del papa León XIV - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-16T03:41:00",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbU9GckJDa1J6eDVWOXVER2hhZ05kWFNrUFRnbHBYOG9wNG4xbkhyUlJyLUx4Zmc2Z1lVTHA1ZHpEVTBaelFWM05XRkhhekZ4YUlySnY3bmk3eXdyRlVVcXdpSGxmaVZUdmIyekkxR0lBSFNXZkZzZVRQLWE2b1lVdVVOemYzZ0xhdnRMczEzOXdZTnJNWE1yWXRja3pSelY2SzQ3dUo1MXYyR0d3WkVRVXJyZU5OSnVHSTREZTU1OE11dHRzb1hNTkZ1Y2Y0SFY2Y3RYLXpWeTYzTnlMejBpQ01KbUZuZw?oc=5"
-        },
-        {
-          "titulo": "Disponen que el comandante de la PNP encabece la operación e investigaciones en Caraz - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-20T20:45:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMmF5cjNXU24wMzBpdUVZUDVhSnAzbUZaZS13YjBzLU9sWjlQUWFZTnUtaFRnczNRZUlJMUllZ25YbFljQU1xb2hfa3dSY29KYV9oNWxfdmRzY1JpSXN2eDgtXzEtSnB4bXF6VGVONE9Ia1VlNmxpQTg0N3RFSFZHdVoxQzYxU3pzZ3Zaa3Z2dElPaVVkT1haUjRvczZqTFdrd3dzNHhMR1pxYVdPNDdHRklpSFZHVzctekZLU2JBYmlfUHFGcnhwRGc1SXlJUTlGRVlCMENGQ3lkdmM?oc=5"
+          "titulo": "ADEX impulsa diversificación e innovación de oferta agroexportable peruana - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-21T19:09:00",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTmJiQmVEdjFHUEd5THNDQ0FiNmcyZndCX1BmWEJ0U29wNW5DSG9pT1IyZklqYnA5LWRvNlVSMU1IeURPQXB3X2F1SVc1Xzd1aWtVQmtmOF9pUDZ5XzdTX0dVanNBTXZySFhJYkY4UTRvcGNqUWhhSmNWcXVfbGFFYkxHTG93SEVmczJ2Q1JnYk9pSS1PSzE3WHVELW1LbWhWYy1OdmoyNmpvOUhQNlUtTnpWa0xpem5hck9JaTMybnNRV2R5MFhvMlZvd3hna0ktN3VWY1VPTQ?oc=5"
         }
       ]
     },
@@ -167,10 +60,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "UPC lanza la Beca Laureate Transforma para jóvenes con excelencia académica - diarioelnoticiero.com",
-          "fuente": "diarioelnoticiero.com",
-          "fecha_publicacion": "2026-09-21T17:06:51",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLVcyZTF2WHFidEpzNUNUSTZaNmtuRnkxclpKZWxCdmd4Z2lEdGlMTTdwVnF2VHRyRU5BRlIwZXIySjBhX0xZUmdkYkR2Y1VuVWIwY2lhT0xMV2dtamM3ZFRscWJIcjRySm5heTdGVEJfTDNtZTd6a3o5ZjY5QlV2dW5hb0tncHozMUZ3ZGJNRmdGa19WREVzNVZfSzQtaTkzcVk0S3RkQlI3Zw?oc=5"
+          "titulo": "058 - smv.gob.pe",
+          "fuente": "smv.gob.pe",
+          "fecha_publicacion": "2026-08-31T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX004QlBuREM4dHNmRnR3RzBOaHZTWUhXUUNkX3V1XzRHMkpqNUxGUUVjLTdKSDlMWldab0N1VGMwU0N3WHdQZGNIYjBST0I2TlFQTTFWaUl3ZWRET1JxMkEzNU5ZYmtjUDc2U2NVelF6MHZMc3p4c0NnZVRtenlWc2ZySm1JelJsZUthYjBXbjZuNXJYRnc?oc=5"
         }
       ]
     },
@@ -179,30 +72,10 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "¿Cómo transforma una experiencia internacional la formación de un estudiante? - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-18T00:22:00",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdzNOUXY3TG51R05SVDlSRTBodGZrZkNUQUNua0xiSTRJYks4cGNWR2hKeWxiQ210YUNpRlltZkJnQ0NtSkZ3TlJFUGdVMlZyNGpkNEJ6UHVpQWo1cDRsSVFlZ1Bib2trcmJYeE5pYTF5M3FPS2VMMXRhRTJzT2phX0UzWExDRVJINklaZE9wTHUzZ3QxS0FGYmh4RTVTYklIQ2c2Nk5VRHBBLXpMT3loUDFlTzBCSzIzNDA5eS1pV0pPaHJG?oc=5"
-        },
-        {
-          "titulo": "Copa Davis: ‘Nacho’ Buse vence a Escurra en duro partido y logra el primer punto para Perú - chimbotenlinea.com",
-          "fuente": "chimbotenlinea.com",
-          "fecha_publicacion": "2026-09-20T00:16:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQb2d6U0RkMHBIV2I3U05oZTBKZW9ZaW05WGxsd09xOXJUc2tady1OOE9RYVM3bldiM3N4ZmhaWlU0Ym9TY0MydkFuMWhUVUZLMnJjdmxBVEVBRUI0RWRKRHhXakpuUktkMHlOa2gzTzVVOEM5SFFROHFINnE5UjMzWVlYNGhCOGVBcF9tUUx0eDNwMUF2YzRwTDZQOXRPUkY4UHNPcFZ1Sk9DNldFZURISmJfa2lEczJ0NUxqb01DQlJQZDRGVVpFN3FGaUlQRGtDUkxjSGVyekdHWUE?oc=5"
-        }
-      ]
-    },
-    "M": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [
-        "2026-08-10"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "🔴🔵 Pareja operaba a través de grupos de WhatsApp en donde filtraban exámenes de admisión - apnoticias.pe",
-          "fuente": "apnoticias.pe",
-          "fecha_publicacion": "2026-09-21T01:08:12",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZGp4VVhBakxIUmZpTWJ4S1hmUlVRUjVWTUFUZFp4YVZJQlVuS3lvMnBETXlNTldGSTdvaUs4cllZSHhhM2NfYlktUHU1bndybVdBSy1uQ3pDaXVfRUFiZ2VQWE0tSmdYODlPckt5SzN5eE54ZkhSU25tTnlQYmFoaVpEYmFoUk9odUNZNkR0SkdWTUJiS3RDRUhqbUNuNXRKRThxSzR6V2JhYTlSYkdSTnI0cVp2X3dGYk1Sbl9lb1RCdw?oc=5"
+          "titulo": "La Universidad Tecnológica del Perú (UTP) y la Cámara de Comercio e Industria de Loreto - - ProyContra",
+          "fuente": "ProyContra",
+          "fecha_publicacion": "2026-09-21T15:51:00",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdGpfSkJtVjdrczJUWERiMURaMmZSNHFBZ2NiQTc0TDBNMWgwaHB2eFJaQVl1TDl5Um1oZGVIRVNQVURkZmluQVBuYjdnOG5WT1B0aTNGMkxTalU0MVJOdm5Wa01LT0ZuaGhxZWNneVBDN1h0WXVYSVJucW9temF4MklMNnZyUE1IZXRmY181X0VjYl85a3BPUWZVOUZ4ODdZZ0hQUGpKZ2k1dVpsZjlXa3NYZ09QN2wxU0l4S0JKRmlNZw?oc=5"
         }
       ]
     }
