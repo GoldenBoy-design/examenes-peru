@@ -1,49 +1,6 @@
 {
-  "generado": "2026-09-23T17:54:02.855751",
+  "generado": "2026-09-24T17:55:34.194032",
   "universidades": {
-    "UNE": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-06-28",
-        "2026-08-10",
-        "2026-08-29"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Resolución Jefatural - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-09-22T20:27:21",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVE9TS2ZZNmJndG4wSXRFQjBGTE9PcHBkY2FxWW9vM2VpanAtSW5NMk13dVhWcEJ4dEd0YzhORHNza0pjVzVyTXRNRGI1d1JJWHFubWk2aXhrVndaakhNVnlHalJVVTV1aXJsRVhyTEFadlRFazdLQkZ0bXUwc21sRzV6VnYtZEVRd2tCSzFheU1ucHZBU0YxVHNCeUh0dw?oc=5"
-        }
-      ]
-    },
-    "UNI": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-02-16",
-        "2026-02-18",
-        "2026-02-20",
-        "2026-08-01",
-        "2026-08-02",
-        "2026-08-08",
-        "2026-08-10",
-        "2026-08-12",
-        "2026-08-14",
-        "2026-08-24",
-        "2026-08-25",
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Cinco postulantes son intervenidos en examen de admisión de la Universidad Nacional de Cajamarca por presunto uso de dispositivos electrónicos - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-07T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNV3ZnRnBHNENfMVg3a2g0YmdKaEdNendGX2FqOWZBaFJMN3pJeGl4V3ZHNGpNYVEzb2NVR2pnck5MbjFoLVRXdjNYN1MtM0FKYWUzQjhiU0JpblVxMERlZHgyWUh1MVRqOTRCVDk5RHBzSjVwTTVkb2RxWVVicFVoM0lyYlkzZ2RCaTN1SzlKYnludkRBUUwyVFI5a2RuYVdGV3ZDeGwzV3VBTnFsRWtvSC1rX2QyVng2ZVc0ZXV0ajFZekRFdFk3UVVwWjYwWmlZSHQ2aERCQWRfUHFjbzRWeGx0RDNUSVJHV0VFMlhjVTlOcVZodkkwTFBxRVloR185M3hMRU5jOUMwQ1RDYTVEUNIBqwJBVV95cUxOVXY0N2YyTUZiZ1ZNMlJoYmI5NjN1ZnI3emZ6R2kzWGFXNFBBQWNLR1lWVkk3NjJXdWRKRDlzOUd3NWZ2WUlrR1Z2anBHeVhCNTVFeXlMUjh6eVVFVkFRU2d6UWdpTFRYUWtlQ1NjZmluZnhHajNQV3FUZjRnRkhPRFNlcTE0MU9nVnU5d3B3VlluQ2dGaklEb0hZS1Q4RjJzTVc0bFgzZGxpMm4xTVZPYTZVQ2NVTjdvSXFKZnJsaGxoNm9DVDUzazJ6NGd1OUcxRXhQZkllX1E1OVBBYXBJaVBDMEFiQ2hUOXJSWWJlNjVQRkdDVy1pSFJCcDVRUk81RnJSMWFHQXBVR2VERnN3SkR4OS0wd2Jvd0FvekFTQzBxVVk4Y3VGekoxWQ?oc=5"
-        }
-      ]
-    },
     "UCV": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -54,58 +11,36 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Lista de candidatos a la alcaldía de Trujillo en las Elecciones regionales 2026: perfiles y partidos por el que postulan - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-21T02:45:00",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPV0Y1OTVjbzMwajVLel9Sd3d1WHdzOXBPaUp3NlBMRnlHU3NFZ0VwNnBMWVpPOGFZRVJReHlNVDhWd3FqcmRmQzlrMnpDdk5GbTVlMzdzcG9kMWNwVG1RVTNuZUI2cTNHSkpOS2hQRjdTSFRSaV9BMVFyUXZIUGFTQ2dNM2M5MU5HUE04UUxnU0JYVXE5bHRGRktHeG4zSUdqTHZWOW91TmNPeXV6aG9KZldWNXQ0cjZNdjFZT1hTUjU3Z0tmMnFRcmllSGxxSVp5S01xaEZKOEJKLXNoYm5abFE0Qm1tVHh2cThFVGxuQ3NMUdIBjAJBVV95cUxNcHlYU0tFQlA0Z1BIZnpaaGotcDRCTlY3eU5OZ2FTWnRXczF0Q3lfVGpMYXBqdDdDb0d5R2ZJZ3B6MDNWZ1ViaTJYVDJnTGY2djNNQlp0UVFpa21PMzhVZy11YlNwOUtJMmVxVUgtMHlCRkIwQUk4dVhrTDBSRWN3TF8tYTUxbDloVWdTaWtQRElPbW5Pb0NHYzdQZEZ1VVNLSEU3TC1Ba00xNjVUX1RCbTVDMkdBRTFmRHIzdWZwOUNVcG1oaFVGdHhUaURBYlN5aTlSYjFvdC1RM084UDQ0NEs0Z0NQZFlWYk5QU2JNaVdqTFlaMGxzekR1Z1JCNjgxa3FUOWJOZUY1ek9C?oc=5"
-        },
-        {
-          "titulo": "Expoalimentaria 2026 convertirá al Perú en punto de reunión de los agronegocios - Chimbote en Línea",
+          "titulo": "Sunedu licencia a la Universidad Peruana de las Américas y aprueba nueva filial de la USIL en Arequipa - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-23T00:43:00",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeUZhbVpVRTZ0bG5kbVE4bFlQQWlqRHA4WjVicTlRbWprTnNjV3h2VFNIbXdvU0dxekN3YjV2bVdVSlVQS0VFN2FnVVhNY19PNERqTEtVQkt3cXJxdGQyeGNRZ3N2TFlYZm8ycTgtSXF3dE43X0hNMlkwbUNEcFNGRW9CNVhuY1VBdE5KcU9tU3ZxQUt0allTQkhleVVLMlFqU3V5RUVHR013Nm9tay1UY2pSckNJM21XNTAwbFZTUWRGVzFCRy01OElRNTRZU2s5SnpOVnlDaGdlMEEwY1E?oc=5"
+          "fecha_publicacion": "2026-08-05T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYTEyYmxGOUotSV9yR01PbTg4ZzRkMFNTLXcwNHNyTktyYnNQRTVMZVJsMGxGTW9Zc1dKMHNPV0dhWGE5eGluV0ZVQ1ZXcmFHbUdBVFBaVUlDSGRfdkI2SldaQWx1czMxQ0lXWnFQNlJZbHBZOXJLVlJ5M0QzbzU1OXhPOXhLeW53Wl9rNUhmVmlKNXNqd1Z3MlFGckZrRFg3WWpIalZvZXhTd3hEaGdVMVUzYmVvdDRtazFWdmoya0lOZkZhamZQamJ0VFFfcGphcEtOM0hvUm5fUmh6TGpDM1NwNm84VDlUaTdsYW53bzA?oc=5"
         },
         {
-          "titulo": "MTPE se anticipa al impacto de la IA para proteger el empleo y los derechos laborales - Chimbote en Línea",
+          "titulo": "Presidenta electa Keiko Fujimori recibió a vicesecretario de Estado de EE.UU. para fortalecer relaciones - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-20T00:06:00",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM1Mtam9fMzgybWxEdnRnT2xKcWpuMXlxMTI2QmphNVViTWZFV1VyUDlYWE82Q0pkdnRrdVBPWFZ6dkdicThOMVk2OEFjd0U4aldIel9RYWt0cUstTE5DX2RteTZpZlpPZHlGRGhreUFjOVhHaWtoYkFJRC03bks4bHBSU3VoSDNMczd2dlNjY1BQVnpLZnhjRjh6SE5QUFRlanZkQTVtSlpldmxXVHVTbXlTOElORlE1cXV6VUFvSk5hSC1DbWRtcHdhbWxGVk84WVhXYklpLUlHazgyb1pGdE9n?oc=5"
+          "fecha_publicacion": "2026-07-27T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNLXQ5TmZHbWlwNGpsSVo2OWl6TVFHUU5ZZ1dWLWN1ZXBvQnd5WjJMem9CYlU4Sk8wd1dJc2RRQ0FZTjY1M1Frbjgtd1JTNHQ3TmgyZEluVEk3b19hc1hSNDJxNk01OHRJaVg2aFJSV19lcG4yNFotTUkzQXIxVHU4WERjRkpCUUpBbDBfVkJmUFZmZU1xTkE5V1lQUW5xODZrSWl2SUFkM0NiS1hBV09tRlN5NllxcnhvbVBFNmtKUmNzTHk4TGpVVGxud0ViODF3ZVE5SEtETGU5OWtTN240NjBDT1VRZmNhWllhdElubw?oc=5"
         },
         {
-          "titulo": "Resolución Jefatural - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-09-22T20:27:21",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVE9TS2ZZNmJndG4wSXRFQjBGTE9PcHBkY2FxWW9vM2VpanAtSW5NMk13dVhWcEJ4dEd0YzhORHNza0pjVzVyTXRNRGI1d1JJWHFubWk2aXhrVndaakhNVnlHalJVVTV1aXJsRVhyTEFadlRFazdLQkZ0bXUwc21sRzV6VnYtZEVRd2tCSzFheU1ucHZBU0YxVHNCeUh0dw?oc=5"
+          "titulo": "Presidenta Keiko Fujimori participó en reunión de alto nivel del Escudo de las Américas - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-23T01:35:00",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUXloNjBDS2Z5cVRRNVlQemRMNHU2ODRjT3RaQXRNRkpBZEMxY1J5X0p4a1MteW1iX29WTFpuYW9SLVh5cHFNQ19iWXJSOS1iUU1hOGk3b3RZOENlbk1vZ3UySE9CZ3NjUGJySW50YWVjazRFZjk0c2hkbE52elAyN2JfbDQ3WVJNbHI4NHd3MzVnNFpmOHAzTFh1dUtlRkV2LW00NjBFVEt0dVJ1VDB1Y3Q3NWFrZ2ViX0N0YzF4OGxXOHhJb3BYWGJ3SnRtWjU1THloazlQYW1jVTFOWWFrS0RzdHNvdUll?oc=5"
         }
       ]
     },
-    "UTP": {
+    "PA": {
       "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
+      "fechas_actuales_json": [
+        "2026-08-10"
+      ],
       "noticias_encontradas": [
         {
-          "titulo": "Expoalimentaria 2026 convertirá al Perú en punto de reunión de los agronegocios - Chimbote en Línea",
+          "titulo": "Sunedu licencia a la Universidad Peruana de las Américas y aprueba nueva filial de la USIL en Arequipa - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-23T00:43:00",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeUZhbVpVRTZ0bG5kbVE4bFlQQWlqRHA4WjVicTlRbWprTnNjV3h2VFNIbXdvU0dxekN3YjV2bVdVSlVQS0VFN2FnVVhNY19PNERqTEtVQkt3cXJxdGQyeGNRZ3N2TFlYZm8ycTgtSXF3dE43X0hNMlkwbUNEcFNGRW9CNVhuY1VBdE5KcU9tU3ZxQUt0allTQkhleVVLMlFqU3V5RUVHR013Nm9tay1UY2pSckNJM21XNTAwbFZTUWRGVzFCRy01OElRNTRZU2s5SnpOVnlDaGdlMEEwY1E?oc=5"
-        }
-      ]
-    },
-    "EO-PNP": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "GuIA DE PREINSCRIPCION DEL PROCESO A LA EO - PNP 2026 PROMOCION 2027 - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-09-10T00:10:36",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdFJoc2gxdkdSWHFoSnhrajFFdzNOQzdDaEp6NXZHZ0UwQmJKMUYxcW5xRFVXR2dCME9nQlNmYkVXRDVJSG9NOF9GVWZlTWpab0JOT1hLSGVqV1pKNW5ObDR3eGxwZU9PeUNZQ3NSbTNxbjE1aEFKM3hMN251WTZ5U0R5cGJXU3ZiWldPeWszSE1QWVV0djFSWG5UaWJFQnFBMHp2MU9CNXBSOGhYTElObEk2YUlWMkRhdV82Y3kyZENfakVJVTJoYmE1ZXA?oc=5"
-        },
-        {
-          "titulo": "Prospecto de Admision a la Escuela de Oficiales de la PNP - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-09-10T00:10:37",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWG51VkVzSlB5dEFWLXY5OGxobnJYVjVhclVVc1lvaWZ1LVMwQUp4eFpPV2lxZFBxNWo0bkh2dklZT1FpYjUtVHd5SHdmSlF0UUREWHp1OHdlMk0yM2NDNDd4X2tFVi1LYUVRcWJyRkFqbFY1TmdyN2pnZGFJU2drdjhXRVh4YkRVSXBfdm9lSjRENWxtSnI3M0pyQ1hxSHk1RndkX2psTHZoWi1LckZxMTNLX01ZUTdkbEVFZldMYV8?oc=5"
+          "fecha_publicacion": "2026-08-05T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYTEyYmxGOUotSV9yR01PbTg4ZzRkMFNTLXcwNHNyTktyYnNQRTVMZVJsMGxGTW9Zc1dKMHNPV0dhWGE5eGluV0ZVQ1ZXcmFHbUdBVFBaVUlDSGRfdkI2SldaQWx1czMxQ0lXWnFQNlJZbHBZOXJLVlJ5M0QzbzU1OXhPOXhLeW53Wl9rNUhmVmlKNXNqd1Z3MlFGckZrRFg3WWpIalZvZXhTd3hEaGdVMVUzYmVvdDRtazFWdmoya0lOZkZhamZQamJ0VFFfcGphcEtOM0hvUm5fUmh6TGpDM1NwNm84VDlUaTdsYW53bzA?oc=5"
         }
       ]
     }
