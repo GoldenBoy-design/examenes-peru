@@ -1,6 +1,84 @@
 {
-  "generado": "2026-09-24T17:55:34.194032",
+  "generado": "2026-09-25T17:57:22.589517",
   "universidades": {
+    "UNE": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-06-28",
+        "2026-08-10",
+        "2026-08-29"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-24T22:23:19",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRDJDdXFob1Q1b0x0c0RWckwwYUY2aG44cm43ZDEtVTVPaG1OZjdVT0ozZ0ZKZjBuQ1FwRWFQMEktWVhablVGQ2x3VjZTb3Z4bzlBa0VROFI5dDFza2IyS2Vra2tqVFdtd05FbHNraEJiamR1OW9SalN3THBRbEo3QmRiaFBuZkJ5RlBueDlPb1dkOWkwdWJFTHFLREg?oc=5"
+        }
+      ]
+    },
+    "UNAB": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-02"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Resolución de Comisión Organizadora N.° 1223-2026-UNAB - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-24T23:29:27",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMQUJ0SmdvRjQ0bDQ1TjFxQnRSc0xFaVRLa054QmY5Y3dIUXZZdC05cHI5ZF9vWHVrUmJ1aDlLNHFUMDVyZWdoVVQyVXNoQlRjbmcwNC1UQmxBRmVQd1B2TVFCU2JlWHBlLU9SRDFNdUk5S3B5YmJOSTBHSjVrUQ?oc=5"
+        }
+      ]
+    },
+    "UNS": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12",
+        "2026-09-06"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-24T22:23:19",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRDJDdXFob1Q1b0x0c0RWckwwYUY2aG44cm43ZDEtVTVPaG1OZjdVT0ozZ0ZKZjBuQ1FwRWFQMEktWVhablVGQ2x3VjZTb3Z4bzlBa0VROFI5dDFza2IyS2Vra2tqVFdtd05FbHNraEJiamR1OW9SalN3THBRbEo3QmRiaFBuZkJ5RlBueDlPb1dkOWkwdWJFTHFLREg?oc=5"
+        }
+      ]
+    },
+    "UNI": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-02-16",
+        "2026-02-18",
+        "2026-02-20",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-08",
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "¡Atención! UNI amplía hasta el 5 de agosto las inscripciones a su examen de admisión - qa.editoraperu.com.pe",
+          "fuente": "qa.editoraperu.com.pe",
+          "fecha_publicacion": "2026-08-03T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUVhtdDFoZmxKa0lfZmFQdmg0QnRQb2tBNmt5RVVwNzZ5QTQzaUpaNzdSbU9wNlJteTJZLVEtejk4cEQ2MWFBZ0hzQ2ZaZFBrc2ZjR3I5WFltd3FOblY4cFZXU2JyWUNnX1N3RUk0d1dpb2l1X2RwbEdCbmttTkJGcWVvUkNwVU9ZakFzQ0tEaldDQmlmVjYzYWtmM3Z0cFNwM2V0bTNDZFhGS3h2YnFIeE5NMmUzWDF4LWxRMnRldHEweFhiUXA0eG5reWU?oc=5"
+        },
+        {
+          "titulo": "Tuvo que postergar su preparación a la UNI por motivos económicos, pero 12 años después volvió a postular y ocupó el primer puesto - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-08-24T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQLTJ0THlrTmR2RjJZYllHem4tLXh3R0swSFlicTRPVnBRZHB2eng4Z29rNVJEUzIwaktyXzhYaXZ2S1BUcEYwV0RNU0VQNmFfaml1dVRaZTVrbHY1WVJ1ZTBJbUYtSWllOGtTeFZXZ3FxZkpXUDNhQlBPWXdBV2x6LWZaaTNJR2xJQmVCbkFMR2lRN0t1aTN6NGRucjVzdmpvRTNwR1dwYWpwdUxUSktoVWVvNzNHaW5PdkxFbU5RYjM2cGNPZjRTdmRkdnVnVUFTNTJpUXU3WWVXM2pCd0RWOHVsWHRLWGpJQlRnaGhOaUsweWw0cTd5R3FNcnpuaTZJTXJ5U0FnR003bUHSAZACQVVfeXFMT3RuejA0ZWJmZVcyZXNnTHpwYXBldmpnVEYxOTVyd0xRMWFoMHZOR19xTmliYmRWY3RzUm9zRWRUTVU0WnFtMlEtdzBXNG1GUHVydjJrdFF5c1FkYWRUZXpjOGxxeE15OUJib1diSjlYME1nelZfQ2pLSU40bkJpZkthdjVYVU93ek9lM3JVdFBBcTJqTE9jNldLcENORm5ISHlzZkczWmZnWGpvU2JKY3doZU1jZ0d0amtBMW1FdTUxSTZ2cWFxV2FCOVBNOTZ0RFpSNWZRR0QxamgybFJaVlRldm41empCNm5sY0wwejJhN1hYR2J4c2VaQ2luNmtQVkdHV2gyOVRyeUtVWFRTREI?oc=5"
+        }
+      ]
+    },
     "UCV": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -11,22 +89,52 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Sunedu licencia a la Universidad Peruana de las Américas y aprueba nueva filial de la USIL en Arequipa - Chimbote en Línea",
+          "titulo": "Perú conectará con el mundo en la Expoalimentaria 2026 - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-05T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYTEyYmxGOUotSV9yR01PbTg4ZzRkMFNTLXcwNHNyTktyYnNQRTVMZVJsMGxGTW9Zc1dKMHNPV0dhWGE5eGluV0ZVQ1ZXcmFHbUdBVFBaVUlDSGRfdkI2SldaQWx1czMxQ0lXWnFQNlJZbHBZOXJLVlJ5M0QzbzU1OXhPOXhLeW53Wl9rNUhmVmlKNXNqd1Z3MlFGckZrRFg3WWpIalZvZXhTd3hEaGdVMVUzYmVvdDRtazFWdmoya0lOZkZhamZQamJ0VFFfcGphcEtOM0hvUm5fUmh6TGpDM1NwNm84VDlUaTdsYW53bzA?oc=5"
+          "fecha_publicacion": "2026-09-18T03:27:00",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNGszd1p5VXhxMVoxVldwX09MN1VoV2tTQTlQU0tpTnZxYnhCLVhfX19sZmEwOFNQMnVwdFJBV3BKakRYUFFDR2ZFLVpZSFB3ZU8tb25nUTRqSTFCQXYyWWRXWTV2dVNBMG8yX3d2RmFhb0hPUFpla3I3QnlTQWZ0NWM0V2ZtSDdvMFZndnJ5enNYR21INTBaWlBqSjBjdk5saVQ2NExyYWNZaWF0cGM4?oc=5"
         },
         {
-          "titulo": "Presidenta electa Keiko Fujimori recibió a vicesecretario de Estado de EE.UU. para fortalecer relaciones - Chimbote en Línea",
+          "titulo": "Perú venció 3 set a 1 a Filipinas y avanzó en el Mundial Femenino U17 de Voleibol - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-07-27T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNLXQ5TmZHbWlwNGpsSVo2OWl6TVFHUU5ZZ1dWLWN1ZXBvQnd5WjJMem9CYlU4Sk8wd1dJc2RRQ0FZTjY1M1Frbjgtd1JTNHQ3TmgyZEluVEk3b19hc1hSNDJxNk01OHRJaVg2aFJSV19lcG4yNFotTUkzQXIxVHU4WERjRkpCUUpBbDBfVkJmUFZmZU1xTkE5V1lQUW5xODZrSWl2SUFkM0NiS1hBV09tRlN5NllxcnhvbVBFNmtKUmNzTHk4TGpVVGxud0ViODF3ZVE5SEtETGU5OWtTN240NjBDT1VRZmNhWllhdElubw?oc=5"
+          "fecha_publicacion": "2026-08-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ29KZUZyQm5uYVZrYnFKM01mVzR6X2pyc1NWQjZRSEZiYWlxQlJQamVic2xZNXpVMUFOSUxlRjlMX0FoQ09rOWRkMnlJN0MyckktSDM3dkE0VXA0RTVtMGRRSGZiaFQzUExtSVRFSVhERlZrTl9ETl95NHphSFJ0RjVSeHFsQTlPWDlrUW90RTdIaGc2YTZnUDd5SnhVLW0tRUx5VFhpT01XVDRoM0hTY1htNGFURWs5aDZOdjk3T0p6dlN2dWw3eVRVLUhWVlNZU3Zr?oc=5"
         },
         {
-          "titulo": "Presidenta Keiko Fujimori participó en reunión de alto nivel del Escudo de las Américas - Chimbote en Línea",
+          "titulo": "Anuncian convocatoria extraordinaria 2026 de Beca Generación del Bicentenario para posgrados - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-23T01:35:00",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUXloNjBDS2Z5cVRRNVlQemRMNHU2ODRjT3RaQXRNRkpBZEMxY1J5X0p4a1MteW1iX29WTFpuYW9SLVh5cHFNQ19iWXJSOS1iUU1hOGk3b3RZOENlbk1vZ3UySE9CZ3NjUGJySW50YWVjazRFZjk0c2hkbE52elAyN2JfbDQ3WVJNbHI4NHd3MzVnNFpmOHAzTFh1dUtlRkV2LW00NjBFVEt0dVJ1VDB1Y3Q3NWFrZ2ViX0N0YzF4OGxXOHhJb3BYWGJ3SnRtWjU1THloazlQYW1jVTFOWWFrS0RzdHNvdUll?oc=5"
+          "fecha_publicacion": "2026-09-19T04:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNb2p4X3FleXhMREVjSnd4M1dCMmJXZFlsNHVkUGNhTDVaQms4LVo2b00yajRJSXdaYlVTdmtaYkdtMUhoR3dRTm84b041Vl9DZU9wZHIzRElHbG1uQ2FLUHFWb3RYWVZFUVlWa0ZzOVRGa1ZwdTVldUtCYVQ5bnUwUGJVeG9yWlJoeWcwcGlQYkJtUzNvQzUyN3RvOTlMdGpHM2dnVzd1MmlzZnRCMVpNYTczUWllQmp5dzBQNjl3WndRN3hnWFNUWm5JY2lTYUhZblpKR3I0V1RxaVRXX0Vya0xuZjMwNWtIbTd2QUhsdm4?oc=5"
+        },
+        {
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-24T22:23:19",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRDJDdXFob1Q1b0x0c0RWckwwYUY2aG44cm43ZDEtVTVPaG1OZjdVT0ozZ0ZKZjBuQ1FwRWFQMEktWVhablVGQ2x3VjZTb3Z4bzlBa0VROFI5dDFza2IyS2Vra2tqVFdtd05FbHNraEJiamR1OW9SalN3THBRbEo3QmRiaFBuZkJ5RlBueDlPb1dkOWkwdWJFTHFLREg?oc=5"
+        }
+      ]
+    },
+    "UTP": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Perú conectará con el mundo en la Expoalimentaria 2026 - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-18T03:27:00",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNGszd1p5VXhxMVoxVldwX09MN1VoV2tTQTlQU0tpTnZxYnhCLVhfX19sZmEwOFNQMnVwdFJBV3BKakRYUFFDR2ZFLVpZSFB3ZU8tb25nUTRqSTFCQXYyWWRXWTV2dVNBMG8yX3d2RmFhb0hPUFpla3I3QnlTQWZ0NWM0V2ZtSDdvMFZndnJ5enNYR21INTBaWlBqSjBjdk5saVQ2NExyYWNZaWF0cGM4?oc=5"
+        },
+        {
+          "titulo": "Visita del papa León XIV al Perú \"será un tiempo de reconciliación y esperanza\" - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTXRmZVlxYm5Bb1NxRXpkeWlyVlJFSVJUWXpJN3BDNGxBYW5SUHNDN0VBY29QSWtnaUprdFRQMU56LUJVV25nTGtkMEVNWUZKMWs0NkxoOVQwZlhFbmtnY2ZiTlJ0WWh1S1NuQWxrV1ZHSGc4cmZDOGl4eE9GUlA3MjQ3NV9FZjV1d3pJdGgxbjIxU3NjMnJlQThIamxZcnExRlk5QmE0LV93SFFqVDZhcGhPS3BoQW1WYlBPSXR6ZFdkS25BMU56UnV6QjAwaWhmTUFSdTZn?oc=5"
+        },
+        {
+          "titulo": "Perú venció 3 set a 1 a Filipinas y avanzó en el Mundial Femenino U17 de Voleibol - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ29KZUZyQm5uYVZrYnFKM01mVzR6X2pyc1NWQjZRSEZiYWlxQlJQamVic2xZNXpVMUFOSUxlRjlMX0FoQ09rOWRkMnlJN0MyckktSDM3dkE0VXA0RTVtMGRRSGZiaFQzUExtSVRFSVhERlZrTl9ETl95NHphSFJ0RjVSeHFsQTlPWDlrUW90RTdIaGc2YTZnUDd5SnhVLW0tRUx5VFhpT01XVDRoM0hTY1htNGFURWs5aDZOdjk3T0p6dlN2dWw3eVRVLUhWVlNZU3Zr?oc=5"
         }
       ]
     },
@@ -37,10 +145,30 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Sunedu licencia a la Universidad Peruana de las Américas y aprueba nueva filial de la USIL en Arequipa - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
+          "titulo": "Sunedu otorga licenciamiento a la Universidad Peruana de las Américas y aprueba nueva filial de la USIL en Arequipa - apnoticias.pe",
+          "fuente": "apnoticias.pe",
           "fecha_publicacion": "2026-08-05T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYTEyYmxGOUotSV9yR01PbTg4ZzRkMFNTLXcwNHNyTktyYnNQRTVMZVJsMGxGTW9Zc1dKMHNPV0dhWGE5eGluV0ZVQ1ZXcmFHbUdBVFBaVUlDSGRfdkI2SldaQWx1czMxQ0lXWnFQNlJZbHBZOXJLVlJ5M0QzbzU1OXhPOXhLeW53Wl9rNUhmVmlKNXNqd1Z3MlFGckZrRFg3WWpIalZvZXhTd3hEaGdVMVUzYmVvdDRtazFWdmoya0lOZkZhamZQamJ0VFFfcGphcEtOM0hvUm5fUmh6TGpDM1NwNm84VDlUaTdsYW53bzA?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMmZtdzhaNjNjaGU2djFkTjctTGZ6b1doZUtEOEtILTc0cDBybFgwVF9rYW0yLUoxdnNvQVhCX0dpSGUyWEl5MVg4M0ppY2VHcXQ3Zm5OWWlhT2FkLUZPVkZKN2FQUGFTZGo0V1V0R3pxa19KcHVzb2JQMlNvOGhoSzhhSzVLMlF1T21xMXF0STZWLXhlVm5fNUlGS3lLS0ROLXRDekFxbzMtcTM0Tmk4RFZmcGljeFZZZk5STGNVUFQ5eklJbzV2ejlMd3RhVGgwV1Ntb3haQXlkbVFQMU9UTDRiRQ?oc=5"
+        }
+      ]
+    },
+    "M": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [
+        "2026-08-10"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Perú conectará con el mundo en la Expoalimentaria 2026 - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-18T03:27:00",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNGszd1p5VXhxMVoxVldwX09MN1VoV2tTQTlQU0tpTnZxYnhCLVhfX19sZmEwOFNQMnVwdFJBV3BKakRYUFFDR2ZFLVpZSFB3ZU8tb25nUTRqSTFCQXYyWWRXWTV2dVNBMG8yX3d2RmFhb0hPUFpla3I3QnlTQWZ0NWM0V2ZtSDdvMFZndnJ5enNYR21INTBaWlBqSjBjdk5saVQ2NExyYWNZaWF0cGM4?oc=5"
+        },
+        {
+          "titulo": "Perú venció 3 set a 1 a Filipinas y avanzó en el Mundial Femenino U17 de Voleibol - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ29KZUZyQm5uYVZrYnFKM01mVzR6X2pyc1NWQjZRSEZiYWlxQlJQamVic2xZNXpVMUFOSUxlRjlMX0FoQ09rOWRkMnlJN0MyckktSDM3dkE0VXA0RTVtMGRRSGZiaFQzUExtSVRFSVhERlZrTl9ETl95NHphSFJ0RjVSeHFsQTlPWDlrUW90RTdIaGc2YTZnUDd5SnhVLW0tRUx5VFhpT01XVDRoM0hTY1htNGFURWs5aDZOdjk3T0p6dlN2dWw3eVRVLUhWVlNZU3Zr?oc=5"
         }
       ]
     }

@@ -1,4 +1,16 @@
 {
-  "generado": "2026-09-24T17:55:34.194032",
-  "universidades": {}
+  "generado": "2026-09-25T17:57:22.589517",
+  "universidades": {
+    "UNI": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": null,
+        "inscripcion_inicio": null,
+        "inscripcion_fin": "2026-08-05",
+        "resumen": "Se amplió la fecha límite de inscripción al 5 de agosto",
+        "fuente_titulo": "¡Atención! UNI amplía hasta el 5 de agosto las inscripciones a su examen de admisión - qa.editoraperu.com.pe",
+        "fuente_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUVhtdDFoZmxKa0lfZmFQdmg0QnRQb2tBNmt5RVVwNzZ5QTQzaUpaNzdSbU9wNlJteTJZLVEtejk4cEQ2MWFBZ0hzQ2ZaZFBrc2ZjR3I5WFltd3FOblY4cFZXU2JyWUNnX1N3RUk0d1dpb2l1X2RwbEdCbmttTkJGcWVvUkNwVU9ZakFzQ0tEaldDQmlmVjYzYWtmM3Z0cFNwM2V0bTNDZFhGS3h2YnFIeE5NMmUzWDF4LWxRMnRldHEweFhiUXA0eG5reWU?oc=5"
+      }
+    ]
+  }
 }
