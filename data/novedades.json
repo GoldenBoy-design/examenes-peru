@@ -1,17 +1,46 @@
 {
-  "generado": "2026-09-26T17:03:59.256434",
+  "generado": "2026-09-27T17:44:29.101897",
   "universidades": {
-    "UNAC": {
+    "UNE": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-07-19"
+        "2026-06-28",
+        "2026-08-10",
+        "2026-08-29"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Agenda informativa de la Junta de Portavoces - Congreso",
-          "fuente": "Congreso",
-          "fecha_publicacion": "2026-08-22T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOanRodk42bnNVS3ZMV3FnVXNhUUtFY1ppZXlFeFE4M3VRRXRyUVRkSWt2NkhuZVZTNWMyMlRmNnJaNVA5UDhuaEtBSWlxTE94dDF6eUFqbk5MdFo0Z2NkRnEyLWpvUnl2VzlZd1c4MXJacnZreGhvOUk2S2JScmE3WVBYcWFaWGJ0WUY1M1hiX1RJVUcxeTNOYnJEaWg?oc=5"
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-25T18:20:16",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlJWTmc1NnA2R21SQXZyLVZvYjNVaFU2Zlg5dTNKc1AzU3BMZFVYUnAyZzFkS1I1eXNuaVpEdnlXQ0VZOHJDSW5FZzZzSGd3WFB1N3k5cW40eVlRRDdPajZGbElfazhRUlpzcENfUHU2Y056NmdFY0w0LVVpcXVLWGUwazlPQ2FjUzQxaWNEN3FSRnB0WnV2U2ZKeDh3QQ?oc=5"
+        },
+        {
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-26T15:51:56",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdGh1LV8tQ2UtSUhxWVMwSUNaT3FYV2JKRGd0M1lkc0M0LVV4TS1tR21aXzRpUUtZMDlTLUt5bFF5TkZQZE52SlZvM2d0U3hTQVM1X2Z4RHg4ZXpMOXEwejFrY1dMQnR5UmxWUzVHMTBTQjQxbzY1YzdSVkNLOFdzcXgtdUJLRTZVXzI0MGxCakhzenFPT2h1ZWw0M1ltZw?oc=5"
+        }
+      ]
+    },
+    "UNS": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12",
+        "2026-09-06"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-25T18:20:16",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlJWTmc1NnA2R21SQXZyLVZvYjNVaFU2Zlg5dTNKc1AzU3BMZFVYUnAyZzFkS1I1eXNuaVpEdnlXQ0VZOHJDSW5FZzZzSGd3WFB1N3k5cW40eVlRRDdPajZGbElfazhRUlpzcENfUHU2Y056NmdFY0w0LVVpcXVLWGUwazlPQ2FjUzQxaWNEN3FSRnB0WnV2U2ZKeDh3QQ?oc=5"
+        },
+        {
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-26T15:51:56",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdGh1LV8tQ2UtSUhxWVMwSUNaT3FYV2JKRGd0M1lkc0M0LVV4TS1tR21aXzRpUUtZMDlTLUt5bFF5TkZQZE52SlZvM2d0U3hTQVM1X2Z4RHg4ZXpMOXEwejFrY1dMQnR5UmxWUzVHMTBTQjQxbzY1YzdSVkNLOFdzcXgtdUJLRTZVXzI0MGxCakhzenFPT2h1ZWw0M1ltZw?oc=5"
         }
       ]
     },
@@ -25,28 +54,46 @@
       ],
       "noticias_encontradas": [
         {
+          "titulo": "Egresados de Medicina alcanzan primeros puestos nacionales en el Residentado Médico 2026 - Universidad César Vallejo (UCV)",
+          "fuente": "Universidad César Vallejo (UCV)",
+          "fecha_publicacion": "2026-09-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbDhaZ2EzMlFxTVFsdzRjZ2FfZGZ0SnlDQ1lDdXdwOUlDN2dpMFFRNXBZUldZVmtJTUZxQUlNdHdmcEFFRzg4N00yMW5odXFQUURoZS1UNWlfNVFsU1lHZG4yUmVoVHg0OGJaeW5oNTF5QUs0cXo0N1I5QXBodkhYTGgtNzZxaE5JZTJVWDQ1TkNwUVdP?oc=5"
+        },
+        {
+          "titulo": "Elisa Crespo: Postula a diputado con el partido APP - Diario Ahora",
+          "fuente": "Diario Ahora",
+          "fecha_publicacion": "2026-09-25T00:34:34",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbTZJcldaNEFZVXlOWEpjV3ZuMjItUDZDNU8xaW9fQW9QdXRLMjZDTUlfVk0wTmxxTjVsczlsUFR5OXIwYndWczVDaWw5M2RKVlZ6aEJRS3dJVk94UGh2X3A4d2ZWMmhxSnEyaUNISVlXS1pVZThaS0t3d1FUNUx6UmREWlRqVGxhb1FzblRPYlE?oc=5"
+        },
+        {
           "titulo": "Premier advierte que el Perú enfrenta una batalla frontal contra organizaciones criminales - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
           "fecha_publicacion": "2026-09-25T02:57:00",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPeHgweFRFc2ZCQkt0eGJTUHVwYnB2S2ZNUGpEdnN3dDByRGhiM3FqMkpmdzdWUnVCRHNuUzhybEpLV1BxcVc4NlBTX0VXaGVSVndnQlRnM0JGSWlqYkpyTDd1cVp5OHRiak44Y01kWmpYRUlNbFpqOWFubG1PQkJqaWg3Y3hWSmJvOWdZcElyOHBfUDZMdVpPSFpxN1NUVW9GWUF1dGhHOFdHYU5JS0YzVnpYS3pxYXNLNkNMT3hraUNReWhzejlLMU9pMWdiVm9mR0tMYlRrTERHbVZldUlFU1VBanpvazRfeEpHSlNnNA?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPajlERmJQemFDZ3hSdjFIRTg1YVpHZVZSRHJMdUdJNURxeTloQnV5M0lXZm5CbDE4VktHYWkyQnpFMS1mMkZ2UV9tMFhXQmtPLWRQaGtteUFXOHBTajQ1QlVNdVRLcUZodTZUV3pmOEhRZHMxSUZQTjNPUzd1ekU5dV9JVVNjc2tHT2JGME5RelF6WHVURlJyTlZGY2dBeVNERFExU2xBV2FaaWtoQlNVTVptdkNqaFhuSmZKYnhiYUxmUnhucW02VzhxdVNLSzlybUVjd0N2LUpWbHVEUkp3aHhR?oc=5"
         },
         {
-          "titulo": "Naciones Unidas refuerza su apoyo al Perú en preparación ante el inminente al fenómeno El Niño - Chimbote en Línea",
+          "titulo": "Gimnasta Simone Biles les dio biberón a alpacas en el Cusco: \"El Perú es fantástico\" - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-11T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQamxiaVNidGk2Tmk4Z1JfdW9XTF95NmtySDhpdEFJbkhtZzEtbjVtOHItZXBvNlAteWZCR0NMT3JSQjNZT09GNnZ4bHNMeWc1ckZkX0F5Zy1ucXJGZmxMd2tkRUJTMk1iTmRybUJpTXU5N1Y1NTNCUUFlNFJMUW1OR29kUG9wRTFjN0pJeHI3cGdOTS1uZnZMZG9ES0ZKYmNyTkY0YW1ZeFVSTkpFZTVCa1RWaTd6TnJVQk5WOHN3NUZ5WHlpdmlmY201OFlXTUZvQW9nZ2lJWm9rYUFmOEZjLVRnNGppOGZiYTZHY2s3X2NHUndEcmdyRzJOLW0?oc=5"
+          "fecha_publicacion": "2026-08-05T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOXzVnZXgxV3kwTzZnT3ROdV9IMnJNMlp6X0FxVEJMQkdwNFBPU1BhOWlMdl9HcjFfbC13SERSTzNhVkJFMlEzZWMyR2NWbkZRUE5HejlzNmVPMFFTY3RXdnRBdW9NaThMV2RaNTdDeUFsNlBtZDdUOWZ5bjBYcDRoblBsa2t3RzZKZXBjMWtUQmQtNjhSYU5HT09sREtVUXlQMC1vS1pVVThvdkhYSi02UExVbDhRaG45Y1V0NE5IVjAyWEtpeEQzWXBRaHZUNC1ZZFVn?oc=5"
         },
         {
-          "titulo": "BCRP lanza nueva moneda de plata de S/ 1 por los 200 años del Ministerio de Justicia - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-25T04:16:00",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMko1VDJTOW9UWnlRTjV5bWN2eDFfdU0zUXNUbDZqVGNqYU1IOE9yVkJGRzZWcm9LNURhRk9PNjFYU1BfS1E5LUtwcDEyOW5ZZWZMUnNUUlN4Q0N2dUZUMGhGeUlDWmJtZGtYMDB5Mm9seFZuSEd5WTQ1anJfNUN3RFBVSm1CcXBSRkgtSGVtb1h1ZjZ4cDZWSHhqMU93UWNxTVN0YWx6S29uUFd3SGIzS3NXMmxGV19HRGtWYklCcC1ZbG9fVWNpNkJDNzNJMGRMNzJNNkg5dTNFYkUzT1hLQnZ4VQ?oc=5"
-        },
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-25T18:20:16",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlJWTmc1NnA2R21SQXZyLVZvYjNVaFU2Zlg5dTNKc1AzU3BMZFVYUnAyZzFkS1I1eXNuaVpEdnlXQ0VZOHJDSW5FZzZzSGd3WFB1N3k5cW40eVlRRDdPajZGbElfazhRUlpzcENfUHU2Y056NmdFY0w0LVVpcXVLWGUwazlPQ2FjUzQxaWNEN3FSRnB0WnV2U2ZKeDh3QQ?oc=5"
+        }
+      ]
+    },
+    "UTP": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
         {
-          "titulo": "Canciller Espá anuncia que continuará expulsión de delincuentes extranjeros de alta peligrosidad - Chimbote en Línea",
+          "titulo": "Premier advierte que el Perú enfrenta una batalla frontal contra organizaciones criminales - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-03T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONWE2SmVKRUxBVjhkY1RWWFZRZU1rVHN1dUVKU1dfcVBnSlUxUnpBQXoyLTB3dHZnaUxPbWczcEt3ck5SanJxVHBSdG1fRHZ1T0NVdWxzdmxOb1FCeVNnTkh2QVU0akhvRExWakZQUkx1eUpRaWxKeGg5Y2l0V0w1U1ZkZWRqRDJfUzNDblVDMWJRd3B4ZzRSZjF3VklVQlMzT1VnM1RUYjdteUxRdDQ4WGpuUVZZWXpKNmtPekNKNFdKNXVWeWhBNm1xcEpvV1lfMEJqX2k3RnhHdjVFUDIzUy1mcnVZRm8?oc=5"
+          "fecha_publicacion": "2026-09-25T02:57:00",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPajlERmJQemFDZ3hSdjFIRTg1YVpHZVZSRHJMdUdJNURxeTloQnV5M0lXZm5CbDE4VktHYWkyQnpFMS1mMkZ2UV9tMFhXQmtPLWRQaGtteUFXOHBTajQ1QlVNdVRLcUZodTZUV3pmOEhRZHMxSUZQTjNPUzd1ekU5dV9JVVNjc2tHT2JGME5RelF6WHVURlJyTlZGY2dBeVNERFExU2xBV2FaaWtoQlNVTVptdkNqaFhuSmZKYnhiYUxmUnhucW02VzhxdVNLSzlybUVjd0N2LUpWbHVEUkp3aHhR?oc=5"
         }
       ]
     }
