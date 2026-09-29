@@ -1,4 +1,79 @@
 {
-  "generado": "2026-09-28T20:10:04.870118",
-  "universidades": {}
+  "generado": "2026-09-29T18:38:42.469466",
+  "universidades": {
+    "UNE": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-06-28",
+        "2026-08-10",
+        "2026-08-29"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-28T20:45:27",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3RBZzhwM2NKOHZ2Q1FBbExoNlJnYVN4UFBwOEF6ZkhYeGhPeEcwLWt1TWJldGZoNVNWQnlnaHdoLWhqbU4tYUg5Vld0S2NzQ2xhTmxqWmg4LXFrSkVYUmJrZ2o3UDU5N1RPV0tMXzA3UDVwbFREdVpraGtHdGRnOHAzYloxVGY4TlVfcktOMDRKdVYwWmpWZkFTR0c2UQ?oc=5"
+        }
+      ]
+    },
+    "UNS": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12",
+        "2026-09-06"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Resolución Jefatural - gob.pe",
+          "fuente": "gob.pe",
+          "fecha_publicacion": "2026-09-28T20:45:27",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3RBZzhwM2NKOHZ2Q1FBbExoNlJnYVN4UFBwOEF6ZkhYeGhPeEcwLWt1TWJldGZoNVNWQnlnaHdoLWhqbU4tYUg5Vld0S2NzQ2xhTmxqWmg4LXFrSkVYUmJrZ2o3UDU5N1RPV0tMXzA3UDVwbFREdVpraGtHdGRnOHAzYloxVGY4TlVfcktOMDRKdVYwWmpWZkFTR0c2UQ?oc=5"
+        }
+      ]
+    },
+    "UCV": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-19",
+        "2026-08-23",
+        "2026-08-29",
+        "2026-09-27",
+        "2026-10-25",
+        "2026-11-22",
+        "2026-12-13",
+        "2027-01-24",
+        "2027-02-28",
+        "2027-03-21"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "ADEX impulsa diversificación e innovación de oferta agroexportable peruana - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-21T19:09:00",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3Q3LVBKWW8zU0FIMWY3Q3dKSFVzMTQtVnRTQVdmQkxPRGJGMVo1cDRpdXh0NkR6eEhFNWZKZlJVUm5IbVdEQ0t1aWVhcXRVb2FqYno1djBGa2xCVWxMcjRmTDlycERIMnR0R2hfRFNBY09FMDl0NlFlQnV2NlJXdlA4dzlEREpMbExmdE1GVlFDLUxDVzhKOTFxRkJjMU1CRWVvdnFTLUloWkxzOTh5YlVwN2lkSmdISXhmMWl4NC1NNnpMZVRIUVhn?oc=5"
+        },
+        {
+          "titulo": "Open Day 2026: Más de 13 mil escolares de La Libertad participan en la gran feria vocacional de la UCV - Macronorte",
+          "fuente": "Macronorte",
+          "fecha_publicacion": "2026-09-29T15:23:41",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLUs5Y2NUbFM3eEtIY1V5MVBRdEZnVmZBLUdINC1HOWRraXhZVmlyQUtubDAybUwyRzJWYm9YdWwzQ01PbkNzaFNVT08tTUMwV2pqV2RfMEs1WEJFVWxWbmMwQ25UdXVCcEtOX3dQdzdfcjltSXdubHFWN0drSHNjajE3bVBLeTU1NFhDeGttelV2WUtmVzRfekFKblV3RzZ5Unp6MXhUUU0wNnBPbHpsZXlTQ05yZERGNi1nM3NKS19hTGVnV3dqaWhCeFVaSTJk?oc=5"
+        }
+      ]
+    },
+    "PA": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [
+        "2026-08-10"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Ejército ofrece carreras técnicas y formación para responder ante emergencias como El Niño - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-09-29T04:56:35",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUHAxMldsUzlETDd4MW1WRWlOR1NHekhfM1VmV2I4UU85NWJIeVZGS0E5YWRTeFBTSXlwMFczMy1tbHlpNkpkTmFBYXNLdE9HbDBYLXFZalYwWlZvd3ZQWXdtQUtOSmhxX24tcUJUdURMYVUwNUhhM1BzVEpGMTdmVGh3RE0tSWZ3MVo1LXdVb0k2OWJTczRMS0t5UVFoWjFNUzVwQ0F3dW1hWWxJZ0lobk9lUkpPc0VwZ2UxQTNyUVNKVHNJbHpXMnV1dzA3X2M?oc=5"
+        }
+      ]
+    }
+  }
 }
