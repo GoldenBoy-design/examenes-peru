@@ -1,37 +1,6 @@
 {
-  "generado": "2026-09-29T18:38:42.469466",
+  "generado": "2026-09-30T18:31:57.041972",
   "universidades": {
-    "UNE": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-06-28",
-        "2026-08-10",
-        "2026-08-29"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Resolución Jefatural - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-09-28T20:45:27",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3RBZzhwM2NKOHZ2Q1FBbExoNlJnYVN4UFBwOEF6ZkhYeGhPeEcwLWt1TWJldGZoNVNWQnlnaHdoLWhqbU4tYUg5Vld0S2NzQ2xhTmxqWmg4LXFrSkVYUmJrZ2o3UDU5N1RPV0tMXzA3UDVwbFREdVpraGtHdGRnOHAzYloxVGY4TlVfcktOMDRKdVYwWmpWZkFTR0c2UQ?oc=5"
-        }
-      ]
-    },
-    "UNS": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-09-06"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Resolución Jefatural - gob.pe",
-          "fuente": "gob.pe",
-          "fecha_publicacion": "2026-09-28T20:45:27",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3RBZzhwM2NKOHZ2Q1FBbExoNlJnYVN4UFBwOEF6ZkhYeGhPeEcwLWt1TWJldGZoNVNWQnlnaHdoLWhqbU4tYUg5Vld0S2NzQ2xhTmxqWmg4LXFrSkVYUmJrZ2o3UDU5N1RPV0tMXzA3UDVwbFREdVpraGtHdGRnOHAzYloxVGY4TlVfcktOMDRKdVYwWmpWZkFTR0c2UQ?oc=5"
-        }
-      ]
-    },
     "UCV": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -48,30 +17,28 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "ADEX impulsa diversificación e innovación de oferta agroexportable peruana - Chimbote en Línea",
+          "titulo": "Peruanos cuentan cómo accedieron a oportunidades para estudiar un posgrado en Corea - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-21T19:09:00",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc3Q3LVBKWW8zU0FIMWY3Q3dKSFVzMTQtVnRTQVdmQkxPRGJGMVo1cDRpdXh0NkR6eEhFNWZKZlJVUm5IbVdEQ0t1aWVhcXRVb2FqYno1djBGa2xCVWxMcjRmTDlycERIMnR0R2hfRFNBY09FMDl0NlFlQnV2NlJXdlA4dzlEREpMbExmdE1GVlFDLUxDVzhKOTFxRkJjMU1CRWVvdnFTLUloWkxzOTh5YlVwN2lkSmdISXhmMWl4NC1NNnpMZVRIUVhn?oc=5"
-        },
-        {
-          "titulo": "Open Day 2026: Más de 13 mil escolares de La Libertad participan en la gran feria vocacional de la UCV - Macronorte",
-          "fuente": "Macronorte",
-          "fecha_publicacion": "2026-09-29T15:23:41",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLUs5Y2NUbFM3eEtIY1V5MVBRdEZnVmZBLUdINC1HOWRraXhZVmlyQUtubDAybUwyRzJWYm9YdWwzQ01PbkNzaFNVT08tTUMwV2pqV2RfMEs1WEJFVWxWbmMwQ25UdXVCcEtOX3dQdzdfcjltSXdubHFWN0drSHNjajE3bVBLeTU1NFhDeGttelV2WUtmVzRfekFKblV3RzZ5Unp6MXhUUU0wNnBPbHpsZXlTQ05yZERGNi1nM3NKS19hTGVnV3dqaWhCeFVaSTJk?oc=5"
+          "fecha_publicacion": "2026-08-14T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWEkzZFh6dzVoLTlpakZrVjFwQjlRdFpjaGUxeUszRW9wLWFJWUYyazZYcm9wN2JOdlhzSHJKODgzZFh4OXJtTGs0ZjhZVkt5LTd4c0d4Tm5hcV9yRGF6REx4X0lCcmVWUFZ4VVFXemFPd1RIczNVRzlKaVBQNUVhLXJsdXE3MkZsNXNGLTMxRmljeGROTkZBRFdUbnhoWGtKMmFhdmVxWkRVUVBSNk5ULU1qN0RSRUxQNkFaQXhsNTBHbFoyaUtKTHJrenhFRUpmdzVObGxuOA?oc=5"
         }
       ]
     },
-    "PA": {
+    "IPD": {
       "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [
-        "2026-08-10"
-      ],
+      "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Ejército ofrece carreras técnicas y formación para responder ante emergencias como El Niño - Agencia Andina",
+          "titulo": "Designan a Óscar Fernández como nuevo presidente del Instituto Peruano del Deporte - Agencia Andina",
           "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-09-29T04:56:35",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUHAxMldsUzlETDd4MW1WRWlOR1NHekhfM1VmV2I4UU85NWJIeVZGS0E5YWRTeFBTSXlwMFczMy1tbHlpNkpkTmFBYXNLdE9HbDBYLXFZalYwWlZvd3ZQWXdtQUtOSmhxX24tcUJUdURMYVUwNUhhM1BzVEpGMTdmVGh3RE0tSWZ3MVo1LXdVb0k2OWJTczRMS0t5UVFoWjFNUzVwQ0F3dW1hWWxJZ0lobk9lUkpPc0VwZ2UxQTNyUVNKVHNJbHpXMnV1dzA3X2M?oc=5"
+          "fecha_publicacion": "2026-08-18T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNazM0a3Z0QWVvdnV4T2ZMenYzNGhqRElTTU5ITjFqb1dldWpwX2k4WHg1OWkxNXlYZ3k2R1pxNkhVdG5KUFBEVWtMMk5VQlJ3MHlYTE5rb3RDcE04amVCdi1lLUdlZW1GZzNuMTV6UTczNTRNcENGVGk1Y0VTcjBhcWVpYlRjZl9xNXJINy1DLTdhc05wQm9fQXFNeWIxd2wyTkpBaVZLbnNNd1RidjNmaDk4emhSb01lQWpEZ0JSM0cwR1NBbWFaOA?oc=5"
+        },
+        {
+          "titulo": "IPD impulsa el deporte estudiantil rumbo a los XXVI Juegos Universitarios Nacionales - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-09-30T01:52:37",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZjJPTlhQR2tRRlF3Rkwzd1prbWMxQWpPLXJQTmFqaDVBbG1kOTJxeW1ZeERMc0pqYllic2lxbFhPbDZ2UnljeUZMaWRXc2tjSWh5MTBROFNHMms1Z2NmZ3hoSnRxaDVBVGp3VEgzaHJPM3VOWlJTSVFxelRRam9IQ0s5cER3enQwU1g1am9FSW1qckZGdnZsQjE4WmE3TjUwM2M2TWM0aFJNcklxdzdFbU9QMm1YQjBsdmxjOUN6YmQ5bzdFZHQ0?oc=5"
         }
       ]
     }
