@@ -1,6 +1,42 @@
 {
-  "generado": "2026-09-30T18:31:57.041972",
+  "generado": "2026-10-01T18:58:17.683683",
   "universidades": {
+    "UNE": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-06-28",
+        "2026-08-10",
+        "2026-08-29"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Presidenta Keiko Fujimori participó en reunión de alto nivel del Escudo de las Américas - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-23T01:35:00",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX0Q1cXZINEpaWXNTQ1ZvLVNLcU41WDJhd0ZMUTRLbko0cXoxZm1YWnVPSF9LamxIS1N5UlRSU0dxajZrRVQtRUFfWVFlOGxZWnVTU2JoVVBWZ3BNbE9BRHNvRnd0R1lkWk95ZWFLZ09oMkVVU1NMQTV0RkVseS1UeVhyMmpLeV9hZ1QtaVpNcF9SQUIxYXJha1poRS1memtwcXRfU044QmMyazlZZE9kU1lpQ0hpTGxCNncya0kwR0NFLWZfN0J6VzJRUEo2d2k0MmVPWHpCVE0weEE?oc=5"
+        }
+      ]
+    },
+    "PUCP": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-16"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Elecciones Regionales y Municipales 2026 - JNE Voto Informado",
+          "fuente": "JNE Voto Informado",
+          "fecha_publicacion": "2026-10-01T05:01:41",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOHRkMUtaOTgwTUpZcElzYlMtOHFodHVKczhUM09JMnpVN3NXMlY2aXA2QWpidHNBQ2tHOE5lT2hadGxOeWZxYWpzZERzQm1SbnpPVFhNSFJjQzhOT3k3NlIyOWlrb2ZibUc5aHBiWmhNeFZqOUZsci01R29ad3g2X3QzcG5zNmM2VzhxcHN4SQ?oc=5"
+        },
+        {
+          "titulo": "REQUERIMIENTOS TÉCNICOS MÍNIMOS SUMINISTRO DEL PRODUCTO FARMACÉUTICO - insnsb",
+          "fuente": "insnsb",
+          "fecha_publicacion": "2026-08-20T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdHZaWWpaVEo2M09Cb3haT0JwTld0LVU1a1QxdjhZa0lBU3dvWGJVTlJwOEVWdkZPNXBNQ3JIQm9jTW1BTWNaazlmX0lwbHktOGE0Q0lzbld2RnR1cVdUN0N0YTNrQU1nLUo4M1JuTXN0czBISFMycDhpV3pRcUhYNjdMbnpPc0pfV2hOaThJZ25ybXppTFlfaWxfZnF5VGd5Zmp3SnlNV2dINmlPTWc1MFV3VWFQdmlaU0pTeHV2UmtWV2xJNzk3VDdZekhSc203Qi1TVEc5NmFMTDBiSTBzUVln?oc=5"
+        }
+      ]
+    },
     "UCV": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -17,28 +53,40 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Peruanos cuentan cómo accedieron a oportunidades para estudiar un posgrado en Corea - Chimbote en Línea",
+          "titulo": "BCRP lanza nueva moneda de plata de S/ 1 por los 200 años del Ministerio de Justicia - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-08-14T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWEkzZFh6dzVoLTlpakZrVjFwQjlRdFpjaGUxeUszRW9wLWFJWUYyazZYcm9wN2JOdlhzSHJKODgzZFh4OXJtTGs0ZjhZVkt5LTd4c0d4Tm5hcV9yRGF6REx4X0lCcmVWUFZ4VVFXemFPd1RIczNVRzlKaVBQNUVhLXJsdXE3MkZsNXNGLTMxRmljeGROTkZBRFdUbnhoWGtKMmFhdmVxWkRVUVBSNk5ULU1qN0RSRUxQNkFaQXhsNTBHbFoyaUtKTHJrenhFRUpmdzVObGxuOA?oc=5"
+          "fecha_publicacion": "2026-09-25T04:16:00",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOHNwZUJZV3hBSEpIT205U2doNlhEUTZyT1F0aXd0UmVWeElFMkl3VWRhZDU4aGRQaURoZlVWZXVhdUpweGpmSjB6cHJ4Y3FpcnVMOFhCaFJsREpJejZaSU95WEYwMUxEeUlvU01GeDZwVzVZQ2ZjUl8xMW9tUTl2X1B6WFRwYThWVmsydDBNNnN4UndKcUZrcVYwLUgxRlVFV0ZaVHJZTGZIc1NNXy16UUxIek1sZktUTHFOc3ljOTY2OUdjcGZQZDhQbVhvSWVzMUt5RWFB?oc=5"
         }
       ]
     },
-    "IPD": {
-      "estado_actual_json": "por confirmar",
-      "fechas_actuales_json": [],
+    "UPC": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-08-08",
+        "2026-12-05",
+        "2027-03-20"
+      ],
       "noticias_encontradas": [
         {
-          "titulo": "Designan a Óscar Fernández como nuevo presidente del Instituto Peruano del Deporte - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-08-18T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNazM0a3Z0QWVvdnV4T2ZMenYzNGhqRElTTU5ITjFqb1dldWpwX2k4WHg1OWkxNXlYZ3k2R1pxNkhVdG5KUFBEVWtMMk5VQlJ3MHlYTE5rb3RDcE04amVCdi1lLUdlZW1GZzNuMTV6UTczNTRNcENGVGk1Y0VTcjBhcWVpYlRjZl9xNXJINy1DLTdhc05wQm9fQXFNeWIxd2wyTkpBaVZLbnNNd1RidjNmaDk4emhSb01lQWpEZ0JSM0cwR1NBbWFaOA?oc=5"
-        },
+          "titulo": "UPC lanza la Beca Laureate Transforma para jóvenes con excelencia académica - Noticias UPC",
+          "fuente": "Noticias UPC",
+          "fecha_publicacion": "2026-09-17T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMDlZSlFSb0ZMVXJiem0yQXdOSG5MNTBPejh2dGZyT0JFeFhDanZpaHFyYmViZXFMTy0yYXNRd1Y1QUs1M0NEeDNjUUc1U3AwMkVRRXZxcU1rRWlkbjZ3UkpaRms0bEFlSlRQVzJBM0FPME1yYnVsVDBHeFZUMXZydVo1OG1qTzRaTXBvSkhUaVNSX3p3dlVzeThva0xkbUU3UzJWX0s4OVBrTW1kRHFUNUFvZHZ0UQ?oc=5"
+        }
+      ]
+    },
+    "PA": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [
+        "2026-08-10"
+      ],
+      "noticias_encontradas": [
         {
-          "titulo": "IPD impulsa el deporte estudiantil rumbo a los XXVI Juegos Universitarios Nacionales - Agencia Andina",
-          "fuente": "Agencia Andina",
-          "fecha_publicacion": "2026-09-30T01:52:37",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZjJPTlhQR2tRRlF3Rkwzd1prbWMxQWpPLXJQTmFqaDVBbG1kOTJxeW1ZeERMc0pqYllic2lxbFhPbDZ2UnljeUZMaWRXc2tjSWh5MTBROFNHMms1Z2NmZ3hoSnRxaDVBVGp3VEgzaHJPM3VOWlJTSVFxelRRam9IQ0s5cER3enQwU1g1am9FSW1qckZGdnZsQjE4WmE3TjUwM2M2TWM0aFJNcklxdzdFbU9QMm1YQjBsdmxjOUN6YmQ5bzdFZHQ0?oc=5"
+          "titulo": "BUAP abre nueva oportunidad de ingreso con corrimiento y lugares disponibles para Admisión 2026 - Reto Diario",
+          "fuente": "Reto Diario",
+          "fecha_publicacion": "2026-08-12T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeV9zbXFtRC0tOGZBWWRPZHhadEhTRU9LdkNMTlJDRWdQVGZsdEZWeHByUkVxdDNJd19YRElvSnJyMkhmcFk1aHhScFJEUE5EYmlmdzFabjdwOHFrVDhIQTlqYk5kdGpYWG5BVkEzNWJjZ2lmd09jelNxeENjWXhTXzNsQjZIZFh3bDRLQVBZa0pRV3U2djFfc1gxdENtd1lwSTBfRnNtWUFNMThkMEF4b2VvNHRnN2tLWV9YSTJCTnYyNEFlM1h6c1ZuZGFKSkpQYm94WFBCVQ?oc=5"
         }
       ]
     }
