@@ -1,4 +1,47 @@
 {
-  "generado": "2026-10-01T18:58:17.683683",
-  "universidades": {}
+  "generado": "2026-10-02T18:23:24.824135",
+  "universidades": {
+    "UNMSM": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": null,
+        "inscripcion_inicio": null,
+        "inscripcion_fin": "2026-10-09",
+        "resumen": "Se establece el plazo de inscripción hasta el 9 de octubre",
+        "fuente_titulo": "Examen de admisión San Marcos 2027-I: postulantes podrán inscribirse hasta el 9 de octubre para competir por una de las 2.581 vacantes - Infobae",
+        "fuente_link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPMU4zdHNzemotUVpzeGRMYWh4aUNOeEZ6Q2d5WnI5c1h4YXA5eUxIOFZsMk5kLUg2a2draVlBcFlyYVpGMEQtYzVzRUwyVjVyUzJWZU1fcjFac0xKYzBCeVVIRFQxekdjUE4zV2tLNVJ0ZEg5QVp4TENSQmxSUGlGMGZfQmRwd1dXVHhxMUxoTmNKOVg4UXd0bzBCbDVlcGVwRDEyaDJWSTVBd09ZbjliNUh0TTlqWDJESV9IZ0taUXdQQXNKLTJUY0N4eEpxN29xekpld2tBdE5laFdzdGhaSlVmcUdwdUo0VXh0dlBvVVkxc2Nicy1vLW5VejJ3NDRPQ0JR0gGeAkFVX3lxTE9aSEZtSEZBSmc1a3pZZkNpWEFHX2Q4RjNWY2lJdm5RRWxnOUZSNjlPRGNhRGRKSHh3d19qd3ZzRjZkVHR1Q1c0cHNnMDNxVWVsX0tVV3NIU3JzbzZ3VnJQXzl6dks1aFJGTl80N1IxWGJ5MU9lc1hxVm43NnlaNE1TZ1BPcHE2Vzd1Z1NCNjVYYzNDaXJUdVFkdXpwR1p6WlZ1dElrQko4dFR1ZDNvcWdtRDRjbnRKcEhqY2lEeF9kSGVyWFRiU1k3VXIwNUxTendwdkFIRzJKODFlVzh0YUQwdlhKQl9TNkhEZ0ZIV0FqT092QWZnR1RwRnRiM0FoY2Z3Z2ZMSU9BUzZLcmpzM2FzMXVRMWlzdEdTZk5QUHc?oc=5"
+      },
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": null,
+        "inscripcion_inicio": null,
+        "inscripcion_fin": "2026-10-09",
+        "resumen": "Se establece el plazo de inscripción hasta el 9 de octubre de 2026",
+        "fuente_titulo": "Examen de admisión UNMSM 2027: Postulantes tienen hasta el 9 de octubre para inscribirse - El Peruano",
+        "fuente_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2dpOFUxZnpEb3pFb0FYQTVGUi01dHhqVUdvLXprUWQ3ZjRqZkFINzhuWldSal9GLUFxcEd0M1otR0hBcS1PVVFnRlhjdkxYSFQwSndwTGR3RTh3OVR1d3drU1BJRE15b2pzVTc1N0otTkdFdC1SQWN3cU5DUXVaVExJeXlXbF9vaHkxWndtYTk4elRpTEhUWmNxeS10eHJwWU1zcTk1UFNoZlRmVHEteTJnQWZpUWJ3ZzR0UTN2VHU?oc=5"
+      }
+    ],
+    "UNI": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": null,
+        "inscripcion_inicio": null,
+        "inscripcion_fin": "2026-10-09",
+        "resumen": "Se establece el 9 de octubre como fecha límite de inscripción",
+        "fuente_titulo": "Examen de admisión San Marcos 2027-I: postulantes podrán inscribirse hasta el 9 de octubre para competir por una de las 2.581 vacantes - Infobae",
+        "fuente_link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPMU4zdHNzemotUVpzeGRMYWh4aUNOeEZ6Q2d5WnI5c1h4YXA5eUxIOFZsMk5kLUg2a2draVlBcFlyYVpGMEQtYzVzRUwyVjVyUzJWZU1fcjFac0xKYzBCeVVIRFQxekdjUE4zV2tLNVJ0ZEg5QVp4TENSQmxSUGlGMGZfQmRwd1dXVHhxMUxoTmNKOVg4UXd0bzBCbDVlcGVwRDEyaDJWSTVBd09ZbjliNUh0TTlqWDJESV9IZ0taUXdQQXNKLTJUY0N4eEpxN29xekpld2tBdE5laFdzdGhaSlVmcUdwdUo0VXh0dlBvVVkxc2Nicy1vLW5VejJ3NDRPQ0JR0gGeAkFVX3lxTE9aSEZtSEZBSmc1a3pZZkNpWEFHX2Q4RjNWY2lJdm5RRWxnOUZSNjlPRGNhRGRKSHh3d19qd3ZzRjZkVHR1Q1c0cHNnMDNxVWVsX0tVV3NIU3JzbzZ3VnJQXzl6dks1aFJGTl80N1IxWGJ5MU9lc1hxVm43NnlaNE1TZ1BPcHE2Vzd1Z1NCNjVYYzNDaXJUdVFkdXpwR1p6WlZ1dElrQko4dFR1ZDNvcWdtRDRjbnRKcEhqY2lEeF9kSGVyWFRiU1k3VXIwNUxTendwdkFIRzJKODFlVzh0YUQwdlhKQl9TNkhEZ0ZIV0FqT092QWZnR1RwRnRiM0FoY2Z3Z2ZMSU9BUzZLcmpzM2FzMXVRMWlzdEdTZk5QUHc?oc=5"
+      }
+    ],
+    "PA": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": null,
+        "inscripcion_inicio": null,
+        "inscripcion_fin": "2026-10-09",
+        "resumen": "Se establece el 9 de octubre como fecha límite de inscripción",
+        "fuente_titulo": "Examen de admisión San Marcos 2027-I: postulantes podrán inscribirse hasta el 9 de octubre para competir por una de las 2.581 vacantes - Infobae",
+        "fuente_link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPMU4zdHNzemotUVpzeGRMYWh4aUNOeEZ6Q2d5WnI5c1h4YXA5eUxIOFZsMk5kLUg2a2draVlBcFlyYVpGMEQtYzVzRUwyVjVyUzJWZU1fcjFac0xKYzBCeVVIRFQxekdjUE4zV2tLNVJ0ZEg5QVp4TENSQmxSUGlGMGZfQmRwd1dXVHhxMUxoTmNKOVg4UXd0bzBCbDVlcGVwRDEyaDJWSTVBd09ZbjliNUh0TTlqWDJESV9IZ0taUXdQQXNKLTJUY0N4eEpxN29xekpld2tBdE5laFdzdGhaSlVmcUdwdUo0VXh0dlBvVVkxc2Nicy1vLW5VejJ3NDRPQ0JR0gGeAkFVX3lxTE9aSEZtSEZBSmc1a3pZZkNpWEFHX2Q4RjNWY2lJdm5RRWxnOUZSNjlPRGNhRGRKSHh3d19qd3ZzRjZkVHR1Q1c0cHNnMDNxVWVsX0tVV3NIU3JzbzZ3VnJQXzl6dks1aFJGTl80N1IxWGJ5MU9lc1hxVm43NnlaNE1TZ1BPcHE2Vzd1Z1NCNjVYYzNDaXJUdVFkdXpwR1p6WlZ1dElrQko4dFR1ZDNvcWdtRDRjbnRKcEhqY2lEeF9kSGVyWFRiU1k3VXIwNUxTendwdkFIRzJKODFlVzh0YUQwdlhKQl9TNkhEZ0ZIV0FqT092QWZnR1RwRnRiM0FoY2Z3Z2ZMSU9BUzZLcmpzM2FzMXVRMWlzdEdTZk5QUHc?oc=5"
+      }
+    ]
+  }
 }

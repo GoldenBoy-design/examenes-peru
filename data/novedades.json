@@ -1,39 +1,53 @@
 {
-  "generado": "2026-10-01T18:58:17.683683",
+  "generado": "2026-10-02T18:23:24.824135",
   "universidades": {
-    "UNE": {
+    "UNMSM": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-06-28",
+        "2026-07-12",
         "2026-08-10",
-        "2026-08-29"
+        "2026-09-19",
+        "2027-10-17"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Presidenta Keiko Fujimori participó en reunión de alto nivel del Escudo de las Américas - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-23T01:35:00",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX0Q1cXZINEpaWXNTQ1ZvLVNLcU41WDJhd0ZMUTRLbko0cXoxZm1YWnVPSF9LamxIS1N5UlRSU0dxajZrRVQtRUFfWVFlOGxZWnVTU2JoVVBWZ3BNbE9BRHNvRnd0R1lkWk95ZWFLZ09oMkVVU1NMQTV0RkVseS1UeVhyMmpLeV9hZ1QtaVpNcF9SQUIxYXJha1poRS1memtwcXRfU044QmMyazlZZE9kU1lpQ0hpTGxCNncya0kwR0NFLWZfN0J6VzJRUEo2d2k0MmVPWHpCVE0weEE?oc=5"
+          "titulo": "Examen de admisión San Marcos 2027-I: postulantes podrán inscribirse hasta el 9 de octubre para competir por una de las 2.581 vacantes - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-10-01T23:24:00",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPMU4zdHNzemotUVpzeGRMYWh4aUNOeEZ6Q2d5WnI5c1h4YXA5eUxIOFZsMk5kLUg2a2draVlBcFlyYVpGMEQtYzVzRUwyVjVyUzJWZU1fcjFac0xKYzBCeVVIRFQxekdjUE4zV2tLNVJ0ZEg5QVp4TENSQmxSUGlGMGZfQmRwd1dXVHhxMUxoTmNKOVg4UXd0bzBCbDVlcGVwRDEyaDJWSTVBd09ZbjliNUh0TTlqWDJESV9IZ0taUXdQQXNKLTJUY0N4eEpxN29xekpld2tBdE5laFdzdGhaSlVmcUdwdUo0VXh0dlBvVVkxc2Nicy1vLW5VejJ3NDRPQ0JR0gGeAkFVX3lxTE9aSEZtSEZBSmc1a3pZZkNpWEFHX2Q4RjNWY2lJdm5RRWxnOUZSNjlPRGNhRGRKSHh3d19qd3ZzRjZkVHR1Q1c0cHNnMDNxVWVsX0tVV3NIU3JzbzZ3VnJQXzl6dks1aFJGTl80N1IxWGJ5MU9lc1hxVm43NnlaNE1TZ1BPcHE2Vzd1Z1NCNjVYYzNDaXJUdVFkdXpwR1p6WlZ1dElrQko4dFR1ZDNvcWdtRDRjbnRKcEhqY2lEeF9kSGVyWFRiU1k3VXIwNUxTendwdkFIRzJKODFlVzh0YUQwdlhKQl9TNkhEZ0ZIV0FqT092QWZnR1RwRnRiM0FoY2Z3Z2ZMSU9BUzZLcmpzM2FzMXVRMWlzdEdTZk5QUHc?oc=5"
+        },
+        {
+          "titulo": "Examen de admisión UNMSM 2027: Postulantes tienen hasta el 9 de octubre para inscribirse - El Peruano",
+          "fuente": "El Peruano",
+          "fecha_publicacion": "2026-10-02T02:55:00",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2dpOFUxZnpEb3pFb0FYQTVGUi01dHhqVUdvLXprUWQ3ZjRqZkFINzhuWldSal9GLUFxcEd0M1otR0hBcS1PVVFnRlhjdkxYSFQwSndwTGR3RTh3OVR1d3drU1BJRE15b2pzVTc1N0otTkdFdC1SQWN3cU5DUXVaVExJeXlXbF9vaHkxWndtYTk4elRpTEhUWmNxeS10eHJwWU1zcTk1UFNoZlRmVHEteTJnQWZpUWJ3ZzR0UTN2VHU?oc=5"
         }
       ]
     },
-    "PUCP": {
+    "UNI": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-08-16"
+        "2026-02-16",
+        "2026-02-18",
+        "2026-02-20",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-08",
+        "2026-08-10",
+        "2026-08-12",
+        "2026-08-14",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Elecciones Regionales y Municipales 2026 - JNE Voto Informado",
-          "fuente": "JNE Voto Informado",
-          "fecha_publicacion": "2026-10-01T05:01:41",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOHRkMUtaOTgwTUpZcElzYlMtOHFodHVKczhUM09JMnpVN3NXMlY2aXA2QWpidHNBQ2tHOE5lT2hadGxOeWZxYWpzZERzQm1SbnpPVFhNSFJjQzhOT3k3NlIyOWlrb2ZibUc5aHBiWmhNeFZqOUZsci01R29ad3g2X3QzcG5zNmM2VzhxcHN4SQ?oc=5"
-        },
-        {
-          "titulo": "REQUERIMIENTOS TÉCNICOS MÍNIMOS SUMINISTRO DEL PRODUCTO FARMACÉUTICO - insnsb",
-          "fuente": "insnsb",
-          "fecha_publicacion": "2026-08-20T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdHZaWWpaVEo2M09Cb3haT0JwTld0LVU1a1QxdjhZa0lBU3dvWGJVTlJwOEVWdkZPNXBNQ3JIQm9jTW1BTWNaazlmX0lwbHktOGE0Q0lzbld2RnR1cVdUN0N0YTNrQU1nLUo4M1JuTXN0czBISFMycDhpV3pRcUhYNjdMbnpPc0pfV2hOaThJZ25ybXppTFlfaWxfZnF5VGd5Zmp3SnlNV2dINmlPTWc1MFV3VWFQdmlaU0pTeHV2UmtWV2xJNzk3VDdZekhSc203Qi1TVEc5NmFMTDBiSTBzUVln?oc=5"
+          "titulo": "Examen de admisión San Marcos 2027-I: postulantes podrán inscribirse hasta el 9 de octubre para competir por una de las 2.581 vacantes - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-10-01T23:24:00",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPMU4zdHNzemotUVpzeGRMYWh4aUNOeEZ6Q2d5WnI5c1h4YXA5eUxIOFZsMk5kLUg2a2draVlBcFlyYVpGMEQtYzVzRUwyVjVyUzJWZU1fcjFac0xKYzBCeVVIRFQxekdjUE4zV2tLNVJ0ZEg5QVp4TENSQmxSUGlGMGZfQmRwd1dXVHhxMUxoTmNKOVg4UXd0bzBCbDVlcGVwRDEyaDJWSTVBd09ZbjliNUh0TTlqWDJESV9IZ0taUXdQQXNKLTJUY0N4eEpxN29xekpld2tBdE5laFdzdGhaSlVmcUdwdUo0VXh0dlBvVVkxc2Nicy1vLW5VejJ3NDRPQ0JR0gGeAkFVX3lxTE9aSEZtSEZBSmc1a3pZZkNpWEFHX2Q4RjNWY2lJdm5RRWxnOUZSNjlPRGNhRGRKSHh3d19qd3ZzRjZkVHR1Q1c0cHNnMDNxVWVsX0tVV3NIU3JzbzZ3VnJQXzl6dks1aFJGTl80N1IxWGJ5MU9lc1hxVm43NnlaNE1TZ1BPcHE2Vzd1Z1NCNjVYYzNDaXJUdVFkdXpwR1p6WlZ1dElrQko4dFR1ZDNvcWdtRDRjbnRKcEhqY2lEeF9kSGVyWFRiU1k3VXIwNUxTendwdkFIRzJKODFlVzh0YUQwdlhKQl9TNkhEZ0ZIV0FqT092QWZnR1RwRnRiM0FoY2Z3Z2ZMSU9BUzZLcmpzM2FzMXVRMWlzdEdTZk5QUHc?oc=5"
         }
       ]
     },
@@ -53,26 +67,16 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "BCRP lanza nueva moneda de plata de S/ 1 por los 200 años del Ministerio de Justicia - Chimbote en Línea",
+          "titulo": "Sunedu sanciona a Universidad Tecnológica de los Andes y otorga licencia a Universidad Científica del Perú - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-25T04:16:00",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOHNwZUJZV3hBSEpIT205U2doNlhEUTZyT1F0aXd0UmVWeElFMkl3VWRhZDU4aGRQaURoZlVWZXVhdUpweGpmSjB6cHJ4Y3FpcnVMOFhCaFJsREpJejZaSU95WEYwMUxEeUlvU01GeDZwVzVZQ2ZjUl8xMW9tUTl2X1B6WFRwYThWVmsydDBNNnN4UndKcUZrcVYwLUgxRlVFV0ZaVHJZTGZIc1NNXy16UUxIek1sZktUTHFOc3ljOTY2OUdjcGZQZDhQbVhvSWVzMUt5RWFB?oc=5"
-        }
-      ]
-    },
-    "UPC": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-08",
-        "2026-12-05",
-        "2027-03-20"
-      ],
-      "noticias_encontradas": [
+          "fecha_publicacion": "2026-08-19T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWDhFYlNBT19OeVR0VUFib2VWcmhnMFhGZUhLa1F6QlF1RmIwNENJM25yX2phb3QtWGpiS2RET1Q3RG5QbjdMS3d4S2I2eXRfUWJSUkc4dEpOV25iX25PdVpqVjk2MVg3VkVxcjhjNkF3UlNGaV9XdUFFdGJwOFVxeXdVeFhDcjVNMDZDWG8zTkQ5cjZIQ09tSU5JdmluVDRUUHltTVFxX3BxRWdjOWJiQXZYRUh4MzZDVzZUVjV5SVdTZm54MUF5MVNSSXd6azl1a3dtbENDQlF5eXNvTmVXVVVoeTVwMlM0Qm1HX19EV1RuYlRrb3c?oc=5"
+        },
         {
-          "titulo": "UPC lanza la Beca Laureate Transforma para jóvenes con excelencia académica - Noticias UPC",
-          "fuente": "Noticias UPC",
-          "fecha_publicacion": "2026-09-17T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMDlZSlFSb0ZMVXJiem0yQXdOSG5MNTBPejh2dGZyT0JFeFhDanZpaHFyYmViZXFMTy0yYXNRd1Y1QUs1M0NEeDNjUUc1U3AwMkVRRXZxcU1rRWlkbjZ3UkpaRms0bEFlSlRQVzJBM0FPME1yYnVsVDBHeFZUMXZydVo1OG1qTzRaTXBvSkhUaVNSX3p3dlVzeThva0xkbUU3UzJWX0s4OVBrTW1kRHFUNUFvZHZ0UQ?oc=5"
+          "titulo": "Expertos analizan calidad agraria en el II Congreso Peruano de Semillas que se realiza en Chiclayo - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-20T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbTZNd0dwdndRdG5NSUIwRjVvTzM2MlBiRV9NZnVzY3dTN0J0SkU1MTZfYzZ1cTRzdjg5UHAxMjZycW5LbnJMdVl6R2ZYX0FOSWFWUDUwWGt4c3cwNUwzWF9aNkJrek5LVER1RkVMbVBDMmFQQ1BHZ09PQmJCbmJLOVlCc2Z4NDZVTUZucW1STjVvUXpzd2hDc09jaFlCVVQ2dXBNRE1yYWZmdFlzOU9iR3pHLW9MY2tzTU5fYzVqc09WWXlYTXZZNFlVWVd2NFJSSGJDXzRjck5ScUlQMlZaLUluWVlaY2l6al8yOXJn?oc=5"
         }
       ]
     },
@@ -83,10 +87,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "BUAP abre nueva oportunidad de ingreso con corrimiento y lugares disponibles para Admisión 2026 - Reto Diario",
-          "fuente": "Reto Diario",
-          "fecha_publicacion": "2026-08-12T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeV9zbXFtRC0tOGZBWWRPZHhadEhTRU9LdkNMTlJDRWdQVGZsdEZWeHByUkVxdDNJd19YRElvSnJyMkhmcFk1aHhScFJEUE5EYmlmdzFabjdwOHFrVDhIQTlqYk5kdGpYWG5BVkEzNWJjZ2lmd09jelNxeENjWXhTXzNsQjZIZFh3bDRLQVBZa0pRV3U2djFfc1gxdENtd1lwSTBfRnNtWUFNMThkMEF4b2VvNHRnN2tLWV9YSTJCTnYyNEFlM1h6c1ZuZGFKSkpQYm94WFBCVQ?oc=5"
+          "titulo": "Examen de admisión San Marcos 2027-I: postulantes podrán inscribirse hasta el 9 de octubre para competir por una de las 2.581 vacantes - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-10-01T23:24:00",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPMU4zdHNzemotUVpzeGRMYWh4aUNOeEZ6Q2d5WnI5c1h4YXA5eUxIOFZsMk5kLUg2a2draVlBcFlyYVpGMEQtYzVzRUwyVjVyUzJWZU1fcjFac0xKYzBCeVVIRFQxekdjUE4zV2tLNVJ0ZEg5QVp4TENSQmxSUGlGMGZfQmRwd1dXVHhxMUxoTmNKOVg4UXd0bzBCbDVlcGVwRDEyaDJWSTVBd09ZbjliNUh0TTlqWDJESV9IZ0taUXdQQXNKLTJUY0N4eEpxN29xekpld2tBdE5laFdzdGhaSlVmcUdwdUo0VXh0dlBvVVkxc2Nicy1vLW5VejJ3NDRPQ0JR0gGeAkFVX3lxTE9aSEZtSEZBSmc1a3pZZkNpWEFHX2Q4RjNWY2lJdm5RRWxnOUZSNjlPRGNhRGRKSHh3d19qd3ZzRjZkVHR1Q1c0cHNnMDNxVWVsX0tVV3NIU3JzbzZ3VnJQXzl6dks1aFJGTl80N1IxWGJ5MU9lc1hxVm43NnlaNE1TZ1BPcHE2Vzd1Z1NCNjVYYzNDaXJUdVFkdXpwR1p6WlZ1dElrQko4dFR1ZDNvcWdtRDRjbnRKcEhqY2lEeF9kSGVyWFRiU1k3VXIwNUxTendwdkFIRzJKODFlVzh0YUQwdlhKQl9TNkhEZ0ZIV0FqT092QWZnR1RwRnRiM0FoY2Z3Z2ZMSU9BUzZLcmpzM2FzMXVRMWlzdEdTZk5QUHc?oc=5"
         }
       ]
     }
