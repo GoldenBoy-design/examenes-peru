@@ -1,6 +1,35 @@
 {
-  "generado": "2026-10-03T17:13:15.014492",
+  "generado": "2026-10-04T17:29:42.946088",
   "universidades": {
+    "UNMSM": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12",
+        "2026-08-10",
+        "2026-09-19",
+        "2027-10-17"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "ERM 2026 en San Marcos: puerta principal permaneció cerrada para votar hasta que apareció la prensa - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-10-04T14:17:11",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMFAtWHdIN2ZpQWZ4TWVXSXRvQzRMajh4RDllUE1ETUdhNW5JcGxIY0l3R0tnT2NBRnZXQUJqUTBoZ05YRWFtY3J6NzVralJfTTlMZ3hYT0NvNVhSYTlyZUdxSkdoNDBhbC1kTGdIRmRuYWtieWlnMnpBbGlxd3hTblZTNGVqVld5b2t2a3JFVTZTZHNiVXJNcF9zZnRkVG1tZm9pTFo1RjRqWkcxUWlwclBuRnhkaHFZMUc1ckpkOGZIMDNJckV4SzVXWVFOZlVZRFMwS3FOekJWUkttb1VKY0xB0gHnAUFVX3lxTE9DUGdXUjZHWng4MC1NY2pyQUp0bGlETGVycml3TnRsMGtJanZEVDdGcGp3SnNKLWVmWU10eGhzMndDa2xwc0VrU05uMlV6QXBVQkNVR01WdzVLY0U5dWNKMkNpcEVoby14d2V2blZzM21OSlZEZkRXMEIyZmc1VnJyczBHS3NZUGRrLXZoQVBtWnluVGx6Wk5YaEg4RXNkdFFMSzRvOWxlODlRbHp5NzFPZFlkNzFKei1IRkpVRFhGNHdFUHdYVkJYbkFaeEo2aUU4Sm1fWFc5X3VraEF3bW9ZSjVVUmZmWQ?oc=5"
+        },
+        {
+          "titulo": "Elecciones 2026: así fue la apertura de mesas de sufragio en la Universidad San Marcos, uno de los principales locales de votación de Lima - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-10-04T13:18:22",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOb2EtTU1RcEhIOWpfNjV6Z2o1YjJqYzNvOFpvU0MyVkhiTnhpajlxeV9pVVpvSGtZWXdTSWM5eG9PODNzSWducW55dVZQeHU2RmhVWGRpc2J4dllIRUZnblpIYnRQLTRacVJpVWcxVFNULTZsWkRRV1pkQWlLX1M5WmJVeW9QVWpkUThnRjU3WEJoVDZaMnE0bXJITHFtMUs1Q0JLdlhpcGpJaEd2UU1BU2x2M0hFRlBFNHRkZDF6b2VDcmVEUW92c3lzeGRMTUpBTTV4N1pUNjdKUFhMT3RqMkFBQkVDTkJEUXo0OENJdF9CSXRrWGI4YTdQS0FnQmxKY1UyNFdmdjLSAaMCQVVfeXFMTWY3VEVMV01DT29mQzlZWF9ialBCWnpZWUg4c1AwME5HcjA0UEtLeUF3bkEwZnVHbHBDdkJkZlE4ZHlGTlVSVlRGb0VZOExmdjgwdm9JNl85ZGFUWVJxclVjR1BFZDBZWGRSSUlsc3J6R2I4SnJsWTMwT0c0SXpWV1RDbHZjaHFWcnJTYldMVXdiTnhKbmcySmU4bnY5YXczZzBqVEVwb3NOTXl1UkJ3UjRlLUJvdVlHb0pzN2VQY0x0LTFMbXkza25DdzVPTU9Xa05obGo4b2ZEb1U3Q0ZZd1dTakgyeV85WXV6TzZBQ1hGRmM4ZkJaUUNxOHVpUXpuUzN6RHpCZ082cXJrOWdGMW9NbnlqUC04RzhRMS1jWVhQSUxV?oc=5"
+        },
+        {
+          "titulo": "San Marcos: Consejo Universitario aprueba la creación de la primera escuela pública de cine y audiovisual en Perú - La República",
+          "fuente": "La República",
+          "fecha_publicacion": "2026-10-03T22:53:29",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdlQwV09fTERwdjFteVliWHZLZklYbDZOcjlNQ0o5dzVZNXBmUEV1bTZWWEVvT1ZuOFdxNWtPc05rSE81NGJzZDU5UFBLb2xXclgzdTQyYkxhM0Jzd0xER25fQXBKVEduV3JxM3dwOW5NLUVhaHk4RUZ6MWZNcGVXRFdkcjloSF85VjlPekxBZEE0ZkNVVWx2ZGV2T0xsZk1OWTZDcENXWHhVa1RKXzRpOHJ1ZjdKWHd5VHI0Qmpqd2xsOFo1OUVBOE0zbHB4VDVrcS1xLXpLZHpzdm1oTUNDdzRvbi1xcXVwOE9lSERKNHhieEJk0gH6AUFVX3lxTE1lMDRQR0h0WEJjT0RMZjZ0eGF1U0RrX09mWjFTV0pyYlllNVZNUEtZd0hGRzNRSGlSc0FHWG9ZNi1GTWJUamVaQk1ub0pDSWVKZGMtWlVLRXl6Y1piS0FqT0prcktBRmg5Z3VMbXFrM2x1OWJrcjdrbWN5SnhzX3ZxTlQ0Y1U4WFI2NUg5Um1rREdGejNmby1xemNlREJXSWQtVVctVXZScldTVHpNeXoxdVpGU1k5NEtQR01JVnVrQnBCbXY5dXJqWjh1QjhUSEYtN3p2eUtHVXN6WEFhVk91dzBZSzNmSmpKTlU3dTV0VFAzS1VYZGlOVHc?oc=5"
+        }
+      ]
+    },
     "UCV": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -17,16 +46,28 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "“Imágenes de la Tierra”: 116 obras que guardan la memoria rural del Perú ingresan al Registro Peruano de Memoria del Mundo - Chimbote en Línea",
+          "titulo": "Alerta de calor extremo se prolonga hasta el lunes 10 de agosto en costa y sierra de Perú - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-16T19:43:00",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMzNlT1RWOG1oMm1nUF9UU0l0LTUyaUFqb0pNd0V4Ym9NV2k5LTB5dHNRWUxkSUNxVVFQVTFxbzE2NzJHLUFzb2NsRmNxT19rMmJJUnF4U3NjQU90X3RzVXV4eUM0ZU44bGswNE9LVFJ2MkY2Y1pnM1JvWk9ITFBzeUZtLUdPb2FDcnUzMUtGN09kSzAwREV5MklmUUVFYnBwYkZtQW81cUJieU1Ua2hVR1NsTUNKQVlyLTdBN19QdEllck5KWVh0d1N6MThmVmNuYUVLRVFtYjgxWTFWMjFNU1V2QUI2R3BFNTcyTUZ1bU9fUUxudWlHTDVfcTRTc2tfQ2xpWGV5Sks?oc=5"
+          "fecha_publicacion": "2026-08-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTXhvNDVzZHkxaVVycjdSaFJKWjRwRGQ5a2NicTVzd3Nsa1hTcmEtZjhHYzZMMThHZEdOblViRlVPMW9OUy1ud25IaDJSOGNId3habnctMDhka3JQRC1pMWttbU5taVVRWVNDcmRHWm1lSXhWLUlWelhETktZQ29uSnpieUF1d2JXOFl4MmZ4VGpFejBlb1NVaXRwVGY2eGxVTkJ5TmNUTlFINmxQUmxqalRIYTMzZ0FaUnpubGRlejE4TzRsWllZaUdQNXZmTHdJRjJSd2NxWmpKQnpzMkx0Smd2UlJaczU2VmYzU0N5YTdhaktQU0E?oc=5"
         },
         {
-          "titulo": "ONPE capacita a personeros de organizaciones políticas de manera presencial y virtual - Chimbote en Línea",
+          "titulo": "Presidenta Keiko Fujimori arribó a Nueva York para participar en Asamblea General de la ONU - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-25T23:55:00",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcEF1d1M3aHB5allBNF9fVkN0cWVYZ2RlY3ZCX0NqUi10UjFfODRIbzQzaXlldVhWbEU2aFVNelAzNW9tY09QYnUxM3EwdldrNmMxdDNuV1BweTFCZlhuZV9PekN1X3g2UVBKTW9weEJZZXdkeG5hU09nNXJNN3M0WEl4Q0x5c2V1aHFyYklJLUJJMmpNZjNyQkN1aHhqVExZdlFkRWx5WjRlZzd0WENnR2d1VWFqeE5DUXdRWmtDVGF4c0lSN0xKV1JQYjBVMHlrb1Q5VW92R1Z6T1BHeDNnWjJR?oc=5"
+          "fecha_publicacion": "2026-09-21T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNV0VxTUZTQVp5SE1kNDI1UHlGWFByZkZVSDM2YUN6QUtYWndtOHN3enhZb3RWS3JJblZpdzczRDM2ZU1ZbWl6Q0l1SU9zbnRST3pXUjR3dVVKSXJ1TVdvSU1ISHg1elVzSjRBQjhXRHdwM1A2RmcwRVRZZEFVV0ltS3ZOQ25JYnRnbW55dFdqRjRHOXNyQlBrcmIzQjJtSnQtdm1JRlRZWm0zZExOcE56VE5aRHB2ZWgwbUZud0xQM0luaTRLSGpodFF1VDBFSlVFcDZ1TGhxbmJvTS1JOW1Ocg?oc=5"
+        },
+        {
+          "titulo": "¿Cuántos sismos han ocurrido hasta hoy y cuáles han causado más daños? - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-08-10T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNFJwQzdISVpoMllkSTEyV1Y2N0s5MDFXdmN6RURMTGZ6VkpPMW9KYkZzdVpMbXRzcUltNTRlSEtWNmZ6eHpvQmRqRVk2SjQwYm9vTFVsd2U1MVZxblViR281RDJjVGRPNDVCeDJQUkNtdXhpT0FrblNXbndsM0lNbng4R21iT3YzV2NvUWh3amJhNDZhYkRkWDNTUGN6WFVWeWRTcjZZcDA1N01GQ1d2Q0xYM2lTM0JfZXJCZE9jV193dnItejBFQklMNW8xaGlCeklSUTQ0dDdXZw?oc=5"
+        },
+        {
+          "titulo": "Elecciones Regionales y Municipales 2026 - JNE Voto Informado",
+          "fuente": "JNE Voto Informado",
+          "fecha_publicacion": "2026-10-01T11:03:53",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVG9tLTUwMEM2cWItR1ZqeVRrY2lPMVIwaF8za3ZsMzdrWXZ5d3FBaVJVMlJYNDI2RTNacHY0a2REb2NwWlhDdV9GZVNJR0tnUEstSmxES0syNzNJaENGVFRCVGlVZVVGV2NvcVBFWms1bDU5WGk5WnBwN3VXbEZPWlZKLS1vTmlhWm5OSHJhbw?oc=5"
         }
       ]
     },
@@ -37,10 +78,16 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Candidatos a la alcaldía de Miraflores en las Elecciones 2026: conoce a los postulantes y sus partidos - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-19T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYnM4SVdZRFhNYmhJYjZTbFZYYWJPTDlMZHcxYlJWVHRwcFFBb0swQjQtSEtscXZaNG1TanpwaENzc012ZmxQTkRlZVRNNlBDbEtiWkZmMmpJTXY0RnB1eWVqT2RKTjRGSl85VVEyVFhUMjMyS3FjS1NYUU9xVWowOEZWWjZlNmxVMVQ2bEd2Zmt6MnlUdnQ5MDl1VlRpMVo2VmZ6UjdBUTZZTEFzZFhCN2tTb29ocmxQbTl5RnpjUG80ZC02bF9LQUJlUEgtSmtDaDM1LUxEeFJQQdIB9AFBVV95cUxOVU5mamdWeE53SWF3Zmg1U2FsTHNvUzNRaGdOUUEtaEJPWmVzVGFjWWxCYlZqekhMb1JobDctLUlLQkYxYmwyZGYzUXVzVm9va3RPNlZVMWJaSkRNQzhUOVpkNWJ1ZlZyVS14a1pIR0FrNlhITmk3dXZOS28tcDNxMVY3U2lMaDJwMC1JZXhBRzZFa2ZEV1ljTjNweGNvbE1ONXFja1c1U3VsakFLN202MlpxOFhoclFVZU5kdWtlN0NwWVM2RVhVUElmNWRHODlyT2kyVURXUDQ5allBamhNWlNHRmlwaGR6NHgzZDdvdmNuQ2xp?oc=5"
+          "titulo": "ERM 2026: se reportan demoras en la instalación de mesas en la Universidad Ricardo Palma | VIDEO - latinanoticias.pe",
+          "fuente": "latinanoticias.pe",
+          "fecha_publicacion": "2026-10-04T12:52:11",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTXlSWmFLNFAyaVlzSW1NQ3RhQUhQWExQdm9FTTZhRmhoZnZiRFBHOE40MmQ5czFiUG5pQUNJTU04TFhuZkVpSjhXLU1RMHNvQXdQS0FtZHlyZ3ZkS0xxT3BWRnJTdFFjRlhTazE5bGs2Q1VLV0d2aFlZRFhWRGlLcFk1YllnbE5sM1B6aWt6Q1NqVU5ycnEza21SSXVsVUkwOUQ0TUxGQWhBcGRxMkxneEx1bFhkRVJPbjVDb1lDRWQ4WUpUaTIwVjJRUE9wV0xKNlJmMkp5RlVkV0JMaGFDSWEycFU?oc=5"
+        },
+        {
+          "titulo": "Universidad Ricardo Palma recibe a cientos de... - Panamericana TV",
+          "fuente": "Panamericana TV",
+          "fecha_publicacion": "2026-10-04T11:57:52",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXNHQUNUaTlyTzhTdGNETTZHRndkMnpfZ0JnWDhxVGo3d19OU1pwbHJmSXRmUjFpbGxqMUJVY1RmWmxZdk9KSlA2bzlfSUFDWVE3SHRXWGpfQWdmTS1xbGRlU0xvSUpuSlVBNWV0TkN0d0RzQmxtc2tFVzRGZkx2cUFiRnU3bXdZS1RSYWlwUnpxYXhQRVU5cjNTVDc5UjQ5YUc0bG8wSkpFZHPSAbABQVVfeXFMUG1QMldBY1h5X05vUjAtLW01YUxES3hTR3FaRXNNM1FUWVlEbHRiWmtvM1FSVTB0TURxRjE4TDNxbkY2SWg4MW5tQWI1VmdBR09TaGUxeXFmcU1PdjVQNmVpMWJxMVlBaG9IS2xqV3pGcnRDYVptZmZVZ2F2cFZ1WEFTQjZENURJcjQ5NVBQSmVKR1RCMFZJSmtwMXZhYXVodGVwN05LelQyZ0x0cURXS1g?oc=5"
         }
       ]
     },
@@ -49,10 +96,16 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "“Imágenes de la Tierra”: 116 obras que guardan la memoria rural del Perú ingresan al Registro Peruano de Memoria del Mundo - Chimbote en Línea",
+          "titulo": "'Esto es guerra' deja EN SHOCK al 'ANUNCIAR' el ingreso de Mario Irivarren: Onelia Molina y Kevin Díaz tienen IMPENSADA reacción - El Popular",
+          "fuente": "El Popular",
+          "fecha_publicacion": "2026-10-03T19:15:06",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQSjRpMVNBQ2NmQjBaMkphc0FmZFNCdmdzWUxwMDFpS1E0dVc2c2M3YmhGb01VNzF6dUFOV0hyNkxFVDV2cnJuZG80VzFSdlBybXhKaERncDhtSy11aGN6Wm5QSGc1Tk1lZk16cmVZRjllRy1sSjFTcnpGTnhPZXdYTllrbEp3cjZ5V3l5Ui1CUWl5aEtBWVg2NXRGdmtmaGx4UmFLT1phdmY0MWtBdUNYMnhOT1M3dnZ4UFpocnpyenk2ZWlXaHB1a3E1SldPWFY1dTViME9sUnpiOWJyRDZBTzFRd1VZSmdHaDFSc0dJVzdyVzNRYVEydTFESDYzZ0RZeVdoeVBn0gGLAkFVX3lxTE1CcnBTTFZrc0M0bVRiMzA1TUFBa1pUR3V5dWpONlRtV1ZhaWxTQWU5VnpTcTBzXzhaRGFqSTZYbERaSGNKdmoyRF9waDJ2dll6OVplNlAxREI5TmdzZjVKUGIweUYwRDhmYkdSQ0cxUzhsYy1wMmdYaEI2V0dXbHJkb01CZjhTMTYwVndXQUlIbU5pa2IyNG85ZldQZVBheGlFanJ5cUt0NWltbkdVVkRYZjN3X1BLVlo4TFJQNzBtdlozVFIzN2RLTnFaVGhEMGJ5ZGJONGQxak5JOFVGOEhVR2tOOHU5TFE5dmE0Rm9IYU1jRk0teXF6WjY1REROOXNXbjZhNUpHTnM4QQ?oc=5"
+        },
+        {
+          "titulo": "Alerta de calor extremo se prolonga hasta el lunes 10 de agosto en costa y sierra de Perú - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-16T19:43:00",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMzNlT1RWOG1oMm1nUF9UU0l0LTUyaUFqb0pNd0V4Ym9NV2k5LTB5dHNRWUxkSUNxVVFQVTFxbzE2NzJHLUFzb2NsRmNxT19rMmJJUnF4U3NjQU90X3RzVXV4eUM0ZU44bGswNE9LVFJ2MkY2Y1pnM1JvWk9ITFBzeUZtLUdPb2FDcnUzMUtGN09kSzAwREV5MklmUUVFYnBwYkZtQW81cUJieU1Ua2hVR1NsTUNKQVlyLTdBN19QdEllck5KWVh0d1N6MThmVmNuYUVLRVFtYjgxWTFWMjFNU1V2QUI2R3BFNTcyTUZ1bU9fUUxudWlHTDVfcTRTc2tfQ2xpWGV5Sks?oc=5"
+          "fecha_publicacion": "2026-08-07T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTXhvNDVzZHkxaVVycjdSaFJKWjRwRGQ5a2NicTVzd3Nsa1hTcmEtZjhHYzZMMThHZEdOblViRlVPMW9OUy1ud25IaDJSOGNId3habnctMDhka3JQRC1pMWttbU5taVVRWVNDcmRHWm1lSXhWLUlWelhETktZQ29uSnpieUF1d2JXOFl4MmZ4VGpFejBlb1NVaXRwVGY2eGxVTkJ5TmNUTlFINmxQUmxqalRIYTMzZ0FaUnpubGRlejE4TzRsWllZaUdQNXZmTHdJRjJSd2NxWmpKQnpzMkx0Smd2UlJaczU2VmYzU0N5YTdhaktQU0E?oc=5"
         }
       ]
     }
