@@ -1,4 +1,25 @@
 {
-  "generado": "2026-10-04T17:29:42.946088",
-  "universidades": {}
+  "generado": "2026-10-05T21:18:39.086771",
+  "universidades": {
+    "UNMSM": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": null,
+        "inscripcion_inicio": null,
+        "inscripcion_fin": "2026-10-09",
+        "resumen": "Se fijó el 9 de octubre como fecha límite de inscripción",
+        "fuente_titulo": "Postulantes tienen hasta el 9 de octubre para inscribirse al Examen de Admisión UNMSM 2027-I - Universidad Nacional Mayor de San Marcos (UNMSM)",
+        "fuente_link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYktQS01LSmw4N09tT2RsLWtiVGtqZ1gtaXJ5X1NtWEt1ZzdhUlhZbTZwVUhpc0lpcTlyR1hlOEViNlJDTUtIbjhzc3N5Vm02ZFRTdWpobDMtUTJ3NkFQWmozNTRVOFd3TmFPLXM2UVFjSGF4SXg1RzRCeTVtdFExaUh6QmhwU1dpMkNYOTJBYWlzRjFCZlNkX0NWR0NQcldxa1dJampRMUY2SHg0S2I2U2ZMVkpRVEg0VGM4dDdTdXhZcjVRVW9OSm5DM1BXUEhlcmh2WVVvdGRJbTlGZWRzYk40bm01XzFNU0dITExtcDlBTmc?oc=5"
+      },
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2027-03-14",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se anunciaron los días 14 y 15 de marzo para el examen",
+        "fuente_titulo": "Admisión San Marcos 2026-II: buses trasladarán a postulantes este 14 y 15 de marzo - Agencia Andina",
+        "fuente_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQmZLVXBTWHpYcHFYZ1d4MEhtRTFTTzcwS05EX1NNMEZkcXI3MEtpY0xHaXY1eUNBQy1fcmhBeEsxZ3ZVTno4S2diT1NGQ0x3X1ZkWVFtQTBfRFcxZU5xdS1sSE16M0oxZFRXNzR0TnBpR280dWEzUXJKdVkzZGhhVk1DZ1RmWDlndEtKTWYtSnJuWXNZdjBaNU02UHpIRlBWMU1KRzl2TERJVWk4c2NWeFBEcGJPaTlhVUdiVnZDTWt0QQ?oc=5"
+      }
+    ]
+  }
 }
