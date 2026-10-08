@@ -1,16 +1,4 @@
 {
-  "generado": "2026-10-07T19:23:32.423090",
-  "universidades": {
-    "UNMSM": [
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": null,
-        "inscripcion_inicio": null,
-        "inscripcion_fin": "2026-10-09",
-        "resumen": "Se estableció la fecha límite de inscripción hasta el 9 de octubre",
-        "fuente_titulo": "EXAMEN de ADMISIÓN San Marcos: postulantes pueden inscribirse hasta el 9 de octubre - Perú 21",
-        "fuente_link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb0NzRHNpVmFzMzNWQktEWTZ2M2xGdWtRemt4VUtZS3h0RnRnRUFJbi1Lakk2Vkg1ZGNQMHJSVXZxVW9xRTNyaXh1WjVSRG91dFk1ZV9UajlkTXp2akhDWWFGQTNIakdEbS02aFpGYmhrbElUZ185RWZEd1R6bG1EOTdVNms1V2dwcFVLU01mUEhmQQ?oc=5"
-      }
-    ]
-  }
+  "generado": "2026-10-08T19:18:18.107234",
+  "universidades": {}
 }
