@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-08T19:18:18.107234",
+  "generado": "2026-10-09T18:49:50.868759",
   "universidades": {
     "UNMSM": {
       "estado_actual_json": "abierto",
@@ -12,30 +12,26 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Admisión 2027-I: Medicina, Derecho y Psicología lideraron las carreras con mayor demanda en el último examen de San Marcos - Universidad Nacional Mayor de San Marcos (UNMSM)",
-          "fuente": "Universidad Nacional Mayor de San Marcos (UNMSM)",
-          "fecha_publicacion": "2026-10-07T16:26:53",
-          "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPLUtHYVVwbDNLc0hXOE1ldFVOSjFnMC1uaHBwc3prVFZWcVpRZHpkNzlsR3FlY2VrVFpuYWN3TWFSbWVWb3FtejF3SkRQRjBhVGYteml2TFluaDdCOW9yMXV1RV9TbmkzSUZDWkdsdzVJd2lqcnBkWXVYaU9FZVpaME95bERtNWd5aWlOVkdCRVM2Q2JNSjd0Qzk2WW02Z3NqcjE5bEdLNmxGM3Rkd1BUX003QnZhMks3ZXQ2OFdzRW15ZjBReFVoMVcxbWFFVmQ3REdSVVZiQUZVVUx5ZEpHTW9wNWhJdnA5RkZwajZ5MDFuSmZLaUJfTlBFdnVaU0dQOGJqOXhSLV9ka3IwYUdMNFdYUzBtbTVS?oc=5"
+          "titulo": "San Marcos amplía su oferta académica para el examen de admisión 2027-I: conoce su nueva carrera - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-10-09T14:05:35",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUVp1Z3BFSXBHX3dmTW5rX2NrTTlrNWtSeUFBYVlfbkJ6bjF3aVp5TVJRc2lFRy02bjBGckRjVzB0bEZjQnVZU1pSZUNSaHNoTWo0VW0zVlpwWC1mOXA5cGFRZ0QzT1hHeGRYMGUyZjdJRlk3dG1uSHROTHFsd3VOOE1CZm5MOGpWdHJEX2ZKTTlSYXExdXBYVWRqcTkwZUJxNmZlXzFsdVJWOUVvY3hwdm95UzF0OE5pME9BZmhxQnoybE9VNC1VbHpMeXZhbF9aWEHSAewBQVVfeXFMUFhLRFpXZnFqbFcxM0V6VmRCVW5NSTdSeU4xak5wNHdxLTd3Sml2eGZXN2RWanRVQXdkZ3V5WFhsSEJWZENFSVVvc1I5STFnMGptNTdmZ2F2RGJYS2k0TDdiazhYQmgyQ0dyZ25kbDFJQTQtdURXd1dpQmJTQXdyRXVwM2E2Uy1hM0pqM043bk9tS2xETGFUUjhaNFBlMXFNc0dEb0ZOZzBXM3FLeHFxcTJJVTB1WWNyRkx0Q1lwUGdKWUc2TDV1WjBTSGROWng4aDlJc2w1eERMVGFpQUEzc1Zhd3RRSGdYM0tGSHc?oc=5"
         }
       ]
     },
-    "PUCP": {
+    "UNE": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-08-16"
+        "2026-06-28",
+        "2026-08-10",
+        "2026-08-29"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Perú cuestiona su ingreso al Escudo de las Américas: \"David y Goliat no se relacionan igual\" - Canal 9 Bío Bío Televisión",
-          "fuente": "Canal 9 Bío Bío Televisión",
-          "fecha_publicacion": "2026-10-03T12:04:24",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTWdNbWRvMG9TWXZDZ25ZY1Q1SVpKcVRLTkdmbC1yR2NsamlvaEVqYzBWZlJBUGh4YnJObFlTMnF0bUM2ZjI5TnktLTlFcXJ2Z1dlQ1YweGR2by1tVUhCdmRHY1laSjd6QUlkcDRrRUU0V0FhQ0FGbG9fMDNVY1g4SlUxYzRGS3diMmIxTmZSTFBJcU9wOExCLWpsS0hxdERtVFhuX2RlOUNDeXZ6TE13ZFV1TGx1V3UyZVpwZ25fT0JPOTRLWmpvbmJobzZIWWtWeFBXdlMzb3VSdw?oc=5"
-        },
-        {
-          "titulo": "53 Feria del Libro PUCP: libros, cultura y novedades en el campus - PuntoEdu PUCP",
-          "fuente": "PuntoEdu PUCP",
-          "fecha_publicacion": "2026-08-21T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZE4wRU43RWJzMFBkYjNfY0htNElCdkZ2eUhiYzlLWEdQODdTZ1N5ZmxxdzlZU1pYZEVLR01HdEh5b2ZHM0pDNkNZZWNNckZpTEUwSV83OG5ENXhfODBaaUxzQXZzTS1PdUtSX3RYOHBoaC1iUGpUUWRjZEpLUFBtUHVGRlc5cFdWMVkxTnVVYWtSZUpjczVqaW9Oc1JPZDIyZnpKalNqZnVvTWczTHZzT193?oc=5"
+          "titulo": "BTS en Perú: ¿por qué los fans usan el color morado y qué significa ‘Borahae’? - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-10-03T20:24:00",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSjNJVlVoMFljTGpkQzBFWDJGOVJRMm14bTJDTHR1VjdPMnU0YnQ3c0xnZnhYMm1iS2ZqNy1fTHcyZTFGZDh1NXVpVVR5Q3BoVXZjOUZnVzdiYzFkam8yTnNMMF95bFM4OC1rY1RsdUxoQ0EyZWoxLXhTT2MzQTNpekJGZHBTTl80NEJkcl9RcUVQLVpTNVp4bkZiSGxSMUxYNFNTTzE2X2E1MUVnSUhvTUxIUm3SAc8BQVVfeXFMT1lBRnVoLVE1ckpYVW5xWnF4cEthZzFmV0ZDZEh1S2FROTNTSFlvc2xtNWN2Z2gxUlNkVGJHUGgtaGRDU0pnbVMxc1VhQk85ZFRpYmQzcmpNYWlBQmg4RnB0aUVjOVhVTFI0QXNxdWJsdWltVU9zR1QtNnpWYzQyREV5V0hXYmJlemxsWm1IbEc2MzBDems3TFJybW5ETTNYZlpGMmhjWk9jbFp6bk9YRDN1QWFVQUYzdTBNdERyeVB2bzR3dE5valB4dnkxb0FN?oc=5"
         }
       ]
     },
@@ -55,36 +51,16 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Minsa declara alerta amarilla nacional ante El Niño y por visita del papa León XIV al Perú - Chimbote en Línea",
+          "titulo": "Compradores brasileños interesados en oferta de alimentos peruanos - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-10-08T02:25:00",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTUFha2hnVHdoN3VWdUFSMlh5amlOWUxud0lCeTlfRnNydTNUaS0wWjdkbVY4M3pLWkZXQWNWSVVTcTRMeEh5TW85anpHRnNtOEtrRUU5eER4Q2w0Nk1mdnMzWEVuVHRrZnhyZmhGMVA5NC1nU1BkbDhhYlFEMzYtb1pYLW1RYUJibTIwbE1BSnNManhEdDl5N2lyaGV0T3BwbHhuMDZBT0xjODdISVlKTE9ZTmhEeEd5YTIzc24wVFE1TF9yMkRQVzR4ZlZSekZKaXVzS2dDb1VqVEdRQmtsalBXd2VCcjZuVlZB?oc=5"
+          "fecha_publicacion": "2026-08-31T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRm9NVWZhUTRpS0RXVF9OR2VFc2c2Vmhac3VVNkRGbzk4RUpGcGk3cFdWUlpjSlRNLUtIeUFsZzhuaERWT2VrSVpiVFpsTnVuYjRlOGdtV1lKOXptaVdSQVAzalhsZDB2T0hyNEd0VVlWczF1Z0trMjYwRVRhaXRRTTQ1Y09hMjZreWkyUWpwcDc4MFRPRl94NWRnQm9MMDFXOV9hUnhnZVh6WHpZYWNHZzR1akpKWnZyNkNqeHlmRQ?oc=5"
         },
         {
-          "titulo": "Cultura y Unesco Perú articulan acciones para proteger el patrimonio cultural ante el fenómeno El Niño - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-10-07T17:58:00",
-          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNR0w5MHFEc2pFSzZ0WXpudjdVRXRSX3RsSzF4NHJ0c3RNSnlDb1FwdFp2Q2hlNXk2R3J1ajhaeHZFUzBIUDNDT28xQi0ydTJyQ3VicDRORWQ2dWxyXzZRbjdRMUYzQnoxSFZycjdLS1RRaEEyRERNSWlsdkxfWG5nc0RvSVBjRzYwWTdxVnctVGtMQTU2eFRRWjJMWER6SFBDRXhCdGFDa2hWa2RrdXZjbEVfYnIzbE92MnB5M1dEdmtVRkg3TUpFYTloYnJrSmd6eW1WVGFORUlnTndiSWhrSFFRWXg3bEFvQ2hwcmcya3l3LVdZOUh0MC15cEVxendaaWJLRDhEcEtPRUVGY1BSWlM2cUY?oc=5"
-        }
-      ]
-    },
-    "URP": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-08-07"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "‘Batman’ y ‘Harley Quinn’ cumplieron con su deber cívico en las Elecciones Regionales y Municipales 2026 - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-10-04T22:21:00",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaTE0b2pIWEhESFB0Tm8tVG1NTV9pWUJjNFA5MnI2Qk9MSU1TQnRzckxua1hoT0lyYnBFbldiSm9yLTdNQ0t6anFuWWwteHBHNjVfODBXNGpDdHRpaEMtaTdRM3g0em9SbVE2M3BmV2dSNGFlaW1RTEh0T05jcHhpanhEZGw0NHdOMHZLMVVrY0xkWElZOFFoV3BRVU5MaXlKS2tzVVdsSW5XR21qS2sxZkdmb1c4aVdQNlRRQ2x0by1Vc296eFBuNEhHYkNfMktMeDRmcmNkbGzSAfMBQVVfeXFMTkMzRGROclJqNkpjWU5xaHJuSDh4Y3VHMHZRLVpOX2h6WEpSVkhrbVkySlBMWTNrY1BhTVFPMnhCd3JMRXo0b19kbHRqOEpxblFQdVJTSmVkUWpIVXdLcWFUbjctMFlrVGJyTXV2Rm9vbFc2ZjFWLXBwSDB0a1ItdVIzeXhRTENkd1l3LVlGSTViWUtOWTU5aDlRb2o4N2VCQzlrTzBTcTZOY05qOGdBYjEzdC1NWF9lMk1zUU9HcmhQa004N21YeVV5RVdwdGpwQ3dKQnR5ODFPYzdsRUJsN1U0VWx2bDJlZDI1SUtMRjM5MWc0?oc=5"
-        },
-        {
-          "titulo": "Flash electoral y boca de urna en Lima provincias: ¿Quién ganó el Gobierno Regional? - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-10-04T15:03:00",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV21mWlZJbDFTZVI5Ylo0N3ZQNVgySDJpSDNmdjdralpGbExJR3EwSi1yNTF5NzRnMW85cmZGdnVhVkVnQjlTRVlTX0tCQ0VvdHE5dUpQeG9sTGFBVmxJVV9sTmd5TlhrRl96dDZwSFBWZHRzSlFqc0NoWHQtOEUtZmNjbnRfTTBqV0ZPNEpWTGwzZnU4Ull3YnRmMWVTR3hma3lVQ2hCZlp2WUZVcjdmNFUzeWFtWmZVcmZWcUpTcTLSAdsBQVVfeXFMUGxmWkR6dWl5a0ZDYjNkdTVQWkRENUk5NU8tSzY1M2lDWVhMdGowUkN6dVRoaUIyMTkwWlpXNUZsd2owNkt3alROa0RxYnhDRThOUC1Bc2pmMTlFWm9kNldKQ0J6dWo5TVdEUVdRTHFHajZtdEc5ZjRDUDNuanFHTXBpajRSbHdwbjF0RC1adTFYWVRwVjFGd284d09oSlY0OUJTQUR3OTRobVBwSHY0VkZhbC1zNm9hX0sxN1VBUmJ0ZDVUWmh4NWI0MEtYZFg2UnljLXg0b0NndmJN?oc=5"
+          "titulo": "Día de la Medicina Peruana: tres funciones que convierten la ciencia en cuidado y esperanza - Universidad César Vallejo (UCV)",
+          "fuente": "Universidad César Vallejo (UCV)",
+          "fecha_publicacion": "2026-10-06T03:40:35",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50NHc2aHg4STlBMG1SMXdwa0FjTERzRUZ2aHR1eXR2MjMxN1VBT05DWDExa2ZhOS1GVlloRmZhZHBCamVDVGowWE9VSklfV0VidkxuekdubzZNTUVfUzZCcHdrcUM1ajE4eHc?oc=5"
         }
       ]
     },
@@ -93,10 +69,24 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Impiden ingreso de estudiante con su bebé de 4 meses en UTP - Diario de Chimbote",
-          "fuente": "Diario de Chimbote",
-          "fecha_publicacion": "2026-10-08T10:30:21",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNlcyaUh5VmlTY0k0LVN4ZllreDFnY2c5M29ubVJQemtIbnZCaG92OGtZVXdvaUY4YkFVV2trTkVYOUxRdTNOUU9JdmQxSGU0aTVTdGR3U2JkME8wSFh4bEk5eWhsZC1FZWhsb3dxMVBNYzZxaHV1RkZRQzI0R2lyRlB0NlJncWlsRGVUaVdna2JHQUZQMEhPVUM5WjFOcGE1a1E?oc=5"
+          "titulo": "Más de mil puestos laborales en feria “Atrapa tu chamba” - Diario El Pueblo",
+          "fuente": "Diario El Pueblo",
+          "fecha_publicacion": "2026-10-07T05:08:00",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb1JqcVU3SXBQampNMDcyYmpla2dSaDBEMmJGdzVQQmZGZl9tWmVXbk9XeTI1WElRM0tvcFBaclBQZkhiN0NWbVVwd1htMVNQcnZnWld6NGpjTTBzYTBPYlNGRm93aERRcGRLcWJ0c3RnTWZ5WFVpdEVoWjlTbWRfeUhQNmNnV0M0VG5rSklhRW5JNlVrdFlTc1plYkw?oc=5"
+        }
+      ]
+    },
+    "PA": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [
+        "2026-08-10"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "San Marcos amplía su oferta académica para el examen de admisión 2027-I: conoce su nueva carrera - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-10-09T14:05:35",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUVp1Z3BFSXBHX3dmTW5rX2NrTTlrNWtSeUFBYVlfbkJ6bjF3aVp5TVJRc2lFRy02bjBGckRjVzB0bEZjQnVZU1pSZUNSaHNoTWo0VW0zVlpwWC1mOXA5cGFRZ0QzT1hHeGRYMGUyZjdJRlk3dG1uSHROTHFsd3VOOE1CZm5MOGpWdHJEX2ZKTTlSYXExdXBYVWRqcTkwZUJxNmZlXzFsdVJWOUVvY3hwdm95UzF0OE5pME9BZmhxQnoybE9VNC1VbHpMeXZhbF9aWEHSAewBQVVfeXFMUFhLRFpXZnFqbFcxM0V6VmRCVW5NSTdSeU4xak5wNHdxLTd3Sml2eGZXN2RWanRVQXdkZ3V5WFhsSEJWZENFSVVvc1I5STFnMGptNTdmZ2F2RGJYS2k0TDdiazhYQmgyQ0dyZ25kbDFJQTQtdURXd1dpQmJTQXdyRXVwM2E2Uy1hM0pqM043bk9tS2xETGFUUjhaNFBlMXFNc0dEb0ZOZzBXM3FLeHFxcTJJVTB1WWNyRkx0Q1lwUGdKWUc2TDV1WjBTSGROWng4aDlJc2w1eERMVGFpQUEzc1Zhd3RRSGdYM0tGSHc?oc=5"
         }
       ]
     }
