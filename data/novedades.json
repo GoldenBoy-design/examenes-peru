@@ -1,22 +1,6 @@
 {
-  "generado": "2026-10-12T21:46:49.944583",
+  "generado": "2026-10-13T19:55:02.720542",
   "universidades": {
-    "UNE": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2026-06-28",
-        "2026-08-10",
-        "2026-08-29"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Perú se une en oración por la salud del papa León XIV - Radio RSD",
-          "fuente": "Radio RSD",
-          "fecha_publicacion": "2026-10-12T15:06:55",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdU5COXpmVXhMbnhOejd3aEpJQUhPRVZtbl9ROTNFdnA0Q1VjdVpnWS1NbC15cjV4azBZTXA2M21ZdlJFVzdOQzhseVlIbzFxRlhmT1VuNVhYemNLck9ZclR6T1dQc3RIUmNUc0ZwRTNTSjZtbmVfd05NbTd4dFh1MUFCMzNRNlpQ?oc=5"
-        }
-      ]
-    },
     "UCV": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -33,44 +17,10 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Trujillo: escolar del colegio Portal de Belén se corona como “El Estudiante del Año 2026” - Universidad César Vallejo (UCV)",
-          "fuente": "Universidad César Vallejo (UCV)",
-          "fecha_publicacion": "2026-10-12T15:17:40",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXlxSW5nZmgzYTVvcndoYWxmM3A0Qkg0VUVRSHhwUURTYm1TeTNzeGJlQmxzc045ZkxlSVRpUDhqX29QU3piaXZCMjlKNUIweUhaRElHWjBrVjZjTWJQdVlyT1VUeVBpLUViZnFXSWlGN2Fzbm54TTBldzhRRkhXUURVd1Y?oc=5"
-        },
-        {
-          "titulo": "Estudiante del colegio Portal de Belén gana «El Estudiante del Año 2026» de la UCV - Buena Pepa",
-          "fuente": "Buena Pepa",
-          "fecha_publicacion": "2026-10-12T18:57:35",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4tLWNITjFGRjFLSHFRUTBtaTFOMnV2LVY5V2M2aVB5Zm5UQ3duSHV4VmZQczNRcVF6eGNEb3VsUXlfSWRrUlAyZ3J4LTVMX2RGb2pZNWhfU0QwUDlWYjNqcHJLUklGWWdPYlB0dUZWbjhOcWM2amgtMlRtcWJndw?oc=5"
-        },
-        {
-          "titulo": "Estudiante del colegio Portal de Belén gana concurso regional de la UCV entre más de 26 mil escolares - causa justa",
-          "fuente": "causa justa",
-          "fecha_publicacion": "2026-10-12T15:07:16",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMnBWSEhKUFRkUFZrM09XZE95TW8wSlc5ZkJkX1FjTzlka25KS3NoWl9jSkRRY2NfYWdkTzBiQm0xZXdmb0RjeTEwTnl5LUhCMVZmbkg4WlFWYmw5dnNrTm53TWlDV3dFaGhIN3NLSVoxREZyVF9QMUdJMF9tWE0xT21fZGNHOEQwMTZjN2txaTg5N2ljb0hMbVlzZU5qYUExTFZmakNRc0FubEdIQVJmVFItYXJMX25tVU92OUdONzNaZw?oc=5"
-        }
-      ]
-    },
-    "UPCH": {
-      "estado_actual_json": "abierto",
-      "fechas_actuales_json": [
-        "2024-09-15",
-        "2025-01-12",
-        "2025-01-26",
-        "2025-02-09",
-        "2025-02-23",
-        "2026-04-04",
-        "2026-04-26",
-        "2026-06-21",
-        "2026-09-13"
-      ],
-      "noticias_encontradas": [
-        {
-          "titulo": "Cronograma de admisión y cuadro general de vacantes para el Residentado Odontológico 2026. - Plataforma del Estado Peruano",
-          "fuente": "Plataforma del Estado Peruano",
-          "fecha_publicacion": "2026-10-12T21:38:10",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVHpGNXJYNmZPOFhqNW92Yk5hbWpGa3VHT2FGa1pQcm5JZzBqdHdua1dYdnh4dEhvWWdQX251VXF3OTlqZ05admZ2OXV3TVhjQnEwTzRCSXBtS2w0ZEFYMWZKb3BiZ1VxbzJhNzVmeHpUY1dobEQ4dDV2S3RGenRjQTdybkF2eXRNY0o1b2tqVFhIU0Q2QlBqMGVSUVhCTFJFMlgwVXJIcVhWdHhGOUZ1bFJ4ZnhJbjVjNFZabWNGWEtLdl81dm1UR0FsVWt6ZGVDbFVVWnZhSkdFelhGVVdPWHAwZ1pNZ3NwMGNUak1B?oc=5"
+          "titulo": "Premier Luis Galarreta: “Negar las facultades es decirle no al pueblo peruano” - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-09-28T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYXZ6S0lOUWZzZlQzaGtJRnd2cTFMNkxDWmswTmowbURndkR5X1VhV19DVGxJTnBqUWlESlRlU1ZvUDRUSC0xeEdVTkk2RVpmWmRPZDhEV0M0dHpLMzJ0U2tyYVFjaDdtNHo2UDFrM29aM3hPNG1sRFdJc1BwM05ldnFZWXRFT1ZicVBwNVNTUmtDTS1qaTJ1R3U0ay1lb1pRYkVIVXhhVml6VHV1azlJQ0NkSF9zaHN1anFvYlRkOXY5d2FlQmFHdmVXaWZ5V0UxU0JvUzdGM3I?oc=5"
         }
       ]
     }
