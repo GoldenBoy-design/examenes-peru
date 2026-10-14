@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-13T19:55:02.720542",
+  "generado": "2026-10-14T17:59:38.731828",
   "universidades": {
     "UCV": {
       "estado_actual_json": "abierto",
@@ -17,10 +17,28 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Premier Luis Galarreta: “Negar las facultades es decirle no al pueblo peruano” - Chimbote en Línea",
+          "titulo": "Áncash: identifican 184 zonas críticas por peligros geológicos ante El Niño 2026-2027 - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-09-28T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYXZ6S0lOUWZzZlQzaGtJRnd2cTFMNkxDWmswTmowbURndkR5X1VhV19DVGxJTnBqUWlESlRlU1ZvUDRUSC0xeEdVTkk2RVpmWmRPZDhEV0M0dHpLMzJ0U2tyYVFjaDdtNHo2UDFrM29aM3hPNG1sRFdJc1BwM05ldnFZWXRFT1ZicVBwNVNTUmtDTS1qaTJ1R3U0ay1lb1pRYkVIVXhhVml6VHV1azlJQ0NkSF9zaHN1anFvYlRkOXY5d2FlQmFHdmVXaWZ5V0UxU0JvUzdGM3I?oc=5"
+          "fecha_publicacion": "2026-10-02T02:24:00",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNSmg2S3NQMWxadGY5UnBnTGxtSjBPZDVDVkhMaWpFMUxiem9oeVpkVm9UUm9nVUdHcV9BWk1uWGllZGZpTlFCLXJ1MC1udWVSU0lqVFpRczF2a2JvdjhfT19Od0NyVFpRMGI5ay02Y2hLQzZfd1JmMm9CRC1nS0YxVll0d2tOS2tMWmpfSFU3MVNDcExiNWN6TllCVmRSVUI3YmduVkZySEpoTGF3M1hZZjA2M0VvUnhWY2g5bXVQeTQ5WE9vb3FGd2c1Qk1ZMDkyODY3RjBqd0JIZjZlQkdraGotVVZRQjdGT0ZZR05sc0VNbzN0Sm8xYlI4cWE?oc=5"
+        },
+        {
+          "titulo": "Estudiante del colegio Portal de Belén se corona como \"El Estudiante del Año 2026\" en la UCV Trujillo - Macronorte",
+          "fuente": "Macronorte",
+          "fecha_publicacion": "2026-10-12T15:16:21",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX25TNGpUOWJnX3ZTLWZ5eU9LS0tmcGZsX19CX0pVNE8yY2JXemNmWGRFcGlIOXBBWnp2ZFd2TTV3VTNsd0gyQ2ViZnFKVUViMEo3eFBPb3ZTb3BiNmVlMlBTT1RxN1BWVTdjSFNhUHE2NDFLbkdRT3R6ZTdzTno4SVlmdHp3S0VqTUs5S0xBWVgwMVplMndkbjAtWE9ZcFJtTDVQVjNiRG44Vzg4U1NxMEdqejJXVkllWmEwYTM5MS1UYXNLUlIxbjY5c2s5dw?oc=5"
+        }
+      ]
+    },
+    "UTP": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Curso de preparación para el examen PROFA. Inicio, 6 de octubre - LP | Pasión por el Derecho",
+          "fuente": "LP | Pasión por el Derecho",
+          "fecha_publicacion": "2026-10-05T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Idm54aVFhNFkyNFF3NUFNR0xIb2N5NzVNT0FaYTBLaE9YRnEtOXktLU1Qc1c3SV9jbEdiMmxmamZ4b05nZzZibmI3NVhvVFY1bDNEZkZjaGNsVVBKOG1IN1NR?oc=5"
         }
       ]
     }
