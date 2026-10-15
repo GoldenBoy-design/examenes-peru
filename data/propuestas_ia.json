@@ -1,4 +1,16 @@
 {
-  "generado": "2026-10-14T17:59:38.731828",
-  "universidades": {}
+  "generado": "2026-10-15T17:48:32.837565",
+  "universidades": {
+    "UNMSM": [
+      {
+        "hay_dato_nuevo": true,
+        "fecha_examen": "2026-10-17",
+        "inscripcion_inicio": null,
+        "inscripcion_fin": null,
+        "resumen": "Se confirmó que el examen de admisión será el sábado 17 de octubre de 2026",
+        "fuente_titulo": "Examen de admisión San Marcos 2027-I: ¿Quiénes deben asistir este sábado a la prueba? - Infobae",
+        "fuente_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajYxMkNfLTRLaHBVc0p6M3p5bUl4OUdSRzVlbV9haGF4SHVYaDBBOFAweTRpOVJ5cFFHSXFSRlhWUXMxaG1vTUpHN3Z6bkUtU3lTSWlOUVU1eEpuNE5wbTBwbWdJbGNRWXNKTzZSUjF2YUlqOHZOcnd5QVFIVURMLWpHaEZGaDZyTkZyNGlhaThOVXp6cXUydHFPYW1FZm9ITWRmYnVNN210QzhtVUk2TEVtcjlOUzYtcl9kXzdQb1LSAdsBQVVfeXFMT2ZQMmxmQzVnb2M3MTlDY00zQWdZMThtcks2Z1Z0dWVIbWNHNG1RSnl1cFFoNXgzNU1FdGZMNi1CTXFFUlZHVzJuMXRPVkZhakRtSjdSbVZNS2V2emYwbFhuUUdFbmRIM2FtNHJWWnRWdHB6YlNHbnVYMF8xVk5FbnNxTDlQQ09uOXRwQjdYN2FYZ3Z3OUhpRTQ5aG9MXzdsTjhpanZHZXRodTBzQVFYMkVRcU1UUFRnZGRJRkFQVGZzbnR0a3ZtM0JHYW41M2NqcFNYVTdReWtSN3BZ?oc=5"
+      }
+    ]
+  }
 }

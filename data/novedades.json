@@ -1,6 +1,24 @@
 {
-  "generado": "2026-10-14T17:59:38.731828",
+  "generado": "2026-10-15T17:48:32.837565",
   "universidades": {
+    "UNMSM": {
+      "estado_actual_json": "abierto",
+      "fechas_actuales_json": [
+        "2026-07-12",
+        "2026-08-10",
+        "2026-09-19",
+        "2027-03-14",
+        "2027-10-17"
+      ],
+      "noticias_encontradas": [
+        {
+          "titulo": "Examen de admisión San Marcos 2027-I: ¿Quiénes deben asistir este sábado a la prueba? - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-10-14T18:04:32",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajYxMkNfLTRLaHBVc0p6M3p5bUl4OUdSRzVlbV9haGF4SHVYaDBBOFAweTRpOVJ5cFFHSXFSRlhWUXMxaG1vTUpHN3Z6bkUtU3lTSWlOUVU1eEpuNE5wbTBwbWdJbGNRWXNKTzZSUjF2YUlqOHZOcnd5QVFIVURMLWpHaEZGaDZyTkZyNGlhaThOVXp6cXUydHFPYW1FZm9ITWRmYnVNN210QzhtVUk2TEVtcjlOUzYtcl9kXzdQb1LSAdsBQVVfeXFMT2ZQMmxmQzVnb2M3MTlDY00zQWdZMThtcks2Z1Z0dWVIbWNHNG1RSnl1cFFoNXgzNU1FdGZMNi1CTXFFUlZHVzJuMXRPVkZhakRtSjdSbVZNS2V2emYwbFhuUUdFbmRIM2FtNHJWWnRWdHB6YlNHbnVYMF8xVk5FbnNxTDlQQ09uOXRwQjdYN2FYZ3Z3OUhpRTQ5aG9MXzdsTjhpanZHZXRodTBzQVFYMkVRcU1UUFRnZGRJRkFQVGZzbnR0a3ZtM0JHYW41M2NqcFNYVTdReWtSN3BZ?oc=5"
+        }
+      ]
+    },
     "UCV": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
@@ -17,16 +35,25 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Áncash: identifican 184 zonas críticas por peligros geológicos ante El Niño 2026-2027 - Chimbote en Línea",
+          "titulo": "Científica peruana obtiene premio CAREER de la National Science Foundation de EE. UU. - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-10-02T02:24:00",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNSmg2S3NQMWxadGY5UnBnTGxtSjBPZDVDVkhMaWpFMUxiem9oeVpkVm9UUm9nVUdHcV9BWk1uWGllZGZpTlFCLXJ1MC1udWVSU0lqVFpRczF2a2JvdjhfT19Od0NyVFpRMGI5ay02Y2hLQzZfd1JmMm9CRC1nS0YxVll0d2tOS2tMWmpfSFU3MVNDcExiNWN6TllCVmRSVUI3YmduVkZySEpoTGF3M1hZZjA2M0VvUnhWY2g5bXVQeTQ5WE9vb3FGd2c1Qk1ZMDkyODY3RjBqd0JIZjZlQkdraGotVVZRQjdGT0ZZR05sc0VNbzN0Sm8xYlI4cWE?oc=5"
-        },
+          "fecha_publicacion": "2026-10-13T01:51:00",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZVBMd3JYZDJ3WTNlby1VemlkLVZjSmNKcW1xVkkxcUNPd01KVDFoemdoLXpKbHgyS3psZ0FBUGRRSUZlS3NpNnRSMVBTWm41Nnp2UWx3YmNOZ0tEd1VXcWI2X3JGYmxCSFo1XzBLX0tmMlBFRFh3WThGbjIxdlZQZEpRX1JIRHBNZjhXenRYVVBqNmZkbjY4bUhyem5nQWRwbWF1ZElYQTJHR3NIV1RucjZWTkNweFE3ZW5YMkhEZUNadVIzV08tcVNXZG1mM0dDNFlWRzBrWEo?oc=5"
+        }
+      ]
+    },
+    "ULIMA": {
+      "estado_actual_json": "por confirmar",
+      "fechas_actuales_json": [
+        "2026-07-19",
+        "2026-11-15"
+      ],
+      "noticias_encontradas": [
         {
-          "titulo": "Estudiante del colegio Portal de Belén se corona como \"El Estudiante del Año 2026\" en la UCV Trujillo - Macronorte",
-          "fuente": "Macronorte",
-          "fecha_publicacion": "2026-10-12T15:16:21",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX25TNGpUOWJnX3ZTLWZ5eU9LS0tmcGZsX19CX0pVNE8yY2JXemNmWGRFcGlIOXBBWnp2ZFd2TTV3VTNsd0gyQ2ViZnFKVUViMEo3eFBPb3ZTb3BiNmVlMlBTT1RxN1BWVTdjSFNhUHE2NDFLbkdRT3R6ZTdzTno4SVlmdHp3S0VqTUs5S0xBWVgwMVplMndkbjAtWE9ZcFJtTDVQVjNiRG44Vzg4U1NxMEdqejJXVkllWmEwYTM5MS1UYXNLUlIxbjY5c2s5dw?oc=5"
+          "titulo": "BOMBEROS DEL PERÚ INICIAN PROCESO ELECTORAL PARA ELEGIR A SUS NUEVAS AUTORIDADES - Bomberos Perú",
+          "fuente": "Bomberos Perú",
+          "fecha_publicacion": "2026-09-15T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbVY5SlBIWkJtWHU4cEFtVjRzRy1fU2NyVmxzSGc4cWRabkVVMENYQ0RyeGowQkdxbW9RU0JUTHN0WHQ2NW1zenhFd3VaNVhQWkRPNGZRT1lHQ2V0ZVRjWjhELVdrNjY4bzNReU5FQkh0UXlUMURxMFhYOTBSMEo0VQ?oc=5"
         }
       ]
     },
@@ -35,10 +62,34 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Curso de preparación para el examen PROFA. Inicio, 6 de octubre - LP | Pasión por el Derecho",
-          "fuente": "LP | Pasión por el Derecho",
-          "fecha_publicacion": "2026-10-05T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Idm54aVFhNFkyNFF3NUFNR0xIb2N5NzVNT0FaYTBLaE9YRnEtOXktLU1Qc1c3SV9jbEdiMmxmamZ4b05nZzZibmI3NVhvVFY1bDNEZkZjaGNsVVBKOG1IN1NR?oc=5"
+          "titulo": "Perú incrementa en 7.8% su población de cuyes con aporte de mejoramiento genético desarrollado por el INIA - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-10-09T19:30:00",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTHozaGRqd0RKN3BPRm4yakYwbVlDR1ZnZ3RvakRNbGRwOFVTZjNKRkhUdkpqX084Y2R1UGYxcHJqLWRrNUxwODdVNENQNEJFUDZ5ZFlYRkE2NDZHc1J3aWxINVNpbDFwS2ZjWDNJemc3N0ZWNFlJUXQxZUJXZHFiSk43Q1p5Yl9ZdGo4OGItT2FNYjFJTlBPZnMtRHFMYUdFcTVDVHZzNlpZdmNyYWtTNElRNFhBRjJ3MG1JaXVxV2dLQURDajhVeEtfVDJQUEV2QzViLUUydWU1eFF3RFYzQ0pSdGpUZEIwLTB5VWN1eHBMV29mMWc?oc=5"
+        }
+      ]
+    },
+    "EOFAP": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "FAP anuncia admisión 2027: conoce las carreras, fechas de inscripción y vacantes para Oficiales y Suboficiales - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-03T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWjIwOGl4ZFRhN3NTM0hDTm9mcXdtd0E1c2dfYjVEVXpTTlNQT3BJei1xYjhWeWx3WG1mMWRzZ09CSWxuS2JVeGowT3BDYmU1SGk2Z1lxU1BtcUFXQmV4ZVZ3N1MxQ2tfWHpkdFU1bWFVam1DUjRtUVc2d01yTVlOdTJNTGJZR2pmb1Q3dm9mNjllNmY3QkgwMDE2Nk5DRE9FQS11UkZnSzlIOWNiMm1FMDBuVHN4a0ZLUmQzdk5SRHQxYWw2WDhsN2R2MXRFTzg3eEl4RlN6R3RpM3FJcmt0RUxKSQ?oc=5"
+        }
+      ]
+    },
+    "ESOFA": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "FAP anuncia admisión 2027: conoce las carreras, fechas de inscripción y vacantes para Oficiales y Suboficiales - Infobae",
+          "fuente": "Infobae",
+          "fecha_publicacion": "2026-09-03T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWjIwOGl4ZFRhN3NTM0hDTm9mcXdtd0E1c2dfYjVEVXpTTlNQT3BJei1xYjhWeWx3WG1mMWRzZ09CSWxuS2JVeGowT3BDYmU1SGk2Z1lxU1BtcUFXQmV4ZVZ3N1MxQ2tfWHpkdFU1bWFVam1DUjRtUVc2d01yTVlOdTJNTGJZR2pmb1Q3dm9mNjllNmY3QkgwMDE2Nk5DRE9FQS11UkZnSzlIOWNiMm1FMDBuVHN4a0ZLUmQzdk5SRHQxYWw2WDhsN2R2MXRFTzg3eEl4RlN6R3RpM3FJcmt0RUxKSQ?oc=5"
         }
       ]
     }
