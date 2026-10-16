@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-15T17:48:32.837565",
+  "generado": "2026-10-16T17:22:37.255112",
   "universidades": {
     "UNMSM": {
       "estado_actual_json": "abierto",
@@ -7,15 +7,16 @@
         "2026-07-12",
         "2026-08-10",
         "2026-09-19",
+        "2026-10-17",
         "2027-03-14",
         "2027-10-17"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Examen de admisión San Marcos 2027-I: ¿Quiénes deben asistir este sábado a la prueba? - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-10-14T18:04:32",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajYxMkNfLTRLaHBVc0p6M3p5bUl4OUdSRzVlbV9haGF4SHVYaDBBOFAweTRpOVJ5cFFHSXFSRlhWUXMxaG1vTUpHN3Z6bkUtU3lTSWlOUVU1eEpuNE5wbTBwbWdJbGNRWXNKTzZSUjF2YUlqOHZOcnd5QVFIVURMLWpHaEZGaDZyTkZyNGlhaThOVXp6cXUydHFPYW1FZm9ITWRmYnVNN210QzhtVUk2TEVtcjlOUzYtcl9kXzdQb1LSAdsBQVVfeXFMT2ZQMmxmQzVnb2M3MTlDY00zQWdZMThtcks2Z1Z0dWVIbWNHNG1RSnl1cFFoNXgzNU1FdGZMNi1CTXFFUlZHVzJuMXRPVkZhakRtSjdSbVZNS2V2emYwbFhuUUdFbmRIM2FtNHJWWnRWdHB6YlNHbnVYMF8xVk5FbnNxTDlQQ09uOXRwQjdYN2FYZ3Z3OUhpRTQ5aG9MXzdsTjhpanZHZXRodTBzQVFYMkVRcU1UUFRnZGRJRkFQVGZzbnR0a3ZtM0JHYW41M2NqcFNYVTdReWtSN3BZ?oc=5"
+          "titulo": "UNMSM | Examen de admisión San Marcos: ¿qué tan difícil es ingresar a tu carrera? | Minedu | Keiko Fujimori - El Comercio Perú",
+          "fuente": "El Comercio Perú",
+          "fecha_publicacion": "2026-10-16T12:03:28",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMTZ2WVVVd1NmM2VzMnFFVEVPeGtnZWpRMFM0alFxM09mZEMxbURGUXh3T296QWd2TGpJZnVja041OWd5NS1HamRhWEFxdVh1TEFpdVdpWUo5RUhnNklpN18za2x6WVg2V3c2OXc0VnRtLUtLNV8xNmx2bkNhYW4td0JyQUtqenJZeG1teHFWSVFvOFNvXzUwZkZpSGtwUFJuaGhJbGw2S1M4TjV3cUlzNVJiWlNZc0x1Rld1V1VuS1UxZnlaTXBfSTZOb3g2QjgzVEE?oc=5"
         }
       ]
     },
@@ -35,25 +36,30 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Científica peruana obtiene premio CAREER de la National Science Foundation de EE. UU. - Chimbote en Línea",
+          "titulo": "Periodistas, comunicadores y vejez en el Perú - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-10-13T01:51:00",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZVBMd3JYZDJ3WTNlby1VemlkLVZjSmNKcW1xVkkxcUNPd01KVDFoemdoLXpKbHgyS3psZ0FBUGRRSUZlS3NpNnRSMVBTWm41Nnp2UWx3YmNOZ0tEd1VXcWI2X3JGYmxCSFo1XzBLX0tmMlBFRFh3WThGbjIxdlZQZEpRX1JIRHBNZjhXenRYVVBqNmZkbjY4bUhyem5nQWRwbWF1ZElYQTJHR3NIV1RucjZWTkNweFE3ZW5YMkhEZUNadVIzV08tcVNXZG1mM0dDNFlWRzBrWEo?oc=5"
+          "fecha_publicacion": "2026-10-13T12:51:00",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNm52djdVdjdGX1g4UDFIcGtIUF9sSWFoXzdPZmRvYXF4S0NvOGhPYjJoZm1KaW1ZMWktc2NZMEJJdGZ5dzkyV29kbjB1VExrTFFsUzRySXFPZ05nTVExbFFkVmhBUzliQ3VGOFdZeEc3YXBSNXpNZms0Q21tbEJpblhnaERNeWtfRy14X29uMXF6R3RPUzJCUGx0ZEdITG1pa1FYaGdOc2dLUk5oQkxFX0R4NTBDUQ?oc=5"
+        },
+        {
+          "titulo": "BAIC abre en Chimbote su segunda tienda inaugurada en el Perú - Chimbote en Línea",
+          "fuente": "Chimbote en Línea",
+          "fecha_publicacion": "2026-10-08T13:19:00",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR2I2TWNBRWUzMDk1Zl9xYlVLazNTM01JM1d4XzVYbjlRdmZZSDRscDVFVnhBUVVoX1Ffb3p3eEZoTk9sY2w3VW1faVEyM1p1ektqT0d6WVRoeVRGc3ZQaFBEeXhtWFlQZy1tUF92cGVVSTBCTkVkc1JyNGExNkdWMzhueVFKZlRBelRxRzNJTFI3UXoxa0t6VVFEOVdPQTVJbWtIRmxaZDBFWkRzTVNDU1kyY0tONUh6?oc=5"
         }
       ]
     },
-    "ULIMA": {
-      "estado_actual_json": "por confirmar",
+    "URP": {
+      "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-07-19",
-        "2026-11-15"
+        "2026-08-07"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "BOMBEROS DEL PERÚ INICIAN PROCESO ELECTORAL PARA ELEGIR A SUS NUEVAS AUTORIDADES - Bomberos Perú",
-          "fuente": "Bomberos Perú",
-          "fecha_publicacion": "2026-09-15T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbVY5SlBIWkJtWHU4cEFtVjRzRy1fU2NyVmxzSGc4cWRabkVVMENYQ0RyeGowQkdxbW9RU0JUTHN0WHQ2NW1zenhFd3VaNVhQWkRPNGZRT1lHQ2V0ZVRjWjhELVdrNjY4bzNReU5FQkh0UXlUMURxMFhYOTBSMEo0VQ?oc=5"
+          "titulo": "Jóvenes peruanos podrán conocer opciones de becas internacionales - PressPeru",
+          "fuente": "PressPeru",
+          "fecha_publicacion": "2026-10-16T16:39:16",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSUtmTFdXVUVGN0h6blVLaHh0ODJrOGpkR0MtVE0tRHhjVmNOUW5aWm5CbkVjZWQ2Rkk5NF9DYWI0akRyZGEwa2JiX0xCUW1SQlRLX1gtUnQtWGRsZ05WTGdBZEgzLWtUNzI5enpiMVc4RlRuNmpyZV9OWkpNY1hMODJ5UnhfYU43d3lfME9ZYjFfZHU5anBKV1hLcVBZVzNL?oc=5"
         }
       ]
     },
@@ -62,34 +68,10 @@
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Perú incrementa en 7.8% su población de cuyes con aporte de mejoramiento genético desarrollado por el INIA - Chimbote en Línea",
-          "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-10-09T19:30:00",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTHozaGRqd0RKN3BPRm4yakYwbVlDR1ZnZ3RvakRNbGRwOFVTZjNKRkhUdkpqX084Y2R1UGYxcHJqLWRrNUxwODdVNENQNEJFUDZ5ZFlYRkE2NDZHc1J3aWxINVNpbDFwS2ZjWDNJemc3N0ZWNFlJUXQxZUJXZHFiSk43Q1p5Yl9ZdGo4OGItT2FNYjFJTlBPZnMtRHFMYUdFcTVDVHZzNlpZdmNyYWtTNElRNFhBRjJ3MG1JaXVxV2dLQURDajhVeEtfVDJQUEV2QzViLUUydWU1eFF3RFYzQ0pSdGpUZEIwLTB5VWN1eHBMV29mMWc?oc=5"
-        }
-      ]
-    },
-    "EOFAP": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "FAP anuncia admisión 2027: conoce las carreras, fechas de inscripción y vacantes para Oficiales y Suboficiales - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-03T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWjIwOGl4ZFRhN3NTM0hDTm9mcXdtd0E1c2dfYjVEVXpTTlNQT3BJei1xYjhWeWx3WG1mMWRzZ09CSWxuS2JVeGowT3BDYmU1SGk2Z1lxU1BtcUFXQmV4ZVZ3N1MxQ2tfWHpkdFU1bWFVam1DUjRtUVc2d01yTVlOdTJNTGJZR2pmb1Q3dm9mNjllNmY3QkgwMDE2Nk5DRE9FQS11UkZnSzlIOWNiMm1FMDBuVHN4a0ZLUmQzdk5SRHQxYWw2WDhsN2R2MXRFTzg3eEl4RlN6R3RpM3FJcmt0RUxKSQ?oc=5"
-        }
-      ]
-    },
-    "ESOFA": {
-      "estado_actual_json": "cerrado",
-      "fechas_actuales_json": [],
-      "noticias_encontradas": [
-        {
-          "titulo": "FAP anuncia admisión 2027: conoce las carreras, fechas de inscripción y vacantes para Oficiales y Suboficiales - Infobae",
-          "fuente": "Infobae",
-          "fecha_publicacion": "2026-09-03T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWjIwOGl4ZFRhN3NTM0hDTm9mcXdtd0E1c2dfYjVEVXpTTlNQT3BJei1xYjhWeWx3WG1mMWRzZ09CSWxuS2JVeGowT3BDYmU1SGk2Z1lxU1BtcUFXQmV4ZVZ3N1MxQ2tfWHpkdFU1bWFVam1DUjRtUVc2d01yTVlOdTJNTGJZR2pmb1Q3dm9mNjllNmY3QkgwMDE2Nk5DRE9FQS11UkZnSzlIOWNiMm1FMDBuVHN4a0ZLUmQzdk5SRHQxYWw2WDhsN2R2MXRFTzg3eEl4RlN6R3RpM3FJcmt0RUxKSQ?oc=5"
+          "titulo": "Dos de cada tres ofertas laborales en Perú requieren al menos una habilidad tecnológica - Gestión",
+          "fuente": "Gestión",
+          "fecha_publicacion": "2026-10-08T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLXc1TzJpa1hOaElib2pJbEpBbUMyZHVlTXhoNmkzQ3dQeU84b1hXbE1pZXBnQmxCajJieFhFVzh6QXBZeEYyZjc3U0VjQlJ0VUtWNUNaMW9adTltY0pUbzBrNTNTa19XNlFpRlJ1ZkJsNzN2SU4xTXFUMzlTbXhka0FRZmhuVFNFekR0b18zRDNZMy1kUUdvdDY5dlcwcWJwa0VsSzEwMUVNVU5oVF9IN3JRcmdVX1cxdl9xR3RsVlM3UjQ2eHo3R1Frd29lemtxQVVvaTltU3NFZw?oc=5"
         }
       ]
     }
