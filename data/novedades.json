@@ -1,22 +1,17 @@
 {
-  "generado": "2026-10-16T17:22:37.255112",
+  "generado": "2026-10-17T16:19:49.523678",
   "universidades": {
-    "UNMSM": {
+    "PUCP": {
       "estado_actual_json": "abierto",
       "fechas_actuales_json": [
-        "2026-07-12",
-        "2026-08-10",
-        "2026-09-19",
-        "2026-10-17",
-        "2027-03-14",
-        "2027-10-17"
+        "2026-08-16"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "UNMSM | Examen de admisión San Marcos: ¿qué tan difícil es ingresar a tu carrera? | Minedu | Keiko Fujimori - El Comercio Perú",
-          "fuente": "El Comercio Perú",
-          "fecha_publicacion": "2026-10-16T12:03:28",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMTZ2WVVVd1NmM2VzMnFFVEVPeGtnZWpRMFM0alFxM09mZEMxbURGUXh3T296QWd2TGpJZnVja041OWd5NS1HamRhWEFxdVh1TEFpdVdpWUo5RUhnNklpN18za2x6WVg2V3c2OXc0VnRtLUtLNV8xNmx2bkNhYW4td0JyQUtqenJZeG1teHFWSVFvOFNvXzUwZkZpSGtwUFJuaGhJbGw2S1M4TjV3cUlzNVJiWlNZc0x1Rld1V1VuS1UxZnlaTXBfSTZOb3g2QjgzVEE?oc=5"
+          "titulo": "Joven de Juliaca gana medalla de oro en Olimpiada Iberoamericana de Física realizada en Brasil - Diario UNO",
+          "fuente": "Diario UNO",
+          "fecha_publicacion": "2026-10-10T00:23:51",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUUlIWkFFdHBTSEhrVmhsTHdySUo5M2g5S09YUXV5NmVzMXRYdmFCcEVJVWZfd0lsNlBmN2lzdkJFYlBGRnRSN0NadFBJMWpWQWp1UVIwNVA3aXZYN2NuTG55enA2cDhtM3hyMEVrdUN4Uk9PLUlOTTk1eGxraERzUkthZV9oa1B0cGZOY0x5a3JSQmQ5N0NYUk1iYzNNRFJhRV83NHh5WC1sR01ydkpzZWtFUlo1SVE3cEwxaGdTNWlPQWVCbkE?oc=5"
         }
       ]
     },
@@ -36,42 +31,55 @@
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Periodistas, comunicadores y vejez en el Perú - Chimbote en Línea",
+          "titulo": "Presidenta Fujimori anuncia creación Comando Unificado para enfrentar y derrotar a la delincuencia - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-10-13T12:51:00",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNm52djdVdjdGX1g4UDFIcGtIUF9sSWFoXzdPZmRvYXF4S0NvOGhPYjJoZm1KaW1ZMWktc2NZMEJJdGZ5dzkyV29kbjB1VExrTFFsUzRySXFPZ05nTVExbFFkVmhBUzliQ3VGOFdZeEc3YXBSNXpNZms0Q21tbEJpblhnaERNeWtfRy14X29uMXF6R3RPUzJCUGx0ZEdITG1pa1FYaGdOc2dLUk5oQkxFX0R4NTBDUQ?oc=5"
+          "fecha_publicacion": "2026-10-08T01:56:00",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNeWVFVTBGQXdlZGRTeW85MU5EVW5rT1doSHVweU40bC1PYTJ2ZFd2eFBaWlhyQlhXNXpEZktqYS1Vd0ptVnhKdkIxeWFDUWY4Yzk1VElTQm9JODJQRk85TXRSUktCa3RUcmFzdmdRbDhBQnlUeGF1QUlXaWxEa2pZY04tRHgybVljMHFucWNhXzhUbE1zME1WVnFEQTk2dC1FMk9GUTZMQk9kTDBKX2dJb2hqN1V1M2Y0YV9sZ0toUmFJcUpCM0kzLXEyYlk0cExaSk52c2RKZEdHTzVnWWotMldHQ2Z5aU5LTXNGTnk2TWxuV3Y0OE5z?oc=5"
         },
         {
-          "titulo": "BAIC abre en Chimbote su segunda tienda inaugurada en el Perú - Chimbote en Línea",
+          "titulo": "Gobierno peruano invierte más de S/ 28 millones para innovación de cadena productiva en cacao y chocolate - Chimbote en Línea",
           "fuente": "Chimbote en Línea",
-          "fecha_publicacion": "2026-10-08T13:19:00",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR2I2TWNBRWUzMDk1Zl9xYlVLazNTM01JM1d4XzVYbjlRdmZZSDRscDVFVnhBUVVoX1Ffb3p3eEZoTk9sY2w3VW1faVEyM1p1ektqT0d6WVRoeVRGc3ZQaFBEeXhtWFlQZy1tUF92cGVVSTBCTkVkc1JyNGExNkdWMzhueVFKZlRBelRxRzNJTFI3UXoxa0t6VVFEOVdPQTVJbWtIRmxaZDBFWkRzTVNDU1kyY0tONUh6?oc=5"
+          "fecha_publicacion": "2026-10-02T02:10:00",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdk1hbEg4VWtKRWstU0c4NHNOU2liZHo0eE16WThhZHJTN2VRSUR6R1liS1VuYTl2LWY4QUQ2WnhweVZJa3R3SWM4dTctUlJfMllzS1BKWmd1Q0VjaXZSQ1pMZWRVVF9qWnNjMmtVN3N5d3NJaUVieU9DTG9nRjFXRDFjbFh3Z2RsMGRKN0NRTEJSam9xY1p4Y0FwMTFRbnliOG1LbVhuS1hGQklrUThhLUJTd181YWU5TVlnek1JZUNFVmt4d0tTY20xemd3NjFlRG1TNzY1OG5DeFFIc2d1aGNEZmJ2RmtQei05S0QxWmQzZw?oc=5"
         }
       ]
     },
-    "URP": {
-      "estado_actual_json": "abierto",
+    "ULIMA": {
+      "estado_actual_json": "por confirmar",
       "fechas_actuales_json": [
-        "2026-08-07"
+        "2026-07-19",
+        "2026-11-15"
       ],
       "noticias_encontradas": [
         {
-          "titulo": "Jóvenes peruanos podrán conocer opciones de becas internacionales - PressPeru",
-          "fuente": "PressPeru",
-          "fecha_publicacion": "2026-10-16T16:39:16",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSUtmTFdXVUVGN0h6blVLaHh0ODJrOGpkR0MtVE0tRHhjVmNOUW5aWm5CbkVjZWQ2Rkk5NF9DYWI0akRyZGEwa2JiX0xCUW1SQlRLX1gtUnQtWGRsZ05WTGdBZEgzLWtUNzI5enpiMVc4RlRuNmpyZV9OWkpNY1hMODJ5UnhfYU43d3lfME9ZYjFfZHU5anBKV1hLcVBZVzNL?oc=5"
+          "titulo": "Boletín de la Escuela de Posgrado - Universidad de Lima",
+          "fuente": "Universidad de Lima",
+          "fecha_publicacion": "2026-10-13T08:46:32",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTDd0R1F0dXVwZzJWd3hvUWVvUnlzR1N4VVo2WEJiODhhWVEzR3dDVkc5eHFnR3YzMGIwdjFFZkpxWEIzWUJpM0hxWUdjejN4SGtrdzlHLW1QWVJwSHZTLWVnZVVMcHZPVGpzTm8tNmFtejZkNnRqa0xBbFNmcm9CQWhFXzMtYTZaVlAtb1FCckpmSE1lckJzaENxRllwUFNYcW02aHpoM1REMUVyVlZRbDRick9iVno5Q25kQnZHNFU3V1lseEhmbA?oc=5"
         }
       ]
     },
-    "UTP": {
+    "ESOFA": {
+      "estado_actual_json": "cerrado",
+      "fechas_actuales_json": [],
+      "noticias_encontradas": [
+        {
+          "titulo": "Admisión 2027 de la FAP: abren inscripciones a Escuelas de Oficiales y de Suboficiales - Agencia Andina",
+          "fuente": "Agencia Andina",
+          "fecha_publicacion": "2026-09-29T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYTZOR1hqMHQxMWhsZjVnZHIwM1pMY0w1YWlQTXJlWWl2dHpkWDRkQk9HcDlva29SMlduRzIza2xkVV9JelpVbUR3dm5qYlpnOFhIM1ZKWHZIWVBEVUNnelQ3dG5YelhjZURMZlAzeTBSaS1kZExBQ2lOS2ZWbnpVVFdERmM0dG9jdVVsemZkWnpoUDlmOUozYy1JZTlERmZGQ1pJUEJRU21LOUtJUTVzNDBzTlM0RkxCcXZWZnJLdm8?oc=5"
+        }
+      ]
+    },
+    "IPD": {
       "estado_actual_json": "por confirmar",
       "fechas_actuales_json": [],
       "noticias_encontradas": [
         {
-          "titulo": "Dos de cada tres ofertas laborales en Perú requieren al menos una habilidad tecnológica - Gestión",
-          "fuente": "Gestión",
-          "fecha_publicacion": "2026-10-08T07:00:00",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLXc1TzJpa1hOaElib2pJbEpBbUMyZHVlTXhoNmkzQ3dQeU84b1hXbE1pZXBnQmxCajJieFhFVzh6QXBZeEYyZjc3U0VjQlJ0VUtWNUNaMW9adTltY0pUbzBrNTNTa19XNlFpRlJ1ZkJsNzN2SU4xTXFUMzlTbXhka0FRZmhuVFNFekR0b18zRDNZMy1kUUdvdDY5dlcwcWJwa0VsSzEwMUVNVU5oVF9IN3JRcmdVX1cxdl9xR3RsVlM3UjQ2eHo3R1Frd29lemtxQVVvaTltU3NFZw?oc=5"
+          "titulo": "“Estamos a tiempo de hacerlo muy bien, igual como el 2019 o mejor”: Óscar Fernández, nuevo presidente del IPD, y sus planes a un año de Lima 2027 - El Comercio Perú",
+          "fuente": "El Comercio Perú",
+          "fecha_publicacion": "2026-08-25T07:00:00",
+          "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPWVZtbFpoa1hMVks1c2w2U1I4aWs4QWpsem12TExRRl9tYU9Wc3N4eHZUeEVhdHY3M0w1VDdOWWREUXlfRC1WMTFFVTZsanB0WkduRU40X0kxVlJ0QndkZWs3bnRVOThQRzlxOFRQX2dleFpGSXd3MngxcXV6OGI4UjM5V0lkd3I4SDA3UWkyTG9IaTJqMl8zcnFTeDhXTjBIMlZRNWR5Y2FuTHZZZXhyak5nRUd0WG9MY2tkVzRaZjZHcUtybE40Qkc2bHBMUkkyWk5ESjZMWV8tWkRvMkJvWlFMaG1hMmxocDh4ME1LUkFjOW96THlncmJUQU9ITlVOZGs4R3VKUlJfSEg3MGlwSUVUWGN6UzFaR1ZQejNFbFpXc2szeEZZZE9GanM5bmFULXV1eHRwUm52QkNNUkxDZlNVMTJMOEV2eWNkOWdRZGxJUFJUalJlTzJWTQ?oc=5"
         }
       ]
     }
