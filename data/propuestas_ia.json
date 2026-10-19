@@ -1,45 +1,4 @@
 {
-  "generado": "2026-10-18T16:32:36.468888",
-  "universidades": {
-    "UNMSM": [
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": "2026-10-17",
-        "inscripcion_inicio": null,
-        "inscripcion_fin": null,
-        "resumen": "El examen de admisión 2027‑I comenzó el 2026‑10‑17",
-        "fuente_titulo": "San Marcos inicia Examen de Admisión 2027-I con 10 546 postulantes inscritos en su primera fecha - Universidad Nacional Mayor de San Marcos (UNMSM)",
-        "fuente_link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQWjRYWkR2V1B1MFdaOEVlXzlUVjNOS3lRT0dONlVodU8wSU10cjF5VUZBY29SeU9KbFNvazdoRlFUT1MtZmgwbWVxTm5WMnVrRl9YdFZwZk1remhteUd4V05qbHpmRDdEUDloX3lwYVhRQUk2QmVBSTFHRXA0dklBbmZaVUhWdk1nbUxpX05OYUF2ZFctOHJEOGcwN1kwTHhTR0VHZjdoTmNLa3IzVnRxeUxXNVNIMW5tUWdrbWZ1a01WZW5aSW1rWVlmc0JVd2pQN1JuZ1BUTTZhUjZVTmhGWW1fUHNpanR1SFVuajV5REJ1WUJpYk9aRQ?oc=5"
-      },
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": "2026-10-18",
-        "inscripcion_inicio": null,
-        "inscripcion_fin": null,
-        "resumen": "Se confirmó la fecha del examen para el domingo 18 de octubre de 2026",
-        "fuente_titulo": "Examen San Marcos 2027-I para Ciencias Básicas e Ingeniería: horarios y todo lo que debes saber de la prueba de este domingo 18 - Infobae",
-        "fuente_link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPeUtWbTJzVFlLbFBrRUpjS2hWQ0VZYVRJanJlMzFxeDhDWE1RWEtDXzBIRzVOcVF2OHluZzBOT0ZuNnJlaXBpZnpqQVVzb055TGhub2JPdGo2ZUMzOEhheEZHNlFUWk83R3hVU3I3ZlgtODIxRW5ZQWRFN3Uta2xQNXZLclV6bDkwS2xCRmxyYkRVMkYtR2Q2M0lPbzZoRC13SVhibkNoclJyMGtTaFRnRDJkWG1PbUdHakktcjFCaXlNcjN2QkJsWTNvdXhkdGo1NkpHd3dXbEhqYmxCbzE0NG5oelVNczFORjBJenhQMTZpblliUDNkemxVVdIBlgJBVV95cUxNTzdCbHVjTHBjdkdUY2lLN3hBTGdHeHNSMFdfN1JWV1dhTS1XVjNLajVEYkFhNlhpNkJWTmlzSkZaQnNVQTByU29OaFNkQ2dka3B1QVEtcWVxTlc5WWpPdjFpd3hGdEc3WkpudllRS2RjZ21obXJTXzJXZzdqY01CUmFTbFRHMTFtOUpndnZhTHZXeFFXeFFicEVad0lTZWtJUExoal9WOXUwSFlSc05MSy1KRkJqVV90UWFUWGRkWU5rZDZwQ0l3eWZQeVVxUVpvZ3NOdndjU1VQd2U2bVVWUXV1TXQ1MWtHOVI2Nkhlc3ljZWsydlNpcGlRLVpISjRyeUNtT0U4U3lnVVJlZlJvdDV1YlNnUQ?oc=5"
-      },
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": null,
-        "inscripcion_inicio": null,
-        "inscripcion_fin": "2026-10-09",
-        "resumen": "Se permite la inscripción hasta el 9 de octubre",
-        "fuente_titulo": "Examen de admisión a San Marcos: postulantes pueden inscribirse hasta hoy 9 de octubre - Agencia Andina",
-        "fuente_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcDVLcHFrX2FkaTdaYThmQUVWR254bENkQ1RsYW1kN1ZGZ2hpTDVUTmw0UF9vejQtSUZZR3pVQ1l2S3FycFRFR2xpalN2TGotM2lKMnd2bno2VHZiWW83bm4wUzZ5RGQ5dkJGanNNRlh0ZTF6TXVKc2ZxeG9WM1EzbFdvanZSS181cjl2SXZ1bmVLdG1LZS1Xa3o1TVFJT2RVODF4S3NpYVlqaFdINkU3RDNBNGg4YVROazhhSkJiZmprNlA0?oc=5"
-      }
-    ],
-    "PA": [
-      {
-        "hay_dato_nuevo": true,
-        "fecha_examen": "2026-10-18",
-        "inscripcion_inicio": null,
-        "inscripcion_fin": null,
-        "resumen": "Se confirma la fecha del examen para el domingo 18 de octubre",
-        "fuente_titulo": "Examen San Marcos 2027-I para Ciencias Básicas e Ingeniería: horarios y todo lo que debes saber de la prueba de este domingo 18 - Infobae",
-        "fuente_link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPeUtWbTJzVFlLbFBrRUpjS2hWQ0VZYVRJanJlMzFxeDhDWE1RWEtDXzBIRzVOcVF2OHluZzBOT0ZuNnJlaXBpZnpqQVVzb055TGhub2JPdGo2ZUMzOEhheEZHNlFUWk83R3hVU3I3ZlgtODIxRW5ZQWRFN3Uta2xQNXZLclV6bDkwS2xCRmxyYkRVMkYtR2Q2M0lPbzZoRC13SVhibkNoclJyMGtTaFRnRDJkWG1PbUdHakktcjFCaXlNcjN2QkJsWTNvdXhkdGo1NkpHd3dXbEhqYmxCbzE0NG5oelVNczFORjBJenhQMTZpblliUDNkemxVVdIBlgJBVV95cUxNTzdCbHVjTHBjdkdUY2lLN3hBTGdHeHNSMFdfN1JWV1dhTS1XVjNLajVEYkFhNlhpNkJWTmlzSkZaQnNVQTByU29OaFNkQ2dka3B1QVEtcWVxTlc5WWpPdjFpd3hGdEc3WkpudllRS2RjZ21obXJTXzJXZzdqY01CUmFTbFRHMTFtOUpndnZhTHZXeFFXeFFicEVad0lTZWtJUExoal9WOXUwSFlSc05MSy1KRkJqVV90UWFUWGRkWU5rZDZwQ0l3eWZQeVVxUVpvZ3NOdndjU1VQd2U2bVVWUXV1TXQ1MWtHOVI2Nkhlc3ljZWsydlNpcGlRLVpISjRyeUNtT0U4U3lnVVJlZlJvdDV1YlNnUQ?oc=5"
-      }
-    ]
-  }
+  "generado": "2026-10-19T19:17:20.694122",
+  "universidades": {}
 }
