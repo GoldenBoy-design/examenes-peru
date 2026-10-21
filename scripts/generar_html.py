@@ -25,7 +25,7 @@ MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
 
 def formatear_fecha(iso: str) -> str:
     d = datetime.strptime(iso, "%Y-%m-%d").date()
-    return f"{d.day:02d} de {MESES[d.month - 1].capitalize()}, {d.year}"
+    return f"{d.day:02d} de {MESES[d.month - 1]}, {d.year}"
 
 
 def formatear_rango_inscripcion(inscripcion: dict) -> str:
@@ -79,13 +79,17 @@ def main():
     vigentes = [u for u in data["universidades"] if universidad_esta_vigente(u, hoy)]
     excluidas = [u for u in data["universidades"] if u not in vigentes]
 
-    vigentes.sort(key=lambda u: min(u["fechas_examen"]))
+    vigentes.sort(key=lambda u: min(
+        datetime.strptime(f, "%Y-%m-%d").date()
+        for f in u["fechas_examen"]
+        if datetime.strptime(f, "%Y-%m-%d").date() >= hoy
+    ))
 
     filas_html = "\n".join(generar_fila(u, hoy) for u in vigentes)
 
     plantilla = (RAIZ / "templates" / "index.template.html").read_text(encoding="utf-8")
     html_final = plantilla.replace("{{FILAS_UNIVERSIDADES}}", filas_html)
-    html_final = html_final.replace("{{FECHA_ACTUALIZACION}}", hoy.strftime("%d de %B, %Y"))
+    html_final = html_final.replace("{{FECHA_ACTUALIZACION}}", formatear_fecha(hoy.isoformat()))
 
     SALIDA_HTML.write_text(html_final, encoding="utf-8")
 

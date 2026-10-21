@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="/logos/favicon.png">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4574160139184005" crossorigin="anonymous"></script>
     <title>Examen de Admisión {{SIGLAS}} {{ANIO}}: Fechas, Costos y Requisitos</title>
-    <meta name="description" content="Examen de admisión {{SIGLAS}} {{ANIO}}: {{FECHAS_TEXTO}}. Requisitos, costos de inscripción y cronograma completo actualizado.">
+    <meta name="description" content="Examen de admisión {{SIGLAS}} {{ANIO}}: {{FECHAS_TEXTO}}. Consulta las fechas registradas y confirma requisitos y costos en el portal oficial.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://examenesperu.netlify.app{{RUTA}}">
 
@@ -100,7 +100,7 @@
         <span class="eyebrow">Proceso de admisión</span>
         <h1>Examen de Admisión {{SIGLAS}} {{ANIO}}: Fechas, Costos y Requisitos</h1>
         <p class="subtitle">{{NOMBRE_COMPLETO}} — Proceso de Admisión {{ANIO}}</p>
-        <p class="fecha-actual">Última actualización: {{FECHA_ACTUALIZACION}} · Generado automáticamente</p>
+        <p class="fecha-actual">Ficha generada el {{FECHA_ACTUALIZACION}}</p>
     </header>
 
     <section>
@@ -109,20 +109,16 @@
     </section>
 
     <section>
-        <h2>Cronograma del examen</h2>
+        <h2>Próximas fechas de evaluación registradas</h2>
         <table>
             <thead><tr><th>Fecha</th><th>Detalle</th></tr></thead>
             <tbody>{{FILAS_CRONOGRAMA}}</tbody>
         </table>
         <a href="{{URL_OFICIAL}}" target="_blank" rel="noopener" class="btn-info">Ir a la plataforma oficial de {{SIGLAS}} →</a>
+        {{NOTA_FUENTE}}
     </section>
 
     {{SECCION_COSTOS}}
-
-    <section>
-        <h2>Preguntas frecuentes</h2>
-        {{FAQ_HTML}}
-    </section>
 
     <div class="site-links">
         <a href="/acerca-de/">Acerca de este sitio</a>
