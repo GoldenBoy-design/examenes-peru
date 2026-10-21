@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-06-19",
+  "ultima_actualizacion": "2026-10-20",
   "universidades": [
     {
       "id": "unjbg",
@@ -58,6 +58,8 @@
         "2026-09-19",
         "2026-10-17",
         "2026-10-18",
+        "2026-10-24",
+        "2026-10-25",
         "2027-03-14",
         "2027-10-17"
       ],
@@ -66,7 +68,7 @@
         "fin": null,
         "nota": "Sin información"
       },
-      "url_oficial": "https://admision.unmsm.edu.pe/portal/",
+      "url_oficial": "https://admision.unmsm.edu.pe",
       "pagina_propia": null,
       "estado_proceso": "abierto",
       "tipo": "publica",
@@ -111,13 +113,15 @@
       "logo": "/logos/unac.png",
       "modalidad": "Ordinario",
       "fechas_examen": [
-        "2026-07-19"
+        "2026-07-19",
+        "2026-12-13",
+        "2026-12-20"
       ],
       "inscripcion": {
         "inicio": "2026-06-01",
         "fin": "2026-07-16"
       },
-      "url_oficial": "https://admision.unac.edu.pe/",
+      "url_oficial": "https://admision.unac.edu.pe",
       "pagina_propia": null,
       "estado_proceso": "abierto",
       "tipo": "publica",
@@ -408,14 +412,15 @@
       "logo": "/logos/pucp.png",
       "modalidad": "Ordinario 2026-II",
       "fechas_examen": [
-        "2026-08-16"
+        "2026-08-16",
+        "2026-11-29"
       ],
       "inscripcion": {
         "inicio": null,
         "fin": null,
         "nota": "Por confirmar en portal oficial"
       },
-      "url_oficial": "https://admision.pucp.edu.pe/",
+      "url_oficial": "https://admision.pucp.edu.pe",
       "pagina_propia": null,
       "estado_proceso": "abierto",
       "_fuente": "impulsatufuturo.pe (29 ene 2026) — verificar fecha exacta e inscripciones en admision.pucp.edu.pe antes de publicar",
@@ -496,14 +501,16 @@
       "logo": "/logos/urp.png",
       "modalidad": "Examen General (Medicina)",
       "fechas_examen": [
-        "2026-08-07"
+        "2026-08-07",
+        "2026-11-06",
+        "2027-03-05"
       ],
       "inscripcion": {
         "inicio": null,
         "fin": null,
         "nota": "Sin información"
       },
-      "url_oficial": "https://www.urp.edu.pe/admision/",
+      "url_oficial": "https://www.urp.edu.pe",
       "pagina_propia": null,
       "estado_proceso": "abierto",
       "tipo": "privada",
@@ -563,9 +570,9 @@
         "fin": "2026-07-10",
         "nota": "2026-II aún no publicado"
       },
-      "url_oficial": "https://www.ulima.edu.pe/examen-de-admision",
+      "url_oficial": "https://www.ulima.edu.pe",
       "pagina_propia": null,
-      "estado_proceso": "por confirmar",
+      "estado_proceso": "abierto",
       "tipo": "privada",
       "_fuente": "El último examen publicado fue el 19 jul 2026 (ya pasado); la fecha del siguiente ciclo aún no aparece en la web oficial",
       "detalle": {
@@ -583,15 +590,17 @@
       "provincia": "Lima",
       "logo": "/logos/utp.png",
       "modalidad": "Examen de Admisión (Ciclo Agosto)",
-      "fechas_examen": [],
+      "fechas_examen": [
+        "2026-11-01"
+      ],
       "inscripcion": {
         "inicio": null,
         "fin": null,
         "nota": "Fecha exacta ciclo agosto 2026 no confirmada"
       },
-      "url_oficial": "https://www.utp.edu.pe/web/postulante",
+      "url_oficial": "https://www.utp.edu.pe",
       "pagina_propia": null,
-      "estado_proceso": "por confirmar",
+      "estado_proceso": "abierto",
       "tipo": "privada",
       "detalle": {
         "resumen_oficial": "El proceso de admisión se organiza en tres fases: primero pagar la inscripción, luego completar la admisión (examen y regularización de documentos) y, una vez matriculado, consultar la información del primer ciclo.",
@@ -829,6 +838,94 @@
         "fuente_resumen": "https://www.unm.edu.pe/",
         "resumen_actualizado": "2026-10-20"
       }
+    },
+    {
+      "id": "ucsm",
+      "nombre": "Universidad Católica de Santa María",
+      "siglas": "UCSM",
+      "provincia": "Arequipa",
+      "logo": "https://env.ucsm.edu.pe/img/logo_ucsm.png",
+      "modalidad": "Examen de admisión",
+      "fechas_examen": [
+        "2026-10-25",
+        "2026-11-08",
+        "2026-12-06",
+        "2027-01-24",
+        "2027-01-31",
+        "2027-02-21"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
+      "url_oficial": "https://www.ucsm.edu.pe",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "privada"
+    },
+    {
+      "id": "ucsp",
+      "nombre": "Universidad Católica San Pablo",
+      "siglas": "UCSP",
+      "provincia": "Arequipa",
+      "logo": "https://ucsp.edu.pe/images/mailings/UCSP/logos-ucsp.png",
+      "modalidad": "Examen de conocimientos",
+      "fechas_examen": [
+        "2026-10-25"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
+      "url_oficial": "https://admision.ucsp.edu.pe",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "privada"
+    },
+    {
+      "id": "unsa",
+      "nombre": "Universidad Nacional de San Agustín",
+      "siglas": "UNSA",
+      "provincia": "Arequipa",
+      "logo": "https://siri.unsa.edu.pe/logo-unsa.png",
+      "modalidad": "Proceso de admisión 2027",
+      "fechas_examen": [
+        "2027-02-14",
+        "2027-03-07",
+        "2027-03-14",
+        "2027-03-20"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
+      "url_oficial": "https://admision.unsa.edu.pe",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
+    },
+    {
+      "id": "beca18",
+      "nombre": "Beca 18",
+      "siglas": "PRONABEC",
+      "provincia": "Nacional",
+      "logo": "https://www.pronabec.gob.pe/wp-content/uploads/2026/10/Beca18-logo-actual.png",
+      "modalidad": "Examen Nacional de Preselección (ENP)",
+      "fechas_examen": [
+        "2026-11-22"
+      ],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null,
+        "nota": "Sin información"
+      },
+      "url_oficial": "https://www.pronabec.gob.pe",
+      "pagina_propia": null,
+      "estado_proceso": "abierto",
+      "tipo": "publica"
     }
   ]
 }

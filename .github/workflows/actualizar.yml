@@ -1,9 +1,6 @@
 name: Actualizar cronogramas
 
 on:
-  schedule:
-    # Corre todos los días a las 08:00 hora de Perú (13:00 UTC).
-    - cron: '0 13 * * *'
   workflow_dispatch: {}  # también se puede correr manualmente desde GitHub
 
 jobs:
