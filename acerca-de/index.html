@@ -14,48 +14,30 @@
     <meta property="og:title" content="Acerca de Exámenes Perú">
     <meta property="og:site_name" content="Exámenes Perú">
     <meta property="og:locale" content="es_PE">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root {
-            --bg: #f7f4ee; --surface: #fffdf9;
-            --ink: #1c1b18; --muted: #726c60; --accent: #b3492f;
-            --border: rgba(28,27,24,0.12);
-            --font-display: 'Fraunces', Georgia, serif;
-            --font-body: 'Inter', "Segoe UI", sans-serif;
-        }
-        body { font-family: var(--font-body); background: var(--bg); color: var(--ink); line-height: 1.7; font-size: 16px; }
-        .container { max-width: 1080px; margin: 0 auto; min-height: 100vh; background: var(--surface); }
-        a { color: #8f3525; text-underline-offset: .18em; }
-        .breadcrumb { padding: 28px 56px 0; font-size: .8rem; color: var(--muted); }
-        .breadcrumb a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--border); }
-        header { padding: 56px 56px 40px; border-bottom: 1px solid var(--border); }
-        .eyebrow { display: inline-block; font-size: .74rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; }
-        h1 { font-family: var(--font-display); font-weight: 600; font-size: 2.4rem; color: var(--ink); line-height: 1.15; max-width: 24ch; }
-        section { padding: 32px 56px; border-bottom: 1px solid var(--border); }
-        section > * { max-width: 72ch; }
-        h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.5rem; color: var(--ink); margin-bottom: 16px; }
-        p { color: #4a463e; margin-bottom: 14px; }
-        ul { color: #4a463e; margin: 0 0 14px 20px; }
-        li { margin-bottom: 6px; }
-        footer { padding: 26px 56px; text-align: center; color: var(--muted); font-size: .9rem; }
-        footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; margin-bottom: 8px; }
-        @media (max-width: 768px) { header, section, .breadcrumb, footer { padding-left: 24px; padding-right: 24px; } h1 { font-size: 1.9rem; } }
-    </style>
+    <link rel="stylesheet" href="/editorial.css">
 </head>
 <body>
-<div class="container">
-    <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> › Acerca de</nav>
-    <header>
+<a class="skip-link" href="#contenido">Ir al contenido</a>
+<header class="editorial-masthead">
+    <div class="editorial-shell">
+        <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
+        <nav class="editorial-nav" aria-label="Navegación principal">
+            <a href="/">Calendario</a>
+            <a href="/#directorio">Universidades</a>
+            <a href="/guia-preparacion-examen-admision-peru/">Guía de estudio</a>
+            <a href="/practica-admision/">Ejercicios</a>
+        </nav>
+    </div>
+</header>
+<div class="editorial-hero">
+    <div class="editorial-shell">
+        <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> › Acerca de</nav>
         <span class="eyebrow">Sobre este sitio</span>
         <h1>Acerca de Exámenes Perú</h1>
-    </header>
-
-    <main>
+    </div>
+</div>
+<div class="editorial-shell">
+    <main class="editorial-main" id="contenido" tabindex="-1">
         <section>
             <h2>Quién publica el sitio</h2>
             <p>Exámenes Perú es un proyecto independiente de PSY Team para postulantes a universidades peruanas. Reúne fechas de admisión con sus fuentes y publica materiales propios para preparar el examen. La consulta y la práctica son gratuitas.</p>
@@ -84,8 +66,9 @@
             <p>Para inscribirte, comprobar un pago, resolver dudas sobre documentos o consultar vacantes y resultados, comunícate con la oficina de admisión indicada en el portal oficial de la universidad.</p>
         </section>
     </main>
-
-    <footer>
+</div>
+<footer class="editorial-footer">
+    <div class="editorial-shell">
         <nav aria-label="Enlaces del sitio">
             <a href="/">Cronograma</a>
             <a href="/guia-preparacion-examen-admision-peru/">Guía de preparación</a>
@@ -93,7 +76,7 @@
             <a href="/privacidad/">Privacidad</a>
         </nav>
         © 2026 PSY Team
-    </footer>
-</div>
+    </div>
+</footer>
 </body>
 </html>

@@ -7,34 +7,30 @@
     <title>Política de privacidad | Exámenes Perú</title>
     <meta name="description" content="Consulta cómo Exámenes Perú usa Google Analytics, qué servicios pueden usar cookies y cómo controlar tus preferencias de privacidad.">
     <link rel="canonical" href="https://examenesperu.netlify.app/privacidad/">
-    <style>
-        * { box-sizing: border-box; }
-        body { margin: 0; background: #f7f4ee; color: #1c1b18; font: 16px/1.7 Inter, "Segoe UI", sans-serif; }
-        .container { max-width: 1080px; min-height: 100vh; margin: 0 auto; background: #fffdf9; }
-        header, section, .breadcrumb, footer { padding-inline: clamp(24px, 6vw, 56px); }
-        .breadcrumb { padding-top: 28px; color: #726c60; font-size: .88rem; }
-        a { color: #8f3525; text-underline-offset: .18em; }
-        header { padding-block: 38px 28px; border-bottom: 1px solid #ded9ce; }
-        h1, h2 { color: #1c1b18; font-family: Georgia, serif; line-height: 1.2; }
-        h1 { margin: 0 0 14px; font-size: clamp(2rem, 6vw, 2.75rem); }
-        h2 { margin: 0 0 14px; font-size: 1.5rem; }
-        p, ul { max-width: 72ch; margin: 0 0 14px; color: #4a463e; }
-        ul { padding-left: 1.4rem; }
-        li + li { margin-top: 8px; }
-        section { padding-block: 28px; border-bottom: 1px solid #ded9ce; }
-        footer { padding-block: 24px; text-align: center; color: #726c60; font-size: .9rem; }
-        footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; }
-    </style>
+    <link rel="stylesheet" href="/editorial.css">
 </head>
 <body>
-<div class="container">
-    <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> › Privacidad</nav>
-    <header>
+<a class="skip-link" href="#contenido">Ir al contenido</a>
+<header class="editorial-masthead">
+    <div class="editorial-shell">
+        <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
+        <nav class="editorial-nav" aria-label="Navegación principal">
+            <a href="/">Calendario</a>
+            <a href="/#directorio">Universidades</a>
+            <a href="/guia-preparacion-examen-admision-peru/">Guía de estudio</a>
+            <a href="/practica-admision/">Ejercicios</a>
+        </nav>
+    </div>
+</header>
+<div class="editorial-hero">
+    <div class="editorial-shell">
+        <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> › Privacidad</nav>
         <h1>Política de privacidad</h1>
-        <p>PSY Team publica Exámenes Perú. Puedes consultar el cronograma, leer las guías y hacer los ejercicios sin crear una cuenta.</p>
-    </header>
-
-    <main>
+        <p class="lead">PSY Team publica Exámenes Perú. Puedes consultar el cronograma, leer las guías y hacer los ejercicios sin crear una cuenta.</p>
+    </div>
+</div>
+<div class="editorial-shell">
+    <main class="editorial-main" id="contenido" tabindex="-1">
         <section>
             <h2>Ejercicios de práctica</h2>
             <p>Tu navegador calcula el resultado. Las respuestas y el puntaje quedan en tu navegador durante la práctica.</p>
@@ -62,15 +58,16 @@
             <p>Algunas páginas solicitan tipografías a Google Fonts. Estas solicitudes comparten información técnica como la dirección IP con el proveedor. Al abrir un enlace a una universidad u otro sitio, consulta las políticas de privacidad de ese destino.</p>
         </section>
     </main>
-
-    <footer>
+</div>
+<footer class="editorial-footer">
+    <div class="editorial-shell">
         <nav aria-label="Enlaces del sitio">
             <a href="/">Cronograma</a>
             <a href="/acerca-de/">Acerca de Exámenes Perú</a>
             <a href="/guia-preparacion-examen-admision-peru/">Guía de preparación</a>
             <a href="/practica-admision/">Práctica de admisión</a>
         </nav>
-    </footer>
-</div>
+    </div>
+</footer>
 </body>
 </html>

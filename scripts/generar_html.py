@@ -29,12 +29,32 @@ def fecha_html(valor: str) -> str:
     return f'<time datetime="{fecha.isoformat()}">{texto}</time>'
 
 
+def fecha_calendario_html(fecha: date) -> str:
+    mes = MESES[fecha.month - 1]
+    return (
+        f'<time datetime="{fecha.isoformat()}">'
+        f'<span class="event-day">{fecha.day}</span> '
+        f'<span class="event-month">{mes} {fecha.year}</span></time>'
+    )
+
+
+def logo_html(institucion: dict) -> str:
+    logo = "/logos/pronabec.png" if institucion["id"] == "beca18" else f'/logos/{institucion["id"]}.png'
+    if (RAIZ / logo.lstrip("/")).is_file():
+        return (
+            '<span class="institution-logo">'
+            f'<img src="{escape(logo)}" alt="" width="52" height="52" loading="lazy" decoding="async">'
+            '</span>'
+        )
+    return f'<span class="institution-logo logo-text" aria-hidden="true">{escape(institucion["siglas"][:4])}</span>'
+
+
 def enlace_oficial(url: str, texto: str, contexto: str) -> str:
     destino = urlsplit(url)
     if destino.scheme != "https" or not destino.hostname:
         raise ValueError(f"Se requiere un enlace HTTPS institucional: {url}")
     etiqueta = escape(f"{texto} de {contexto}")
-    return f'<a href="{escape(url)}" aria-label="{etiqueta}">{escape(texto)}</a>'
+    return f'<a class="official-link" href="{escape(url)}" aria-label="{etiqueta}">{escape(texto)}</a>'
 
 
 def ficha_evento(evento: dict, instituciones: dict) -> str:
@@ -55,18 +75,21 @@ def ficha_evento(evento: dict, instituciones: dict) -> str:
         plazo = "Consulta el plazo en la fuente"
 
     fuente = enlace_oficial(evento["fuente"], "Ver convocatoria oficial", siglas)
-    fecha = date.fromisoformat(evento["fecha"]).isoformat()
+    fecha = date.fromisoformat(evento["fecha"])
     cierre = date.fromisoformat(fin).isoformat() if fin else ""
     nota = f'\n                    <p class="event-note">{escape(evento["nota"])}</p>' if evento.get("nota") else ""
     return f"""
-            <li class="event" data-fecha="{fecha}" data-cierre="{cierre}">
-                <div class="event-date">{fecha_html(fecha)}<span class="event-state" hidden></span></div>
+            <li class="event" data-fecha="{fecha.isoformat()}" data-cierre="{cierre}">
+                <div class="event-date">{fecha_calendario_html(fecha)}<span class="event-state" hidden></span></div>
                 <div class="event-detail">
-                    <h3>{escape(siglas)}</h3>
-                    <p>{proceso}</p>{nota}
+                    {logo_html(institucion)}
+                    <div>
+                        <h3>{escape(siglas)}</h3>
+                        <p class="event-process">{proceso}</p>{nota}
+                    </div>
                 </div>
                 <div class="event-deadline">
-                    <p><strong>Inscripción</strong></p>
+                    <p class="deadline-label">Inscripción</p>
                     <p>{plazo}</p>
                     <p class="registration-state" hidden>Plazo vencido</p>
                     {fuente}
@@ -81,10 +104,15 @@ def ficha_directorio(registro: dict, instituciones: dict) -> str:
     sede = escape(registro.get("sede", institucion["provincia"]))
     enlace = enlace_oficial(registro["portal"], "Portal de admisión", siglas)
     return f"""
-            <li>
-                <h3>{escape(siglas)}</h3>
-                <p>{nombre}</p>
-                <p class="directory-location">{sede}</p>
+            <li class="directory-item">
+                <div class="directory-heading">
+                    {logo_html(institucion)}
+                    <div>
+                        <h3>{escape(siglas)}</h3>
+                        <p class="directory-location">{sede}</p>
+                    </div>
+                </div>
+                <p class="directory-name">{nombre}</p>
                 {enlace}
             </li>"""
 

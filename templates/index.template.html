@@ -24,84 +24,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg: #f7f4ee; --paper: #fffdf9; --ink: #1c1b18; --muted: #655b4c;
-            --accent: #883824; --line: #dcd2c4;
-            --serif: 'Fraunces', Georgia, serif; --sans: 'Inter', 'Segoe UI', sans-serif;
-        }
-        * { box-sizing: border-box; }
-        [hidden] { display: none !important; }
-        body { margin: 0; color: var(--ink); background: var(--bg); font: 1rem/1.6 var(--sans); }
-        a { color: var(--accent); text-underline-offset: .2em; }
-        a:hover { text-decoration-thickness: 2px; }
-        a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-        .skip { position: absolute; top: -100px; left: 16px; background: var(--paper); padding: 8px 12px; }
-        .skip:focus { top: 8px; }
-        .shell { width: min(100%, 1140px); padding-inline: clamp(20px, 5vw, 56px); margin-inline: auto; }
-        .site-header { background: var(--paper); border-bottom: 1px solid var(--line); }
-        .site-header .shell { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; padding-block: 14px; gap: 10px 28px; }
-        .brand { font: 600 1.35rem/1.25 var(--serif); color: var(--ink); text-decoration: none; }
-        .site-nav, .footer-links { display: flex; flex-wrap: wrap; gap: 8px 22px; }
-        .site-nav a { font-size: .9rem; color: var(--ink); }
-        .hero { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); align-items: end; gap: 24px clamp(20px, 5vw, 64px); padding-block: clamp(34px, 7vw, 72px) 30px; }
-        h1, h2 { font-family: var(--serif); font-weight: 600; line-height: 1.12; margin: 0; }
-        h1 { max-width: 17ch; font-size: clamp(2.35rem, 5.4vw, 4.5rem); letter-spacing: -.035em; overflow-wrap: break-word; }
-        h2 { font-size: clamp(1.65rem, 3.4vw, 2.4rem); }
-        h3 { margin: 0; font-size: 1.06rem; line-height: 1.4; }
-        p { margin: 0; }
-        .hero p { padding-left: 18px; border-left: 3px solid var(--accent); }
-        .calendar { padding-block: 28px 44px; border-top: 1px solid var(--line); }
-        .review-date { font-size: .9rem; color: var(--muted); margin-top: 8px; }
-        .calendar-controls { display: flex; align-items: center; gap: 9px; margin: 16px 0; width: fit-content; cursor: pointer; }
-        .calendar-controls input { width: 1.1rem; height: 1.1rem; accent-color: var(--accent); }
-        .events, .directory-list { padding: 0; margin: 20px 0 0; list-style: none; }
-        .events { background: var(--paper); border-block: 2px solid var(--ink); }
-        .event { display: grid; grid-template-columns: minmax(125px, .85fr) minmax(0, 1.45fr) minmax(0, 1.15fr); gap: 16px 24px; align-items: start; padding: 18px 20px; }
-        .event + .event { border-top: 1px solid var(--line); }
-        .event-date time { display: block; font: 600 1.17rem/1.25 var(--serif); }
-        .event-state, .event-note, .event-deadline, .directory-location { color: var(--muted); font-size: .89rem; }
-        .event-note, .event-detail h3 + p, .event-deadline a { margin-top: 4px; }
-        .event-deadline a { display: inline-block; }
-        .registration-state { font-weight: 600; color: var(--accent); }
-        .calendar-empty { padding: 14px 16px; margin-block: 16px 0; border: 1px solid var(--line); background: var(--paper); }
-        .section-copy { max-width: 68ch; margin-top: 10px; }
-        .prep { background: var(--paper); border-block: 1px solid var(--line); padding-block: 42px; }
-        .prep-columns { display: grid; grid-template-columns: 1.3fr 1fr; gap: 26px 48px; }
-        .steps { padding-left: 1.35rem; margin: 16px 0 0; max-width: 62ch; }
-        .steps li + li { margin-top: 10px; }
-        .prep-links { align-self: start; padding-left: 20px; border-left: 3px solid var(--accent); }
-        .prep-links p { margin-top: 6px; }
-        .prep-links div + div { margin-top: 14px; }
-        .directory { padding-block: 44px; }
-        .directory-filter { margin-top: 16px; max-width: 340px; }
-        .directory-filter label { display: block; font-weight: 600; margin-bottom: 5px; }
-        .directory-filter input { width: 100%; border: 1px solid var(--muted); border-radius: 4px; padding: 10px 12px; font: inherit; color: var(--ink); background: var(--paper); }
-        .directory-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 22px; }
-        .directory-list li { border-top: 1px solid var(--line); padding-block: 14px; }
-        .directory-list a { display: inline-block; margin-top: 4px; }
-        .site-footer { background: var(--paper); border-top: 1px solid var(--line); padding-block: 22px; font-size: .9rem; }
-        .site-footer p { margin-top: 8px; color: var(--muted); }
-        @media (max-width: 700px) {
-            .hero, .prep-columns { grid-template-columns: 1fr; }
-            .hero p { max-width: 52ch; }
-            .directory-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-        }
-        @media (max-width: 575px) {
-            .event { grid-template-columns: 1fr; gap: 8px; padding: 14px; }
-            .event-date { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
-        }
-        @media (max-width: 360px) {
-            .directory-list { grid-template-columns: 1fr; }
-        }
-    </style>
+    <link rel="stylesheet" href="/inicio.css">
     <script src="/calendario.js" defer></script>
 </head>
 <body>
     <a class="skip" href="#calendario">Ir al calendario</a>
     <header class="site-header">
-        <div class="shell">
-            <a class="brand" href="/" aria-current="page">Exámenes Perú</a>
+        <div class="shell masthead">
+            <a class="brand" href="/" aria-current="page"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
             <nav class="site-nav" aria-label="Navegación principal">
                 <a href="#calendario">Calendario</a>
                 <a href="#directorio">Universidades</a>
@@ -111,66 +41,88 @@
         </div>
     </header>
     <main>
-        <div class="shell">
-            <div class="hero">
-                <h1>Exámenes de admisión en Perú</h1>
-                <p>Ubica las fechas de tu modalidad, revisa los plazos y abre el aviso oficial antes de inscribirte o pagar.</p>
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="shell hero-grid">
+                <div class="hero-content">
+                    <h1 id="hero-heading">Exámenes de admisión en Perú</h1>
+                    <p>Encuentra las fechas de tu modalidad, revisa los plazos de inscripción y prepara tu examen.</p>
+                    <div class="hero-actions">
+                        <a class="button button-light" href="#calendario">Ver calendario</a>
+                        <a class="button button-outline" href="/practica-admision/">Resolver ejercicios</a>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <img src="/imagenes/preparacion-admision.webp" alt="" width="960" height="640" fetchpriority="high">
+                </div>
             </div>
+        </section>
+        <div class="shell primary-grid">
             <section class="calendar" id="calendario">
-                <h2>Calendario de convocatorias</h2>
-                <p class="review-date">Fuentes consultadas el {{FECHA_REVISION}}. Horario de Perú.</p>
-                <label class="calendar-controls" id="calendar-controls" hidden>
-                    <input type="checkbox" id="show-past"> Mostrar fechas pasadas
-                </label>
+                <div class="section-heading">
+                    <div>
+                        <h2>Calendario de convocatorias</h2>
+                        <p class="review-date">Fuentes consultadas el {{FECHA_REVISION}}. Horario de Perú.</p>
+                    </div>
+                    <label class="calendar-controls" id="calendar-controls" hidden>
+                        <input type="checkbox" id="show-past"> Mostrar fechas pasadas
+                    </label>
+                </div>
                 <p id="calendar-empty" class="calendar-empty" role="status" hidden>Las fechas verificadas ya pasaron. Consulta nuevas convocatorias en el <a href="#directorio">directorio de admisión</a> o activa «Mostrar fechas pasadas» para verlas.</p>
                 <ul class="events" id="calendar-events" aria-label="Exámenes y evaluaciones" role="list">
 {{EVENTOS}}
                 </ul>
             </section>
-        </div>
-        <section class="prep" aria-labelledby="prep-heading">
-            <div class="shell prep-columns">
-                <div>
-                    <h2 id="prep-heading">Antes de elegir una fecha</h2>
+            <aside class="prep" aria-labelledby="prep-heading">
+                <div class="prep-panel">
+                    <h2 id="prep-heading">Prepara tu postulación</h2>
+                    <div class="prep-links">
+                        <div>
+                            <h3><a href="/practica-admision/">Prueba de práctica</a></h3>
+                            <p>Resuelve diez ejercicios de matemática, lógica y comprensión lectora y revisa las soluciones.</p>
+                        </div>
+                        <div>
+                            <h3><a href="/guia-preparacion-examen-admision-peru/">Plan de estudio de seis semanas</a></h3>
+                            <p>Convierte tu temario oficial en un plan y organiza el repaso con un registro de errores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="checklist">
+                    <h3>Antes de elegir una fecha</h3>
                     <ol class="steps">
-                        <li><strong>Compara modalidades.</strong> La UNAC publica fechas distintas para el examen general y el ingreso por su centro preuniversitario. Busca el nombre exacto de tu modalidad en el cronograma antes de anotarla.</li>
-                        <li><strong>Anota tres plazos.</strong> Registra el último día para pagar, el cierre de inscripción y la fecha del examen. Cuando esos plazos son distintos, pagar a tiempo solo completa una parte del trámite.</li>
-                        <li><strong>Confirma la sede y la constancia.</strong> Si el portal tiene varias sedes, revisa cuál indica tu constancia. Guarda ese documento y vuelve a consultar el aviso oficial antes de salir.</li>
+                        <li><strong>Compara modalidades.</strong> La UNAC publica fechas distintas para el examen general y el ingreso por su centro preuniversitario.</li>
+                        <li><strong>Anota tres plazos.</strong> Guarda la fecha límite de pago, el cierre de inscripción y el día del examen.</li>
+                        <li><strong>Confirma la sede.</strong> Guarda tu constancia y vuelve a consultar el aviso oficial antes de salir.</li>
                     </ol>
                 </div>
-                <div class="prep-links">
+            </aside>
+        </div>
+        <section class="directory" id="directorio">
+            <div class="shell">
+                <div class="section-heading">
                     <div>
-                        <h3><a href="/practica-admision/">Prueba de práctica</a></h3>
-                        <p>Resuelve diez ejercicios originales de matemática, lógica y comprensión lectora. Revisa las soluciones y elige qué repasar.</p>
+                        <h2>Portales oficiales de admisión</h2>
+                        <p class="section-copy">Busca tu universidad para ver otras modalidades y convocatorias. La <a href="/uni/">ficha de la UNI</a> reúne el ingreso escolar y el archivo del proceso 2026‑2.</p>
                     </div>
-                    <div>
-                        <h3><a href="/guia-preparacion-examen-admision-peru/">Plan de estudio de seis semanas</a></h3>
-                        <p>Convierte tu temario oficial en un plan y usa un registro de errores para ordenar el repaso.</p>
+                    <div class="directory-filter" id="directory-filter" hidden>
+                        <label for="directory-search">Buscar universidad</label>
+                        <input type="search" id="directory-search" placeholder="Nombre, sigla o ciudad">
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="shell directory" id="directorio">
-            <h2>Portales oficiales de admisión</h2>
-            <p class="section-copy">Consulta el portal de tu universidad para ver procesos y modalidades que no aparecen en el calendario. Para la UNI, también puedes consultar la <a href="/uni/">ficha del proceso 2026-2 y enlaces oficiales</a>.</p>
-            <div class="directory-filter" id="directory-filter" hidden>
-                <label for="directory-search">Buscar universidad</label>
-                <input type="search" id="directory-search" placeholder="Nombre, sigla o ciudad">
-                <p id="directory-empty" role="status" hidden>No hay coincidencias. Prueba con otra sigla o ciudad.</p>
-            </div>
-            <ul class="directory-list" id="directory-list" role="list">
+                <p id="directory-empty" class="calendar-empty" role="status" hidden>No hay coincidencias. Prueba con otra sigla o ciudad.</p>
+                <ul class="directory-list" id="directory-list" role="list">
 {{DIRECTORIO}}
-            </ul>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="site-footer">
-        <div class="shell">
+        <div class="shell footer-inner">
+            <p>Exámenes Perú · PSY Team</p>
             <nav class="footer-links" aria-label="Información del sitio">
                 <a href="/acerca-de/">Fuentes y metodología</a>
                 <a href="/privacidad/">Privacidad</a>
                 <a href="/uni/">Admisión UNI</a>
             </nav>
-            <p>Exámenes Perú · PSY Team</p>
         </div>
     </footer>
 </body>

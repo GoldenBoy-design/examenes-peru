@@ -22,77 +22,38 @@
       gtag('config', 'G-XVM0FBT909');
     </script>
     <script src="/practica-admision/practica.js" defer></script>
-    <style>
-        * { box-sizing: border-box; }
-        :root {
-            --bg: #f7f4ee;
-            --surface: #fffdf9;
-            --paper: #efe8dc;
-            --ink: #1c1b18;
-            --body: #4a463e;
-            --accent: #8f3525;
-            --border: rgba(28,27,24,.18);
-            --gutter: clamp(20px, 6vw, 64px);
-        }
-        body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 Inter, "Segoe UI", sans-serif; }
-        .container { max-width: 1080px; margin: 0 auto; background: var(--surface); min-height: 100vh; }
-        a { color: var(--accent); text-underline-offset: .18em; }
-        :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
-        .breadcrumb { padding: 24px var(--gutter) 0; color: var(--body); font-size: .88rem; }
-        header { padding: 28px var(--gutter) 28px; border-bottom: 1px solid var(--border); }
-        h1, h2 { margin: 0 0 14px; font-family: Georgia, serif; line-height: 1.2; }
-        h1 { font-size: clamp(2rem, 5vw, 3.3rem); }
-        h2 { font-size: clamp(1.55rem, 4vw, 2rem); }
-        p { margin: 0 0 .85rem; color: var(--body); }
-        .lead { max-width: 65ch; font-size: 1.05rem; }
-        .toc, footer nav { display: flex; flex-wrap: wrap; gap: 6px 24px; }
-        .toc { padding: 12px var(--gutter); border-bottom: 1px solid var(--border); }
-        .toc a, footer nav a { display: inline-block; padding-block: 5px; }
-        main { max-width: 88ch; padding: 0 var(--gutter) 20px; }
-        section { padding: 30px 0; border-bottom: 1px solid var(--border); }
-        .pregunta { min-width: 0; margin: 22px 0 0; padding: 0 0 22px; border: 0; border-bottom: 1px solid var(--border); }
-        .pregunta:last-child { padding-bottom: 0; border-bottom: 0; }
-        legend { width: 100%; padding: 0; font-weight: 600; }
-        .opciones { display: grid; gap: 4px; margin: 10px 0 12px; }
-        .opciones label { display: flex; align-items: baseline; gap: 10px; min-height: 38px; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
-        .opciones label:has(input:checked) { background: var(--paper); }
-        input { flex: 0 0 auto; margin-inline-start: 0; accent-color: var(--accent); }
-        details { padding: 6px 14px; border-left: 2px solid var(--accent); }
-        summary { width: fit-content; min-height: 32px; color: var(--accent); font-weight: 600; cursor: pointer; }
-        details p:last-child { margin-bottom: 8px; }
-        .lectura, #resultado { padding: 18px clamp(14px, 4vw, 24px); background: var(--paper); }
-        .lectura p:last-child { margin-bottom: 0; }
-        caption { padding-top: 8px; text-align: left; font-size: .875rem; }
-        table { border-collapse: collapse; margin-top: 6px; }
-        th, td { padding: 5px 14px 5px 0; border-bottom: 1px solid var(--border); text-align: left; }
-        #corregir { margin-bottom: 18px; padding: 10px 16px; border: 0; border-radius: 4px; background: var(--accent); color: var(--surface); font: inherit; font-weight: 600; cursor: pointer; }
-        #corregir:hover { background: #70291c; }
-        #resultado { margin-bottom: 16px; }
-        #resultado h3 { margin: 0 0 8px; }
-        #resultado dl { margin: 12px 0 0; }
-        #resultado dl div { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-top: 1px solid var(--border); }
-        #resultado dd { margin: 0; white-space: nowrap; }
-        .repaso { margin: 0 0 14px; padding-left: 1.25rem; }
-        .repaso li + li { margin-top: 8px; }
-        footer { padding: 20px var(--gutter) 26px; color: var(--body); font-size: .88rem; }
-        footer p { margin: 10px 0 0; }
-    </style>
+    <link rel="stylesheet" href="/editorial.css">
+    <link rel="stylesheet" href="/practica-admision/practica.css">
 </head>
 <body>
-<div class="container">
-    <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> › Práctica de admisión</nav>
-    <header>
+<a class="skip-link" href="#contenido">Ir al contenido</a>
+<header class="editorial-masthead">
+    <div class="editorial-shell">
+        <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
+        <nav class="editorial-nav" aria-label="Navegación principal">
+            <a href="/">Calendario</a>
+            <a href="/#directorio">Universidades</a>
+            <a href="/guia-preparacion-examen-admision-peru/">Guía de estudio</a>
+            <a href="/practica-admision/" aria-current="page">Ejercicios</a>
+        </nav>
+    </div>
+</header>
+<div class="editorial-hero">
+    <div class="editorial-shell">
+        <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> › Práctica de admisión</nav>
         <h1>Práctica de admisión</h1>
         <p class="lead">Resuelve diez ejercicios originales de matemática, lógica y lectura. Abre las soluciones después de intentarlos y usa el resultado para elegir qué repasar.</p>
         <p class="lead">Usa esta práctica como diagnóstico inicial y consulta el temario oficial de tu convocatoria para planificar el resto de tu estudio.</p>
-    </header>
-    <nav class="toc" aria-label="Contenido de la práctica">
+    </div>
+</div>
+<div class="editorial-shell reading-layout">
+    <nav class="editorial-toc" aria-label="Contenido de la práctica">
         <a href="#matematica">Matemática</a>
         <a href="#logica">Lógica</a>
         <a href="#lectura">Lectura</a>
         <a href="#repaso">Qué repasar</a>
     </nav>
-    <main>
+    <main class="editorial-main" id="contenido" tabindex="-1">
         <section id="matematica" aria-labelledby="titulo-matematica">
             <h2 id="titulo-matematica">Razonamiento matemático</h2>
 
@@ -270,7 +231,9 @@
             <p>Lleva las preguntas que quieras volver a intentar al <a href="/guia-preparacion-examen-admision-peru/#errores">registro de errores de la guía de preparación</a>.</p>
         </section>
     </main>
-    <footer>
+</div>
+<footer class="editorial-footer">
+    <div class="editorial-shell">
         <nav aria-label="Más de Exámenes Perú">
             <a href="/">Cronograma</a>
             <a href="/guia-preparacion-examen-admision-peru/">Guía de preparación</a>
@@ -278,7 +241,7 @@
             <a href="/privacidad/">Privacidad</a>
         </nav>
         <p>© 2026 PSY Team</p>
-    </footer>
-</div>
+    </div>
+</footer>
 </body>
 </html>

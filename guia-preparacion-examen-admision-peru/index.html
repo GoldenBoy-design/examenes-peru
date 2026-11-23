@@ -35,67 +35,40 @@
       gtag('js', new Date());
       gtag('config', 'G-XVM0FBT909');
     </script>
-    <style>
-        * { box-sizing: border-box; }
-        :root {
-            --bg: #f7f4ee; --surface: #fffdf9; --surface-2: #efe8dc;
-            --ink: #1c1b18; --muted: #726c60; --accent: #b3492f;
-            --border: rgba(28,27,24,.12); --font-display: Georgia, serif;
-            --font-body: Inter, "Segoe UI", sans-serif;
-        }
-        body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.75 var(--font-body); }
-        .container { max-width: 1080px; margin: 0 auto; background: var(--surface); min-height: 100vh; }
-        .breadcrumb { padding: 24px clamp(20px, 6vw, 64px) 0; color: var(--muted); font-size: .88rem; }
-        a { color: #8f3525; text-underline-offset: .18em; }
-        .breadcrumb a, .site-nav a { color: var(--ink); }
-        header { padding: 44px clamp(20px, 6vw, 64px) 36px; border-bottom: 1px solid var(--border); }
-        .eyebrow { margin: 0 0 12px; color: var(--accent); font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-        h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; }
-        h1 { max-width: 20ch; margin: 0 0 16px; font-size: clamp(2rem, 5vw, 3.25rem); }
-        .lead { max-width: 72ch; margin: 0; color: #4a463e; font-size: 1.1rem; }
-        .site-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; padding: 18px clamp(20px, 6vw, 64px); border-bottom: 1px solid var(--border); font-size: .92rem; }
-        .site-nav a { text-decoration: none; border-bottom: 1px solid var(--border); }
-        main { max-width: 82ch; padding: 0 clamp(20px, 6vw, 64px) 40px; }
-        section { padding: 34px 0; border-bottom: 1px solid var(--border); }
-        h2 { margin: 0 0 16px; font-size: 1.75rem; }
-        h3 { margin: 24px 0 8px; font-size: 1.2rem; }
-        p { margin: 0 0 14px; color: #4a463e; }
-        ul, ol { padding-left: 1.35rem; color: #4a463e; }
-        li { margin: 0 0 8px; }
-        .callout { padding: 16px 18px; border-left: 3px solid var(--accent); background: var(--surface-2); }
-        .table-wrap { overflow-x: auto; margin: 18px 0; }
-        table { width: 100%; border-collapse: collapse; text-align: left; }
-        th, td { padding: 12px 14px 12px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
-        th { color: var(--ink); font-size: .9rem; }
-        td { color: #4a463e; }
-        .error-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 0; list-style: none; }
-        .error-grid li { margin: 0; padding: 14px; background: var(--surface-2); border-radius: 8px; }
-        footer { padding: 26px clamp(20px, 6vw, 64px); border-top: 1px solid var(--border); text-align: center; color: var(--muted); font-size: .9rem; }
-        footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; margin-bottom: 8px; }
-        @media (max-width: 640px) {
-            .error-grid { grid-template-columns: 1fr; }
-            th, td { min-width: 130px; }
-        }
-    </style>
+    <link rel="stylesheet" href="/editorial.css">
 </head>
 <body>
-<div class="container">
-    <nav class="breadcrumb" aria-label="Ruta de navegación">
-        <a href="/">Inicio</a> › Guía para prepararte
-    </nav>
-    <header>
+<a class="skip-link" href="#contenido">Ir al contenido</a>
+<header class="editorial-masthead">
+    <div class="editorial-shell">
+        <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
+        <nav class="editorial-nav" aria-label="Navegación principal">
+            <a href="/">Calendario</a>
+            <a href="/#directorio">Universidades</a>
+            <a href="/guia-preparacion-examen-admision-peru/" aria-current="page">Guía de estudio</a>
+            <a href="/practica-admision/">Ejercicios</a>
+        </nav>
+    </div>
+</header>
+<div class="editorial-hero">
+    <div class="editorial-shell">
+        <nav class="breadcrumb" aria-label="Ruta de navegación">
+            <a href="/">Inicio</a> › Guía para prepararte
+        </nav>
         <p class="eyebrow">Guía práctica de estudio</p>
         <h1>Cómo prepararte para un examen de admisión</h1>
         <p class="lead">Un método para convertir el temario de tu convocatoria en un plan, practicar con propósito y llegar con los trámites revisados. Ajusta cada paso a la universidad, modalidad y fecha que te corresponden.</p>
-    </header>
-    <nav class="site-nav" aria-label="Contenido de esta guía">
+    </div>
+</div>
+<div class="editorial-shell reading-layout">
+    <nav class="editorial-toc" aria-label="Contenido de esta guía">
         <a href="#convocatoria">Revisa la convocatoria</a>
         <a href="#plan">Plan de seis semanas</a>
         <a href="#sesion">Estructura una sesión</a>
         <a href="#errores">Analiza tus errores</a>
         <a href="#examen">Antes del examen</a>
     </nav>
-    <main>
+    <main class="editorial-main" id="contenido" tabindex="-1">
         <section id="convocatoria">
             <h2>1. Empieza por la convocatoria correcta</h2>
             <p>Antes de elegir libros o resolver ejercicios, identifica el proceso al que vas a postular. Una misma universidad puede tener varias modalidades, calendarios y temarios; usar el material de otra modalidad puede hacerte perder tiempo.</p>
@@ -112,7 +85,7 @@
         <section id="plan">
             <h2>2. Plan adaptable de seis semanas</h2>
             <p>Cuenta hacia atrás desde la fecha confirmada en la convocatoria. Este ejemplo funciona como una secuencia: diagnóstico, estudio dirigido, práctica cronometrada y repaso. Si tienes menos tiempo, acorta los bloques; si tienes más, repite los ciclos de estudio y práctica.</p>
-            <div class="table-wrap">
+            <div class="table-wrap study-plan" role="region" aria-label="Plan de estudio de seis semanas" tabindex="0">
                 <table>
                     <thead>
                         <tr><th>Etapa</th><th>Qué hacer</th><th>Qué guardar</th></tr>
@@ -187,7 +160,9 @@
             <p class="callout">El cronograma de <a href="/">Exámenes Perú</a> sirve para ubicar fechas y enlaces. La convocatoria y el reglamento de la universidad son la referencia para inscribirte y rendir la prueba. Lee también <a href="/acerca-de/">cómo se presenta la información de este sitio</a>.</p>
         </section>
     </main>
-    <footer>
+</div>
+<footer class="editorial-footer">
+    <div class="editorial-shell">
         <nav aria-label="Enlaces del sitio">
             <a href="/">Cronograma</a>
             <a href="/practica-admision/">Práctica de admisión</a>
@@ -195,7 +170,7 @@
             <a href="/privacidad/">Privacidad</a>
         </nav>
         © 2026 PSY Team
-    </footer>
-</div>
+    </div>
+</footer>
 </body>
 </html>

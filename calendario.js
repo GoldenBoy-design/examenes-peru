@@ -22,6 +22,7 @@ function updateCalendar() {
         const state = event.querySelector('.event-state');
         state.textContent = past ? 'Fecha pasada' : 'Hoy';
         state.hidden = !(past || sameDay);
+        state.classList.toggle('is-past', past);
         event.querySelector('.registration-state').hidden = !event.dataset.cierre || event.dataset.cierre >= today;
         event.hidden = past && !pastToggle.checked;
     }
