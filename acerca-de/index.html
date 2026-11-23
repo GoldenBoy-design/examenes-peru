@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-PE">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/logos/favicon.png">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4574160139184005" crossorigin="anonymous"></script>
     <title>Acerca de Exámenes Perú — Fuentes y alcance del cronograma</title>
-    <meta name="description" content="Conoce cómo leer el cronograma de Exámenes Perú, qué significa su fecha de generación y dónde confirmar fechas, requisitos e inscripciones.">
+    <meta name="description" content="Conoce los criterios que usa Exámenes Perú para publicar fechas de admisión, consultar convocatorias y orientar tu preparación.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://examenesperu.netlify.app/acerca-de/">
 
@@ -16,82 +15,84 @@
     <meta property="og:site_name" content="Exámenes Perú">
     <meta property="og:locale" content="es_PE">
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XVM0FBT909"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XVM0FBT909');
-    </script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles.css">
 
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
-            --bg: #f7f4ee; --surface: #fffdf9; --surface-2: #efe8dc;
+            --bg: #f7f4ee; --surface: #fffdf9;
             --ink: #1c1b18; --muted: #726c60; --accent: #b3492f;
-            --accent-soft: #f1ded3; --border: rgba(28,27,24,0.12);
+            --border: rgba(28,27,24,0.12);
             --font-display: 'Fraunces', Georgia, serif;
             --font-body: 'Inter', "Segoe UI", sans-serif;
         }
         body { font-family: var(--font-body); background: var(--bg); color: var(--ink); line-height: 1.7; font-size: 16px; }
-        .container { max-width: 1140px; margin: 0 auto; background: var(--surface); }
+        .container { max-width: 1080px; margin: 0 auto; min-height: 100vh; background: var(--surface); }
+        a { color: #8f3525; text-underline-offset: .18em; }
         .breadcrumb { padding: 28px 56px 0; font-size: .8rem; color: var(--muted); }
         .breadcrumb a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--border); }
         header { padding: 56px 56px 40px; border-bottom: 1px solid var(--border); }
         .eyebrow { display: inline-block; font-size: .74rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; }
-        h1 { font-family: var(--font-display); font-weight: 600; font-size: 2.4rem; color: var(--ink); margin-bottom: 18px; line-height: 1.15; max-width: 22ch; }
-        section { padding: 40px 56px; border-bottom: 1px solid var(--border); max-width: 78ch; }
-        section:nth-of-type(even) { background: var(--surface-2); max-width: none; }
-        section:nth-of-type(even) > * { max-width: 78ch; }
+        h1 { font-family: var(--font-display); font-weight: 600; font-size: 2.4rem; color: var(--ink); line-height: 1.15; max-width: 24ch; }
+        section { padding: 32px 56px; border-bottom: 1px solid var(--border); }
+        section > * { max-width: 72ch; }
         h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.5rem; color: var(--ink); margin-bottom: 16px; }
         p { color: #4a463e; margin-bottom: 14px; }
         ul { color: #4a463e; margin: 0 0 14px 20px; }
         li { margin-bottom: 6px; }
-        footer { border-top: 1px solid var(--border); padding: 30px 56px; text-align: center; color: var(--muted); font-size: .85rem; }
-        footer a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--border); }
+        footer { padding: 26px 56px; text-align: center; color: var(--muted); font-size: .9rem; }
+        footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; margin-bottom: 8px; }
         @media (max-width: 768px) { header, section, .breadcrumb, footer { padding-left: 24px; padding-right: 24px; } h1 { font-size: 1.9rem; } }
     </style>
 </head>
 <body>
 <div class="container">
-    <nav class="breadcrumb"><a href="/">Inicio</a> › Acerca de</nav>
+    <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> › Acerca de</nav>
     <header>
         <span class="eyebrow">Sobre este sitio</span>
-        <h1>Qué contiene este sitio y cómo consultar sus fuentes</h1>
+        <h1>Acerca de Exámenes Perú</h1>
     </header>
 
-    <section>
-        <h2>Qué es Exámenes Perú</h2>
-        <p>Exámenes Perú es un sitio independiente que organiza fechas de exámenes de admisión de universidades públicas y privadas del Perú. No pertenece a ninguna universidad, no recibe inscripciones ni pagos y no reemplaza los reglamentos ni las convocatorias oficiales.</p>
-    </section>
+    <main>
+        <section>
+            <h2>Quién publica el sitio</h2>
+            <p>Exámenes Perú es un proyecto independiente de PSY Team para postulantes a universidades peruanas. Reúne fechas de admisión con sus fuentes y publica materiales propios para preparar el examen. La consulta y la práctica son gratuitas.</p>
+        </section>
 
-    <section>
-        <h2>Cómo leer la tabla</h2>
-        <p>La portada muestra la próxima fecha de examen que figura en el registro de cada universidad. La columna de inscripción solo presenta un periodo cuando está cargado en la ficha; “Sin información” significa que este sitio no tiene ese dato, no que la universidad carezca de convocatoria.</p>
-        <p>“Listado generado el” indica cuándo se creó la versión publicada de la tabla. No es la fecha de publicación del calendario de cada universidad ni garantiza que no haya cambios posteriores. El sitio no tiene una frecuencia fija de actualización.</p>
-    </section>
+        <section>
+            <h2>Cómo se publican las fechas</h2>
+            <p>Una fecha entra al cronograma cuando se puede corroborar en una publicación oficial del proceso. Junto a cada fecha indicamos la modalidad y enlazamos al documento o página donde se publicó. Un examen de una modalidad puede tener una fecha distinta a la del examen general de la misma universidad.</p>
+            <p>La vista inicial muestra las próximas fechas. Puedes consultar las fechas pasadas como referencia. Para postular a un proceso nuevo, revisa la convocatoria de ese ciclo.</p>
+            <p>El directorio reúne portales oficiales para que puedas consultar otras convocatorias. Si una universidad aparece solo en el directorio, busca su calendario directamente en el enlace de admisión.</p>
+            <p>Las universidades pueden cambiar el calendario después de nuestra consulta. Antes de inscribirte o pagar, abre la fuente oficial y vuelve a revisar la fecha, el cierre de inscripción y la modalidad que te corresponde.</p>
+        </section>
 
-    <section>
-        <h2>Fuentes y límites</h2>
-        <ul>
-            <li>Los enlaces de cada fila llevan al portal de admisión o a una ficha que incluye el enlace a la fuente universitaria.</li>
-            <li>Las fechas, modalidades, tarifas, documentos y temarios pueden cambiar entre convocatorias o por decisión de la universidad. Confírmalos en su portal oficial antes de inscribirte o pagar.</li>
-            <li>Exámenes Perú es una referencia para localizar información pública; no certifica vacantes, resultados ni la vigencia de una convocatoria.</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Qué puedes consultar aquí</h2>
+            <ul>
+                <li>El <a href="/">cronograma de admisión</a> y los enlaces de cada institución.</li>
+                <li>El <a href="/uni/">archivo del proceso UNI 2026-2</a> para consultar las fechas y tarifas publicadas en ese ciclo.</li>
+                <li>La <a href="/guia-preparacion-examen-admision-peru/">guía de preparación</a> para organizar el temario y revisar tus errores.</li>
+                <li>La <a href="/practica-admision/">práctica de admisión</a> con ejercicios propios y soluciones explicadas.</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Dónde hacer tus trámites</h2>
-        <p>Para inscribirte, consultar pagos, revisar documentos permitidos o preguntar por un cambio de fecha, contacta a la oficina de admisión de la universidad mediante su portal oficial. Este sitio no procesa esos trámites.</p>
-    </section>
+        <section>
+            <h2>Dónde hacer tus trámites</h2>
+            <p>Para inscribirte, comprobar un pago, resolver dudas sobre documentos o consultar vacantes y resultados, comunícate con la oficina de admisión indicada en el portal oficial de la universidad.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2026 - PSY Team all rights reserved &nbsp;·&nbsp; <a href="/">Volver a Inicio</a></p>
+        <nav aria-label="Enlaces del sitio">
+            <a href="/">Cronograma</a>
+            <a href="/guia-preparacion-examen-admision-peru/">Guía de preparación</a>
+            <a href="/practica-admision/">Práctica de admisión</a>
+            <a href="/privacidad/">Privacidad</a>
+        </nav>
+        © 2026 PSY Team
     </footer>
 </div>
 </body>

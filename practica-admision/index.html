@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/logos/favicon.png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4574160139184005" crossorigin="anonymous"></script>
+    <title>Práctica de admisión con 10 preguntas resueltas | Exámenes Perú</title>
+    <meta name="description" content="Resuelve 10 preguntas de razonamiento matemático, lógica y comprensión lectora. Revisa las soluciones paso a paso y descubre qué temas repasar.">
+    <link rel="canonical" href="https://examenesperu.netlify.app/practica-admision/">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://examenesperu.netlify.app/practica-admision/">
+    <meta property="og:title" content="Práctica de admisión con 10 preguntas resueltas">
+    <meta property="og:description" content="Ejercicios originales de matemática, lógica y lectura con soluciones y sugerencias de repaso.">
+    <meta property="og:site_name" content="Exámenes Perú">
+    <meta property="og:locale" content="es_PE">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XVM0FBT909"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XVM0FBT909');
+    </script>
+    <script src="/practica-admision/practica.js" defer></script>
+    <style>
+        * { box-sizing: border-box; }
+        :root {
+            --bg: #f7f4ee;
+            --surface: #fffdf9;
+            --paper: #efe8dc;
+            --ink: #1c1b18;
+            --body: #4a463e;
+            --accent: #8f3525;
+            --border: rgba(28,27,24,.18);
+            --gutter: clamp(20px, 6vw, 64px);
+        }
+        body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 Inter, "Segoe UI", sans-serif; }
+        .container { max-width: 1080px; margin: 0 auto; background: var(--surface); min-height: 100vh; }
+        a { color: var(--accent); text-underline-offset: .18em; }
+        :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+        .breadcrumb { padding: 24px var(--gutter) 0; color: var(--body); font-size: .88rem; }
+        header { padding: 28px var(--gutter) 28px; border-bottom: 1px solid var(--border); }
+        h1, h2 { margin: 0 0 14px; font-family: Georgia, serif; line-height: 1.2; }
+        h1 { font-size: clamp(2rem, 5vw, 3.3rem); }
+        h2 { font-size: clamp(1.55rem, 4vw, 2rem); }
+        p { margin: 0 0 .85rem; color: var(--body); }
+        .lead { max-width: 65ch; font-size: 1.05rem; }
+        .toc, footer nav { display: flex; flex-wrap: wrap; gap: 6px 24px; }
+        .toc { padding: 12px var(--gutter); border-bottom: 1px solid var(--border); }
+        .toc a, footer nav a { display: inline-block; padding-block: 5px; }
+        main { max-width: 88ch; padding: 0 var(--gutter) 20px; }
+        section { padding: 30px 0; border-bottom: 1px solid var(--border); }
+        .pregunta { min-width: 0; margin: 22px 0 0; padding: 0 0 22px; border: 0; border-bottom: 1px solid var(--border); }
+        .pregunta:last-child { padding-bottom: 0; border-bottom: 0; }
+        legend { width: 100%; padding: 0; font-weight: 600; }
+        .opciones { display: grid; gap: 4px; margin: 10px 0 12px; }
+        .opciones label { display: flex; align-items: baseline; gap: 10px; min-height: 38px; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+        .opciones label:has(input:checked) { background: var(--paper); }
+        input { flex: 0 0 auto; margin-inline-start: 0; accent-color: var(--accent); }
+        details { padding: 6px 14px; border-left: 2px solid var(--accent); }
+        summary { width: fit-content; min-height: 32px; color: var(--accent); font-weight: 600; cursor: pointer; }
+        details p:last-child { margin-bottom: 8px; }
+        .lectura, #resultado { padding: 18px clamp(14px, 4vw, 24px); background: var(--paper); }
+        .lectura p:last-child { margin-bottom: 0; }
+        caption { padding-top: 8px; text-align: left; font-size: .875rem; }
+        table { border-collapse: collapse; margin-top: 6px; }
+        th, td { padding: 5px 14px 5px 0; border-bottom: 1px solid var(--border); text-align: left; }
+        #corregir { margin-bottom: 18px; padding: 10px 16px; border: 0; border-radius: 4px; background: var(--accent); color: var(--surface); font: inherit; font-weight: 600; cursor: pointer; }
+        #corregir:hover { background: #70291c; }
+        #resultado { margin-bottom: 16px; }
+        #resultado h3 { margin: 0 0 8px; }
+        #resultado dl { margin: 12px 0 0; }
+        #resultado dl div { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-top: 1px solid var(--border); }
+        #resultado dd { margin: 0; white-space: nowrap; }
+        .repaso { margin: 0 0 14px; padding-left: 1.25rem; }
+        .repaso li + li { margin-top: 8px; }
+        footer { padding: 20px var(--gutter) 26px; color: var(--body); font-size: .88rem; }
+        footer p { margin: 10px 0 0; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> › Práctica de admisión</nav>
+    <header>
+        <h1>Práctica de admisión</h1>
+        <p class="lead">Resuelve diez ejercicios originales de matemática, lógica y lectura. Abre las soluciones después de intentarlos y usa el resultado para elegir qué repasar.</p>
+        <p class="lead">Usa esta práctica como diagnóstico inicial y consulta el temario oficial de tu convocatoria para planificar el resto de tu estudio.</p>
+    </header>
+    <nav class="toc" aria-label="Contenido de la práctica">
+        <a href="#matematica">Matemática</a>
+        <a href="#logica">Lógica</a>
+        <a href="#lectura">Lectura</a>
+        <a href="#repaso">Qué repasar</a>
+    </nav>
+    <main>
+        <section id="matematica" aria-labelledby="titulo-matematica">
+            <h2 id="titulo-matematica">Razonamiento matemático</h2>
+
+            <fieldset class="pregunta" data-correcta="b">
+                <legend>1. Una mochila cuesta S/ 150. La tienda aplica un descuento de 20 % y luego resta otro 10 % sobre el precio rebajado. ¿Cuánto cuesta al final?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p1" value="a"> A. S/ 105</label>
+                    <label><input type="radio" name="p1" value="b"> B. S/ 108</label>
+                    <label><input type="radio" name="p1" value="c"> C. S/ 120</label>
+                    <label><input type="radio" name="p1" value="d"> D. S/ 135</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 1</summary>
+                    <p><strong>B. S/ 108.</strong> El primer descuento es el 20 % de 150, es decir, S/ 30. El precio baja a S/ 120. La segunda rebaja se calcula sobre esos S/ 120 y equivale a S/ 12. Al restarla, quedan S/ 108. Un descuento único de 30 % daría S/ 105 porque ambos porcentajes usarían como base el precio inicial.</p>
+                </details>
+            </fieldset>
+
+            <fieldset class="pregunta" data-correcta="b">
+                <legend>2. Ana tiene que caminar 2,4 km. Antes de una pausa recorre 3/8 del camino y después avanza otro 1/4 de la distancia total. ¿Cuánto le falta?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p2" value="a"> A. 0,6 km</label>
+                    <label><input type="radio" name="p2" value="b"> B. 0,9 km</label>
+                    <label><input type="radio" name="p2" value="c"> C. 1,5 km</label>
+                    <label><input type="radio" name="p2" value="d"> D. 1,8 km</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 2</summary>
+                    <p><strong>B. 0,9 km.</strong> Cambia 1/4 por su equivalente 2/8. Ana avanzó 3/8 + 2/8, que son 5/8 del recorrido. Le faltan 3/8. Divide 2,4 km entre 8 para obtener 0,3 km por cada octavo y multiplica por 3. Los 1,5 km de la opción C corresponden al tramo que ya recorrió.</p>
+                </details>
+            </fieldset>
+
+            <fieldset class="pregunta" data-correcta="c">
+                <legend>3. En dos aulas hay 72 postulantes en total. El aula A tiene 12 postulantes más que el aula B. ¿Cuántos hay en el aula A?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p3" value="a"> A. 30</label>
+                    <label><input type="radio" name="p3" value="b"> B. 36</label>
+                    <label><input type="radio" name="p3" value="c"> C. 42</label>
+                    <label><input type="radio" name="p3" value="d"> D. 48</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 3</summary>
+                    <p><strong>C. 42.</strong> Si quitas los 12 postulantes extra del aula A, ambas aulas tendrían la misma cantidad y quedarían 60 en total. Eso da 30 en el aula B. Al sumar los 12 extra recuperas los 42 del aula A. Comprueba que 42 + 30 = 72 y que la diferencia es 12.</p>
+                </details>
+            </fieldset>
+
+            <fieldset class="pregunta" data-correcta="c">
+                <legend>4. La biblioteca quiere registrar un promedio de 26 préstamos diarios de lunes a viernes. ¿Cuántos préstamos necesita el viernes para alcanzar exactamente ese promedio?</legend>
+                <table>
+                    <caption>Préstamos registrados antes del viernes</caption>
+                    <thead><tr><th scope="col">Día</th><th scope="col">Préstamos</th></tr></thead>
+                    <tbody>
+                        <tr><th scope="row">Lunes</th><td>18</td></tr>
+                        <tr><th scope="row">Martes</th><td>26</td></tr>
+                        <tr><th scope="row">Miércoles</th><td>22</td></tr>
+                        <tr><th scope="row">Jueves</th><td>34</td></tr>
+                    </tbody>
+                </table>
+                <div class="opciones">
+                    <label><input type="radio" name="p4" value="a"> A. 26</label>
+                    <label><input type="radio" name="p4" value="b"> B. 28</label>
+                    <label><input type="radio" name="p4" value="c"> C. 30</label>
+                    <label><input type="radio" name="p4" value="d"> D. 32</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 4</summary>
+                    <p><strong>C. 30.</strong> Un promedio de 26 durante cinco días requiere 26 × 5 = 130 préstamos en total. Los cuatro días de la tabla suman 18 + 26 + 22 + 34 = 100. Faltan 30. Si el viernes registrara 26, el promedio sería 126 ÷ 5 = 25,2.</p>
+                </details>
+            </fieldset>
+        </section>
+
+        <section id="logica" aria-labelledby="titulo-logica">
+            <h2 id="titulo-logica">Razonamiento lógico</h2>
+
+            <fieldset class="pregunta" data-correcta="a">
+                <legend>5. Cuatro estudiantes exponen por turnos. Luz va antes que Omar. Nadia va después de Omar. Raúl va antes que Luz. ¿Quién expone en tercer lugar?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p5" value="a"> A. Omar</label>
+                    <label><input type="radio" name="p5" value="b"> B. Luz</label>
+                    <label><input type="radio" name="p5" value="c"> C. Nadia</label>
+                    <label><input type="radio" name="p5" value="d"> D. Raúl</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 5</summary>
+                    <p><strong>A. Omar.</strong> Primero coloca a Luz antes de Omar y a Nadia después de Omar. La secuencia parcial es Luz, Omar, Nadia. Raúl va antes de Luz, así que el orden completo queda Raúl, Luz, Omar y Nadia.</p>
+                </details>
+            </fieldset>
+
+            <fieldset class="pregunta" data-correcta="d">
+                <legend>6. Los libros de la colección de reserva solo pueden retirarse de la sala si su salida se registra en recepción. Un atlas de esa colección fue retirado según la regla. ¿Qué puedes afirmar?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p6" value="a"> A. El atlas fue el primer libro registrado ese día.</label>
+                    <label><input type="radio" name="p6" value="b"> B. Todos los libros registrados ese día salieron de la sala.</label>
+                    <label><input type="radio" name="p6" value="c"> C. El atlas regresó a la sala ese mismo día.</label>
+                    <label><input type="radio" name="p6" value="d"> D. La salida del atlas se registró en recepción.</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 6</summary>
+                    <p><strong>D. La salida del atlas se registró en recepción.</strong> «Solo si» expresa un requisito. Si un libro de la colección salió siguiendo la regla, el registro tuvo que hacerse. La regla se aplica a la salida, así que deja abiertas preguntas sobre el orden de los registros o la devolución.</p>
+                </details>
+            </fieldset>
+
+            <fieldset class="pregunta" data-correcta="a">
+                <legend>7. En un salón de 30 estudiantes, 18 se inscribieron en un taller de arte, 17 en uno de ciencia y 9 en ambos. ¿Cuántos se quedaron sin inscribirse en ningún taller?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p7" value="a"> A. 4</label>
+                    <label><input type="radio" name="p7" value="b"> B. 5</label>
+                    <label><input type="radio" name="p7" value="c"> C. 9</label>
+                    <label><input type="radio" name="p7" value="d"> D. 13</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 7</summary>
+                    <p><strong>A. 4.</strong> Al sumar 18 + 17 cuentas dos veces a los 9 estudiantes que van a ambos talleres. Resta 9 una vez para obtener 26 estudiantes inscritos en al menos un taller. Los 4 restantes salen de 30 − 26.</p>
+                </details>
+            </fieldset>
+        </section>
+
+        <section id="lectura" aria-labelledby="titulo-lectura">
+            <h2 id="titulo-lectura">Comprensión lectora</h2>
+            <div class="lectura">
+                <p>En marzo, una biblioteca barrial amplió su horario entre semana hasta las ocho de la noche. En abril aumentaron los préstamos respecto de febrero. Durante abril, además, dos colegios cercanos iniciaron sus ferias de lectura. La encargada propuso registrar la hora de cada préstamo y comparar meses con y sin ferias antes de decidir si ampliar el horario también los sábados.</p>
+            </div>
+
+            <fieldset class="pregunta" data-correcta="d">
+                <legend>8. ¿Qué decisión queda pendiente al final del texto?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p8" value="a"> A. Si la biblioteca abrirá entre semana.</label>
+                    <label><input type="radio" name="p8" value="b"> B. Si los colegios iniciarán sus ferias de lectura.</label>
+                    <label><input type="radio" name="p8" value="c"> C. Si se debe reducir el horario entre semana.</label>
+                    <label><input type="radio" name="p8" value="d"> D. Si se extenderá el horario también los sábados.</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 8</summary>
+                    <p><strong>D. Si se extenderá el horario también los sábados.</strong> La última oración indica qué información quiere reunir la encargada «antes de decidir». El cambio entre semana y el inicio de las ferias ya ocurrieron, según las primeras oraciones.</p>
+                </details>
+            </fieldset>
+
+            <fieldset class="pregunta" data-correcta="b">
+                <legend>9. ¿Por qué es importante que el texto mencione las ferias de lectura?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p9" value="a"> A. Demuestran que la biblioteca debe cerrar más tarde los sábados.</label>
+                    <label><input type="radio" name="p9" value="b"> B. Introducen otro factor que pudo contribuir al aumento de préstamos.</label>
+                    <label><input type="radio" name="p9" value="c"> C. Explican por qué cambió el horario de marzo.</label>
+                    <label><input type="radio" name="p9" value="d"> D. Confirman que el aumento se produjo solo después de las seis.</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 9</summary>
+                    <p><strong>B. Introducen otro factor que pudo contribuir al aumento de préstamos.</strong> Los colegios organizaron sus ferias durante abril, el mismo mes en que aumentaron los préstamos. Ese dato permite plantear otra explicación y ayuda a entender por qué la encargada quiere comparar meses con y sin ferias. El texto solo establece que ambas cosas ocurrieron en abril.</p>
+                </details>
+            </fieldset>
+
+            <fieldset class="pregunta" data-correcta="c">
+                <legend>10. ¿Qué información permitiría contar los préstamos hechos en el nuevo tramo del horario?</legend>
+                <div class="opciones">
+                    <label><input type="radio" name="p10" value="a"> A. El número de colegios con feria durante abril.</label>
+                    <label><input type="radio" name="p10" value="b"> B. El total mensual de préstamos de abril.</label>
+                    <label><input type="radio" name="p10" value="c"> C. La hora de cierre anterior y la hora de cada préstamo.</label>
+                    <label><input type="radio" name="p10" value="d"> D. La hora de apertura de la biblioteca en febrero.</label>
+                </div>
+                <details><summary>Ver solución de la pregunta 10</summary>
+                    <p><strong>C. La hora de cierre anterior y la hora de cada préstamo.</strong> El cierre anterior marca el inicio del tramo añadido. Con la hora de cada transacción de lunes a viernes puedes contar los préstamos entre ese límite y las ocho de la noche. Un total mensual reúne los préstamos de todo el horario.</p>
+                </details>
+            </fieldset>
+        </section>
+
+        <section id="repaso">
+            <h2>Qué repasar después de resolver</h2>
+            <button type="button" id="corregir" aria-controls="resultado" hidden>Ver aciertos por área</button>
+            <div id="resultado" hidden>
+                <h3 id="titulo-resultado" tabindex="-1">Tu resultado</h3>
+                <p id="resumen-resultado" role="status"></p>
+                <dl>
+                    <div><dt>Razonamiento matemático</dt><dd data-area="matematica"></dd></div>
+                    <div><dt>Razonamiento lógico</dt><dd data-area="logica"></dd></div>
+                    <div><dt>Comprensión lectora</dt><dd data-area="lectura"></dd></div>
+                </dl>
+            </div>
+            <noscript><p>Abre las soluciones de cada pregunta para contar tus aciertos por sección.</p></noscript>
+            <p>Empieza por el área con la menor proporción de aciertos. Incluye en tu revisión las preguntas que acertaste por descarte o con dudas.</p>
+            <ul class="repaso">
+                <li><strong>Matemática.</strong> Antes de operar, escribe qué representa cada número y cuál es la base del porcentaje o la fracción. En un problema de promedio, calcula primero el total requerido.</li>
+                <li><strong>Lógica.</strong> Pasa las condiciones a un orden, a una relación de requisito o a dos grupos que se cruzan. Comprueba tu opción con cada condición del enunciado.</li>
+                <li><strong>Lectura.</strong> Subraya la frase que respalda tu respuesta. Si la pregunta pide una inferencia, explica en una oración cómo conectaste esa frase con la opción elegida.</li>
+            </ul>
+            <p>Lleva las preguntas que quieras volver a intentar al <a href="/guia-preparacion-examen-admision-peru/#errores">registro de errores de la guía de preparación</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <nav aria-label="Más de Exámenes Perú">
+            <a href="/">Cronograma</a>
+            <a href="/guia-preparacion-examen-admision-peru/">Guía de preparación</a>
+            <a href="/acerca-de/">Acerca de Exámenes Perú</a>
+            <a href="/privacidad/">Privacidad</a>
+        </nav>
+        <p>© 2026 PSY Team</p>
+    </footer>
+</div>
+</body>
+</html>

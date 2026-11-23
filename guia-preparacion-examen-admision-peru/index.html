@@ -71,6 +71,7 @@
         .error-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 0; list-style: none; }
         .error-grid li { margin: 0; padding: 14px; background: var(--surface-2); border-radius: 8px; }
         footer { padding: 26px clamp(20px, 6vw, 64px); border-top: 1px solid var(--border); text-align: center; color: var(--muted); font-size: .9rem; }
+        footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; margin-bottom: 8px; }
         @media (max-width: 640px) {
             .error-grid { grid-template-columns: 1fr; }
             th, td { min-width: 130px; }
@@ -170,6 +171,7 @@
                 <li><strong>Tiempo:</strong> tardé demasiado, me quedé atascado o no reservé tiempo para revisar.</li>
             </ul>
             <p>Para cada error anota: tema, causa, explicación correcta y cuándo volverás a intentarlo. Si repites el error, cambia la tarea: busca una explicación más clara, resuelve un ejemplo guiado y luego vuelve a probar sin ayuda.</p>
+            <p>Pon a prueba este método con un <a href="/practica-admision/">ejercicio de razonamiento de nuestra práctica de admisión</a>. Compara tu procedimiento con la solución explicada y anota qué revisar antes del siguiente intento.</p>
         </section>
 
         <section id="examen">
@@ -186,8 +188,13 @@
         </section>
     </main>
     <footer>
-        <a href="/">Volver al cronograma</a> · <a href="/acerca-de/">Acerca de Exámenes Perú</a><br>
-        © 2026 - PSY Team all rights reserved
+        <nav aria-label="Enlaces del sitio">
+            <a href="/">Cronograma</a>
+            <a href="/practica-admision/">Práctica de admisión</a>
+            <a href="/acerca-de/">Acerca de Exámenes Perú</a>
+            <a href="/privacidad/">Privacidad</a>
+        </nav>
+        © 2026 PSY Team
     </footer>
 </div>
 </body>

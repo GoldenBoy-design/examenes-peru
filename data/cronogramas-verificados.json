@@ -1,0 +1,130 @@
+{
+  "revision": "2026-11-22",
+  "eventos": [
+    {
+      "institucion": "beca18",
+      "fecha": "2026-11-22",
+      "proceso": "Beca 18, convocatoria 2027 · Examen Nacional de Preselección",
+      "inscripcion": {"inicio": "2026-10-09", "fin": "2026-10-18"},
+      "nota": "Pronabec publica la lista de preseleccionados el 23 de diciembre de 2026.",
+      "fuente": "https://www.pronabec.gob.pe/beca-18/"
+    },
+    {
+      "institucion": "ucv",
+      "fecha": "2026-11-22",
+      "proceso": "Examen ordinario 2026-II · Fase C",
+      "fuente": "https://www.ucv.edu.pe/examen-ordinario-de-admision"
+    },
+    {
+      "institucion": "pucp",
+      "fecha": "2026-11-29",
+      "proceso": "Admisión 2027-1 · La Primera Opción y Rendimiento Superior, tercera convocatoria",
+      "inscripcion": {"fin": "2026-11-20"},
+      "fuente": "https://admision.pucp.edu.pe/guia-del-postulante"
+    },
+    {
+      "institucion": "upc",
+      "fecha": "2026-12-05",
+      "proceso": "Admisión de pregrado · Examen 1 para el inicio de clases de marzo de 2027",
+      "fuente": "https://upc.edu.pe/admision/cronograma-de-admision/"
+    },
+    {
+      "institucion": "ucsp",
+      "fecha": "2026-12-13",
+      "proceso": "Examen de conocimientos",
+      "inscripcion": {"fin": "2026-12-10"},
+      "nota": "El plazo de inscripción vence a las 19:00. Medicina tiene un horario de examen distinto.",
+      "fuente": "https://admision.ucsp.edu.pe/admision-informacion/"
+    },
+    {
+      "institucion": "ucv",
+      "fecha": "2026-12-13",
+      "proceso": "Examen ordinario 2026-II · Fase D",
+      "fuente": "https://www.ucv.edu.pe/examen-ordinario-de-admision"
+    },
+    {
+      "institucion": "unac",
+      "fecha": "2026-12-13",
+      "proceso": "Admisión 2026-II · Centro Pre y otras modalidades",
+      "inscripcion": {"inicio": "2026-10-13", "fin": "2026-12-10"},
+      "nota": "El cronograma fija el último día de pago el 7 de diciembre.",
+      "fuente": "https://admision.unac.edu.pe/cronograma/"
+    },
+    {
+      "institucion": "uni",
+      "fecha": "2026-12-13",
+      "proceso": "Ingreso Escolar Nacional 2027-1 · Quinto de secundaria",
+      "inscripcion": {"inicio": "2026-10-19", "fin": "2026-12-07"},
+      "nota": "El mismo cronograma incluye la modalidad Talento Beca 18.",
+      "fuente": "https://ien.admision.uni.edu.pe/"
+    },
+    {
+      "institucion": "unac",
+      "fecha": "2026-12-20",
+      "proceso": "Admisión 2026-II · Examen general",
+      "inscripcion": {"inicio": "2026-10-13", "fin": "2026-12-17"},
+      "nota": "El cronograma fija el último día de pago el 16 de diciembre.",
+      "fuente": "https://admision.unac.edu.pe/cronograma/"
+    },
+    {
+      "institucion": "ucv",
+      "fecha": "2027-01-24",
+      "proceso": "Examen ordinario 2026-II · Fase E",
+      "fuente": "https://www.ucv.edu.pe/examen-ordinario-de-admision"
+    },
+    {
+      "institucion": "pucp",
+      "fecha": "2027-02-21",
+      "proceso": "Admisión 2027-1 · Evaluación del Talento",
+      "fuente": "https://admision.pucp.edu.pe/guia-del-postulante"
+    },
+    {
+      "institucion": "ucv",
+      "fecha": "2027-02-28",
+      "proceso": "Examen ordinario 2026-II · Fase F",
+      "fuente": "https://www.ucv.edu.pe/examen-ordinario-de-admision"
+    },
+    {
+      "institucion": "urp",
+      "fecha": "2027-03-05",
+      "proceso": "Admisión 2027-I · Examen general",
+      "inscripcion": {"inicio": "2027-02-08", "fin": "2027-03-02"},
+      "fuente": "https://www.urp.edu.pe/modalidad-de-ingreso/"
+    },
+    {
+      "institucion": "unsa",
+      "fecha": "2027-03-14",
+      "proceso": "Admisión 2027, Ordinario II Fase · Evaluación de conocimientos",
+      "inscripcion": {"inicio": "2027-02-01", "fin": "2027-02-26"},
+      "nota": "El cronograma fija el 7 de marzo para la evaluación previa de Arquitectura y Artes.",
+      "fuente": "https://transparencia.unsa.edu.pe/bitstream/handle/123456789/1776/RCU-0024-2026.pdf?isAllowed=y&sequence=1"
+    },
+    {
+      "institucion": "upc",
+      "fecha": "2027-03-20",
+      "proceso": "Admisión de pregrado · Examen 2 para el inicio de clases de marzo de 2027",
+      "fuente": "https://upc.edu.pe/admision/cronograma-de-admision/"
+    },
+    {
+      "institucion": "ucv",
+      "fecha": "2027-03-21",
+      "proceso": "Examen ordinario 2026-II · Fase G",
+      "fuente": "https://www.ucv.edu.pe/examen-ordinario-de-admision"
+    }
+  ],
+  "directorio": [
+    {"institucion": "pucp", "portal": "https://admision.pucp.edu.pe/"},
+    {"institucion": "ucsp", "portal": "https://admision.ucsp.edu.pe/"},
+    {"institucion": "ucv", "portal": "https://www.ucv.edu.pe/postula", "sede": "Varias sedes"},
+    {"institucion": "ulima", "portal": "https://www.ulima.edu.pe/admision"},
+    {"institucion": "unac", "portal": "https://admision.unac.edu.pe/"},
+    {"institucion": "uni", "portal": "https://www.admision.uni.edu.pe/"},
+    {"institucion": "unmsm", "portal": "https://admision.unmsm.edu.pe/portal/"},
+    {"institucion": "unsa", "portal": "https://transparencia.unsa.edu.pe/handle/123456789/38"},
+    {"institucion": "unsaac", "portal": "https://admision.unsaac.edu.pe/"},
+    {"institucion": "upc", "portal": "https://upc.edu.pe/admision/"},
+    {"institucion": "upch", "portal": "https://cayetano.edu.pe/admision/cronograma-y-modalidades/"},
+    {"institucion": "urp", "portal": "https://www.urp.edu.pe/admision/"},
+    {"institucion": "utp", "portal": "https://www.utp.edu.pe/web/postulante", "sede": "Varias sedes"}
+  ]
+}

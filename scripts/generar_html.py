@@ -1,102 +1,110 @@
 """
-Genera index.html a partir de data/universidades.json.
+Genera la portada con las convocatorias cotejadas con fuentes oficiales.
 
-Regla central: solo se incluyen universidades con estado_proceso == "abierto".
-Si una universidad ya cerró su proceso (o el script determina que la fecha ya
-pasó), se excluye automáticamente del HTML, aunque el registro siga en el JSON
-para reutilizarlo el próximo año.
-
-Uso:
-    python scripts/generar_html.py
+Los scripts de búsqueda guardan sus hallazgos en universidades.json. Las fechas
+públicas proceden de cronogramas-verificados.json y se incorporan tras revisar
+el aviso de la institución y la modalidad que le corresponde.
 """
 
 import json
-from datetime import date, datetime
+from datetime import date
+from html import escape
 from pathlib import Path
+from urllib.parse import urlsplit
 
-RAIZ = Path(__file__).resolve().parent.parent
-JSON_PATH = RAIZ / "data" / "universidades.json"
-SALIDA_HTML = RAIZ / "index.html"
-SALIDA_SITEMAP = RAIZ / "sitemap.xml"
-
-MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
-         "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
-
-
-def formatear_fecha(iso: str) -> str:
-    d = datetime.strptime(iso, "%Y-%m-%d").date()
-    return f"{d.day:02d} de {MESES[d.month - 1]}, {d.year}"
+RAIZ = Path(__file__).resolve().parents[1]
+ADSENSE = (
+    '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+    '?client=ca-pub-4574160139184005" crossorigin="anonymous"></script>'
+)
+MESES = [
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+]
 
 
-def formatear_rango_inscripcion(inscripcion: dict) -> str:
-    if not inscripcion.get("inicio") or not inscripcion.get("fin"):
-        return inscripcion.get("nota", "Sin información")
-    di = datetime.strptime(inscripcion["inicio"], "%Y-%m-%d").date()
-    df = datetime.strptime(inscripcion["fin"], "%Y-%m-%d").date()
-    return f"{di.day:02d} {MESES[di.month-1][:3]} - {df.day:02d} {MESES[df.month-1][:3]}"
+def fecha_html(valor: str) -> str:
+    fecha = date.fromisoformat(valor)
+    texto = f"{fecha.day} de {MESES[fecha.month - 1]} de {fecha.year}"
+    return f'<time datetime="{fecha.isoformat()}">{texto}</time>'
 
 
-def universidad_esta_vigente(u: dict, hoy: date) -> bool:
-    """Una universidad se publica solo si su proceso está marcado como abierto
-    Y al menos una de sus fechas de examen es hoy o futura."""
-    if u.get("estado_proceso") != "abierto":
-        return False
-    fechas = [datetime.strptime(f, "%Y-%m-%d").date() for f in u.get("fechas_examen", [])]
-    if not fechas:
-        return False
-    return any(f >= hoy for f in fechas)
+def enlace_oficial(url: str, texto: str, contexto: str) -> str:
+    destino = urlsplit(url)
+    if destino.scheme != "https" or not destino.hostname:
+        raise ValueError(f"Se requiere un enlace HTTPS institucional: {url}")
+    etiqueta = escape(f"{texto} de {contexto}")
+    return f'<a href="{escape(url)}" aria-label="{etiqueta}">{escape(texto)}</a>'
 
 
-def generar_fila(u: dict, hoy: date) -> str:
-    fechas = [datetime.strptime(f, "%Y-%m-%d").date() for f in u["fechas_examen"]]
-    # Mostramos la PRÓXIMA fecha vigente, no la más antigua del historial.
-    # Antes, una universidad con fechas pasadas y futuras mezcladas (p.ej.
-    # un examen de julio ya rendido + uno nuevo de septiembre agregado por
-    # el scraper) seguía mostrando la de julio porque min() ignora si ya pasó.
-    futuras = [f for f in fechas if f >= hoy]
-    fecha_principal = min(futuras) if futuras else min(fechas)
-    fecha_txt = formatear_fecha(fecha_principal.isoformat())
-    inscripcion_txt = formatear_rango_inscripcion(u["inscripcion"])
-    link = u["pagina_propia"] if u.get("pagina_propia") else u["url_oficial"]
-    texto_boton = "Ver fechas y requisitos" if u.get("pagina_propia") else "Más Info"
-    target = "" if u.get("pagina_propia") else ' target="_blank"'
+def ficha_evento(evento: dict, instituciones: dict) -> str:
+    institucion = instituciones[evento["institucion"]]
+    siglas = institucion["siglas"]
+    proceso = escape(evento["proceso"])
+    inscripcion = evento.get("inscripcion", {})
+    inicio = inscripcion.get("inicio")
+    fin = inscripcion.get("fin")
 
+    if inicio and fin:
+        if date.fromisoformat(inicio) > date.fromisoformat(fin):
+            raise ValueError(f"Fechas de inscripción invertidas: {proceso}")
+        plazo = f"Del {fecha_html(inicio)} al {fecha_html(fin)}"
+    elif fin:
+        plazo = f"Hasta el {fecha_html(fin)}"
+    else:
+        plazo = "Consulta el plazo en la fuente"
+
+    fuente = enlace_oficial(evento["fuente"], "Ver convocatoria oficial", siglas)
+    fecha = date.fromisoformat(evento["fecha"]).isoformat()
+    cierre = date.fromisoformat(fin).isoformat() if fin else ""
+    nota = f'\n                    <p class="event-note">{escape(evento["nota"])}</p>' if evento.get("nota") else ""
     return f"""
-<tr>
-    <td class="universidad"><span class="logo-box"><img src="{u['logo']}" alt="Logo {u['siglas']}"></span><span class="uni-name">{u['nombre']} ({u['siglas']})</span></td>
-    <td class="provincia">{u['provincia']}</td>
-    <td><span class="modalidad">{u['modalidad']}</span></td>
-    <td class="fecha">{fecha_txt}</td>
-    <td>{inscripcion_txt}</td>
-    <td><a href="{link}"{target} class="btn-info">{texto_boton}</a></td>
-</tr>"""
+            <li class="event" data-fecha="{fecha}" data-cierre="{cierre}">
+                <div class="event-date">{fecha_html(fecha)}<span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <h3>{escape(siglas)}</h3>
+                    <p>{proceso}</p>{nota}
+                </div>
+                <div class="event-deadline">
+                    <p><strong>Inscripción</strong></p>
+                    <p>{plazo}</p>
+                    <p class="registration-state" hidden>Plazo vencido</p>
+                    {fuente}
+                </div>
+            </li>"""
+
+
+def ficha_directorio(registro: dict, instituciones: dict) -> str:
+    institucion = instituciones[registro["institucion"]]
+    siglas = institucion["siglas"]
+    nombre = escape(institucion["nombre"])
+    sede = escape(registro.get("sede", institucion["provincia"]))
+    enlace = enlace_oficial(registro["portal"], "Portal de admisión", siglas)
+    return f"""
+            <li>
+                <h3>{escape(siglas)}</h3>
+                <p>{nombre}</p>
+                <p class="directory-location">{sede}</p>
+                {enlace}
+            </li>"""
 
 
 def main():
-    hoy = date.today()
-    data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
-
-    vigentes = [u for u in data["universidades"] if universidad_esta_vigente(u, hoy)]
-    excluidas = [u for u in data["universidades"] if u not in vigentes]
-
-    vigentes.sort(key=lambda u: min(
-        datetime.strptime(f, "%Y-%m-%d").date()
-        for f in u["fechas_examen"]
-        if datetime.strptime(f, "%Y-%m-%d").date() >= hoy
-    ))
-
-    filas_html = "\n".join(generar_fila(u, hoy) for u in vigentes)
-
-    plantilla = (RAIZ / "templates" / "index.template.html").read_text(encoding="utf-8")
-    html_final = plantilla.replace("{{FILAS_UNIVERSIDADES}}", filas_html)
-    html_final = html_final.replace("{{FECHA_ACTUALIZACION}}", formatear_fecha(hoy.isoformat()))
-
-    SALIDA_HTML.write_text(html_final, encoding="utf-8")
-
-    print(f"✅ index.html generado con {len(vigentes)} universidades vigentes")
-    if excluidas:
-        nombres = ", ".join(u["siglas"] for u in excluidas)
-        print(f"⏸️  Excluidas por estar cerradas o sin fecha vigente: {nombres}")
+    datos = json.loads((RAIZ / "data/cronogramas-verificados.json").read_text(encoding="utf-8"))
+    registro = json.loads((RAIZ / "data/universidades.json").read_text(encoding="utf-8"))
+    instituciones = {item["id"]: item for item in registro["universidades"]}
+    plantilla = (RAIZ / "templates/index.template.html").read_text(encoding="utf-8")
+    eventos = sorted(datos["eventos"], key=lambda evento: (evento["fecha"], evento["institucion"]))
+    directorio = sorted(datos["directorio"], key=lambda entrada: instituciones[entrada["institucion"]]["siglas"])
+    html = (
+        plantilla
+        .replace("{{ADSENSE}}", ADSENSE)
+        .replace("{{FECHA_REVISION}}", fecha_html(datos["revision"]))
+        .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones) for evento in eventos))
+        .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, instituciones) for entrada in directorio))
+    )
+    (RAIZ / "index.html").write_text(html, encoding="utf-8", newline="\n")
+    print(f"Portada generada con {len(eventos)} fechas cotejadas y {len(directorio)} portales de admisión.")
 
 
 if __name__ == "__main__":

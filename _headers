@@ -1,0 +1,8 @@
+/templates/*
+  X-Robots-Tag: noindex
+
+/scripts/*
+  X-Robots-Tag: noindex
+
+/data/*
+  X-Robots-Tag: noindex
