@@ -52,6 +52,7 @@ h3 { font-size: 1rem; line-height: 1.35; }
 .section-heading { display: flex; gap: 14px 24px; align-items: end; justify-content: space-between; flex-wrap: wrap; }
 .review-date, .section-copy { margin-top: 8px; color: var(--muted); }
 .review-date { font-size: .86rem; }
+.calendar-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .calendar-controls { display: inline-flex; align-items: center; gap: 8px; width: fit-content; padding: 7px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--white); font-size: .81rem; font-weight: 600; cursor: pointer; }
 .calendar-controls input { margin: 0; width: 1.1rem; height: 1.1rem; accent-color: var(--red); }
 .calendar-empty { padding: 14px 16px; margin-top: 16px; border: 1px solid var(--line); border-radius: 7px; background: var(--white); }
@@ -74,6 +75,7 @@ h3 { font-size: 1rem; line-height: 1.35; }
 .event-note { margin-top: 6px; }
 .deadline-label { margin-bottom: 2px; color: var(--navy); font-weight: 700; }
 .registration-state { margin-top: 4px; font-weight: 700; color: var(--red); }
+.registration-state.is-open { color: #255b45; }
 .official-link { display: inline-block; margin-top: 6px; font-weight: 700; }
 
 .prep { display: grid; grid-template-columns: 1fr; gap: 16px; }

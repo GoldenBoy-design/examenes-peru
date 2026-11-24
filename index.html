@@ -61,16 +61,19 @@
                 <div class="section-heading">
                     <div>
                         <h2>Calendario de convocatorias</h2>
-                        <p class="review-date">Fuentes consultadas el <time datetime="2026-11-22">22 de noviembre de 2026</time>. Horario de Perú.</p>
+                        <p class="review-date">Calendario actualizado el <time datetime="2026-11-24">24 de noviembre de 2026</time>. Horario de Perú.</p>
                     </div>
-                    <label class="calendar-controls" id="calendar-controls" hidden>
-                        <input type="checkbox" id="show-past"> Mostrar fechas pasadas
-                    </label>
                 </div>
-                <p id="calendar-empty" class="calendar-empty" role="status" hidden>Las fechas verificadas ya pasaron. Consulta nuevas convocatorias en el <a href="#directorio">directorio de admisión</a> o activa «Mostrar fechas pasadas» para verlas.</p>
+                <div class="calendar-filters" id="calendar-controls" aria-label="Filtros del calendario" role="group" hidden>
+                    <label class="calendar-controls"><input type="checkbox" id="public-only"> Solo universidades públicas</label>
+                    <label class="calendar-controls"><input type="checkbox" id="open-only"> Inscripciones abiertas</label>
+                    <label class="calendar-controls"><input type="checkbox" id="show-past"> Mostrar fechas pasadas</label>
+                </div>
+                <p id="calendar-empty" class="calendar-empty" role="status" hidden>No hay convocatorias con esta selección. Cambia los filtros o consulta el <a href="#directorio">directorio de admisión</a>.</p>
                 <ul class="events" id="calendar-events" aria-label="Exámenes y evaluaciones" role="list">
 
-            <li class="event" data-fecha="2026-11-22" data-cierre="2026-10-18">
+            <li class="event" data-fecha="2026-11-22" data-tipo="beca"
+                data-apertura="2026-10-09" data-cierre="2026-10-18" data-hora-cierre="">
                 <div class="event-date"><time datetime="2026-11-22"><span class="event-day">22</span> <span class="event-month">noviembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/pronabec.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -83,12 +86,13 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Del <time datetime="2026-10-09">9 de octubre de 2026</time> al <time datetime="2026-10-18">18 de octubre de 2026</time></p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://www.pronabec.gob.pe/beca-18/" aria-label="Ver convocatoria oficial de PRONABEC">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2026-11-22" data-cierre="">
+            <li class="event" data-fecha="2026-11-22" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
                 <div class="event-date"><time datetime="2026-11-22"><span class="event-day">22</span> <span class="event-month">noviembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/ucv.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -100,12 +104,51 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Consulta el plazo en la fuente</p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://www.ucv.edu.pe/examen-ordinario-de-admision" aria-label="Ver convocatoria oficial de UCV">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2026-11-29" data-cierre="2026-11-20">
+            <li class="event" data-fecha="2026-11-28" data-tipo="privada"
+                data-apertura="2026-11-13" data-cierre="2026-11-25" data-hora-cierre="12:00">
+                <div class="event-date"><time datetime="2026-11-28"><span class="event-day">28</span> <span class="event-month">noviembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/udep.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UDEP</h3>
+                        <p class="event-process">Admisión 2027-I · Test de Aptitud Académica, campus Piura</p>
+                    <p class="event-note">El formulario de inscripción cierra al mediodía del 25 de noviembre.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-11-13">13 de noviembre de 2026</time> al <time datetime="2026-11-25">25 de noviembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admision.udep.edu.pe/cPiura/control/" aria-label="Ver convocatoria oficial de UDEP">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-11-29" data-tipo="publica"
+                data-apertura="2026-10-01" data-cierre="2026-11-24" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-11-29"><span class="event-day">29</span> <span class="event-month">noviembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/unap.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNAP</h3>
+                        <p class="event-process">Admisión 2027, primera fase · Modalidades especiales, Iquitos</p>
+                    <p class="event-note">La resolución indica requisitos y plazos propios para cada modalidad especial.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-10-01">1 de octubre de 2026</time> al <time datetime="2026-11-24">24 de noviembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://portal.unapiquitos.edu.pe/wp-content/uploads/2026/09/RR-1256-2026-UNAP.pdf" aria-label="Ver convocatoria oficial de UNAP">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-11-29" data-tipo="privada"
+                data-apertura="" data-cierre="2026-11-20" data-hora-cierre="">
                 <div class="event-date"><time datetime="2026-11-29"><span class="event-day">29</span> <span class="event-month">noviembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/pucp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -117,12 +160,13 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Hasta el <time datetime="2026-11-20">20 de noviembre de 2026</time></p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://admision.pucp.edu.pe/guia-del-postulante" aria-label="Ver convocatoria oficial de PUCP">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2026-12-05" data-cierre="">
+            <li class="event" data-fecha="2026-12-05" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
                 <div class="event-date"><time datetime="2026-12-05"><span class="event-day">5</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/upc.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -134,47 +178,50 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Consulta el plazo en la fuente</p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://upc.edu.pe/admision/cronograma-de-admision/" aria-label="Ver convocatoria oficial de UPC">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2026-12-13" data-cierre="2026-12-10">
-                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+            <li class="event" data-fecha="2026-12-12" data-tipo="publica"
+                data-apertura="2026-11-02" data-cierre="2026-12-01" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-12"><span class="event-day">12</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
-                    <span class="institution-logo"><img src="/logos/ucsp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <span class="institution-logo"><img src="/logos/unsaac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
-                        <h3>UCSP</h3>
-                        <p class="event-process">Examen de conocimientos</p>
-                    <p class="event-note">El plazo de inscripción vence a las 19:00. Medicina tiene un horario de examen distinto.</p>
+                        <h3>UNSAAC</h3>
+                        <p class="event-process">Primera Oportunidad · Examen para escolares de quinto de secundaria</p>
+                    <p class="event-note">El pago y la validación de datos tienen plazo hasta el 2 de diciembre.</p>
                     </div>
                 </div>
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
-                    <p>Hasta el <time datetime="2026-12-10">10 de diciembre de 2026</time></p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
-                    <a class="official-link" href="https://admision.ucsp.edu.pe/admision-informacion/" aria-label="Ver convocatoria oficial de UCSP">Ver convocatoria oficial</a>
+                    <p>Del <time datetime="2026-11-02">2 de noviembre de 2026</time> al <time datetime="2026-12-01">1 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admision.unsaac.edu.pe/modalidad-primera-opcion/" aria-label="Ver convocatoria oficial de UNSAAC">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2026-12-13" data-cierre="">
-                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+            <li class="event" data-fecha="2026-12-12" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-12"><span class="event-day">12</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
-                    <span class="institution-logo"><img src="/logos/ucv.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <span class="institution-logo"><img src="/logos/udep.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
-                        <h3>UCV</h3>
-                        <p class="event-process">Examen ordinario 2026-II · Fase D</p>
+                        <h3>UDEP</h3>
+                        <p class="event-process">Admisión 2027-I · Test de Aptitud Académica, campus Piura</p>
                     </div>
                 </div>
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Consulta el plazo en la fuente</p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
-                    <a class="official-link" href="https://www.ucv.edu.pe/examen-ordinario-de-admision" aria-label="Ver convocatoria oficial de UCV">Ver convocatoria oficial</a>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://www.udep.edu.pe/admision-piura/modalidad-admision/test-de-aptitud-academica-t-a-a/" aria-label="Ver convocatoria oficial de UDEP">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2026-12-13" data-cierre="2026-12-10">
+            <li class="event" data-fecha="2026-12-13" data-tipo="publica"
+                data-apertura="2026-10-13" data-cierre="2026-12-10" data-hora-cierre="">
                 <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/unac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -187,12 +234,68 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Del <time datetime="2026-10-13">13 de octubre de 2026</time> al <time datetime="2026-12-10">10 de diciembre de 2026</time></p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://admision.unac.edu.pe/cronograma/" aria-label="Ver convocatoria oficial de UNAC">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2026-12-13" data-cierre="2026-12-07">
+            <li class="event" data-fecha="2026-12-13" data-tipo="publica"
+                data-apertura="2026-10-01" data-cierre="2026-12-02" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/unap.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNAP</h3>
+                        <p class="event-process">Admisión 2027, primera fase · Examen general, Iquitos</p>
+                    <p class="event-note">Inscripción extemporánea el 3 y 4 de diciembre.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-10-01">1 de octubre de 2026</time> al <time datetime="2026-12-02">2 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://portal.unapiquitos.edu.pe/wp-content/uploads/2026/09/RR-1256-2026-UNAP.pdf" aria-label="Ver convocatoria oficial de UNAP">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-13" data-tipo="publica"
+                data-apertura="2026-11-24" data-cierre="2026-12-10" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/undc.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNDC</h3>
+                        <p class="event-process">Admisión 2027-I · Examen para quinto de secundaria</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Hasta el <time datetime="2026-12-10">10 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admision.undc.edu.pe/" aria-label="Ver convocatoria oficial de UNDC">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-13" data-tipo="publica"
+                data-apertura="2026-11-24" data-cierre="2026-12-02" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/unh.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNH</h3>
+                        <p class="event-process">Admisión 2027-I · Primera Selección para quinto de secundaria</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Hasta el <time datetime="2026-12-02">2 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://www.unh.edu.pe/unh-reconoce-a-estudiantes-que-alcanzaron-los-primeros-puestos-en-el-simulacro-tipo-examen-de-admision-2027-i/" aria-label="Ver convocatoria oficial de UNH">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-13" data-tipo="publica"
+                data-apertura="2026-10-19" data-cierre="2026-12-07" data-hora-cierre="">
                 <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/uni.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -205,12 +308,143 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Del <time datetime="2026-10-19">19 de octubre de 2026</time> al <time datetime="2026-12-07">7 de diciembre de 2026</time></p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://ien.admision.uni.edu.pe/" aria-label="Ver convocatoria oficial de UNI">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2026-12-20" data-cierre="2026-12-17">
+            <li class="event" data-fecha="2026-12-13" data-tipo="publica"
+                data-apertura="2026-11-02" data-cierre="2026-12-10" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/uniq.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNIQ</h3>
+                        <p class="event-process">Admisión 2027-I · Primera Oportunidad, Quillabamba</p>
+                    <p class="event-note">El afiche oficial detalla los puntos de inscripción en Quillabamba, Vilcabamba, Megantoni y Kimbiri.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-11-02">2 de noviembre de 2026</time> al <time datetime="2026-12-10">10 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admi.uniq.edu.pe/?page_id=129" aria-label="Ver convocatoria oficial de UNIQ">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-13" data-tipo="publica"
+                data-apertura="2026-10-19" data-cierre="2026-12-11" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/uniscjsa.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNISCJSA</h3>
+                        <p class="event-process">Admisión 2027-I · Ordinario y pueblos originarios</p>
+                    <p class="event-note">La evaluación oral de lengua originaria para Educación Intercultural Bilingüe es el 12 de diciembre.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-10-19">19 de octubre de 2026</time> al <time datetime="2026-12-11">11 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://uniscjsa.edu.pe/cronograma/" aria-label="Ver convocatoria oficial de UNISCJSA">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-13" data-tipo="publica"
+                data-apertura="2026-09-21" data-cierre="2026-12-11" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/untels.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNTELS</h3>
+                        <p class="event-process">Admisión 2027-I · Modalidad para alumnos de quinto de secundaria</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-09-21">21 de septiembre de 2026</time> al <time datetime="2026-12-11">11 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://www.untels.edu.pe/03admision.aspx" aria-label="Ver convocatoria oficial de UNTELS">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-13" data-tipo="privada"
+                data-apertura="" data-cierre="2026-12-10" data-hora-cierre="19:00">
+                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/ucsp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UCSP</h3>
+                        <p class="event-process">Examen de conocimientos</p>
+                    <p class="event-note">El plazo de inscripción vence a las 19:00. Medicina tiene un horario de examen distinto.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Hasta el <time datetime="2026-12-10">10 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admision.ucsp.edu.pe/admision-informacion/" aria-label="Ver convocatoria oficial de UCSP">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-13" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-13"><span class="event-day">13</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/ucv.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UCV</h3>
+                        <p class="event-process">Examen ordinario 2026-II · Fase D</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Consulta el plazo en la fuente</p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://www.ucv.edu.pe/examen-ordinario-de-admision" aria-label="Ver convocatoria oficial de UCV">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-16" data-tipo="privada"
+                data-apertura="2026-11-24" data-cierre="2026-12-11" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-16"><span class="event-day">16</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/usmp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>USMP</h3>
+                        <p class="event-process">Admisión 2027-I · Examen presencial</p>
+                    <p class="event-note">El portal indica que el examen presencial admite postulaciones para Medicina Humana.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Hasta el <time datetime="2026-12-11">11 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admision.usmp.edu.pe/" aria-label="Ver convocatoria oficial de USMP">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-20" data-tipo="publica"
+                data-apertura="2026-10-06" data-cierre="2026-12-18" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-20"><span class="event-day">20</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/unaaa.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNAAA</h3>
+                        <p class="event-process">Examen de admisión para quinto de secundaria</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-10-06">6 de octubre de 2026</time> al <time datetime="2026-12-18">18 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://unaaa.edu.pe/wp-content/uploads/2026/10/rcu-n-087-2026-unaaacu-aprobar-el-plan-de-trabajo-del-examen-de-admision-modalidad-5to-de-secundaria-2026-presentado-por.pdf" aria-label="Ver convocatoria oficial de UNAAA">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2026-12-20" data-tipo="publica"
+                data-apertura="2026-10-13" data-cierre="2026-12-17" data-hora-cierre="">
                 <div class="event-date"><time datetime="2026-12-20"><span class="event-day">20</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/unac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -223,12 +457,32 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Del <time datetime="2026-10-13">13 de octubre de 2026</time> al <time datetime="2026-12-17">17 de diciembre de 2026</time></p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://admision.unac.edu.pe/cronograma/" aria-label="Ver convocatoria oficial de UNAC">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2027-01-24" data-cierre="">
+            <li class="event" data-fecha="2026-12-30" data-tipo="publica"
+                data-apertura="2026-11-02" data-cierre="2026-12-28" data-hora-cierre="">
+                <div class="event-date"><time datetime="2026-12-30"><span class="event-day">30</span> <span class="event-month">diciembre 2026</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/unica.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNICA</h3>
+                        <p class="event-process">Admisión de pregrado 2026-II · Ica, Chincha y Nasca</p>
+                    <p class="event-note">El último día de pago al banco es el 26 de diciembre.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-11-02">2 de noviembre de 2026</time> al <time datetime="2026-12-28">28 de diciembre de 2026</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://www.unica.edu.pe/transparencia/buscador/sistema/upload/archivos/2026/10/21/RR-1811-2026.pdf" aria-label="Ver convocatoria oficial de UNICA">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2027-01-24" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
                 <div class="event-date"><time datetime="2027-01-24"><span class="event-day">24</span> <span class="event-month">enero 2027</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/ucv.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -240,12 +494,50 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Consulta el plazo en la fuente</p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://www.ucv.edu.pe/examen-ordinario-de-admision" aria-label="Ver convocatoria oficial de UCV">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2027-02-21" data-cierre="">
+            <li class="event" data-fecha="2027-02-07" data-tipo="privada"
+                data-apertura="2026-11-12" data-cierre="2027-01-28" data-hora-cierre="">
+                <div class="event-date"><time datetime="2027-02-07"><span class="event-day">7</span> <span class="event-month">febrero 2027</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/up.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UP</h3>
+                        <p class="event-process">Admisión 2027-I · Modalidad Selectiva, evaluación escrita del grupo G6</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-11-12">12 de noviembre de 2026</time> al <time datetime="2027-01-28">28 de enero de 2027</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admision.up.edu.pe/wp-content/uploads/Prospecto-2027.pdf" aria-label="Ver convocatoria oficial de UP">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2027-02-14" data-tipo="publica"
+                data-apertura="2026-12-14" data-cierre="2027-02-06" data-hora-cierre="">
+                <div class="event-date"><time datetime="2027-02-14"><span class="event-day">14</span> <span class="event-month">febrero 2027</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/unitru.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNT</h3>
+                        <p class="event-process">Admisión 2027-II · Examen extraordinario</p>
+                    <p class="event-note">Para las modalidades de premios de excelencia, discapacidad, deportistas y víctimas de la violencia.</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-12-14">14 de diciembre de 2026</time> al <time datetime="2027-02-06">6 de febrero de 2027</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admisionunt.info/index.php/cronograma" aria-label="Ver convocatoria oficial de UNT">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2027-02-21" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
                 <div class="event-date"><time datetime="2027-02-21"><span class="event-day">21</span> <span class="event-month">febrero 2027</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/pucp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -257,12 +549,13 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Consulta el plazo en la fuente</p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://admision.pucp.edu.pe/guia-del-postulante" aria-label="Ver convocatoria oficial de PUCP">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2027-02-28" data-cierre="">
+            <li class="event" data-fecha="2027-02-28" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
                 <div class="event-date"><time datetime="2027-02-28"><span class="event-day">28</span> <span class="event-month">febrero 2027</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/ucv.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -274,12 +567,13 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Consulta el plazo en la fuente</p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://www.ucv.edu.pe/examen-ordinario-de-admision" aria-label="Ver convocatoria oficial de UCV">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2027-03-05" data-cierre="2027-03-02">
+            <li class="event" data-fecha="2027-03-05" data-tipo="privada"
+                data-apertura="2027-02-08" data-cierre="2027-03-02" data-hora-cierre="">
                 <div class="event-date"><time datetime="2027-03-05"><span class="event-day">5</span> <span class="event-month">marzo 2027</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/urp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -291,12 +585,49 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Del <time datetime="2027-02-08">8 de febrero de 2027</time> al <time datetime="2027-03-02">2 de marzo de 2027</time></p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://www.urp.edu.pe/modalidad-de-ingreso/" aria-label="Ver convocatoria oficial de URP">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2027-03-14" data-cierre="2027-02-26">
+            <li class="event" data-fecha="2027-03-06" data-tipo="publica"
+                data-apertura="2026-12-14" data-cierre="2027-02-20" data-hora-cierre="">
+                <div class="event-date"><time datetime="2027-03-06"><span class="event-day">6</span> <span class="event-month">marzo 2027</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/unitru.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNT</h3>
+                        <p class="event-process">Admisión 2027-II · Ordinario, áreas A y C</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-12-14">14 de diciembre de 2026</time> al <time datetime="2027-02-20">20 de febrero de 2027</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admisionunt.info/index.php/cronograma" aria-label="Ver convocatoria oficial de UNT">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2027-03-07" data-tipo="publica"
+                data-apertura="2026-12-14" data-cierre="2027-02-20" data-hora-cierre="">
+                <div class="event-date"><time datetime="2027-03-07"><span class="event-day">7</span> <span class="event-month">marzo 2027</span></time><span class="event-state" hidden></span></div>
+                <div class="event-detail">
+                    <span class="institution-logo"><img src="/logos/unitru.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNT</h3>
+                        <p class="event-process">Admisión 2027-II · Ordinario, áreas B y D</p>
+                    </div>
+                </div>
+                <div class="event-deadline">
+                    <p class="deadline-label">Inscripción</p>
+                    <p>Del <time datetime="2026-12-14">14 de diciembre de 2026</time> al <time datetime="2027-02-20">20 de febrero de 2027</time></p>
+                    <p class="registration-state" hidden></p>
+                    <a class="official-link" href="https://admisionunt.info/index.php/cronograma" aria-label="Ver convocatoria oficial de UNT">Ver convocatoria oficial</a>
+                </div>
+            </li>
+
+            <li class="event" data-fecha="2027-03-14" data-tipo="publica"
+                data-apertura="2027-02-01" data-cierre="2027-02-26" data-hora-cierre="">
                 <div class="event-date"><time datetime="2027-03-14"><span class="event-day">14</span> <span class="event-month">marzo 2027</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/unsa.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -309,12 +640,13 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Del <time datetime="2027-02-01">1 de febrero de 2027</time> al <time datetime="2027-02-26">26 de febrero de 2027</time></p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://transparencia.unsa.edu.pe/bitstream/handle/123456789/1776/RCU-0024-2026.pdf?isAllowed=y&amp;sequence=1" aria-label="Ver convocatoria oficial de UNSA">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2027-03-20" data-cierre="">
+            <li class="event" data-fecha="2027-03-20" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
                 <div class="event-date"><time datetime="2027-03-20"><span class="event-day">20</span> <span class="event-month">marzo 2027</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/upc.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -326,12 +658,13 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Consulta el plazo en la fuente</p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://upc.edu.pe/admision/cronograma-de-admision/" aria-label="Ver convocatoria oficial de UPC">Ver convocatoria oficial</a>
                 </div>
             </li>
 
-            <li class="event" data-fecha="2027-03-21" data-cierre="">
+            <li class="event" data-fecha="2027-03-21" data-tipo="privada"
+                data-apertura="" data-cierre="" data-hora-cierre="">
                 <div class="event-date"><time datetime="2027-03-21"><span class="event-day">21</span> <span class="event-month">marzo 2027</span></time><span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     <span class="institution-logo"><img src="/logos/ucv.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
@@ -343,7 +676,7 @@
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
                     <p>Consulta el plazo en la fuente</p>
-                    <p class="registration-state" hidden>Plazo vencido</p>
+                    <p class="registration-state" hidden></p>
                     <a class="official-link" href="https://www.ucv.edu.pe/examen-ordinario-de-admision" aria-label="Ver convocatoria oficial de UCV">Ver convocatoria oficial</a>
                 </div>
             </li>
@@ -378,7 +711,7 @@
                 <div class="section-heading">
                     <div>
                         <h2>Portales oficiales de admisión</h2>
-                        <p class="section-copy">Busca tu universidad para ver otras modalidades y convocatorias. La <a href="/uni/">ficha de la UNI</a> reúne el ingreso escolar y el archivo del proceso 2026‑2.</p>
+                        <p class="section-copy">Busca una universidad para consultar su portal oficial. Puedes comprobar su licenciamiento en la <a href="https://www.sunedu.gob.pe/lista-de-universidades-licenciadas/">lista de SUNEDU</a> y revisar las modalidades de la UNI en <a href="/uni/">su ficha de admisión</a>.</p>
                     </div>
                     <div class="directory-filter" id="directory-filter" hidden>
                         <label for="directory-search">Buscar universidad</label>
@@ -390,50 +723,14 @@
 
             <li class="directory-item">
                 <div class="directory-heading">
-                    <span class="institution-logo"><img src="/logos/pucp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <span class="institution-logo"><img src="/logos/unaaa.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
-                        <h3>PUCP</h3>
-                        <p class="directory-location">Lima</p>
+                        <h3>UNAAA</h3>
+                        <p class="directory-location">Yurimaguas, Loreto · Pública</p>
                     </div>
                 </div>
-                <p class="directory-name">Pontificia Universidad Católica del Perú</p>
-                <a class="official-link" href="https://admision.pucp.edu.pe/" aria-label="Portal de admisión de PUCP">Portal de admisión</a>
-            </li>
-
-            <li class="directory-item">
-                <div class="directory-heading">
-                    <span class="institution-logo"><img src="/logos/ucsp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
-                    <div>
-                        <h3>UCSP</h3>
-                        <p class="directory-location">Arequipa</p>
-                    </div>
-                </div>
-                <p class="directory-name">Universidad Católica San Pablo</p>
-                <a class="official-link" href="https://admision.ucsp.edu.pe/" aria-label="Portal de admisión de UCSP">Portal de admisión</a>
-            </li>
-
-            <li class="directory-item">
-                <div class="directory-heading">
-                    <span class="institution-logo"><img src="/logos/ucv.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
-                    <div>
-                        <h3>UCV</h3>
-                        <p class="directory-location">Varias sedes</p>
-                    </div>
-                </div>
-                <p class="directory-name">Universidad César Vallejo</p>
-                <a class="official-link" href="https://www.ucv.edu.pe/postula" aria-label="Portal de admisión de UCV">Portal de admisión</a>
-            </li>
-
-            <li class="directory-item">
-                <div class="directory-heading">
-                    <span class="institution-logo"><img src="/logos/ulima.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
-                    <div>
-                        <h3>ULIMA</h3>
-                        <p class="directory-location">Lima</p>
-                    </div>
-                </div>
-                <p class="directory-name">Universidad de Lima</p>
-                <a class="official-link" href="https://www.ulima.edu.pe/admision" aria-label="Portal de admisión de ULIMA">Portal de admisión</a>
+                <p class="directory-name">Universidad Nacional Autónoma de Alto Amazonas</p>
+                <a class="official-link" href="https://unaaa.edu.pe/admision/" aria-label="Portal de admisión de UNAAA">Portal de admisión</a>
             </li>
 
             <li class="directory-item">
@@ -441,7 +738,7 @@
                     <span class="institution-logo"><img src="/logos/unac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>UNAC</h3>
-                        <p class="directory-location">Callao</p>
+                        <p class="directory-location">Callao · Pública</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Nacional del Callao</p>
@@ -450,10 +747,46 @@
 
             <li class="directory-item">
                 <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/unap.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNAP</h3>
+                        <p class="directory-location">Iquitos, Loreto · Pública</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Nacional de la Amazonía Peruana</p>
+                <a class="official-link" href="https://admision.unapiquitos.edu.pe/" aria-label="Portal de admisión de UNAP">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/undc.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNDC</h3>
+                        <p class="directory-location">Cañete, Lima · Pública</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Nacional de Cañete</p>
+                <a class="official-link" href="https://admision.undc.edu.pe/" aria-label="Portal de admisión de UNDC">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/unh.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNH</h3>
+                        <p class="directory-location">Huancavelica · Pública</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Nacional de Huancavelica</p>
+                <a class="official-link" href="https://admision.unh.edu.pe/" aria-label="Portal de admisión de UNH">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
                     <span class="institution-logo"><img src="/logos/uni.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>UNI</h3>
-                        <p class="directory-location">Lima</p>
+                        <p class="directory-location">Lima · Pública</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Nacional de Ingeniería</p>
@@ -462,10 +795,46 @@
 
             <li class="directory-item">
                 <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/unica.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNICA</h3>
+                        <p class="directory-location">Ica · Pública</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Nacional San Luis Gonzaga de Ica</p>
+                <a class="official-link" href="https://admision.unica.edu.pe/" aria-label="Portal de admisión de UNICA">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/uniq.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNIQ</h3>
+                        <p class="directory-location">Quillabamba, Cusco · Pública</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Nacional Intercultural de Quillabamba</p>
+                <a class="official-link" href="https://admi.uniq.edu.pe/" aria-label="Portal de admisión de UNIQ">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/uniscjsa.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNISCJSA</h3>
+                        <p class="directory-location">Chanchamayo, Junín · Pública</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Nacional Intercultural de la Selva Central Juan Santos Atahualpa</p>
+                <a class="official-link" href="https://uniscjsa.edu.pe/admision/" aria-label="Portal de admisión de UNISCJSA">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
                     <span class="institution-logo"><img src="/logos/unmsm.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>UNMSM</h3>
-                        <p class="directory-location">Lima</p>
+                        <p class="directory-location">Lima · Pública</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Nacional Mayor de San Marcos</p>
@@ -477,7 +846,7 @@
                     <span class="institution-logo"><img src="/logos/unsa.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>UNSA</h3>
-                        <p class="directory-location">Arequipa</p>
+                        <p class="directory-location">Arequipa · Pública</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Nacional de San Agustín</p>
@@ -489,7 +858,7 @@
                     <span class="institution-logo"><img src="/logos/unsaac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>UNSAAC</h3>
-                        <p class="directory-location">Cusco</p>
+                        <p class="directory-location">Cusco · Pública</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Nacional San Antonio Abad del Cusco</p>
@@ -498,10 +867,106 @@
 
             <li class="directory-item">
                 <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/unitru.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNT</h3>
+                        <p class="directory-location">Trujillo, La Libertad · Pública</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Nacional de Trujillo</p>
+                <a class="official-link" href="https://admisionunt.info/" aria-label="Portal de admisión de UNT">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/untels.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UNTELS</h3>
+                        <p class="directory-location">Villa El Salvador, Lima · Pública</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Nacional Tecnológica de Lima Sur</p>
+                <a class="official-link" href="https://www.untels.edu.pe/03admision.aspx" aria-label="Portal de admisión de UNTELS">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/pucp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>PUCP</h3>
+                        <p class="directory-location">Lima · Privada</p>
+                    </div>
+                </div>
+                <p class="directory-name">Pontificia Universidad Católica del Perú</p>
+                <a class="official-link" href="https://admision.pucp.edu.pe/" aria-label="Portal de admisión de PUCP">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/ucsp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UCSP</h3>
+                        <p class="directory-location">Arequipa · Privada</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad Católica San Pablo</p>
+                <a class="official-link" href="https://admision.ucsp.edu.pe/" aria-label="Portal de admisión de UCSP">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/ucv.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UCV</h3>
+                        <p class="directory-location">Varias sedes · Privada</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad César Vallejo</p>
+                <a class="official-link" href="https://www.ucv.edu.pe/postula" aria-label="Portal de admisión de UCV">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/udep.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UDEP</h3>
+                        <p class="directory-location">Piura · Privada</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad de Piura</p>
+                <a class="official-link" href="https://www.udep.edu.pe/admision-piura/" aria-label="Portal de admisión de UDEP">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/ulima.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>ULIMA</h3>
+                        <p class="directory-location">Lima · Privada</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad de Lima</p>
+                <a class="official-link" href="https://www.ulima.edu.pe/admision" aria-label="Portal de admisión de ULIMA">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/up.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>UP</h3>
+                        <p class="directory-location">Lima · Privada</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad del Pacífico</p>
+                <a class="official-link" href="https://www.up.edu.pe/Documents/ProspectoAdmisi%C3%B3nUP2027.pdf" aria-label="Prospecto de admisión de UP">Prospecto de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
                     <span class="institution-logo"><img src="/logos/upc.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>UPC</h3>
-                        <p class="directory-location">Lima</p>
+                        <p class="directory-location">Lima · Privada</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Peruana de Ciencias Aplicadas</p>
@@ -513,7 +978,7 @@
                     <span class="institution-logo"><img src="/logos/upch.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>UPCH</h3>
-                        <p class="directory-location">Lima</p>
+                        <p class="directory-location">Lima · Privada</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Peruana Cayetano Heredia</p>
@@ -525,7 +990,7 @@
                     <span class="institution-logo"><img src="/logos/urp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>URP</h3>
-                        <p class="directory-location">Lima</p>
+                        <p class="directory-location">Lima · Privada</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Ricardo Palma</p>
@@ -534,10 +999,22 @@
 
             <li class="directory-item">
                 <div class="directory-heading">
+                    <span class="institution-logo"><img src="/logos/usmp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                    <div>
+                        <h3>USMP</h3>
+                        <p class="directory-location">Varias sedes · Privada</p>
+                    </div>
+                </div>
+                <p class="directory-name">Universidad de San Martín de Porres</p>
+                <a class="official-link" href="https://admision.usmp.edu.pe/" aria-label="Portal de admisión de USMP">Portal de admisión</a>
+            </li>
+
+            <li class="directory-item">
+                <div class="directory-heading">
                     <span class="institution-logo"><img src="/logos/utp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
                     <div>
                         <h3>UTP</h3>
-                        <p class="directory-location">Varias sedes</p>
+                        <p class="directory-location">Varias sedes · Privada</p>
                     </div>
                 </div>
                 <p class="directory-name">Universidad Tecnológica del Perú</p>

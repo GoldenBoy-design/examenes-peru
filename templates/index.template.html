@@ -61,13 +61,15 @@
                 <div class="section-heading">
                     <div>
                         <h2>Calendario de convocatorias</h2>
-                        <p class="review-date">Fuentes consultadas el {{FECHA_REVISION}}. Horario de Perú.</p>
+                        <p class="review-date">Calendario actualizado el {{FECHA_REVISION}}. Horario de Perú.</p>
                     </div>
-                    <label class="calendar-controls" id="calendar-controls" hidden>
-                        <input type="checkbox" id="show-past"> Mostrar fechas pasadas
-                    </label>
                 </div>
-                <p id="calendar-empty" class="calendar-empty" role="status" hidden>Las fechas verificadas ya pasaron. Consulta nuevas convocatorias en el <a href="#directorio">directorio de admisión</a> o activa «Mostrar fechas pasadas» para verlas.</p>
+                <div class="calendar-filters" id="calendar-controls" aria-label="Filtros del calendario" role="group" hidden>
+                    <label class="calendar-controls"><input type="checkbox" id="public-only"> Solo universidades públicas</label>
+                    <label class="calendar-controls"><input type="checkbox" id="open-only"> Inscripciones abiertas</label>
+                    <label class="calendar-controls"><input type="checkbox" id="show-past"> Mostrar fechas pasadas</label>
+                </div>
+                <p id="calendar-empty" class="calendar-empty" role="status" hidden>No hay convocatorias con esta selección. Cambia los filtros o consulta el <a href="#directorio">directorio de admisión</a>.</p>
                 <ul class="events" id="calendar-events" aria-label="Exámenes y evaluaciones" role="list">
 {{EVENTOS}}
                 </ul>
@@ -101,7 +103,7 @@
                 <div class="section-heading">
                     <div>
                         <h2>Portales oficiales de admisión</h2>
-                        <p class="section-copy">Busca tu universidad para ver otras modalidades y convocatorias. La <a href="/uni/">ficha de la UNI</a> reúne el ingreso escolar y el archivo del proceso 2026‑2.</p>
+                        <p class="section-copy">Busca una universidad para consultar su portal oficial. Puedes comprobar su licenciamiento en la <a href="https://www.sunedu.gob.pe/lista-de-universidades-licenciadas/">lista de SUNEDU</a> y revisar las modalidades de la UNI en <a href="/uni/">su ficha de admisión</a>.</p>
                     </div>
                     <div class="directory-filter" id="directory-filter" hidden>
                         <label for="directory-search">Buscar universidad</label>

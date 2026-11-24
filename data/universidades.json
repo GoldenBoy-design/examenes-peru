@@ -926,6 +926,159 @@
       "pagina_propia": null,
       "estado_proceso": "abierto",
       "tipo": "publica"
+    },
+    {
+      "id": "unap",
+      "nombre": "Universidad Nacional de la Amazonía Peruana",
+      "siglas": "UNAP",
+      "provincia": "Iquitos, Loreto",
+      "logo": "/logos/unap.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://admision.unapiquitos.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "publica"
+    },
+    {
+      "id": "unh",
+      "nombre": "Universidad Nacional de Huancavelica",
+      "siglas": "UNH",
+      "provincia": "Huancavelica",
+      "logo": "/logos/unh.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://admision.unh.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "publica"
+    },
+    {
+      "id": "uniscjsa",
+      "nombre": "Universidad Nacional Intercultural de la Selva Central Juan Santos Atahualpa",
+      "siglas": "UNISCJSA",
+      "provincia": "Chanchamayo, Junín",
+      "logo": "/logos/uniscjsa.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://uniscjsa.edu.pe/admision/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "publica"
+    },
+    {
+      "id": "unaaa",
+      "nombre": "Universidad Nacional Autónoma de Alto Amazonas",
+      "siglas": "UNAAA",
+      "provincia": "Yurimaguas, Loreto",
+      "logo": "/logos/unaaa.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://unaaa.edu.pe/admision/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "publica"
+    },
+    {
+      "id": "uniq",
+      "nombre": "Universidad Nacional Intercultural de Quillabamba",
+      "siglas": "UNIQ",
+      "provincia": "Quillabamba, Cusco",
+      "logo": "/logos/uniq.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://admi.uniq.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "publica"
+    },
+    {
+      "id": "unitru",
+      "nombre": "Universidad Nacional de Trujillo",
+      "siglas": "UNT",
+      "provincia": "Trujillo, La Libertad",
+      "logo": "/logos/unitru.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://admisionunt.info/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "publica"
+    },
+    {
+      "id": "usmp",
+      "nombre": "Universidad de San Martín de Porres",
+      "siglas": "USMP",
+      "provincia": "Varias sedes",
+      "logo": "/logos/usmp.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://admision.usmp.edu.pe/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "privada"
+    },
+    {
+      "id": "up",
+      "nombre": "Universidad del Pacífico",
+      "siglas": "UP",
+      "provincia": "Lima",
+      "logo": "/logos/up.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://admision.up.edu.pe/modalidades/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "privada"
+    },
+    {
+      "id": "udep",
+      "nombre": "Universidad de Piura",
+      "siglas": "UDEP",
+      "provincia": "Piura",
+      "logo": "/logos/udep.png",
+      "modalidad": null,
+      "fechas_examen": [],
+      "inscripcion": {
+        "inicio": null,
+        "fin": null
+      },
+      "url_oficial": "https://www.udep.edu.pe/admision-piura/",
+      "pagina_propia": null,
+      "estado_proceso": "por verificar",
+      "tipo": "privada"
     }
   ]
 }

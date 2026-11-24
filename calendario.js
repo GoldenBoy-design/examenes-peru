@@ -1,20 +1,26 @@
 const calendarEvents = document.getElementById('calendar-events');
+const controls = document.getElementById('calendar-controls');
 const pastToggle = document.getElementById('show-past');
+const publicToggle = document.getElementById('public-only');
+const openToggle = document.getElementById('open-only');
 const events = Array.from(calendarEvents.children);
 
-function peruDate() {
+function peruDateTime() {
     const formatter = new Intl.DateTimeFormat('en', {
         timeZone: 'America/Lima',
         year: 'numeric',
         month: '2-digit',
-        day: '2-digit'
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        hourCycle: 'h23'
     });
     const parts = Object.fromEntries(formatter.formatToParts(new Date()).map(({ type, value }) => [type, value]));
-    return [parts.year, parts.month, parts.day].join('-');
+    return { date: [parts.year, parts.month, parts.day].join('-'), time: `${parts.hour}:${parts.minute}` };
 }
 
 function updateCalendar() {
-    const today = peruDate();
+    const { date: today, time: now } = peruDateTime();
 
     for (const event of events) {
         const past = event.dataset.fecha < today;
@@ -23,8 +29,18 @@ function updateCalendar() {
         state.textContent = past ? 'Fecha pasada' : 'Hoy';
         state.hidden = !(past || sameDay);
         state.classList.toggle('is-past', past);
-        event.querySelector('.registration-state').hidden = !event.dataset.cierre || event.dataset.cierre >= today;
-        event.hidden = past && !pastToggle.checked;
+        const { apertura, cierre, horaCierre, tipo } = event.dataset;
+        const expired = cierre && (cierre < today || (cierre === today && horaCierre && horaCierre <= now));
+        const open = Boolean(apertura && cierre && apertura <= today && !expired && !past);
+        const registration = event.querySelector('.registration-state');
+        registration.textContent = open ? 'Inscripciones abiertas' :
+            expired ? 'Plazo vencido' :
+            apertura && apertura > today ? 'Inscripción próxima' : '';
+        registration.hidden = !registration.textContent;
+        registration.classList.toggle('is-open', open);
+        event.hidden = (past && !pastToggle.checked) ||
+            (publicToggle.checked && tipo !== 'publica') ||
+            (openToggle.checked && !open);
     }
 
     const empty = events.every(event => event.hidden);
@@ -32,8 +48,8 @@ function updateCalendar() {
     document.getElementById('calendar-empty').hidden = !empty;
 }
 
-pastToggle.addEventListener('change', updateCalendar);
-document.getElementById('calendar-controls').hidden = false;
+controls.addEventListener('change', updateCalendar);
+controls.hidden = false;
 updateCalendar();
 
 const search = document.getElementById('directory-search');

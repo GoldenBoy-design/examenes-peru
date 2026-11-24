@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-22",
+  "revision": "2026-11-24",
   "eventos": [
     {
       "institucion": "beca18",
@@ -32,7 +32,7 @@
       "institucion": "ucsp",
       "fecha": "2026-12-13",
       "proceso": "Examen de conocimientos",
-      "inscripcion": {"fin": "2026-12-10"},
+      "inscripcion": {"fin": "2026-12-10", "hora_cierre": "19:00"},
       "nota": "El plazo de inscripción vence a las 19:00. Medicina tiene un horario de examen distinto.",
       "fuente": "https://admision.ucsp.edu.pe/admision-informacion/"
     },
@@ -110,6 +110,133 @@
       "fecha": "2027-03-21",
       "proceso": "Examen ordinario 2026-II · Fase G",
       "fuente": "https://www.ucv.edu.pe/examen-ordinario-de-admision"
+    },
+    {
+      "institucion": "unap",
+      "fecha": "2026-11-29",
+      "proceso": "Admisión 2027, primera fase · Modalidades especiales, Iquitos",
+      "inscripcion": {"inicio": "2026-10-01", "fin": "2026-11-24"},
+      "nota": "La resolución indica requisitos y plazos propios para cada modalidad especial.",
+      "fuente": "https://portal.unapiquitos.edu.pe/wp-content/uploads/2026/09/RR-1256-2026-UNAP.pdf"
+    },
+    {
+      "institucion": "unap",
+      "fecha": "2026-12-13",
+      "proceso": "Admisión 2027, primera fase · Examen general, Iquitos",
+      "inscripcion": {"inicio": "2026-10-01", "fin": "2026-12-02"},
+      "nota": "Inscripción extemporánea el 3 y 4 de diciembre.",
+      "fuente": "https://portal.unapiquitos.edu.pe/wp-content/uploads/2026/09/RR-1256-2026-UNAP.pdf"
+    },
+    {
+      "institucion": "unsaac",
+      "fecha": "2026-12-12",
+      "proceso": "Primera Oportunidad · Examen para escolares de quinto de secundaria",
+      "inscripcion": {"inicio": "2026-11-02", "fin": "2026-12-01"},
+      "nota": "El pago y la validación de datos tienen plazo hasta el 2 de diciembre.",
+      "fuente": "https://admision.unsaac.edu.pe/modalidad-primera-opcion/"
+    },
+    {
+      "institucion": "unh",
+      "fecha": "2026-12-13",
+      "proceso": "Admisión 2027-I · Primera Selección para quinto de secundaria",
+      "inscripcion": {"fin": "2026-12-02", "abierta_al": "2026-11-24"},
+      "fuente": "https://www.unh.edu.pe/unh-reconoce-a-estudiantes-que-alcanzaron-los-primeros-puestos-en-el-simulacro-tipo-examen-de-admision-2027-i/"
+    },
+    {
+      "institucion": "undc",
+      "fecha": "2026-12-13",
+      "proceso": "Admisión 2027-I · Examen para quinto de secundaria",
+      "inscripcion": {"fin": "2026-12-10", "abierta_al": "2026-11-24"},
+      "fuente": "https://admision.undc.edu.pe/"
+    },
+    {
+      "institucion": "untels",
+      "fecha": "2026-12-13",
+      "proceso": "Admisión 2027-I · Modalidad para alumnos de quinto de secundaria",
+      "inscripcion": {"inicio": "2026-09-21", "fin": "2026-12-11"},
+      "fuente": "https://www.untels.edu.pe/03admision.aspx"
+    },
+    {
+      "institucion": "uniscjsa",
+      "fecha": "2026-12-13",
+      "proceso": "Admisión 2027-I · Ordinario y pueblos originarios",
+      "inscripcion": {"inicio": "2026-10-19", "fin": "2026-12-11"},
+      "nota": "La evaluación oral de lengua originaria para Educación Intercultural Bilingüe es el 12 de diciembre.",
+      "fuente": "https://uniscjsa.edu.pe/cronograma/"
+    },
+    {
+      "institucion": "uniq",
+      "fecha": "2026-12-13",
+      "proceso": "Admisión 2027-I · Primera Oportunidad, Quillabamba",
+      "inscripcion": {"inicio": "2026-11-02", "fin": "2026-12-10"},
+      "nota": "El afiche oficial detalla los puntos de inscripción en Quillabamba, Vilcabamba, Megantoni y Kimbiri.",
+      "fuente": "https://admi.uniq.edu.pe/?page_id=129"
+    },
+    {
+      "institucion": "unaaa",
+      "fecha": "2026-12-20",
+      "proceso": "Examen de admisión para quinto de secundaria",
+      "inscripcion": {"inicio": "2026-10-06", "fin": "2026-12-18"},
+      "fuente": "https://unaaa.edu.pe/wp-content/uploads/2026/10/rcu-n-087-2026-unaaacu-aprobar-el-plan-de-trabajo-del-examen-de-admision-modalidad-5to-de-secundaria-2026-presentado-por.pdf"
+    },
+    {
+      "institucion": "unica",
+      "fecha": "2026-12-30",
+      "proceso": "Admisión de pregrado 2026-II · Ica, Chincha y Nasca",
+      "inscripcion": {"inicio": "2026-11-02", "fin": "2026-12-28"},
+      "nota": "El último día de pago al banco es el 26 de diciembre.",
+      "fuente": "https://www.unica.edu.pe/transparencia/buscador/sistema/upload/archivos/2026/10/21/RR-1811-2026.pdf"
+    },
+    {
+      "institucion": "unitru",
+      "fecha": "2027-02-14",
+      "proceso": "Admisión 2027-II · Examen extraordinario",
+      "inscripcion": {"inicio": "2026-12-14", "fin": "2027-02-06"},
+      "nota": "Para las modalidades de premios de excelencia, discapacidad, deportistas y víctimas de la violencia.",
+      "fuente": "https://admisionunt.info/index.php/cronograma"
+    },
+    {
+      "institucion": "unitru",
+      "fecha": "2027-03-06",
+      "proceso": "Admisión 2027-II · Ordinario, áreas A y C",
+      "inscripcion": {"inicio": "2026-12-14", "fin": "2027-02-20"},
+      "fuente": "https://admisionunt.info/index.php/cronograma"
+    },
+    {
+      "institucion": "unitru",
+      "fecha": "2027-03-07",
+      "proceso": "Admisión 2027-II · Ordinario, áreas B y D",
+      "inscripcion": {"inicio": "2026-12-14", "fin": "2027-02-20"},
+      "fuente": "https://admisionunt.info/index.php/cronograma"
+    },
+    {
+      "institucion": "usmp",
+      "fecha": "2026-12-16",
+      "proceso": "Admisión 2027-I · Examen presencial",
+      "inscripcion": {"fin": "2026-12-11", "abierta_al": "2026-11-24"},
+      "nota": "El portal indica que el examen presencial admite postulaciones para Medicina Humana.",
+      "fuente": "https://admision.usmp.edu.pe/"
+    },
+    {
+      "institucion": "up",
+      "fecha": "2027-02-07",
+      "proceso": "Admisión 2027-I · Modalidad Selectiva, evaluación escrita del grupo G6",
+      "inscripcion": {"inicio": "2026-11-12", "fin": "2027-01-28"},
+      "fuente": "https://admision.up.edu.pe/wp-content/uploads/Prospecto-2027.pdf"
+    },
+    {
+      "institucion": "udep",
+      "fecha": "2026-11-28",
+      "proceso": "Admisión 2027-I · Test de Aptitud Académica, campus Piura",
+      "inscripcion": {"inicio": "2026-11-13", "fin": "2026-11-25", "hora_cierre": "12:00"},
+      "nota": "El formulario de inscripción cierra al mediodía del 25 de noviembre.",
+      "fuente": "https://admision.udep.edu.pe/cPiura/control/"
+    },
+    {
+      "institucion": "udep",
+      "fecha": "2026-12-12",
+      "proceso": "Admisión 2027-I · Test de Aptitud Académica, campus Piura",
+      "fuente": "https://www.udep.edu.pe/admision-piura/modalidad-admision/test-de-aptitud-academica-t-a-a/"
     }
   ],
   "directorio": [
@@ -125,6 +252,18 @@
     {"institucion": "upc", "portal": "https://upc.edu.pe/admision/"},
     {"institucion": "upch", "portal": "https://cayetano.edu.pe/admision/cronograma-y-modalidades/"},
     {"institucion": "urp", "portal": "https://www.urp.edu.pe/admision/"},
-    {"institucion": "utp", "portal": "https://www.utp.edu.pe/web/postulante", "sede": "Varias sedes"}
+    {"institucion": "utp", "portal": "https://www.utp.edu.pe/web/postulante", "sede": "Varias sedes"},
+    {"institucion": "unap", "portal": "https://admision.unapiquitos.edu.pe/"},
+    {"institucion": "unh", "portal": "https://admision.unh.edu.pe/"},
+    {"institucion": "uniscjsa", "portal": "https://uniscjsa.edu.pe/admision/"},
+    {"institucion": "unaaa", "portal": "https://unaaa.edu.pe/admision/"},
+    {"institucion": "uniq", "portal": "https://admi.uniq.edu.pe/"},
+    {"institucion": "unitru", "portal": "https://admisionunt.info/"},
+    {"institucion": "usmp", "portal": "https://admision.usmp.edu.pe/"},
+    {"institucion": "up", "portal": "https://www.up.edu.pe/Documents/ProspectoAdmisi%C3%B3nUP2027.pdf", "etiqueta": "Prospecto de admisión"},
+    {"institucion": "udep", "portal": "https://www.udep.edu.pe/admision-piura/"},
+    {"institucion": "undc", "portal": "https://admision.undc.edu.pe/", "sede": "Cañete, Lima"},
+    {"institucion": "unica", "portal": "https://admision.unica.edu.pe/", "sede": "Ica"},
+    {"institucion": "untels", "portal": "https://www.untels.edu.pe/03admision.aspx", "sede": "Villa El Salvador, Lima"}
   ]
 }
