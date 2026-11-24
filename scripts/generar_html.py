@@ -63,10 +63,11 @@ def tipo_institucion(institucion: dict) -> str:
     return institucion["tipo"].replace("ú", "u")
 
 
-def ficha_evento(evento: dict, instituciones: dict) -> str:
+def ficha_evento(evento: dict, instituciones: dict, sedes: dict) -> str:
     institucion = instituciones[evento["institucion"]]
     siglas = institucion["siglas"]
     proceso = escape(evento["proceso"])
+    ubicacion = escape(evento.get("ubicacion", sedes.get(institucion["id"], institucion["provincia"])))
     inscripcion = evento.get("inscripcion", {})
     inicio = inscripcion.get("inicio")
     fin = inscripcion.get("fin")
@@ -97,6 +98,10 @@ def ficha_evento(evento: dict, instituciones: dict) -> str:
                         <h3>{escape(siglas)}</h3>
                         <p class="event-process">{proceso}</p>{nota}
                     </div>
+                </div>
+                <div class="event-location">
+                    <p class="deadline-label">Ubicación</p>
+                    <p>{ubicacion}</p>
                 </div>
                 <div class="event-deadline">
                     <p class="deadline-label">Inscripción</p>
@@ -140,11 +145,12 @@ def main():
 
     eventos = sorted(datos["eventos"], key=lambda evento: (evento["fecha"], orden_institucion(evento)))
     directorio = sorted(datos["directorio"], key=orden_institucion)
+    sedes = {entrada["institucion"]: entrada["sede"] for entrada in directorio if "sede" in entrada}
     html = (
         plantilla
         .replace("{{ADSENSE}}", ADSENSE)
         .replace("{{FECHA_REVISION}}", fecha_html(datos["revision"]))
-        .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones) for evento in eventos))
+        .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones, sedes) for evento in eventos))
         .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, instituciones) for entrada in directorio))
     )
     (RAIZ / "index.html").write_text(html, encoding="utf-8", newline="\n")

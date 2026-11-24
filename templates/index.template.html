@@ -65,6 +65,12 @@
                     </div>
                 </div>
                 <div class="calendar-filters" id="calendar-controls" aria-label="Filtros del calendario" role="group" hidden>
+                    <label class="calendar-controls calendar-order" for="date-order">Orden por fecha
+                        <select id="date-order" aria-controls="calendar-events">
+                            <option value="asc">Más próxima primero</option>
+                            <option value="desc">Más lejana primero</option>
+                        </select>
+                    </label>
                     <label class="calendar-controls"><input type="checkbox" id="public-only"> Solo universidades públicas</label>
                     <label class="calendar-controls"><input type="checkbox" id="open-only"> Inscripciones abiertas</label>
                     <label class="calendar-controls"><input type="checkbox" id="show-past"> Mostrar fechas pasadas</label>

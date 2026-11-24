@@ -54,6 +54,7 @@
       "institucion": "uni",
       "fecha": "2026-12-13",
       "proceso": "Ingreso Escolar Nacional 2027-1 · Quinto de secundaria",
+      "ubicacion": "Lima y sedes regionales",
       "inscripcion": {"inicio": "2026-10-19", "fin": "2026-12-07"},
       "nota": "El mismo cronograma incluye la modalidad Talento Beca 18.",
       "fuente": "https://ien.admision.uni.edu.pe/"

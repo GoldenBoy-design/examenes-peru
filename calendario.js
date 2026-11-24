@@ -3,7 +3,14 @@ const controls = document.getElementById('calendar-controls');
 const pastToggle = document.getElementById('show-past');
 const publicToggle = document.getElementById('public-only');
 const openToggle = document.getElementById('open-only');
+const dateOrder = document.getElementById('date-order');
 const events = Array.from(calendarEvents.children);
+
+function orderCalendar() {
+    const direction = dateOrder.value === 'desc' ? -1 : 1;
+    const ordered = [...events].sort((a, b) => direction * a.dataset.fecha.localeCompare(b.dataset.fecha));
+    calendarEvents.append(...ordered);
+}
 
 function peruDateTime() {
     const formatter = new Intl.DateTimeFormat('en', {
@@ -49,7 +56,9 @@ function updateCalendar() {
 }
 
 controls.addEventListener('change', updateCalendar);
+dateOrder.addEventListener('change', orderCalendar);
 controls.hidden = false;
+orderCalendar();
 updateCalendar();
 
 const search = document.getElementById('directory-search');
