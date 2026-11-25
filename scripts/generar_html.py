@@ -33,6 +33,10 @@ def cargar_historial() -> dict:
     return json.loads((RAIZ / "data/historial-admision.json").read_text(encoding="utf-8"))
 
 
+def cargar_simulacros() -> dict:
+    return json.loads((RAIZ / "data/simulacros.json").read_text(encoding="utf-8"))
+
+
 def ruta_historial(institucion_id: str, historial: dict) -> str:
     return HISTORIALES_PROPIOS.get(institucion_id, f"/historial/#{institucion_id}" if institucion_id in historial else "")
 
@@ -122,7 +126,7 @@ def ficha_evento(evento: dict, instituciones: dict, historial: dict) -> str:
             </li>"""
 
 
-def ficha_directorio(institucion: dict, historial: dict) -> str:
+def ficha_directorio(institucion: dict, historial: dict, simulacros: set) -> str:
     institucion_id = institucion["id"]
     siglas = escape(institucion["siglas"])
     nombre = escape(institucion["nombre"])
@@ -134,6 +138,9 @@ def ficha_directorio(institucion: dict, historial: dict) -> str:
     etiqueta = "Historial de admisión" if archivo else institucion["etiqueta"]
     portal = f'\n                    {enlace_oficial(institucion["portal"], institucion["etiqueta"], institucion["siglas"])}' if archivo else ""
     licencia = enlace_oficial(institucion["licencia"], "Licencia SUNEDU", institucion["siglas"])
+    practica = ""
+    if institucion_id in simulacros:
+        practica = f'\n                    <a class="directory-primary" href="/simulacros/#institucion-{institucion_id}" aria-label="Simulacros de {siglas}">Simulacros</a>'
     return f"""
             <li class="directory-item" id="universidad-{institucion_id}" data-region="{region}">
                 <div class="directory-heading">
@@ -146,7 +153,7 @@ def ficha_directorio(institucion: dict, historial: dict) -> str:
                 <h3 class="directory-name"><a href="{enlace}">{nombre}</a></h3>
                 <div class="directory-actions">
                     <a class="directory-primary" href="{enlace}" aria-label="{escape(etiqueta)} de {siglas}">{escape(etiqueta)}</a>{portal}
-                    {licencia}
+                    {licencia}{practica}
                 </div>
             </li>"""
 
@@ -156,6 +163,7 @@ def main():
     registro = cargar_padron()
     instituciones = {item["id"]: item for item in registro["universidades"]}
     historial = cargar_historial()
+    simulacros = {simulacro.get("institucion", codigo) for codigo, simulacro in cargar_simulacros().items()}
     plantilla = (RAIZ / "templates/index.template.html").read_text(encoding="utf-8")
 
     def orden_institucion(institucion):
@@ -174,7 +182,7 @@ def main():
         .replace("{{ADSENSE}}", ADSENSE)
         .replace("{{FECHA_REVISION}}", fecha_html(datos["revision"]))
         .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones, historial) for evento in eventos))
-        .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, historial) for entrada in directorio))
+        .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, historial, simulacros) for entrada in directorio))
         .replace("{{REGIONES}}", opciones)
         .replace("{{NACIONALES}}", str(nacionales))
         .replace("{{TOTAL_DIRECTORIO}}", str(len(directorio)))

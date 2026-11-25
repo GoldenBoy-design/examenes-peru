@@ -1,10 +1,12 @@
-"""Genera las páginas de historial y el sitemap público."""
+"""Genera las páginas de historial, los simulacros y el sitemap público."""
 
 import json
 from html import escape
 from xml.etree import ElementTree as ET
 
-from generar_html import RAIZ, cargar_historial, cargar_padron, enlace_oficial, fecha_html, logo_html
+from generar_html import (
+    RAIZ, cargar_historial, cargar_padron, cargar_simulacros, enlace_oficial, fecha_html, logo_html,
+)
 
 DOMINIO = "https://examenesperu.netlify.app"
 RUTAS = (
@@ -24,7 +26,7 @@ def guardar_pagina(ruta: str, plantilla: str, campos: dict):
     for nombre, valor in campos.items():
         html = html.replace("{{" + nombre + "}}", str(valor))
     carpeta = RAIZ / ruta.strip("/")
-    carpeta.mkdir(exist_ok=True)
+    carpeta.mkdir(parents=True, exist_ok=True)
     (carpeta / "index.html").write_text(html, encoding="utf-8", newline="\n")
 
 
@@ -128,9 +130,144 @@ def generar_historiales():
     })
 
 
-def generar_sitemap():
+def pregunta_simulacro(pregunta: dict, numero: int) -> str:
+    letras = "abcde"
+    correcta = pregunta["correcta"]
+    identificador = pregunta.get("numero", numero)
+    alternativas = pregunta.get("opciones")
+    etiquetas = list(letras.upper())
+    estilo = "pregunta pregunta--cuadernillo"
+    if alternativas:
+        etiquetas = [f"{letra.upper()}. {escape(opcion)}" for letra, opcion in zip(letras, alternativas, strict=True)]
+        estilo = "pregunta"
+    opciones = "\n".join(
+        f'                        <label><input type="radio" name="p{numero}" value="{letra}"> {etiqueta}</label>'
+        for letra, etiqueta in zip(letras, etiquetas, strict=True)
+    )
+    return f'''
+                <fieldset class="{estilo}" data-correcta="{letras[correcta]}">
+                    <legend>{identificador}. {escape(pregunta["enunciado"])}</legend>
+                    <div class="opciones">
+{opciones}
+                    </div>
+                    <details>
+                        <summary>Ver solución de la pregunta {identificador}</summary>
+                        <p><strong>{etiquetas[correcta]}</strong></p>
+                        <p>{escape(pregunta["solucion"])}</p>
+                    </details>
+                </fieldset>'''
+
+
+def contenido_simulacro(simulacro: dict, siglas: str) -> str:
+    numero = 1
+    secciones = []
+    resultados = []
+    enlaces_secciones = []
+    for indice, bloque in enumerate(simulacro["bloques"], start=1):
+        area = f"bloque-{indice}"
+        nombre = escape(bloque["nombre"])
+        enlaces_secciones.append(f'<a href="#{area}">{nombre}</a>')
+        lectura = f'                <div class="lectura"><p>{escape(bloque["lectura"])}</p></div>' if bloque.get("lectura") else ""
+        fotos = []
+        for foto in bloque.get("fotos", []):
+            etiqueta = foto.get("etiqueta") or f'Página {simulacro.get("prefijo_pagina", "")}{foto["pagina"]}'
+            fotos.append(f'<a href="{escape(foto["url"])}" target="_blank" rel="noopener">{escape(etiqueta)} en Facebook</a>')
+        cuadernillo = f'                <p>{" · ".join(fotos)}</p>' if fotos else ""
+        preguntas = [
+            pregunta_simulacro(pregunta, n)
+            for n, pregunta in enumerate(bloque["preguntas"], start=numero)
+        ]
+        numero += len(preguntas)
+        secciones.append(f'''
+            <section id="{area}" aria-labelledby="{area}-titulo">
+                <h2 id="{area}-titulo">{nombre}</h2>
+{lectura}
+{cuadernillo}
+{"".join(preguntas)}
+            </section>''')
+        resultados.append(f'<div><dt>{nombre}</dt><dd data-area="{area}"></dd></div>')
+    observaciones = ""
+    if simulacro.get("formato") == "cuadernillo":
+        instrucciones = f'''
+                <p>{numero - 1} preguntas corregibles. Abre las fotos del cuadernillo, localiza cada número y marca aquí la letra elegida. Facebook puede pedir que inicies sesión.</p>
+                <p>Al terminar, corrige tus respuestas y consulta las soluciones elaboradas por Exámenes Perú.</p>'''
+        notas = "".join(f"<li>{escape(nota)}</li>" for nota in simulacro["observaciones"])
+        observaciones = f'                <details><summary>Observaciones sobre las preguntas</summary><ul>{notas}</ul></details>'
+        etiqueta_fuente = simulacro.get("etiqueta_fuente", "Convocatoria oficial")
+    else:
+        instrucciones = f'''
+                <p>{numero - 1} preguntas originales · Tiempo sugerido de {simulacro["minutos"]} minutos.</p>
+                <p>Marca una alternativa por pregunta. Al terminar, corrige tus respuestas y abre las soluciones para revisar el procedimiento.</p>'''
+        etiqueta_fuente = "Referencia oficial de admisión"
+    fuente = enlace_oficial(simulacro["fuente"], etiqueta_fuente, siglas)
+    return f'''
+            <section aria-labelledby="instrucciones">
+                <h2 id="instrucciones">{escape(simulacro["enfoque"])}</h2>
+{instrucciones}
+{observaciones}
+                <nav class="simulacro-secciones" aria-label="Secciones del simulacro">
+                    {" ".join(enlaces_secciones)} <a href="#revision">Revisar respuestas</a>
+                </nav>
+            </section>
+{"".join(secciones)}
+            <section aria-labelledby="revision">
+                <h2 id="revision">Revisa tus respuestas</h2>
+                <button type="button" id="corregir" hidden>Corregir simulacro</button>
+                <div id="resultado" hidden>
+                    <h3 id="titulo-resultado" tabindex="-1">Resultado</h3>
+                    <p id="resumen-resultado" aria-live="polite"></p>
+                    <dl>{"".join(resultados)}</dl>
+                </div>
+                <p>{fuente}</p>
+                <p><a href="/simulacros/">Ver los simulacros de otras universidades</a></p>
+            </section>'''
+
+
+def generar_simulacros() -> tuple:
+    instituciones = {item["id"]: item for item in cargar_padron()["universidades"]}
+    rutas = ["/simulacros/"]
+    tarjetas = {}
+    simulacros = cargar_simulacros()
+    for codigo, simulacro in sorted(simulacros.items(), key=lambda entrada: entrada[1].get("institucion", entrada[0])):
+        institucion = instituciones[simulacro.get("institucion", codigo)]
+        ruta = f"/simulacros/{codigo}/"
+        rutas.append(ruta)
+        titulo = simulacro.get("titulo", f'Simulacro de admisión {institucion["siglas"]}')
+        enfoque = escape(simulacro["enfoque"])
+        nombre = escape(institucion["nombre"])
+        if simulacro.get("formato") == "cuadernillo":
+            descripcion = f"{nombre} · Cuadernillo histórico con hoja de respuestas y soluciones explicadas."
+        else:
+            descripcion = f"{nombre} · Práctica original con corrección y soluciones explicadas."
+        tarjeta = f'<li><strong><a href="{ruta}">{escape(titulo)}</a></strong><br>{enfoque}</li>'
+        tarjetas.setdefault(institucion["id"], []).append(tarjeta)
+        guardar_pagina(ruta, "simulacros.template.html", {
+            "TITULO": escape(titulo),
+            "CANONICAL": DOMINIO + ruta,
+            "DESCRIPCION": descripcion,
+            "SCRIPT": '    <script src="/practica-admision/practica.js" defer></script>',
+            "MIGAS": f'<a href="/">Inicio</a> / <a href="/simulacros/">Simulacros</a> / {escape(institucion["siglas"])}',
+            "CONTENIDO": contenido_simulacro(simulacro, institucion["siglas"]),
+        })
+    catalogo = "\n".join(
+        f'            <section id="institucion-{codigo}"><h2>{escape(instituciones[codigo]["nombre"])}</h2>'
+        f'<ul class="links">{"".join(fichas)}</ul></section>'
+        for codigo, fichas in tarjetas.items()
+    )
+    guardar_pagina(rutas[0], "simulacros.template.html", {
+        "TITULO": "Simulacros de admisión por universidad",
+        "CANONICAL": DOMINIO + rutas[0],
+        "DESCRIPCION": "Elige una universidad para resolver ejercicios originales o practicar con un cuadernillo histórico. Revisa tus respuestas y las soluciones.",
+        "SCRIPT": "",
+        "MIGAS": '<a href="/">Inicio</a> / Simulacros',
+        "CONTENIDO": catalogo,
+    })
+    return tuple(rutas)
+
+
+def generar_sitemap(rutas):
     mapa = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
-    for ruta in RUTAS:
+    for ruta in rutas:
         pagina = RAIZ / ruta.strip("/") / "index.html"
         if not pagina.is_file():
             raise FileNotFoundError(f"Falta el HTML para la ruta pública {ruta}")
@@ -140,9 +277,9 @@ def generar_sitemap():
     ET.indent(mapa, space="  ")
     with (RAIZ / "sitemap.xml").open("w", encoding="utf-8", newline="\n") as archivo:
         ET.ElementTree(mapa).write(archivo, encoding="unicode", xml_declaration=True)
-    print(f"Sitemap generado con {len(RUTAS)} rutas editoriales.")
+    print(f"Sitemap generado con {len(rutas)} rutas editoriales.")
 
 
 if __name__ == "__main__":
     generar_historiales()
-    generar_sitemap()
+    generar_sitemap(RUTAS + generar_simulacros())

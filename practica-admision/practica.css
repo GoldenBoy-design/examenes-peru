@@ -22,6 +22,10 @@
 .pregunta label:hover { background: var(--cream); }
 .pregunta label:has(input:checked) { border-color: var(--accent); background: var(--pale-red); }
 .pregunta input { flex: 0 0 auto; margin-inline-start: 0; accent-color: var(--accent); }
+.pregunta--cuadernillo .opciones { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.pregunta--cuadernillo label { justify-content: center; align-items: center; gap: 5px; padding-inline: 3px; }
+.simulacro-secciones { display: flex; flex-wrap: wrap; gap: 4px 15px; margin-top: 16px; }
+.simulacro-secciones a { padding-block: 5px; }
 .pregunta details {
     padding: 8px 12px;
     border-left: 3px solid var(--accent);
