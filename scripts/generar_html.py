@@ -10,6 +10,7 @@ import json
 from datetime import date
 from html import escape
 from pathlib import Path
+from unicodedata import combining, normalize
 from urllib.parse import urlsplit
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -21,6 +22,19 @@ MESES = [
     "enero", "febrero", "marzo", "abril", "mayo", "junio",
     "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
 ]
+HISTORIALES_PROPIOS = {"uni": "/uni/", "unmsm": "/san-marcos/"}
+
+
+def cargar_padron() -> dict:
+    return json.loads((RAIZ / "data/padron-sunedu.json").read_text(encoding="utf-8"))
+
+
+def cargar_historial() -> dict:
+    return json.loads((RAIZ / "data/historial-admision.json").read_text(encoding="utf-8"))
+
+
+def ruta_historial(institucion_id: str, historial: dict) -> str:
+    return HISTORIALES_PROPIOS.get(institucion_id, f"/historial/#{institucion_id}" if institucion_id in historial else "")
 
 
 def fecha_html(valor: str) -> str:
@@ -39,14 +53,14 @@ def fecha_calendario_html(fecha: date) -> str:
 
 
 def logo_html(institucion: dict) -> str:
-    logo = "/logos/pronabec.png" if institucion["id"] == "beca18" else f'/logos/{institucion["id"]}.png'
+    logo = f'/logos/{institucion["id"]}.png'
     if (RAIZ / logo.lstrip("/")).is_file():
         return (
             '<span class="institution-logo">'
             f'<img src="{escape(logo)}" alt="" width="52" height="52" loading="lazy" decoding="async">'
             '</span>'
         )
-    return f'<span class="institution-logo logo-text" aria-hidden="true">{escape(institucion["siglas"][:4])}</span>'
+    return f'<span class="institution-logo logo-text" aria-hidden="true">{escape(institucion["siglas"])}</span>'
 
 
 def enlace_oficial(url: str, texto: str, contexto: str) -> str:
@@ -57,17 +71,13 @@ def enlace_oficial(url: str, texto: str, contexto: str) -> str:
     return f'<a class="official-link" href="{escape(url)}" aria-label="{etiqueta}">{escape(texto)}</a>'
 
 
-def tipo_institucion(institucion: dict) -> str:
-    if institucion["id"] == "beca18":
-        return "beca"
-    return institucion["tipo"].replace("ú", "u")
-
-
-def ficha_evento(evento: dict, instituciones: dict, sedes: dict) -> str:
+def ficha_evento(evento: dict, instituciones: dict, historial: dict) -> str:
     institucion = instituciones[evento["institucion"]]
     siglas = institucion["siglas"]
     proceso = escape(evento["proceso"])
-    ubicacion = escape(evento.get("ubicacion", sedes.get(institucion["id"], institucion["provincia"])))
+    ubicacion = escape(evento.get("ubicacion", institucion["sede"]))
+    archivo = ruta_historial(institucion["id"], historial)
+    titulo = f'<a href="{archivo}">{escape(siglas)}</a>' if archivo else escape(siglas)
     inscripcion = evento.get("inscripcion", {})
     inicio = inscripcion.get("inicio")
     fin = inscripcion.get("fin")
@@ -89,13 +99,13 @@ def ficha_evento(evento: dict, instituciones: dict, sedes: dict) -> str:
     hora_cierre = escape(inscripcion.get("hora_cierre", ""))
     nota = f'\n                    <p class="event-note">{escape(evento["nota"])}</p>' if evento.get("nota") else ""
     return f"""
-            <li class="event" data-fecha="{fecha.isoformat()}" data-tipo="{escape(tipo_institucion(institucion))}"
+            <li class="event" data-fecha="{fecha.isoformat()}" data-tipo="{escape(institucion["tipo"])}"
                 data-apertura="{escape(apertura)}" data-cierre="{cierre}" data-hora-cierre="{hora_cierre}">
                 <div class="event-date">{fecha_calendario_html(fecha)}<span class="event-state" hidden></span></div>
                 <div class="event-detail">
                     {logo_html(institucion)}
                     <div>
-                        <h3>{escape(siglas)}</h3>
+                        <h3>{titulo}</h3>
                         <p class="event-process">{proceso}</p>{nota}
                     </div>
                 </div>
@@ -112,46 +122,63 @@ def ficha_evento(evento: dict, instituciones: dict, sedes: dict) -> str:
             </li>"""
 
 
-def ficha_directorio(registro: dict, instituciones: dict) -> str:
-    institucion = instituciones[registro["institucion"]]
-    siglas = institucion["siglas"]
+def ficha_directorio(institucion: dict, historial: dict) -> str:
+    institucion_id = institucion["id"]
+    siglas = escape(institucion["siglas"])
     nombre = escape(institucion["nombre"])
-    sede = escape(registro.get("sede", institucion["provincia"]))
-    tipo = "Pública" if tipo_institucion(institucion) == "publica" else "Privada"
-    enlace = enlace_oficial(registro["portal"], registro.get("etiqueta", "Portal de admisión"), siglas)
+    sede = escape(institucion["sede"])
+    region = escape(institucion["departamento"])
+    tipo = "Nacional" if institucion["tipo"] == "publica" else "Privada"
+    archivo = ruta_historial(institucion_id, historial)
+    enlace = escape(archivo or institucion["portal"])
+    etiqueta = "Historial de admisión" if archivo else institucion["etiqueta"]
+    portal = f'\n                    {enlace_oficial(institucion["portal"], institucion["etiqueta"], institucion["siglas"])}' if archivo else ""
+    licencia = enlace_oficial(institucion["licencia"], "Licencia SUNEDU", institucion["siglas"])
     return f"""
-            <li class="directory-item">
+            <li class="directory-item" id="universidad-{institucion_id}" data-region="{region}">
                 <div class="directory-heading">
                     {logo_html(institucion)}
                     <div>
-                        <h3>{escape(siglas)}</h3>
-                        <p class="directory-location">{sede} · {tipo}</p>
+                        <p class="directory-code">{siglas} <span>{tipo}</span></p>
+                        <p class="directory-location">{sede}</p>
                     </div>
                 </div>
-                <p class="directory-name">{nombre}</p>
-                {enlace}
+                <h3 class="directory-name"><a href="{enlace}">{nombre}</a></h3>
+                <div class="directory-actions">
+                    <a class="directory-primary" href="{enlace}" aria-label="{escape(etiqueta)} de {siglas}">{escape(etiqueta)}</a>{portal}
+                    {licencia}
+                </div>
             </li>"""
 
 
 def main():
     datos = json.loads((RAIZ / "data/cronogramas-verificados.json").read_text(encoding="utf-8"))
-    registro = json.loads((RAIZ / "data/universidades.json").read_text(encoding="utf-8"))
+    registro = cargar_padron()
     instituciones = {item["id"]: item for item in registro["universidades"]}
+    historial = cargar_historial()
     plantilla = (RAIZ / "templates/index.template.html").read_text(encoding="utf-8")
 
-    def orden_institucion(entrada):
-        institucion = instituciones[entrada["institucion"]]
-        return tipo_institucion(institucion) != "publica", institucion["siglas"]
+    def orden_institucion(institucion):
+        return institucion["tipo"] != "publica", institucion["siglas"]
 
-    eventos = sorted(datos["eventos"], key=lambda evento: (evento["fecha"], orden_institucion(evento)))
-    directorio = sorted(datos["directorio"], key=orden_institucion)
-    sedes = {entrada["institucion"]: entrada["sede"] for entrada in directorio if "sede" in entrada}
+    eventos = sorted(datos["eventos"], key=lambda evento: (evento["fecha"], orden_institucion(instituciones[evento["institucion"]])))
+    directorio = sorted(instituciones.values(), key=lambda u: (u["id"] != "unmsm", orden_institucion(u)))
+    regiones = sorted(
+        {u["departamento"] for u in directorio},
+        key=lambda region: "".join(letra for letra in normalize("NFD", region) if not combining(letra)),
+    )
+    opciones = "\n".join(f'                            <option value="{escape(region)}">{escape(region)}</option>' for region in regiones)
+    nacionales = sum(u["tipo"] == "publica" for u in directorio)
     html = (
         plantilla
         .replace("{{ADSENSE}}", ADSENSE)
         .replace("{{FECHA_REVISION}}", fecha_html(datos["revision"]))
-        .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones, sedes) for evento in eventos))
-        .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, instituciones) for entrada in directorio))
+        .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones, historial) for evento in eventos))
+        .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, historial) for entrada in directorio))
+        .replace("{{REGIONES}}", opciones)
+        .replace("{{NACIONALES}}", str(nacionales))
+        .replace("{{TOTAL_DIRECTORIO}}", str(len(directorio)))
+        .replace("{{FUENTE_SUNEDU}}", escape(registro["fuente"]))
     )
     (RAIZ / "index.html").write_text(html, encoding="utf-8", newline="\n")
     print(f"Portada generada con {len(eventos)} fechas cotejadas y {len(directorio)} portales de admisión.")

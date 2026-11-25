@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admisión San Marcos | Fechas, temarios y puntajes</title>
+    <meta name="description" content="Consulta los exámenes pasados de San Marcos por área, el temario de la OCA, resoluciones, solucionarios y puntajes mínimos y máximos por carrera y sede.">
+    <link rel="canonical" href="https://examenesperu.netlify.app/san-marcos/">
+    <link rel="icon" type="image/png" href="/logos/favicon.png">
+    <link rel="stylesheet" href="/editorial.css">
+    <link rel="stylesheet" href="/archivo.css">
+    <script src="/archivo.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Ir al contenido</a>
+    <header class="editorial-masthead">
+        <div class="editorial-shell">
+            <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
+            <nav class="editorial-nav" aria-label="Navegación principal">
+                <a href="/#calendario">Calendario</a>
+                <a href="/#directorio">Universidades</a>
+                <a href="/historial/">Historial</a>
+                <a href="/practica-admision/">Practicar</a>
+            </nav>
+        </div>
+    </header>
+    <main id="contenido" tabindex="-1">
+        <header class="editorial-hero editorial-hero--with-logo archive-hero">
+            <div class="editorial-shell">
+                <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> / <a href="/historial/">Historial</a> / San Marcos</nav>
+                <p class="eyebrow">Universidad Nacional Mayor de San Marcos</p>
+                <img class="hero-logo" src="/logos/unmsm.png" alt="" width="124" height="124">
+                <h1>Admisión San Marcos</h1>
+                <p class="lead">Revisa qué día rindió cada área, busca el puntaje mínimo observado de tu carrera y encuentra el temario y los solucionarios de cada ciclo.</p>
+                <a class="hero-source" href="https://admision.unmsm.edu.pe/portal/">Portal oficial de admisión <span aria-hidden="true">↗</span></a>
+            </div>
+        </header>
+        <div class="editorial-shell reading-layout marcos-layout">
+            <nav class="editorial-toc" aria-label="En esta página">
+                <a href="#convocatorias">Convocatorias y actas</a>
+                <a href="#puntajes">Puntajes por carrera</a>
+                <a href="#materiales">Temarios y solucionarios</a>
+            </nav>
+            <div class="editorial-main marcos-main">
+                <section id="convocatorias" aria-labelledby="convocatorias-title">
+                    <h2 id="convocatorias-title">Convocatorias pasadas</h2>
+                    <p>El nombre del ciclo corresponde al ingreso. Por ejemplo, el examen 2027-I se rindió en octubre de 2026.</p>
+                    <div class="marcos-intakes">
+{{CONVOCATORIAS}}
+                    </div>
+                </section>
+                <section id="puntajes" aria-labelledby="puntajes-title">
+                    <h2 id="puntajes-title">Puntajes de ingreso {{CICLO}}</h2>
+                    <p>Compara los puntajes del examen general de Educación Básica Regular y Alternativa (EBR y EBA). Cada fila reúne los resultados de una carrera y sede publicados por la Oficina Central de Admisión.</p>
+                    <dl class="score-stats">
+                        <div><dt>Carreras y sedes</dt><dd>{{ESCUELAS}}</dd></div>
+                        <div><dt>Puntajes con vacante</dt><dd>{{PUNTAJES}}</dd></div>
+                    </dl>
+                    <p id="criterio-puntajes" class="notice">El mínimo y el máximo se calculan entre quienes obtuvieron vacante en ese ciclo y sede. El mínimo reglamentario figura en el reglamento de cada convocatoria.</p>
+                    <div class="archive-tools score-tools" id="score-filter" hidden>
+                        <label for="score-search">Buscar carrera o sede
+                            <input type="search" id="score-search" aria-controls="score-table" placeholder="Ej. Medicina o Huaral">
+                        </label>
+                        <label for="score-order">Ordenar por
+                            <select id="score-order" aria-controls="score-table">
+                                <option value="escuela">Carrera (A a Z)</option>
+                                <option value="minimo">Mayor puntaje mínimo</option>
+                                <option value="maximo">Mayor puntaje máximo</option>
+                            </select>
+                        </label>
+                    </div>
+                    <p class="score-count" id="score-count" role="status" hidden>{{ESCUELAS}} carreras y sedes</p>
+                    <div class="table-wrap score-table-wrap" role="region" aria-label="Tabla de puntajes de admisión {{CICLO}}" tabindex="0">
+                        <table id="score-table" aria-describedby="criterio-puntajes">
+                            <thead><tr><th scope="col">Carrera y sede</th><th scope="col">Mínimo</th><th scope="col">Máximo</th></tr></thead>
+                            <tbody>
+{{FILAS_PUNTAJES}}
+                            </tbody>
+                        </table>
+                    </div>
+                    <p id="score-empty" hidden>No hay coincidencias. Prueba con el nombre de la carrera o la localidad.</p>
+                    <p class="archive-source">Consulta el <a href="{{FUENTE_PUNTAJES}}">listado de resultados en la OCA</a>. Cotejo del {{REVISION_PUNTAJES}}.</p>
+                </section>
+                <section id="materiales" aria-labelledby="materiales-title">
+                    <h2 id="materiales-title">Temarios y solucionarios</h2>
+                    <p>El reglamento oficial incluye el temario de la prueba. Las academias enlazadas publican pruebas, claves o soluciones de convocatorias anteriores.</p>
+                    <ul class="links">
+                        <li><a href="https://cdn.www.gob.pe/uploads/document/file/10469382/1889987-r-r-n-010319-2026-reglamento-de-admision-2027-i-de-la-universidad-nacional-mayor-de-san-marcos.pdf?v=1787066445">Reglamento y temario 2027-I · Resolución Rectoral N.° 010319-2026</a></li>
+                        <li><a href="https://www.gob.pe/institucion/unmsm/informes-publicaciones/1889987-reglamento-de-admision">Reglamentos anteriores · Compendio de la UNMSM</a></li>
+                        <li><a href="https://www.trilce.edu.pe/academia/solucionarios-san-marcos">Solucionarios por ciclo y área · Trilce</a></li>
+                        <li><a href="https://academia.pitagoras.edu.pe/solucionarios-san-marcos/">Solucionarios por área y jornada · Pitágoras</a></li>
+                        <li><a href="https://pamer.edu.pe/academias/recursos/san-marcos/">Solucionarios de San Marcos · Pamer</a></li>
+                    </ul>
+                    <h3>Cómo practicar con un examen anterior</h3>
+                    <ol>
+                        <li>Elige el cuadernillo de tu área y anota el ciclo. Para Medicina Humana, usa la prueba de su jornada específica cuando la haya.</li>
+                        <li>Resuelve primero sin la clave y marca las preguntas que dejaste en duda para revisarlas al final.</li>
+                        <li>Clasifica tus errores por tema y vuelve a resolverlos. Si calculas tu puntaje, usa la calificación indicada en el reglamento de ese proceso.</li>
+                    </ol>
+                    <p>También puedes hacer la <a href="/practica-admision/">prueba de práctica de Exámenes Perú</a> o armar un <a href="/guia-preparacion-examen-admision-peru/">plan de estudio por semanas</a>.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="editorial-footer">
+        <div class="editorial-shell">
+            <nav aria-label="Información del sitio">
+                <a href="/historial/">Historial de universidades</a>
+                <a href="/acerca-de/">Fuentes y metodología</a>
+                <a href="/privacidad/">Privacidad</a>
+            </nav>
+            <p>Exámenes Perú · PSY Team</p>
+        </div>
+    </footer>
+</body>
+</html>

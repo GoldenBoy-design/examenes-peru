@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronograma de exámenes de admisión en Perú | Exámenes Perú</title>
-    <meta name="description" content="Consulta fechas de admisión universitaria en Perú con sus fuentes oficiales, compara plazos y practica con ejercicios de razonamiento resueltos.">
+    <meta name="description" content="Calendario de admisión de universidades nacionales y la PUCP. Busca por departamento y consulta el historial, temario y puntajes de San Marcos.">
     <link rel="canonical" href="https://examenesperu.netlify.app/">
     <link rel="icon" type="image/png" href="/logos/favicon.png">
     <meta property="og:type" content="website">
@@ -35,7 +35,8 @@
             <nav class="site-nav" aria-label="Navegación principal">
                 <a href="#calendario">Calendario</a>
                 <a href="#directorio">Universidades</a>
-                <a href="/guia-preparacion-examen-admision-peru/">Guía de estudio</a>
+                <a href="/historial/">Historial</a>
+                <a href="/guia-preparacion-examen-admision-peru/" aria-label="Guía de estudio">Guía</a>
                 <a href="/practica-admision/">Ejercicios</a>
             </nav>
         </div>
@@ -45,10 +46,10 @@
             <div class="shell hero-grid">
                 <div class="hero-content">
                     <h1 id="hero-heading">Exámenes de admisión en Perú</h1>
-                    <p>Encuentra las fechas de tu modalidad, revisa los plazos de inscripción y prepara tu examen.</p>
+                    <p>Consulta fechas e inscripciones de universidades nacionales y la PUCP. Revisa procesos anteriores para preparar tu postulación.</p>
                     <div class="hero-actions">
                         <a class="button button-light" href="#calendario">Ver calendario</a>
-                        <a class="button button-outline" href="/practica-admision/">Resolver ejercicios</a>
+                        <a class="button button-outline" href="#directorio">Buscar universidad</a>
                     </div>
                 </div>
                 <div class="hero-media">
@@ -56,6 +57,21 @@
                 </div>
             </div>
         </section>
+        <div class="shell highlight-grid">
+            <section class="highlight highlight-marcos" aria-labelledby="highlight-sm">
+                <span class="highlight-logo"><img src="/logos/unmsm.png" alt="" width="52" height="52"></span>
+                <div>
+                    <h2 id="highlight-sm"><a href="/san-marcos/">Historial de San Marcos</a></h2>
+                    <p>Fechas por área, puntajes por carrera y sede, reglamentos y solucionarios.</p>
+                </div>
+            </section>
+            <section class="highlight highlight-registro" aria-labelledby="highlight-roster">
+                <div>
+                    <h2 id="highlight-roster"><a href="#directorio">{{NACIONALES}} universidades nacionales</a></h2>
+                    <p>Encuentra su portal de admisión y resolución de licenciamiento. La PUCP es la única privada del directorio.</p>
+                </div>
+            </section>
+        </div>
         <div class="shell primary-grid">
             <section class="calendar" id="calendario">
                 <div class="section-heading">
@@ -108,13 +124,23 @@
             <div class="shell">
                 <div class="section-heading">
                     <div>
-                        <h2>Portales oficiales de admisión</h2>
-                        <p class="section-copy">Busca una universidad para consultar su portal oficial. Puedes comprobar su licenciamiento en la <a href="https://www.sunedu.gob.pe/lista-de-universidades-licenciadas/">lista de SUNEDU</a> y revisar las modalidades de la UNI en <a href="/uni/">su ficha de admisión</a>.</p>
+                        <h2>Directorio de universidades</h2>
+                        <p class="section-copy">Busca por nombre, sigla o departamento. Cada ficha incluye su portal y resolución de licenciamiento. <a href="{{FUENTE_SUNEDU}}">Consulta el padrón de SUNEDU</a>.</p>
                     </div>
-                    <div class="directory-filter" id="directory-filter" hidden>
+                </div>
+                <div class="directory-tools" id="directory-filter" hidden>
+                    <div class="directory-filter">
                         <label for="directory-search">Buscar universidad</label>
-                        <input type="search" id="directory-search" placeholder="Nombre, sigla o ciudad">
+                        <input type="search" id="directory-search" placeholder="Ej. San Marcos, UNI o Cusco">
                     </div>
+                    <div class="directory-filter">
+                        <label for="directory-region">Departamento</label>
+                        <select id="directory-region">
+                            <option value="">Todos los departamentos</option>
+{{REGIONES}}
+                        </select>
+                    </div>
+                    <p class="directory-count" id="directory-count" role="status">{{TOTAL_DIRECTORIO}} universidades</p>
                 </div>
                 <p id="directory-empty" class="calendar-empty" role="status" hidden>No hay coincidencias. Prueba con otra sigla o ciudad.</p>
                 <ul class="directory-list" id="directory-list" role="list">
@@ -129,7 +155,7 @@
             <nav class="footer-links" aria-label="Información del sitio">
                 <a href="/acerca-de/">Fuentes y metodología</a>
                 <a href="/privacidad/">Privacidad</a>
-                <a href="/uni/">Admisión UNI</a>
+                <a href="/historial/">Historial de admisión</a>
             </nav>
         </div>
     </footer>

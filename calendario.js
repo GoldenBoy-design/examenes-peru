@@ -62,6 +62,8 @@ orderCalendar();
 updateCalendar();
 
 const search = document.getElementById('directory-search');
+const region = document.getElementById('directory-region');
+const count = document.getElementById('directory-count');
 const directory = Array.from(document.getElementById('directory-list').children);
 const noResults = document.getElementById('directory-empty');
 
@@ -69,12 +71,19 @@ function searchable(text) {
     return text.toLocaleLowerCase('es-PE').normalize('NFD').replace(/\p{M}/gu, '');
 }
 
-search.addEventListener('input', () => {
+function updateDirectory() {
     const query = searchable(search.value.trim());
+    let matches = 0;
     for (const entry of directory) {
-        entry.hidden = !searchable(entry.textContent).includes(query);
+        const inRegion = !region.value || entry.dataset.region === region.value;
+        entry.hidden = !inRegion || !searchable(entry.textContent).includes(query);
+        if (!entry.hidden) matches++;
     }
-    noResults.hidden = directory.some(entry => !entry.hidden);
-});
+    count.textContent = matches === 1 ? '1 universidad' : `${matches} universidades`;
+    noResults.hidden = matches !== 0;
+}
 
+search.addEventListener('input', updateDirectory);
+region.addEventListener('change', updateDirectory);
 document.getElementById('directory-filter').hidden = false;
+updateDirectory();

@@ -1,0 +1,767 @@
+{
+  "ciclo": "2027-I",
+  "revision": "2026-11-24",
+  "fuente": "https://admision.unmsm.edu.pe/Website20271/A/A.html",
+  "escuelas": [
+    {
+      "escuela": "ADMINISTRACIÓN",
+      "minimo": "982.000",
+      "maximo": "1473.500",
+      "puntajes": 83,
+      "vacantes_observadas": 83,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/091/results.html"
+    },
+    {
+      "escuela": "ADMINISTRACIÓN - S.J.L",
+      "minimo": "828.875",
+      "maximo": "997.375",
+      "puntajes": 9,
+      "vacantes_observadas": 9,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0911/results.html"
+    },
+    {
+      "escuela": "ADMINISTRACIÓN DE LA GASTRONOMÍA",
+      "minimo": "1005.750",
+      "maximo": "1151.000",
+      "puntajes": 12,
+      "vacantes_observadas": 12,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/094/results.html"
+    },
+    {
+      "escuela": "ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES",
+      "minimo": "1111.000",
+      "maximo": "1429.625",
+      "puntajes": 47,
+      "vacantes_observadas": 47,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/093/results.html"
+    },
+    {
+      "escuela": "ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES - S.J.L",
+      "minimo": "999.125",
+      "maximo": "1155.000",
+      "puntajes": 8,
+      "vacantes_observadas": 8,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0931/results.html"
+    },
+    {
+      "escuela": "ADMINISTRACIÓN DE TURISMO",
+      "minimo": "844.375",
+      "maximo": "1239.500",
+      "puntajes": 67,
+      "vacantes_observadas": 67,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/092/results.html"
+    },
+    {
+      "escuela": "ADMINISTRACIÓN DE TURISMO - S.J.L",
+      "minimo": "751.375",
+      "maximo": "1125.875",
+      "puntajes": 14,
+      "vacantes_observadas": 14,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0921/results.html"
+    },
+    {
+      "escuela": "ADMINISTRACIÓN MARÍTIMA Y PORTUARIA",
+      "minimo": "1045.375",
+      "maximo": "1154.375",
+      "puntajes": 11,
+      "vacantes_observadas": 11,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/095/results.html"
+    },
+    {
+      "escuela": "ANTROPOLOGÍA",
+      "minimo": "936.875",
+      "maximo": "1170.000",
+      "puntajes": 20,
+      "vacantes_observadas": 20,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/153/results.html"
+    },
+    {
+      "escuela": "ARQUEOLOGÍA",
+      "minimo": "822.875",
+      "maximo": "1089.000",
+      "puntajes": 19,
+      "vacantes_observadas": 19,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/154/results.html"
+    },
+    {
+      "escuela": "ARQUITECTURA Y URBANISMO",
+      "minimo": "1164.125",
+      "maximo": "1282.750",
+      "puntajes": 10,
+      "vacantes_observadas": 10,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/169/results.html"
+    },
+    {
+      "escuela": "ARTE",
+      "minimo": "764.625",
+      "maximo": "1379.375",
+      "puntajes": 14,
+      "vacantes_observadas": 14,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/036/results.html"
+    },
+    {
+      "escuela": "AUDITORÍA EMPRESARIAL Y DEL SECTOR PÚBLICO",
+      "minimo": "820.250",
+      "maximo": "1387.250",
+      "puntajes": 50,
+      "vacantes_observadas": 50,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/113/results.html"
+    },
+    {
+      "escuela": "AUDITORÍA EMPRESARIAL Y DEL SECTOR PÚBLICO - S.J.L",
+      "minimo": "665.125",
+      "maximo": "928.875",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/1131/results.html"
+    },
+    {
+      "escuela": "BIBLIOTECOLOGÍA Y CIENCIAS DE LA INFORMACIÓN",
+      "minimo": "884.250",
+      "maximo": "1184.625",
+      "puntajes": 15,
+      "vacantes_observadas": 15,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/037/results.html"
+    },
+    {
+      "escuela": "CIENCIA DE LA COMPUTACIÓN",
+      "minimo": "910.000",
+      "maximo": "1174.375",
+      "puntajes": 28,
+      "vacantes_observadas": 28,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/203/results.html"
+    },
+    {
+      "escuela": "CIENCIA DE MATERIALES Y NANOTECNOLOGÍA",
+      "minimo": "706.125",
+      "maximo": "950.000",
+      "puntajes": 17,
+      "vacantes_observadas": 17,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/134/results.html"
+    },
+    {
+      "escuela": "CIENCIA POLÍTICA",
+      "minimo": "1066.500",
+      "maximo": "1409.625",
+      "puntajes": 41,
+      "vacantes_observadas": 41,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/023/results.html"
+    },
+    {
+      "escuela": "CIENCIAS BIOLÓGICAS",
+      "minimo": "950.125",
+      "maximo": "1213.750",
+      "puntajes": 17,
+      "vacantes_observadas": 17,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/101/results.html"
+    },
+    {
+      "escuela": "CIENCIAS DE LOS ALIMENTOS",
+      "minimo": "903.000",
+      "maximo": "1084.125",
+      "puntajes": 5,
+      "vacantes_observadas": 5,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/042/results.html"
+    },
+    {
+      "escuela": "COMPUTACIÓN CIENTÍFICA",
+      "minimo": "785.875",
+      "maximo": "1062.500",
+      "puntajes": 28,
+      "vacantes_observadas": 28,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/145/results.html"
+    },
+    {
+      "escuela": "COMUNICACIÓN SOCIAL",
+      "minimo": "1135.000",
+      "maximo": "1321.125",
+      "puntajes": 22,
+      "vacantes_observadas": 22,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/035/results.html"
+    },
+    {
+      "escuela": "CONSERVACIÓN Y RESTAURACIÓN",
+      "minimo": "762.750",
+      "maximo": "1144.625",
+      "puntajes": 14,
+      "vacantes_observadas": 14,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/039/results.html"
+    },
+    {
+      "escuela": "CONTABILIDAD",
+      "minimo": "942.000",
+      "maximo": "1417.500",
+      "puntajes": 90,
+      "vacantes_observadas": 90,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/111/results.html"
+    },
+    {
+      "escuela": "CONTABILIDAD - HUARAL",
+      "minimo": "685.000",
+      "maximo": "1193.250",
+      "puntajes": 14,
+      "vacantes_observadas": 14,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/1112/results.html"
+    },
+    {
+      "escuela": "CONTABILIDAD - S.J.L",
+      "minimo": "783.750",
+      "maximo": "1321.500",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/1111/results.html"
+    },
+    {
+      "escuela": "CRIMINALÍSTICA FINANCIERA FORENSE",
+      "minimo": "841.375",
+      "maximo": "1148.125",
+      "puntajes": 40,
+      "vacantes_observadas": 40,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/115/results.html"
+    },
+    {
+      "escuela": "DANZA",
+      "minimo": "950.312",
+      "maximo": "1111.500",
+      "puntajes": 7,
+      "vacantes_observadas": 7,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/038/results.html"
+    },
+    {
+      "escuela": "DERECHO",
+      "minimo": "1168.125",
+      "maximo": "1446.750",
+      "puntajes": 90,
+      "vacantes_observadas": 90,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/022/results.html"
+    },
+    {
+      "escuela": "ECONOMÍA",
+      "minimo": "1125.125",
+      "maximo": "1420.750",
+      "puntajes": 77,
+      "vacantes_observadas": 77,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/121/results.html"
+    },
+    {
+      "escuela": "ECONOMÍA INTERNACIONAL",
+      "minimo": "1020.250",
+      "maximo": "1326.625",
+      "puntajes": 73,
+      "vacantes_observadas": 73,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/123/results.html"
+    },
+    {
+      "escuela": "ECONOMÍA PÚBLICA",
+      "minimo": "1011.500",
+      "maximo": "1497.500",
+      "puntajes": 69,
+      "vacantes_observadas": 69,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/122/results.html"
+    },
+    {
+      "escuela": "EDUCACIÓN FÍSICA",
+      "minimo": "919.254",
+      "maximo": "1262.583",
+      "puntajes": 36,
+      "vacantes_observadas": 36,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/062/results.html"
+    },
+    {
+      "escuela": "EDUCACIÓN INICIAL",
+      "minimo": "901.500",
+      "maximo": "1165.625",
+      "puntajes": 11,
+      "vacantes_observadas": 11,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0611/results.html"
+    },
+    {
+      "escuela": "EDUCACIÓN PRIMARIA",
+      "minimo": "986.375",
+      "maximo": "1199.500",
+      "puntajes": 11,
+      "vacantes_observadas": 11,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0612/results.html"
+    },
+    {
+      "escuela": "EDUCACIÓN SECUNDARIA",
+      "minimo": "1028.250",
+      "maximo": "1296.000",
+      "puntajes": 42,
+      "vacantes_observadas": 42,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0613/results.html"
+    },
+    {
+      "escuela": "ENFERMERÍA",
+      "minimo": "988.250",
+      "maximo": "1337.125",
+      "puntajes": 39,
+      "vacantes_observadas": 39,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/013/results.html"
+    },
+    {
+      "escuela": "ESTADÍSTICA",
+      "minimo": "820.500",
+      "maximo": "1208.000",
+      "puntajes": 28,
+      "vacantes_observadas": 28,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/142/results.html"
+    },
+    {
+      "escuela": "FARMACIA Y BIOQUÍMICA",
+      "minimo": "995.125",
+      "maximo": "1273.750",
+      "puntajes": 28,
+      "vacantes_observadas": 28,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/041/results.html"
+    },
+    {
+      "escuela": "FILOSOFÍA",
+      "minimo": "843.875",
+      "maximo": "1072.625",
+      "puntajes": 14,
+      "vacantes_observadas": 14,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/033/results.html"
+    },
+    {
+      "escuela": "FÍSICA",
+      "minimo": "747.875",
+      "maximo": "1081.125",
+      "puntajes": 18,
+      "vacantes_observadas": 18,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/131/results.html"
+    },
+    {
+      "escuela": "GENÉTICA Y BIOTECNOLOGÍA",
+      "minimo": "1062.500",
+      "maximo": "1285.500",
+      "puntajes": 15,
+      "vacantes_observadas": 15,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/102/results.html"
+    },
+    {
+      "escuela": "GEOFÍSICA",
+      "minimo": "703.000",
+      "maximo": "965.625",
+      "puntajes": 10,
+      "vacantes_observadas": 10,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/133/results.html"
+    },
+    {
+      "escuela": "GEOGRAFÍA",
+      "minimo": "783.625",
+      "maximo": "1210.375",
+      "puntajes": 34,
+      "vacantes_observadas": 34,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/157/results.html"
+    },
+    {
+      "escuela": "GESTIÓN TRIBUTARIA",
+      "minimo": "800.750",
+      "maximo": "1573.500",
+      "puntajes": 50,
+      "vacantes_observadas": 50,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/112/results.html"
+    },
+    {
+      "escuela": "GESTIÓN TRIBUTARIA - S.J.L",
+      "minimo": "601.750",
+      "maximo": "994.250",
+      "puntajes": 12,
+      "vacantes_observadas": 12,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/1121/results.html"
+    },
+    {
+      "escuela": "HISTORIA",
+      "minimo": "952.875",
+      "maximo": "1151.750",
+      "puntajes": 15,
+      "vacantes_observadas": 15,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/151/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA AGROINDUSTRIAL",
+      "minimo": "900.000",
+      "maximo": "1084.125",
+      "puntajes": 20,
+      "vacantes_observadas": 20,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/073/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA AMBIENTAL",
+      "minimo": "979.125",
+      "maximo": "1092.750",
+      "puntajes": 13,
+      "vacantes_observadas": 13,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/168/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA BIOMÉDICA",
+      "minimo": "1164.125",
+      "maximo": "1336.375",
+      "puntajes": 20,
+      "vacantes_observadas": 20,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/194/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA CIVIL",
+      "minimo": "1182.375",
+      "maximo": "1485.000",
+      "puntajes": 13,
+      "vacantes_observadas": 13,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/167/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA DE INTELIGENCIA ARTIFÍCIAL",
+      "minimo": "960.250",
+      "maximo": "1344.875",
+      "puntajes": 35,
+      "vacantes_observadas": 35,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/204/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA DE MINAS",
+      "minimo": "1028.250",
+      "maximo": "1271.875",
+      "puntajes": 17,
+      "vacantes_observadas": 17,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/165/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA DE SEGURIDAD Y SALUD EN EL TRABAJO",
+      "minimo": "904.250",
+      "maximo": "1257.625",
+      "puntajes": 8,
+      "vacantes_observadas": 8,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/173/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA DE SISTEMAS",
+      "minimo": "1104.750",
+      "maximo": "1590.625",
+      "puntajes": 35,
+      "vacantes_observadas": 35,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/201/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA DE SOFTWARE",
+      "minimo": "1097.875",
+      "maximo": "1417.625",
+      "puntajes": 35,
+      "vacantes_observadas": 35,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/202/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA DE TELECOMUNICACIONES",
+      "minimo": "902.625",
+      "maximo": "1234.875",
+      "puntajes": 26,
+      "vacantes_observadas": 26,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/193/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA DE TRANSPORTE Y SISTEMAS FERROVIARIOS",
+      "minimo": "903.000",
+      "maximo": "1063.000",
+      "puntajes": 6,
+      "vacantes_observadas": 6,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/175/results.html"
+    },
+    {
+      "escuela": "INGENIERIA DEL AGUA Y TECNOLOGIAS DE TRATAMIENTO",
+      "minimo": "901.500",
+      "maximo": "1054.500",
+      "puntajes": 11,
+      "vacantes_observadas": 11,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/074/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA ELÉCTRICA",
+      "minimo": "944.875",
+      "maximo": "1201.625",
+      "puntajes": 35,
+      "vacantes_observadas": 35,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/192/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA ELECTRÓNICA",
+      "minimo": "959.125",
+      "maximo": "1295.375",
+      "puntajes": 40,
+      "vacantes_observadas": 40,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/191/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA GEOGRÁFICA",
+      "minimo": "906.625",
+      "maximo": "1207.875",
+      "puntajes": 9,
+      "vacantes_observadas": 9,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/163/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA GEOLÓGICA",
+      "minimo": "1021.375",
+      "maximo": "1280.500",
+      "puntajes": 21,
+      "vacantes_observadas": 21,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/162/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA INDUSTRIAL",
+      "minimo": "1025.375",
+      "maximo": "1403.875",
+      "puntajes": 67,
+      "vacantes_observadas": 67,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/171/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA LOGÍSTICA Y CADENA DE SUMISTRO DIGITAL",
+      "minimo": "914.625",
+      "maximo": "1125.250",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/174/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA MECÁNICA DE FLUIDOS",
+      "minimo": "901.750",
+      "maximo": "1263.875",
+      "puntajes": 10,
+      "vacantes_observadas": 10,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/132/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA MECATRONICA",
+      "minimo": "1047.625",
+      "maximo": "1306.125",
+      "puntajes": 20,
+      "vacantes_observadas": 20,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/195/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA METALÚRGICA",
+      "minimo": "907.000",
+      "maximo": "1092.750",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/166/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA NUCLEAR",
+      "minimo": "902.625",
+      "maximo": "1194.375",
+      "puntajes": 11,
+      "vacantes_observadas": 11,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/196/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA QUÍMICA",
+      "minimo": "960.875",
+      "maximo": "1179.500",
+      "puntajes": 31,
+      "vacantes_observadas": 31,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/072/results.html"
+    },
+    {
+      "escuela": "INGENIERÍA TEXTIL Y CONFECCIONES",
+      "minimo": "930.000",
+      "maximo": "1305.625",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/172/results.html"
+    },
+    {
+      "escuela": "INVESTIGACIÓN OPERATIVA",
+      "minimo": "758.750",
+      "maximo": "1060.750",
+      "puntajes": 28,
+      "vacantes_observadas": 28,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/144/results.html"
+    },
+    {
+      "escuela": "LENGUAS, TRADUCCIÓN E INTERPRETACIÓN",
+      "minimo": "1050.375",
+      "maximo": "1302.750",
+      "puntajes": 15,
+      "vacantes_observadas": 15,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0310/results.html"
+    },
+    {
+      "escuela": "LINGUÍSTICA",
+      "minimo": "801.875",
+      "maximo": "1246.125",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/034/results.html"
+    },
+    {
+      "escuela": "LITERATURA",
+      "minimo": "1024.500",
+      "maximo": "1383.375",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/031/results.html"
+    },
+    {
+      "escuela": "MARKETING",
+      "minimo": "1024.125",
+      "maximo": "1303.250",
+      "puntajes": 12,
+      "vacantes_observadas": 12,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/096/results.html"
+    },
+    {
+      "escuela": "MATEMÁTICA",
+      "minimo": "805.500",
+      "maximo": "1350.250",
+      "puntajes": 28,
+      "vacantes_observadas": 28,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/141/results.html"
+    },
+    {
+      "escuela": "MEDICINA HUMANA",
+      "minimo": "1404.500",
+      "maximo": "1776.750",
+      "puntajes": 55,
+      "vacantes_observadas": 55,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/011/results.html"
+    },
+    {
+      "escuela": "MEDICINA VETERINARIA",
+      "minimo": "1066.375",
+      "maximo": "1486.625",
+      "puntajes": 19,
+      "vacantes_observadas": 19,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/081/results.html"
+    },
+    {
+      "escuela": "MICROBIOLOGÍA Y PARASITOLOGÍA",
+      "minimo": "836.875",
+      "maximo": "1041.375",
+      "puntajes": 17,
+      "vacantes_observadas": 17,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/103/results.html"
+    },
+    {
+      "escuela": "NUTRICION",
+      "minimo": "960.000",
+      "maximo": "1446.750",
+      "puntajes": 20,
+      "vacantes_observadas": 20,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/015/results.html"
+    },
+    {
+      "escuela": "OBSTETRICIA",
+      "minimo": "979.125",
+      "maximo": "1381.625",
+      "puntajes": 36,
+      "vacantes_observadas": 36,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/012/results.html"
+    },
+    {
+      "escuela": "ODONTOLOGÍA",
+      "minimo": "1070.500",
+      "maximo": "1324.000",
+      "puntajes": 24,
+      "vacantes_observadas": 24,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/051/results.html"
+    },
+    {
+      "escuela": "PRESUPUESTO Y FINANZAS PÚBLICAS",
+      "minimo": "778.750",
+      "maximo": "1257.625",
+      "puntajes": 40,
+      "vacantes_observadas": 40,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/114/results.html"
+    },
+    {
+      "escuela": "PRESUPUESTO Y FINANZAS PÚBLICAS - S.J.L",
+      "minimo": "684.500",
+      "maximo": "1086.125",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/1141/results.html"
+    },
+    {
+      "escuela": "PSICOLOGÍA",
+      "minimo": "1070.625",
+      "maximo": "1304.000",
+      "puntajes": 35,
+      "vacantes_observadas": 35,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/181/results.html"
+    },
+    {
+      "escuela": "PSICOLOGÍA ORGANIZACIONAL Y DE LA GESTIÓN HUMANA",
+      "minimo": "980.250",
+      "maximo": "1180.000",
+      "puntajes": 16,
+      "vacantes_observadas": 16,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/182/results.html"
+    },
+    {
+      "escuela": "QUÍMICA",
+      "minimo": "810.125",
+      "maximo": "1090.000",
+      "puntajes": 27,
+      "vacantes_observadas": 27,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/071/results.html"
+    },
+    {
+      "escuela": "SOCIOLOGÍA",
+      "minimo": "979.125",
+      "maximo": "1279.375",
+      "puntajes": 18,
+      "vacantes_observadas": 18,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/152/results.html"
+    },
+    {
+      "escuela": "TEC. MED. LAB. CLÍNICO Y ANATOMÍA PATOLÓGICA",
+      "minimo": "1058.500",
+      "maximo": "1235.500",
+      "puntajes": 14,
+      "vacantes_observadas": 14,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0141/results.html"
+    },
+    {
+      "escuela": "TEC. MED. RADIOLOGÍA",
+      "minimo": "968.750",
+      "maximo": "1294.875",
+      "puntajes": 14,
+      "vacantes_observadas": 14,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0143/results.html"
+    },
+    {
+      "escuela": "TEC. MED. TERAPIA FÍSICA Y REHABILITACIÓN",
+      "minimo": "925.875",
+      "maximo": "1083.625",
+      "puntajes": 13,
+      "vacantes_observadas": 13,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0142/results.html"
+    },
+    {
+      "escuela": "TEC. MED. TERAPIA OCUPACIONAL",
+      "minimo": "918.625",
+      "maximo": "1203.250",
+      "puntajes": 13,
+      "vacantes_observadas": 13,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/0144/results.html"
+    },
+    {
+      "escuela": "TOXICOLOGÍA",
+      "minimo": "934.375",
+      "maximo": "1056.625",
+      "puntajes": 10,
+      "vacantes_observadas": 10,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/043/results.html"
+    },
+    {
+      "escuela": "TRABAJO SOCIAL",
+      "minimo": "910.625",
+      "maximo": "1152.000",
+      "puntajes": 35,
+      "vacantes_observadas": 35,
+      "fuente": "https://admision.unmsm.edu.pe/Website20271/A/155/results.html"
+    }
+  ]
+}

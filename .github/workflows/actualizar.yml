@@ -45,8 +45,8 @@ jobs:
       - name: Regenerar el calendario con fechas verificadas
         run: python scripts/generar_html.py
 
-      - name: Regenerar el sitemap del sitio
-        run: python scripts/generar_paginas.py
+      - name: Regenerar los historiales y el sitemap
+        run: python -B scripts/generar_paginas.py
 
       - name: Commitear y subir cambios directo a main
         run: |

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de admisión por universidad | Exámenes Perú</title>
+    <meta name="description" content="Consulta fechas de exámenes pasados, reglamentos, resoluciones y archivos de resultados de universidades nacionales del Perú.">
+    <link rel="canonical" href="https://examenesperu.netlify.app/historial/">
+    <link rel="icon" type="image/png" href="/logos/favicon.png">
+    <link rel="stylesheet" href="/editorial.css">
+    <link rel="stylesheet" href="/archivo.css">
+    <script src="/archivo.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Ir al contenido</a>
+    <header class="editorial-masthead">
+        <div class="editorial-shell">
+            <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
+            <nav class="editorial-nav" aria-label="Navegación principal">
+                <a href="/#calendario">Calendario</a>
+                <a href="/#directorio">Universidades</a>
+                <a href="/historial/" aria-current="page">Historial</a>
+                <a href="/practica-admision/">Practicar</a>
+            </nav>
+        </div>
+    </header>
+    <main id="contenido" tabindex="-1">
+        <header class="editorial-hero archive-hero">
+            <div class="editorial-shell">
+                <nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> / Historial</nav>
+                <h1>Historial de admisión</h1>
+                <p class="lead">Fechas de exámenes pasados y documentos para revisar cómo se organizó cada convocatoria. Consulta reglamentos, temarios y resultados según la disponibilidad de cada universidad.</p>
+            </div>
+        </header>
+        <div class="editorial-shell archive-content">
+            <div class="archive-featured">
+                <a class="archive-feature archive-feature--marcos" href="/san-marcos/">
+                    <img src="/logos/unmsm.png" alt="" width="60" height="60">
+                    <div><h2>San Marcos</h2><p>Puntajes por carrera y sede, fechas de examen y solucionarios.</p></div>
+                    <span aria-hidden="true">→</span>
+                </a>
+                <a class="archive-feature" href="/uni/">
+                    <img src="/logos/uni.png" alt="" width="60" height="60">
+                    <div><h2>UNI</h2><p>Convocatorias anteriores y guía para organizar las tres pruebas.</p></div>
+                    <span aria-hidden="true">→</span>
+                </a>
+            </div>
+            <section class="archive-directory" aria-labelledby="universidades-title">
+                <h2 id="universidades-title">Archivos por universidad</h2>
+                <div class="archive-tools" id="archive-filter" hidden>
+                    <label for="archive-search">Buscar por nombre, sigla o departamento
+                        <input type="search" id="archive-search" aria-controls="archive-universities" placeholder="Ej. Cusco o UNAC">
+                    </label>
+                    <p id="archive-count" role="status">{{CANTIDAD_ARCHIVOS}} archivos de universidades</p>
+                </div>
+                <div class="archive-universities" id="archive-universities">
+{{ARCHIVOS}}
+                </div>
+                <p id="archive-empty" hidden>No encontramos un archivo con esa búsqueda. Puedes buscar su portal oficial en el <a href="/#directorio">directorio completo</a>.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="editorial-footer">
+        <div class="editorial-shell">
+            <nav aria-label="Información del sitio">
+                <a href="/#directorio">Directorio</a>
+                <a href="/acerca-de/">Fuentes y metodología</a>
+                <a href="/privacidad/">Privacidad</a>
+            </nav>
+            <p>Exámenes Perú · PSY Team</p>
+        </div>
+    </footer>
+</body>
+</html>
