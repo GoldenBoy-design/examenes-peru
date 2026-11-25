@@ -3,54 +3,57 @@
     "institucion": "uni",
     "formato": "cuadernillo",
     "titulo": "Cuarta práctica calificada CEPRE-UNI 2027-1",
-    "prefijo_pagina": "Q-",
-    "enfoque": "Hoja de respuestas de la práctica del 15 de noviembre de 2026",
+    "enfoque": "Práctica del 15 de noviembre de 2026",
     "fuente": "https://www.cepre.uni.edu.pe/assets/archivos/resultados4pcpreadm2027-1.pdf",
     "etiqueta_fuente": "Publicación de la fecha y los resultados de CEPRE-UNI",
-    "observaciones": [
-      "En la pregunta 35, la curva de sublimación está por debajo de la presión del punto triple. El punto de ebullición a 1 atm se lee en la curva líquido-vapor, cerca de −195,6 °C. Las densidades de las dos fases se igualan en el punto crítico. Por encima hay una sola fase. La redacción mezcla esas dos últimas condiciones.",
-      "En la pregunta 52, utensil comienza con sonido consonántico, como you. Además, la elección entre a y the depende de qué objeto conocen los interlocutores. El contexto no fija una sola lectura."
-    ],
     "bloques": [
       {
         "nombre": "Aritmética",
-        "fotos": [
-          {"pagina": 1, "url": "https://www.facebook.com/photo.php?fbid=1738602444937261&set=pb.100063625658563.-2207520000&type=3"}
-        ],
         "preguntas": [
           {
             "numero": 1,
-            "enunciado": "Permutaciones circulares por equipos",
+            "enunciado": "Siete jugadores se sientan alrededor de una mesa circular. Sus tres equipos tienen 2, 2 y 3 jugadores. Si cada equipo debe quedar junto y los giros de la mesa cuentan como la misma disposición, ¿cuántos órdenes distintos hay?",
+            "opciones": ["12", "24", "48", "96", "144"],
             "correcta": 2,
             "solucion": "Agrupa a cada equipo en un bloque. Los tres bloques se ordenan alrededor de la mesa de (3 − 1)! = 2 maneras. Dentro de ellos hay 2!, 2! y 3! órdenes posibles. El producto da 48."
           },
           {
             "numero": 2,
-            "enunciado": "Probabilidad de eventos elementales",
+            "enunciado": "El espacio muestral es Ω = {a, b, c}, donde a, b y c son reales positivos distintos. Se cumple que P({a, b}) = b, P({b}) = c, P({a, c}) = a + b y P({a}) = a. ¿Cuánto vale b?",
+            "opciones": ["1/4", "1/3", "1/2", "2/3", "3/4"],
             "correcta": 2,
             "solucion": "Por aditividad, a + c = b y la probabilidad del resultado c vale b. Al sumar las probabilidades de los tres resultados, a + c + b = 1. El primer par suma b, de modo que 2b = 1."
           },
           {
             "numero": 3,
-            "enunciado": "Capicúa y cambio de base",
+            "enunciado": "En la base 2a + 3, un número capicúa tiene, de izquierda a derecha, las cifras a + 1, b, c − 1, 3, 2a y 3 − a. ¿Cuánto suman sus cifras cuando se escribe en base 25?",
+            "opciones": ["30", "33", "36", "39", "42"],
             "correcta": 4,
             "solucion": "Al igualar los dígitos simétricos se obtiene a = 1, b = 2 y c = 4. La base original es 5 y el número tiene cifras 2, 2, 3, 3, 2, 2. Agrúpalas de dos en dos porque 25 = 5². Las cifras en base 25 son 12, 18 y 12, que suman 42."
           },
           {
             "numero": 4,
-            "enunciado": "Probabilidades con dos dados",
+            "enunciado": "Se lanzan dos dados equilibrados de seis caras. Sea pₐ la probabilidad de que la suma supere a. Calcula p₈ + p₉ + p₁₀.",
+            "opciones": ["1/3", "5/12", "1/2", "19/36", "2/3"],
             "correcta": 3,
             "solucion": "Hay 36 parejas equiprobables. Las sumas 9, 10, 11 y 12 tienen 4, 3, 2 y 1 maneras. Los sucesos pedidos tienen 10, 6 y 3 resultados favorables. Sus probabilidades suman 19/36."
           },
           {
             "numero": 5,
-            "enunciado": "Conteo de cadenas sin repetición",
+            "enunciado": "Una contraseña se forma, en ese orden, con tres dígitos de {1, 2, 3, 4, 5}, tres letras de {F, I, C, O} y dos símbolos de {@, #, $}. Ningún carácter puede repetirse. ¿Cuánto suman las cifras del número de contraseñas posibles?",
+            "opciones": ["12", "18", "21", "24", "27"],
             "correcta": 1,
             "solucion": "Las tres primeras posiciones se ocupan de 5 × 4 × 3 maneras, las tres siguientes de 4 × 3 × 2 y las dos últimas de 3 × 2. El producto es 8640 y sus cifras suman 18."
           },
           {
             "numero": 6,
-            "enunciado": "Bases, combinaciones e independencia",
+            "enunciado": "Indica si estas tres afirmaciones son verdaderas o falsas.",
+            "datos": [
+              "I. La secuencia de cifras 1, 6, 14, 0 y 13 es válida en base 15.",
+              "II. Para todo entero n ≥ 6, C(n, 4) + C(n, 5) = C(n, 6), donde C(n, k) es la cantidad de combinaciones de n elementos tomados de k en k.",
+              "III. Si A y B son independientes, entonces P(A ∩ Bᶜ) = P(A) × P(Bᶜ)."
+            ],
+            "opciones": ["VVV", "VFV", "VVF", "FVV", "FFF"],
             "correcta": 1,
             "solucion": "Todos los dígitos escritos son menores que 15. La segunda igualdad falla, por ejemplo, para n = 6: 15 + 6 no es 1. La independencia también se cumple con el complemento de uno de los eventos. Resulta VFV."
           }
@@ -58,47 +61,51 @@
       },
       {
         "nombre": "Álgebra",
-        "fotos": [
-          {"pagina": 1, "url": "https://www.facebook.com/photo.php?fbid=1738602444937261&set=pb.100063625658563.-2207520000&type=3"},
-          {
-            "pagina": 2,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602474937258&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 7,
-            "enunciado": "Ecuación con varias bases logarítmicas",
+            "enunciado": "Sea a la solución de la ecuación log₁⁄₃(x) + log₃(x) + log₉(x) + log₂₇(x) = 5/2. Calcula (a + 1)/4.",
+            "opciones": ["1", "5/2", "4", "7", "11"],
             "correcta": 3,
             "solucion": "Si L = log₃ x, los dos primeros términos se cancelan. Los otros son L/2 y L/3. Al resolver 5L/6 = 5/2 resulta L = 3, así que a = 27 y (a + 1)/4 = 7."
           },
           {
             "numero": 8,
-            "enunciado": "Signos en una inecuación exponencial",
+            "enunciado": "El conjunto solución de (x − 3)(2ˣ − 5ˣ) > 0 es el intervalo (a, b). ¿Cuánto vale a − b?",
+            "opciones": ["−5", "−3", "0", "6", "7"],
             "correcta": 1,
             "solucion": "La diferencia 2ˣ − 5ˣ es positiva cuando x < 0 y negativa cuando x > 0. El producto con x − 3 resulta positivo solo entre 0 y 3. La diferencia entre los extremos es −3."
           },
           {
             "numero": 9,
-            "enunciado": "Suma de cubos de las raíces",
+            "enunciado": "Si a, b y c son las raíces de x³ + x + 3 = 0, calcula a³ + b³ + c³.",
+            "opciones": ["−9", "−7", "−5", "−4", "−1"],
             "correcta": 0,
             "solucion": "Cada raíz r cumple r³ = −r − 3. Al sumar para las tres raíces se obtiene −(a + b + c) − 9. Por Viète, a + b + c = 0. El resultado es −9."
           },
           {
             "numero": 10,
-            "enunciado": "Simetría y monotonía de una función",
+            "enunciado": "Se define g(x) = f(1 − |x|). La gráfica de f es una recta decreciente hasta (4, −2) y pasa por (0, 0). Después de ese punto, sube y corta el eje x en 5. Marca la secuencia de verdadero o falso.",
+            "datos": [
+              "I. g es invertible.",
+              "II. g es monótona en su dominio.",
+              "III. g(1) = 0."
+            ],
+            "opciones": ["VVF", "FFV", "FVF", "VFF", "FFF"],
             "correcta": 1,
             "solucion": "El valor absoluto hace que g tenga el mismo valor en x y −x. En el tramo de f utilizado por g, la gráfica es decreciente. Por eso g disminuye antes de cero y crece después, lo que impide que sea inyectiva o monótona en todo su dominio. Además, g(1) = f(0) = 0. Resulta FFV."
           },
           {
             "numero": 11,
-            "enunciado": "Evaluación de funciones",
+            "enunciado": "La función f viene dada por los pares (0, 1), (1, 1), (2, 2), (3, 4) y (4, 5). Además, g(x) = √(x + 1) para −1 < x < 4. ¿Para qué valor de a se cumple [g(a)]² + f(a) = 5?",
+            "opciones": ["2", "3", "4", "5", "6"],
             "correcta": 0,
             "solucion": "Para que estén definidas las dos funciones, los candidatos enteros son 0, 1, 2 y 3. Los valores de x + 1 + f(x) son, respectivamente, 2, 3, 5 y 8. El valor buscado se obtiene con x = 2."
           },
           {
             "numero": 12,
-            "enunciado": "Inversa de una parábola restringida",
+            "enunciado": "Para x en [1, 3], define f(x) = −x² + 6x − 5. ¿Qué expresión corresponde a su función inversa?",
+            "opciones": ["3 − √(x − 4)", "3 + √(4 − x)", "3 − √(4 − x)", "3 − √(4 + x)", "3 + √(x + 4)"],
             "correcta": 2,
             "solucion": "Escribe y = 4 − (x − 3)². Como x está entre 1 y 3, toma x − 3 = −√(4 − y). La inversa vale 3 − √(4 − x) para x entre 0 y 4."
           }
@@ -106,54 +113,46 @@
       },
       {
         "nombre": "Geometría",
-        "fotos": [
-          {
-            "pagina": 2,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602474937258&set=pb.100063625658563.-2207520000&type=3"
-          },
-          {
-            "pagina": 3,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602514937254&set=pb.100063625658563.-2207520000&type=3"
-          },
-          {
-            "pagina": 4,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602554937250&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 13,
-            "enunciado": "Ángulo entre cuerdas",
+            "enunciado": "Los vértices A, B, C, D, E y F de un hexágono regular están sobre una circunferencia. En los arcos menores BC, DE y AF se ubican P, Q y S, respectivamente. Si el arco BP mide 20° y PQS es equilátero, ¿cuánto mide el mayor ángulo entre las rectas AF y QS?",
+            "opciones": ["100°", "110°", "120°", "130°", "140°"],
             "correcta": 1,
             "solucion": "Asigna al vértice A el ángulo polar 0° y haz avanzar los vértices de 60° en 60°. P, Q y S quedan en 80°, 200° y 320°. Las direcciones de las rectas AF y QS son 60° y 170° módulo 180°. El ángulo mayor mide 110°."
           },
           {
             "numero": 14,
-            "enunciado": "Distancia entre puntos medios de un pentágono",
+            "enunciado": "Un pentágono regular ABCDE tiene perímetro 10. M y P son los puntos medios de BC y DE, respectivamente. ¿Cuánto mide MP si φ = (√5 + 1)/2?",
+            "opciones": ["φ", "2/φ", "φ²", "φ − 1", "2φ + 1"],
             "correcta": 2,
             "solucion": "El lado del pentágono mide 2. Los puntos medios están sobre una circunferencia cuyo radio es la apotema cot 36°. El ángulo central entre ellos es 144°, por lo que MP = 2 cot 36° sen 72° = 4 cos² 36° = φ²."
           },
           {
             "numero": 15,
-            "enunciado": "Proyección perpendicular en un cuadrado",
+            "enunciado": "En un cuadrado ABCD, M es el punto medio de CD. El punto F está en BM y AF es perpendicular a FM. Si FD = √13, ¿cuál es el área del cuadrado?",
+            "opciones": ["7", "9", "11", "12", "13"],
             "correcta": 4,
             "solucion": "Con lado s, toma A = (0, 0), B = (s, 0), M = (s/2, s) y D = (0, s). La perpendicular desde A corta BM en F = (4s/5, 2s/5). Entonces FD² = (4s/5)² + (3s/5)² = s². El área vale 13."
           },
           {
             "numero": 16,
-            "enunciado": "Arcos de dos circunferencias ortogonales",
+            "enunciado": "Dos circunferencias de centros B y D se cortan ortogonalmente en E, por encima de la línea de centros. En esa línea están A, B, D y C, en ese orden. A y C son los puntos exteriores de las circunferencias respectivas, con AB = 36 y DC = 18. ¿Qué opción aproxima mejor la suma de longitudes de los arcos menores AE y EC?",
+            "opciones": ["841π/20", "843π/20", "847π/20", "849π/20", "851π/20"],
             "correcta": 2,
             "solucion": "En el triángulo rectángulo BED, el ángulo en B es θ = arctan(1/2) y el de D es π/2 − θ. Los ángulos centrales de los arcos son π − θ y π/2 + θ. La suma de longitudes es 45π − 18θ, cuyo valor más cercano entre las opciones es 847π/20."
           },
           {
             "numero": 17,
-            "enunciado": "Área con incírculo y excírculo",
+            "enunciado": "El triángulo ABC es isósceles de base AC. Su inradio es r y su exradio respecto de BC es rₐ. El excírculo toca la prolongación de AC más allá de C en T, con CT = l. ¿Qué expresión da el área de ABC?",
+            "opciones": ["rₐ²r/l", "rₐr²/l", "(rₐ + r)l", "(rₐ − r)l", "rₐ⁴/(rl)"],
             "correcta": 0,
             "solucion": "Si s es el semiperímetro, los segmentos de tangencia dan CT = s − AC. Por ser isósceles, s − AB = s − BC. Al usar Herón con área K se obtiene K² = s(s − BC)² CT. Sustituye s = K/r y s − BC = K/rₐ. Resulta K = rrₐ²/CT."
           },
           {
             "numero": 18,
-            "enunciado": "Reflexión del centro de un rombo",
+            "enunciado": "El rombo ABCD tiene lado q y diagonal mayor AC = q√3. Se refleja el rombo respecto de BC para obtener A′BCD′. P y Q son las intersecciones de las diagonales de ambos rombos, respectivamente. ¿Cuánto mide PQ?",
+            "opciones": ["q√3/2", "q√3", "q√3/3", "q√3/6", "2q√3/3"],
             "correcta": 0,
             "solucion": "Los centros P y Q son imágenes por reflexión respecto de BC. La distancia entre ellos equivale a la altura del rombo. La diagonal mayor q√3 determina un ángulo agudo de 60°, así que la altura vale q sen 60° = q√3/2."
           }
@@ -161,50 +160,49 @@
       },
       {
         "nombre": "Trigonometría",
-        "fotos": [
-          {
-            "pagina": 3,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602514937254&set=pb.100063625658563.-2207520000&type=3"
-          },
-          {
-            "pagina": 4,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602554937250&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 19,
-            "enunciado": "Rango en un intervalo abierto",
+            "enunciado": "¿Qué valores toma f(x) = 3 sen(x) − cos(x) + tan(x) cuando 0 < x < π/4?",
+            "opciones": ["[−1, √2)", "(−1, √2 − 1]", "(√2 − 1, √2 + 1)", "(−1, √2 − 1)", "(−1, √2 + 1)"],
             "correcta": 4,
             "solucion": "Cada término de la suma crece entre 0 y π/4. Al evaluar los límites en los extremos se obtiene −1 y √2 + 1. El intervalo es abierto porque ninguno de los dos extremos pertenece al dominio dado."
           },
           {
             "numero": 20,
-            "enunciado": "Rango con una restricción en el denominador",
+            "enunciado": "Considera todos los reales x para los que está definida f(x) = [sen²(x) + 5 sen(x) + 4] / [sen(x) + 1]. ¿Cuál es el rango de f?",
+            "opciones": ["[−1, 1]", "(3, 5)", "(3, 5]", "[3, 5]", "[3, 5)"],
             "correcta": 2,
             "solucion": "El numerador factoriza como (sen x + 1)(sen x + 4). Se puede simplificar para sen x ≠ −1. Así, 4 + sen x toma todos los valores mayores que 3 y hasta 5, incluido 5."
           },
           {
             "numero": 21,
-            "enunciado": "Puntos excluidos del dominio",
+            "enunciado": "¿En qué conjunto está definida f(x) = sen(x)/tan(x) + cos(x)/[tan²(x) − 1]?",
+            "datos": [
+              "En todas las alternativas, k representa cualquier entero."
+            ],
+            "opciones": ["Todos los reales salvo kπ/5", "Todos los reales salvo kπ/4", "Todos los reales salvo kπ/3", "Todos los reales salvo kπ/2", "Todos los reales salvo kπ"],
             "correcta": 1,
             "solucion": "La tangente debe existir y ser distinta de 0 y de ±1. Los tres grupos de exclusiones son los múltiplos de π, los múltiplos impares de π/2 y los múltiplos impares de π/4. Juntos forman todos los múltiplos de π/4."
           },
           {
             "numero": 22,
-            "enunciado": "Período mínimo con valores absolutos",
+            "enunciado": "Encuentra el menor período positivo de f(x) = √(sen²(4x)) + √(cos²(4x)).",
+            "opciones": ["π/16", "π/8", "π/4", "π/2", "π"],
             "correcta": 1,
             "solucion": "La función es |sen(4x)| + |cos(4x)|. Un incremento de π/8 en x permuta los dos sumandos. Ese incremento es el menor posible porque los mínimos sucesivos de la suma están separados precisamente por π/8."
           },
           {
             "numero": 23,
-            "enunciado": "Rango de una combinación de seno y coseno",
+            "enunciado": "¿Cuál es el rango de f(x) = 12 |vers(x)| − 5 |cov(x)| para x real? Usa vers(x) = 1 − cos(x) y cov(x) = 1 − sen(x).",
+            "opciones": ["[−5, 18]", "[−6, 20]", "[−6, 18]", "[−4, 16]", "[−13, 13]"],
             "correcta": 1,
             "solucion": "El seno verso es 1 − cos x y el coseno verso es 1 − sen x. Ambos son no negativos. Al simplificar queda 7 − 12 cos x + 5 sen x, con amplitud √(144 + 25) = 13. El rango va de −6 a 20."
           },
           {
             "numero": 24,
-            "enunciado": "Suma de cosenos en progresión",
+            "enunciado": "La suma cos(2°) + cos(4°) + … + cos(88°) es igual a A × sen(44°) / sen(1°). Calcula 2A².",
+            "opciones": ["1/4", "1/2", "√2/2", "1", "2"],
             "correcta": 3,
             "solucion": "La fórmula de suma de cosenos de argumentos igualmente espaciados da sen 44° × cos 45° / sen 1°. Así, el coeficiente A es cos 45° = √2/2 y 2A² = 1."
           }
@@ -212,56 +210,60 @@
       },
       {
         "nombre": "Física",
-        "fotos": [
-          {
-            "pagina": 4,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602554937250&set=pb.100063625658563.-2207520000&type=3"
-          },
-          {
-            "pagina": 5,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602588270580&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 25,
-            "enunciado": "Energía de un oscilador",
+            "enunciado": "Un bloque oscila sin rozamiento unido a un resorte de constante k. La posición de equilibrio es x = 0 y la amplitud es A. ¿Cuál es su energía cinética al pasar por x = 2A/3?",
+            "opciones": ["kA²/18", "kA²/9", "kA²/6", "2kA²/9", "5kA²/18"],
             "correcta": 4,
             "solucion": "Resta la energía elástica en la posición dada de la energía total. Queda (k/2)[A² − (2A/3)²] = 5kA²/18."
           },
           {
             "numero": 26,
-            "enunciado": "Fase inicial del movimiento armónico",
+            "enunciado": "Una partícula oscila en el eje x con período de 6 s y extremos de posición en ±1 cm. En t = 0 se encuentra en −0,5 cm y se mueve en el sentido negativo. ¿Qué ecuación expresa x en metros, con t en segundos?",
+            "opciones": ["x = 0,01 sen(πt/3 + π/6)", "x = 0,01 sen(πt/3 + 5π/6)", "x = 0,01 sen(πt/3 + 7π/6)", "x = 0,01 sen(πt/3 + 11π/6)", "x = 0,01 sen(πt/3)"],
             "correcta": 2,
             "solucion": "La amplitud es 0,01 m y la frecuencia angular es 2π/6 = π/3 rad/s. La fase debe tener seno −1/2 y coseno negativo, pues la partícula empieza por debajo del equilibrio y se mueve hacia abajo. Corresponde a 7π/6."
           },
           {
             "numero": 27,
-            "enunciado": "Coeficientes de dilatación comparados",
+            "enunciado": "Las longitudes de dos varillas varían linealmente con la temperatura, según los datos siguientes. ¿Qué secuencia de verdadero o falso corresponde a las tres comparaciones de sus coeficientes de dilatación lineal?",
+            "datos": [
+              "Varilla A: mide 2L₀ a 0 °C y 2,002L₀ a T₀.",
+              "Varilla B: mide L₀ a 0 °C y 1,003L₀ a 2T₀.",
+              "I. α(A) > α(B).",
+              "II. α(A) = α(B).",
+              "III. α(B) = 0,75α(A)."
+            ],
+            "opciones": ["VVV", "FVF", "FFV", "VFV", "FFF"],
             "correcta": 4,
             "solucion": "Calcula α = ΔL/(L inicial × ΔT) para cada recta. A da 0,001/T₀ y B da 0,0015/T₀. Así, B tiene un coeficiente 1,5 veces mayor que A y las tres afirmaciones son falsas."
           },
           {
             "numero": 28,
-            "enunciado": "Intensidad sonora de una fuente puntual",
+            "enunciado": "A 50 m de una fuente sonora puntual se miden 120 dB. ¿A qué distancia de esa misma fuente se miden 80 dB? Considera propagación uniforme.",
+            "opciones": ["5 km", "6 km", "7 km", "8 km", "9 km"],
             "correcta": 0,
             "solucion": "Una caída de 40 dB equivale a dividir la intensidad entre 10⁴. Como la intensidad es inversa al cuadrado de la distancia, la distancia aumenta cien veces. 50 m × 100 = 5 km."
           },
           {
             "numero": 29,
-            "enunciado": "Rapidez máxima de oscilación",
+            "enunciado": "Una onda en una cuerda sigue y(x, t) = 0,30 sen(0,02πx − 24πt), con x e y en metros y t en segundos. ¿Cuál es la rapidez transversal máxima de un punto de la cuerda?",
+            "opciones": ["2,6π m/s", "3,9π m/s", "5,3π m/s", "7,2π m/s", "9,1π m/s"],
             "correcta": 3,
             "solucion": "En un punto fijo de la cuerda, la rapidez transversal máxima es la amplitud por la frecuencia angular. El producto es 0,30 × 24π = 7,2π m/s."
           },
           {
             "numero": 30,
-            "enunciado": "Aceleración por empuje",
+            "enunciado": "Una esfera de densidad 0,6 g/cm³ está completamente sumergida en un líquido de densidad 0,9 g/cm³. Una cuerda anclada al fondo la mantiene en reposo. Si se rompe la cuerda y g = 10 m/s², ¿cuál es la aceleración inicial de la esfera?",
+            "opciones": ["4 m/s²", "5 m/s²", "6 m/s²", "7 m/s²", "8 m/s²"],
             "correcta": 1,
             "solucion": "Justo después de romperse la cuerda, el empuje menos el peso es (0,9 − 0,6)Vg. Divide entre la masa 0,6V. Se obtiene 0,5g = 5 m/s² hacia arriba."
           },
           {
             "numero": 31,
-            "enunciado": "Dilatación superficial",
+            "enunciado": "El área transversal de una varilla aumenta 0,46 % al elevar su temperatura 100 °C. ¿Cuál es el coeficiente de dilatación lineal, expresado en unidades de 10⁻⁶ °C⁻¹?",
+            "opciones": ["11", "18", "23", "34", "46"],
             "correcta": 2,
             "solucion": "En primera aproximación, ΔA/A = 2αΔT. Por tanto, α = 0,0046/(2 × 100) = 23 × 10⁻⁶ °C⁻¹."
           }
@@ -269,54 +271,51 @@
       },
       {
         "nombre": "Química",
-        "fotos": [
-          {
-            "pagina": 5,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602588270580&set=pb.100063625658563.-2207520000&type=3"
-          },
-          {
-            "pagina": 6,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602644937241&set=pb.100063625658563.-2207520000&type=3"
-          },
-          {
-            "pagina": 7,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602684937237&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 32,
-            "enunciado": "Reactivo limitante y rendimiento",
+            "enunciado": "Reaccionan 5,4 g de Al con 65,7 g de HCl según 2Al + 6HCl → 2AlCl₃ + 3H₂. Se recogen 5,04 L de H₂ en condiciones normales. Usa las masas atómicas Al = 27, H = 1 y Cl = 35,5. Marca la secuencia de verdadero o falso.",
+            "datos": [
+              "I. El aluminio es el reactivo limitante.",
+              "II. Quedan 43,8 g del reactivo en exceso.",
+              "III. El rendimiento es 75 %."
+            ],
+            "opciones": ["VVF", "VFV", "FVF", "VFF", "VVV"],
             "correcta": 4,
             "solucion": "Los 0,20 mol de aluminio requieren 0,60 mol de HCl. Había 1,80 mol de HCl y sobran 1,20 mol, que pesan 43,8 g. El hidrógeno teórico ocupa 6,72 L y 5,04/6,72 = 75 %. Las tres proposiciones son verdaderas."
           },
           {
             "numero": 33,
-            "enunciado": "Gas ideal con adición de materia",
+            "enunciado": "Un cilindro con pistón móvil contiene inicialmente 12,31 L de O₂ a 27 °C y 2 atm. Se añaden 16 g de O₂ y se eleva la temperatura hasta 127 °C. La presión permanece en 2 atm. ¿Cuál es el volumen final? Considera al gas ideal y usa R = 0,082 L·atm/(mol·K).",
+            "opciones": ["16,4 L", "18,5 L", "24,6 L", "32,8 L", "39,0 L"],
             "correcta": 2,
             "solucion": "Con PV = nRT se obtiene aproximadamente 1,00 mol de O₂ al inicio. Se incorporan 0,50 mol. A 400 K y 2 atm, V = 1,50 × 0,082 × 400/2 = 24,6 L."
           },
           {
             "numero": 34,
-            "enunciado": "Diferencias de temperatura",
+            "enunciado": "Una cámara pasa de 25 °C a 85 °C. ¿Cuánto aumenta su temperatura en Fahrenheit y en Kelvin, respectivamente?",
+            "opciones": ["108 °F y 60 K", "140 °F y 85 K", "60 °F y 60 K", "108 °F y 85 K", "140 °F y 60 K"],
             "correcta": 0,
             "solucion": "Un incremento de 60 °C equivale a 60 K. En Fahrenheit, las diferencias se multiplican por 9/5, así que el incremento es 108 °F."
           },
           {
             "numero": 36,
-            "enunciado": "Balance de oxidación y reducción",
+            "enunciado": "Al balancear en medio ácido la ecuación MnO₄⁻ + Fe²⁺ + H⁺ → Mn²⁺ + Fe³⁺, ¿qué coeficiente entero mínimo corresponde al oxidante y cuál es el agente reductor?",
+            "opciones": ["5 y Fe²⁺", "1 y Fe²⁺", "2 y MnO₄⁻", "1 y MnO₄⁻", "5 y MnO₄⁻"],
             "correcta": 1,
             "solucion": "El ion permanganato gana cinco electrones al pasar de Mn(VII) a Mn(II). Cada ion Fe²⁺ cede uno y se oxida a Fe³⁺. El coeficiente mínimo del permanganato es 1 y el reductor es Fe²⁺."
           },
           {
             "numero": 37,
-            "enunciado": "Fórmula empírica y molecular",
+            "enunciado": "La combustión completa de 1,80 g de un compuesto de C, H y O produce 2,64 g de CO₂ y 1,08 g de H₂O. La masa molar del compuesto es 180 g/mol. Usa C = 12, H = 1 y O = 16. ¿Cuáles son sus fórmulas empírica y molecular?",
+            "opciones": ["CH₂O y C₆H₁₂O₆", "C₂H₄O y C₆H₁₂O₃", "CH₂O y C₅H₁₀O₅", "C₃H₆O₃ y C₆H₁₂O₆", "C₂H₃O₂ y C₄H₆O₄"],
             "correcta": 0,
             "solucion": "El CO₂ aporta 0,060 mol de C y el agua 0,120 mol de H. Por diferencia de masas, quedan 0,96 g de O, es decir, 0,060 mol. La razón mínima es 1:2:1. Su masa empírica es 30 g/mol y 180/30 = 6, de modo que la fórmula molecular es C₆H₁₂O₆."
           },
           {
             "numero": 38,
-            "enunciado": "Clasificación de una neutralización",
+            "enunciado": "La reacción HNO₃ + NaOH → NaNO₃ + H₂O tiene ΔH° = −57 kJ/mol. ¿Cuál de las siguientes clasificaciones describe la reacción?",
+            "opciones": ["Reacción endotérmica", "Reacción de oxidación-reducción", "Desplazamiento simple", "Isomerización", "Metátesis"],
             "correcta": 4,
             "solucion": "El ácido y la base producen una sal y agua mediante intercambio de iones, propio de una metátesis. La variación de entalpía negativa indica que el proceso libera calor."
           }
@@ -324,60 +323,70 @@
       },
       {
         "nombre": "Economía",
-        "fotos": [
-          {
-            "pagina": 7,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602684937237&set=pb.100063625658563.-2207520000&type=3"
-          },
-          {
-            "pagina": 8,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602744937231&set=pb.100063625658563.-2207520000&type=3"
-          },
-          {
-            "pagina": 9,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602781603894&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 39,
-            "enunciado": "Fisiocracia y economía clásica",
+            "enunciado": "Marca la secuencia de verdadero o falso sobre la fisiocracia y la economía clásica.",
+            "datos": [
+              "I. Según los fisiócratas, tanto la agricultura como las manufacturas generaban producto neto.",
+              "II. Adam Smith coincidía con los fisiócratas al defender la libertad económica y de comercio.",
+              "III. La escuela clásica explicaba el valor por la utilidad marginal subjetiva.",
+              "IV. Para la economía clásica, el trabajo puede crear riqueza en actividades de distintos sectores."
+            ],
+            "opciones": ["FVVV", "VFVF", "FFVV", "VVFF", "FVFV"],
             "correcta": 4,
             "solucion": "Para los fisiócratas la agricultura era la fuente del producto neto. Smith compartió la defensa de la libertad comercial. La utilidad marginal pertenece a una escuela posterior. La última proposición recoge la idea clásica del trabajo productivo como fuente de riqueza en distintos sectores. La secuencia que mejor encaja es FVFV."
           },
           {
             "numero": 40,
-            "enunciado": "Ramas y enfoques de la economía",
+            "enunciado": "Relaciona cada hecho con el concepto que mejor lo describe en el contexto del ejercicio. Usa a = microeconomía, b = política económica, c = macroeconomía y d = economía positiva.",
+            "datos": [
+              "I. El reporte registra un crecimiento del PBI peruano de 3,44 % en 2025.",
+              "II. El reporte consigna un volumen observado de 125 992 toneladas de espárragos exportados.",
+              "III. El Ejecutivo tramitó un crédito suplementario de S/ 8 228 millones para financiar obras públicas.",
+              "IV. Una menor oferta de choclo elevó su precio en mercados locales."
+            ],
+            "opciones": ["Ic, IId, IIIb, IVa", "Ia, IIc, IIIb, IVd", "Ib, IId, IIIa, IVc", "Ic, IIa, IIId, IVb", "Id, IIb, IIIc, IVa"],
             "correcta": 0,
             "solucion": "El PBI nacional corresponde a la macroeconomía. Un dato observado se clasifica como economía positiva. El crédito estatal es un instrumento de política económica. El precio de un producto en un mercado local corresponde a la microeconomía."
           },
           {
             "numero": 41,
-            "enunciado": "Desplazamiento de la demanda",
+            "enunciado": "Un invierno cálido reduce la preferencia por la ropa de abrigo mientras los precios se mantienen. Según la teoría de la demanda, ¿cómo cambia el mercado de estas prendas?",
+            "opciones": ["Cae la cantidad demandada por un movimiento sobre la misma curva.", "Cae la cantidad ofrecida por los productores textiles.", "Aumenta la demanda de abrigos.", "Disminuye la demanda de casacas y otras prendas de abrigo.", "Se amplía la oferta de ropa de invierno."],
             "correcta": 3,
             "solucion": "Una reducción de la preferencia por el producto cambia la cantidad que los compradores desean a cada precio. La curva de demanda se desplaza a la izquierda. Eso explica la caída de las ventas potenciales al precio inicialmente dado."
           },
           {
             "numero": 42,
-            "enunciado": "Estructuras de mercado",
+            "enunciado": "En una feria, muchos productores venden un producto homogéneo. Cada vendedor acepta el precio del mercado y, si lo supera, sus clientes compran a otros vendedores. ¿Qué estructura de mercado describe este caso?",
+            "opciones": ["Competencia perfecta", "Competencia monopolística", "Oligopolio", "Monopolio natural", "Monopsonio"],
             "correcta": 0,
             "solucion": "La homogeneidad del producto, el gran número de oferentes y la condición de precio aceptante son rasgos de la competencia perfecta."
           },
           {
             "numero": 43,
-            "enunciado": "Cambios de oferta, demanda y equilibrio",
+            "enunciado": "Evalúa estas afirmaciones sobre el mercado de prendas de vestir. En cada caso, mantén constantes los demás factores.",
+            "datos": [
+              "I. Si sube el precio del algodón, aumenta el precio de equilibrio de las prendas.",
+              "II. La automatización que mejora la productividad desplaza la oferta a la izquierda y eleva el precio.",
+              "III. Si las prendas pasan de moda, la demanda se desplaza a la izquierda y cae el precio de equilibrio."
+            ],
+            "opciones": ["VFV", "VVF", "FVF", "VFF", "FVV"],
             "correcta": 0,
             "solucion": "El aumento del costo del insumo reduce la oferta y eleva el precio. La automatización, si eleva la productividad, amplía la oferta. Una moda desfavorable reduce la demanda y el precio de equilibrio. Resulta VFV."
           },
           {
             "numero": 44,
-            "enunciado": "Jerarquía de necesidades",
+            "enunciado": "Con un ingreso limitado, una persona destina primero su sueldo a la vivienda y la alimentación. Solo si le queda dinero paga una suscripción de entretenimiento. ¿Qué explica esta decisión?",
+            "opciones": ["Todas las necesidades se satisfacen al mismo tiempo.", "Las necesidades se sustituyen entre sí y pueden aplazarse indefinidamente.", "Las necesidades primarias se atienden antes que las secundarias y suntuarias.", "Las necesidades carecen de un orden de importancia.", "Un ingreso mayor elimina el costo de oportunidad."],
             "correcta": 2,
             "solucion": "Alimentación y vivienda cubren necesidades primarias y se atienden antes que una suscripción de entretenimiento cuando el presupuesto es limitado."
           },
           {
             "numero": 45,
-            "enunciado": "Flujo circular de la economía",
+            "enunciado": "Una fábrica contrata trabajadores y alquila un almacén a familias de la zona. En el flujo circular de la economía, ¿cómo se llama la entrega de esos factores productivos a la empresa?",
+            "opciones": ["Flujo nominal", "Flujo monetario", "Flujo real", "Flujo financiero", "Flujo tributario"],
             "correcta": 2,
             "solucion": "Los servicios del trabajo y los factores productivos entregados a la empresa forman parte del flujo real. Los salarios y alquileres pagados corresponden al flujo monetario."
           }
@@ -385,50 +394,70 @@
       },
       {
         "nombre": "Inglés",
-        "fotos": [
-          {
-            "pagina": 9,
-            "url": "https://www.facebook.com/photo.php?fbid=1738602781603894&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 46,
-            "enunciado": "Posesivo con sujeto plural",
+            "enunciado": "Completa con el posesivo de «the boys». ___ dogs are in the yard.",
+            "opciones": ["The boys’s", "The boys’", "The boys", "The boy’s", "The boy’"],
             "correcta": 1,
             "solucion": "Un sustantivo plural regular que ya termina en s forma el posesivo añadiendo solo el apóstrofo: boys’."
           },
           {
             "numero": 47,
-            "enunciado": "Expresión de deseo antes de un sustantivo",
+            "enunciado": "Completa el pedido en inglés. She ___ a sandwich, please.",
+            "opciones": ["would like to", "would likes", "like would", "would likes to", "would like"],
             "correcta": 4,
             "solucion": "Would like puede ir seguido directamente de un sustantivo. To se usa cuando después aparece un verbo en infinitivo."
           },
           {
             "numero": 48,
-            "enunciado": "Acción en progreso en el pasado",
+            "enunciado": "Completa la frase para indicar que el estudio ya estaba en curso. My brother ___ when our mother got home.",
+            "opciones": ["studies", "was studing", "is studying", "was studying", "studied"],
             "correcta": 3,
             "solucion": "Una acción que estaba en curso cuando sucedió otra se expresa con pasado continuo. El sujeto singular requiere was y la forma correcta del verbo es studying."
           },
           {
             "numero": 49,
-            "enunciado": "Orden de adjetivos",
+            "enunciado": "Completa con el orden usual de los adjetivos. They bought a ___ table.",
+            "opciones": ["square small old", "old small square", "small old square", "square old small", "small square old"],
             "correcta": 2,
             "solucion": "En el orden usual de los adjetivos descriptivos en inglés, el tamaño precede a la edad y esta a la forma."
           },
           {
             "numero": 50,
-            "enunciado": "Pronombre posesivo independiente",
+            "enunciado": "Completa con el pronombre posesivo adecuado. The bicycle belongs to my sister. It is ___.",
+            "opciones": ["ours", "theirs", "yours", "hers", "mine"],
             "correcta": 3,
             "solucion": "Para indicar posesión de tercera persona singular femenina sin repetir el sustantivo se usa hers. Her necesitaría un sustantivo a continuación."
           },
           {
             "numero": 51,
-            "enunciado": "Presente simple y sentido del enunciado",
+            "enunciado": "Completa con la opción que mejor explica la rutina descrita. Tania and I ___ to bed late because we ___ early.",
+            "opciones": ["goes / gets up", "go / get up", "going / getting up", "doesn’t go / gets up", "don’t go / get up"],
             "correcta": 4,
             "solucion": "El sujeto equivalente a we usa la forma simple get up. La opción que mejor expresa la relación habitual entre madrugar y la hora de acostarse es don’t go / get up."
           }
         ]
+      }
+    ],
+    "revision": [
+      {
+        "numero": 35,
+        "enunciado": "Con los datos del diagrama de fases, evalúa las tres afirmaciones.",
+        "datos": [
+          "El punto triple está a 0,123 atm y −209,8 °C. A 1 atm, la curva sólido-líquido cruza en −209,5 °C y la curva líquido-vapor en −195,6 °C. El punto crítico se indica a 33,8 atm y −147 °C.",
+          "I. El sólido puede sublimar a una presión inferior a 0,123 atm.",
+          "II. El punto de ebullición normal es −209,5 °C.",
+          "III. Por encima del punto crítico hay un fluido supercrítico y se igualan las densidades del líquido y del gas."
+        ],
+        "opciones": ["VVV", "VVF", "VFF", "VFV", "FFF"],
+        "solucion": "La primera afirmación es verdadera y la segunda es falsa. La tercera mezcla dos condiciones. Las densidades de las fases coexistentes se igualan en el punto crítico. En la región supercrítica hay una sola fase."
+      },
+      {
+        "numero": 52,
+        "enunciado": "Elige los artículos que completan la frase. ___ utensil is on ___ table near the window.",
+        "opciones": ["The / a", "An / the", "The / the", "The / an", "An / a"],
+        "solucion": "Utensil comienza con un sonido consonántico, como you. El contexto puede admitir the / a o the / the según si los interlocutores ya identifican la mesa. Por eso no se asigna una clave única."
       }
     ]
   },
@@ -438,22 +467,15 @@
     "titulo": "Admisión San Marcos 2027-I · Medicina Humana",
     "enfoque": "Selección de la prueba del 25 de octubre de 2026",
     "fuente": "https://www.unmsm.edu.pe/formacion-academica/admision",
-    "observaciones": [
-      "La selección usa las fotos de la publicación del 25 de octubre a las 10:36 p. m. El álbum también muestra otra versión de Medicina Humana con distinta numeración. Comprueba la foto enlazada antes de marcar una letra."
-    ],
     "bloques": [
       {
         "nombre": "Habilidad lógico-matemática",
-        "fotos": [
-          {
-            "pagina": 5,
-            "url": "https://www.facebook.com/photo.php?fbid=1713448904119282&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 21,
-            "enunciado": "Conteo de rutas sin volver a un cruce",
+            "enunciado": "En una estructura de alambre hay dos cuadrados iguales y concéntricos. Uno está girado 45° respecto del otro. P y Q son los vértices superior e inferior del cuadrado girado. Puedes cambiar de dirección en los cruces. ¿Cuántas rutas distintas van de P a Q sin pasar dos veces por el mismo punto?",
+            "figura": "cuadrados-superpuestos",
+            "opciones": ["72", "88", "76", "64", "56"],
             "correcta": 3,
             "solucion": "Los ocho cruces forman un ciclo. Entre cruces vecinos hay dos recorridos, salvo en los pares unidos por P o Q, que dejan uno disponible al reservar los extremos. Desde cada salida de P hay 16 rutas hasta cada uno de los dos accesos a Q: ocho en cada sentido del ciclo. En total son 2 × 2 × 16 = 64."
           }
@@ -461,34 +483,37 @@
       },
       {
         "nombre": "Aritmética",
-        "fotos": [
-          {
-            "etiqueta": "Preguntas 31 a 35",
-            "url": "https://www.facebook.com/photo.php?fbid=1713449027452603&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 31,
-            "enunciado": "Conteo de números coprimos",
+            "enunciado": "En un almacén hay 1800 productos numerados del 1 al 1800. Para un control se eligen los que llevan un número coprimo con 1800. Si se empacan por docenas todos los productos que quedaron fuera, ¿cuántos paquetes se forman?",
+            "opciones": ["120", "150", "130", "110", "115"],
             "correcta": 3,
             "solucion": "Los factores primos de 1800 son 2, 3 y 5. Los coprimos son 1800(1 − 1/2)(1 − 1/3)(1 − 1/5) = 480. Quedan 1320 productos y 1320/12 = 110 paquetes."
           },
           {
             "numero": 32,
-            "enunciado": "Transformación de la desviación estándar",
+            "enunciado": "La desviación estándar de un conjunto de tiempos de entrega es 8 minutos. A cada tiempo se le restan 10 minutos y luego se multiplica el resultado por 1,5. ¿Cuál es la nueva desviación estándar?",
+            "opciones": ["15 minutos", "13 minutos", "10 minutos", "8 minutos", "12 minutos"],
             "correcta": 4,
             "solucion": "Restar el mismo número a todos los datos desplaza su media y conserva las distancias a ella. Multiplicar todos los datos por 1,5 multiplica esas distancias y la desviación por 1,5. Se obtiene 12 minutos."
           },
           {
             "numero": 33,
-            "enunciado": "Pureza media de una aleación",
+            "enunciado": "Se funde oro de ley 0,750 con oro de 14 quilates, en una proporción de masas de 2 a 1. Luego se toman 120 g de esa aleación y se mezclan con 80 g de oro puro. ¿Cuántos quilates tiene la nueva aleación?",
+            "opciones": ["16,6", "18", "19,6", "18,2", "21"],
             "correcta": 2,
             "solucion": "Una ley de 0,750 equivale a 18 quilates. La primera mezcla, en relación 2:1, tiene (2 × 18 + 14)/3 quilates. En la segunda mezcla, el 60 % corresponde a ese material y el 40 % a oro de 24 quilates. La media ponderada es 19,6."
           },
           {
             "numero": 34,
-            "enunciado": "Probabilidad de un servicio dado otro",
+            "enunciado": "Cada vehículo recibe uno de tres servicios en un taller. Algunos reciben, además, un cambio de refrigerante. Si se escoge al azar un vehículo que sí recibió refrigerante, ¿cuál es la probabilidad de que también haya recibido un cambio de aceite?",
+            "datos": [
+              "Cambio de aceite: 45 % del total. De ese grupo, 12 % recibe refrigerante.",
+              "Revisión de frenos: 30 % del total. De ese grupo, 5 % recibe refrigerante.",
+              "Afinamiento: 25 % del total. De ese grupo, 10 % recibe refrigerante."
+            ],
+            "opciones": ["15/47", "69/94", "27/47", "27/94", "20/47"],
             "correcta": 2,
             "solucion": "La proporción de vehículos que recibió aceite y refrigerante es 0,45 × 0,12 = 0,054. La proporción que recibió refrigerante es 0,054 + 0,30 × 0,05 + 0,25 × 0,10 = 0,094. El cociente 0,054/0,094 se reduce a 27/47."
           }
@@ -496,22 +521,23 @@
       },
       {
         "nombre": "Literatura y Psicología",
-        "fotos": [
-          {
-            "etiqueta": "Preguntas 53 a 56",
-            "url": "https://www.facebook.com/photo.php?fbid=1713449250785914&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 53,
-            "enunciado": "Orden de episodios de la Ilíada",
+            "enunciado": "En la Ilíada, Patroclo pide a Aquiles que le preste su armadura para contener a los troyanos que amenazan las naves aqueas. ¿Cuál de estos episodios sucede después?",
+            "opciones": ["Héctor se enfrenta a Aquiles en el duelo en el que muere.", "Una delegación de príncipes aqueos visita a Aquiles para pedirle que vuelva a luchar.", "Agamenón devuelve a Criseida tras la exigencia de Aquiles.", "Apolo envía una peste al ejército aqueo.", "La cólera divina provoca sufrimiento entre los aqueos al inicio del relato."],
             "correcta": 0,
             "solucion": "Patroclo toma las armas de Aquiles y más adelante muere a manos de Héctor. Aquiles vuelve al combate para vengarlo y se enfrenta a Héctor. El duelo, por tanto, es posterior al episodio representado."
           },
           {
             "numero": 54,
-            "enunciado": "Relación entre escuelas psicológicas",
+            "enunciado": "Asocia los enfoques I. humanista, II. conductista y III. psicodinámico con los casos a, b y c.",
+            "datos": [
+              "a. Una persona consulta por juego compulsivo y su terapeuta indaga en sus vínculos afectivos de la primera infancia.",
+              "b. Una persona supera el miedo a un ascensor mediante aproximaciones sucesivas.",
+              "c. Una persona va a terapia por su relación de pareja y aprende a dar prioridad a su bienestar y desarrollo personal."
+            ],
+            "opciones": ["Ia, IIc, IIIb", "Ib, IIa, IIIc", "Ic, IIb, IIIa", "Ib, IIc, IIIa", "Ic, IIa, IIIb"],
             "correcta": 2,
             "solucion": "El crecimiento personal corresponde al enfoque humanista. Las aproximaciones sucesivas pertenecen al conductismo. La exploración de vínculos tempranos se asocia al enfoque psicodinámico. La relación es Ic, IIb, IIIa."
           }
@@ -519,34 +545,37 @@
       },
       {
         "nombre": "Economía y Filosofía",
-        "fotos": [
-          {
-            "pagina": 11,
-            "url": "https://www.facebook.com/photo.php?fbid=1713449487452557&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 76,
-            "enunciado": "Identificación de factores productivos",
+            "enunciado": "Un agricultor ya dispone de mano de obra y organización empresarial. ¿Qué opciones le aportarían los factores productivos que todavía necesita para ampliar su actividad?",
+            "datos": [
+              "I. Un camión de carga usado.",
+              "II. Un terreno dentro de una reserva natural protegida que no está disponible para el cultivo.",
+              "III. Unas 20 hectáreas de tierra agrícola disponibles en alquiler."
+            ],
+            "opciones": ["I y II", "II y III", "Solo III", "Solo I", "I y III"],
             "correcta": 4,
             "solucion": "La maquinaria y el transporte son capital productivo. La superficie agrícola disponible aporta el factor tierra. En el caso planteado, el camión y las hectáreas que se pueden alquilar cubren esos dos factores."
           },
           {
             "numero": 77,
-            "enunciado": "Justicia y posición original",
+            "enunciado": "Rawls considera que una sociedad justa protege libertades básicas cuya validez no depende de maximizar el bienestar colectivo. ¿En qué recurso hipotético funda la elección imparcial de principios de justicia?",
+            "opciones": ["La comunidad de comunicación ideal", "El imperativo hipotético", "El estado de naturaleza", "El velo de la ignorancia", "El utilitarismo tradicional"],
             "correcta": 3,
             "solucion": "El velo de la ignorancia impide que las personas elijan principios de justicia a partir de su posición social particular. Rawls usa este recurso para modelar una elección imparcial."
           },
           {
             "numero": 78,
-            "enunciado": "Autonomía e imperativo categórico",
+            "enunciado": "Para Kant, la libertad moral pertenece al plano nouménico, mientras los fenómenos están sujetos a leyes naturales. ¿Qué se deduce de esta distinción?",
+            "opciones": ["El imperativo categórico no funda la obligación en condiciones empíricas.", "Los deberes morales siempre coinciden con los intereses individuales.", "La moral surge al hacer coincidir lo que se desea con lo que se debe hacer.", "La finalidad de la moral kantiana es controlar las pasiones.", "El imperativo categórico se funda en la heteronomía."],
             "correcta": 0,
             "solucion": "Para Kant, la obligación moral que expresa el imperativo categórico deriva de la razón práctica. Su fuerza no depende de fines, deseos ni circunstancias observables."
           },
           {
             "numero": 79,
-            "enunciado": "Conducta verbal y significado",
+            "enunciado": "Quine objeta una explicación del significado que deja de lado cómo se comportan los hablantes. En su lugar, atiende a disposiciones verbales que se comparten dentro de una lengua. ¿Qué alternativa recoge esa idea?",
+            "opciones": ["El programa de positivismo lógico de Moritz Schlick", "Una correspondencia homogénea entre cada signo y su referente", "La práctica verbal de las personas de una comunidad", "Una traducción radical que elimina por completo todo referente", "La supresión de las sensibilidades para desarrollar el lenguaje"],
             "correcta": 2,
             "solucion": "El pasaje vincula el significado con las disposiciones lingüísticas observables y compartidas por los hablantes. Eso corresponde al uso del lenguaje dentro de una comunidad."
           }
@@ -554,28 +583,25 @@
       },
       {
         "nombre": "Biología",
-        "fotos": [
-          {
-            "pagina": 16,
-            "url": "https://www.facebook.com/photo.php?fbid=1713449654119207&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 96,
-            "enunciado": "Recuperación de un ecosistema",
+            "enunciado": "Tras un incendio en un ecosistema de lomas, aparecen arbustos donde antes abundaban los pastos. La vegetación se restablece sobre un suelo que ya existía. ¿Qué proceso describe este cambio?",
+            "opciones": ["Sucesión secundaria", "Deterioro del clímax ecológico", "Sucesión primaria", "Cambio de hábitat de los venados", "Sucesión evolutiva"],
             "correcta": 0,
             "solucion": "Después de un incendio, la comunidad puede volver a desarrollarse sobre suelo existente y con restos del ecosistema previo. La recolonización en esas condiciones es sucesión secundaria."
           },
           {
             "numero": 97,
-            "enunciado": "Puentes disulfuro y forma de la queratina",
+            "enunciado": "Un tratamiento permanente convierte cabello lacio en ondulado. ¿Qué cambio en la queratina explica que el cabello conserve su nueva forma?",
+            "opciones": ["Eliminación de los puentes disulfuro", "Disminución permanente de la cantidad de puentes disulfuro", "Pérdida de la secuencia primaria de la queratina", "Eliminación de azufre de la cisteína y la isoleucina", "Reorganización de los puentes disulfuro"],
             "correcta": 4,
             "solucion": "Al cambiar la forma del cabello se reorganizan los puentes disulfuro que ayudan a estabilizar la estructura de la queratina. La secuencia de aminoácidos de la proteína permanece."
           },
           {
             "numero": 98,
-            "enunciado": "Gradiente de protones en el cloroplasto",
+            "enunciado": "En un cloroplasto se observa una membrana con ATP sintasa. Los protones atraviesan la enzima desde el lado A hacia el lado B, donde se produce ATP a partir de ADP y fosfato. ¿Qué son A y B y cómo se llama el proceso?",
+            "opciones": ["Espacio tilacoidal / estroma / quimiósmosis", "Estroma / espacio tilacoidal / fase lumínica", "Estroma / espacio tilacoidal / fosforilación", "Interior del tilacoide / estroma / fase oscura", "Exterior del tilacoide / estroma / fase oscura"],
             "correcta": 0,
             "solucion": "Los protones pasan desde el espacio tilacoidal hacia el estroma a través de la ATP sintasa. La enzima aprovecha el gradiente para sintetizar ATP mediante quimiósmosis."
           }
@@ -589,41 +615,39 @@
     "titulo": "Simulacro presencial UNAC 2026-II",
     "enfoque": "Selección del simulacro del 25 de octubre de 2026",
     "fuente": "https://admision.unac.edu.pe/simulacro/",
-    "observaciones": [
-      "La pregunta 15 admite dos alternativas si se lee literalmente. Para k = 7 se obtiene (x + 2/5)(10x + 10y − 5). Para k = 10 se obtiene (5x − y + 2)(2x + 3y − 1). Ambas son factorizaciones lineales.",
-      "La pregunta 20 mezcla metros en los datos con centímetros en todas las alternativas. Quedó fuera del recuento."
-    ],
     "bloques": [
       {
         "nombre": "Álgebra y Geometría",
-        "fotos": [
-          {
-            "pagina": 3,
-            "url": "https://www.facebook.com/photo.php?fbid=1713995067397999&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 16,
-            "enunciado": "Tangencia entre una recta y un disco",
+            "enunciado": "¿Cuál es el menor valor real de β para que el sistema tenga exactamente una solución?",
+            "datos": [
+              "x² + y² + β² ≤ 9 + 6x",
+              "4y − 6 = 3x"
+            ],
+            "opciones": ["4", "3", "0", "−4", "−3"],
             "correcta": 4,
             "solucion": "Al completar el cuadrado queda (x − 3)² + y² ≤ 18 − β². La distancia del centro a la recta es 3. Para tener un punto común, el radio debe valer 3. Así β² = 9 y el menor valor es −3."
           },
           {
             "numero": 17,
-            "enunciado": "Tangencia a dos circunferencias",
+            "enunciado": "En un cuadrante AOB de centro O y radio 10 cm se dibuja una semicircunferencia de diámetro OB hacia el interior del cuadrante. Una circunferencia de centro Q y radio 3 cm es tangente interior al arco AB y tangente exterior a la semicircunferencia. ¿A qué distancia está Q de la recta OB?",
+            "opciones": ["4√2 cm", "4√3 cm", "5 cm", "6 cm", "3√5 cm"],
             "correcta": 1,
             "solucion": "Toma O = (0, 0) y el centro del semicírculo en (5, 0). El centro Q dista 7 de O, por tangencia interior, y 8 del otro centro, por tangencia exterior. Al restar los cuadrados de esas distancias obtienes x = 1. La altura es √(49 − 1) = 4√3 cm."
           },
           {
             "numero": 18,
-            "enunciado": "Ángulo en una configuración isósceles",
+            "enunciado": "En el triángulo ABC, P está entre A y C. Se cumple AP = BC y los ángulos PBC y BCP miden 20°. ¿Cuánto mide el ángulo BAC?",
+            "opciones": ["53°", "45°", "30°", "37°", "60°"],
             "correcta": 2,
             "solucion": "Toma AP = BC = 1. Los ángulos iguales de 20° dan BP = PC = 1/(2 cos 20°). Respecto de A, la altura de B es sen 20° y su avance horizontal es 1 + PC − cos 20° = √3 sen 20°. La tangente del ángulo resulta 1/√3. Por tanto, mide 30°."
           },
           {
             "numero": 19,
-            "enunciado": "Esfera inscrita en un cono",
+            "enunciado": "Una esfera inscrita en un cono circular recto toca la base y la superficie lateral. Su superficie tiene un área que guarda una razón de 4 a 3 con el área de la base del cono. Si AB es un diámetro de la base y V el vértice, ¿cuánto mide el ángulo AVB?",
+            "opciones": ["30°", "53°", "45°", "60°", "37°"],
             "correcta": 3,
             "solucion": "Si r es el radio de la esfera y R el de la base, la razón de áreas da 4r²/R² = 4/3. En la sección axial, r es el inradio y θ es la mitad del ángulo del vértice. Del triángulo rectángulo resulta r/R = cos θ/(1 + sen θ). El cociente 1/√3 corresponde a θ = 30°. El ángulo pedido es 60°."
           }
@@ -631,34 +655,37 @@
       },
       {
         "nombre": "Química y Biología",
-        "fotos": [
-          {
-            "pagina": 8,
-            "url": "https://www.facebook.com/photo.php?fbid=1713995304064642&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 42,
-            "enunciado": "Neutralización y pH con exceso de base",
+            "enunciado": "Se mezclan 5 mL de H₂SO₄ de concentración 0,2 mol/L y 10 mL de NaOH de concentración 0,5 N. La mezcla queda fuera del punto de equivalencia. Asume volúmenes aditivos y usa log₁₀(2) ≈ 0,3. Marca la secuencia de verdadero o falso para la solución resultante.",
+            "datos": [
+              "I. Quedan 3 × 10⁻³ equivalentes en exceso.",
+              "II. La mezcla es básica.",
+              "III. El pH final es 13,7."
+            ],
+            "opciones": ["FVV", "FVF", "VVF", "FVF", "VVV"],
             "correcta": 2,
             "solucion": "El ácido aporta 0,002 equivalentes y la base 0,005. Sobran 0,003 equivalentes de base. Si los volúmenes se suman, [OH⁻] = 0,003/0,015 = 0,20 mol/L. A 25 °C, pOH = 0,7 y pH = 13,3. Resulta VVF."
           },
           {
             "numero": 43,
-            "enunciado": "Identificación de un alcohol secundario",
+            "enunciado": "¿Cuál de las estructuras representa un alcohol secundario?",
+            "opciones": ["V. CH₃–CH₂–C(OH)(CH₃)–CH₃", "I. CH₃–CH₂–CH₂OH", "IV. HOCH₂–CH₂–CH₂–CH₂OH", "III. CH₃OH", "II. CH₃–CH₂–CH(OH)–CH₃"],
             "correcta": 4,
             "solucion": "El carbono que porta el grupo OH debe estar unido a otros dos carbonos. Eso ocurre en el compuesto II, que corresponde al butan-2-ol."
           },
           {
             "numero": 44,
-            "enunciado": "Número de aguas de hidratación",
+            "enunciado": "La sal hidratada Ca₃(PO₄)₂ · xH₂O contiene 15,5 % de fósforo en masa. Calcula x usando las masas atómicas Ca = 40, P = 31, O = 16 y H = 1.",
+            "opciones": ["12", "2", "8", "5", "10"],
             "correcta": 3,
             "solucion": "Los dos átomos de P aportan 62 g por mol de sal. Si eso es el 15,5 %, la masa molar hidratada es 400 g/mol. La sal anhidra pesa 310 g/mol. La diferencia es 90 g/mol, equivalentes a cinco moléculas de agua por unidad de fórmula."
           },
           {
             "numero": 45,
-            "enunciado": "Interacción entre especies",
+            "enunciado": "En una comunidad, sustancias producidas por un hongo limitan el crecimiento de bacterias vecinas y el hongo no recibe un efecto directo. ¿Qué interacción ilustra este caso?",
+            "opciones": ["Inquilinismo", "Amensalismo", "Mutualismo", "Protocooperación", "Comensalismo"],
             "correcta": 1,
             "solucion": "Una especie queda perjudicada y la otra no presenta un efecto directo en el ejemplo. En ecología, esa relación se llama amensalismo."
           }
@@ -666,16 +693,11 @@
       },
       {
         "nombre": "Razonamiento matemático",
-        "fotos": [
-          {
-            "pagina": 18,
-            "url": "https://www.facebook.com/photo.php?fbid=1713995770731262&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 80,
-            "enunciado": "Criptoaritmética por columnas",
+            "enunciado": "En la suma MAR + MAR = RENE, cada letra distinta representa un dígito diferente y M y R son distintos de cero. Calcula M + A + N + E + R + A.",
+            "opciones": ["24", "26", "25", "23", "20"],
             "correcta": 2,
             "solucion": "La cifra del millar R debe ser 1. Las unidades fijan E = 2. En las centenas, M = 6 y no hay acarreo de las decenas. Entonces N = 2A. La única opción compatible con cifras distintas es A = 4, N = 8. La suma, contando A dos veces como pide el ejercicio, es 25."
           }
@@ -683,26 +705,36 @@
       },
       {
         "nombre": "Comunicación verbal",
-        "fotos": [
-          {
-            "pagina": 19,
-            "url": "https://www.facebook.com/photo.php?fbid=1713995817397924&set=pb.100063625658563.-2207520000&type=3"
-          }
-        ],
         "preguntas": [
           {
             "numero": 86,
-            "enunciado": "Coordinación y comparación",
+            "enunciado": "Completa la oración. La epistemología examina la estructura, los fundamentos ___ los métodos de las ciencias. Hay tantas epistemologías ___ ciencias.",
+            "opciones": ["sino / como", "además / por tanto", "o / es decir", "o / entonces", "y / como"],
             "correcta": 4,
             "solucion": "El primer espacio cierra una enumeración mediante y. El segundo completa la correlación comparativa tantas … como …."
           },
           {
             "numero": 89,
-            "enunciado": "Sinonimia léxica",
+            "enunciado": "¿Qué pareja está formada por sinónimos?",
+            "opciones": ["Neófito / novicio", "Pérfido / honrado", "Estulto / mañoso", "Inexperto / perito", "Primoroso / desaliñado"],
             "correcta": 0,
             "solucion": "Neófito y novicio designan a quien empieza en una actividad o ámbito. Los otros pares no son equivalentes en ese sentido."
           }
         ]
+      }
+    ],
+    "revision": [
+      {
+        "numero": 15,
+        "enunciado": "¿Para qué valor de k se puede escribir como producto de dos factores lineales G(x, y) = 10x² + (k + 3)xy − (k − 7)y² − x + (k − 3)y − 2?",
+        "opciones": ["10", "5", "2", "13", "7"],
+        "solucion": "Hay dos valores válidos. Para k = 7 resulta (x + 2/5)(10x + 10y − 5). Para k = 10 resulta (5x − y + 2)(2x + 3y − 1). Las dos factorizaciones reproducen la expresión correspondiente."
+      },
+      {
+        "numero": 20,
+        "enunciado": "En el triángulo ABC, BD biseca el ángulo ABC y D está en AC. Una circunferencia que pasa por B y es tangente a AC en D corta de nuevo a AB en M y a BC en N. Si BN = 8 m y BD = 4√5 m, ¿cuánto mide AB?",
+        "opciones": ["10 cm", "13 cm", "9 cm", "11 cm", "12 cm"],
+        "solucion": "Con la bisectriz y la condición de tangencia se obtiene AB × BN = BD². Por tanto, AB = 80 m² / 8 m = 10 m. Las alternativas están dadas en centímetros y ninguna equivale a 10 m."
       }
     ]
   },

@@ -130,23 +130,36 @@ def generar_historiales():
     })
 
 
+def material_pregunta(pregunta: dict) -> str:
+    contenido = []
+    if pregunta.get("datos"):
+        datos = "".join(f"<li>{escape(dato)}</li>" for dato in pregunta["datos"])
+        contenido.append(f'                    <ul class="datos-pregunta">{datos}</ul>')
+    if pregunta.get("figura") == "cuadrados-superpuestos":
+        contenido.append('''                    <div class="cuadrados-superpuestos" role="img"
+                         aria-label="Dos cuadrados superpuestos. El cuadrado girado tiene P en el vértice superior y Q en el inferior.">
+                        <span class="rotulo-p" aria-hidden="true">P</span>
+                        <span class="rotulo-q" aria-hidden="true">Q</span>
+                    </div>''')
+    return "\n".join(contenido)
+
+
 def pregunta_simulacro(pregunta: dict, numero: int) -> str:
     letras = "abcde"
     correcta = pregunta["correcta"]
     identificador = pregunta.get("numero", numero)
-    alternativas = pregunta.get("opciones")
-    etiquetas = list(letras.upper())
-    estilo = "pregunta pregunta--cuadernillo"
-    if alternativas:
-        etiquetas = [f"{letra.upper()}. {escape(opcion)}" for letra, opcion in zip(letras, alternativas, strict=True)]
-        estilo = "pregunta"
+    etiquetas = [
+        f"{letra.upper()}. {escape(opcion)}"
+        for letra, opcion in zip(letras, pregunta["opciones"], strict=True)
+    ]
     opciones = "\n".join(
         f'                        <label><input type="radio" name="p{numero}" value="{letra}"> {etiqueta}</label>'
         for letra, etiqueta in zip(letras, etiquetas, strict=True)
     )
     return f'''
-                <fieldset class="{estilo}" data-correcta="{letras[correcta]}">
+                <fieldset class="pregunta" data-correcta="{letras[correcta]}">
                     <legend>{identificador}. {escape(pregunta["enunciado"])}</legend>
+{material_pregunta(pregunta)}
                     <div class="opciones">
 {opciones}
                     </div>
@@ -156,6 +169,26 @@ def pregunta_simulacro(pregunta: dict, numero: int) -> str:
                         <p>{escape(pregunta["solucion"])}</p>
                     </details>
                 </fieldset>'''
+
+
+def preguntas_para_revision(preguntas: list) -> str:
+    if not preguntas:
+        return ""
+    ejercicios = []
+    for pregunta in preguntas:
+        opciones = "".join(f"<li>{escape(opcion)}</li>" for opcion in pregunta["opciones"])
+        ejercicios.append(f'''
+                    <article class="pregunta-revision">
+                        <p><strong>{pregunta["numero"]}. {escape(pregunta["enunciado"])}</strong></p>
+{material_pregunta(pregunta)}
+                        <ol type="A">{opciones}</ol>
+                        <p>{escape(pregunta["solucion"])}</p>
+                    </article>''')
+    return f'''
+                <details class="revision-cuadernillo">
+                    <summary>Preguntas para revisión sin puntuación</summary>
+{"".join(ejercicios)}
+                </details>'''
 
 
 def contenido_simulacro(simulacro: dict, siglas: str) -> str:
@@ -168,11 +201,6 @@ def contenido_simulacro(simulacro: dict, siglas: str) -> str:
         nombre = escape(bloque["nombre"])
         enlaces_secciones.append(f'<a href="#{area}">{nombre}</a>')
         lectura = f'                <div class="lectura"><p>{escape(bloque["lectura"])}</p></div>' if bloque.get("lectura") else ""
-        fotos = []
-        for foto in bloque.get("fotos", []):
-            etiqueta = foto.get("etiqueta") or f'Página {simulacro.get("prefijo_pagina", "")}{foto["pagina"]}'
-            fotos.append(f'<a href="{escape(foto["url"])}" target="_blank" rel="noopener">{escape(etiqueta)} en Facebook</a>')
-        cuadernillo = f'                <p>{" · ".join(fotos)}</p>' if fotos else ""
         preguntas = [
             pregunta_simulacro(pregunta, n)
             for n, pregunta in enumerate(bloque["preguntas"], start=numero)
@@ -182,17 +210,12 @@ def contenido_simulacro(simulacro: dict, siglas: str) -> str:
             <section id="{area}" aria-labelledby="{area}-titulo">
                 <h2 id="{area}-titulo">{nombre}</h2>
 {lectura}
-{cuadernillo}
 {"".join(preguntas)}
             </section>''')
         resultados.append(f'<div><dt>{nombre}</dt><dd data-area="{area}"></dd></div>')
-    observaciones = ""
     if simulacro.get("formato") == "cuadernillo":
         instrucciones = f'''
-                <p>{numero - 1} preguntas corregibles. Abre las fotos del cuadernillo, localiza cada número y marca aquí la letra elegida. Facebook puede pedir que inicies sesión.</p>
-                <p>Al terminar, corrige tus respuestas y consulta las soluciones elaboradas por Exámenes Perú.</p>'''
-        notas = "".join(f"<li>{escape(nota)}</li>" for nota in simulacro["observaciones"])
-        observaciones = f'                <details><summary>Observaciones sobre las preguntas</summary><ul>{notas}</ul></details>'
+                <p>{numero - 1} preguntas digitalizadas con su numeración original. Marca una alternativa por pregunta y corrige tus respuestas al terminar.</p>'''
         etiqueta_fuente = simulacro.get("etiqueta_fuente", "Convocatoria oficial")
     else:
         instrucciones = f'''
@@ -204,7 +227,6 @@ def contenido_simulacro(simulacro: dict, siglas: str) -> str:
             <section aria-labelledby="instrucciones">
                 <h2 id="instrucciones">{escape(simulacro["enfoque"])}</h2>
 {instrucciones}
-{observaciones}
                 <nav class="simulacro-secciones" aria-label="Secciones del simulacro">
                     {" ".join(enlaces_secciones)} <a href="#revision">Revisar respuestas</a>
                 </nav>
@@ -218,6 +240,7 @@ def contenido_simulacro(simulacro: dict, siglas: str) -> str:
                     <p id="resumen-resultado" aria-live="polite"></p>
                     <dl>{"".join(resultados)}</dl>
                 </div>
+{preguntas_para_revision(simulacro.get("revision", []))}
                 <p>{fuente}</p>
                 <p><a href="/simulacros/">Ver los simulacros de otras universidades</a></p>
             </section>'''
@@ -236,7 +259,7 @@ def generar_simulacros() -> tuple:
         enfoque = escape(simulacro["enfoque"])
         nombre = escape(institucion["nombre"])
         if simulacro.get("formato") == "cuadernillo":
-            descripcion = f"{nombre} · Cuadernillo histórico con hoja de respuestas y soluciones explicadas."
+            descripcion = f"{nombre} · Cuadernillo digitalizado con alternativas, corrección y soluciones explicadas."
         else:
             descripcion = f"{nombre} · Práctica original con corrección y soluciones explicadas."
         tarjeta = f'<li><strong><a href="{ruta}">{escape(titulo)}</a></strong><br>{enfoque}</li>'

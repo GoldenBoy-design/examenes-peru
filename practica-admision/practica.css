@@ -22,8 +22,31 @@
 .pregunta label:hover { background: var(--cream); }
 .pregunta label:has(input:checked) { border-color: var(--accent); background: var(--pale-red); }
 .pregunta input { flex: 0 0 auto; margin-inline-start: 0; accent-color: var(--accent); }
-.pregunta--cuadernillo .opciones { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-.pregunta--cuadernillo label { justify-content: center; align-items: center; gap: 5px; padding-inline: 3px; }
+.editorial-main .datos-pregunta { margin: 0 0 12px; }
+.cuadrados-superpuestos {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: min(100%, 10.5rem);
+    aspect-ratio: 1;
+    margin: 0 auto 12px;
+    color: var(--ink);
+}
+.cuadrados-superpuestos::before,
+.cuadrados-superpuestos::after {
+    content: "";
+    grid-area: 1 / 1;
+    width: 52%;
+    aspect-ratio: 1;
+    border: 2px solid currentColor;
+}
+.cuadrados-superpuestos::after { transform: rotate(45deg); }
+.cuadrados-superpuestos span { position: absolute; font-weight: 700; line-height: 1; }
+.cuadrados-superpuestos .rotulo-p { top: 0; }
+.cuadrados-superpuestos .rotulo-q { bottom: 0; }
+.revision-cuadernillo { margin: 0 0 16px; }
+.revision-cuadernillo summary { color: var(--accent-dark); cursor: pointer; font-weight: 700; }
+.pregunta-revision { margin-top: 12px; padding: 12px; border: 1px solid var(--rule); border-radius: 7px; }
 .simulacro-secciones { display: flex; flex-wrap: wrap; gap: 4px 15px; margin-top: 16px; }
 .simulacro-secciones a { padding-block: 5px; }
 .pregunta details {
