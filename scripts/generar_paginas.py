@@ -295,7 +295,7 @@ def generar_noticias() -> tuple:
     bajada_indice = "Fechas, modalidades y avisos de inscripción, con enlaces a las universidades que los publican."
     noticias = cargar_noticias()
     instituciones = {item["id"]: item for item in cargar_padron()["universidades"]}
-    actividad = actividad_html("consultar")
+    actividad = actividad_html()
     rutas, tarjetas = [ruta_indice], []
     for noticia in sorted(noticias, key=lambda item: item["publicado"], reverse=True):
         institucion = instituciones[noticia["institucion"]]

@@ -234,8 +234,7 @@
 .footer-activity { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 20px; margin-top: 14px; padding-top: 12px; border-top: 1px solid #ffffff42; }
 .footer-counter { display: flex; align-items: baseline; flex-wrap: wrap; gap: 3px 13px; margin: 0; }
 .footer-counter dt { color: white; font-size: .88rem; font-weight: 700; }
-.footer-counter dd { margin: 0; color: #e5d4a6; font-size: .82rem; }
-.footer-counter .activity-value { font-size: 1.15rem; line-height: 1.3; font-weight: 700; font-variant-numeric: tabular-nums; }
+.footer-counter dd { margin: 0; color: #e5d4a6; font-size: 1.15rem; line-height: 1.3; font-weight: 700; font-variant-numeric: tabular-nums; }
 .footer-activity > p { color: #e2e8f0; font-size: .77rem; }
 
 @media (max-width: 1000px) {
