@@ -62,10 +62,6 @@ def foto_noticia(noticia: dict, clase: str, tamanos: str, prioritaria: bool = Fa
     )
 
 
-def actividad_html() -> str:
-    return (RAIZ / "templates/actividad.fragment.html").read_text(encoding="utf-8").rstrip()
-
-
 def ruta_historial(institucion_id: str, historial: dict) -> str:
     return HISTORIALES_PROPIOS.get(institucion_id, f"/historial/#{institucion_id}" if institucion_id in historial else "")
 
@@ -257,7 +253,6 @@ def main():
         .replace("{{FECHA_REVISION}}", fecha_html(datos["revision"]))
         .replace("{{NOTICIAS}}", noticias)
         .replace("{{INDICE_NOTICIAS}}", indice_noticias)
-        .replace("{{ACTIVIDAD}}", actividad_html())
         .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones, historial) for evento in eventos))
         .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, historial, simulacros) for entrada in directorio))
         .replace("{{REGIONES}}", opciones)

@@ -6,7 +6,7 @@ from xml.etree import ElementTree as ET
 
 from generar_html import (
     RAIZ, cargar_historial, cargar_noticias, cargar_padron, cargar_simulacros,
-    actividad_html, enlace_oficial, fecha_html, foto_noticia, imagen_noticia, logo_html, ruta_noticia,
+    enlace_oficial, fecha_html, foto_noticia, imagen_noticia, logo_html, ruta_noticia,
 )
 
 DOMINIO = "https://examenesperu.netlify.app"
@@ -295,7 +295,6 @@ def generar_noticias() -> tuple:
     bajada_indice = "Fechas, modalidades y avisos de inscripción, con enlaces a las universidades que los publican."
     noticias = cargar_noticias()
     instituciones = {item["id"]: item for item in cargar_padron()["universidades"]}
-    actividad = actividad_html()
     rutas, tarjetas = [ruta_indice], []
     for noticia in sorted(noticias, key=lambda item: item["publicado"], reverse=True):
         institucion = instituciones[noticia["institucion"]]
@@ -374,7 +373,7 @@ def generar_noticias() -> tuple:
         </section>"""
         guardar_pagina(ruta, "noticias.template.html", {
             "TITULO": titulo, "DESCRIPCION": resumen, "CANONICAL": f"{DOMINIO}{ruta}",
-            "TIPO": "article", "NAV_ACTIVA": "", "CONTENIDO": contenido, "ACTIVIDAD": actividad,
+            "TIPO": "article", "NAV_ACTIVA": "", "CONTENIDO": contenido,
             "OG_IMAGEN": f'    <meta property="og:image" content="{DOMINIO}{escape(imagen_noticia(noticia))}">',
             "MIGAS": '<a href="/">Inicio</a> / <a href="/noticias/">Noticias</a>',
         })
@@ -399,7 +398,7 @@ def generar_noticias() -> tuple:
     guardar_pagina(ruta_indice, "noticias.template.html", {
         "TITULO": titulo_indice, "DESCRIPCION": bajada_indice, "CANONICAL": f"{DOMINIO}{ruta_indice}",
         "TIPO": "website", "NAV_ACTIVA": ' aria-current="page"', "CONTENIDO": contenido_indice,
-        "OG_IMAGEN": "", "ACTIVIDAD": actividad,
+        "OG_IMAGEN": "",
         "MIGAS": '<a href="/">Inicio</a> / <span aria-current="page">Noticias</span>',
     })
     return tuple(rutas)
