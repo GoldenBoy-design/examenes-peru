@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="/noticias.css">
     <script src="/calendario.js" defer></script>
     <script src="/portada.js" defer></script>
+    <script src="/actividad.js" defer></script>
 </head>
 <body>
     <a class="skip" href="#portada">Ir al contenido</a>
@@ -47,144 +48,138 @@
     <main id="portada">
         <div class="shell front-page">
             <header class="front-masthead">
-                <div>
-                    <h1>Exámenes de admisión en Perú</h1>
-                    <p>Convocatorias, inscripciones y recursos para preparar tu postulación.</p>
-                </div>
-                <dl class="front-counter" id="front-counter" hidden>
-                    <dt>Actividad de portada hoy</dt>
-                    <dd><strong id="front-points"></strong> <span>puntos</span></dd>
-                    <dd class="counter-scale">124 puntos por visita</dd>
-                </dl>
+                <h1>Exámenes de admisión en Perú</h1>
+                <a href="#calendario">Calendario completo <span aria-hidden="true">↓</span></a>
             </header>
             <section class="front-news" aria-labelledby="front-news-title">
                 <header class="front-news-heading">
                     <h2 id="front-news-title">Próximos exámenes</h2>
                     <a href="/noticias/">Todas las noticias <span aria-hidden="true">↗</span></a>
                 </header>
-                <div class="front-news-grid" id="front-news-grid">
-                    <div class="front-feature">
-                        <div id="front-slides">
+                <div id="front-feature">
+                    <div id="front-slides">
                     <article class="front-slide" id="noticia-uni-ingreso-escolar-2027-1" data-exam="2026-12-13" data-institucion="uni">
+                        <img class="front-photo" src="/imagenes/noticias/uni.webp" srcset="/imagenes/noticias/uni-640.webp 640w, /imagenes/noticias/uni.webp 1440w" sizes="(max-width: 700px) 94vw, (max-width: 1240px) 92vw, 1144px" alt="" width="1440" height="960" fetchpriority="high" decoding="async">
+                        <div class="story-ticket">
+                            <span>Examen</span>
+                            <time datetime="2026-12-13"><strong>13</strong><span>diciembre 2026</span></time>
+                        </div>
                         <div class="front-story">
-                            <p class="story-kicker">UNI <span>Lima y sedes regionales</span></p>
-                            <h3><a href="/noticias/uni-ingreso-escolar-2027-1/">La UNI tomará su examen escolar en 18 sedes</a></h3>
+                            <div class="front-story-meta">
+                                <span class="institution-logo"><img src="/logos/uni.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                                <div><p>UNI · Lima y sedes regionales</p><p>Ingreso Escolar Nacional 2027-1</p></div>
+                            </div>
+                            <h3><a href="/noticias/uni-ingreso-escolar-2027-1/">18 sedes, un solo examen escolar para entrar a la UNI</a></h3>
                             <p class="story-summary">Los alumnos de quinto de secundaria pueden inscribirse hasta el 7 de diciembre. La evaluación presencial será el 13 en Lima y en otras 17 sedes.</p>
                             <a class="story-link" href="/noticias/uni-ingreso-escolar-2027-1/" aria-label="Leer noticia de UNI"><span>Leer noticia</span><span aria-hidden="true">→</span></a>
                         </div>
-                        <div class="story-visual">
-                            <span class="institution-logo"><img src="/logos/uni.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
-                            <div class="story-date">
-                                <span>Fecha de examen</span>
-                                <time datetime="2026-12-13"><strong>13</strong> <span>diciembre 2026</span></time>
-                            </div>
-                        </div>
                     </article>
                     <article class="front-slide" id="noticia-unac-examen-general-diciembre-2026" data-exam="2026-12-20" data-institucion="unac" hidden>
+                        <img class="front-photo" src="/imagenes/noticias/unac.webp" srcset="/imagenes/noticias/unac-640.webp 640w, /imagenes/noticias/unac.webp 1440w" sizes="(max-width: 700px) 94vw, (max-width: 1240px) 92vw, 1144px" alt="" width="1440" height="960" loading="lazy" decoding="async">
+                        <div class="story-ticket">
+                            <span>Examen</span>
+                            <time datetime="2026-12-20"><strong>20</strong><span>diciembre 2026</span></time>
+                        </div>
                         <div class="front-story">
-                            <p class="story-kicker">UNAC <span>Callao</span></p>
-                            <h3><a href="/noticias/unac-examen-general-diciembre-2026/">La UNAC fija su examen general para el 20 de diciembre</a></h3>
+                            <div class="front-story-meta">
+                                <span class="institution-logo"><img src="/logos/unac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                                <div><p>UNAC · Callao</p><p>Admisión 2026-II</p></div>
+                            </div>
+                            <h3><a href="/noticias/unac-examen-general-diciembre-2026/">La UNAC ya tiene fecha. Cuándo pagar y cuándo inscribirte</a></h3>
                             <p class="story-summary">El pago vence el 16 y el registro cierra el 17 de diciembre. El calendario del Centro Pre tiene plazos distintos.</p>
                             <a class="story-link" href="/noticias/unac-examen-general-diciembre-2026/" aria-label="Leer noticia de UNAC"><span>Leer noticia</span><span aria-hidden="true">→</span></a>
                         </div>
-                        <div class="story-visual">
-                            <span class="institution-logo"><img src="/logos/unac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
-                            <div class="story-date">
-                                <span>Fecha de examen</span>
-                                <time datetime="2026-12-20"><strong>20</strong> <span>diciembre 2026</span></time>
-                            </div>
-                        </div>
                     </article>
                     <article class="front-slide" id="noticia-unsaac-primera-oportunidad-diciembre-2026" data-exam="2026-12-12" data-institucion="unsaac" hidden>
+                        <img class="front-photo" src="/imagenes/noticias/unsaac.webp" srcset="/imagenes/noticias/unsaac-640.webp 640w, /imagenes/noticias/unsaac.webp 1440w" sizes="(max-width: 700px) 94vw, (max-width: 1240px) 92vw, 1144px" alt="" width="1440" height="960" loading="lazy" decoding="async">
+                        <div class="story-ticket">
+                            <span>Examen</span>
+                            <time datetime="2026-12-12"><strong>12</strong><span>diciembre 2026</span></time>
+                        </div>
                         <div class="front-story">
-                            <p class="story-kicker">UNSAAC <span>Cusco</span></p>
-                            <h3><a href="/noticias/unsaac-primera-oportunidad-diciembre-2026/">La UNSAAC cierra el registro escolar el 1 de diciembre</a></h3>
+                            <div class="front-story-meta">
+                                <span class="institution-logo"><img src="/logos/unsaac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                                <div><p>UNSAAC · Cusco</p><p>Primera Oportunidad</p></div>
+                            </div>
+                            <h3><a href="/noticias/unsaac-primera-oportunidad-diciembre-2026/">¿Postulas a la UNSAAC? Anota el 1 de diciembre</a></h3>
                             <p class="story-summary">El examen para estudiantes de quinto de secundaria será el 12 de diciembre. El pago y la validación tienen plazo hasta el día 2.</p>
                             <a class="story-link" href="/noticias/unsaac-primera-oportunidad-diciembre-2026/" aria-label="Leer noticia de UNSAAC"><span>Leer noticia</span><span aria-hidden="true">→</span></a>
                         </div>
-                        <div class="story-visual">
-                            <span class="institution-logo"><img src="/logos/unsaac.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
-                            <div class="story-date">
-                                <span>Fecha de examen</span>
-                                <time datetime="2026-12-12"><strong>12</strong> <span>diciembre 2026</span></time>
-                            </div>
-                        </div>
                     </article>
                     <article class="front-slide" id="noticia-uncp-primera-seleccion-2027" data-exam="2026-11-29" data-institucion="uncp" hidden>
+                        <img class="front-photo" src="/imagenes/noticias/uncp.webp" srcset="/imagenes/noticias/uncp-640.webp 640w, /imagenes/noticias/uncp.webp 1440w" sizes="(max-width: 700px) 94vw, (max-width: 1240px) 92vw, 1144px" alt="" width="1440" height="960" loading="lazy" decoding="async">
+                        <div class="story-ticket">
+                            <span>Examen</span>
+                            <time datetime="2026-11-29"><strong>28–29</strong><span>noviembre 2026</span></time>
+                        </div>
                         <div class="front-story">
-                            <p class="story-kicker">UNCP <span>Junín</span></p>
-                            <h3><a href="/noticias/uncp-primera-seleccion-2027/">La UNCP tomará el examen de Primera Selección en dos jornadas</a></h3>
+                            <div class="front-story-meta">
+                                <span class="institution-logo"><img src="/logos/uncp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                                <div><p>UNCP · Junín</p><p>Primera Selección 2027</p></div>
+                            </div>
+                            <h3><a href="/noticias/uncp-primera-seleccion-2027/">378 vacantes en la UNCP. Qué saber antes de las dos jornadas</a></h3>
                             <p class="story-summary">El examen se realizará el 28 y 29 de noviembre. La convocatoria escolar reúne 378 vacantes entre sus modalidades.</p>
                             <a class="story-link" href="/noticias/uncp-primera-seleccion-2027/" aria-label="Leer noticia de UNCP"><span>Leer noticia</span><span aria-hidden="true">→</span></a>
                         </div>
-                        <div class="story-visual">
-                            <span class="institution-logo"><img src="/logos/uncp.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
-                            <div class="story-date">
-                                <span>Fecha de examen</span>
-                                <time datetime="2026-11-29"><strong>28–29</strong> <span>noviembre 2026</span></time>
-                            </div>
-                        </div>
                     </article>
                     <article class="front-slide" id="noticia-unt-admision-ordinaria-2027-ii" data-exam="2027-03-07" data-institucion="unitru" hidden>
+                        <img class="front-photo" src="/imagenes/noticias/unitru.webp" srcset="/imagenes/noticias/unitru-640.webp 640w, /imagenes/noticias/unitru.webp 1440w" sizes="(max-width: 700px) 94vw, (max-width: 1240px) 92vw, 1144px" alt="" width="1440" height="960" loading="lazy" decoding="async">
+                        <div class="story-ticket">
+                            <span>Examen</span>
+                            <time datetime="2027-03-07"><strong>6–7</strong><span>marzo 2027</span></time>
+                        </div>
                         <div class="front-story">
-                            <p class="story-kicker">UNT <span>La Libertad</span></p>
-                            <h3><a href="/noticias/unt-admision-ordinaria-2027-ii/">La UNT abrirá el registro para su examen de marzo</a></h3>
+                            <div class="front-story-meta">
+                                <span class="institution-logo"><img src="/logos/unitru.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
+                                <div><p>UNT · La Libertad</p><p>Ordinario 2027-II</p></div>
+                            </div>
+                            <h3><a href="/noticias/unt-admision-ordinaria-2027-ii/">¿Vas por la UNT? El registro abre en diciembre y el examen es en marzo</a></h3>
                             <p class="story-summary">Las inscripciones comienzan el 14 de diciembre. El examen ordinario será presencial en Trujillo y se dividirá en dos días según el área.</p>
                             <a class="story-link" href="/noticias/unt-admision-ordinaria-2027-ii/" aria-label="Leer noticia de UNT"><span>Leer noticia</span><span aria-hidden="true">→</span></a>
                         </div>
-                        <div class="story-visual">
-                            <span class="institution-logo"><img src="/logos/unitru.png" alt="" width="52" height="52" loading="lazy" decoding="async"></span>
-                            <div class="story-date">
-                                <span>Fecha de examen</span>
-                                <time datetime="2027-03-07"><strong>6–7</strong> <span>marzo 2027</span></time>
-                            </div>
-                        </div>
                     </article>
-                        </div>
-                        <div class="front-controls" id="front-controls" aria-label="Controles de noticias destacadas" role="group" hidden>
-                            <button type="button" id="front-prev" aria-label="Noticia anterior"><span aria-hidden="true">←</span></button>
-                            <span id="front-position" class="front-position"></span>
-                            <button type="button" id="front-next" aria-label="Noticia siguiente"><span aria-hidden="true">→</span></button>
-                            <button type="button" id="front-toggle" class="front-toggle">Pausar rotación</button>
-                        </div>
-                        <p class="sr-only" id="front-announcement" role="status"></p>
                     </div>
-                    <aside class="front-sidebar" aria-labelledby="front-index-title">
-                        <h3 id="front-index-title">En esta edición</h3>
-                        <ul class="edition-list">
+                    <div class="front-navigation">
+                        <ul class="edition-list" id="front-edition" aria-label="Universidades destacadas">
                     <li>
                         <a class="edition-link" href="/noticias/uni-ingreso-escolar-2027-1/" data-story-select="noticia-uni-ingreso-escolar-2027-1">
-                            <span class="edition-date" aria-hidden="true"><b>13</b><span>dic</span></span>
-                            <span><b>UNI</b> Ingreso Escolar Nacional 2027-1</span>
+                            <img src="/imagenes/noticias/uni-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async">
+                            <span class="edition-label"><b>UNI</b><time datetime="2026-12-13">13 dic.</time></span>
                         </a>
                     </li>
                     <li>
                         <a class="edition-link" href="/noticias/unac-examen-general-diciembre-2026/" data-story-select="noticia-unac-examen-general-diciembre-2026">
-                            <span class="edition-date" aria-hidden="true"><b>20</b><span>dic</span></span>
-                            <span><b>UNAC</b> Admisión 2026-II</span>
+                            <img src="/imagenes/noticias/unac-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async">
+                            <span class="edition-label"><b>UNAC</b><time datetime="2026-12-20">20 dic.</time></span>
                         </a>
                     </li>
                     <li>
                         <a class="edition-link" href="/noticias/unsaac-primera-oportunidad-diciembre-2026/" data-story-select="noticia-unsaac-primera-oportunidad-diciembre-2026">
-                            <span class="edition-date" aria-hidden="true"><b>12</b><span>dic</span></span>
-                            <span><b>UNSAAC</b> Primera Oportunidad</span>
+                            <img src="/imagenes/noticias/unsaac-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async">
+                            <span class="edition-label"><b>UNSAAC</b><time datetime="2026-12-12">12 dic.</time></span>
                         </a>
                     </li>
                     <li>
                         <a class="edition-link" href="/noticias/uncp-primera-seleccion-2027/" data-story-select="noticia-uncp-primera-seleccion-2027">
-                            <span class="edition-date" aria-hidden="true"><b>28–29</b><span>nov</span></span>
-                            <span><b>UNCP</b> Primera Selección 2027</span>
+                            <img src="/imagenes/noticias/uncp-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async">
+                            <span class="edition-label"><b>UNCP</b><time datetime="2026-11-29">28–29 nov.</time></span>
                         </a>
                     </li>
                     <li>
                         <a class="edition-link" href="/noticias/unt-admision-ordinaria-2027-ii/" data-story-select="noticia-unt-admision-ordinaria-2027-ii">
-                            <span class="edition-date" aria-hidden="true"><b>6–7</b><span>mar</span></span>
-                            <span><b>UNT</b> Ordinario 2027-II</span>
+                            <img src="/imagenes/noticias/unitru-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async">
+                            <span class="edition-label"><b>UNT</b><time datetime="2027-03-07">6–7 mar.</time></span>
                         </a>
                     </li>
                         </ul>
-                        <a class="edition-calendar" href="#calendario">Ver calendario completo <span aria-hidden="true">↓</span></a>
-                    </aside>
+                        <div class="front-controls" id="front-controls" aria-label="Controles de noticias destacadas" role="group" hidden>
+                            <button type="button" id="front-prev" aria-label="Noticia anterior"><span aria-hidden="true">←</span></button>
+                            <span id="front-position" class="front-position"></span>
+                            <button type="button" id="front-next" aria-label="Noticia siguiente"><span aria-hidden="true">→</span></button>
+                            <button type="button" id="front-toggle" class="front-toggle"><span aria-hidden="true"></span><span>Pausar rotación</span></button>
+                        </div>
+                    </div>
+                    <p class="sr-only" id="front-announcement" role="status"></p>
                 </div>
                 <div class="front-empty" id="front-empty" hidden>
                     <p>Consulta las fechas más recientes en el calendario de convocatorias.</p>
@@ -1886,6 +1881,13 @@
                 <a href="/privacidad/">Privacidad</a>
                 <a href="/historial/">Historial de admisión</a>
             </nav>
+        </div>
+        <div class="shell footer-activity">
+            <dl class="footer-counter" id="footer-counter" data-actividad="contar">
+                <dt>Actividad de visitas hoy</dt>
+                <dd id="footer-points" role="status">Cifra no disponible</dd>
+            </dl>
+            <p>124 puntos por visita a la portada · Hora de Lima</p>
         </div>
     </footer>
 </body>

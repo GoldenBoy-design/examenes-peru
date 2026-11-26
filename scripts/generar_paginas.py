@@ -6,7 +6,7 @@ from xml.etree import ElementTree as ET
 
 from generar_html import (
     RAIZ, cargar_historial, cargar_noticias, cargar_padron, cargar_simulacros,
-    enlace_oficial, fecha_html, logo_html, ruta_noticia,
+    actividad_html, enlace_oficial, fecha_html, foto_noticia, imagen_noticia, logo_html, ruta_noticia,
 )
 
 DOMINIO = "https://examenesperu.netlify.app"
@@ -295,6 +295,7 @@ def generar_noticias() -> tuple:
     bajada_indice = "Fechas, modalidades y avisos de inscripción, con enlaces a las universidades que los publican."
     noticias = cargar_noticias()
     instituciones = {item["id"]: item for item in cargar_padron()["universidades"]}
+    actividad = actividad_html("consultar")
     rutas, tarjetas = [ruta_indice], []
     for noticia in sorted(noticias, key=lambda item: item["publicado"], reverse=True):
         institucion = instituciones[noticia["institucion"]]
@@ -303,6 +304,10 @@ def generar_noticias() -> tuple:
         rutas.append(ruta)
         titulo, resumen = escape(noticia["titulo"]), escape(noticia["resumen"])
         lugar = escape(noticia["lugar"])
+        entrada = escape(noticia["entrada"])
+        pie_foto = escape(noticia["pie_foto"])
+        foto = foto_noticia(noticia, "news-article-photo", "(max-width: 1100px) 94vw, 1056px", True)
+        modalidad = escape(noticia["modalidad"])
         fechas = "\n".join(
             f"                        <dt>{escape(etiqueta)}</dt><dd>{fecha_html(dia)}</dd>"
             for etiqueta, dia in noticia["fechas"]
@@ -316,21 +321,41 @@ def generar_noticias() -> tuple:
             for nombre, url in noticia["fuentes"]
         )
         publicado = fecha_html(noticia["publicado"])
+        relacionados = "\n".join(
+            f"""                <li>
+                    <a href="{escape(ruta_noticia(otra))}">
+                        <img src="{escape(imagen_noticia(otra, miniatura=True))}" alt="" width="640" height="427" loading="lazy" decoding="async">
+                        <span>{escape(otra["titulo"])}</span>
+                    </a>
+                </li>"""
+            for otra in [otra for otra in noticias if otra["slug"] != noticia["slug"]][:2]
+        )
         contenido = f"""        <article class="news-article">
             <header class="news-article-header">
-                <p class="story-kicker">{siglas} <span>{lugar}</span></p>
+                <div class="news-article-label">
+                    {logo_html(institucion)}
+                    <div><p>{siglas} · {lugar}</p><p>{modalidad}</p></div>
+                </div>
                 <h1>{titulo}</h1>
                 <p class="news-article-lead">{resumen}</p>
-                <p class="news-byline">Redacción de Exámenes Perú · {publicado}</p>
+                <div class="news-byline">
+                    <span class="brand-mark" aria-hidden="true">EP</span>
+                    <div><p><strong>Redacción de Exámenes Perú</strong></p><p>Publicado el {publicado}</p></div>
+                </div>
             </header>
+            <figure class="news-figure">
+                {foto}
+                <figcaption><span>{pie_foto}</span><span>Ilustración generada con IA</span></figcaption>
+            </figure>
             <div class="news-article-grid">
                 <aside class="news-keydates" aria-labelledby="news-dates-title">
-                    <h2 id="news-dates-title">Fechas clave</h2>
+                    <h2 id="news-dates-title">Agenda del postulante</h2>
                     <dl>
 {fechas}
                     </dl>
                 </aside>
                 <div class="news-article-text">
+                    <p class="news-opening">{entrada}</p>
 {secciones}
                     <section class="news-section news-sources">
                         <h2>Fuentes oficiales</h2>
@@ -340,17 +365,27 @@ def generar_noticias() -> tuple:
                     </section>
                 </div>
             </div>
-        </article>"""
+        </article>
+        <section class="news-related" aria-labelledby="news-related-title">
+            <h2 id="news-related-title">Más noticias de admisión</h2>
+            <ul>
+{relacionados}
+            </ul>
+        </section>"""
         guardar_pagina(ruta, "noticias.template.html", {
             "TITULO": titulo, "DESCRIPCION": resumen, "CANONICAL": f"{DOMINIO}{ruta}",
-            "TIPO": "article", "NAV_ACTIVA": "", "CONTENIDO": contenido,
+            "TIPO": "article", "NAV_ACTIVA": "", "CONTENIDO": contenido, "ACTIVIDAD": actividad,
+            "OG_IMAGEN": f'    <meta property="og:image" content="{DOMINIO}{escape(imagen_noticia(noticia))}">',
             "MIGAS": '<a href="/">Inicio</a> / <a href="/noticias/">Noticias</a>',
         })
         tarjetas.append(f"""            <article class="news-card">
-                <p class="story-kicker">{siglas} <span>{lugar}</span></p>
-                <h2><a href="{escape(ruta)}">{titulo}</a></h2>
-                <p class="news-card-date">Publicado el {publicado}</p>
-                <p class="story-summary">{resumen}</p>
+                <img src="{escape(imagen_noticia(noticia, miniatura=True))}" alt="" width="640" height="427" loading="lazy" decoding="async">
+                <div>
+                    <p class="story-kicker">{siglas} · {lugar}</p>
+                    <h2><a href="{escape(ruta)}">{titulo}</a></h2>
+                    <p class="news-card-date">Publicado el {publicado}</p>
+                    <p class="story-summary">{resumen}</p>
+                </div>
             </article>""")
 
     lista = "\n".join(tarjetas)
@@ -364,6 +399,7 @@ def generar_noticias() -> tuple:
     guardar_pagina(ruta_indice, "noticias.template.html", {
         "TITULO": titulo_indice, "DESCRIPCION": bajada_indice, "CANONICAL": f"{DOMINIO}{ruta_indice}",
         "TIPO": "website", "NAV_ACTIVA": ' aria-current="page"', "CONTENIDO": contenido_indice,
+        "OG_IMAGEN": "", "ACTIVIDAD": actividad,
         "MIGAS": '<a href="/">Inicio</a> / <span aria-current="page">Noticias</span>',
     })
     return tuple(rutas)

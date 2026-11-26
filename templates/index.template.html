@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="/noticias.css">
     <script src="/calendario.js" defer></script>
     <script src="/portada.js" defer></script>
+    <script src="/actividad.js" defer></script>
 </head>
 <body>
     <a class="skip" href="#portada">Ir al contenido</a>
@@ -47,41 +48,30 @@
     <main id="portada">
         <div class="shell front-page">
             <header class="front-masthead">
-                <div>
-                    <h1>Exámenes de admisión en Perú</h1>
-                    <p>Convocatorias, inscripciones y recursos para preparar tu postulación.</p>
-                </div>
-                <dl class="front-counter" id="front-counter" hidden>
-                    <dt>Actividad de portada hoy</dt>
-                    <dd><strong id="front-points"></strong> <span>puntos</span></dd>
-                    <dd class="counter-scale">124 puntos por visita</dd>
-                </dl>
+                <h1>Exámenes de admisión en Perú</h1>
+                <a href="#calendario">Calendario completo <span aria-hidden="true">↓</span></a>
             </header>
             <section class="front-news" aria-labelledby="front-news-title">
                 <header class="front-news-heading">
                     <h2 id="front-news-title">Próximos exámenes</h2>
                     <a href="/noticias/">Todas las noticias <span aria-hidden="true">↗</span></a>
                 </header>
-                <div class="front-news-grid" id="front-news-grid">
-                    <div class="front-feature">
-                        <div id="front-slides">
+                <div id="front-feature">
+                    <div id="front-slides">
 {{NOTICIAS}}
-                        </div>
+                    </div>
+                    <div class="front-navigation">
+                        <ul class="edition-list" id="front-edition" aria-label="Universidades destacadas">
+{{INDICE_NOTICIAS}}
+                        </ul>
                         <div class="front-controls" id="front-controls" aria-label="Controles de noticias destacadas" role="group" hidden>
                             <button type="button" id="front-prev" aria-label="Noticia anterior"><span aria-hidden="true">←</span></button>
                             <span id="front-position" class="front-position"></span>
                             <button type="button" id="front-next" aria-label="Noticia siguiente"><span aria-hidden="true">→</span></button>
-                            <button type="button" id="front-toggle" class="front-toggle">Pausar rotación</button>
+                            <button type="button" id="front-toggle" class="front-toggle"><span aria-hidden="true"></span><span>Pausar rotación</span></button>
                         </div>
-                        <p class="sr-only" id="front-announcement" role="status"></p>
                     </div>
-                    <aside class="front-sidebar" aria-labelledby="front-index-title">
-                        <h3 id="front-index-title">En esta edición</h3>
-                        <ul class="edition-list">
-{{INDICE_NOTICIAS}}
-                        </ul>
-                        <a class="edition-calendar" href="#calendario">Ver calendario completo <span aria-hidden="true">↓</span></a>
-                    </aside>
+                    <p class="sr-only" id="front-announcement" role="status"></p>
                 </div>
                 <div class="front-empty" id="front-empty" hidden>
                     <p>Consulta las fechas más recientes en el calendario de convocatorias.</p>
@@ -194,6 +184,7 @@
                 <a href="/historial/">Historial de admisión</a>
             </nav>
         </div>
+{{ACTIVIDAD}}
     </footer>
 </body>
 </html>

@@ -45,6 +45,28 @@ def ruta_noticia(noticia: dict) -> str:
     return f'/noticias/{noticia["slug"]}/'
 
 
+def imagen_noticia(noticia: dict, miniatura: bool = False) -> str:
+    sufijo = "-640" if miniatura else ""
+    ruta = f'/imagenes/noticias/{noticia["imagen"]}{sufijo}.webp'
+    if not (RAIZ / ruta.lstrip("/")).is_file():
+        raise FileNotFoundError(f"Falta la imagen de {noticia['slug']}: {ruta}")
+    return ruta
+
+
+def foto_noticia(noticia: dict, clase: str, tamanos: str, prioritaria: bool = False) -> str:
+    amplia, pequena = (escape(imagen_noticia(noticia, miniatura)) for miniatura in (False, True))
+    carga = 'fetchpriority="high"' if prioritaria else 'loading="lazy"'
+    return (
+        f'<img class="{clase}" src="{amplia}" srcset="{pequena} 640w, {amplia} 1440w" '
+        f'sizes="{tamanos}" alt="" width="1440" height="960" {carga} decoding="async">'
+    )
+
+
+def actividad_html(modo: str) -> str:
+    plantilla = (RAIZ / "templates/actividad.fragment.html").read_text(encoding="utf-8")
+    return plantilla.rstrip().replace("{{MODO_ACTIVIDAD}}", modo)
+
+
 def ruta_historial(institucion_id: str, historial: dict) -> str:
     return HISTORIALES_PROPIOS.get(institucion_id, f"/historial/#{institucion_id}" if institucion_id in historial else "")
 
@@ -179,28 +201,32 @@ def portada_noticias(noticias: list, instituciones: dict) -> tuple[str, str]:
         dias = str(examen.day)
         if "primera_jornada" in noticia:
             inicio = date.fromisoformat(noticia["primera_jornada"])
-            dias = f"{inicio.day}–{examen.day}"
+            dias = f"{inicio.day}–{examen.day}" if inicio.month == examen.month else f"{inicio.day} {MESES[inicio.month - 1][:3]} – {examen.day}"
         identificador = f'noticia-{noticia["slug"]}'
         oculto = " hidden" if posicion else ""
+        foto = foto_noticia(noticia, "front-photo", "(max-width: 700px) 94vw, (max-width: 1240px) 92vw, 1144px", not posicion)
+        miniatura = escape(imagen_noticia(noticia, miniatura=True))
+        modalidad = escape(noticia["modalidad"])
         paneles.append(f"""                    <article class="front-slide" id="{identificador}" data-exam="{examen.isoformat()}" data-institucion="{codigo}"{oculto}>
+                        {foto}
+                        <div class="story-ticket">
+                            <span>Examen</span>
+                            <time datetime="{examen.isoformat()}"><strong>{dias}</strong><span>{mes} {examen.year}</span></time>
+                        </div>
                         <div class="front-story">
-                            <p class="story-kicker">{siglas} <span>{escape(noticia["lugar"])}</span></p>
+                            <div class="front-story-meta">
+                                {logo_html(institucion)}
+                                <div><p>{siglas} · {escape(noticia["lugar"])}</p><p>{modalidad}</p></div>
+                            </div>
                             <h3><a href="{ruta}">{titulo}</a></h3>
                             <p class="story-summary">{escape(noticia["resumen"])}</p>
                             <a class="story-link" href="{ruta}" aria-label="Leer noticia de {siglas}"><span>Leer noticia</span><span aria-hidden="true">→</span></a>
                         </div>
-                        <div class="story-visual">
-                            {logo_html(institucion)}
-                            <div class="story-date">
-                                <span>Fecha de examen</span>
-                                <time datetime="{examen.isoformat()}"><strong>{dias}</strong> <span>{mes} {examen.year}</span></time>
-                            </div>
-                        </div>
                     </article>""")
         indice.append(f"""                    <li>
                         <a class="edition-link" href="{ruta}" data-story-select="{identificador}">
-                            <span class="edition-date" aria-hidden="true"><b>{dias}</b><span>{mes[:3]}</span></span>
-                            <span><b>{siglas}</b> {escape(noticia["modalidad"])}</span>
+                            <img src="{miniatura}" alt="" width="640" height="427" loading="lazy" decoding="async">
+                            <span class="edition-label"><b>{siglas}</b><time datetime="{examen.isoformat()}">{dias} {mes[:3]}.</time></span>
                         </a>
                     </li>""")
     return "\n".join(paneles), "\n".join(indice)
@@ -232,6 +258,7 @@ def main():
         .replace("{{FECHA_REVISION}}", fecha_html(datos["revision"]))
         .replace("{{NOTICIAS}}", noticias)
         .replace("{{INDICE_NOTICIAS}}", indice_noticias)
+        .replace("{{ACTIVIDAD}}", actividad_html("contar"))
         .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones, historial) for evento in eventos))
         .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, historial, simulacros) for entrada in directorio))
         .replace("{{REGIONES}}", opciones)
