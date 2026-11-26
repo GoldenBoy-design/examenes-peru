@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronograma de exámenes de admisión en Perú | Exámenes Perú</title>
-    <meta name="description" content="Calendario de admisión de universidades nacionales y la PUCP. Busca por departamento y consulta el historial, temario y puntajes de San Marcos.">
+    <meta name="description" content="Noticias, exámenes próximos y fechas de inscripción de universidades nacionales y la PUCP. Consulta el calendario, los simulacros y el historial de San Marcos.">
     <link rel="canonical" href="https://examenesperu.netlify.app/">
     <link rel="icon" type="image/png" href="/logos/favicon.png">
     <meta property="og:type" content="website">
@@ -25,14 +25,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/inicio.css">
+    <link rel="stylesheet" href="/noticias.css">
     <script src="/calendario.js" defer></script>
+    <script src="/portada.js" defer></script>
 </head>
 <body>
-    <a class="skip" href="#calendario">Ir al calendario</a>
+    <a class="skip" href="#portada">Ir al contenido</a>
     <header class="site-header">
         <div class="shell masthead">
             <a class="brand" href="/" aria-current="page"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
             <nav class="site-nav" aria-label="Navegación principal">
+                <a href="/noticias/">Noticias</a>
                 <a href="#calendario">Calendario</a>
                 <a href="#directorio">Universidades</a>
                 <a href="/historial/">Historial</a>
@@ -41,22 +44,51 @@
             </nav>
         </div>
     </header>
-    <main>
-        <section class="hero" aria-labelledby="hero-heading">
-            <div class="shell hero-grid">
-                <div class="hero-content">
-                    <h1 id="hero-heading">Exámenes de admisión en Perú</h1>
-                    <p>Consulta fechas e inscripciones de universidades nacionales y la PUCP. Revisa procesos anteriores para preparar tu postulación.</p>
-                    <div class="hero-actions">
-                        <a class="button button-light" href="#calendario">Ver calendario</a>
-                        <a class="button button-outline" href="#directorio">Buscar universidad</a>
+    <main id="portada">
+        <div class="shell front-page">
+            <header class="front-masthead">
+                <div>
+                    <h1>Exámenes de admisión en Perú</h1>
+                    <p>Convocatorias, inscripciones y recursos para preparar tu postulación.</p>
+                </div>
+                <dl class="front-counter" id="front-counter" hidden>
+                    <dt>Actividad de portada hoy</dt>
+                    <dd><strong id="front-points"></strong> <span>puntos</span></dd>
+                    <dd class="counter-scale">124 puntos por visita</dd>
+                </dl>
+            </header>
+            <section class="front-news" aria-labelledby="front-news-title">
+                <header class="front-news-heading">
+                    <h2 id="front-news-title">Próximos exámenes</h2>
+                    <a href="/noticias/">Todas las noticias <span aria-hidden="true">↗</span></a>
+                </header>
+                <div class="front-news-grid" id="front-news-grid">
+                    <div class="front-feature">
+                        <div id="front-slides">
+{{NOTICIAS}}
+                        </div>
+                        <div class="front-controls" id="front-controls" aria-label="Controles de noticias destacadas" role="group" hidden>
+                            <button type="button" id="front-prev" aria-label="Noticia anterior"><span aria-hidden="true">←</span></button>
+                            <span id="front-position" class="front-position"></span>
+                            <button type="button" id="front-next" aria-label="Noticia siguiente"><span aria-hidden="true">→</span></button>
+                            <button type="button" id="front-toggle" class="front-toggle">Pausar rotación</button>
+                        </div>
+                        <p class="sr-only" id="front-announcement" role="status"></p>
                     </div>
+                    <aside class="front-sidebar" aria-labelledby="front-index-title">
+                        <h3 id="front-index-title">En esta edición</h3>
+                        <ul class="edition-list">
+{{INDICE_NOTICIAS}}
+                        </ul>
+                        <a class="edition-calendar" href="#calendario">Ver calendario completo <span aria-hidden="true">↓</span></a>
+                    </aside>
                 </div>
-                <div class="hero-media">
-                    <img src="/imagenes/preparacion-admision.webp" alt="" width="960" height="640" fetchpriority="high">
+                <div class="front-empty" id="front-empty" hidden>
+                    <p>Consulta las fechas más recientes en el calendario de convocatorias.</p>
+                    <a href="#calendario">Ver calendario <span aria-hidden="true">↓</span></a>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <div class="shell highlight-grid">
             <section class="highlight highlight-marcos" aria-labelledby="highlight-sm">
                 <span class="highlight-logo"><img src="/logos/unmsm.png" alt="" width="52" height="52"></span>

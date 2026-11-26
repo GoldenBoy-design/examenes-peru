@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "uni-ingreso-escolar-2027-1",
+    "institucion": "uni",
+    "lugar": "Lima y sedes regionales",
+    "publicado": "2026-11-26",
+    "fecha_examen": "2026-12-13",
+    "modalidad": "Ingreso Escolar Nacional 2027-1",
+    "titulo": "La UNI tomará su examen escolar en 18 sedes",
+    "resumen": "Los alumnos de quinto de secundaria pueden inscribirse hasta el 7 de diciembre. La evaluación presencial será el 13 en Lima y en otras 17 sedes.",
+    "fechas": [
+      ["Cierre de inscripciones", "2026-12-07"],
+      ["Examen presencial", "2026-12-13"]
+    ],
+    "secciones": [
+      ["Quiénes pueden postular", "El Ingreso Escolar Nacional está dirigido a estudiantes que cursan quinto de secundaria en 2026. La UNI también incluye Talento Beca 18 en el cronograma. Cada modalidad tiene requisitos propios, así que conviene revisar la guía antes de elegir una en el formulario."],
+      ["Cómo ubicar tu sede", "El examen se toma en simultáneo en el campus del Rímac y en sedes de otras regiones. El directorio de la UNI permite buscar por localidad y muestra la dirección y el contacto de cada sede."],
+      ["Qué revisar al inscribirte", "Consulta las vacantes de tu especialidad y los medios de pago autorizados. Luego completa el registro y verifica la validación de tus documentos y la sede que figura en la constancia."]
+    ],
+    "fuentes": [
+      ["Cronograma, modalidades y mapa de sedes de la UNI", "https://ien.admision.uni.edu.pe/"]
+    ]
+  },
+  {
+    "slug": "unac-examen-general-diciembre-2026",
+    "institucion": "unac",
+    "lugar": "Callao",
+    "publicado": "2026-11-26",
+    "fecha_examen": "2026-12-20",
+    "modalidad": "Admisión 2026-II",
+    "titulo": "La UNAC fija su examen general para el 20 de diciembre",
+    "resumen": "El pago vence el 16 y el registro cierra el 17 de diciembre. El calendario del Centro Pre tiene plazos distintos.",
+    "fechas": [
+      ["Último día de pago del examen general", "2026-12-16"],
+      ["Cierre de inscripciones del examen general", "2026-12-17"],
+      ["Examen general", "2026-12-20"]
+    ],
+    "secciones": [
+      ["Fechas para los tres bloques", "El cronograma de la Universidad Nacional del Callao aplica los mismos plazos de pago e inscripción a los bloques I, II y III del examen general. Identifica el bloque de tu carrera antes de pagar en Scotiabank y reserva tiempo para completar el registro."],
+      ["La jornada del Centro Pre", "El Centro Preuniversitario y otras modalidades rinden el 13 de diciembre. Para esa jornada, el pago vence el 7 y la inscripción cierra el 10 de diciembre."],
+      ["Qué sigue si ingresas", "El pago por la constancia de ingreso está previsto del 21 de diciembre al 15 de enero. La recepción de documentos va del 18 al 22 de enero de 2027. Consulta el prospecto para preparar los documentos de tu modalidad."]
+    ],
+    "fuentes": [
+      ["Cronograma 2026-II de la UNAC", "https://admision.unac.edu.pe/cronograma/"],
+      ["Portal de admisión de la UNAC", "https://admision.unac.edu.pe/"]
+    ]
+  },
+  {
+    "slug": "unsaac-primera-oportunidad-diciembre-2026",
+    "institucion": "unsaac",
+    "lugar": "Cusco",
+    "publicado": "2026-11-26",
+    "fecha_examen": "2026-12-12",
+    "modalidad": "Primera Oportunidad",
+    "titulo": "La UNSAAC cierra el registro escolar el 1 de diciembre",
+    "resumen": "El examen para estudiantes de quinto de secundaria será el 12 de diciembre. El pago y la validación tienen plazo hasta el día 2.",
+    "fechas": [
+      ["Cierre del registro virtual", "2026-12-01"],
+      ["Cierre de pago y validación", "2026-12-02"],
+      ["Examen de Primera Oportunidad", "2026-12-12"]
+    ],
+    "secciones": [
+      ["A quién va dirigido el examen", "Primera Oportunidad abre una convocatoria para quienes están terminando el colegio. La Universidad Nacional de San Antonio Abad del Cusco pide una constancia oficial de estudios de quinto, el DNI ampliado y una foto digital de 704 × 480 píxeles."],
+      ["El registro, el pago y la validación tienen plazos propios", "El registro virtual se completa hasta el 1 de diciembre. La dirección de Admisión publica un derecho de S/ 300 para estudiantes de colegios públicos y privados. El 2 de diciembre es el último día para pagar y para validar los datos."],
+      ["Qué hacer después del registro", "Guarda tu comprobante y confirma que la validación haya concluido. El portal de Admisión publica los canales de atención por localidad para resolver dudas sobre el trámite y la sede."]
+    ],
+    "fuentes": [
+      ["Requisitos y fechas de Primera Oportunidad de la UNSAAC", "https://admision.unsaac.edu.pe/modalidad-primera-opcion/"]
+    ]
+  },
+  {
+    "slug": "uncp-primera-seleccion-2027",
+    "institucion": "uncp",
+    "lugar": "Junín",
+    "publicado": "2026-11-26",
+    "primera_jornada": "2026-11-28",
+    "fecha_examen": "2026-11-29",
+    "modalidad": "Primera Selección 2027",
+    "titulo": "La UNCP tomará el examen de Primera Selección en dos jornadas",
+    "resumen": "El examen se realizará el 28 y 29 de noviembre. La convocatoria escolar reúne 378 vacantes entre sus modalidades.",
+    "fechas": [
+      ["Cierre de inscripciones", "2026-11-16"],
+      ["Primera jornada", "2026-11-28"],
+      ["Segunda jornada", "2026-11-29"]
+    ],
+    "secciones": [
+      ["Cómo se reparten las vacantes", "La Universidad Nacional del Centro del Perú anunció 222 plazas para el examen ordinario, 120 para su centro preuniversitario y 36 para la modalidad de personas con discapacidad. Agronomía e Ingeniería Agroindustrial figuran entre las carreras con mayor oferta."],
+      ["Cómo será la evaluación", "La convocatoria se dirige a estudiantes de quinto de secundaria. El examen dura tres horas y tiene 80 preguntas. La universidad asigna las plazas disponibles por orden de mérito."],
+      ["Qué revisar antes de ir", "La inscripción cerró el 16 de noviembre. Si completaste el registro, confirma en Admisión qué jornada y sede corresponden a tu carrera antes de salir."]
+    ],
+    "fuentes": [
+      ["Comunicado de la UNCP sobre Primera Selección 2027", "https://uncp.edu.pe/noticia_uncp/uncp-ofrece-378-vacantes-para-su-examen-de-admision-de-primera-seleccion-2027/"],
+      ["Portal de admisión de la UNCP", "https://uncp.edu.pe/admision/"]
+    ]
+  },
+  {
+    "slug": "unt-admision-ordinaria-2027-ii",
+    "institucion": "unitru",
+    "lugar": "La Libertad",
+    "publicado": "2026-11-26",
+    "primera_jornada": "2027-03-06",
+    "fecha_examen": "2027-03-07",
+    "modalidad": "Ordinario 2027-II",
+    "titulo": "La UNT abrirá el registro para su examen de marzo",
+    "resumen": "Las inscripciones comienzan el 14 de diciembre. El examen ordinario será presencial en Trujillo y se dividirá en dos días según el área.",
+    "fechas": [
+      ["Apertura de inscripciones", "2026-12-14"],
+      ["Cierre de inscripciones", "2027-02-20"],
+      ["Examen de las áreas A y C", "2027-03-06"],
+      ["Examen de las áreas B y D", "2027-03-07"]
+    ],
+    "secciones": [
+      ["Qué día toca por área", "La Universidad Nacional de Trujillo programó el 6 de marzo para las áreas A y C y el 7 para las áreas B y D. Consulta en Admisión a qué área pertenece la carrera que elegiste para confirmar tu jornada."],
+      ["Cuándo inscribirte y cuándo acreditar el ingreso", "El registro ordinario es virtual y está previsto del 14 de diciembre de 2026 al 20 de febrero de 2027. Si obtienes una vacante por esta vía, el cronograma reserva del 9 al 19 de marzo para acreditar tu ingreso."],
+      ["La convocatoria extraordinaria va por separado", "El proceso extraordinario también empieza su registro el 14 de diciembre, con cierre el 6 de febrero y examen el 14 de febrero. Incluye modalidades como premios de excelencia, deportistas, personas con discapacidad y víctimas de violencia."]
+    ],
+    "fuentes": [
+      ["Cronograma y enlaces de postulación de la UNT", "https://admisionunt.info/index.php/cronograma"]
+    ]
+  }
+]

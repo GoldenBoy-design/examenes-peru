@@ -1,11 +1,12 @@
-"""Genera las páginas de historial, los simulacros y el sitemap público."""
+"""Genera los historiales, simulacros, noticias y el sitemap público."""
 
 import json
 from html import escape
 from xml.etree import ElementTree as ET
 
 from generar_html import (
-    RAIZ, cargar_historial, cargar_padron, cargar_simulacros, enlace_oficial, fecha_html, logo_html,
+    RAIZ, cargar_historial, cargar_noticias, cargar_padron, cargar_simulacros,
+    enlace_oficial, fecha_html, logo_html, ruta_noticia,
 )
 
 DOMINIO = "https://examenesperu.netlify.app"
@@ -288,6 +289,86 @@ def generar_simulacros() -> tuple:
     return tuple(rutas)
 
 
+def generar_noticias() -> tuple:
+    ruta_indice = "/noticias/"
+    titulo_indice = "Noticias de admisión universitaria"
+    bajada_indice = "Fechas, modalidades y avisos de inscripción, con enlaces a las universidades que los publican."
+    noticias = cargar_noticias()
+    instituciones = {item["id"]: item for item in cargar_padron()["universidades"]}
+    rutas, tarjetas = [ruta_indice], []
+    for noticia in sorted(noticias, key=lambda item: item["publicado"], reverse=True):
+        institucion = instituciones[noticia["institucion"]]
+        siglas = escape(institucion["siglas"])
+        ruta = ruta_noticia(noticia)
+        rutas.append(ruta)
+        titulo, resumen = escape(noticia["titulo"]), escape(noticia["resumen"])
+        lugar = escape(noticia["lugar"])
+        fechas = "\n".join(
+            f"                        <dt>{escape(etiqueta)}</dt><dd>{fecha_html(dia)}</dd>"
+            for etiqueta, dia in noticia["fechas"]
+        )
+        secciones = "\n".join(
+            f'                    <section class="news-section"><h2>{escape(encabezado)}</h2><p>{escape(parrafo)}</p></section>'
+            for encabezado, parrafo in noticia["secciones"]
+        )
+        fuentes = "\n".join(
+            f"                            <li>{enlace_oficial(url, nombre, institucion['siglas'])}</li>"
+            for nombre, url in noticia["fuentes"]
+        )
+        publicado = fecha_html(noticia["publicado"])
+        contenido = f"""        <article class="news-article">
+            <header class="news-article-header">
+                <p class="story-kicker">{siglas} <span>{lugar}</span></p>
+                <h1>{titulo}</h1>
+                <p class="news-article-lead">{resumen}</p>
+                <p class="news-byline">Redacción de Exámenes Perú · {publicado}</p>
+            </header>
+            <div class="news-article-grid">
+                <aside class="news-keydates" aria-labelledby="news-dates-title">
+                    <h2 id="news-dates-title">Fechas clave</h2>
+                    <dl>
+{fechas}
+                    </dl>
+                </aside>
+                <div class="news-article-text">
+{secciones}
+                    <section class="news-section news-sources">
+                        <h2>Fuentes oficiales</h2>
+                        <ul>
+{fuentes}
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </article>"""
+        guardar_pagina(ruta, "noticias.template.html", {
+            "TITULO": titulo, "DESCRIPCION": resumen, "CANONICAL": f"{DOMINIO}{ruta}",
+            "TIPO": "article", "NAV_ACTIVA": "", "CONTENIDO": contenido,
+            "MIGAS": '<a href="/">Inicio</a> / <a href="/noticias/">Noticias</a>',
+        })
+        tarjetas.append(f"""            <article class="news-card">
+                <p class="story-kicker">{siglas} <span>{lugar}</span></p>
+                <h2><a href="{escape(ruta)}">{titulo}</a></h2>
+                <p class="news-card-date">Publicado el {publicado}</p>
+                <p class="story-summary">{resumen}</p>
+            </article>""")
+
+    lista = "\n".join(tarjetas)
+    contenido_indice = f"""        <header class="news-index-hero">
+            <h1>{titulo_indice}</h1>
+            <p>{bajada_indice}</p>
+        </header>
+        <div class="news-index">
+{lista}
+        </div>"""
+    guardar_pagina(ruta_indice, "noticias.template.html", {
+        "TITULO": titulo_indice, "DESCRIPCION": bajada_indice, "CANONICAL": f"{DOMINIO}{ruta_indice}",
+        "TIPO": "website", "NAV_ACTIVA": ' aria-current="page"', "CONTENIDO": contenido_indice,
+        "MIGAS": '<a href="/">Inicio</a> / <span aria-current="page">Noticias</span>',
+    })
+    return tuple(rutas)
+
+
 def generar_sitemap(rutas):
     mapa = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     for ruta in rutas:
@@ -305,4 +386,4 @@ def generar_sitemap(rutas):
 
 if __name__ == "__main__":
     generar_historiales()
-    generar_sitemap(RUTAS + generar_simulacros())
+    generar_sitemap(RUTAS + generar_simulacros() + generar_noticias())

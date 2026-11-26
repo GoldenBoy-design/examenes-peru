@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITULO}} | Exámenes Perú</title>
+    <meta name="description" content="{{DESCRIPCION}}">
+    <link rel="canonical" href="{{CANONICAL}}">
+    <link rel="icon" type="image/png" href="/logos/favicon.png">
+    <meta property="og:type" content="{{TIPO}}">
+    <meta property="og:url" content="{{CANONICAL}}">
+    <meta property="og:title" content="{{TITULO}}">
+    <meta property="og:description" content="{{DESCRIPCION}}">
+    <meta property="og:site_name" content="Exámenes Perú">
+    <meta property="og:locale" content="es_PE">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/inicio.css">
+    <link rel="stylesheet" href="/noticias.css">
+</head>
+<body>
+    <a class="skip" href="#contenido">Ir al contenido</a>
+    <header class="site-header">
+        <div class="shell masthead">
+            <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">EP</span> Exámenes Perú</a>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a href="/noticias/"{{NAV_ACTIVA}}>Noticias</a>
+                <a href="/#calendario">Calendario</a>
+                <a href="/#directorio">Universidades</a>
+                <a href="/historial/">Historial</a>
+                <a href="/simulacros/">Simulacros</a>
+            </nav>
+        </div>
+    </header>
+    <main class="shell news-content" id="contenido">
+        <nav class="news-breadcrumb" aria-label="Ruta de navegación">{{MIGAS}}</nav>
+{{CONTENIDO}}
+    </main>
+    <footer class="site-footer">
+        <div class="shell footer-inner">
+            <p>Exámenes Perú · PSY Team</p>
+            <nav class="footer-links" aria-label="Información del sitio">
+                <a href="/acerca-de/">Fuentes y metodología</a>
+                <a href="/privacidad/">Privacidad</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

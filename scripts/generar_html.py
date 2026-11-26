@@ -37,6 +37,14 @@ def cargar_simulacros() -> dict:
     return json.loads((RAIZ / "data/simulacros.json").read_text(encoding="utf-8"))
 
 
+def cargar_noticias() -> list:
+    return json.loads((RAIZ / "data/noticias-admision.json").read_text(encoding="utf-8"))
+
+
+def ruta_noticia(noticia: dict) -> str:
+    return f'/noticias/{noticia["slug"]}/'
+
+
 def ruta_historial(institucion_id: str, historial: dict) -> str:
     return HISTORIALES_PROPIOS.get(institucion_id, f"/historial/#{institucion_id}" if institucion_id in historial else "")
 
@@ -158,6 +166,46 @@ def ficha_directorio(institucion: dict, historial: dict, simulacros: set) -> str
             </li>"""
 
 
+def portada_noticias(noticias: list, instituciones: dict) -> tuple[str, str]:
+    paneles, indice = [], []
+    for posicion, noticia in enumerate(noticias):
+        codigo = noticia["institucion"]
+        institucion = instituciones[codigo]
+        siglas = escape(institucion["siglas"])
+        titulo = escape(noticia["titulo"])
+        ruta = escape(ruta_noticia(noticia))
+        examen = date.fromisoformat(noticia["fecha_examen"])
+        mes = MESES[examen.month - 1]
+        dias = str(examen.day)
+        if "primera_jornada" in noticia:
+            inicio = date.fromisoformat(noticia["primera_jornada"])
+            dias = f"{inicio.day}–{examen.day}"
+        identificador = f'noticia-{noticia["slug"]}'
+        oculto = " hidden" if posicion else ""
+        paneles.append(f"""                    <article class="front-slide" id="{identificador}" data-exam="{examen.isoformat()}" data-institucion="{codigo}"{oculto}>
+                        <div class="front-story">
+                            <p class="story-kicker">{siglas} <span>{escape(noticia["lugar"])}</span></p>
+                            <h3><a href="{ruta}">{titulo}</a></h3>
+                            <p class="story-summary">{escape(noticia["resumen"])}</p>
+                            <a class="story-link" href="{ruta}" aria-label="Leer noticia de {siglas}"><span>Leer noticia</span><span aria-hidden="true">→</span></a>
+                        </div>
+                        <div class="story-visual">
+                            {logo_html(institucion)}
+                            <div class="story-date">
+                                <span>Fecha de examen</span>
+                                <time datetime="{examen.isoformat()}"><strong>{dias}</strong> <span>{mes} {examen.year}</span></time>
+                            </div>
+                        </div>
+                    </article>""")
+        indice.append(f"""                    <li>
+                        <a class="edition-link" href="{ruta}" data-story-select="{identificador}">
+                            <span class="edition-date" aria-hidden="true"><b>{dias}</b><span>{mes[:3]}</span></span>
+                            <span><b>{siglas}</b> {escape(noticia["modalidad"])}</span>
+                        </a>
+                    </li>""")
+    return "\n".join(paneles), "\n".join(indice)
+
+
 def main():
     datos = json.loads((RAIZ / "data/cronogramas-verificados.json").read_text(encoding="utf-8"))
     registro = cargar_padron()
@@ -177,10 +225,13 @@ def main():
     )
     opciones = "\n".join(f'                            <option value="{escape(region)}">{escape(region)}</option>' for region in regiones)
     nacionales = sum(u["tipo"] == "publica" for u in directorio)
+    noticias, indice_noticias = portada_noticias(cargar_noticias(), instituciones)
     html = (
         plantilla
         .replace("{{ADSENSE}}", ADSENSE)
         .replace("{{FECHA_REVISION}}", fecha_html(datos["revision"]))
+        .replace("{{NOTICIAS}}", noticias)
+        .replace("{{INDICE_NOTICIAS}}", indice_noticias)
         .replace("{{EVENTOS}}", "\n".join(ficha_evento(evento, instituciones, historial) for evento in eventos))
         .replace("{{DIRECTORIO}}", "\n".join(ficha_directorio(entrada, historial, simulacros) for entrada in directorio))
         .replace("{{REGIONES}}", opciones)
